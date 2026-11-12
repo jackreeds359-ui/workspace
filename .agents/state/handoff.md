@@ -26,7 +26,7 @@ Run `python3 .agents/scripts/autoupdate.py "short summary"`. The summary is opti
 6. Verifies the zip with `ZipFile.testzip()`.
 7. Stages `.agents/state`, the updater, `handoff.zip`, `AGENTS.md` and every path in `.agents/state/changedfiles.txt`. Nothing else is staged.
 8. If anything is staged: checks the Git identity, appends a line to `autoupdate.log`, commits.
-9. Pushes when the branch has an upstream and is ahead of it, with the explicit refspec `HEAD:<upstream ref>`. Never forces.
+9. Reads the remote refs with `git ls-remote`. If the upstream ref already equals `HEAD` it reports `current`. Otherwise it pushes with the explicit refspec `HEAD:<upstream ref>`. Never forces.
 10. Prints a JSON report: `commit`, `push`, `stale`, `remaining`.
 
 Report fields to act on:
@@ -34,6 +34,7 @@ Report fields to act on:
 - `commit: unchanged` means nothing differed from the last checkpoint.
 - `stale` lists briefings older than five minutes or missing. Update them with real content and rerun.
 - `remaining` lists paths still dirty after the commit. Add agent-owned ones to `changedfiles.txt`. Leave unrelated user edits alone.
+- `push: current` means the remote branch already equals `HEAD`. `push: pushed ...` means a push ran and succeeded.
 - `push: skipped: no upstream` means the branch was never published. Publish once with `git push -u origin HEAD:refs/heads/<branch>`.
 - `push: skipped: upstream is the remote default branch` means the branch is the remote default while other branches exist. The workspace policy keeps agents off the default branch.
 

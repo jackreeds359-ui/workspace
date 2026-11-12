@@ -16,4 +16,7 @@ Times are UTC. Checkpoint times come from the updater log. The other times are e
 - 23:53 Checkpoint 1. Commit `497363a`, 176 files, `handoff.zip` with 174 entries verified. The updater reported no stale briefings and no remaining changes.
 - 23:53 First push with `git push -u origin HEAD:refs/heads/hoplite/kyrene-3f44dbf5`. Remote ref matched `497363a`. GitHub set the thread branch as the default branch.
 - 23:54 Ran `shadcn search` and `shadcn view` against the React Bits registry from a scratch folder. Both exited 0.
-- 23:57 Switched off the agent co-author trailer for later commits and recorded the default branch decision for the owner.
+- 23:54 Switched off the agent co-author trailer for later commits and recorded the default branch decision for the owner.
+- 23:54 Checkpoint 2. Commit `61234b3`, no co-author trailer, pushed by the updater itself. `git ls-remote` showed the remote branch at `61234b3`.
+- 23:54 Checkpoint 3, an idle rerun. It reported `commit: unchanged` and wrote nothing, as designed. It also reported `pushed` for a push that had nothing to send: this clone keeps no remote-tracking ref, so the ahead check could not resolve the upstream.
+- 23:57 Fixed the push check. The updater now compares `HEAD` with the remote ref from `git ls-remote` and reports `current` when they match.

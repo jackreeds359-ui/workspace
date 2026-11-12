@@ -24,6 +24,8 @@ Bootstrap is complete and published. No product code exists yet. The repository 
 - `npx shadcn@latest search @react-bits -q blur` and `npx shadcn@latest view @react-bits/BlurText-TS-TW` both ran successfully against the live registry from a scratch folder outside the repository.
 - First checkpoint: commit `497363a`, `handoff.zip` with 174 entries, verified by `ZipFile.testzip()` and by `unzip -tq`.
 - First push: `git push -u origin HEAD:refs/heads/hoplite/kyrene-3f44dbf5` succeeded. The remote ref matched `497363a` and the upstream is configured, so later checkpoints push on their own.
+- Second checkpoint: commit `61234b3` was pushed by the updater itself and carries no co-author trailer. An idle rerun reported `commit: unchanged` and rewrote nothing.
+- Push reporting corrected after that rerun: the updater compares `HEAD` with the remote ref and reports `current` when nothing needs pushing.
 
 ## Needs an owner decision
 

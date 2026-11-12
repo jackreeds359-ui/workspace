@@ -96,17 +96,16 @@ def sync(root, branch):
     target = run(root, ["config", "--get", "branch." + branch + ".merge"], check=False).stdout.strip()
     if not remote or not target:
         return "skipped: no upstream"
-    ahead = run(root, ["rev-list", "--count", "@{u}..HEAD"], check=False)
-    if ahead.returncode == 0 and ahead.stdout.strip() == "0":
-        return "current"
     try:
         probe = run(root, ["ls-remote", "--symref", remote], 60, False)
         if probe.returncode:
             return "failed: " + (probe.stderr.strip() or "ls-remote failed")
         lines = probe.stdout.splitlines()
         default = [line[5:].split("\t")[0] for line in lines if line.startswith("ref: ") and line.endswith("\tHEAD")]
-        heads = {line.split("\t")[1] for line in lines if "\trefs/heads/" in line}
-        if target in default and heads - {target}:
+        heads = {line.split("\t")[1]: line.split("\t")[0] for line in lines if "\trefs/heads/" in line}
+        if heads.get(target) == out(root, ["rev-parse", "HEAD"]):
+            return "current"
+        if target in default and set(heads) - {target}:
             return "skipped: upstream is the remote default branch"
         result = run(root, ["push", remote, "HEAD:" + target], 120, False)
     except subprocess.TimeoutExpired:
