@@ -143,7 +143,7 @@ def checkpoint(root, state, log, now, message):
         with log.open("a") as handle:
             handle.write(" | ".join([now.isoformat(), "verified handoff.zip", branch, "parent=" + parent[:7], "files=" + str(count), "stale=" + ",".join(stale)]) + "\n")
         run(root, ["add", "--", ".agents/state/autoupdate.log"])
-        run(root, ["commit", "-m", "checkpoint: " + (message or now.strftime("%Y%m%d-%H%M%S"))], 120)
+        run(root, ["-c", "hoplite.commitCoAuthor=false", "commit", "-m", "checkpoint: " + (message or now.strftime("%Y%m%d-%H%M%S"))], 120)
         commit = out(root, ["rev-parse", "--short", "HEAD"])
     elif staged != 0:
         raise RuntimeError("git diff failed")

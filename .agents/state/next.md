@@ -6,6 +6,7 @@
 2. Owner action: connect Unicorn Studio MCP in Hoplite Settings, Project, MCP. Add `https://agentmcp-qbght5huyq-uc.a.run.app/mcp`, run Analyze connection, save OAuth, Connect, approve in the browser, keep Allow agents enabled. Afterwards an agent verifies that the tools are discovered.
 3. When a shadcn-compatible React project is created here, merge the `@react-bits` registry key into its `components.json` as described in `.agents/skills/reactbits/SKILL.md`.
 4. Re-arm the recurring five-minute wake when it expires on 2026-11-13 12:00 UTC, if work is still active.
+5. Owner decision on the default branch. GitHub made `hoplite/kyrene-3f44dbf5` the default because it was the first branch pushed to the empty repository. For a conventional layout, create `main` from commit `497363a` and make it the default in GitHub Settings, Branches. Do both steps together: if `main` exists while the thread branch is still the default, the updater skips its push and reports `skipped: upstream is the remote default branch`. Without a `main` there is no base branch for pull requests.
 
 ## Do not redo
 

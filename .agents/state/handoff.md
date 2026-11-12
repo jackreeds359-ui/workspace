@@ -46,6 +46,7 @@ Failures are appended to `autoupdate.log` as `error` lines and the script exits 
 - Default branch guard. The push is skipped when the upstream is the remote default and another branch exists. A repository whose only branch is the thread branch has no separate mainline, so the push is allowed there.
 - Paths are filtered on repo-relative directory names, so a parent folder named `build` cannot hide the whole repository.
 - Skills are copies, not symlinks, so the repository and the zip are self-contained.
+- Commit attribution. The Hoplite `prepare-commit-msg` hook appends `Co-authored-by: Hoplite` by default. The owner's rule is never to use an agent identity, so the updater commits with `-c hoplite.commitCoAuthor=false` and the workspace has `git config hoplite.commitCoAuthor false`. The workspace setting is lost when the sandbox resets. Reapply it before any manual commit. Commit `497363a` was made before this and keeps its trailer.
 
 ## Dependencies
 

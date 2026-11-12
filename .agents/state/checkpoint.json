@@ -1,7 +1,7 @@
 {
-  "time": "2026-11-12T23:53:24.565021+00:00",
+  "time": "2026-11-12T23:54:53.272773+00:00",
   "branch": "hoplite/kyrene-3f44dbf5",
-  "parent": "none",
-  "digest": "765115dc9e891d8468824264e087db29958d626513bb9a12ee3f799ffa902041",
+  "parent": "497363a057522b9fc51c0119e73df2952a08de71",
+  "digest": "256816062cdcc4de817afca231f91b56e0fda45919499ebafd9f86cc58a45ea2",
   "stale": []
 }

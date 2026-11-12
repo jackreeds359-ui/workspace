@@ -1,10 +1,10 @@
 # Status
 
-Briefing written 2026-11-12 around 23:56 UTC, during the bootstrap session, before the first checkpoint ran.
+Briefing updated 2026-11-12 shortly before midnight UTC, after the first checkpoint was committed and pushed.
 
 ## Stage
 
-Bootstrap files are in place locally. No product code exists yet. The repository is waiting for its first project task.
+Bootstrap is complete and published. No product code exists yet. The repository is waiting for its first project task.
 
 ## Repository
 
@@ -21,13 +21,17 @@ Bootstrap files are in place locally. No product code exists yet. The repository
 - React Bits registry reachable: `registry.json` and `BlurText-TS-TW.json` returned HTTP 200.
 - Recurring wake set: every five minutes, reminder `rem_2da06cc68afc41898f8779de4ad29e20`, expires 2026-11-13 12:00 UTC.
 - `.gitignore` and `AGENTS.md` created.
+- `npx shadcn@latest search @react-bits -q blur` and `npx shadcn@latest view @react-bits/BlurText-TS-TW` both ran successfully against the live registry from a scratch folder outside the repository.
+- First checkpoint: commit `497363a`, `handoff.zip` with 174 entries, verified by `ZipFile.testzip()` and by `unzip -tq`.
+- First push: `git push -u origin HEAD:refs/heads/hoplite/kyrene-3f44dbf5` succeeded. The remote ref matched `497363a` and the upstream is configured, so later checkpoints push on their own.
 
-## Pending when this briefing was written
+## Needs an owner decision
 
-- First checkpoint commit.
-- First push of the thread branch.
+GitHub made `hoplite/kyrene-3f44dbf5` the default branch, because it was the first branch pushed to an empty repository. There is no `main`. See `next.md`.
 
-`progress.md` records the result of both once they have run.
+## Commit attribution
+
+The Hoplite commit hook appended `Co-authored-by: Hoplite` to commit `497363a`. Author and committer are `jackreeds359-ui`. The owner's rule is never to use an agent identity, so the trailer is switched off for later commits. Commit `497363a` keeps its trailer because history is never rewritten.
 
 ## Blocked
 
