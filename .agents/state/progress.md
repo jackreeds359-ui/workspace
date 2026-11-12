@@ -24,3 +24,7 @@ Times are UTC. Checkpoint times come from the updater log. The other times are e
 - 23:55 Checkpoint 5, an idle rerun. It reported `commit: unchanged` and `push: current`.
 - 23:55 Restore test. Unzipped `handoff.zip` into an empty folder and compared it with the working tree using `diff -rq`. Only `autoupdate.log` differed, by the one line the updater appends after packaging. The zip held 175 entries, 22 `SKILL.md` files, and did not contain itself.
 - 23:57 Bootstrap finished. Waiting for the first project task.
+
+## Checkpoint inspection 2026-11-12T23:57:06.761807+00:00
+
+Scheduled checkpoint: inspected the clean working tree, current branch, briefings, updater and log. No new implementation work. Running the existing updater to save this inspection and verify the archive and remote.

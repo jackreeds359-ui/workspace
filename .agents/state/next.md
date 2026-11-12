@@ -20,3 +20,7 @@
 - Never read or print the credential files under `.git/`.
 - Upstream `designloop` files are unmodified third-party content. Change only `.agents/skills/designloop/SKILL.md`.
 - A run that changes nothing reports `commit: unchanged` and writes no log line. That is expected.
+
+## Checkpoint inspection 2026-11-12T23:57:06.761807+00:00
+
+Scheduled continuation check: no new project task was supplied. Preserve the bootstrap and wait for the owner; do not begin unrelated implementation.

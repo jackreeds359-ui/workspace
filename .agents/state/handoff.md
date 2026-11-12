@@ -89,3 +89,7 @@ git -C /tmp/designloop archive HEAD | tar -x -C .agents/skills/designloop
 2. Read `status.md`, `next.md` and `progress.md` in `.agents/state/`.
 3. Run `python3 .agents/scripts/autoupdate.py` and read the report.
 4. Re-arm the recurring wake if it has expired.
+
+## Checkpoint inspection 2026-11-12T23:57:06.761807+00:00
+
+Scheduled continuation check: the existing updater, staging list and checkpoint log were inspected in place. No architecture, dependency or recovery changes are needed. Continue using the existing one-shot updater.

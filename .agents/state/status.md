@@ -44,3 +44,7 @@ The Hoplite commit hook appended `Co-authored-by: Hoplite` to commit `497363a`. 
 ## Deliverables
 
 None yet.
+
+## Checkpoint inspection 2026-11-12T23:57:06.761807+00:00
+
+Scheduled checkpoint inspection: working tree was clean at 14685f0. Bootstrap remains complete; no product task or new deliverable has arrived. Existing MCP and branch decisions remain unchanged.
