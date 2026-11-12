@@ -1,0 +1,56 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "doop",
+  "metadata": {
+    "description": "Visual intelligence pyramid for frontend UI/UX — gives Claude eyes",
+    "version": "5.0.0"
+  },
+  "owner": {
+    "name": "tonymfer",
+    "email": "tony.base.eth@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "doop",
+      "description": "Visual intelligence pyramid for frontend UI/UX. 4 tiers: /doop:lint (instant CSS analysis), /doop:score (5s visual score card), /doop:fix (30s quick fix), /doop (full iteration loop). AI can code your UI, but it can't see it — doop gives Claude eyes. Scores against 5 anti-slop criteria. 2 loop modes: Polish and Redesign. Auto-discovers companion design skills. Platform-agnostic.",
+      "version": "5.0.0",
+      "author": {
+        "name": "tonymfer",
+        "email": "tony.base.eth@gmail.com"
+      },
+      "source": "./",
+      "strict": true,
+      "category": "development",
+      "homepage": "https://design-loop.vercel.app",
+      "repository": "https://github.com/tonymfer/design-loop",
+      "license": "MIT",
+      "keywords": [
+        "design",
+        "ui",
+        "ux",
+        "visual-polish",
+        "screenshots",
+        "autonomous",
+        "claude-code",
+        "claude-desktop",
+        "playwright",
+        "agent-browser",
+        "css",
+        "tailwind",
+        "react",
+        "next.js",
+        "companion-skills",
+        "doop"
+      ],
+      "tags": [
+        "frontend",
+        "visual-iteration",
+        "design-polish",
+        "screenshot-driven",
+        "anti-slop",
+        "doop",
+        "visual-intelligence"
+      ]
+    }
+  ]
+}

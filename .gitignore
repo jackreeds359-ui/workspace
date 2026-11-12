@@ -1,0 +1,9 @@
+handoff.zip.tmp
+node_modules/
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
