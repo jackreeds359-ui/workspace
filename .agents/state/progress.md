@@ -19,4 +19,8 @@ Times are UTC. Checkpoint times come from the updater log. The other times are e
 - 23:54 Switched off the agent co-author trailer for later commits and recorded the default branch decision for the owner.
 - 23:54 Checkpoint 2. Commit `61234b3`, no co-author trailer, pushed by the updater itself. `git ls-remote` showed the remote branch at `61234b3`.
 - 23:54 Checkpoint 3, an idle rerun. It reported `commit: unchanged` and wrote nothing, as designed. It also reported `pushed` for a push that had nothing to send: this clone keeps no remote-tracking ref, so the ahead check could not resolve the upstream.
-- 23:57 Fixed the push check. The updater now compares `HEAD` with the remote ref from `git ls-remote` and reports `current` when they match.
+- 23:55 Fixed the push check. The updater now compares `HEAD` with the remote ref from `git ls-remote` and reports `current` when they match.
+- 23:55 Checkpoint 4. Commit `647d4b1`, pushed by the updater. `git ls-remote` showed the remote branch at `647d4b1`.
+- 23:55 Checkpoint 5, an idle rerun. It reported `commit: unchanged` and `push: current`.
+- 23:55 Restore test. Unzipped `handoff.zip` into an empty folder and compared it with the working tree using `diff -rq`. Only `autoupdate.log` differed, by the one line the updater appends after packaging. The zip held 175 entries, 22 `SKILL.md` files, and did not contain itself.
+- 23:57 Bootstrap finished. Waiting for the first project task.
