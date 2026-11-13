@@ -28,3 +28,7 @@ Scheduled continuation check: no new project task was supplied. Preserve the boo
 ## Checkpoint inspection 2026-11-12T23:57:34.306389+00:00
 
 Wait for the first project task. Existing owner actions remain pending; do not begin unrelated implementation.
+
+## Checkpoint inspection 2026-11-13T00:00:45.611057+00:00
+
+Await the first project task. Do not restart setup or invent implementation work; existing integration and default-branch decisions remain pending.
