@@ -122,3 +122,7 @@ Finish pass 3 remaining assets. Merge newly discovered production roots from obs
 ## Read-only delivery 2026-11-13T19:25:02.279397+00:00
 
 Final checks passed: SHA-256 for all 324 objects, JSON validity, no supplied-credential/private-key/token-pattern matches, Python compilation and git diff --check. Restore wrote 611 files; repeating restore to a nonempty destination returned exit 2 as intended. Final package includes only target snapshots and their helper scripts; server source, account records, licensed API media and auth/session state are excluded. Requested broad all-pages/all-server-code coverage is not asserted.
+
+## Client coverage extension 2026-11-13T19:49:29.191235+00:00
+
+Finish browser audit of entry routes, derive additional actual navigation/features from normal DOM and offline route evidence, visit safe UI states to trigger lazy code without writes, collect missing static/dynamic imports and worker/runtime URLs, and generate page->entry/shared/lazy graph plus readable originals mapping. Original TS/TSX names and all roles/deployments cannot be assumed. No CT expansion or backend probing needed. Reconcile runtime route limitations honestly rather than claiming universal all-pages coverage.
