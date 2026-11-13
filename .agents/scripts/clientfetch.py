@@ -13,6 +13,10 @@ inventory = json.loads((root / 'inventory.json').read_text())
 priorfile = root / 'client/fetches.json'
 prior = json.loads(priorfile.read_text()) if priorfile.exists() else []
 attempted = {row['url'] for row in prior}
+for row in inventory:
+    if row.get('sha256') and row.get('status') == 200 and any(kind in row.get('type', '') for kind in ['javascript', 'ecmascript', 'css', 'wasm']):
+        attempted.add(row['url'])
+        attempted.add(row.get('final', row['url']))
 allowed = {'cdn.jsdelivr.net', 'cdnjs.cloudflare.com'}
 
 
@@ -30,7 +34,7 @@ for target in index['targets']:
     url = target['url']
     parsed = urllib.parse.urlsplit(url)
     host = parsed.hostname or ''
-    if target['captured'] or url in attempted or target.get('targetkind') != 'code':
+    if target['captured'] or url in attempted or not (target.get('targetkind') == 'code' or parsed.path.endswith(('.wasm', '.css'))):
         continue
     if parsed.scheme != 'https' or parsed.query or parsed.username or parsed.password or parsed.port not in [None, 443]:
         continue

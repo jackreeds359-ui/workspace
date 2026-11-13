@@ -55,3 +55,18 @@ Temporary fixtures and Ghidra projects are removed after checks. No game, game b
 ## Recovery
 
 After restoring a checkout or `handoff.zip`, read the state briefings, run setup and verification, and resume the actual task. Re-arm five-minute checkpoints only during active work. Never infer target compatibility from a successful toolkit check.
+
+## Web client-code extraction tools
+
+Prettier 3.10.1 was additionally approved on 2026-11-13 and is pinned to its official npm tarball and SHA-512 integrity value in `.agents/scripts/clientsetup.py`. Root `setup.sh` now restores it too. For web-only work, with existing Node and Python:
+
+```bash
+python3 .agents/scripts/clientsetup.py
+node .agents/scripts/jsindex.mjs --selftest
+node .agents/scripts/jsindex.mjs
+python3 .agents/scripts/pagecoverage.py
+```
+
+The formatter runs locally on copies of downloaded code, never executes those bundles, and preserves original response hashes. The dependency parser identifies imports, lazy imports, Vite preloads and worker references. Readable files are marked passed only after a structural AST comparison; locations, comments, equivalent noncomputed property-key spellings and regexp-flag ordering are normalized. Other operators, values and actual flags remain checked. This does not recover original source names or TypeScript files.
+
+Browser collection uses the sandbox's existing `agent-browser` and Chrome, not an installed Playwright package. It blocks non-read request methods except explicitly requested login and records affected states. Never store credentials, authentication state, API data or private project text in the archive. Read `web/comp.school/client/README.md` for the current evidence and limits.

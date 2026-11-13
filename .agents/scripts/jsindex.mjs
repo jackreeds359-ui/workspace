@@ -219,13 +219,13 @@ function fingerprint(node) {
   return hash.digest('hex');
 }
 
-function normalizedurl(value, base) {
+function normalizedurl(value, base, allowfile = false) {
   if (typeof value !== 'string' || !value.trim() || value.includes('*')) return null;
   const specifier = value.trim();
   const protocol = /^[a-z][a-z\d+.-]*:/i.test(specifier);
   const absolute = protocol || specifier.startsWith('//');
   const relative = /^(?:\/|\.\/|\.\.\/|\?|#)/.test(specifier);
-  if (!absolute && !relative) return null;
+  if (!absolute && !relative && !(allowfile && assetsuffix.test(specifier.split(/[?#]/, 1)[0]))) return null;
   try {
     const target = absolute ? new URL(specifier, base ?? undefined) : base ? new URL(specifier, base) : null;
     if (!target) return null;
@@ -307,6 +307,8 @@ const properties = { "0": 'zero', "named-key": 'named' };`;
   if (fingerprint(parse('const r=/x/ig;')) !== fingerprint(parse('const r=/x/gi;'))) throw new Error('regex flag order normalization failed');
   if (fingerprint(parse('const r=/x/i;')) === fingerprint(parse('const r=/x/g;'))) throw new Error('semantic guard missed changed regex flags');
   if (fingerprint(parse('const x=3+7;')) === fingerprint(parse('const x=3-7;'))) throw new Error('semantic guard missed changed arithmetic');
+  if (normalizedurl('assets/chunk.js', 'https://comp.school/exams/', true)?.href !== 'https://comp.school/exams/assets/chunk.js') throw new Error('Vite preload base resolution failed');
+  if (normalizedurl('react', 'https://comp.school/assets/main.js', false) !== null) throw new Error('bare module must remain unresolved');
   const original = parse(fixture);
   const formatted = await prettier.format(fixture, { parser: 'babel', plugins: [babel] });
   const rewritten = parse(formatted);
@@ -350,6 +352,10 @@ async function main() {
   }
 
   for (const record of inventory) {
+    if (record.sha256 && record.status === 200 && !/html/i.test(record.type || '') && /javascript|ecmascript|css|wasm/.test(record.type || '')) {
+      knownurls.add(record.url);
+      if (record.final) knownurls.add(record.final);
+    }
     if (!assetlike(record) || !record.sha256 || (record.status !== undefined && record.status !== 200)) continue;
     addasset(record.sha256, record.url, record.final, null, 'inventory', record.bytes, record.type);
     if (record.url) knownurls.add(record.url);
@@ -373,6 +379,17 @@ async function main() {
     }
   }
 
+  const preloadbases = new Map();
+  for (const asset of assets.values()) {
+    const source = await readFile(join(objectroot, asset.sha256), 'utf8');
+    const match = source.match(/["']modulepreload["'],[\w$]+=function\([\w$]+\)\{return["']([^"']*)["']\+[\w$]+\}/);
+    if (!match) continue;
+    for (const origin of asset.origins.values()) {
+      const url = new URL(origin.final || origin.url);
+      const prefix = url.pathname.slice(0, url.pathname.lastIndexOf('/assets/') + 1);
+      preloadbases.set(url.origin + prefix, new URL(match[1], url.origin).href);
+    }
+  }
   const previous = new Map();
   if (existsSync(bundlePath)) {
     try {
@@ -433,7 +450,15 @@ async function main() {
               const base = JSON.parse(selected);
               const relative = typeof event.specifier === 'string' && /^(?:\/|\.\/|\.\.\/|\?|#)/.test(event.specifier);
               const baseurl = event.basekind === 'page' ? base.kind === 'page' ? base.url : relative && event.specifier.startsWith('/') ? origin.final || origin.url : null : origin.final || origin.url;
-              const target = normalizedurl(event.specifier, baseurl);
+              let dependencybase = baseurl;
+              let resolutionbasis = 'URL resolution from source or observed page';
+              if (event.kind === 'preload' && event.specifier && !/^(?:[a-z]+:|\/|\.)/i.test(event.specifier)) {
+                const sourceurl = new URL(origin.final || origin.url);
+                const prefix = sourceurl.pathname.slice(0, sourceurl.pathname.lastIndexOf('/assets/') + 1);
+                dependencybase = preloadbases.get(sourceurl.origin + prefix) || null;
+                resolutionbasis = dependencybase ? 'Vite modulepreload URL helper captured in app entry' : 'Missing Vite preload base evidence';
+              }
+              const target = normalizedurl(event.specifier, dependencybase, !['static', 'dynamic'].includes(event.kind));
               const mapped = classify({ ...event, baseurl }, target);
               const dependency = {
                 sourceurl: origin.url,
@@ -450,7 +475,8 @@ async function main() {
                 end: event.end,
                 line: event.line,
                 column: event.column,
-                reason: mapped.reason
+                reason: mapped.reason,
+                resolutionbasis
               };
               dependencyRecords.push(dependency);
               if (mapped.resolution === 'unresolved') counters.unresolved += 1;

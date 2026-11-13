@@ -164,3 +164,7 @@ Active extension: 65 browser page/state records captured so far, including produ
 ## Dependency closure checkpoint 2026-11-13T19:59:49.056655+00:00
 
 Expanded runtime coverage currently contains 101 page/state records across normal app/navigation/feature states and14 known preview roots, including a final entry-script/worker diagnostic pass. All app writes were intercepted except requested login. Additional directly referenced PDF worker modules and external Python/SQL runtime scripts have been fetched without credentials. AST graph and formatting semantic guards are being finalized; no all-pages/all-logic completion claim yet.
+
+## Client graph verification 2026-11-13T20:04:01.174709+00:00
+
+Browser capture completed 101 observations; AST dependency resolution is now being tightened to use captured Vite modulepreload helper bases instead of leaving bare assets/... unresolved. Selected vendor scripts and directly referenced workers/runtime assets have been archived without credentials. Formatting pass is running with zero parse failures in the latest graph pass. Embedded blob-worker bootstrap logic is being inspected for safe literal extraction; no target program execution or server writes.

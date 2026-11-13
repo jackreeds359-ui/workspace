@@ -13,4 +13,5 @@ for tool in python3 curl uv; do
     fi
 done
 python3 .agents/scripts/toolsetup.py
+python3 .agents/scripts/clientsetup.py
 printf '%s\n' 'Run bash tools.sh verify to exercise PE parsing, disassembly and Ghidra decompilation.'

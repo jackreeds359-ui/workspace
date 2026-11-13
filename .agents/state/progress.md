@@ -144,3 +144,7 @@ Checkpoint: 65 page/state records saved. Verified real coding menu, six basic co
 ## Dependency closure checkpoint 2026-11-13T19:59:49.056655+00:00
 
 Current runtime capture has 101 observations. Visited coding, Python/SQL playgrounds, code editor, six exercise intros, term revision styles, paper/year/styles, question styles, selected game views and all14 previously live previews. Added explicit entry script/worker/JavaScript-exception diagnostics. Captured additional named PDF worker modules from public asset URLs; bare library-default worker paths returned HTML and are not saved as code. All writes remained blocked. Parent took over AST index semantic normalization; selftests passed for equivalent regex ordering and rejection of changed operations.
+
+## Client graph verification 2026-11-13T20:04:01.174709+00:00
+
+Captured101 page/state observations and28 explicit entry-script snapshots with read-only guard. Latest index parsed120 code objects with0 parse failures. Fixed Vite preload bases from actual helper source, reducing unresolved references from4208 to124 (computed/bare imports/workers only at that point). Fetched preview-only lazy modules and named PDF workers; bare default worker names returned HTML. Added per-page graph generator and durable approved formatter setup. Full format/equivalence pass and final code-only dependency checks remain in progress.

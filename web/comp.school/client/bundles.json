@@ -50,6 +50,48 @@
       ]
     },
     {
+      "sha256": "07bf11ee2d6fcfd9f1291fc72633ab9179ad15556f5b80ce9af55ff6b5600c1c",
+      "bytes": 54337,
+      "object": "../objects/07bf11ee2d6fcfd9f1291fc72633ab9179ad15556f5b80ce9af55ff6b5600c1c",
+      "originalurls": [
+        "https://preview-1373.exams.comp.school/assets/ui-components-BsJ0LOaj.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.exams.comp.school/assets/ui-components-BsJ0LOaj.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.exams.comp.school/assets/ui-components-BsJ0LOaj.js",
+          "final": "https://preview-1373.exams.comp.school/assets/ui-components-BsJ0LOaj.js",
+          "pageurls": [
+            "https://preview-1373.exams.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/07bf11ee2d6fcfd9f1291fc72633ab9179ad15556f5b80ce9af55ff6b5600c1c.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "07bf11ee2d6fcfd9f1291fc72633ab9179ad15556f5b80ce9af55ff6b5600c1c"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
       "sha256": "0cd36e31b13551c06e770e9caba105e117f3ea32d9422fdc1d1e3aaa73f8b076",
       "bytes": 438,
       "object": "../objects/0cd36e31b13551c06e770e9caba105e117f3ea32d9422fdc1d1e3aaa73f8b076",
@@ -66,7 +108,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -124,8 +169,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 1,
@@ -189,7 +234,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -310,7 +358,8 @@
           "url": "https://comp.school/recall/assets/App-Cywbl0vP.js",
           "final": "https://comp.school/recall/assets/App-Cywbl0vP.js",
           "pageurls": [
-            "https://comp.school/recall/?paper=1&topic=1.1&sql=mock"
+            "https://comp.school/recall/?paper=1&topic=1.1&sql=mock",
+            "https://comp.school/recall/?sql=mock"
           ],
           "captures": [
             "inventory",
@@ -328,8 +377,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 1468,
@@ -367,11 +416,53 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "bytes": 2740479,
+      "object": "../objects/16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "originalurls": [
+        "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+          "final": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+          "pageurls": [
+            "https://preview-1373.mark.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 155,
       "types": [
         "application/javascript"
       ]
@@ -430,6 +521,8 @@
           "url": "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js",
           "final": "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js",
           "pageurls": [
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -474,7 +567,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -519,7 +615,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -548,6 +647,156 @@
       ]
     },
     {
+      "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36",
+      "bytes": 1375838,
+      "object": "../objects/1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36",
+      "originalurls": [
+        "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://comp.school/recall/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://library.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1349.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.exams.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.recall.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-main-1134.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://comp.school/recall/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://library.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1349.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.exams.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.recall.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-1373.self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://preview-main-1134.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+        "https://self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://comp.school/recall/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://comp.school/recall/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://library.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://library.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-1349.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://preview-1349.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-1373.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://preview-1373.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-1373.exams.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://preview-1373.exams.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-1373.mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://preview-1373.mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-1373.recall.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://preview-1373.recall.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-1373.self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://preview-1373.self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-main-1134.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://preview-main-1134.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "final": "https://self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 12,
+      "types": [
+        "application/javascript",
+        "text/javascript"
+      ]
+    },
+    {
       "sha256": "1c45724d86a5aa6996455d8b0ba5a73e9f28cb2192ea79a2f460f52c96e90edb",
       "bytes": 227,
       "object": "../objects/1c45724d86a5aa6996455d8b0ba5a73e9f28cb2192ea79a2f460f52c96e90edb",
@@ -564,7 +813,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -610,7 +862,10 @@
             "https://comp.school/exams/",
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -655,7 +910,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -778,7 +1036,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -797,11 +1058,53 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 1043,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "bytes": 7046025,
+      "object": "../objects/29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "originalurls": [
+        "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+          "final": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+          "pageurls": [
+            "https://preview-1373.exams.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 491,
       "types": [
         "application/javascript"
       ]
@@ -823,7 +1126,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -868,7 +1174,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -933,6 +1242,50 @@
       "dependencies": 474,
       "types": [
         "application/javascript"
+      ]
+    },
+    {
+      "sha256": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "bytes": 1253804,
+      "object": "../objects/3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "originalurls": [
+        "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js"
+      ],
+      "finalurls": [
+        "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js"
+      ],
+      "origins": [
+        {
+          "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "pageurls": [
+            "https://comp.school/code/essentials/if?sql=mock",
+            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 23,
+      "types": [
+        "text/javascript",
+        "text/javascript; charset=utf-8"
       ]
     },
     {
@@ -1001,7 +1354,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1124,7 +1480,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1169,7 +1528,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1214,7 +1576,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1337,7 +1702,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1382,7 +1750,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1427,7 +1798,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1446,8 +1820,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 522,
@@ -1576,6 +1950,45 @@
       ]
     },
     {
+      "sha256": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
+      "bytes": 49857,
+      "object": "../objects/558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
+      "originalurls": [
+        "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js"
+      ],
+      "finalurls": [
+        "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js"
+      ],
+      "origins": [
+        {
+          "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
+          "final": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 4,
+      "types": [
+        "application/javascript; charset=utf-8"
+      ]
+    },
+    {
       "sha256": "590ab8057bc032c3e14f9f1a76aaeffd01da609413fb12888819ca0433c1fae9",
       "bytes": 239,
       "object": "../objects/590ab8057bc032c3e14f9f1a76aaeffd01da609413fb12888819ca0433c1fae9",
@@ -1631,7 +2044,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1679,7 +2095,9 @@
             "https://comp.school/?menu=paper-1",
             "https://comp.school/?menu=paper-2",
             "https://comp.school/?menu=python-challenges",
-            "https://comp.school/code/"
+            "https://comp.school/code/",
+            "https://comp.school/code/?sql=mock",
+            "https://comp.school/exams/?sql=mock"
           ],
           "captures": [
             "inventory",
@@ -1697,8 +2115,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 274,
@@ -1722,6 +2140,7 @@
           "final": "https://comp.school/code/assets/index-DwyvelI3.js",
           "pageurls": [
             "https://comp.school/code/",
+            "https://comp.school/code/?sql=mock",
             "https://comp.school/code/editor?paper=2&sql=mock",
             "https://comp.school/code/essentials/for?sql=mock",
             "https://comp.school/code/essentials/functions?sql=mock",
@@ -1729,6 +2148,7 @@
             "https://comp.school/code/essentials/io?sql=mock",
             "https://comp.school/code/essentials/scratch?sql=mock",
             "https://comp.school/code/essentials/while?sql=mock",
+            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
             "https://comp.school/code/python?paper=2&sql=mock",
             "https://comp.school/code/sql-challenges?sql=mock",
             "https://comp.school/code/sql?paper=2&sql=mock"
@@ -1749,8 +2169,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 7,
@@ -1775,7 +2195,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1817,9 +2240,45 @@
         {
           "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
           "final": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
-          "pageurls": [],
+          "pageurls": [
+            "https://admin.comp.school/",
+            "https://comp.school/",
+            "https://comp.school/?menu=more",
+            "https://comp.school/?menu=paper-1",
+            "https://comp.school/?menu=paper-2",
+            "https://comp.school/code/?sql=mock",
+            "https://comp.school/code/essentials/if?sql=mock",
+            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
+            "https://comp.school/recall/?paper=1&topic=1.1&sql=mock",
+            "https://comp.school/recall/?sql=mock",
+            "https://homework.comp.school/",
+            "https://issues.comp.school/",
+            "https://library.comp.school/",
+            "https://mark.comp.school/",
+            "https://preview-1349.comp.school/",
+            "https://preview-1373.admin.comp.school/",
+            "https://preview-1373.code.comp.school/",
+            "https://preview-1373.comp.school/",
+            "https://preview-1373.exams.comp.school/",
+            "https://preview-1373.forms.comp.school/",
+            "https://preview-1373.games.comp.school/",
+            "https://preview-1373.issues.comp.school/",
+            "https://preview-1373.mark.comp.school/",
+            "https://preview-1373.printouts.comp.school/",
+            "https://preview-1373.recall.comp.school/",
+            "https://preview-1373.self-assess.comp.school/",
+            "https://preview-main-1134.comp.school/",
+            "https://preview-main-1134.printouts.comp.school/",
+            "https://printouts.comp.school/",
+            "https://self-assess.comp.school/"
+          ],
           "captures": [
-            "inventory"
+            "inventory",
+            "runtime"
           ]
         }
       ],
@@ -1860,7 +2319,10 @@
             "https://comp.school/exams/",
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1879,8 +2341,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 236,
@@ -1905,7 +2367,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1950,7 +2415,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -1995,7 +2463,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -2037,9 +2508,12 @@
         {
           "url": "https://comp.school/code/assets/challenges-sort-search-algorithms-9bSV7OuV.js",
           "final": "https://comp.school/code/assets/challenges-sort-search-algorithms-9bSV7OuV.js",
-          "pageurls": [],
+          "pageurls": [
+            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+          ],
           "captures": [
-            "inventory"
+            "inventory",
+            "runtime"
           ]
         }
       ],
@@ -2058,6 +2532,48 @@
         "error": null
       },
       "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "bytes": 3739040,
+      "object": "../objects/6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "originalurls": [
+        "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+          "final": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+          "pageurls": [
+            "https://preview-1373.self-assess.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 174,
       "types": [
         "application/javascript"
       ]
@@ -2134,8 +2650,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 215,
@@ -2176,11 +2692,53 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 36,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "747b499b0b99cd659557ccd1dfcdf14f99320d249166f89f6439af3065c636c8",
+      "bytes": 271843,
+      "object": "../objects/747b499b0b99cd659557ccd1dfcdf14f99320d249166f89f6439af3065c636c8",
+      "originalurls": [
+        "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+          "final": "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+          "pageurls": [
+            "https://preview-1373.forms.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/747b499b0b99cd659557ccd1dfcdf14f99320d249166f89f6439af3065c636c8.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "747b499b0b99cd659557ccd1dfcdf14f99320d249166f89f6439af3065c636c8"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 7,
       "types": [
         "application/javascript"
       ]
@@ -2225,6 +2783,48 @@
       ]
     },
     {
+      "sha256": "7684ab6a8a83c9119c69667e4a364c0dca89c5588e316b91dd88c7429bffdc6f",
+      "bytes": 202653,
+      "object": "../objects/7684ab6a8a83c9119c69667e4a364c0dca89c5588e316b91dd88c7429bffdc6f",
+      "originalurls": [
+        "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+          "final": "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+          "pageurls": [
+            "https://preview-1373.issues.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/7684ab6a8a83c9119c69667e4a364c0dca89c5588e316b91dd88c7429bffdc6f.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7684ab6a8a83c9119c69667e4a364c0dca89c5588e316b91dd88c7429bffdc6f"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
       "sha256": "76b2ca2257670726734e91d569a4eb85c0131e6ff683e343b6049d4cda4a0f7b",
       "bytes": 43494,
       "object": "../objects/76b2ca2257670726734e91d569a4eb85c0131e6ff683e343b6049d4cda4a0f7b",
@@ -2241,7 +2841,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -2267,45 +2870,6 @@
       "dependencies": 6,
       "types": [
         "application/javascript"
-      ]
-    },
-    {
-      "sha256": "78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c",
-      "bytes": 1527,
-      "object": "../objects/78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c",
-      "originalurls": [
-        "https://code.comp.school/code/assets/index-DwyvelI3.js"
-      ],
-      "finalurls": [
-        "https://comp.school/code/code/assets/index-DwyvelI3.js"
-      ],
-      "origins": [
-        {
-          "url": "https://code.comp.school/code/assets/index-DwyvelI3.js",
-          "final": "https://comp.school/code/code/assets/index-DwyvelI3.js",
-          "pageurls": [],
-          "captures": [
-            "inventory"
-          ]
-        }
-      ],
-      "readable": "readable/78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c.js",
-      "verification": {
-        "status": "passed",
-        "actualsha256": "78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c"
-      },
-      "parse": {
-        "status": "error",
-        "error": "Unexpected token (1:1)"
-      },
-      "format": {
-        "status": "not-formatted",
-        "semanticallyequivalent": null,
-        "error": null
-      },
-      "dependencies": [],
-      "types": [
-        "text/html; charset=utf-8"
       ]
     },
     {
@@ -2343,6 +2907,45 @@
         "error": null
       },
       "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "7b16374daae0df392d1c72782addd278aff55e558695f168db706511b9a02ff6",
+      "bytes": 159966,
+      "object": "../objects/7b16374daae0df392d1c72782addd278aff55e558695f168db706511b9a02ff6",
+      "originalurls": [
+        "https://preview-1373.mark.comp.school/assets/index.es-1l9t7ai3.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.mark.comp.school/assets/index.es-1l9t7ai3.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.mark.comp.school/assets/index.es-1l9t7ai3.js",
+          "final": "https://preview-1373.mark.comp.school/assets/index.es-1l9t7ai3.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/7b16374daae0df392d1c72782addd278aff55e558695f168db706511b9a02ff6.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7b16374daae0df392d1c72782addd278aff55e558695f168db706511b9a02ff6"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 2,
       "types": [
         "application/javascript"
       ]
@@ -2387,6 +2990,48 @@
       ]
     },
     {
+      "sha256": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "bytes": 4750111,
+      "object": "../objects/7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "originalurls": [
+        "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+          "final": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+          "pageurls": [
+            "https://preview-1373.recall.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 466,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
       "sha256": "7d159a98add47eddf9617c8c0259631852be35c91799664b581d8ddd37061602",
       "bytes": 80565,
       "object": "../objects/7d159a98add47eddf9617c8c0259631852be35c91799664b581d8ddd37061602",
@@ -2403,7 +3048,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -2474,6 +3122,50 @@
       ]
     },
     {
+      "sha256": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "bytes": 14928,
+      "object": "../objects/7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "originalurls": [
+        "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js"
+      ],
+      "finalurls": [
+        "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js"
+      ],
+      "origins": [
+        {
+          "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "pageurls": [
+            "https://comp.school/code/essentials/if?sql=mock",
+            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 15,
+      "types": [
+        "text/javascript",
+        "text/javascript; charset=utf-8"
+      ]
+    },
+    {
       "sha256": "808cff1f2381e2be6878cbd7efd2cfee6aa154548b6cd562a2f8d8336b12286e",
       "bytes": 302245,
       "object": "../objects/808cff1f2381e2be6878cbd7efd2cfee6aa154548b6cd562a2f8d8336b12286e",
@@ -2506,8 +3198,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 5,
@@ -2571,7 +3263,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -2655,7 +3350,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -2716,8 +3414,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 0,
@@ -2742,7 +3440,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -2803,8 +3504,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 0,
@@ -2855,6 +3556,132 @@
       ]
     },
     {
+      "sha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "bytes": 202986,
+      "object": "../objects/93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "originalurls": [
+        "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+          "final": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+          "pageurls": [
+            "https://preview-1373.admin.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "957a813f8113d56d9bb697ecfbc29cf2ed3776270ea30d45405108112d3642e9",
+      "bytes": 957077,
+      "object": "../objects/957a813f8113d56d9bb697ecfbc29cf2ed3776270ea30d45405108112d3642e9",
+      "originalurls": [
+        "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+          "final": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+          "pageurls": [
+            "https://preview-1373.code.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/957a813f8113d56d9bb697ecfbc29cf2ed3776270ea30d45405108112d3642e9.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "957a813f8113d56d9bb697ecfbc29cf2ed3776270ea30d45405108112d3642e9"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 9,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "964bb6b13b733a282f0f4d7ca5c201c8db4522ceadb6ae7df5b72d3ded4976af",
+      "bytes": 176342,
+      "object": "../objects/964bb6b13b733a282f0f4d7ca5c201c8db4522ceadb6ae7df5b72d3ded4976af",
+      "originalurls": [
+        "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+          "final": "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+          "pageurls": [
+            "https://preview-1373.exams.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/964bb6b13b733a282f0f4d7ca5c201c8db4522ceadb6ae7df5b72d3ded4976af.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "964bb6b13b733a282f0f4d7ca5c201c8db4522ceadb6ae7df5b72d3ded4976af"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
       "sha256": "9b1dc4f468886e1074ab04417ec327558ef0ee426a019e6be9facdb154eb8abb",
       "bytes": 72825,
       "object": "../objects/9b1dc4f468886e1074ab04417ec327558ef0ee426a019e6be9facdb154eb8abb",
@@ -2871,7 +3698,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -2932,8 +3762,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 1658,
@@ -2958,7 +3788,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3003,7 +3836,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3071,6 +3907,48 @@
       ]
     },
     {
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "bytes": 4555271,
+      "object": "../objects/a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "originalurls": [
+        "https://preview-1373.comp.school/assets/index-BIpziTN_.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.comp.school/assets/index-BIpziTN_.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+          "final": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+          "pageurls": [
+            "https://preview-1373.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 173,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
       "sha256": "a46b4131cf38c164db6c05e97223849abdab4da346fdb7e781e8c8ca8d82f5fe",
       "bytes": 302403,
       "object": "../objects/a46b4131cf38c164db6c05e97223849abdab4da346fdb7e781e8c8ca8d82f5fe",
@@ -3103,11 +3981,53 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 3,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "a741d30db3cf267b34c449877e8b2ebb63f62bc3146ce806a2565864ca540be2",
+      "bytes": 193935,
+      "object": "../objects/a741d30db3cf267b34c449877e8b2ebb63f62bc3146ce806a2565864ca540be2",
+      "originalurls": [
+        "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+          "final": "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+          "pageurls": [
+            "https://preview-1373.games.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/a741d30db3cf267b34c449877e8b2ebb63f62bc3146ce806a2565864ca540be2.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "a741d30db3cf267b34c449877e8b2ebb63f62bc3146ce806a2565864ca540be2"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 1,
       "types": [
         "application/javascript"
       ]
@@ -3145,11 +4065,92 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 291,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "ad83d7ddd5eaf0d879df612f092d9fa1ec93826cdb702f2efa70a4feb12d2970",
+      "bytes": 5541,
+      "object": "../objects/ad83d7ddd5eaf0d879df612f092d9fa1ec93826cdb702f2efa70a4feb12d2970",
+      "originalurls": [
+        "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"
+      ],
+      "finalurls": [
+        "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"
+      ],
+      "origins": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js",
+          "final": "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/ad83d7ddd5eaf0d879df612f092d9fa1ec93826cdb702f2efa70a4feb12d2970.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "ad83d7ddd5eaf0d879df612f092d9fa1ec93826cdb702f2efa70a4feb12d2970"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript; charset=utf-8"
+      ]
+    },
+    {
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "bytes": 4589370,
+      "object": "../objects/b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "originalurls": [
+        "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+      ],
+      "finalurls": [
+        "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+          "final": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+          "pageurls": [
+            "https://preview-main-1134.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 173,
       "types": [
         "application/javascript"
       ]
@@ -3172,7 +4173,10 @@
             "https://comp.school/exams/",
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3217,7 +4221,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3275,8 +4282,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 209,
@@ -3289,15 +4296,25 @@
       "bytes": 202363,
       "object": "../objects/c2bd1bddd0796f58fde6e213c061b2721256d46366bcee00c8530819e5fbc573",
       "originalurls": [
-        "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
+        "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
+        "https://preview-1373.mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
       ],
       "finalurls": [
-        "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
+        "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
+        "https://preview-1373.mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
       ],
       "origins": [
         {
           "url": "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
           "final": "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-1373.mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
+          "final": "https://preview-1373.mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
           "pageurls": [],
           "captures": [
             "inventory"
@@ -3340,7 +4357,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3369,19 +4389,71 @@
       ]
     },
     {
+      "sha256": "c59bddf267effbd5e2eafc305d0af60cbde3c1f9cbab74951ebad0398ff9e7f6",
+      "bytes": 52829,
+      "object": "../objects/c59bddf267effbd5e2eafc305d0af60cbde3c1f9cbab74951ebad0398ff9e7f6",
+      "originalurls": [
+        "https://preview-1373.exams.comp.school/assets/radix-ui-COh3HBfA.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.exams.comp.school/assets/radix-ui-COh3HBfA.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.exams.comp.school/assets/radix-ui-COh3HBfA.js",
+          "final": "https://preview-1373.exams.comp.school/assets/radix-ui-COh3HBfA.js",
+          "pageurls": [
+            "https://preview-1373.exams.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/c59bddf267effbd5e2eafc305d0af60cbde3c1f9cbab74951ebad0398ff9e7f6.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "c59bddf267effbd5e2eafc305d0af60cbde3c1f9cbab74951ebad0398ff9e7f6"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
       "sha256": "c9d6eec5a9bc1cc82e9ee901325db2ccb84ecc74384eea045bf5c4b8436409bf",
       "bytes": 28930,
       "object": "../objects/c9d6eec5a9bc1cc82e9ee901325db2ccb84ecc74384eea045bf5c4b8436409bf",
       "originalurls": [
-        "https://mark.comp.school/assets/purify.es-CYR4BTuT.js"
+        "https://mark.comp.school/assets/purify.es-CYR4BTuT.js",
+        "https://preview-1373.mark.comp.school/assets/purify.es-CYR4BTuT.js"
       ],
       "finalurls": [
-        "https://mark.comp.school/assets/purify.es-CYR4BTuT.js"
+        "https://mark.comp.school/assets/purify.es-CYR4BTuT.js",
+        "https://preview-1373.mark.comp.school/assets/purify.es-CYR4BTuT.js"
       ],
       "origins": [
         {
           "url": "https://mark.comp.school/assets/purify.es-CYR4BTuT.js",
           "final": "https://mark.comp.school/assets/purify.es-CYR4BTuT.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://preview-1373.mark.comp.school/assets/purify.es-CYR4BTuT.js",
+          "final": "https://preview-1373.mark.comp.school/assets/purify.es-CYR4BTuT.js",
           "pageurls": [],
           "captures": [
             "inventory"
@@ -3461,6 +4533,8 @@
           "url": "https://comp.school/exams/assets/GamesRoom-C77RFDyI.js",
           "final": "https://comp.school/exams/assets/GamesRoom-C77RFDyI.js",
           "pageurls": [
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3505,7 +4579,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3524,8 +4601,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 4,
@@ -3550,7 +4627,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3595,7 +4675,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3653,8 +4736,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 1127,
@@ -3702,45 +4785,6 @@
       ]
     },
     {
-      "sha256": "d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca",
-      "bytes": 1398,
-      "object": "../objects/d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca",
-      "originalurls": [
-        "https://recall.comp.school/recall/assets/index-OXn7GuU2.js"
-      ],
-      "finalurls": [
-        "https://comp.school/recall/recall/assets/index-OXn7GuU2.js"
-      ],
-      "origins": [
-        {
-          "url": "https://recall.comp.school/recall/assets/index-OXn7GuU2.js",
-          "final": "https://comp.school/recall/recall/assets/index-OXn7GuU2.js",
-          "pageurls": [],
-          "captures": [
-            "inventory"
-          ]
-        }
-      ],
-      "readable": "readable/d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca.js",
-      "verification": {
-        "status": "passed",
-        "actualsha256": "d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca"
-      },
-      "parse": {
-        "status": "error",
-        "error": "Unexpected token (1:1)"
-      },
-      "format": {
-        "status": "not-formatted",
-        "semanticallyequivalent": null,
-        "error": null
-      },
-      "dependencies": [],
-      "types": [
-        "text/html; charset=utf-8"
-      ]
-    },
-    {
       "sha256": "da465924736b7beaf7360e52243febf2de90aa6df87e6ac1fbbddedd95d77b4b",
       "bytes": 21710,
       "object": "../objects/da465924736b7beaf7360e52243febf2de90aa6df87e6ac1fbbddedd95d77b4b",
@@ -3757,7 +4801,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -3864,6 +4911,48 @@
       ]
     },
     {
+      "sha256": "e42c8d673b957b7d1abf5db47c00c0ce7a24bd3bea39530ae7f0da498cb72c81",
+      "bytes": 1891345,
+      "object": "../objects/e42c8d673b957b7d1abf5db47c00c0ce7a24bd3bea39530ae7f0da498cb72c81",
+      "originalurls": [
+        "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js"
+      ],
+      "finalurls": [
+        "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js",
+          "final": "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js",
+          "pageurls": [
+            "https://preview-main-1134.printouts.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/e42c8d673b957b7d1abf5db47c00c0ce7a24bd3bea39530ae7f0da498cb72c81.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "e42c8d673b957b7d1abf5db47c00c0ce7a24bd3bea39530ae7f0da498cb72c81"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 98,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
       "sha256": "e68520ab6f8510f545b91de2368ae760d783e0d0ff1e52e16385975d794b9239",
       "bytes": 20333,
       "object": "../objects/e68520ab6f8510f545b91de2368ae760d783e0d0ff1e52e16385975d794b9239",
@@ -3900,65 +4989,6 @@
       "dependencies": 0,
       "types": [
         "application/javascript"
-      ]
-    },
-    {
-      "sha256": "eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5",
-      "bytes": 1562,
-      "object": "../objects/eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5",
-      "originalurls": [
-        "https://exams.comp.school/exams/assets/index-DjyiOHey.js",
-        "https://exams.comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-        "https://exams.comp.school/exams/assets/ui-components-DeMDYLzO.js"
-      ],
-      "finalurls": [
-        "https://comp.school/exams/exams/assets/index-DjyiOHey.js",
-        "https://comp.school/exams/exams/assets/react-vendor-BK1G6oO1.js",
-        "https://comp.school/exams/exams/assets/ui-components-DeMDYLzO.js"
-      ],
-      "origins": [
-        {
-          "url": "https://exams.comp.school/exams/assets/index-DjyiOHey.js",
-          "final": "https://comp.school/exams/exams/assets/index-DjyiOHey.js",
-          "pageurls": [],
-          "captures": [
-            "inventory"
-          ]
-        },
-        {
-          "url": "https://exams.comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-          "final": "https://comp.school/exams/exams/assets/react-vendor-BK1G6oO1.js",
-          "pageurls": [],
-          "captures": [
-            "inventory"
-          ]
-        },
-        {
-          "url": "https://exams.comp.school/exams/assets/ui-components-DeMDYLzO.js",
-          "final": "https://comp.school/exams/exams/assets/ui-components-DeMDYLzO.js",
-          "pageurls": [],
-          "captures": [
-            "inventory"
-          ]
-        }
-      ],
-      "readable": "readable/eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5.js",
-      "verification": {
-        "status": "passed",
-        "actualsha256": "eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5"
-      },
-      "parse": {
-        "status": "error",
-        "error": "Unexpected token (1:1)"
-      },
-      "format": {
-        "status": "not-formatted",
-        "semanticallyequivalent": null,
-        "error": null
-      },
-      "dependencies": [],
-      "types": [
-        "text/html; charset=utf-8"
       ]
     },
     {
@@ -4059,7 +5089,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -4127,6 +5160,48 @@
       ]
     },
     {
+      "sha256": "f2203b3c90923a424c94f6a3ad2bbf34c7c3a417fb5d38ae24ba8d6f9ba878b2",
+      "bytes": 1856271,
+      "object": "../objects/f2203b3c90923a424c94f6a3ad2bbf34c7c3a417fb5d38ae24ba8d6f9ba878b2",
+      "originalurls": [
+        "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js"
+      ],
+      "finalurls": [
+        "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+          "final": "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+          "pageurls": [
+            "https://preview-1373.printouts.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/f2203b3c90923a424c94f6a3ad2bbf34c7c3a417fb5d38ae24ba8d6f9ba878b2.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "f2203b3c90923a424c94f6a3ad2bbf34c7c3a417fb5d38ae24ba8d6f9ba878b2"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "skipped",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": 98,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
       "sha256": "f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271",
       "bytes": 1695731,
       "object": "../objects/f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271",
@@ -4142,7 +5217,8 @@
           "final": "https://comp.school/recall/assets/index-OXn7GuU2.js",
           "pageurls": [
             "https://comp.school/recall/",
-            "https://comp.school/recall/?paper=1&topic=1.1&sql=mock"
+            "https://comp.school/recall/?paper=1&topic=1.1&sql=mock",
+            "https://comp.school/recall/?sql=mock"
           ],
           "captures": [
             "inventory",
@@ -4160,8 +5236,8 @@
         "error": null
       },
       "format": {
-        "status": "semantic-mismatch",
-        "semanticallyequivalent": false,
+        "status": "skipped",
+        "semanticallyequivalent": null,
         "error": null
       },
       "dependencies": 145,
@@ -4225,7 +5301,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -4270,7 +5349,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -4315,7 +5397,10 @@
           "pageurls": [
             "https://comp.school/exams/?paper=1&sql=mock",
             "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/code-climb",
+            "https://comp.school/exams/games/crossword",
             "https://comp.school/exams/games/games-room?sql=mock"
           ],
           "captures": [
@@ -4585,17 +5670,61 @@
       "reasons": [
         "No resource with given identifier found"
       ]
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "pages": [
+        "https://admin.comp.school/",
+        "https://comp.school/",
+        "https://comp.school/?menu=more",
+        "https://comp.school/?menu=paper-1",
+        "https://comp.school/?menu=paper-2",
+        "https://comp.school/?menu=python-challenges",
+        "https://comp.school/code/",
+        "https://comp.school/code/editor?paper=2&sql=mock",
+        "https://comp.school/code/essentials/for?sql=mock",
+        "https://comp.school/code/essentials/functions?sql=mock",
+        "https://comp.school/code/essentials/if?sql=mock",
+        "https://comp.school/code/essentials/io?sql=mock",
+        "https://comp.school/code/essentials/scratch?sql=mock",
+        "https://comp.school/code/essentials/while?sql=mock",
+        "https://comp.school/code/python?paper=2&sql=mock",
+        "https://comp.school/code/sql-challenges?sql=mock",
+        "https://comp.school/code/sql?paper=2&sql=mock",
+        "https://comp.school/exams/",
+        "https://comp.school/exams/?paper=1&sql=mock",
+        "https://comp.school/exams/?paper=2&sql=mock",
+        "https://comp.school/exams/games/careers?sql=mock",
+        "https://comp.school/exams/games/games-room?sql=mock",
+        "https://comp.school/recall/",
+        "https://comp.school/recall/?paper=1&topic=1.1&sql=mock",
+        "https://homework.comp.school/",
+        "https://issues.comp.school/",
+        "https://library.comp.school/",
+        "https://mark.comp.school/",
+        "https://printouts.comp.school/",
+        "https://self-assess.comp.school/"
+      ],
+      "types": [
+        "text/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "External origin recorded, not mirrored"
+      ]
     }
   ],
   "summary": {
-    "assets": 102,
-    "parsed": 99,
-    "parsefailures": 3,
-    "formatted": 79,
-    "formatfailures": 20,
-    "preserved": 0,
-    "dependencies": 16297,
-    "unresolved": 2236,
-    "external": 46
+    "assets": 121,
+    "parsed": 121,
+    "parsefailures": 0,
+    "formatted": 0,
+    "formatfailures": 0,
+    "preserved": 79,
+    "dependencies": 26676,
+    "unresolved": 124,
+    "external": 99
   }
 }

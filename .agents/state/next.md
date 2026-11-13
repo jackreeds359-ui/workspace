@@ -138,3 +138,7 @@ Finish current safe feature-style browser pass, collect JS dependency index resu
 ## Dependency closure checkpoint 2026-11-13T19:59:49.056655+00:00
 
 Finish updated AST graph pass, fetch missing concrete module references and worker/runtime dependencies once, then default formatter pass with semantic checks/cache. Produce page entry/shared/lazy/worker dependency closure, explicit computed/default/unavailable/access-gated list and readable hash-to-source organization. Final validation must show graph coverage and current raw/readable hash checks; do not equate formatted minified code with recovered TS/TSX source. Maintain next-agent briefing/checkpoints and cancel wake when done.
+
+## Client graph verification 2026-11-13T20:04:01.174709+00:00
+
+Finish semantic formatter result, resolve any remaining new concrete dependencies once, extract statically recoverable blob-worker code without evaluating it, then final graph/coverage/hash/syntax checks. Confirm no private project or account text in runtime.json. Produce updated archive with originals+readables+page graph and explicit limits. No blanket all-pages or all-roles claim; preserve remaining computed/bare/default-unavailable references.

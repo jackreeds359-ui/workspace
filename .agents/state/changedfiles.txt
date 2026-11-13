@@ -1,5 +1,8 @@
+SETUP.md
+setup.sh
 .agents/scripts/browseraudit.mjs
 .agents/scripts/clientsetup.py
 .agents/scripts/clientfetch.py
 .agents/scripts/jsindex.mjs
+.agents/scripts/pagecoverage.py
 web/comp.school
