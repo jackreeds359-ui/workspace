@@ -5447,5 +5447,1109 @@
     },
     "bytes": 1350,
     "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.5/b0.svg",
+    "time": "2026-11-13T19:16:05.494286+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.5/b0.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:05 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.6/fonts.svg",
+    "time": "2026-11-13T19:16:06.340899+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.6/fonts.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:06 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.6/languages.svg",
+    "time": "2026-11-13T19:16:07.191604+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.6/languages.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:07 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.6/numbers.svg",
+    "time": "2026-11-13T19:16:07.988386+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.6/numbers.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:08 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/data.svg",
+    "time": "2026-11-13T19:16:08.757908+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/data.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:08 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/many.svg",
+    "time": "2026-11-13T19:16:09.595448+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/many.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:09 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/network.svg",
+    "time": "2026-11-13T19:16:10.502300+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/network.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:10 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/one.svg",
+    "time": "2026-11-13T19:16:11.376557+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/one.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:11 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/size.svg",
+    "time": "2026-11-13T19:16:12.195480+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/size.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:12 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/speed.svg",
+    "time": "2026-11-13T19:16:12.987092+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/speed.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:13 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/three.svg",
+    "time": "2026-11-13T19:16:13.809205+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/three.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:13 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/width.svg",
+    "time": "2026-11-13T19:16:14.605214+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/width.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:14 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.8/amplified.svg",
+    "time": "2026-11-13T19:16:15.424833+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.8/amplified.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:15 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.8/decrease.svg",
+    "time": "2026-11-13T19:16:16.219525+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.8/decrease.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:16 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.8/halve.svg",
+    "time": "2026-11-13T19:16:17.034106+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.8/halve.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:17 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.8/increase.svg",
+    "time": "2026-11-13T19:16:17.838022+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.8/increase.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:17 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.8/sample.svg",
+    "time": "2026-11-13T19:16:18.602944+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.8/sample.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:18 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.8/sampled.svg",
+    "time": "2026-11-13T19:16:19.420625+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.8/sampled.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:19 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.8/second.svg",
+    "time": "2026-11-13T19:16:20.163013+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.8/second.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:20 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/never.svg",
+    "time": "2026-11-13T19:16:20.936436+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/never.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:21 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/open.svg",
+    "time": "2026-11-13T19:16:21.774062+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/open.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:21 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/original.svg",
+    "time": "2026-11-13T19:16:22.578137+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/original.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:22 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/permanently.svg",
+    "time": "2026-11-13T19:16:23.425073+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/permanently.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:23 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/reversibly.svg",
+    "time": "2026-11-13T19:16:24.268880+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/reversibly.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:24 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/similar.svg",
+    "time": "2026-11-13T19:16:25.130133+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/similar.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:25 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/smaller.svg",
+    "time": "2026-11-13T19:16:25.966538+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/smaller.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:26 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/temporarily.svg",
+    "time": "2026-11-13T19:16:26.849087+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/temporarily.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:26 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.9/transmit.svg",
+    "time": "2026-11-13T19:16:27.614259+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.9/transmit.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:27 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/authorises.svg",
+    "time": "2026-11-13T19:16:28.460587+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/authorises.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:28 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/building.svg",
+    "time": "2026-11-13T19:16:29.224635+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/building.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:29 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/cable.svg",
+    "time": "2026-11-13T19:16:30.077415+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/cable.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:30 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/city.svg",
+    "time": "2026-11-13T19:16:30.873682+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/city.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:31 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/client.svg",
+    "time": "2026-11-13T19:16:31.647765+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/client.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:31 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/close.svg",
+    "time": "2026-11-13T19:16:32.432839+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/close.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:32 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/computer.svg",
+    "time": "2026-11-13T19:16:33.260388+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/computer.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:33 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/connected.svg",
+    "time": "2026-11-13T19:16:34.037546+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/connected.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:34 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/country.svg",
+    "time": "2026-11-13T19:16:34.848073+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/country.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:35 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/displays.svg",
+    "time": "2026-11-13T19:16:35.659828+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/displays.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:35 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/internal.svg",
+    "time": "2026-11-13T19:16:36.408597+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/internal.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:36 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/internet.svg",
+    "time": "2026-11-13T19:16:37.224608+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/internet.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:37 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/isp.svg",
+    "time": "2026-11-13T19:16:38.010360+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/isp.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:38 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/local.svg",
+    "time": "2026-11-13T19:16:38.827462+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/local.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:38 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/logs.svg",
+    "time": "2026-11-13T19:16:39.605268+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/logs.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:39 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/printer.svg",
+    "time": "2026-11-13T19:16:40.372886+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/printer.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:40 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/protocol.svg",
+    "time": "2026-11-13T19:16:41.204948+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/protocol.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:41 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/remote.svg",
+    "time": "2026-11-13T19:16:42.007141+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/remote.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:42 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/server.svg",
+    "time": "2026-11-13T19:16:42.825084+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/server.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:42 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/stores.svg",
+    "time": "2026-11-13T19:16:43.618322+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/stores.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:43 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/topologies.svg",
+    "time": "2026-11-13T19:16:44.390342+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/topologies.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:44 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.1/web.svg",
+    "time": "2026-11-13T19:16:45.199338+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.1/web.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:45 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/addresses.svg",
+    "time": "2026-11-13T19:16:46.024804+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/addresses.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:46 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/compatibility.svg",
+    "time": "2026-11-13T19:16:46.834011+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/compatibility.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:47 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/competition.svg",
+    "time": "2026-11-13T19:16:47.656118+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/competition.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:47 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/copy.svg",
+    "time": "2026-11-13T19:16:48.400389+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/copy.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:48 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/dependent.svg",
+    "time": "2026-11-13T19:16:49.182696+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/dependent.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:49 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/devices.svg",
+    "time": "2026-11-13T19:16:49.990315+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/devices.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:50 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/division.svg",
+    "time": "2026-11-13T19:16:50.773030+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/division.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:50 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/http.svg",
+    "time": "2026-11-13T19:16:51.556972+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/http.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:51 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/independent.svg",
+    "time": "2026-11-13T19:16:52.356620+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/independent.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:52 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/interference.svg",
+    "time": "2026-11-13T19:16:53.272676+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/interference.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:53 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/media-access-control-mac-address.svg",
+    "time": "2026-11-13T19:16:54.079066+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/media-access-control-mac-address.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:54 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/manufacturer.svg",
+    "time": "2026-11-13T19:16:54.870950+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/manufacturer.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:55 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/octal.svg",
+    "time": "2026-11-13T19:16:55.693106+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/octal.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:55 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/overheating.svg",
+    "time": "2026-11-13T19:16:56.516175+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/overheating.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:56 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/rules.svg",
+    "time": "2026-11-13T19:16:57.314960+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/rules.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:57 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/sent.svg",
+    "time": "2026-11-13T19:16:58.092806+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/sent.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:58 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/stored.svg",
+    "time": "2026-11-13T19:16:58.908510+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/stored.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:59 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.3.2/understood.svg",
+    "time": "2026-11-13T19:16:59.679799+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.3.2/understood.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:59 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/exams/assets/index-DxyXV9aR.css",
+    "time": "2026-11-13T19:17:09.850546+00:00",
+    "status": 200,
+    "final": "https://comp.school/exams/assets/index-DxyXV9aR.css",
+    "type": "text/css; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/css; charset=utf-8",
+      "ETag": "\"7f15a4aca54f38eb1a897b182e53e57f\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 137061,
+    "sha256": "fd86cb231c7b513e168069eaf0543271bea1f80443079cd6150eabe62d06e25e"
   }
 ]

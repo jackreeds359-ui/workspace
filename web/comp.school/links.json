@@ -60,36 +60,6 @@
     "kind": "host"
   },
   {
-    "from": "https://code.comp.school/",
-    "to": "https://code.comp.school/code/assets/index-CkLs-ldM.css",
-    "kind": "asset"
-  },
-  {
-    "from": "https://code.comp.school/",
-    "to": "https://code.comp.school/code/assets/index-DwyvelI3.js",
-    "kind": "asset"
-  },
-  {
-    "from": "https://code.comp.school/",
-    "to": "https://code.comp.school/code/favicon/favicon.ico",
-    "kind": "asset"
-  },
-  {
-    "from": "https://code.comp.school/",
-    "to": "https://code.comp.school/code/favicon/favicon.svg",
-    "kind": "asset"
-  },
-  {
-    "from": "https://code.comp.school/",
-    "to": "https://code.comp.school/code/favicon/site.webmanifest",
-    "kind": "asset"
-  },
-  {
-    "from": "https://code.comp.school/",
-    "to": "https://code.comp.school/favicon/apple-touch-icon.png",
-    "kind": "asset"
-  },
-  {
     "from": "https://comp.school/",
     "to": "https://comp.school/assets/index-CFivEobA.css",
     "kind": "asset"
@@ -4735,6 +4705,36 @@
     "kind": "asset"
   },
   {
+    "from": "https://comp.school/code/",
+    "to": "https://comp.school/code/assets/index-CkLs-ldM.css",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/code/",
+    "to": "https://comp.school/code/assets/index-DwyvelI3.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/code/",
+    "to": "https://comp.school/code/favicon/favicon.ico",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/code/",
+    "to": "https://comp.school/code/favicon/favicon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/code/",
+    "to": "https://comp.school/code/favicon/site.webmanifest",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/code/",
+    "to": "https://comp.school/favicon/apple-touch-icon.png",
+    "kind": "asset"
+  },
+  {
     "from": "https://comp.school/code/assets/index-DwyvelI3.js",
     "to": "https://code.comp.school/",
     "kind": "host"
@@ -4773,6 +4773,76 @@
     "from": "https://comp.school/code/assets/index-DwyvelI3.js",
     "to": "https://recall.comp.school/",
     "kind": "host"
+  },
+  {
+    "from": "https://comp.school/exams/",
+    "to": "https://comp.school/exams/assets/index-DjyiOHey.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/exams/",
+    "to": "https://comp.school/exams/assets/index-DxyXV9aR.css",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/exams/",
+    "to": "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/exams/",
+    "to": "https://comp.school/exams/assets/ui-components-DeMDYLzO.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/exams/",
+    "to": "https://comp.school/exams/favicon/favicon.ico",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/exams/",
+    "to": "https://comp.school/exams/favicon/favicon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/exams/",
+    "to": "https://comp.school/exams/favicon/site.webmanifest",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/exams/",
+    "to": "https://comp.school/favicon/apple-touch-icon.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/recall/",
+    "to": "https://comp.school/recall/assets/index-BHDAmMDK.css",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/recall/",
+    "to": "https://comp.school/recall/assets/index-OXn7GuU2.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/recall/",
+    "to": "https://comp.school/recall/favicon/apple-touch-icon.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/recall/",
+    "to": "https://comp.school/recall/favicon/favicon.ico",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/recall/",
+    "to": "https://comp.school/recall/favicon/favicon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/recall/",
+    "to": "https://comp.school/recall/favicon/site.webmanifest",
+    "kind": "asset"
   },
   {
     "from": "https://comp.school/recall/assets/App-Cywbl0vP.js",
@@ -7055,46 +7125,6 @@
     "kind": "asset"
   },
   {
-    "from": "https://exams.comp.school/",
-    "to": "https://exams.comp.school/exams/assets/index-DjyiOHey.js",
-    "kind": "asset"
-  },
-  {
-    "from": "https://exams.comp.school/",
-    "to": "https://exams.comp.school/exams/assets/index-DxyXV9aR.css",
-    "kind": "asset"
-  },
-  {
-    "from": "https://exams.comp.school/",
-    "to": "https://exams.comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-    "kind": "asset"
-  },
-  {
-    "from": "https://exams.comp.school/",
-    "to": "https://exams.comp.school/exams/assets/ui-components-DeMDYLzO.js",
-    "kind": "asset"
-  },
-  {
-    "from": "https://exams.comp.school/",
-    "to": "https://exams.comp.school/exams/favicon/favicon.ico",
-    "kind": "asset"
-  },
-  {
-    "from": "https://exams.comp.school/",
-    "to": "https://exams.comp.school/exams/favicon/favicon.svg",
-    "kind": "asset"
-  },
-  {
-    "from": "https://exams.comp.school/",
-    "to": "https://exams.comp.school/exams/favicon/site.webmanifest",
-    "kind": "asset"
-  },
-  {
-    "from": "https://exams.comp.school/",
-    "to": "https://exams.comp.school/favicon/apple-touch-icon.png",
-    "kind": "asset"
-  },
-  {
     "from": "https://homework.comp.school/",
     "to": "https://homework.comp.school/assets/index-BMINHhky.js",
     "kind": "asset"
@@ -7718,36 +7748,6 @@
     "from": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
     "to": "https://recall.comp.school/",
     "kind": "host"
-  },
-  {
-    "from": "https://recall.comp.school/",
-    "to": "https://recall.comp.school/recall/assets/index-BHDAmMDK.css",
-    "kind": "asset"
-  },
-  {
-    "from": "https://recall.comp.school/",
-    "to": "https://recall.comp.school/recall/assets/index-OXn7GuU2.js",
-    "kind": "asset"
-  },
-  {
-    "from": "https://recall.comp.school/",
-    "to": "https://recall.comp.school/recall/favicon/apple-touch-icon.png",
-    "kind": "asset"
-  },
-  {
-    "from": "https://recall.comp.school/",
-    "to": "https://recall.comp.school/recall/favicon/favicon.ico",
-    "kind": "asset"
-  },
-  {
-    "from": "https://recall.comp.school/",
-    "to": "https://recall.comp.school/recall/favicon/favicon.svg",
-    "kind": "asset"
-  },
-  {
-    "from": "https://recall.comp.school/",
-    "to": "https://recall.comp.school/recall/favicon/site.webmanifest",
-    "kind": "asset"
   },
   {
     "from": "https://self-assess.comp.school/",
