@@ -1,0 +1,959 @@
+import { r as k, j as e } from "./react-vendor-BK1G6oO1.js";
+import { aq as B, aT as G } from "./GameNotebook-b0Qw2wzd.js";
+import {
+  K as D,
+  b as H,
+  I as M,
+  o as Q,
+  t as S,
+  O as L,
+  W as N,
+  d as _,
+  a as K,
+  c as h,
+  g as Y,
+  i as R,
+  R as q,
+  D as x,
+  e as U,
+  f as $,
+  B as P,
+  h as V,
+  j as E,
+  k as z,
+  l as J,
+  m as X,
+  r as Z,
+  n as ee,
+  w as te,
+  T as se,
+  p as ae,
+  q as oe,
+  P as ne,
+  s as ie,
+} from "./network-build-z_ixRQe6.js";
+import { p as re, u as le } from "./helpers-DmEFZcxj.js";
+import { u as de } from "./keyword-flashcards-Ha6Msavb.js";
+import { d as m, K as ce } from "./keyword-deck-Bo8inXG8.js";
+import "./index-DjyiOHey.js";
+import "./ui-components-DeMDYLzO.js";
+import "./immersive-picker-PA4Q0OWd.js";
+import "./use-cover-art-CyGvgy9q.js";
+const he = 1600,
+  me = 500;
+function ue({ org: v, build: t, week: s, onStart: r }) {
+  const l = de();
+  return e.jsxs("div", {
+    className: "nb-page",
+    "data-network-build-stage": "week",
+    children: [
+      e.jsx("h2", { className: "sr-only", children: "The week" }),
+      e.jsx(K, { org: v, build: t, narrow: l }),
+      e.jsx(N, {
+        count: s.length,
+        outcomes: [],
+        current: 0,
+        time: "Mon 08:00",
+      }),
+      e.jsx("button", {
+        type: "button",
+        className: "nb-button nb-primary",
+        onClick: r,
+        children: "Play the week",
+      }),
+    ],
+  });
+}
+function pe({
+  org: v,
+  build: t,
+  week: s,
+  outcomes: r,
+  round: l,
+  phase: o,
+  onPlay: j,
+  onPlayed: d,
+  onNext: W,
+  isLast: T,
+}) {
+  const n = s[l],
+    i = D[n.kind],
+    u = t[i.decision],
+    c = r[l],
+    f = o === "result";
+  k.useEffect(() => {
+    if (o !== "playing") return;
+    const g = window.setTimeout(d, re() ? me : he);
+    return () => window.clearTimeout(g);
+  }, [o, d]);
+  const w = n.result[u],
+    C = H(n.kind);
+  return e.jsxs("div", {
+    className: "nb-page",
+    "data-network-build-stage": "incident",
+    "data-incident": n.kind,
+    "data-phase": o,
+    "data-outcome": f ? c : void 0,
+    children: [
+      e.jsxs("div", {
+        className: "nb-split nb-incident",
+        children: [
+          e.jsx("div", {
+            className: `nb-scene ${o === "playing" ? "nb-playing" : ""}`,
+            children: e.jsx(M, { org: v, incident: n, build: t, revealed: f }),
+          }),
+          e.jsxs("div", {
+            className: "nb-panel",
+            children: [
+              e.jsxs("span", {
+                className: "nb-pill",
+                "data-tone": f && c ? S(c) : void 0,
+                children: ["Your build: ", Q(i.decision, u).name],
+              }),
+              f && c
+                ? e.jsxs(e.Fragment, {
+                    children: [
+                      e.jsxs("h2", {
+                        className: "nb-title nb-with-mark",
+                        children: [e.jsx(L, { outcome: c }), w.headline],
+                      }),
+                      e.jsxs("figure", {
+                        className: "nb-message",
+                        "data-tone": S(c),
+                        children: [
+                          e.jsx("figcaption", { children: w.from }),
+                          e.jsx("blockquote", { children: w.message }),
+                        ],
+                      }),
+                      e.jsx("p", {
+                        className: "nb-lesson",
+                        children: i.lesson,
+                      }),
+                      u !== C
+                        ? e.jsxs("div", {
+                            className: "nb-fix",
+                            children: [
+                              e.jsx("h3", {
+                                children: "What would have fixed it",
+                              }),
+                              e.jsx("p", { children: i.fix }),
+                            ],
+                          })
+                        : null,
+                      e.jsx("button", {
+                        type: "button",
+                        className: "nb-button nb-primary",
+                        onClick: W,
+                        children: T ? "See the report" : "Next day",
+                      }),
+                    ],
+                  })
+                : e.jsxs(e.Fragment, {
+                    children: [
+                      e.jsx("h2", { className: "nb-title", children: n.title }),
+                      e.jsx("p", { className: "nb-setup", children: n.setup }),
+                      o === "event"
+                        ? e.jsx("button", {
+                            type: "button",
+                            className: "nb-button nb-primary",
+                            onClick: j,
+                            children: "Play it out",
+                          })
+                        : e.jsx("p", {
+                            className: "sr-only",
+                            "aria-live": "polite",
+                            children: "Playing out on your network.",
+                          }),
+                    ],
+                  }),
+            ],
+          }),
+        ],
+      }),
+      e.jsx(N, {
+        count: s.length,
+        outcomes: f ? r : r.slice(0, l),
+        current: l,
+        time: `${_(l)} ${n.time}`,
+      }),
+    ],
+  });
+}
+const fe = ["police", "hospital", "civil"],
+  ge = {
+    police: [
+      {
+        kind: "cut",
+        title: "Roadworks cut the Riverside cable",
+        time: "09:52",
+        setup: "A digger cuts the cable between HQ and Riverside station.",
+        result: {
+          a: {
+            headline: "Riverside is cut off",
+            from: "Sergeant, Riverside",
+            message:
+              "That cable was our only link to HQ. Nothing has got through since 09:52, so we are taking jobs by phone.",
+          },
+          b: {
+            headline: "Riverside stays online",
+            from: "Sergeant, Riverside",
+            message:
+              "Our data went another way, through another station. We only heard about the cable afterwards.",
+          },
+        },
+      },
+      {
+        kind: "peak",
+        title: "New Year’s Eve",
+        time: "23:52",
+        setup:
+          "At midnight every screen at HQ is online at once, streaming CCTV, all sharing one internet connection.",
+        result: {
+          a: {
+            headline: "The control room map stalls",
+            from: "Control room supervisor",
+            message:
+              "100 Mbps shared by every screen was not enough. The map took a minute to load, so jobs went out by radio.",
+          },
+          b: {
+            headline: "The map keeps up",
+            from: "Control room supervisor",
+            message:
+              "Busiest night of the year, and 1 Gbps gave every screen enough data per second.",
+          },
+        },
+      },
+      {
+        kind: "files",
+        title: "A PC fails with court video on it",
+        time: "10:15",
+        setup:
+          "Yesterday’s body-cam video is needed in court today. The Riverside PC it was saved on has just failed.",
+        result: {
+          a: {
+            headline: "The video is safe on the file server",
+            from: "Evidence officer, Riverside",
+            message:
+              "The video was saved to the file server at HQ, which is backed up every night. I sent it to court from another PC.",
+          },
+          b: {
+            headline: "The only copy is lost",
+            from: "Evidence officer, Riverside",
+            message:
+              "The video was only on that PC. With no file server, there was no backup anywhere, and the hearing was put back.",
+          },
+        },
+      },
+      {
+        kind: "server",
+        title: "A fault in HQ’s server room",
+        time: "11:20",
+        setup:
+          "A fault takes out the computers in HQ’s server room for half a day.",
+        result: {
+          a: {
+            headline: "Every station is stuck",
+            from: "Records team",
+            message:
+              "All our shared files are on the file server in that room. No station can open them until it is fixed.",
+          },
+          b: {
+            headline: "Each station carries on",
+            from: "Records team",
+            message:
+              "There is no file server to fail: each station keeps its files on its own computers, so work carried on.",
+          },
+        },
+      },
+      {
+        kind: "offline",
+        title: "HQ’s internet line goes down",
+        time: "13:20",
+        setup:
+          "The provider’s line into HQ, which every station uses to reach the internet, is down for three hours.",
+        result: {
+          a: {
+            headline: "Records still open",
+            from: "Records team",
+            message:
+              "Police records are on our own servers at HQ, not on the internet. Checks carried on all afternoon.",
+          },
+          b: {
+            headline: "Records out of reach",
+            from: "Records team",
+            message:
+              "Police records are in the cloud, and the cloud needs the internet. For three hours nobody could check a record.",
+          },
+        },
+      },
+      {
+        kind: "remote",
+        title: "A record needed at a crime scene",
+        time: "10:05",
+        setup:
+          "An officer at a crime scene, miles from any station, needs to check a record now.",
+        result: {
+          a: {
+            headline: "Stuck waiting on HQ",
+            from: "PC Okafor",
+            message:
+              "Records are only on the servers in the HQ building, so my tablet cannot open them. I radioed HQ and waited forty minutes.",
+          },
+          b: {
+            headline: "Opened at the scene",
+            from: "PC Okafor",
+            message:
+              "Records are in the cloud, so I opened it on my tablet over the internet, in seconds.",
+          },
+        },
+      },
+      {
+        kind: "walls",
+        title: "Thick walls in the custody suite",
+        time: "02:30",
+        setup:
+          "The Riverside custody suite has thick concrete walls. Tonight every desk in it is busy.",
+        result: {
+          a: {
+            headline: "Every desk keeps working",
+            from: "Custody sergeant",
+            message:
+              "Our desks are on Ethernet cable, so the thick walls make no difference. Every booking was logged as it happened.",
+          },
+          b: {
+            headline: "Tablets keep dropping out",
+            from: "Custody sergeant",
+            message:
+              "The Wi-Fi signal cannot get through the thick walls. Tablets keep dropping off, so bookings are going on paper.",
+          },
+        },
+      },
+      {
+        kind: "move",
+        title: "A burst pipe in the custody suite",
+        time: "18:30",
+        setup:
+          "A burst pipe floods one end of the Riverside custody suite. Its desks must move to the dry end before the night shift.",
+        result: {
+          a: {
+            headline: "The moved desks cannot connect",
+            from: "Custody sergeant",
+            message:
+              "There are no cable sockets at the dry end. The desks are offline until new cables are run.",
+          },
+          b: {
+            headline: "Back online in minutes",
+            from: "Custody sergeant",
+            message:
+              "We carried the desks across, and every tablet joined the Wi-Fi straight away.",
+          },
+        },
+      },
+      {
+        kind: "snoop",
+        title: "Someone listens in from the car park",
+        time: "21:40",
+        setup:
+          "Someone in a car outside Millbrook station captures the station’s Wi-Fi traffic.",
+        result: {
+          a: {
+            headline: "Nothing they can read",
+            from: "Information security officer",
+            message:
+              "Our Wi-Fi is encrypted. They captured data, but it is meaningless without the key.",
+          },
+          b: {
+            headline: "Messages read from the car park",
+            from: "Information security officer",
+            message:
+              "Our Wi-Fi is open, so anyone in range can read what is sent. Officers’ messages were read from the car park.",
+          },
+        },
+      },
+    ],
+    hospital: [
+      {
+        kind: "cut",
+        title: "Building work cuts the Westway cable",
+        time: "11:20",
+        setup:
+          "A contractor cuts the cable between the main hospital and Westway clinic.",
+        result: {
+          a: {
+            headline: "Westway is cut off",
+            from: "Clinic manager, Westway",
+            message:
+              "That cable was our only link to the main hospital. No patient records since 11:20, so appointments are on paper.",
+          },
+          b: {
+            headline: "Westway stays online",
+            from: "Clinic manager, Westway",
+            message:
+              "Our data went another way, through another clinic. Records came up for every appointment.",
+          },
+        },
+      },
+      {
+        kind: "peak",
+        title: "Visiting hour",
+        time: "18:00",
+        setup:
+          "Hundreds of visitors’ phones join the hospital Wi-Fi, sharing one internet connection, just as the evening drug charts load.",
+        result: {
+          a: {
+            headline: "Drug charts crawl",
+            from: "Ward sister",
+            message:
+              "100 Mbps shared by every device was not enough. Each chart took a minute to open, so the medicine round ran late.",
+          },
+          b: {
+            headline: "Charts open straight away",
+            from: "Ward sister",
+            message:
+              "Even with every phone online, 1 Gbps gave each device enough data per second.",
+          },
+        },
+      },
+      {
+        kind: "files",
+        title: "A PC fails with scans on it",
+        time: "09:30",
+        setup:
+          "A patient’s scans are needed at the main hospital. The Hillside PC they were saved on has just failed.",
+        result: {
+          a: {
+            headline: "The scans are safe on the file server",
+            from: "Radiology",
+            message:
+              "The scans were saved to the file server, which is backed up every night. The consultant opened them that morning.",
+          },
+          b: {
+            headline: "The only copy is lost",
+            from: "Radiology",
+            message:
+              "The scans were only on that PC, with no backup. The patient has to come back to be scanned again.",
+          },
+        },
+      },
+      {
+        kind: "server",
+        title: "A fault in the server room",
+        time: "10:40",
+        setup:
+          "A fault takes out the computers in St Elm’s server room for half a day.",
+        result: {
+          a: {
+            headline: "Every clinic is stuck",
+            from: "Ward manager",
+            message:
+              "All the shared files are on the file server in that room. No clinic can open them until it is fixed.",
+          },
+          b: {
+            headline: "Each clinic carries on",
+            from: "Ward manager",
+            message:
+              "There is no file server to fail: each clinic keeps its files on its own computers, so work carried on.",
+          },
+        },
+      },
+      {
+        kind: "offline",
+        title: "The internet line goes down",
+        time: "13:10",
+        setup:
+          "The provider’s line into the main hospital, which every clinic uses to reach the internet, is down for three hours.",
+        result: {
+          a: {
+            headline: "Records still open",
+            from: "Records team",
+            message:
+              "Patient records are on our own servers in the hospital, not on the internet. Clinics carried on.",
+          },
+          b: {
+            headline: "Records out of reach",
+            from: "Records team",
+            message:
+              "Patient records are in the cloud, and the cloud needs the internet. Clinics worked from paper for three hours.",
+          },
+        },
+      },
+      {
+        kind: "remote",
+        title: "Records needed at 3am",
+        time: "03:00",
+        setup:
+          "The on-call consultant is at home when the ward phones. She needs the patient’s records now.",
+        result: {
+          a: {
+            headline: "The consultant has to drive in",
+            from: "On-call consultant",
+            message:
+              "The records are only on the servers in the hospital building, so I could not open them from home. I drove in.",
+          },
+          b: {
+            headline: "Opened from home",
+            from: "On-call consultant",
+            message:
+              "The records are in the cloud, so I opened them at home in a minute and phoned the ward back.",
+          },
+        },
+      },
+      {
+        kind: "walls",
+        title: "Thick walls in the scanner room",
+        time: "08:40",
+        setup:
+          "The Westway scanner room is in a basement with thick walls, and every scanner is booked all day.",
+        result: {
+          a: {
+            headline: "Every scanner keeps working",
+            from: "Radiographer",
+            message:
+              "Our machines are on Ethernet cable, so the thick walls make no difference. Every image saved as it was taken.",
+          },
+          b: {
+            headline: "Tablets keep dropping out",
+            from: "Radiographer",
+            message:
+              "The Wi-Fi signal cannot get through the thick basement walls. Bookings are not saving, and twelve were moved.",
+          },
+        },
+      },
+      {
+        kind: "move",
+        title: "A leak in the scanner room",
+        time: "07:00",
+        setup:
+          "Water leaks into one end of the Westway scanner room, so its booking desks must move to the dry end today.",
+        result: {
+          a: {
+            headline: "The moved desks cannot connect",
+            from: "Radiographer",
+            message:
+              "There are no cable sockets at the dry end. The desks are offline until new cables are run.",
+          },
+          b: {
+            headline: "Back online in minutes",
+            from: "Radiographer",
+            message:
+              "We moved the desks, and every tablet joined the Wi-Fi straight away.",
+          },
+        },
+      },
+      {
+        kind: "snoop",
+        title: "Someone listens in from the street",
+        time: "20:15",
+        setup:
+          "Someone outside Eastgate clinic captures the clinic’s Wi-Fi traffic.",
+        result: {
+          a: {
+            headline: "Nothing they can read",
+            from: "Data protection officer",
+            message:
+              "Our Wi-Fi is encrypted. They captured data, but it is meaningless without the key.",
+          },
+          b: {
+            headline: "Patient messages read outside",
+            from: "Data protection officer",
+            message:
+              "Our Wi-Fi is open, so anyone in range can read what is sent. Messages about patients were read from the street.",
+          },
+        },
+      },
+    ],
+    civil: [
+      {
+        kind: "cut",
+        title: "Roadworks cut the Glasgow cable",
+        time: "10:40",
+        setup:
+          "Engineers digging a new road cut the cable between Whitehall and the Glasgow office.",
+        result: {
+          a: {
+            headline: "Glasgow is cut off",
+            from: "Glasgow office manager",
+            message:
+              "That cable was our only link to Whitehall. Our caseworkers cannot open a single application.",
+          },
+          b: {
+            headline: "Glasgow stays online",
+            from: "Glasgow office manager",
+            message:
+              "Our data went another way, through another office. Applications kept arriving all day.",
+          },
+        },
+      },
+      {
+        kind: "peak",
+        title: "The summer passport rush",
+        time: "09:00",
+        setup:
+          "Summer holidays: every device at Whitehall is online at once, all sharing one internet connection.",
+        result: {
+          a: {
+            headline: "Every screen is slow",
+            from: "Senior caseworker",
+            message:
+              "100 Mbps shared by every device was not enough. Each application took a minute to open, and the queue grew by a week.",
+          },
+          b: {
+            headline: "Screens keep up",
+            from: "Senior caseworker",
+            message:
+              "Busiest week of the year, and 1 Gbps gave every device enough data per second.",
+          },
+        },
+      },
+      {
+        kind: "files",
+        title: "A PC fails with cases on it",
+        time: "11:30",
+        setup:
+          "The hard drive in a caseworker’s PC in Glasgow fails halfway through the day.",
+        result: {
+          a: {
+            headline: "The cases are safe on the file server",
+            from: "Caseworker, Glasgow",
+            message:
+              "My cases are saved to the file server, which is backed up. I logged in on another PC and carried on.",
+          },
+          b: {
+            headline: "Three cases are lost",
+            from: "Caseworker, Glasgow",
+            message:
+              "Three cases were only on that PC, with no backup. Those citizens must send their documents again.",
+          },
+        },
+      },
+      {
+        kind: "server",
+        title: "A fault in Whitehall’s server room",
+        time: "11:00",
+        setup:
+          "A fault takes out the computers in Whitehall’s server room for half a day.",
+        result: {
+          a: {
+            headline: "Every office is stuck",
+            from: "Team leader",
+            message:
+              "All the shared files are on the file server in that room. No office can open them until it is fixed.",
+          },
+          b: {
+            headline: "Each office carries on",
+            from: "Team leader",
+            message:
+              "There is no file server to fail: each office keeps its files on its own computers, so work carried on.",
+          },
+        },
+      },
+      {
+        kind: "offline",
+        title: "Whitehall’s internet line goes down",
+        time: "14:20",
+        setup: "The provider’s line into Whitehall is down for three hours.",
+        result: {
+          a: {
+            headline: "Records still open",
+            from: "Records team",
+            message:
+              "Passport records are on our own servers at Whitehall, not on the internet. Casework carried on.",
+          },
+          b: {
+            headline: "Records out of reach",
+            from: "Records team",
+            message:
+              "Passport records are in the cloud, and the cloud needs the internet. Three hours of casework had to wait.",
+          },
+        },
+      },
+      {
+        kind: "remote",
+        title: "Snow closes the Glasgow office",
+        time: "08:15",
+        setup:
+          "Heavy snow closes the Glasgow office, so its caseworkers must work from home.",
+        result: {
+          a: {
+            headline: "Nobody can work from home",
+            from: "Caseworker, Glasgow",
+            message:
+              "Passport records are only on the servers in the Whitehall building, so I cannot open them from home.",
+          },
+          b: {
+            headline: "Working from home",
+            from: "Caseworker, Glasgow",
+            message:
+              "Passport records are in the cloud, so I opened my cases from home over the internet.",
+          },
+        },
+      },
+      {
+        kind: "walls",
+        title: "Thick walls on the caseworker floor",
+        time: "09:45",
+        setup:
+          "The Glasgow caseworker floor is long, with thick stone walls, and every desk is in use.",
+        result: {
+          a: {
+            headline: "Every desk keeps working",
+            from: "Team leader",
+            message:
+              "Our desks are on Ethernet cable, so the walls and the distance make no difference.",
+          },
+          b: {
+            headline: "Far desks drop out",
+            from: "Team leader",
+            message:
+              "The Wi-Fi signal is too weak behind the thick walls. Desks far from the WAP keep dropping out.",
+          },
+        },
+      },
+      {
+        kind: "move",
+        title: "Ceiling repairs on the caseworker floor",
+        time: "08:00",
+        setup:
+          "Builders close one end of the Glasgow caseworker floor to repair the ceiling. Its desks must move to the other end today.",
+        result: {
+          a: {
+            headline: "The moved desks cannot connect",
+            from: "Team leader",
+            message:
+              "There are no spare cable sockets at the other end. The desks are offline until new cables are run.",
+          },
+          b: {
+            headline: "Back online in minutes",
+            from: "Team leader",
+            message:
+              "We carried the laptops across, and every one joined the Wi-Fi straight away.",
+          },
+        },
+      },
+      {
+        kind: "snoop",
+        title: "Someone listens in from the street",
+        time: "19:30",
+        setup: "Someone outside the Belfast office captures its Wi-Fi traffic.",
+        result: {
+          a: {
+            headline: "Nothing they can read",
+            from: "Security team",
+            message:
+              "Our Wi-Fi is encrypted. They captured data, but it is meaningless without the key.",
+          },
+          b: {
+            headline: "Applications read outside",
+            from: "Security team",
+            message:
+              "Our Wi-Fi is open, so anyone in range can read what is sent. Passport applications were read from the street.",
+          },
+        },
+      },
+    ],
+  },
+  ke = [
+    m("1.3", "Star Topology", {
+      id: "star",
+      term: "Star topology",
+      art: e.jsx(h, { id: "topology", side: "a" }),
+    }),
+    m("1.3", "Mesh Topology", {
+      id: "mesh",
+      term: "Mesh topology",
+      art: e.jsx(h, { id: "topology", side: "b" }),
+    }),
+    m("1.3", "Client-Server Network", {
+      id: "client-server",
+      term: "Client-server",
+      name: "A network with a central server",
+      art: e.jsx(h, { id: "model", side: "a" }),
+    }),
+    m("1.3", "Peer-to-Peer (P2P) Network", {
+      id: "peer-to-peer",
+      term: "Peer-to-peer",
+      name: "A network of equals",
+      art: e.jsx(h, { id: "model", side: "b" }),
+    }),
+    m("1.3", "The Cloud", {
+      id: "cloud",
+      term: "The cloud",
+      name: "Storage over the internet",
+      art: e.jsx(h, { id: "storage", side: "b" }),
+    }),
+    m("1.3", "Bandwidth", {
+      id: "bandwidth",
+      term: "Bandwidth",
+      name: "The most data per second",
+      art: e.jsx(h, { id: "bandwidth", side: "b" }),
+    }),
+    m("1.3", "Wired Connection (Ethernet)", {
+      id: "wired",
+      term: "Wired",
+      name: "Ethernet cables",
+      art: e.jsx(h, { id: "area", side: "a" }),
+    }),
+    m("1.3", "Wireless Connection (Wi-Fi)", {
+      id: "wireless",
+      term: "Wireless",
+      name: "Wi-Fi",
+      art: e.jsx(h, { id: "area", side: "b" }),
+    }),
+    m("1.4", "Encryption", {
+      id: "encryption",
+      term: "Encryption",
+      name: "Scrambled with a key",
+      art: e.jsx(h, { id: "wifi", side: "a" }),
+    }),
+  ];
+function Re({ rng: v = Math.random }) {
+  le();
+  const [t, s] = k.useState({ type: "cards" }),
+    [r, l] = k.useState("police"),
+    [o, j] = k.useState({}),
+    [d, W] = k.useState([]),
+    [T, n] = k.useState([]),
+    i = Y(r),
+    u = R(o) ? o : q,
+    c = x.filter(
+      (a) => o[a] && (t.type !== "decide" || x.indexOf(a) < t.step),
+    ).length,
+    f = c + T.length;
+  B(f, x.length + U, c + T.filter((a) => a === "protected").length);
+  function w(a) {
+    (l(a), n([]), j({}), W([]), s({ type: "decide", step: 0 }));
+  }
+  function C() {
+    if (!R(o)) return;
+    const a = ie(ge[r], v);
+    (W(a), n([]), s({ type: "week" }));
+  }
+  const g = t.type === "incident" ? t.round : 0,
+    A = k.useCallback(() => {
+      s({ type: "incident", round: g, phase: "result" });
+    }, [g]);
+  function O() {
+    const a = d[g];
+    a &&
+      (n((y) => {
+        const b = [...y];
+        return ((b[g] = ae(a.kind, u)), b);
+      }),
+      s({ type: "incident", round: g, phase: "playing" }));
+  }
+  const F = (() => {
+    if (t.type === "cards" || t.type === "pick") return null;
+    const a = (b) => V(b, i.scale);
+    if (t.type === "decide") {
+      const { spent: b, bite: I } = $(o, t.step);
+      return e.jsx(P, { total: E, spent: b, bite: I, format: a });
+    }
+    const y = e.jsx(P, { total: E, spent: z(o), format: a });
+    return t.type === "review"
+      ? y
+      : e.jsxs(e.Fragment, { children: [e.jsx(J, { org: i }), y] });
+  })();
+  let p;
+  switch (t.type) {
+    case "cards":
+      p = e.jsx(ce, {
+        title: "Know your network",
+        cards: ke,
+        skipLabel: "Skip to the build",
+        doneLabel: "Choose an organisation",
+        buttonClass: "nb-button",
+        primaryClass: "nb-primary",
+        titleClass: "nb-title",
+        onDone: () => s({ type: "pick" }),
+      });
+      break;
+    case "pick":
+      p = e.jsx(ne, { ids: fe, onPick: w });
+      break;
+    case "decide":
+      p = e.jsx(
+        ee,
+        {
+          org: i,
+          build: o,
+          step: t.step,
+          onPick: (a) => j((y) => te(y, t.step, a)),
+          onBack: () =>
+            s(
+              t.step === 0
+                ? { type: "pick" }
+                : { type: "decide", step: t.step - 1 },
+            ),
+          onNext: () =>
+            s(
+              t.step === x.length - 1
+                ? { type: "review" }
+                : { type: "decide", step: t.step + 1 },
+            ),
+        },
+        t.step,
+      );
+      break;
+    case "review":
+      p = e.jsx(oe, {
+        org: i,
+        build: o,
+        onBack: () => s({ type: "decide", step: x.length - 1 }),
+        onConfirm: C,
+      });
+      break;
+    case "week":
+      p = e.jsx(ue, {
+        org: i,
+        build: u,
+        week: d,
+        onStart: () => s({ type: "incident", round: 0, phase: "event" }),
+      });
+      break;
+    case "incident":
+      p = e.jsx(
+        pe,
+        {
+          org: i,
+          build: u,
+          week: d,
+          outcomes: T,
+          round: t.round,
+          phase: t.phase,
+          onPlay: O,
+          onPlayed: A,
+          isLast: t.round === d.length - 1,
+          onNext: () =>
+            s(
+              t.round === d.length - 1
+                ? { type: "report" }
+                : { type: "incident", round: t.round + 1, phase: "event" },
+            ),
+        },
+        t.round,
+      );
+      break;
+    case "report":
+      p = e.jsxs(e.Fragment, {
+        children: [
+          e.jsx(X, {
+            org: i,
+            rows: Z({ build: u, week: d, trace: {} }),
+            onPlayAgain: () => w(r),
+            onPickAnother: () => s({ type: "pick" }),
+          }),
+          e.jsx(G, { game: "network-build" }),
+        ],
+      });
+      break;
+  }
+  return e.jsxs("div", {
+    className: "network-build",
+    "data-network-build": r,
+    children: [
+      e.jsx(se, { title: "Network Build", right: F }),
+      e.jsx("div", { className: "nb-body", children: p }),
+    ],
+  });
+}
+export { Re as default };

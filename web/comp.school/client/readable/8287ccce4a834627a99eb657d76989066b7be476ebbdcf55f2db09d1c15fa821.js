@@ -1,0 +1,4126 @@
+import { r as b, j as e } from "./react-vendor-BK1G6oO1.js";
+import {
+  b5 as te,
+  b6 as se,
+  bm as re,
+  a8 as X,
+  R as Me,
+  ca as We,
+} from "./index-DjyiOHey.js";
+import { aq as Ie, aT as Se } from "./GameNotebook-b0Qw2wzd.js";
+import { s as H } from "./revision-content-CLnFOyQ7.js";
+import { T as Ae } from "./action-styles-DWMwPIR0.js";
+import { h as $e, i as Re, p as Ce, m as xe } from "./proxy-DGk2Wawc.js";
+import { M as Te } from "./index-DODcXJEq.js";
+import "./ui-components-DeMDYLzO.js";
+function Pe() {
+  !$e.current && Re();
+  const [t] = b.useState(Ce.current);
+  return t;
+}
+const ie = [
+  { id: "embedded", name: "Embedded system" },
+  { id: "general", name: "General-purpose computer" },
+  { id: "none", name: "No computer" },
+];
+function Q(t) {
+  return ie.find(({ id: s }) => s === t)?.name ?? t;
+}
+const ze = {
+    dedicated: "Dedicated function",
+    larger: "Part of a larger device",
+    hardware: "Dedicated hardware and sensors",
+    processor: "Dedicated microprocessor",
+    firmware: "Firmware, hard to change",
+    automated: "Automatic control",
+    realtime: "Real time",
+    lowpower: "Low power",
+    reliable: "Reliable",
+    limitedui: "Limited interface",
+  },
+  Z = [
+    {
+      id: "microwave",
+      scene: "kitchen",
+      name: "Microwave",
+      look: "You key in a time and power level, press start, and it beeps when the food is hot.",
+      kind: "embedded",
+      why: "An embedded system: a computer system built into the microwave with one dedicated function, controlling how long and how hard it heats.",
+      reasons: [
+        {
+          trait: "dedicated",
+          text: "It only heats food for the time and power keyed in",
+        },
+        {
+          trait: "firmware",
+          text: "Its program is firmware in ROM, so its function is hard to change",
+        },
+        {
+          trait: "limitedui",
+          text: "A small keypad and display are all the controls it needs",
+        },
+      ],
+    },
+    {
+      id: "washer",
+      scene: "kitchen",
+      name: "Washing machine",
+      look: "Turn the dial to a programme and it fills, heats, washes and spins on its own.",
+      kind: "embedded",
+      why: "An embedded system: a processor built into a larger machine, running a limited set of wash programmes automatically.",
+      reasons: [
+        {
+          trait: "larger",
+          text: "Its processor is built into the larger washing machine",
+        },
+        {
+          trait: "dedicated",
+          text: "Limited functions: it only runs wash programmes",
+        },
+        {
+          trait: "automated",
+          text: "It controls the water, heater and drum automatically",
+        },
+      ],
+    },
+    {
+      id: "laptop",
+      scene: "kitchen",
+      name: "Laptop",
+      look: "Homework open in one window, music in another, a game minimised.",
+      kind: "general",
+      why: "A general-purpose computer: it runs many different programs the user chooses to install, so it is not dedicated to one function.",
+    },
+    {
+      id: "eggtimer",
+      scene: "kitchen",
+      name: "Wind-up egg timer",
+      look: "Twist it to 4 minutes and it ticks down, then rings.",
+      kind: "none",
+      why: "No computer at all: a wound spring turns it back to zero and strikes a bell. There is no processor and no program.",
+    },
+    {
+      id: "thermostat",
+      scene: "kitchen",
+      name: "Heating thermostat",
+      look: "Set it to 20°C and the boiler comes on whenever the room is colder than that.",
+      kind: "embedded",
+      why: "An embedded system: a small computer system dedicated to one job, keeping the room at the set temperature.",
+      reasons: [
+        {
+          trait: "dedicated",
+          text: "It only keeps the room at the set temperature",
+        },
+        {
+          trait: "hardware",
+          text: "It has a dedicated temperature sensor and switches the boiler automatically",
+        },
+        {
+          trait: "lowpower",
+          text: "Low power: it runs for months on two small batteries",
+        },
+      ],
+    },
+    {
+      id: "followme",
+      scene: "car",
+      name: "'Follow Me' cruise control",
+      look: "It keeps the same speed and distance to the car in front without the driver touching the pedals.",
+      kind: "embedded",
+      why: "An embedded system: it is built into the car, has the specific purpose of controlling speed and distance, and reads its sensor to adjust the car automatically.",
+      examPrompt:
+        "A car has a 'Follow Me' system that uses a cruise control feature to allow the car to follow the car in front of it. It will keep the same speed and distance without the driver's intervention. Explain the reasons why the 'Follow Me' system is an example of an embedded system.",
+      reasons: [
+        {
+          trait: "larger",
+          text: "It is built within a larger device: the car",
+        },
+        {
+          trait: "dedicated",
+          text: "It has a specific purpose: keeping speed and distance",
+        },
+        {
+          trait: "automated",
+          text: "It uses its sensor to control the car automatically",
+        },
+      ],
+    },
+    {
+      id: "parking",
+      scene: "car",
+      name: "Parking sensors",
+      look: "Reversing into a space, the beeps get faster the closer the wall gets.",
+      kind: "embedded",
+      why: "An embedded system: built into the car with one limited function, warning the driver how close an obstacle is.",
+      reasons: [
+        {
+          trait: "dedicated",
+          text: "It only measures how close an obstacle is and beeps",
+        },
+        {
+          trait: "realtime",
+          text: "It must react straight away as the car gets closer",
+        },
+        {
+          trait: "firmware",
+          text: "Its built-in software is firmware, so its function is hard to change",
+        },
+      ],
+    },
+    {
+      id: "satnav",
+      scene: "car",
+      name: "Sat nav",
+      look: 'Built into the dashboard, it plans the route and says "In 200 yards, turn left".',
+      kind: "embedded",
+      why: "An embedded system: built into the car with a limited function, planning routes and giving directions, from software the driver cannot change.",
+      reasons: [
+        {
+          trait: "dedicated",
+          text: "Limited function: it only plans routes and gives directions",
+        },
+        {
+          trait: "firmware",
+          text: "Its built-in software is firmware, so its function is hard to change",
+        },
+        {
+          trait: "larger",
+          text: "It is built into the dashboard of a larger device, the car",
+        },
+      ],
+    },
+    {
+      id: "phone",
+      scene: "car",
+      name: "Smartphone",
+      look: "In the back seat, the passenger plays music, sends messages and plays a game on it.",
+      kind: "general",
+      why: "A general-purpose computer: the owner installs apps to do many different jobs, so it is not dedicated to one function.",
+    },
+    {
+      id: "atlas",
+      scene: "car",
+      name: "Road atlas",
+      look: "A paper book of maps in the door pocket, for when the signal drops.",
+      kind: "none",
+      why: "No computer at all: printed paper pages. Nothing processes any input.",
+    },
+    {
+      id: "monitor",
+      scene: "ward",
+      name: "Heart rate monitor",
+      look: "It shows the patient’s heartbeat as a moving line and sounds an alarm if it goes wrong.",
+      kind: "embedded",
+      why: "An embedded system: a dedicated computer system that only reads and displays the patient’s heart rate, and must react in real time.",
+      reasons: [
+        {
+          trait: "dedicated",
+          text: "It only monitors the heart and raises the alarm",
+        },
+        {
+          trait: "hardware",
+          text: "It has dedicated sensors attached to the patient",
+        },
+        {
+          trait: "realtime",
+          text: "It must show a change in heart rate the moment it happens",
+        },
+      ],
+    },
+    {
+      id: "pump",
+      scene: "ward",
+      name: "Drip pump",
+      look: "A nurse sets 50 ml an hour and it delivers the medicine at exactly that rate.",
+      kind: "embedded",
+      why: "An embedded system: built into the pump with one dedicated function, controlling the flow rate automatically.",
+      reasons: [
+        {
+          trait: "dedicated",
+          text: "It only controls how fast the drip flows",
+        },
+        { trait: "processor", text: "It has its own dedicated microprocessor" },
+        {
+          trait: "reliable",
+          text: "It must be reliable: a wrong dose could harm the patient",
+        },
+      ],
+    },
+    {
+      id: "pacemaker",
+      scene: "ward",
+      name: "Pacemaker",
+      look: "A device inside the patient’s chest that keeps the heart beating steadily.",
+      kind: "embedded",
+      why: "An embedded system: a tiny computer system with one dedicated function, keeping the heart in rhythm, built to use very little power.",
+      reasons: [
+        {
+          trait: "dedicated",
+          text: "It has one dedicated function: keeping the heart in rhythm",
+        },
+        {
+          trait: "automated",
+          text: "It uses a sensor to control the heartbeat automatically",
+        },
+        {
+          trait: "lowpower",
+          text: "Low power, so its battery lasts for years",
+        },
+      ],
+    },
+    {
+      id: "desktop",
+      scene: "ward",
+      name: "Ward computer",
+      look: "Nurses use it for patient notes, email, rotas and ordering supplies.",
+      kind: "general",
+      why: "A general-purpose computer: it runs many different programs for many different jobs, and new software can be installed.",
+    },
+    {
+      id: "clipboard",
+      scene: "ward",
+      name: "Paper chart",
+      look: "A clipboard at the end of the bed where staff write temperatures by hand.",
+      kind: "none",
+      why: "No computer at all: paper and ink. The nurse does all the processing.",
+    },
+    {
+      id: "lights",
+      scene: "street",
+      name: "Traffic lights",
+      look: "Press the button at the crossing and the lights change to let you cross.",
+      kind: "embedded",
+      why: "An embedded system: a computer system with a dedicated function, changing the lights in sequence, that must run reliably day and night.",
+      reasons: [
+        {
+          trait: "dedicated",
+          text: "It only changes the lights in their sequence",
+        },
+        { trait: "processor", text: "It has its own dedicated microprocessor" },
+        {
+          trait: "reliable",
+          text: "It must be reliable: it runs for years without anyone restarting it",
+        },
+      ],
+    },
+    {
+      id: "cardreader",
+      scene: "street",
+      name: "Card reader",
+      look: "Tap a card or key in a PIN to pay at the café counter.",
+      kind: "embedded",
+      why: "An embedded system: a dedicated computer system that only takes card payments, with a limited interface.",
+      reasons: [
+        { trait: "dedicated", text: "It only takes card payments" },
+        {
+          trait: "firmware",
+          text: "Its program is built-in firmware, so its function is hard to change",
+        },
+        {
+          trait: "limitedui",
+          text: "A small keypad and screen, just for the amount and the PIN",
+        },
+      ],
+    },
+    {
+      id: "ticketmachine",
+      scene: "street",
+      name: "Parking ticket machine",
+      look: "Choose how many hours, pay, and it prints a ticket for the windscreen.",
+      kind: "embedded",
+      why: "An embedded system: a computer system dedicated to selling parking tickets, built to run outdoors on its own.",
+      reasons: [
+        { trait: "dedicated", text: "It only sells parking tickets" },
+        { trait: "processor", text: "It has its own dedicated microprocessor" },
+        {
+          trait: "limitedui",
+          text: "A few buttons and a small screen to choose the hours",
+        },
+      ],
+    },
+    {
+      id: "tablet",
+      scene: "street",
+      name: "Tablet",
+      look: "Someone at the café table is video calling, then edits a photo, then reads the news.",
+      kind: "general",
+      why: "A general-purpose computer: it runs whatever apps the owner installs, for many different tasks.",
+    },
+    {
+      id: "postbox",
+      scene: "street",
+      name: "Postbox",
+      look: "Letters go in the slot and wait for the collection.",
+      kind: "none",
+      why: "No computer at all: a metal box with a slot and a locked door.",
+    },
+  ],
+  A = [
+    {
+      id: "kitchen",
+      name: "The kitchen",
+      objects: ["microwave", "washer", "laptop", "eggtimer", "thermostat"],
+    },
+    {
+      id: "car",
+      name: "The motorway",
+      objects: ["followme", "parking", "satnav", "phone", "atlas"],
+    },
+    {
+      id: "ward",
+      name: "The hospital ward",
+      objects: ["monitor", "pump", "pacemaker", "desktop", "clipboard"],
+    },
+    {
+      id: "street",
+      name: "The high street",
+      objects: ["lights", "cardreader", "ticketmachine", "tablet", "postbox"],
+    },
+  ];
+function R(t) {
+  return Z.find((s) => s.id === t);
+}
+function q(t) {
+  return t.objects.map((s) => R(s)).filter((s) => !!s);
+}
+const ne = [
+    "It runs any program the user chooses to install",
+    "It is used for many different tasks, such as browsing, documents and games",
+    "Its user regularly installs new software on it",
+    "Its function is easy for the user to change",
+  ],
+  P = 3,
+  Le = 2;
+function Ee(t, s = Math.random) {
+  const i = (t.reasons ?? []).map((o, x) => ({
+      id: `${t.id}-r${x}`,
+      text: o.text,
+      trait: o.trait,
+    })),
+    d = H(ne, s)
+      .slice(0, Le)
+      .map((o) => ({ id: `${t.id}-x-${ne.indexOf(o)}`, text: o, trait: null }));
+  return H([...i, ...d], s);
+}
+function fe(t, s) {
+  return s.filter((i) => t.find((d) => d.id === i)?.trait).length;
+}
+const _ = {
+  stem: "A car comes with many embedded systems, for example parking sensors.",
+  identify: "Identify one other embedded system that could be found in a car.",
+  explain: "Explain why this is an embedded system.",
+  given: "parking",
+};
+function Y(t) {
+  if (t === _.given) return "given";
+  const s = R(t);
+  return s?.scene === "car" && s.kind === "embedded" ? "right" : "not-embedded";
+}
+const F = 2;
+function qe(t, s = Math.random) {
+  const d =
+    R(t)?.reasons?.find(({ trait: o }) => o === "dedicated")?.text ??
+    "It has limited functions";
+  return H(
+    [
+      {
+        id: "limited",
+        text: d,
+        trait: "dedicated",
+        credit: !0,
+        note: "Limited functions: credited.",
+      },
+      {
+        id: "processor",
+        text: "It has its own dedicated microprocessor",
+        trait: "dedicated",
+        credit: !0,
+        note: "Dedicated microprocessor: credited.",
+      },
+      {
+        id: "hard-to-change",
+        text: "Its function is hard to change",
+        trait: "firmware",
+        credit: !0,
+        note: "Hard to change function: credited.",
+      },
+      {
+        id: "built-in",
+        text: "It is built into the car",
+        trait: "larger",
+        credit: !1,
+        note: "True, but not credited: the question already says it is in a car.",
+      },
+      {
+        id: "apps",
+        text: "It runs any program the user chooses to install",
+        trait: null,
+        credit: !1,
+        note: "That describes a general-purpose computer.",
+      },
+    ],
+    s,
+  );
+}
+const C = {
+  terms: [
+    "actuator",
+    "applications",
+    "change",
+    "functions",
+    "laptop",
+    "larger",
+    "lights",
+    "microprocessor",
+    "processor",
+    "range",
+    "smaller",
+    "washing machine",
+  ],
+  parts: [
+    "Embedded systems have limited ",
+    ". They are often built into a ",
+    " machine. Two examples of embedded systems are a ",
+    " and automated ",
+    " in a car.",
+  ],
+  answers: ["functions", "larger", "washing machine", "lights"],
+};
+function B(t) {
+  return C.answers.filter((s, i) => t[i] === s).length;
+}
+const me = 100,
+  G = 50,
+  pe = 100,
+  ge = 50;
+function ue() {
+  const t = Z.filter(({ kind: s }) => s === "embedded").length;
+  return Z.length * me + t * P * G + pe + F * G + C.answers.length * ge;
+}
+const V = [
+  [0.95, "Hidden Computer Hunter"],
+  [0.8, "X-ray Specialist"],
+  [0.6, "Chip Spotter"],
+  [0.4, "Trainee Scanner"],
+  [0, "Goggles Still Steamed Up"],
+];
+function Fe(t, s = ue()) {
+  const i = s > 0 ? t / s : 0;
+  return V.find(([d]) => i >= d)?.[1] ?? V[V.length - 1][1];
+}
+function Oe(t) {
+  let s = t >>> 0 || 1;
+  return () => ((s = (s * 1664525 + 1013904223) >>> 0), s / 2 ** 32);
+}
+const p = {
+    bg: "#04172a",
+    line: "#7dd3fc",
+    faint: "rgba(125, 211, 252, 0.35)",
+    chip: "#fbbf24",
+    general: "#c4b5fd",
+    none: "#94a3b8",
+  },
+  je = { embedded: p.chip, general: p.general, none: p.none },
+  N = 960,
+  z = 540,
+  D = {
+    microwave: { cx: 165, cy: 252, r: 72, s: 1.25 },
+    washer: { cx: 372, cy: 392, r: 70, s: 1.15 },
+    laptop: { cx: 705, cy: 262, r: 62, s: 1 },
+    eggtimer: { cx: 520, cy: 276, r: 44, s: 0.85, mechanism: "spring" },
+    thermostat: { cx: 875, cy: 175, r: 50, s: 0.85 },
+    followme: { cx: 772, cy: 372, r: 56, s: 0.95 },
+    parking: { cx: 62, cy: 392, r: 50, s: 0.85 },
+    satnav: { cx: 588, cy: 282, r: 46, s: 0.8 },
+    phone: { cx: 318, cy: 282, r: 46, s: 0.7 },
+    atlas: { cx: 330, cy: 384, r: 44, s: 0.8, mechanism: "paper" },
+    monitor: { cx: 262, cy: 178, r: 58, s: 1 },
+    pump: { cx: 790, cy: 292, r: 52, s: 0.9 },
+    pacemaker: { cx: 478, cy: 286, r: 46, s: 0.75 },
+    desktop: { cx: 100, cy: 330, r: 58, s: 0.9 },
+    clipboard: { cx: 690, cy: 404, r: 42, s: 0.8, mechanism: "paper" },
+    lights: { cx: 120, cy: 196, r: 58, s: 0.95 },
+    cardreader: { cx: 598, cy: 268, r: 44, s: 0.8 },
+    ticketmachine: { cx: 848, cy: 318, r: 58, s: 1 },
+    tablet: { cx: 440, cy: 352, r: 46, s: 0.75 },
+    postbox: { cx: 262, cy: 352, r: 54, s: 0.9, mechanism: "letters" },
+  },
+  M = "#1e293b",
+  r = { stroke: M, strokeWidth: 2.5, strokeLinejoin: "round" },
+  K = ["#f1c9a5", "#c68e5f", "#8d5a36"],
+  _e = ["#3b2416", "#111827", "#b7793a"];
+function U({
+  x: t,
+  y: s,
+  s: i = 1,
+  shirt: d,
+  skin: o = 0,
+  hair: x = 0,
+  flip: n,
+}) {
+  return e.jsxs("g", {
+    transform: `translate(${t} ${s}) scale(${n ? -i : i} ${i})`,
+    children: [
+      e.jsx("path", {
+        d: "M-26 0v-14c0-12 11-20 26-20s26 8 26 20V0z",
+        fill: d,
+        ...r,
+      }),
+      e.jsx("rect", { x: -6, y: -40, width: 12, height: 9, fill: K[o] }),
+      e.jsx("circle", { cx: 0, cy: -50, r: 15, fill: K[o], ...r }),
+      e.jsx("path", {
+        d: "M-15.5 -51a15.5 15.5 0 0 1 31 0q-9-8-16-7t-15 7z",
+        fill: _e[x],
+      }),
+      e.jsx("circle", { cx: 4, cy: -50, r: 1.7, fill: M }),
+      e.jsx("circle", { cx: 10, cy: -50, r: 1.7, fill: M }),
+      e.jsx("path", {
+        d: "M4 -43q4 2 7 0",
+        fill: "none",
+        stroke: M,
+        strokeWidth: 1.4,
+        strokeLinecap: "round",
+      }),
+    ],
+  });
+}
+function De() {
+  return e.jsxs("g", {
+    "data-scene-art": "kitchen",
+    children: [
+      e.jsx("rect", { width: N, height: z, fill: "#f6e7c8" }),
+      Array.from({ length: 24 }, (t, s) =>
+        e.jsx(
+          "rect",
+          {
+            x: s * 40,
+            y: 226,
+            width: 40,
+            height: 74,
+            fill: s % 2 ? "#e8f1f2" : "#d9e9ec",
+            stroke: "#c3d6da",
+          },
+          s,
+        ),
+      ),
+      e.jsx("rect", {
+        x: 380,
+        y: 44,
+        width: 220,
+        height: 150,
+        rx: 6,
+        fill: "#bae6fd",
+        ...r,
+      }),
+      e.jsx("path", {
+        d: "M380 150h220",
+        stroke: "#e0f2fe",
+        strokeWidth: 30,
+        opacity: 0.4,
+      }),
+      e.jsx("circle", { cx: 430, cy: 92, r: 22, fill: "#fde68a" }),
+      e.jsx("path", {
+        d: "M380 170q60-40 120-10t100-10v44H380z",
+        fill: "#86efac",
+      }),
+      e.jsx("path", {
+        d: "M490 44v150M380 119h220",
+        stroke: "#f8fafc",
+        strokeWidth: 8,
+      }),
+      e.jsx("rect", {
+        x: 380,
+        y: 44,
+        width: 220,
+        height: 150,
+        rx: 6,
+        fill: "none",
+        ...r,
+      }),
+      e.jsx("rect", {
+        x: 366,
+        y: 194,
+        width: 248,
+        height: 12,
+        rx: 3,
+        fill: "#fafaf9",
+        ...r,
+      }),
+      e.jsx("path", { d: "M560 194l6-24h20l6 24z", fill: "#ea8a5b", ...r }),
+      e.jsx("path", {
+        d: "M576 170c-8-18-20-24-26-22M576 170c4-20 14-26 22-24M576 170c0-16-2-26 0-32",
+        stroke: "#16a34a",
+        strokeWidth: 5,
+        fill: "none",
+        strokeLinecap: "round",
+      }),
+      e.jsx("path", {
+        d: "M40 60h260",
+        stroke: "#78716c",
+        strokeWidth: 5,
+        strokeLinecap: "round",
+      }),
+      [70, 120, 170, 220, 270].map((t, s) =>
+        e.jsxs(
+          "g",
+          {
+            children: [
+              e.jsx("path", {
+                d: `M${t} 60v${36 + (s % 2) * 10}`,
+                stroke: "#57534e",
+                strokeWidth: 4,
+              }),
+              s % 2
+                ? e.jsx("ellipse", {
+                    cx: t,
+                    cy: 112,
+                    rx: 11,
+                    ry: 14,
+                    fill: "#a8a29e",
+                    ...r,
+                  })
+                : e.jsx("path", {
+                    d: `M${t - 8} 96h16l-3 16h-10z`,
+                    fill: "#d6d3d1",
+                    ...r,
+                  }),
+            ],
+          },
+          t,
+        ),
+      ),
+      e.jsx("rect", {
+        x: 0,
+        y: 300,
+        width: N,
+        height: 16,
+        fill: "#c08457",
+        ...r,
+      }),
+      e.jsx("rect", { x: 0, y: 316, width: N, height: 164, fill: "#6d8fb5" }),
+      [0, 1, 2, 3, 4, 5, 6, 7].map((t) =>
+        e.jsxs(
+          "g",
+          {
+            children: [
+              e.jsx("rect", {
+                x: t * 120 + 8,
+                y: 326,
+                width: 104,
+                height: 144,
+                rx: 6,
+                fill: "#7ea2c8",
+                ...r,
+              }),
+              e.jsx("rect", {
+                x: t * 120 + 52,
+                y: 340,
+                width: 16,
+                height: 5,
+                rx: 2,
+                fill: "#e2e8f0",
+              }),
+            ],
+          },
+          t,
+        ),
+      ),
+      e.jsx("rect", { x: 0, y: 480, width: N, height: 60, fill: "#d6b48c" }),
+      Array.from({ length: 12 }, (t, s) =>
+        e.jsx(
+          "rect",
+          { x: s * 80, y: 480, width: 40, height: 60, fill: "#c49a6c" },
+          s,
+        ),
+      ),
+      e.jsxs("g", {
+        "data-object-art": "microwave",
+        children: [
+          e.jsx("rect", {
+            x: 68,
+            y: 196,
+            width: 196,
+            height: 104,
+            rx: 10,
+            fill: "#e2e8f0",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 82,
+            y: 210,
+            width: 122,
+            height: 76,
+            rx: 6,
+            fill: "#334155",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 92,
+            y: 220,
+            width: 102,
+            height: 56,
+            rx: 4,
+            fill: "#475569",
+          }),
+          e.jsx("ellipse", {
+            cx: 143,
+            cy: 262,
+            rx: 30,
+            ry: 8,
+            fill: "#64748b",
+          }),
+          e.jsx("rect", {
+            x: 214,
+            y: 210,
+            width: 40,
+            height: 18,
+            rx: 3,
+            fill: "#0f172a",
+          }),
+          e.jsx("text", {
+            x: 234,
+            y: 223,
+            textAnchor: "middle",
+            fontSize: 11,
+            fill: "#4ade80",
+            fontFamily: "monospace",
+            fontWeight: 700,
+            children: "2:30",
+          }),
+          [0, 1, 2].map((t) =>
+            [0, 1, 2].map((s) =>
+              e.jsx(
+                "rect",
+                {
+                  x: 217 + s * 12,
+                  y: 236 + t * 12,
+                  width: 9,
+                  height: 8,
+                  rx: 2,
+                  fill: "#94a3b8",
+                },
+                `${t}-${s}`,
+              ),
+            ),
+          ),
+          e.jsx("rect", {
+            x: 217,
+            y: 274,
+            width: 33,
+            height: 12,
+            rx: 3,
+            fill: "#22c55e",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+        ],
+      }),
+      e.jsxs("g", {
+        "data-object-art": "washer",
+        children: [
+          e.jsx("rect", {
+            x: 300,
+            y: 318,
+            width: 144,
+            height: 160,
+            rx: 8,
+            fill: "#f8fafc",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 300,
+            y: 318,
+            width: 144,
+            height: 30,
+            rx: 8,
+            fill: "#e2e8f0",
+            ...r,
+          }),
+          e.jsx("circle", {
+            cx: 326,
+            cy: 333,
+            r: 9,
+            fill: "#cbd5e1",
+            ...r,
+            strokeWidth: 1.8,
+          }),
+          e.jsx("path", { d: "M326 333l5-5", stroke: M, strokeWidth: 2 }),
+          e.jsx("rect", {
+            x: 348,
+            y: 326,
+            width: 44,
+            height: 14,
+            rx: 3,
+            fill: "#0f172a",
+          }),
+          e.jsx("circle", { cx: 402, cy: 333, r: 3, fill: "#38bdf8" }),
+          e.jsx("circle", { cx: 414, cy: 333, r: 3, fill: "#94a3b8" }),
+          e.jsx("circle", { cx: 372, cy: 410, r: 46, fill: "#cbd5e1", ...r }),
+          e.jsx("circle", { cx: 372, cy: 410, r: 34, fill: "#93c5fd", ...r }),
+          e.jsx("path", {
+            d: "M346 418q26 14 52 0v14a34 34 0 0 1 -52 0z",
+            fill: "#60a5fa",
+          }),
+          e.jsx("path", {
+            d: "M352 398q10-10 22-8",
+            stroke: "#eff6ff",
+            strokeWidth: 4,
+            fill: "none",
+            strokeLinecap: "round",
+          }),
+        ],
+      }),
+      e.jsxs("g", {
+        "data-object-art": "eggtimer",
+        children: [
+          e.jsx("ellipse", {
+            cx: 520,
+            cy: 296,
+            rx: 26,
+            ry: 6,
+            fill: "rgba(0,0,0,0.15)",
+          }),
+          e.jsx("path", {
+            d: "M494 290a26 26 0 0 1 52 0z",
+            fill: "#fde047",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 496,
+            y: 268,
+            width: 48,
+            height: 10,
+            rx: 4,
+            fill: "#facc15",
+            ...r,
+          }),
+          e.jsx("path", { d: "M500 268q20-26 40 0", fill: "#fef9c3", ...r }),
+          [-2, -1, 0, 1, 2].map((t) =>
+            e.jsx(
+              "path",
+              { d: `M${520 + t * 7} 273v4`, stroke: M, strokeWidth: 1.5 },
+              t,
+            ),
+          ),
+          e.jsx("path", {
+            d: "M520 248v8",
+            stroke: M,
+            strokeWidth: 3,
+            strokeLinecap: "round",
+          }),
+        ],
+      }),
+      e.jsxs("g", {
+        "data-object-art": "laptop",
+        children: [
+          e.jsx("path", {
+            d: "M650 300l10-14h96l10 14z",
+            fill: "#94a3b8",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 658,
+            y: 214,
+            width: 100,
+            height: 70,
+            rx: 5,
+            fill: "#334155",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 664,
+            y: 220,
+            width: 88,
+            height: 58,
+            rx: 2,
+            fill: "#e0f2fe",
+          }),
+          e.jsx("rect", {
+            x: 667,
+            y: 223,
+            width: 40,
+            height: 30,
+            fill: "#ffffff",
+            stroke: "#93c5fd",
+          }),
+          [229, 235, 241, 247].map((t) =>
+            e.jsx(
+              "path",
+              {
+                d: `M671 ${t}h${t === 247 ? 18 : 32}`,
+                stroke: "#94a3b8",
+                strokeWidth: 2,
+              },
+              t,
+            ),
+          ),
+          e.jsx("rect", {
+            x: 711,
+            y: 223,
+            width: 38,
+            height: 22,
+            fill: "#a78bfa",
+          }),
+          e.jsx("path", { d: "M722 230l10 5-10 5z", fill: "#fff" }),
+          e.jsx("rect", {
+            x: 711,
+            y: 249,
+            width: 38,
+            height: 26,
+            fill: "#22c55e",
+          }),
+          e.jsx("circle", { cx: 724, cy: 262, r: 5, fill: "#fde047" }),
+          e.jsx("rect", {
+            x: 667,
+            y: 257,
+            width: 40,
+            height: 18,
+            fill: "#f472b6",
+          }),
+        ],
+      }),
+      e.jsx("rect", {
+        x: 600,
+        y: 270,
+        width: 22,
+        height: 28,
+        rx: 4,
+        fill: "#f87171",
+        ...r,
+      }),
+      e.jsx("path", { d: "M622 278q10 0 10 8t-10 8", fill: "none", ...r }),
+      e.jsx("path", {
+        d: "M790 300q40 6 80 0l-10-22h-60z",
+        fill: "#a16207",
+        ...r,
+      }),
+      e.jsx("circle", { cx: 815, cy: 274, r: 13, fill: "#ef4444", ...r }),
+      e.jsx("circle", { cx: 840, cy: 270, r: 13, fill: "#facc15", ...r }),
+      e.jsxs("g", {
+        "data-object-art": "thermostat",
+        children: [
+          e.jsx("rect", {
+            x: 846,
+            y: 136,
+            width: 58,
+            height: 80,
+            rx: 10,
+            fill: "#f8fafc",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 856,
+            y: 148,
+            width: 38,
+            height: 24,
+            rx: 3,
+            fill: "#0f172a",
+          }),
+          e.jsx("text", {
+            x: 875,
+            y: 165,
+            textAnchor: "middle",
+            fontSize: 12,
+            fill: "#fb923c",
+            fontFamily: "monospace",
+            fontWeight: 700,
+            children: "20°",
+          }),
+          e.jsx("circle", {
+            cx: 863,
+            cy: 194,
+            r: 7,
+            fill: "#e2e8f0",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("circle", {
+            cx: 887,
+            cy: 194,
+            r: 7,
+            fill: "#e2e8f0",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("path", {
+            d: "M860 194h6M884 194h6M887 191v6",
+            stroke: M,
+            strokeWidth: 1.5,
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function le({ x: t }) {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("circle", { cx: t, cy: 438, r: 44, fill: "#111827", ...r }),
+      e.jsx("circle", { cx: t, cy: 438, r: 24, fill: "#9ca3af", ...r }),
+      [0, 72, 144, 216, 288].map((s) =>
+        e.jsx(
+          "path",
+          {
+            d: `M${t} 438l0 -18`,
+            transform: `rotate(${s} ${t} 438)`,
+            stroke: "#4b5563",
+            strokeWidth: 4,
+          },
+          s,
+        ),
+      ),
+    ],
+  });
+}
+function He() {
+  return e.jsxs("g", {
+    "data-scene-art": "car",
+    children: [
+      e.jsx("rect", { width: N, height: z, fill: "#7dd3fc" }),
+      e.jsx("circle", { cx: 860, cy: 70, r: 36, fill: "#fef08a" }),
+      [
+        [120, 70],
+        [420, 50],
+        [640, 90],
+      ].map(([t, s]) =>
+        e.jsxs(
+          "g",
+          {
+            fill: "#f8fafc",
+            children: [
+              e.jsx("ellipse", { cx: t, cy: s, rx: 48, ry: 16 }),
+              e.jsx("ellipse", { cx: t + 30, cy: s - 10, rx: 30, ry: 16 }),
+            ],
+          },
+          t,
+        ),
+      ),
+      e.jsx("path", {
+        d: "M0 230q160-60 320-20t320-30 320 20v80H0z",
+        fill: "#86efac",
+      }),
+      e.jsx("path", {
+        d: "M0 260q200-40 420-10t540-10v60H0z",
+        fill: "#4ade80",
+      }),
+      e.jsx("rect", { x: 0, y: 300, width: N, height: 240, fill: "#475569" }),
+      e.jsx("rect", { x: 0, y: 300, width: N, height: 10, fill: "#94a3b8" }),
+      [0, 1, 2, 3, 4, 5, 6].map((t) =>
+        e.jsx(
+          "rect",
+          { x: t * 150 - 20, y: 500, width: 80, height: 8, fill: "#f8fafc" },
+          t,
+        ),
+      ),
+      e.jsx("rect", { x: 0, y: 482, width: N, height: 4, fill: "#334155" }),
+      e.jsxs("g", {
+        children: [
+          e.jsx("path", {
+            d: "M842 420v-70q0-16 16-22l40-40h80v132z",
+            fill: "#ef4444",
+            ...r,
+          }),
+          e.jsx("path", {
+            d: "M866 324l38-30h56v34h-94z",
+            fill: "#bae6fd",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 834,
+            y: 384,
+            width: 22,
+            height: 14,
+            rx: 3,
+            fill: "#fca5a5",
+            ...r,
+          }),
+          e.jsx("circle", { cx: 930, cy: 438, r: 36, fill: "#111827", ...r }),
+          e.jsx("circle", { cx: 930, cy: 438, r: 18, fill: "#9ca3af" }),
+        ],
+      }),
+      e.jsxs("g", {
+        fill: "none",
+        stroke: "#fde047",
+        strokeWidth: 3,
+        strokeLinecap: "round",
+        opacity: 0.85,
+        children: [
+          e.jsx("path", { d: "M790 362q10 14 0 28" }),
+          e.jsx("path", { d: "M802 354q16 22 0 44" }),
+          e.jsx("path", { d: "M814 346q22 30 0 60" }),
+        ],
+      }),
+      e.jsx("path", {
+        d: "M24 430v-96q0-22 22-26l150-14 70-74q12-12 30-12h244q22 0 38 14l82 70 92 16q28 6 30 34v88z",
+        fill: "#2563eb",
+        ...r,
+      }),
+      e.jsx("path", {
+        d: "M232 302l64-70q8-8 20-8h108v78z",
+        fill: "#bfdbfe",
+        ...r,
+      }),
+      e.jsx("path", {
+        d: "M440 224h108q16 0 28 10l70 68H440z",
+        fill: "#bfdbfe",
+        ...r,
+      }),
+      e.jsx("path", { d: "M436 220v210", ...r }),
+      e.jsx("path", { d: "M250 312v118", stroke: M, strokeWidth: 2 }),
+      e.jsx("rect", {
+        x: 380,
+        y: 330,
+        width: 30,
+        height: 7,
+        rx: 3,
+        fill: "#1e3a8a",
+      }),
+      e.jsx("rect", {
+        x: 480,
+        y: 330,
+        width: 30,
+        height: 7,
+        rx: 3,
+        fill: "#1e3a8a",
+      }),
+      e.jsx(U, { x: 318, y: 318, s: 0.92, shirt: "#f97316", skin: 1, hair: 1 }),
+      e.jsx(U, { x: 500, y: 318, s: 0.92, shirt: "#14b8a6", skin: 0, hair: 2 }),
+      e.jsx("path", {
+        d: "M556 300l64 -8 26 10",
+        fill: "none",
+        stroke: M,
+        strokeWidth: 4,
+      }),
+      e.jsx("ellipse", {
+        cx: 548,
+        cy: 276,
+        rx: 6,
+        ry: 22,
+        fill: "none",
+        stroke: M,
+        strokeWidth: 5,
+        transform: "rotate(-18 548 276)",
+      }),
+      e.jsxs("g", {
+        "data-object-art": "satnav",
+        children: [
+          e.jsx("rect", {
+            x: 562,
+            y: 262,
+            width: 54,
+            height: 36,
+            rx: 4,
+            fill: "#0f172a",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 567,
+            y: 267,
+            width: 44,
+            height: 26,
+            rx: 2,
+            fill: "#d1fae5",
+          }),
+          e.jsx("path", {
+            d: "M570 290l12-10 8 4 18-14",
+            stroke: "#2563eb",
+            strokeWidth: 3,
+            fill: "none",
+            strokeLinecap: "round",
+          }),
+          e.jsx("path", { d: "M598 270l6 4-6 4z", fill: "#ef4444" }),
+        ],
+      }),
+      e.jsxs("g", {
+        "data-object-art": "phone",
+        children: [
+          e.jsx("rect", {
+            x: 304,
+            y: 258,
+            width: 26,
+            height: 44,
+            rx: 5,
+            fill: "#111827",
+            ...r,
+            strokeWidth: 2,
+          }),
+          e.jsx("rect", {
+            x: 307,
+            y: 263,
+            width: 20,
+            height: 33,
+            rx: 2,
+            fill: "#e0e7ff",
+          }),
+          [0, 1, 2].map((t) =>
+            [0, 1, 2].map((s) =>
+              e.jsx(
+                "rect",
+                {
+                  x: 309 + s * 6,
+                  y: 266 + t * 7,
+                  width: 4.5,
+                  height: 4.5,
+                  rx: 1,
+                  fill: [
+                    "#f43f5e",
+                    "#22c55e",
+                    "#3b82f6",
+                    "#f59e0b",
+                    "#a855f7",
+                    "#06b6d4",
+                    "#ec4899",
+                    "#84cc16",
+                    "#f97316",
+                  ][t * 3 + s],
+                },
+                `${t}-${s}`,
+              ),
+            ),
+          ),
+          e.jsx("path", {
+            d: "M296 302q8-14 12-8M338 302q-8-14-12-8",
+            stroke: K[1],
+            strokeWidth: 7,
+            strokeLinecap: "round",
+            fill: "none",
+          }),
+        ],
+      }),
+      e.jsxs("g", {
+        "data-object-art": "atlas",
+        children: [
+          e.jsx("rect", {
+            x: 296,
+            y: 360,
+            width: 70,
+            height: 30,
+            rx: 4,
+            fill: "#1d4ed8",
+            ...r,
+          }),
+          e.jsx("path", {
+            d: "M306 364l4 -22h44l4 22z",
+            fill: "#fbbf24",
+            ...r,
+          }),
+          e.jsx("path", {
+            d: "M314 352q10 -6 18 2t18 -2",
+            stroke: "#16a34a",
+            strokeWidth: 2.5,
+            fill: "none",
+          }),
+          e.jsx("text", {
+            x: 331,
+            y: 377,
+            textAnchor: "middle",
+            fontSize: 9,
+            fontWeight: 800,
+            fill: "#dbeafe",
+            children: "ROAD ATLAS",
+          }),
+        ],
+      }),
+      e.jsxs("g", {
+        "data-object-art": "followme",
+        children: [
+          e.jsx("rect", {
+            x: 754,
+            y: 356,
+            width: 34,
+            height: 32,
+            rx: 6,
+            fill: "#1e293b",
+            ...r,
+          }),
+          e.jsx("circle", {
+            cx: 771,
+            cy: 372,
+            r: 9,
+            fill: "#334155",
+            stroke: "#94a3b8",
+            strokeWidth: 2,
+          }),
+          e.jsx("circle", { cx: 771, cy: 372, r: 3, fill: "#fde047" }),
+        ],
+      }),
+      e.jsx("rect", {
+        x: 740,
+        y: 330,
+        width: 30,
+        height: 14,
+        rx: 4,
+        fill: "#fef9c3",
+        ...r,
+      }),
+      e.jsxs("g", {
+        "data-object-art": "parking",
+        children: [
+          e.jsx("rect", {
+            x: 20,
+            y: 378,
+            width: 36,
+            height: 34,
+            rx: 6,
+            fill: "#1e40af",
+            ...r,
+          }),
+          [386, 402].map((t) =>
+            e.jsx(
+              "circle",
+              {
+                cx: 38,
+                cy: t,
+                r: 5,
+                fill: "#cbd5e1",
+                stroke: M,
+                strokeWidth: 1.5,
+              },
+              t,
+            ),
+          ),
+          e.jsx("path", {
+            d: "M10 382q-8 12 0 24M2 376q-10 18 0 36",
+            stroke: "#f8fafc",
+            strokeWidth: 2.5,
+            fill: "none",
+            strokeLinecap: "round",
+            opacity: 0.8,
+          }),
+        ],
+      }),
+      e.jsx("rect", {
+        x: 26,
+        y: 330,
+        width: 18,
+        height: 20,
+        rx: 3,
+        fill: "#f87171",
+        ...r,
+      }),
+      e.jsx(le, { x: 160 }),
+      e.jsx(le, { x: 640 }),
+    ],
+  });
+}
+function Be() {
+  return e.jsxs("g", {
+    "data-scene-art": "ward",
+    children: [
+      e.jsx("rect", { width: N, height: z, fill: "#dcefe7" }),
+      e.jsx("rect", { x: 0, y: 430, width: N, height: 110, fill: "#b7c9c4" }),
+      e.jsx("rect", { x: 0, y: 426, width: N, height: 8, fill: "#94aaa4" }),
+      e.jsx("rect", {
+        x: 350,
+        y: 40,
+        width: 250,
+        height: 130,
+        rx: 6,
+        fill: "#bfdbfe",
+        ...r,
+      }),
+      e.jsx("path", {
+        d: "M475 40v130M350 105h250",
+        stroke: "#f8fafc",
+        strokeWidth: 7,
+      }),
+      e.jsx("rect", {
+        x: 350,
+        y: 40,
+        width: 250,
+        height: 130,
+        rx: 6,
+        fill: "none",
+        ...r,
+      }),
+      e.jsx("path", {
+        d: "M640 30h300",
+        stroke: "#64748b",
+        strokeWidth: 6,
+        strokeLinecap: "round",
+      }),
+      e.jsx("path", {
+        d: "M880 34q-12 120 0 230q12 20 30 0t30 0V34z",
+        fill: "#93c5fd",
+        ...r,
+      }),
+      e.jsx("path", {
+        d: "M896 40v210M920 40v210",
+        stroke: "#60a5fa",
+        strokeWidth: 3,
+      }),
+      e.jsx("rect", {
+        x: 10,
+        y: 380,
+        width: 190,
+        height: 14,
+        rx: 3,
+        fill: "#a16207",
+        ...r,
+      }),
+      e.jsx("rect", { x: 20, y: 394, width: 10, height: 60, fill: "#854d0e" }),
+      e.jsx("rect", { x: 180, y: 394, width: 10, height: 60, fill: "#854d0e" }),
+      e.jsxs("g", {
+        "data-object-art": "desktop",
+        children: [
+          e.jsx("rect", {
+            x: 44,
+            y: 286,
+            width: 112,
+            height: 74,
+            rx: 5,
+            fill: "#1e293b",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 50,
+            y: 292,
+            width: 100,
+            height: 60,
+            rx: 2,
+            fill: "#f1f5f9",
+          }),
+          e.jsx("rect", {
+            x: 50,
+            y: 292,
+            width: 100,
+            height: 9,
+            fill: "#0ea5e9",
+          }),
+          e.jsx("rect", {
+            x: 54,
+            y: 305,
+            width: 28,
+            height: 43,
+            fill: "#e2e8f0",
+          }),
+          [310, 318, 326, 334].map((t) =>
+            e.jsx(
+              "path",
+              { d: `M86 ${t}h58`, stroke: "#94a3b8", strokeWidth: 2.5 },
+              t,
+            ),
+          ),
+          e.jsx("rect", {
+            x: 86,
+            y: 340,
+            width: 26,
+            height: 8,
+            rx: 2,
+            fill: "#22c55e",
+          }),
+          e.jsx("path", { d: "M92 360h16v14h-16z", fill: "#475569" }),
+          e.jsx("rect", {
+            x: 60,
+            y: 372,
+            width: 80,
+            height: 8,
+            rx: 2,
+            fill: "#cbd5e1",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+        ],
+      }),
+      e.jsx("path", {
+        d: "M262 236v196M236 432h52",
+        stroke: "#64748b",
+        strokeWidth: 8,
+        strokeLinecap: "round",
+      }),
+      e.jsxs("g", {
+        "data-object-art": "monitor",
+        children: [
+          e.jsx("rect", {
+            x: 206,
+            y: 130,
+            width: 112,
+            height: 96,
+            rx: 10,
+            fill: "#334155",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 216,
+            y: 140,
+            width: 92,
+            height: 62,
+            rx: 4,
+            fill: "#022c22",
+          }),
+          e.jsx("path", {
+            d: "M218 176h18l6-14 8 30 7-24 5 8h18l5-12 6 22 6-10h11",
+            stroke: "#4ade80",
+            strokeWidth: 2.5,
+            fill: "none",
+            strokeLinejoin: "round",
+          }),
+          e.jsx("text", {
+            x: 300,
+            y: 152,
+            textAnchor: "end",
+            fontSize: 10,
+            fill: "#4ade80",
+            fontFamily: "monospace",
+            fontWeight: 700,
+            children: "72",
+          }),
+          e.jsx("circle", { cx: 226, cy: 214, r: 4, fill: "#ef4444" }),
+          e.jsx("rect", {
+            x: 240,
+            y: 210,
+            width: 30,
+            height: 8,
+            rx: 2,
+            fill: "#94a3b8",
+          }),
+        ],
+      }),
+      e.jsx("path", {
+        d: "M318 196q60 20 130 80",
+        stroke: "#64748b",
+        strokeWidth: 2.5,
+        fill: "none",
+      }),
+      e.jsx("rect", {
+        x: 330,
+        y: 330,
+        width: 360,
+        height: 52,
+        rx: 10,
+        fill: "#e2e8f0",
+        ...r,
+      }),
+      e.jsx("rect", {
+        x: 322,
+        y: 260,
+        width: 20,
+        height: 190,
+        rx: 6,
+        fill: "#94a3b8",
+        ...r,
+      }),
+      e.jsx("rect", {
+        x: 672,
+        y: 300,
+        width: 20,
+        height: 150,
+        rx: 6,
+        fill: "#94a3b8",
+        ...r,
+      }),
+      e.jsx("path", { d: "M350 330l20-60h40l6 60z", fill: "#f8fafc", ...r }),
+      e.jsx(U, { x: 478, y: 330, s: 1.25, shirt: "#7dd3fc", skin: 2, hair: 1 }),
+      e.jsx("path", {
+        d: "M520 336h170v-30q-70-16-170 6z",
+        fill: "#a5b4fc",
+        ...r,
+      }),
+      e.jsx("path", {
+        d: "M440 316l-12 18M516 316l14 18",
+        stroke: M,
+        strokeWidth: 2,
+      }),
+      e.jsx("g", {
+        "data-object-art": "pacemaker",
+        children: e.jsx("ellipse", {
+          cx: 478,
+          cy: 290,
+          rx: 10,
+          ry: 7,
+          fill: "#93c5fd",
+          stroke: "#38bdf8",
+          strokeWidth: 1.5,
+        }),
+      }),
+      e.jsxs("g", {
+        "data-object-art": "clipboard",
+        children: [
+          e.jsx("rect", {
+            x: 668,
+            y: 378,
+            width: 44,
+            height: 56,
+            rx: 4,
+            fill: "#a16207",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 674,
+            y: 388,
+            width: 32,
+            height: 42,
+            fill: "#ffffff",
+          }),
+          e.jsx("rect", {
+            x: 680,
+            y: 372,
+            width: 20,
+            height: 10,
+            rx: 3,
+            fill: "#94a3b8",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+          [396, 404, 412, 420].map((t) =>
+            e.jsx(
+              "path",
+              {
+                d: `M678 ${t}h${t === 420 ? 12 : 24}`,
+                stroke: "#1d4ed8",
+                strokeWidth: 1.5,
+              },
+              t,
+            ),
+          ),
+        ],
+      }),
+      e.jsx("path", {
+        d: "M790 70v360M766 432h48",
+        stroke: "#64748b",
+        strokeWidth: 6,
+        strokeLinecap: "round",
+      }),
+      e.jsx("path", {
+        d: "M770 72h40",
+        stroke: "#64748b",
+        strokeWidth: 5,
+        strokeLinecap: "round",
+      }),
+      e.jsx("path", { d: "M778 78h24v56q-12 10-24 0z", fill: "#e0f2fe", ...r }),
+      e.jsx("path", { d: "M790 140v120", stroke: "#38bdf8", strokeWidth: 2.5 }),
+      e.jsxs("g", {
+        "data-object-art": "pump",
+        children: [
+          e.jsx("rect", {
+            x: 754,
+            y: 262,
+            width: 72,
+            height: 60,
+            rx: 8,
+            fill: "#f1f5f9",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 762,
+            y: 270,
+            width: 40,
+            height: 20,
+            rx: 3,
+            fill: "#0f172a",
+          }),
+          e.jsx("text", {
+            x: 782,
+            y: 284,
+            textAnchor: "middle",
+            fontSize: 10,
+            fill: "#38bdf8",
+            fontFamily: "monospace",
+            fontWeight: 700,
+            children: "50",
+          }),
+          e.jsx("circle", { cx: 814, cy: 278, r: 5, fill: "#22c55e" }),
+          [0, 1, 2].map((t) =>
+            e.jsx(
+              "rect",
+              {
+                x: 762 + t * 16,
+                y: 298,
+                width: 12,
+                height: 12,
+                rx: 2,
+                fill: "#cbd5e1",
+                stroke: M,
+                strokeWidth: 1.2,
+              },
+              t,
+            ),
+          ),
+        ],
+      }),
+      e.jsx("path", {
+        d: "M790 322q-40 40 -240 -10",
+        stroke: "#38bdf8",
+        strokeWidth: 2,
+        fill: "none",
+      }),
+    ],
+  });
+}
+function J({ x: t, w: s, colour: i, name: d, children: o }) {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("rect", { x: t, y: 60, width: s, height: 320, fill: i, ...r }),
+      e.jsx("rect", {
+        x: t + 12,
+        y: 74,
+        width: s - 24,
+        height: 36,
+        rx: 4,
+        fill: "#fefce8",
+        ...r,
+      }),
+      e.jsx("text", {
+        x: t + s / 2,
+        y: 99,
+        textAnchor: "middle",
+        fontSize: 20,
+        fontWeight: 800,
+        fill: M,
+        children: d,
+      }),
+      o,
+    ],
+  });
+}
+function Ge() {
+  return e.jsxs("g", {
+    "data-scene-art": "street",
+    children: [
+      e.jsx("rect", { width: N, height: z, fill: "#bae6fd" }),
+      e.jsxs(J, {
+        x: 330,
+        w: 350,
+        colour: "#fca5a5",
+        name: "CAFÉ",
+        children: [
+          Array.from({ length: 7 }, (t, s) =>
+            e.jsx(
+              "path",
+              {
+                d: `M${330 + s * 50} 122h50v26q-25 14 -50 0z`,
+                fill: s % 2 ? "#f8fafc" : "#dc2626",
+                ...r,
+                strokeWidth: 1.5,
+              },
+              s,
+            ),
+          ),
+          e.jsx("rect", {
+            x: 350,
+            y: 170,
+            width: 200,
+            height: 130,
+            rx: 4,
+            fill: "#e0f2fe",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 560,
+            y: 170,
+            width: 100,
+            height: 210,
+            rx: 4,
+            fill: "#7c2d12",
+            ...r,
+          }),
+          e.jsx("circle", { cx: 646, cy: 280, r: 4, fill: "#fde047" }),
+          e.jsx("rect", {
+            x: 568,
+            y: 180,
+            width: 84,
+            height: 64,
+            rx: 3,
+            fill: "#fde68a",
+            opacity: 0.9,
+          }),
+          e.jsx("rect", {
+            x: 568,
+            y: 262,
+            width: 84,
+            height: 20,
+            fill: "#a16207",
+          }),
+          e.jsx("path", {
+            d: "M370 250h160",
+            stroke: "#a16207",
+            strokeWidth: 6,
+          }),
+          e.jsx("path", {
+            d: "M384 250v-18h16v18M410 250v-24h18v24M440 250v-14h14v14",
+            fill: "#fef3c7",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+        ],
+      }),
+      e.jsxs(J, {
+        x: 20,
+        w: 300,
+        colour: "#c4b5fd",
+        name: "BOOKS",
+        children: [
+          e.jsx("rect", {
+            x: 160,
+            y: 140,
+            width: 140,
+            height: 150,
+            rx: 4,
+            fill: "#ede9fe",
+            ...r,
+          }),
+          [0, 1, 2, 3, 4, 5].map((t) =>
+            e.jsx(
+              "rect",
+              {
+                x: 170 + t * 21,
+                y: 226,
+                width: 16,
+                height: 50,
+                fill: [
+                  "#ef4444",
+                  "#3b82f6",
+                  "#22c55e",
+                  "#f59e0b",
+                  "#ec4899",
+                  "#14b8a6",
+                ][t],
+              },
+              t,
+            ),
+          ),
+        ],
+      }),
+      e.jsxs(J, {
+        x: 690,
+        w: 260,
+        colour: "#a7f3d0",
+        name: "PHARMACY",
+        children: [
+          e.jsx("rect", {
+            x: 710,
+            y: 140,
+            width: 220,
+            height: 130,
+            rx: 4,
+            fill: "#ecfdf5",
+            ...r,
+          }),
+          e.jsx("path", {
+            d: "M806 176h28v20h20v28h-20v20h-28v-20h-20v-28h20z",
+            fill: "#22c55e",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+        ],
+      }),
+      e.jsx("rect", { x: 0, y: 380, width: N, height: 70, fill: "#d6d3d1" }),
+      Array.from({ length: 16 }, (t, s) =>
+        e.jsx(
+          "path",
+          { d: `M${s * 64} 380v70`, stroke: "#a8a29e", strokeWidth: 2 },
+          s,
+        ),
+      ),
+      e.jsx("rect", { x: 0, y: 446, width: N, height: 8, fill: "#78716c" }),
+      e.jsx("rect", { x: 0, y: 454, width: N, height: 86, fill: "#475569" }),
+      [0, 1, 2, 3, 4, 5, 6, 7].map((t) =>
+        e.jsx(
+          "rect",
+          { x: 170 + t * 22, y: 458, width: 14, height: 78, fill: "#f8fafc" },
+          t,
+        ),
+      ),
+      e.jsx("path", { d: "M120 250v186", stroke: "#334155", strokeWidth: 10 }),
+      e.jsxs("g", {
+        "data-object-art": "lights",
+        children: [
+          e.jsx("rect", {
+            x: 94,
+            y: 136,
+            width: 52,
+            height: 120,
+            rx: 10,
+            fill: "#1f2937",
+            ...r,
+          }),
+          e.jsx("circle", { cx: 120, cy: 160, r: 14, fill: "#7f1d1d" }),
+          e.jsx("circle", { cx: 120, cy: 196, r: 14, fill: "#78350f" }),
+          e.jsx("circle", { cx: 120, cy: 232, r: 14, fill: "#22c55e" }),
+          e.jsx("circle", { cx: 115, cy: 227, r: 4, fill: "#bbf7d0" }),
+          e.jsx("rect", {
+            x: 130,
+            y: 300,
+            width: 30,
+            height: 40,
+            rx: 4,
+            fill: "#facc15",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 137,
+            y: 308,
+            width: 16,
+            height: 8,
+            rx: 2,
+            fill: "#1f2937",
+          }),
+          e.jsx("circle", { cx: 145, cy: 328, r: 5, fill: "#1f2937" }),
+        ],
+      }),
+      e.jsxs("g", {
+        "data-object-art": "postbox",
+        children: [
+          e.jsx("path", {
+            d: "M232 440v-118a30 30 0 0 1 60 0v118z",
+            fill: "#dc2626",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 226,
+            y: 314,
+            width: 72,
+            height: 12,
+            rx: 4,
+            fill: "#b91c1c",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 246,
+            y: 334,
+            width: 32,
+            height: 6,
+            rx: 3,
+            fill: "#1f2937",
+          }),
+          e.jsx("rect", {
+            x: 250,
+            y: 354,
+            width: 24,
+            height: 20,
+            rx: 2,
+            fill: "#fef3c7",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("path", {
+            d: "M232 420h60",
+            stroke: "#7f1d1d",
+            strokeWidth: 4,
+          }),
+        ],
+      }),
+      e.jsx(U, { x: 410, y: 392, s: 0.95, shirt: "#22c55e", skin: 0, hair: 2 }),
+      e.jsx("rect", {
+        x: 378,
+        y: 384,
+        width: 120,
+        height: 10,
+        rx: 3,
+        fill: "#78350f",
+        ...r,
+      }),
+      e.jsx("path", {
+        d: "M438 394v46M418 440h40",
+        stroke: "#78350f",
+        strokeWidth: 6,
+      }),
+      e.jsxs("g", {
+        "data-object-art": "tablet",
+        children: [
+          e.jsx("rect", {
+            x: 418,
+            y: 330,
+            width: 46,
+            height: 34,
+            rx: 4,
+            fill: "#111827",
+            ...r,
+            strokeWidth: 2,
+            transform: "rotate(-8 441 347)",
+          }),
+          e.jsxs("g", {
+            transform: "rotate(-8 441 347)",
+            children: [
+              e.jsx("rect", {
+                x: 422,
+                y: 334,
+                width: 38,
+                height: 26,
+                rx: 2,
+                fill: "#fef3c7",
+              }),
+              e.jsx("circle", { cx: 432, cy: 344, r: 5, fill: "#fb923c" }),
+              e.jsx("rect", {
+                x: 440,
+                y: 338,
+                width: 16,
+                height: 8,
+                fill: "#60a5fa",
+              }),
+              e.jsx("rect", {
+                x: 440,
+                y: 350,
+                width: 16,
+                height: 6,
+                fill: "#a78bfa",
+              }),
+            ],
+          }),
+        ],
+      }),
+      e.jsx("path", {
+        d: "M396 360q14 -4 26 -8",
+        stroke: K[0],
+        strokeWidth: 7,
+        strokeLinecap: "round",
+        fill: "none",
+      }),
+      e.jsxs("g", {
+        "data-object-art": "cardreader",
+        children: [
+          e.jsx("rect", {
+            x: 584,
+            y: 242,
+            width: 30,
+            height: 46,
+            rx: 5,
+            fill: "#1f2937",
+            ...r,
+            strokeWidth: 2,
+          }),
+          e.jsx("rect", {
+            x: 588,
+            y: 247,
+            width: 22,
+            height: 12,
+            rx: 2,
+            fill: "#a7f3d0",
+          }),
+          [0, 1, 2].map((t) =>
+            [0, 1, 2].map((s) =>
+              e.jsx(
+                "rect",
+                {
+                  x: 589 + s * 7,
+                  y: 263 + t * 7,
+                  width: 5,
+                  height: 5,
+                  rx: 1,
+                  fill: "#e5e7eb",
+                },
+                `${t}-${s}`,
+              ),
+            ),
+          ),
+        ],
+      }),
+      e.jsxs("g", {
+        "data-object-art": "ticketmachine",
+        children: [
+          e.jsx("rect", {
+            x: 836,
+            y: 340,
+            width: 24,
+            height: 100,
+            fill: "#475569",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 810,
+            y: 256,
+            width: 76,
+            height: 98,
+            rx: 8,
+            fill: "#1d4ed8",
+            ...r,
+          }),
+          e.jsx("rect", {
+            x: 818,
+            y: 266,
+            width: 44,
+            height: 22,
+            rx: 3,
+            fill: "#0f172a",
+          }),
+          e.jsx("text", {
+            x: 840,
+            y: 281,
+            textAnchor: "middle",
+            fontSize: 10,
+            fill: "#fde047",
+            fontFamily: "monospace",
+            fontWeight: 700,
+            children: "2 HRS",
+          }),
+          e.jsx("circle", {
+            cx: 874,
+            cy: 278,
+            r: 7,
+            fill: "#fbbf24",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("rect", {
+            x: 818,
+            y: 296,
+            width: 14,
+            height: 10,
+            rx: 2,
+            fill: "#93c5fd",
+          }),
+          e.jsx("rect", {
+            x: 836,
+            y: 296,
+            width: 14,
+            height: 10,
+            rx: 2,
+            fill: "#93c5fd",
+          }),
+          e.jsx("rect", {
+            x: 822,
+            y: 326,
+            width: 52,
+            height: 6,
+            rx: 2,
+            fill: "#0f172a",
+          }),
+          e.jsx("path", {
+            d: "M832 332h32v14h-32z",
+            fill: "#f8fafc",
+            ...r,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("text", {
+            x: 848,
+            y: 250,
+            textAnchor: "middle",
+            fontSize: 22,
+            fontWeight: 900,
+            fill: "#1d4ed8",
+            children: "P",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function ce({ scene: t }) {
+  return t === "kitchen"
+    ? e.jsx(De, {})
+    : t === "car"
+      ? e.jsx(He, {})
+      : t === "ward"
+        ? e.jsx(Be, {})
+        : e.jsx(Ge, {});
+}
+function ye({ x: t, y: s, w: i, h: d, colour: o }) {
+  const x = [0.2, 0.4, 0.6, 0.8];
+  return e.jsx("g", {
+    stroke: o,
+    strokeWidth: 1.4,
+    strokeLinecap: "round",
+    children: x.map((n) =>
+      e.jsxs(
+        "g",
+        {
+          children: [
+            e.jsx("path", {
+              d: `M${t + i * n} ${s - 4}v4M${t + i * n} ${s + d}v4`,
+            }),
+            e.jsx("path", {
+              d: `M${t - 4} ${s + d * n}h4M${t + i} ${s + d * n}h4`,
+            }),
+          ],
+        },
+        n,
+      ),
+    ),
+  });
+}
+function ee({ x: t, y: s, w: i, h: d, label: o, colour: x, fill: n }) {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("rect", {
+        x: t,
+        y: s,
+        width: i,
+        height: d,
+        rx: 2,
+        fill: n,
+        stroke: x,
+        strokeWidth: 1.4,
+      }),
+      e.jsx("text", {
+        x: t + i / 2,
+        y: s + d / 2 + 2.2,
+        textAnchor: "middle",
+        fontSize: 6,
+        fontWeight: 700,
+        fill: x,
+        children: o,
+      }),
+    ],
+  });
+}
+function Ke() {
+  const t = "#1c1404";
+  return e.jsxs("g", {
+    "data-xray-inside": "embedded",
+    children: [
+      e.jsx("rect", {
+        x: -36,
+        y: -24,
+        width: 72,
+        height: 48,
+        rx: 5,
+        fill: "rgba(251,191,36,0.08)",
+        stroke: p.faint,
+      }),
+      e.jsx("path", {
+        d: "M-36 -10h-12M36 8h12M-12 24v10M14 -24v-10",
+        stroke: p.chip,
+        strokeWidth: 1.4,
+        strokeDasharray: "3 3",
+        fill: "none",
+      }),
+      e.jsxs("g", {
+        className: "hc-glow",
+        children: [
+          e.jsx("rect", {
+            x: -28,
+            y: -14,
+            width: 26,
+            height: 26,
+            rx: 3,
+            fill: t,
+            stroke: p.chip,
+            strokeWidth: 2,
+          }),
+          e.jsx(ye, { x: -28, y: -14, w: 26, h: 26, colour: p.chip }),
+          e.jsx("text", {
+            x: -15,
+            y: 3,
+            textAnchor: "middle",
+            fontSize: 7,
+            fontWeight: 700,
+            fill: p.chip,
+            children: "CPU",
+          }),
+        ],
+      }),
+      e.jsx(ee, {
+        x: 6,
+        y: -17,
+        w: 22,
+        h: 13,
+        label: "ROM",
+        colour: p.chip,
+        fill: t,
+      }),
+      e.jsx(ee, {
+        x: 6,
+        y: 3,
+        w: 22,
+        h: 13,
+        label: "RAM",
+        colour: p.chip,
+        fill: t,
+      }),
+      e.jsx("path", { d: "M2 -10h4M2 9h4", stroke: p.chip, strokeWidth: 1.5 }),
+    ],
+  });
+}
+function Ue() {
+  const t = "#140f24";
+  return e.jsxs("g", {
+    "data-xray-inside": "general",
+    children: [
+      e.jsx("rect", {
+        x: -44,
+        y: -30,
+        width: 88,
+        height: 60,
+        rx: 5,
+        fill: "rgba(196,181,253,0.08)",
+        stroke: p.faint,
+      }),
+      e.jsxs("g", {
+        className: "hc-glow",
+        children: [
+          e.jsx("rect", {
+            x: -36,
+            y: -22,
+            width: 24,
+            height: 24,
+            rx: 3,
+            fill: t,
+            stroke: p.general,
+            strokeWidth: 2,
+          }),
+          e.jsx(ye, { x: -36, y: -22, w: 24, h: 24, colour: p.general }),
+          e.jsx("text", {
+            x: -24,
+            y: -7,
+            textAnchor: "middle",
+            fontSize: 7,
+            fontWeight: 700,
+            fill: p.general,
+            children: "CPU",
+          }),
+        ],
+      }),
+      e.jsx(ee, {
+        x: -4,
+        y: -24,
+        w: 16,
+        h: 11,
+        label: "ROM",
+        colour: p.general,
+        fill: t,
+      }),
+      [0, 1].map((s) =>
+        e.jsxs(
+          "g",
+          {
+            children: [
+              e.jsx("rect", {
+                x: 16,
+                y: -24 + s * 9,
+                width: 22,
+                height: 6,
+                rx: 1.5,
+                fill: t,
+                stroke: p.general,
+                strokeWidth: 1.2,
+              }),
+              [0, 1, 2].map((i) =>
+                e.jsx(
+                  "rect",
+                  {
+                    x: 18.5 + i * 6.5,
+                    y: -22.8 + s * 9,
+                    width: 4,
+                    height: 3.5,
+                    fill: p.general,
+                    opacity: 0.6,
+                  },
+                  i,
+                ),
+              ),
+            ],
+          },
+          s,
+        ),
+      ),
+      e.jsx("text", {
+        x: 27,
+        y: 0,
+        textAnchor: "middle",
+        fontSize: 6,
+        fontWeight: 700,
+        fill: p.general,
+        children: "RAM",
+      }),
+      e.jsx("rect", {
+        x: -36,
+        y: 8,
+        width: 74,
+        height: 16,
+        rx: 2,
+        fill: t,
+        stroke: p.general,
+        strokeWidth: 1.6,
+      }),
+      e.jsx("text", {
+        x: 1,
+        y: 19,
+        textAnchor: "middle",
+        fontSize: 7,
+        fontWeight: 700,
+        fill: p.general,
+        children: "STORAGE",
+      }),
+    ],
+  });
+}
+function Xe({ mechanism: t }) {
+  return e.jsxs("g", {
+    "data-xray-inside": "none",
+    stroke: p.line,
+    fill: "none",
+    strokeWidth: 1.6,
+    strokeLinecap: "round",
+    children: [
+      t === "spring"
+        ? e.jsxs(e.Fragment, {
+            children: [
+              e.jsx("path", {
+                d: "M0 0m-18 0a18 18 0 1 0 36 0a14 14 0 1 0 -28 0a10 10 0 1 0 20 0a6 6 0 1 0 -12 0",
+              }),
+              e.jsx("circle", { cx: 0, cy: 0, r: 2.5, fill: p.line }),
+              e.jsx("path", { d: "M22 -16l6 -6M24 -24a4 4 0 1 0 0.1 0" }),
+            ],
+          })
+        : t === "paper"
+          ? e.jsxs(e.Fragment, {
+              children: [
+                e.jsx("rect", { x: -20, y: -24, width: 40, height: 48, rx: 2 }),
+                [-14, -6, 2, 10, 18].map((s) =>
+                  e.jsx("path", { d: `M-13 ${s}h26`, stroke: p.faint }, s),
+                ),
+              ],
+            })
+          : e.jsx(e.Fragment, {
+              children: [-12, 0, 12].map((s, i) =>
+                e.jsxs(
+                  "g",
+                  {
+                    transform: `translate(${i * 4 - 4} ${s}) rotate(${i * 6 - 6})`,
+                    children: [
+                      e.jsx("rect", {
+                        x: -18,
+                        y: -7,
+                        width: 36,
+                        height: 14,
+                        rx: 1.5,
+                      }),
+                      e.jsx("path", {
+                        d: "M-18 -7l18 9 18 -9",
+                        stroke: p.faint,
+                      }),
+                    ],
+                  },
+                  s,
+                ),
+              ),
+            }),
+      e.jsx("circle", {
+        cx: 30,
+        cy: 22,
+        r: 9,
+        stroke: p.none,
+        strokeDasharray: "2.5 2.5",
+      }),
+      e.jsx("path", { d: "M24 16l12 12", stroke: p.none }),
+    ],
+  });
+}
+function Ye({ id: t }) {
+  return e.jsx("filter", {
+    id: t,
+    colorInterpolationFilters: "sRGB",
+    children: e.jsx("feColorMatrix", {
+      type: "matrix",
+      values:
+        "-0.06 -0.12 -0.02 0 0.22  -0.21 -0.41 -0.08 0 0.8  -0.24 -0.47 -0.09 0 0.95  0 0 0 0.75 0",
+    }),
+  });
+}
+function Ve({ id: t }) {
+  return e.jsx("pattern", {
+    id: t,
+    width: 6,
+    height: 6,
+    patternUnits: "userSpaceOnUse",
+    children: e.jsx("rect", {
+      width: 6,
+      height: 1.2,
+      fill: "rgba(125, 211, 252, 0.10)",
+    }),
+  });
+}
+function L({ kind: t, size: s = 28, colour: i, x: d, y: o }) {
+  const x = i ?? je[t];
+  return e.jsx("svg", {
+    viewBox: "0 0 32 32",
+    x: d,
+    y: o,
+    width: s,
+    height: s,
+    "aria-hidden": "true",
+    fill: "none",
+    stroke: x,
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    "data-kind-glyph": t,
+    children:
+      t === "embedded"
+        ? e.jsxs(e.Fragment, {
+            children: [
+              e.jsx("rect", { x: 6, y: 3, width: 20, height: 26, rx: 3 }),
+              e.jsx("path", { d: "M6 10h20" }),
+              e.jsx("circle", { cx: 16, cy: 19, r: 6 }),
+              e.jsx("rect", {
+                x: 9,
+                y: 5,
+                width: 5,
+                height: 3,
+                rx: 0.8,
+                fill: x,
+              }),
+              e.jsx("circle", { cx: 21, cy: 6.5, r: 1, fill: x }),
+            ],
+          })
+        : t === "general"
+          ? e.jsxs(e.Fragment, {
+              children: [
+                e.jsx("rect", { x: 6, y: 6, width: 20, height: 14, rx: 2 }),
+                e.jsx("path", { d: "M3 25h26l-2-4H5z" }),
+                e.jsx("path", { d: "M10 11h5M10 15h9" }),
+              ],
+            })
+          : e.jsxs(e.Fragment, {
+              children: [
+                e.jsx("circle", { cx: 16, cy: 16, r: 11 }),
+                e.jsx("path", { d: "M8.5 8.5l15 15" }),
+              ],
+            }),
+  });
+}
+function ke({ className: t }) {
+  return e.jsxs("svg", {
+    viewBox: "0 0 320 160",
+    className: t,
+    "aria-hidden": "true",
+    children: [
+      e.jsx("defs", {
+        children: e.jsxs("radialGradient", {
+          id: "hc-goggle-lens",
+          cx: "0.4",
+          cy: "0.35",
+          r: "0.75",
+          children: [
+            e.jsx("stop", { offset: "0", stopColor: "#67e8f9" }),
+            e.jsx("stop", { offset: "0.55", stopColor: "#0e7490" }),
+            e.jsx("stop", { offset: "1", stopColor: "#082f49" }),
+          ],
+        }),
+      }),
+      e.jsx("path", {
+        d: "M10 78c20-20 40-22 60-20M310 78c-20-20-40-22-60-20",
+        stroke: "#334155",
+        strokeWidth: 10,
+        fill: "none",
+        strokeLinecap: "round",
+      }),
+      e.jsx("rect", {
+        x: 52,
+        y: 36,
+        width: 216,
+        height: 88,
+        rx: 44,
+        fill: "#1e293b",
+        stroke: "#475569",
+        strokeWidth: 4,
+      }),
+      e.jsx("path", { d: "M148 70q12-10 24 0v24h-24z", fill: "#0f172a" }),
+      [105, 215].map((s) =>
+        e.jsxs(
+          "g",
+          {
+            children: [
+              e.jsx("circle", {
+                cx: s,
+                cy: 80,
+                r: 38,
+                fill: "#0f172a",
+                stroke: "#64748b",
+                strokeWidth: 4,
+              }),
+              e.jsx("circle", {
+                cx: s,
+                cy: 80,
+                r: 31,
+                fill: "url(#hc-goggle-lens)",
+              }),
+              e.jsxs("g", {
+                stroke: "#a5f3fc",
+                strokeWidth: 1.6,
+                fill: "none",
+                opacity: 0.85,
+                children: [
+                  e.jsx("rect", {
+                    x: s - 11,
+                    y: 69,
+                    width: 22,
+                    height: 22,
+                    rx: 3,
+                  }),
+                  e.jsx("path", {
+                    d: `M${s - 6} 65v4M${s} 65v4M${s + 6} 65v4M${s - 6} 91v4M${s} 91v4M${s + 6} 91v4`,
+                  }),
+                  e.jsx("path", {
+                    d: `M${s - 15} 74h4M${s - 15} 80h4M${s - 15} 86h4M${s + 11} 74h4M${s + 11} 80h4M${s + 11} 86h4`,
+                  }),
+                ],
+              }),
+              e.jsx("path", {
+                d: `M${s - 20} 62q8-10 20-11`,
+                stroke: "#ecfeff",
+                strokeWidth: 4,
+                strokeLinecap: "round",
+                fill: "none",
+                opacity: 0.6,
+              }),
+            ],
+          },
+          s,
+        ),
+      ),
+    ],
+  });
+}
+const Je = { right: "#4ade80", wrong: "#f87171", neutral: p.line };
+function Qe({ kind: t, id: s }) {
+  const i = D[s];
+  return i
+    ? e.jsx("g", {
+        transform: `translate(${i.cx} ${i.cy}) scale(${i.s})`,
+        pointerEvents: "none",
+        children:
+          t === "embedded"
+            ? e.jsx(Ke, {})
+            : t === "general"
+              ? e.jsx(Ue, {})
+              : e.jsx(Xe, { mechanism: i.mechanism ?? "paper" }),
+      })
+    : null;
+}
+function Ze(t, s) {
+  (t.key !== "Enter" && t.key !== " ") || (t.preventDefault(), s());
+}
+function ae({
+  scene: t,
+  scanned: s,
+  live: i,
+  active: d,
+  xrayAll: o,
+  onPick: x,
+  label: n,
+}) {
+  const m = b.useId().replace(/:/g, ""),
+    u = Pe(),
+    l = `hc-xray-${m}`,
+    h = `hc-lens-${m}`,
+    j = `hc-lines-${m}`,
+    y = Object.keys(D).filter((a) => R(a)?.scene === t),
+    v = o ? y : y.filter((a) => s[a]);
+  return e.jsxs("svg", {
+    viewBox: `0 0 ${N} ${z}`,
+    role: "group",
+    "aria-label": n,
+    className: "hc-scene block h-auto w-full",
+    "data-scene": t,
+    children: [
+      e.jsxs("defs", {
+        children: [
+          e.jsx(Ye, { id: l }),
+          e.jsx(Ve, { id: j }),
+          e.jsx("clipPath", {
+            id: h,
+            children: o
+              ? e.jsx("rect", { width: N, height: z })
+              : v.map((a) => {
+                  const c = D[a];
+                  return e.jsx(
+                    xe.circle,
+                    {
+                      cx: c.cx,
+                      cy: c.cy,
+                      initial: u ? !1 : { r: 0 },
+                      animate: { r: c.r },
+                      transition: { duration: 0.7, ease: [0.2, 0.8, 0.2, 1] },
+                      r: c.r,
+                    },
+                    a,
+                  );
+                }),
+          }),
+        ],
+      }),
+      e.jsx(ce, { scene: t }),
+      v.length
+        ? e.jsxs("g", {
+            clipPath: `url(#${h})`,
+            "data-xray-layer": !0,
+            children: [
+              e.jsx("rect", { width: N, height: z, fill: p.bg }),
+              e.jsx("g", {
+                filter: `url(#${l})`,
+                children: e.jsx(ce, { scene: t }),
+              }),
+              e.jsx("rect", { width: N, height: z, fill: `url(#${j})` }),
+              v.map((a) => {
+                const c = R(a);
+                return c ? e.jsx(Qe, { kind: c.kind, id: a }, a) : null;
+              }),
+            ],
+          })
+        : null,
+      y.map((a) => {
+        const c = D[a],
+          g = R(a),
+          k = i.includes(a),
+          f = s[a],
+          W = () => {
+            k && x(a);
+          };
+        return e.jsxs(
+          "g",
+          {
+            role: "button",
+            tabIndex: k ? 0 : -1,
+            "aria-label": g?.name ?? a,
+            "aria-disabled": !k || void 0,
+            "aria-pressed": d === a ? !0 : void 0,
+            className: `hc-target${k ? "hc-live" : ""}${d === a ? "hc-active" : ""}`,
+            "data-target": a,
+            "data-mark": f,
+            onClick: W,
+            onKeyDown: (S) => Ze(S, W),
+            children: [
+              e.jsx("circle", {
+                cx: c.cx,
+                cy: c.cy,
+                r: c.r,
+                fill: "transparent",
+              }),
+              e.jsx("circle", {
+                className: "hc-ring",
+                cx: c.cx,
+                cy: c.cy,
+                r: c.r - 2,
+                fill: "none",
+                stroke: f ? Je[f] : p.line,
+                strokeWidth: f ? 4 : 3,
+                strokeDasharray: f ? void 0 : "10 8",
+              }),
+              f && g
+                ? e.jsxs("g", {
+                    transform: `translate(${c.cx + c.r * 0.72} ${c.cy - c.r * 0.72})`,
+                    pointerEvents: "none",
+                    children: [
+                      e.jsx("circle", {
+                        r: 17,
+                        fill: "#0f172a",
+                        stroke: je[g.kind],
+                        strokeWidth: 2.5,
+                      }),
+                      e.jsx(L, { kind: g.kind, size: 22, x: -11, y: -11 }),
+                    ],
+                  })
+                : null,
+            ],
+          },
+          a,
+        );
+      }),
+    ],
+  });
+}
+const de = "hidden-computers-fonts",
+  et =
+    "https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&display=swap";
+function tt() {
+  b.useEffect(() => {
+    if (document.getElementById(de)) return;
+    const t = document.createElement("link");
+    ((t.id = de),
+      (t.rel = "stylesheet"),
+      (t.href = et),
+      document.head.appendChild(t));
+  }, []);
+}
+const T = `inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 font-semibold transition disabled:cursor-not-allowed disabled:opacity-40 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 ${Ae}`,
+  st =
+    "inline-flex items-center justify-center gap-2 rounded-lg border border-slate-600 px-4 py-2 text-sm font-semibold text-slate-100 transition hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300",
+  rt = A.length + 2;
+function O(t, s) {
+  return s ? t.kind !== "embedded" || s.marks !== void 0 : !1;
+}
+function E(t) {
+  const s = b.useRef(null);
+  return (
+    b.useEffect(() => {
+      s.current?.focus({ preventScroll: !0 });
+    }, [t]),
+    s
+  );
+}
+function vt({ seed: t } = {}) {
+  tt();
+  const [s, i] = b.useState(0),
+    d = b.useMemo(() => Oe((t ?? Date.now()) + s), [t, s]),
+    o = b.useMemo(() => {
+      const w = {};
+      for (const I of A)
+        for (const $ of q(I)) $.kind === "embedded" && (w[$.id] = Ee($, d));
+      return w;
+    }, [d]),
+    x = b.useMemo(() => H(C.terms, d), [d]),
+    [n, m] = b.useState("intro"),
+    [u, l] = b.useState(0),
+    [h, j] = b.useState({}),
+    [y, v] = b.useState(oe),
+    [a, c] = b.useState(null),
+    g = A[u],
+    k = Object.entries(h).filter(([w, I]) => {
+      const $ = R(w);
+      return $ ? O($, I) : !1;
+    }).length,
+    f = A.reduce((w, I) => w + I.objects.length, 0),
+    W = Object.entries(h).filter(([w, I]) => {
+      const $ = R(w);
+      return $ ? O($, I) && be(I) === "right" : !1;
+    }).length;
+  Ie(
+    k + (y.marks !== null ? 1 : 0) + (a ? 1 : 0),
+    f + 2,
+    W +
+      (y.firstTry === "right" && y.marks === F ? 1 : 0) +
+      (a && B(a) === C.answers.length ? 1 : 0),
+  );
+  const S = b.useMemo(() => {
+      let w = 0;
+      for (const I of Object.values(h))
+        (I.right && (w += me), (w += (I.marks ?? 0) * G));
+      return (
+        y.firstTry === "right" && (w += pe),
+        (w += (y.marks ?? 0) * G),
+        a && (w += B(a) * ge),
+        w
+      );
+    }, [h, y, a]),
+    we =
+      n === "intro"
+        ? -1
+        : n === "scene"
+          ? u
+          : n === "car"
+            ? 1
+            : n === "report"
+              ? A.length
+              : rt;
+  function Ne() {
+    (i((w) => w + 1), m("intro"), l(0), j({}), v(oe), c(null));
+  }
+  function ve() {
+    if (g.id === "car") {
+      m("car");
+      return;
+    }
+    if (u + 1 < A.length) {
+      l(u + 1);
+      return;
+    }
+    m("report");
+  }
+  return e.jsx(Te, {
+    reducedMotion: "user",
+    children: e.jsxs("div", {
+      className: "hidden-computers rounded-2xl p-4 sm:p-6",
+      "data-hidden-computers": !0,
+      "data-phase": n,
+      children: [
+        n !== "intro"
+          ? e.jsxs("div", {
+              className: "mb-4 flex items-center justify-between gap-4",
+              children: [
+                e.jsx(at, { step: we }),
+                e.jsxs("p", {
+                  className: "hc-display text-right text-cyan-200",
+                  "data-score": S,
+                  children: [
+                    e.jsx("span", { className: "sr-only", children: "Score " }),
+                    e.jsx("span", {
+                      className: "text-2xl font-bold tabular-nums sm:text-3xl",
+                      children: S,
+                    }),
+                  ],
+                }),
+              ],
+            })
+          : null,
+        n === "intro" ? e.jsx(nt, { onStart: () => m("scene") }) : null,
+        n === "scene"
+          ? e.jsx(
+              lt,
+              {
+                scene: g,
+                results: h,
+                tags: o,
+                onResult: (w, I) => j(($) => ({ ...$, [w]: I })),
+                onNext: ve,
+                nextLabel:
+                  g.id === "car"
+                    ? "Exam question"
+                    : u + 1 < A.length
+                      ? "Next scene"
+                      : "Field report",
+              },
+              g.id,
+            )
+          : null,
+        n === "car"
+          ? e.jsx(ft, {
+              state: y,
+              random: d,
+              onChange: v,
+              onNext: () => {
+                (l(u + 1), m("scene"));
+              },
+            })
+          : null,
+        n === "report"
+          ? e.jsx(mt, {
+              terms: x,
+              checked: a,
+              onCheck: c,
+              onNext: () => m("results"),
+            })
+          : null,
+        n === "results"
+          ? e.jsx(pt, {
+              score: S,
+              results: h,
+              car: y,
+              report: a,
+              onRestart: Ne,
+            })
+          : null,
+      ],
+    }),
+  });
+}
+const it = [...A.map((t) => t.name.replace(/^The /, "")), "Report"];
+function at({ step: t }) {
+  return e.jsx("ol", {
+    className: "flex min-w-0 flex-wrap items-center gap-1.5",
+    "aria-label": "Scenes",
+    children: it.map((s, i) => {
+      const d = i < t ? "done" : i === Math.floor(t) ? "now" : "next";
+      return e.jsx(
+        "li",
+        {
+          className: `hc-track rounded-full text-xs font-semibold capitalize ${d === "now" ? "bg-cyan-400/20 px-2.5 py-1 text-cyan-100 ring-1 ring-cyan-300/70" : d === "done" ? "bg-slate-700/70 text-slate-300 sm:px-2.5 sm:py-1" : "text-slate-500 sm:px-2.5 sm:py-1"}`,
+          "aria-current": d === "now" ? "step" : void 0,
+          "data-track": d,
+          children:
+            d === "now"
+              ? s
+              : e.jsxs(e.Fragment, {
+                  children: [
+                    e.jsx("span", {
+                      className: `block h-2.5 w-2.5 rounded-full sm:hidden ${d === "done" ? "bg-cyan-300" : "bg-slate-600"}`,
+                      "aria-hidden": "true",
+                    }),
+                    e.jsx("span", {
+                      className: "sr-only sm:not-sr-only",
+                      children: s,
+                    }),
+                  ],
+                }),
+        },
+        s,
+      );
+    }),
+  });
+}
+function nt({ onStart: t }) {
+  const s = E("intro");
+  return e.jsxs("div", {
+    className:
+      "grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center",
+    "data-hc-intro": !0,
+    children: [
+      e.jsxs("div", {
+        className: "space-y-5 text-center lg:text-left",
+        children: [
+          e.jsx(ke, {
+            className: "hc-goggles mx-auto w-full max-w-sm lg:mx-0",
+          }),
+          e.jsx("h2", {
+            className:
+              "hc-display text-3xl font-bold text-cyan-100 sm:text-4xl",
+            children: "Who has a computer inside?",
+          }),
+          e.jsx("ul", {
+            className: "mx-auto grid max-w-md gap-2 text-left lg:mx-0",
+            "aria-label": "Answers",
+            children: ie.map((i) =>
+              e.jsxs(
+                "li",
+                {
+                  className:
+                    "flex items-center gap-3 rounded-lg bg-slate-900/70 px-3 py-2 text-slate-100",
+                  children: [
+                    e.jsx(L, { kind: i.id }),
+                    e.jsx("span", {
+                      className: "font-semibold",
+                      children: i.name,
+                    }),
+                  ],
+                },
+                i.id,
+              ),
+            ),
+          }),
+          e.jsxs("button", {
+            ref: s,
+            type: "button",
+            onClick: t,
+            className: T,
+            "data-hc-start": !0,
+            children: [
+              e.jsx(te, { "aria-hidden": "true", className: "h-5 w-5" }),
+              "Put the goggles on",
+            ],
+          }),
+        ],
+      }),
+      e.jsx("ul", {
+        className: "grid grid-cols-2 gap-3",
+        "aria-label": "Scenes",
+        children: A.map((i) =>
+          e.jsxs(
+            "li",
+            {
+              className:
+                "overflow-hidden rounded-xl border border-cyan-300/20 bg-slate-950/60",
+              children: [
+                e.jsx(ae, {
+                  scene: i.id,
+                  scanned: {},
+                  live: [],
+                  onPick: () => {},
+                  label: i.name,
+                }),
+                e.jsx("p", {
+                  className: "px-3 py-2 text-sm font-semibold text-slate-200",
+                  children: i.name,
+                }),
+              ],
+            },
+            i.id,
+          ),
+        ),
+      }),
+    ],
+  });
+}
+function be(t) {
+  if (t)
+    return !t.right || (t.marks !== void 0 && t.marks < P) ? "wrong" : "right";
+}
+function lt({
+  scene: t,
+  results: s,
+  tags: i,
+  onResult: d,
+  onNext: o,
+  nextLabel: x,
+}) {
+  const n = q(t),
+    [m, u] = b.useState(null),
+    [l, h] = b.useState(!1),
+    j = b.useRef(null),
+    y = n.filter((f) => O(f, s[f.id])),
+    v = y.length === n.length && m === null,
+    a = m ? R(m) : void 0,
+    c = {};
+  for (const f of n) {
+    const W = s[f.id],
+      S = be(W);
+    W && S && (c[f.id] = O(f, W) ? S : "neutral");
+  }
+  function g(f) {
+    u(f);
+    const W = j.current;
+    W &&
+      window.matchMedia?.("(max-width: 1023px)").matches &&
+      W.scrollIntoView({ block: "start", behavior: "smooth" });
+  }
+  const k = v ? [] : n.map((f) => f.id);
+  return e.jsxs("div", {
+    className: "grid gap-4 lg:grid-cols-[minmax(0,1fr)_24rem] lg:items-start",
+    "data-hc-scene": t.id,
+    children: [
+      e.jsxs("div", {
+        className: "min-w-0 space-y-3",
+        children: [
+          e.jsxs("div", {
+            className: "flex flex-wrap items-baseline justify-between gap-2",
+            children: [
+              e.jsx("h2", {
+                className: "hc-display text-2xl font-bold text-cyan-50",
+                children: t.name,
+              }),
+              e.jsxs("p", {
+                className: "text-sm font-semibold text-cyan-200/80",
+                "data-hc-count": !0,
+                children: [y.length, " of ", n.length, " scanned"],
+              }),
+            ],
+          }),
+          e.jsx("div", {
+            className: "hc-viewport relative overflow-hidden rounded-xl",
+            children: e.jsx(ae, {
+              scene: t.id,
+              scanned: c,
+              live: k,
+              active: m,
+              xrayAll: v && l,
+              onPick: g,
+              label: `${t.name}: tap an object to scan it`,
+            }),
+          }),
+          e.jsx("ul", {
+            className: "grid grid-cols-2 gap-2 sm:flex sm:flex-wrap",
+            "aria-label": "Objects",
+            children: n.map((f) => {
+              const W = s[f.id],
+                S = c[f.id];
+              return e.jsx(
+                "li",
+                {
+                  children: e.jsxs("button", {
+                    type: "button",
+                    onClick: () => g(f.id),
+                    disabled: v,
+                    "aria-pressed": m === f.id,
+                    className: `hc-chip ${m === f.id ? "hc-chip-active" : ""}`,
+                    "data-hc-object": f.id,
+                    "data-mark": S,
+                    children: [
+                      W
+                        ? e.jsx(L, { kind: f.kind, size: 18 })
+                        : e.jsx(te, {
+                            "aria-hidden": "true",
+                            className: "h-4 w-4 text-cyan-300",
+                          }),
+                      f.name,
+                      S === "right"
+                        ? e.jsx(se, {
+                            "aria-label": "all right",
+                            className: "h-4 w-4 text-green-400",
+                          })
+                        : null,
+                      S === "wrong"
+                        ? e.jsx(re, {
+                            "aria-label": "something to look at again",
+                            className: "h-4 w-4 text-red-400",
+                          })
+                        : null,
+                    ],
+                  }),
+                },
+                f.id,
+              );
+            }),
+          }),
+        ],
+      }),
+      e.jsx("div", {
+        ref: j,
+        className: "hc-panel scroll-mt-4 rounded-xl p-4 sm:p-5",
+        "aria-live": "polite",
+        "data-hc-panel": !0,
+        children: e.jsx(
+          xe.div,
+          {
+            initial: { opacity: 0, y: 10 },
+            animate: { opacity: 1, y: 0 },
+            transition: { duration: 0.2 },
+            children: v
+              ? e.jsx(xt, {
+                  objects: n,
+                  results: s,
+                  xrayAll: l,
+                  onToggle: () => h((f) => !f),
+                  onNext: o,
+                  nextLabel: x,
+                })
+              : a
+                ? e.jsx(dt, {
+                    object: a,
+                    result: s[a.id],
+                    tags: i[a.id] ?? [],
+                    onResult: (f) => d(a.id, f),
+                    onBack: () => u(null),
+                  })
+                : e.jsx(ct, {}),
+          },
+          v ? "cleared" : (m ?? "none"),
+        ),
+      }),
+    ],
+  });
+}
+function ct() {
+  return e.jsxs("div", {
+    className: "flex flex-col items-center gap-3 py-6 text-center",
+    "data-hc-prompt": !0,
+    children: [
+      e.jsxs("svg", {
+        viewBox: "0 0 64 64",
+        className: "h-16 w-16",
+        "aria-hidden": "true",
+        children: [
+          e.jsx("circle", {
+            cx: "28",
+            cy: "28",
+            r: "18",
+            fill: "none",
+            stroke: "#67e8f9",
+            strokeWidth: "4",
+            strokeDasharray: "8 6",
+          }),
+          e.jsx("path", {
+            d: "M41 41l14 14",
+            stroke: "#67e8f9",
+            strokeWidth: "6",
+            strokeLinecap: "round",
+          }),
+          e.jsx("rect", {
+            x: "21",
+            y: "21",
+            width: "14",
+            height: "14",
+            rx: "2",
+            fill: "none",
+            stroke: "#fbbf24",
+            strokeWidth: "2.5",
+          }),
+        ],
+      }),
+      e.jsx("p", {
+        className: "hc-display text-xl font-bold text-cyan-50",
+        children: "Tap an object to scan it",
+      }),
+    ],
+  });
+}
+function dt({ object: t, result: s, tags: i, onResult: d, onBack: o }) {
+  const x = E(`${t.id}-${s ? "r" : "c"}`);
+  return e.jsxs("div", {
+    className: "space-y-4",
+    "data-hc-object-panel": t.id,
+    children: [
+      e.jsxs("div", {
+        children: [
+          e.jsx("h3", {
+            ref: x,
+            tabIndex: -1,
+            className:
+              "hc-display text-2xl font-bold text-cyan-50 focus:outline-none",
+            children: t.name,
+          }),
+          e.jsx("p", { className: "mt-1 text-slate-200", children: t.look }),
+        ],
+      }),
+      s
+        ? e.jsxs(e.Fragment, {
+            children: [
+              e.jsx(ot, { object: t, result: s }),
+              t.kind === "embedded"
+                ? e.jsx(ht, {
+                    object: t,
+                    tags: i,
+                    submitted: s.reasons,
+                    onSubmit: (n) => d({ ...s, reasons: n, marks: fe(i, n) }),
+                  })
+                : null,
+              O(t, s)
+                ? e.jsxs("button", {
+                    type: "button",
+                    onClick: o,
+                    className: T,
+                    "data-hc-back": !0,
+                    children: [
+                      "Back to the scene",
+                      e.jsx(X, { "aria-hidden": "true", className: "h-4 w-4" }),
+                    ],
+                  })
+                : null,
+            ],
+          })
+        : e.jsx("div", {
+            className: "grid gap-2",
+            role: "group",
+            "aria-label": "What is it?",
+            children: ie.map((n) =>
+              e.jsxs(
+                "button",
+                {
+                  type: "button",
+                  onClick: () => d({ picked: n.id, right: n.id === t.kind }),
+                  className: "hc-kind-button",
+                  "data-hc-kind": n.id,
+                  children: [
+                    e.jsx(L, { kind: n.id, size: 32 }),
+                    e.jsx("span", { children: n.name }),
+                  ],
+                },
+                n.id,
+              ),
+            ),
+          }),
+    ],
+  });
+}
+function ot({ object: t, result: s }) {
+  return e.jsxs("div", {
+    className: `rounded-lg border-l-4 p-3 ${s.right ? "border-green-400 bg-green-500/10" : "border-red-400 bg-red-500/10"}`,
+    "data-hc-verdict": s.right ? "right" : "wrong",
+    children: [
+      e.jsxs("p", {
+        className: "flex items-center gap-2 font-semibold text-slate-50",
+        children: [
+          e.jsx(L, { kind: t.kind, size: 24 }),
+          s.right
+            ? e.jsx("span", { className: "sr-only", children: "Right: " })
+            : e.jsx("span", {
+                className: "text-sm font-normal text-red-200 line-through",
+                children: Q(s.picked),
+              }),
+          Q(t.kind),
+        ],
+      }),
+      e.jsx("p", {
+        className: "mt-2 text-sm leading-6 text-slate-200",
+        children: t.why,
+      }),
+    ],
+  });
+}
+function ht({ object: t, tags: s, submitted: i, onSubmit: d }) {
+  const [o, x] = b.useState(i ?? []),
+    n = i !== void 0,
+    m = n ? fe(s, i) : 0;
+  function u(l) {
+    n ||
+      x((h) =>
+        h.includes(l) ? h.filter((j) => j !== l) : h.length < P ? [...h, l] : h,
+      );
+  }
+  return e.jsxs("div", {
+    className: "space-y-3",
+    "data-hc-reasons": !0,
+    children: [
+      e.jsx("p", {
+        className: "font-semibold text-cyan-100",
+        children: t.examPrompt
+          ? e.jsxs(e.Fragment, {
+              children: [
+                e.jsx("span", {
+                  className: "block text-sm font-normal text-slate-300",
+                  children: t.examPrompt,
+                }),
+                e.jsx("span", {
+                  className: "mt-2 block",
+                  children: "Pick the three mark scheme points. [3]",
+                }),
+              ],
+            })
+          : e.jsx(e.Fragment, {
+              children: "Why is it an embedded system? Pick three reasons. [3]",
+            }),
+      }),
+      e.jsx("div", {
+        className: "grid gap-2",
+        role: "group",
+        "aria-label": "Reasons",
+        children: s.map((l) => {
+          const h = (n ? i : o).includes(l.id),
+            j = n
+              ? l.trait
+                ? h
+                  ? "right"
+                  : "missed"
+                : h
+                  ? "wrong"
+                  : "off"
+              : h
+                ? "on"
+                : "off";
+          return e.jsxs(
+            "button",
+            {
+              type: "button",
+              onClick: () => u(l.id),
+              "aria-pressed": h,
+              disabled: n && !h && !l.trait,
+              className: "hc-reason",
+              "data-state": j,
+              "data-hc-reason": l.trait ?? "general",
+              children: [
+                e.jsx("span", {
+                  className: "hc-tick",
+                  "aria-hidden": "true",
+                  children:
+                    j === "right" || j === "on"
+                      ? e.jsx(se, { className: "h-4 w-4" })
+                      : j === "wrong"
+                        ? e.jsx(re, { className: "h-4 w-4" })
+                        : null,
+                }),
+                e.jsxs("span", {
+                  className: "min-w-0 text-left",
+                  children: [
+                    e.jsx("span", { className: "block", children: l.text }),
+                    n && l.trait
+                      ? e.jsx("span", {
+                          className:
+                            "mt-0.5 block text-xs font-semibold text-amber-200",
+                          children: ze[l.trait],
+                        })
+                      : null,
+                    n && !l.trait && h
+                      ? e.jsx("span", {
+                          className:
+                            "mt-0.5 block text-xs font-semibold text-red-200",
+                          children: "That describes a general-purpose computer",
+                        })
+                      : null,
+                  ],
+                }),
+              ],
+            },
+            l.id,
+          );
+        }),
+      }),
+      n
+        ? e.jsxs("p", {
+            className: "hc-display text-lg font-bold text-cyan-50",
+            "data-hc-marks": m,
+            children: [m, " / ", P, " marks"],
+          })
+        : e.jsxs("button", {
+            type: "button",
+            onClick: () => d(o),
+            disabled: o.length !== P,
+            className: T,
+            "data-hc-submit": !0,
+            children: ["Submit ", o.length, " / ", P],
+          }),
+    ],
+  });
+}
+function xt({
+  objects: t,
+  results: s,
+  xrayAll: i,
+  onToggle: d,
+  onNext: o,
+  nextLabel: x,
+}) {
+  const n = E("cleared"),
+    m = t.filter((h) => s[h.id]?.right).length,
+    u = t.filter((h) => h.kind === "embedded"),
+    l = u.reduce((h, j) => h + (s[j.id]?.marks ?? 0), 0);
+  return e.jsxs("div", {
+    className: "space-y-4",
+    "data-hc-cleared": !0,
+    children: [
+      e.jsx("h3", {
+        ref: n,
+        tabIndex: -1,
+        className:
+          "hc-display text-2xl font-bold text-cyan-50 focus:outline-none",
+        children: "Scene scanned",
+      }),
+      e.jsxs("dl", {
+        className: "grid grid-cols-2 gap-2 text-center",
+        children: [
+          e.jsxs("div", {
+            className: "rounded-lg bg-slate-900/70 p-3",
+            children: [
+              e.jsx("dt", {
+                className: "text-xs text-slate-300",
+                children: "Identified",
+              }),
+              e.jsxs("dd", {
+                className: "hc-display text-2xl font-bold text-cyan-100",
+                children: [m, " / ", t.length],
+              }),
+            ],
+          }),
+          e.jsxs("div", {
+            className: "rounded-lg bg-slate-900/70 p-3",
+            children: [
+              e.jsx("dt", {
+                className: "text-xs text-slate-300",
+                children: "Reasons",
+              }),
+              e.jsxs("dd", {
+                className: "hc-display text-2xl font-bold text-amber-200",
+                children: [l, " / ", u.length * P],
+              }),
+            ],
+          }),
+        ],
+      }),
+      e.jsx("ul", {
+        className: "space-y-1.5 text-sm",
+        children: t.map((h) =>
+          e.jsxs(
+            "li",
+            {
+              className: "flex items-center gap-2 text-slate-200",
+              children: [
+                e.jsx(L, { kind: h.kind, size: 20 }),
+                e.jsx("span", { className: "font-semibold", children: h.name }),
+                e.jsx("span", {
+                  className: "text-slate-400",
+                  children: Q(h.kind),
+                }),
+              ],
+            },
+            h.id,
+          ),
+        ),
+      }),
+      e.jsxs("div", {
+        className: "flex flex-wrap gap-2",
+        children: [
+          e.jsxs("button", {
+            type: "button",
+            onClick: d,
+            className: st,
+            "aria-pressed": i,
+            "data-hc-xray-all": !0,
+            children: [
+              i
+                ? e.jsx(We, { "aria-hidden": "true", className: "h-4 w-4" })
+                : e.jsx(te, { "aria-hidden": "true", className: "h-4 w-4" }),
+              i ? "Goggles off" : "X-ray everything",
+            ],
+          }),
+          e.jsxs("button", {
+            type: "button",
+            onClick: o,
+            className: T,
+            "data-hc-next": !0,
+            children: [
+              x,
+              e.jsx(X, { "aria-hidden": "true", className: "h-4 w-4" }),
+            ],
+          }),
+        ],
+      }),
+    ],
+  });
+}
+const oe = { picks: [], firstTry: null, tags: [], chosen: [], marks: null },
+  he = {
+    right: "An embedded system in a car.",
+    given:
+      "Parking sensors are already given in the question, so they cannot be your answer.",
+    "not-embedded": "Not an embedded system, so it cannot be the answer.",
+  };
+function ft({ state: t, random: s, onChange: i, onNext: d }) {
+  const o = t.picks[t.picks.length - 1],
+    x = o ? Y(o) : null,
+    n = x === "right" ? o : null,
+    m = n ? R(n) : void 0,
+    u = E(n ? "explain" : "identify"),
+    l = {};
+  for (const a of t.picks) l[a] = Y(a) === "right" ? "right" : "wrong";
+  function h(a) {
+    if (n) return;
+    const c = Y(a);
+    i({
+      ...t,
+      picks: [...t.picks, a],
+      firstTry: t.firstTry ?? c,
+      tags: c === "right" ? qe(a, s) : t.tags,
+    });
+  }
+  function j(a) {
+    if (t.marks !== null) return;
+    const c = t.chosen.includes(a)
+      ? t.chosen.filter((g) => g !== a)
+      : t.chosen.length < F
+        ? [...t.chosen, a]
+        : t.chosen;
+    i({ ...t, chosen: c });
+  }
+  function y() {
+    const a = t.chosen.filter(
+      (c) => t.tags.find((g) => g.id === c)?.credit,
+    ).length;
+    i({ ...t, marks: a });
+  }
+  const v = n
+    ? []
+    : ["followme", "parking", "satnav", "phone", "atlas"].filter(
+        (a) => !t.picks.includes(a),
+      );
+  return e.jsxs("div", {
+    className: "grid gap-4 lg:grid-cols-[minmax(0,1fr)_24rem] lg:items-start",
+    "data-hc-car-question": !0,
+    children: [
+      e.jsxs("div", {
+        className: "min-w-0 space-y-3",
+        children: [
+          e.jsx("h2", {
+            className: "hc-display text-2xl font-bold text-cyan-50",
+            children: "Exam question",
+          }),
+          e.jsx("div", {
+            className: "hc-viewport overflow-hidden rounded-xl",
+            children: e.jsx(ae, {
+              scene: "car",
+              scanned: l,
+              live: v,
+              onPick: h,
+              label: "The motorway: tap your answer",
+            }),
+          }),
+        ],
+      }),
+      e.jsxs("div", {
+        className: "hc-panel space-y-4 rounded-xl p-4 sm:p-5",
+        "aria-live": "polite",
+        children: [
+          e.jsxs("div", {
+            className: "hc-exam rounded-lg p-3 text-[#0f172a]",
+            children: [
+              e.jsx("p", { children: _.stem }),
+              e.jsxs("p", {
+                className: "mt-2 font-semibold",
+                children: [_.identify, " [1]"],
+              }),
+              n
+                ? e.jsxs("p", {
+                    className: "mt-2 font-semibold",
+                    children: [_.explain, " [2]"],
+                  })
+                : null,
+            ],
+          }),
+          e.jsx("h3", {
+            ref: u,
+            tabIndex: -1,
+            className: "sr-only",
+            children: n ? "Explain" : "Identify",
+          }),
+          n
+            ? e.jsxs(e.Fragment, {
+                children: [
+                  e.jsxs("p", {
+                    className: `rounded-lg border-l-4 p-3 text-sm text-slate-100 ${t.firstTry === "right" ? "border-green-400 bg-green-500/10" : "border-amber-400 bg-amber-500/10"}`,
+                    "data-hc-car-pick": "right",
+                    children: [
+                      e.jsxs("strong", { children: [m?.name, ": "] }),
+                      he.right,
+                      t.firstTry === "right"
+                        ? " 1 mark."
+                        : " Found on a later try, so no mark this time.",
+                    ],
+                  }),
+                  e.jsx("p", {
+                    className: "font-semibold text-cyan-100",
+                    children:
+                      "Pick two points that earn the explanation marks.",
+                  }),
+                  e.jsx("div", {
+                    className: "grid gap-2",
+                    role: "group",
+                    "aria-label": "Explanation points",
+                    children: t.tags.map((a) => {
+                      const c = t.chosen.includes(a.id),
+                        g = t.marks !== null,
+                        k = g
+                          ? a.credit
+                            ? c
+                              ? "right"
+                              : "missed"
+                            : c
+                              ? "wrong"
+                              : "off"
+                          : c
+                            ? "on"
+                            : "off";
+                      return e.jsxs(
+                        "button",
+                        {
+                          type: "button",
+                          onClick: () => j(a.id),
+                          "aria-pressed": c,
+                          className: "hc-reason",
+                          "data-state": k,
+                          "data-hc-car-tag": a.id,
+                          children: [
+                            e.jsx("span", {
+                              className: "hc-tick",
+                              "aria-hidden": "true",
+                              children:
+                                k === "right" || k === "on"
+                                  ? e.jsx(se, { className: "h-4 w-4" })
+                                  : k === "wrong"
+                                    ? e.jsx(re, { className: "h-4 w-4" })
+                                    : null,
+                            }),
+                            e.jsxs("span", {
+                              className: "min-w-0 text-left",
+                              children: [
+                                e.jsx("span", {
+                                  className: "block",
+                                  children: a.text,
+                                }),
+                                g && (c || a.credit)
+                                  ? e.jsx("span", {
+                                      className: `mt-0.5 block text-xs font-semibold ${a.credit ? "text-amber-200" : "text-red-200"}`,
+                                      children: a.note,
+                                    })
+                                  : null,
+                              ],
+                            }),
+                          ],
+                        },
+                        a.id,
+                      );
+                    }),
+                  }),
+                  t.marks === null
+                    ? e.jsxs("button", {
+                        type: "button",
+                        onClick: y,
+                        disabled: t.chosen.length !== F,
+                        className: T,
+                        "data-hc-submit": !0,
+                        children: ["Submit ", t.chosen.length, " / ", F],
+                      })
+                    : e.jsxs(e.Fragment, {
+                        children: [
+                          e.jsxs("p", {
+                            className:
+                              "hc-display text-lg font-bold text-cyan-50",
+                            "data-hc-marks": t.marks,
+                            children: [
+                              (t.firstTry === "right" ? 1 : 0) + t.marks,
+                              " / 3 marks",
+                            ],
+                          }),
+                          e.jsxs("button", {
+                            type: "button",
+                            onClick: d,
+                            className: T,
+                            "data-hc-next": !0,
+                            children: [
+                              "Next scene",
+                              e.jsx(X, {
+                                "aria-hidden": "true",
+                                className: "h-4 w-4",
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                ],
+              })
+            : e.jsxs(e.Fragment, {
+                children: [
+                  e.jsx("p", {
+                    className: "hc-display text-lg font-bold text-cyan-50",
+                    children: "Tap your answer in the picture",
+                  }),
+                  o && x
+                    ? e.jsxs("p", {
+                        className:
+                          "rounded-lg border-l-4 border-red-400 bg-red-500/10 p-3 text-sm text-slate-100",
+                        "data-hc-car-pick": x,
+                        children: [
+                          e.jsxs("strong", { children: [R(o)?.name, ": "] }),
+                          he[x],
+                        ],
+                      })
+                    : null,
+                ],
+              }),
+        ],
+      }),
+    ],
+  });
+}
+function mt({ terms: t, checked: s, onCheck: i, onNext: d }) {
+  const o = C.answers.length,
+    [x, n] = b.useState(() => s ?? Array(o).fill(null)),
+    [m, u] = b.useState(0),
+    l = s !== null,
+    h = E("report");
+  function j(a) {
+    if (l) return;
+    const c = x.map((k) => (k === a ? null : k));
+    ((c[m] = a), n(c));
+    const g = c.findIndex((k, f) => k === null && f !== m);
+    g >= 0 && u(g);
+  }
+  const y = [];
+  C.parts.forEach((a, c) => {
+    if ((y.push(e.jsx("span", { children: a }, `p${c}`)), c < o)) {
+      const g = x[c],
+        k = l && g === C.answers[c];
+      y.push(
+        e.jsxs(
+          "button",
+          {
+            type: "button",
+            onClick: () => !l && u(c),
+            "aria-label": `Gap ${c + 1}${g ? `: ${g}` : ""}`,
+            "aria-pressed": !l && m === c,
+            className: "hc-gap",
+            "data-state": l
+              ? k
+                ? "right"
+                : "wrong"
+              : m === c
+                ? "selected"
+                : g
+                  ? "filled"
+                  : "empty",
+            "data-hc-gap": c,
+            children: [
+              g ?? " ",
+              l && !k
+                ? e.jsx("span", {
+                    className: "hc-gap-answer",
+                    children: C.answers[c],
+                  })
+                : null,
+            ],
+          },
+          `g${c}`,
+        ),
+      );
+    }
+  });
+  const v = l ? B(s) : 0;
+  return e.jsxs("div", {
+    className: "mx-auto max-w-3xl space-y-5",
+    "data-hc-report": !0,
+    children: [
+      e.jsx("h2", {
+        ref: h,
+        tabIndex: -1,
+        className:
+          "hc-display text-2xl font-bold text-cyan-50 focus:outline-none",
+        children: "Field report",
+      }),
+      e.jsx("div", {
+        className:
+          "hc-exam rounded-xl p-5 text-lg leading-[2.6rem] text-[#0f172a] sm:p-6",
+        children: y,
+      }),
+      e.jsx("div", {
+        className: "flex flex-wrap gap-2",
+        role: "group",
+        "aria-label": "Terms",
+        children: t.map((a) => {
+          const c = x.includes(a);
+          return e.jsx(
+            "button",
+            {
+              type: "button",
+              onClick: () => j(a),
+              disabled: l,
+              "aria-pressed": c,
+              className: `hc-term ${c ? "hc-term-used" : ""}`,
+              "data-hc-term": a,
+              children: a,
+            },
+            a,
+          );
+        }),
+      }),
+      l
+        ? e.jsxs("div", {
+            className: "flex flex-wrap items-center gap-4",
+            children: [
+              e.jsxs("p", {
+                className: "hc-display text-xl font-bold text-cyan-50",
+                "data-hc-marks": v,
+                children: [v, " / ", o, " marks"],
+              }),
+              e.jsxs("button", {
+                type: "button",
+                onClick: d,
+                className: T,
+                "data-hc-next": !0,
+                children: [
+                  "See your rank",
+                  e.jsx(X, { "aria-hidden": "true", className: "h-4 w-4" }),
+                ],
+              }),
+            ],
+          })
+        : e.jsx("button", {
+            type: "button",
+            onClick: () => i(x),
+            disabled: x.some((a) => a === null),
+            className: T,
+            "data-hc-submit": !0,
+            children: "Hand in the report",
+          }),
+    ],
+  });
+}
+function pt({ score: t, results: s, car: i, report: d, onRestart: o }) {
+  const x = E("results"),
+    n = ue(),
+    m = A.flatMap((l) => q(l)).filter((l) => !s[l.id]?.right),
+    u = A.flatMap((l) => q(l)).filter(
+      (l) => l.kind === "embedded" && (s[l.id]?.marks ?? 0) < P,
+    );
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsxs("div", {
+        className: "mx-auto max-w-3xl space-y-6 text-center",
+        "data-game-finished": !0,
+        "data-hc-results": !0,
+        children: [
+          e.jsx(ke, { className: "hc-goggles mx-auto w-48" }),
+          e.jsx("h2", {
+            ref: x,
+            tabIndex: -1,
+            className:
+              "hc-display text-3xl font-bold text-cyan-100 focus:outline-none sm:text-4xl",
+            children: Fe(t, n),
+          }),
+          e.jsxs("p", {
+            className: "hc-display text-5xl font-bold text-amber-200",
+            "data-hc-final": t,
+            children: [
+              t,
+              e.jsxs("span", {
+                className: "text-2xl text-slate-400",
+                children: [" / ", n],
+              }),
+            ],
+          }),
+          e.jsxs("dl", {
+            className: "grid grid-cols-2 gap-2 sm:grid-cols-4",
+            children: [
+              A.map((l) => {
+                const h = q(l),
+                  j = h.filter((y) => s[y.id]?.right).length;
+                return e.jsxs(
+                  "div",
+                  {
+                    className: "rounded-lg bg-slate-900/70 p-3",
+                    children: [
+                      e.jsx("dt", {
+                        className: "text-xs text-slate-300",
+                        children: l.name,
+                      }),
+                      e.jsxs("dd", {
+                        className: "hc-display text-xl font-bold text-cyan-100",
+                        children: [j, " / ", h.length],
+                      }),
+                    ],
+                  },
+                  l.id,
+                );
+              }),
+              e.jsxs("div", {
+                className: "rounded-lg bg-slate-900/70 p-3",
+                children: [
+                  e.jsx("dt", {
+                    className: "text-xs text-slate-300",
+                    children: "Car exam question",
+                  }),
+                  e.jsxs("dd", {
+                    className: "hc-display text-xl font-bold text-cyan-100",
+                    children: [
+                      (i.firstTry === "right" ? 1 : 0) + (i.marks ?? 0),
+                      " / 3",
+                    ],
+                  }),
+                ],
+              }),
+              e.jsxs("div", {
+                className: "rounded-lg bg-slate-900/70 p-3",
+                children: [
+                  e.jsx("dt", {
+                    className: "text-xs text-slate-300",
+                    children: "Field report",
+                  }),
+                  e.jsxs("dd", {
+                    className: "hc-display text-xl font-bold text-cyan-100",
+                    children: [d ? B(d) : 0, " / ", C.answers.length],
+                  }),
+                ],
+              }),
+            ],
+          }),
+          m.length || u.length
+            ? e.jsxs("div", {
+                className: "space-y-2 text-left",
+                children: [
+                  e.jsx("h3", {
+                    className: "hc-display text-lg font-bold text-cyan-50",
+                    children: "Scan again",
+                  }),
+                  e.jsxs("ul", {
+                    className: "space-y-2",
+                    children: [
+                      m.map((l) =>
+                        e.jsxs(
+                          "li",
+                          {
+                            className:
+                              "rounded-lg border-l-4 border-red-400 bg-slate-900/70 p-3 text-sm text-slate-200",
+                            children: [
+                              e.jsxs("span", {
+                                className:
+                                  "flex items-center gap-2 font-semibold text-slate-50",
+                                children: [
+                                  e.jsx(L, { kind: l.kind, size: 20 }),
+                                  l.name,
+                                ],
+                              }),
+                              e.jsx("span", {
+                                className: "mt-1 block",
+                                children: l.why,
+                              }),
+                            ],
+                          },
+                          l.id,
+                        ),
+                      ),
+                      u
+                        .filter((l) => !m.includes(l))
+                        .map((l) =>
+                          e.jsxs(
+                            "li",
+                            {
+                              className:
+                                "rounded-lg border-l-4 border-amber-400 bg-slate-900/70 p-3 text-sm text-slate-200",
+                              children: [
+                                e.jsxs("span", {
+                                  className: "font-semibold text-slate-50",
+                                  children: [l.name, ": "],
+                                }),
+                                l.reasons?.map((h) => h.text).join("; "),
+                                ".",
+                              ],
+                            },
+                            l.id,
+                          ),
+                        ),
+                    ],
+                  }),
+                ],
+              })
+            : null,
+          e.jsxs("button", {
+            type: "button",
+            onClick: o,
+            className: T,
+            "data-hc-restart": !0,
+            children: [
+              e.jsx(Me, { "aria-hidden": "true", className: "h-4 w-4" }),
+              "Play again",
+            ],
+          }),
+        ],
+      }),
+      e.jsx(Se, { game: "hidden-computers" }),
+    ],
+  });
+}
+export { vt as default };

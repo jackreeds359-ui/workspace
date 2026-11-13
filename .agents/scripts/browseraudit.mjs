@@ -52,6 +52,7 @@ const { sessionId: session } = await send('Target.attachToTarget', { targetId: t
 let login = false;
 let active = null;
 const responses = new Map();
+const requests = new Map();
 const tasks = new Set();
 const runtimefile = path.join(archive, 'runtime.json');
 const runs = fs.existsSync(runtimefile) ? JSON.parse(fs.readFileSync(runtimefile, 'utf8')) : [];
@@ -83,6 +84,13 @@ listeners.push((message) => {
     if (!permitted && active) active.blocked.push({ method: request.method, url: safeurl(request.url), reason: 'Read-only guard: non-read request blocked' });
     send(action, { requestId: params.requestId, ...(permitted ? {} : { errorReason: 'BlockedByClient' }) }, session).catch((error) => failures.push(error.message));
   }
+  if (message.method === 'Runtime.exceptionThrown' && active) {
+    const detail = params.exceptionDetails || {};
+    active.errors.push({ kind: detail.exception?.className || 'JavaScript exception', source: safeurl(detail.url || ''), line: detail.lineNumber, column: detail.columnNumber });
+  }
+  if (message.method === 'Network.requestWillBeSent' && active && ['Script', 'Stylesheet'].includes(params.type)) {
+    requests.set(params.requestId, { url: safeurl(params.request.url), type: params.type });
+  }
   if (message.method === 'Network.responseReceived' && active) {
     const response = params.response;
     const clean = safeurl(response.url);
@@ -92,9 +100,10 @@ listeners.push((message) => {
     const code = params.type === 'Script' || params.type === 'Stylesheet' || /\.(?:m?js|css|wasm)$/.test(url.pathname) || /javascript|application\/wasm/.test(response.mimeType);
     if (code && !url.pathname.startsWith('/api/')) {
       active.resources.push(resource);
-      if (scoped(response.url) && response.status === 200 && clean === response.url && /javascript|css|wasm/.test(response.mimeType)) responses.set(params.requestId, resource);
-      else if (!scoped(response.url)) resource.capture_error = 'External origin recorded, not mirrored';
+      if (response.status === 200 && clean === response.url && /javascript|css|wasm/.test(response.mimeType)) responses.set(params.requestId, resource);
+      else if (!scoped(response.url)) resource.capture_error = 'External code response not eligible for capture';
       else if (clean !== response.url) resource.capture_error = 'URL contains excluded query parameters; not archived';
+      else resource.capture_error = 'HTTP status or response MIME is not a code asset';
     }
   }
   if (message.method === 'Network.loadingFinished' && responses.has(params.requestId)) {
@@ -104,6 +113,7 @@ listeners.push((message) => {
   if (message.method === 'Network.loadingFailed' && active) {
     const resource = responses.get(params.requestId);
     if (resource) { resource.capture_error = params.errorText; responses.delete(params.requestId); }
+    else if (requests.has(params.requestId)) active.resources.push({ ...requests.get(params.requestId), status: null, capture_error: params.errorText });
   }
 });
 await send('Page.enable', {}, session);
@@ -133,7 +143,7 @@ try {
   }
   for (const job of plan) {
     if (!scoped(job.url)) throw new Error('Out-of-scope page');
-    active = { url: safeurl(job.url), label: job.label || null, time: new Date().toISOString(), resources: [], blocked: [], actions: [], modes: job.modes || [] };
+    active = { url: safeurl(job.url), label: job.label || null, time: new Date().toISOString(), resources: [], blocked: [], errors: [], actions: [], modes: job.modes || [] };
     try {
       await send('Page.navigate', { url: job.url }, session); await delay(job.wait || 2200);
       for (let n = 0; n < 12; n++) {
@@ -145,7 +155,13 @@ try {
         const result = await evaluate(`(() => {const nodes=[...document.querySelectorAll('main button,main a,[role=main] button,[role=dialog] button')];const element=nodes.find(e=>e.textContent.trim()===${JSON.stringify(action.label)});if(!element)return 'not-found';element.click();return 'clicked';})()`);
         active.actions.push({ label: action.label, result }); await delay(1200);
       }
-      active.observed = await evaluate(`({url:location.origin+location.pathname+location.search,title:document.title,headings:[...document.querySelectorAll('h1,h2,h3')].slice(0,20).map(e=>e.textContent.trim()),links:[...document.querySelectorAll('main a[href]')].slice(0,120).map(e=>({label:e.textContent.trim().slice(0,90),url:e.href})),buttons:[...document.querySelectorAll('main button,[role=main] button')].slice(0,80).map(e=>e.textContent.trim().slice(0,70)),login:!!document.querySelector('input[type=password]'),loading:!!document.querySelector('[data-comp-school-loading]'),workers:performance.getEntriesByType('resource').filter(e=>e.initiatorType==='worker').map(e=>e.name)})`);
+      active.observed = await evaluate(`({url:location.origin+location.pathname+location.search,title:document.title,headings:[...document.querySelectorAll('h1,h2,h3')].slice(0,20).map(e=>e.textContent.trim()),links:[...document.querySelectorAll('main a[href]')].slice(0,120).map(e=>({label:e.textContent.trim().slice(0,90),url:e.href})),buttons:[...document.querySelectorAll('main button,[role=main] button')].slice(0,80).map(e=>e.textContent.trim().slice(0,70)),accessGate:/(only[^.]{0,50}(?:teacher|staff|admin)|(?:teacher|staff|admin)[^.]{0,50}only|access denied|not have (?:permission|access)|not available for|sign in required)/i.test(document.body.innerText),login:!!document.querySelector('input[type=password]'),loading:!!document.querySelector('[data-comp-school-loading]'),workers:performance.getEntriesByType('resource').filter(e=>e.initiatorType==='worker').map(e=>e.name)})`);
+      if (/\/editor(?:\/|\?|$)/.test(job.url) || /https:\/\/(?:preview-[^.]+\.)?(?:admin|homework|mark|printouts|self-assess)\.comp\.school/.test(job.url)) {
+        active.observed.headings = [];
+        active.observed.buttons = [];
+        active.observed.links = [];
+        active.observed.redaction = 'Account/project-facing UI text omitted; only script/resource coverage retained';
+      }
       active.observed.url = safeurl(active.observed.url);
       active.observed.links = active.observed.links.map((link) => ({ label: link.label, url: safeurl(link.url) })).filter((link) => link.url);
       await Promise.all([...tasks]);

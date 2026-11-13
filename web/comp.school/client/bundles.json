@@ -1,0 +1,4601 @@
+{
+  "schema": 1,
+  "formatter": {
+    "name": "Prettier",
+    "version": "3.10.1",
+    "parser": "babel"
+  },
+  "input": {
+    "inventory": "inventory.json",
+    "runtime": "runtime.json"
+  },
+  "assets": [
+    {
+      "sha256": "044552ad0c7b662a10f11dd1cb0c771647724fab881f0813738d574530a866b5",
+      "bytes": 412469,
+      "object": "../objects/044552ad0c7b662a10f11dd1cb0c771647724fab881f0813738d574530a866b5",
+      "originalurls": [
+        "https://comp.school/assets/DocEditor-DeUhOnwy.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/DocEditor-DeUhOnwy.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/DocEditor-DeUhOnwy.js",
+          "final": "https://comp.school/assets/DocEditor-DeUhOnwy.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/044552ad0c7b662a10f11dd1cb0c771647724fab881f0813738d574530a866b5.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "044552ad0c7b662a10f11dd1cb0c771647724fab881f0813738d574530a866b5"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 3,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "0cd36e31b13551c06e770e9caba105e117f3ea32d9422fdc1d1e3aaa73f8b076",
+      "bytes": 438,
+      "object": "../objects/0cd36e31b13551c06e770e9caba105e117f3ea32d9422fdc1d1e3aaa73f8b076",
+      "originalurls": [
+        "https://comp.school/exams/assets/use-cover-art-CyGvgy9q.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/use-cover-art-CyGvgy9q.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/use-cover-art-CyGvgy9q.js",
+          "final": "https://comp.school/exams/assets/use-cover-art-CyGvgy9q.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/0cd36e31b13551c06e770e9caba105e117f3ea32d9422fdc1d1e3aaa73f8b076.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "0cd36e31b13551c06e770e9caba105e117f3ea32d9422fdc1d1e3aaa73f8b076"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "0f774a3da1cb2637ee36ab423e67b4143ddffda84d148cbca1e724ced78d0049",
+      "bytes": 13213,
+      "object": "../objects/0f774a3da1cb2637ee36ab423e67b4143ddffda84d148cbca1e724ced78d0049",
+      "originalurls": [
+        "https://comp.school/assets/sum-DyscOqFv.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/sum-DyscOqFv.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/sum-DyscOqFv.js",
+          "final": "https://comp.school/assets/sum-DyscOqFv.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/0f774a3da1cb2637ee36ab423e67b4143ddffda84d148cbca1e724ced78d0049.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "0f774a3da1cb2637ee36ab423e67b4143ddffda84d148cbca1e724ced78d0049"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "10c801116ce68ddcde2dd8d1dbabd1cc8148b601cc8a67ec7dd09d65e9fded65",
+      "bytes": 2155,
+      "object": "../objects/10c801116ce68ddcde2dd8d1dbabd1cc8148b601cc8a67ec7dd09d65e9fded65",
+      "originalurls": [
+        "https://comp.school/exams/assets/tell-me-why-ai-B9xs6j8H.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/tell-me-why-ai-B9xs6j8H.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/tell-me-why-ai-B9xs6j8H.js",
+          "final": "https://comp.school/exams/assets/tell-me-why-ai-B9xs6j8H.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/10c801116ce68ddcde2dd8d1dbabd1cc8148b601cc8a67ec7dd09d65e9fded65.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "10c801116ce68ddcde2dd8d1dbabd1cc8148b601cc8a67ec7dd09d65e9fded65"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 42,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "11735f553cd82f9feaec7516aa5d28117ad05176ee0349637d1bc4b0fddfe370",
+      "bytes": 65515,
+      "object": "../objects/11735f553cd82f9feaec7516aa5d28117ad05176ee0349637d1bc4b0fddfe370",
+      "originalurls": [
+        "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
+          "final": "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/11735f553cd82f9feaec7516aa5d28117ad05176ee0349637d1bc4b0fddfe370.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "11735f553cd82f9feaec7516aa5d28117ad05176ee0349637d1bc4b0fddfe370"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "137d6bc67dfcb726d70a519a55a528afb3491daec241e423ba61f116093e468d",
+      "bytes": 2317973,
+      "object": "../objects/137d6bc67dfcb726d70a519a55a528afb3491daec241e423ba61f116093e468d",
+      "originalurls": [
+        "https://mark.comp.school/assets/App-BruRv-ox.js"
+      ],
+      "finalurls": [
+        "https://mark.comp.school/assets/App-BruRv-ox.js"
+      ],
+      "origins": [
+        {
+          "url": "https://mark.comp.school/assets/App-BruRv-ox.js",
+          "final": "https://mark.comp.school/assets/App-BruRv-ox.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/137d6bc67dfcb726d70a519a55a528afb3491daec241e423ba61f116093e468d.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "137d6bc67dfcb726d70a519a55a528afb3491daec241e423ba61f116093e468d"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 205,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "13a4cbb745fa1b5794e25253c872079466f725e974fa3d8e3c9d65287f0e7118",
+      "bytes": 372659,
+      "object": "../objects/13a4cbb745fa1b5794e25253c872079466f725e974fa3d8e3c9d65287f0e7118",
+      "originalurls": [
+        "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
+          "final": "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/13a4cbb745fa1b5794e25253c872079466f725e974fa3d8e3c9d65287f0e7118.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "13a4cbb745fa1b5794e25253c872079466f725e974fa3d8e3c9d65287f0e7118"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 30,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "141282ff1c1b0c3ce6a194c453b7c03b94f9d85aecf0990864f4821b0b083b5e",
+      "bytes": 7203401,
+      "object": "../objects/141282ff1c1b0c3ce6a194c453b7c03b94f9d85aecf0990864f4821b0b083b5e",
+      "originalurls": [
+        "https://comp.school/recall/assets/App-Cywbl0vP.js"
+      ],
+      "finalurls": [
+        "https://comp.school/recall/assets/App-Cywbl0vP.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/recall/assets/App-Cywbl0vP.js",
+          "final": "https://comp.school/recall/assets/App-Cywbl0vP.js",
+          "pageurls": [
+            "https://comp.school/recall/?paper=1&topic=1.1&sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/141282ff1c1b0c3ce6a194c453b7c03b94f9d85aecf0990864f4821b0b083b5e.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "141282ff1c1b0c3ce6a194c453b7c03b94f9d85aecf0990864f4821b0b083b5e"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 1468,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "16320b8842d3be94bd7a7c18d8ca64d1a782a9e5eafb135bfc5229738c510ed8",
+      "bytes": 512896,
+      "object": "../objects/16320b8842d3be94bd7a7c18d8ca64d1a782a9e5eafb135bfc5229738c510ed8",
+      "originalurls": [
+        "https://comp.school/assets/SheetEditor-DPKlmwzo.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/SheetEditor-DPKlmwzo.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/SheetEditor-DPKlmwzo.js",
+          "final": "https://comp.school/assets/SheetEditor-DPKlmwzo.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/16320b8842d3be94bd7a7c18d8ca64d1a782a9e5eafb135bfc5229738c510ed8.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "16320b8842d3be94bd7a7c18d8ca64d1a782a9e5eafb135bfc5229738c510ed8"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "17a6e357f0f767602b35f7d27d0f2073f10eb4dc951998d3cdb40708049f08a0",
+      "bytes": 24430,
+      "object": "../objects/17a6e357f0f767602b35f7d27d0f2073f10eb4dc951998d3cdb40708049f08a0",
+      "originalurls": [
+        "https://comp.school/assets/CritWallGame-qwLk7gDB.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/CritWallGame-qwLk7gDB.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/CritWallGame-qwLk7gDB.js",
+          "final": "https://comp.school/assets/CritWallGame-qwLk7gDB.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/17a6e357f0f767602b35f7d27d0f2073f10eb4dc951998d3cdb40708049f08a0.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "17a6e357f0f767602b35f7d27d0f2073f10eb4dc951998d3cdb40708049f08a0"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "17b15f1b96972bd980ed56598577ae1769fe71b155bad6f4c8b4a6b6a73f6495",
+      "bytes": 236683,
+      "object": "../objects/17b15f1b96972bd980ed56598577ae1769fe71b155bad6f4c8b4a6b6a73f6495",
+      "originalurls": [
+        "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js",
+          "final": "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js",
+          "pageurls": [
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/17b15f1b96972bd980ed56598577ae1769fe71b155bad6f4c8b4a6b6a73f6495.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "17b15f1b96972bd980ed56598577ae1769fe71b155bad6f4c8b4a6b6a73f6495"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "1939956c30fc9fde724a277fcecff50293f6bd6bbde549d2f7b77ac0ac86e316",
+      "bytes": 617,
+      "object": "../objects/1939956c30fc9fde724a277fcecff50293f6bd6bbde549d2f7b77ac0ac86e316",
+      "originalurls": [
+        "https://comp.school/exams/assets/helpers-DmEFZcxj.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/helpers-DmEFZcxj.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/helpers-DmEFZcxj.js",
+          "final": "https://comp.school/exams/assets/helpers-DmEFZcxj.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/1939956c30fc9fde724a277fcecff50293f6bd6bbde549d2f7b77ac0ac86e316.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "1939956c30fc9fde724a277fcecff50293f6bd6bbde549d2f7b77ac0ac86e316"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "1af7e5005227a8fe2350dd398f9f3d9a85e2876abf71810c3f4c0089812b958c",
+      "bytes": 130664,
+      "object": "../objects/1af7e5005227a8fe2350dd398f9f3d9a85e2876abf71810c3f4c0089812b958c",
+      "originalurls": [
+        "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
+          "final": "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/1af7e5005227a8fe2350dd398f9f3d9a85e2876abf71810c3f4c0089812b958c.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "1af7e5005227a8fe2350dd398f9f3d9a85e2876abf71810c3f4c0089812b958c"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 9,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "1c45724d86a5aa6996455d8b0ba5a73e9f28cb2192ea79a2f460f52c96e90edb",
+      "bytes": 227,
+      "object": "../objects/1c45724d86a5aa6996455d8b0ba5a73e9f28cb2192ea79a2f460f52c96e90edb",
+      "originalurls": [
+        "https://comp.school/exams/assets/keyword-text-BtYtr9f7.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/keyword-text-BtYtr9f7.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/keyword-text-BtYtr9f7.js",
+          "final": "https://comp.school/exams/assets/keyword-text-BtYtr9f7.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/1c45724d86a5aa6996455d8b0ba5a73e9f28cb2192ea79a2f460f52c96e90edb.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "1c45724d86a5aa6996455d8b0ba5a73e9f28cb2192ea79a2f460f52c96e90edb"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "1cce1a70d1d5d09da5d910152063ba9b8116fc88f79dab1dc6c89d42a6c99fdb",
+      "bytes": 177214,
+      "object": "../objects/1cce1a70d1d5d09da5d910152063ba9b8116fc88f79dab1dc6c89d42a6c99fdb",
+      "originalurls": [
+        "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+          "final": "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+          "pageurls": [
+            "https://comp.school/exams/",
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/1cce1a70d1d5d09da5d910152063ba9b8116fc88f79dab1dc6c89d42a6c99fdb.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "1cce1a70d1d5d09da5d910152063ba9b8116fc88f79dab1dc6c89d42a6c99fdb"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "1d4444d4357762d011a692bb6173f9809032323fcacabd88bf66ffd9afd19fa9",
+      "bytes": 68581,
+      "object": "../objects/1d4444d4357762d011a692bb6173f9809032323fcacabd88bf66ffd9afd19fa9",
+      "originalurls": [
+        "https://comp.school/exams/assets/TranslatorLabGame-CCM5PaWg.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/TranslatorLabGame-CCM5PaWg.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/TranslatorLabGame-CCM5PaWg.js",
+          "final": "https://comp.school/exams/assets/TranslatorLabGame-CCM5PaWg.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/1d4444d4357762d011a692bb6173f9809032323fcacabd88bf66ffd9afd19fa9.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "1d4444d4357762d011a692bb6173f9809032323fcacabd88bf66ffd9afd19fa9"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 11,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "1f74a1baaf88f0e403ba4d383c9e4e77f5f83a0bfb476c21e5478e253b209651",
+      "bytes": 318387,
+      "object": "../objects/1f74a1baaf88f0e403ba4d383c9e4e77f5f83a0bfb476c21e5478e253b209651",
+      "originalurls": [
+        "https://comp.school/assets/SlidesEditor-D6FV6HWV.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/SlidesEditor-D6FV6HWV.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/SlidesEditor-D6FV6HWV.js",
+          "final": "https://comp.school/assets/SlidesEditor-D6FV6HWV.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/1f74a1baaf88f0e403ba4d383c9e4e77f5f83a0bfb476c21e5478e253b209651.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "1f74a1baaf88f0e403ba4d383c9e4e77f5f83a0bfb476c21e5478e253b209651"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 4,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "2385ad82c4b9eafe61b986eea5170c32af1dc039f47e976e99b05bfed832625a",
+      "bytes": 8436,
+      "object": "../objects/2385ad82c4b9eafe61b986eea5170c32af1dc039f47e976e99b05bfed832625a",
+      "originalurls": [
+        "https://comp.school/assets/ColorPicker-BhoKJ44-.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/ColorPicker-BhoKJ44-.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/ColorPicker-BhoKJ44-.js",
+          "final": "https://comp.school/assets/ColorPicker-BhoKJ44-.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/2385ad82c4b9eafe61b986eea5170c32af1dc039f47e976e99b05bfed832625a.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "2385ad82c4b9eafe61b986eea5170c32af1dc039f47e976e99b05bfed832625a"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "29428fd64840ba21110b13f4ef758d2f66095aa7ca7b27130063286886c0d22c",
+      "bytes": 1107492,
+      "object": "../objects/29428fd64840ba21110b13f4ef758d2f66095aa7ca7b27130063286886c0d22c",
+      "originalurls": [
+        "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
+          "final": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/29428fd64840ba21110b13f4ef758d2f66095aa7ca7b27130063286886c0d22c.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "29428fd64840ba21110b13f4ef758d2f66095aa7ca7b27130063286886c0d22c"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 1043,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "2ce78efcccc25950131b7defb8c3cfb092a62dbc9e353dba3a8c92c05cf5aa78",
+      "bytes": 928,
+      "object": "../objects/2ce78efcccc25950131b7defb8c3cfb092a62dbc9e353dba3a8c92c05cf5aa78",
+      "originalurls": [
+        "https://comp.school/exams/assets/revision-content-CLnFOyQ7.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/revision-content-CLnFOyQ7.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/revision-content-CLnFOyQ7.js",
+          "final": "https://comp.school/exams/assets/revision-content-CLnFOyQ7.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/2ce78efcccc25950131b7defb8c3cfb092a62dbc9e353dba3a8c92c05cf5aa78.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "2ce78efcccc25950131b7defb8c3cfb092a62dbc9e353dba3a8c92c05cf5aa78"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "32de8d2f920fa094138d837735562c0d8ba3623b2369863250a12ad3647b88c7",
+      "bytes": 35566,
+      "object": "../objects/32de8d2f920fa094138d837735562c0d8ba3623b2369863250a12ad3647b88c7",
+      "originalurls": [
+        "https://comp.school/exams/assets/AquaticSortGame-BYy2pwqM.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/AquaticSortGame-BYy2pwqM.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/AquaticSortGame-BYy2pwqM.js",
+          "final": "https://comp.school/exams/assets/AquaticSortGame-BYy2pwqM.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/32de8d2f920fa094138d837735562c0d8ba3623b2369863250a12ad3647b88c7.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "32de8d2f920fa094138d837735562c0d8ba3623b2369863250a12ad3647b88c7"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "3996c13d03f6e592880936c19b93ec59fdb9ef73202158f129b0874c68963cf0",
+      "bytes": 549897,
+      "object": "../objects/3996c13d03f6e592880936c19b93ec59fdb9ef73202158f129b0874c68963cf0",
+      "originalurls": [
+        "https://comp.school/assets/index-CA7mxY42.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/index-CA7mxY42.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/index-CA7mxY42.js",
+          "final": "https://comp.school/assets/index-CA7mxY42.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/3996c13d03f6e592880936c19b93ec59fdb9ef73202158f129b0874c68963cf0.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "3996c13d03f6e592880936c19b93ec59fdb9ef73202158f129b0874c68963cf0"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 474,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "3e320e24643836a70733e4f0e8c18378044b2a8c2a31657a775c9d0fc6547b3a",
+      "bytes": 259004,
+      "object": "../objects/3e320e24643836a70733e4f0e8c18378044b2a8c2a31657a775c9d0fc6547b3a",
+      "originalurls": [
+        "https://comp.school/exams/assets/frayer-models-BTQSOsHG.js",
+        "https://comp.school/recall/assets/frayer-models-BTQSOsHG.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/frayer-models-BTQSOsHG.js",
+        "https://comp.school/recall/assets/frayer-models-BTQSOsHG.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/frayer-models-BTQSOsHG.js",
+          "final": "https://comp.school/exams/assets/frayer-models-BTQSOsHG.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://comp.school/recall/assets/frayer-models-BTQSOsHG.js",
+          "final": "https://comp.school/recall/assets/frayer-models-BTQSOsHG.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/3e320e24643836a70733e4f0e8c18378044b2a8c2a31657a775c9d0fc6547b3a.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "3e320e24643836a70733e4f0e8c18378044b2a8c2a31657a775c9d0fc6547b3a"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "3e54c58144670257f992a08bd5795fe15f9f43a388224ca9f347bcbb1ab8f988",
+      "bytes": 70575,
+      "object": "../objects/3e54c58144670257f992a08bd5795fe15f9f43a388224ca9f347bcbb1ab8f988",
+      "originalurls": [
+        "https://comp.school/exams/assets/SqueezeGame-BfrJr2Ri.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/SqueezeGame-BfrJr2Ri.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/SqueezeGame-BfrJr2Ri.js",
+          "final": "https://comp.school/exams/assets/SqueezeGame-BfrJr2Ri.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/3e54c58144670257f992a08bd5795fe15f9f43a388224ca9f347bcbb1ab8f988.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "3e54c58144670257f992a08bd5795fe15f9f43a388224ca9f347bcbb1ab8f988"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 12,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "464166759c5da198b2b5d9e8d71d4b3584bffb8ea6dfb27fb3f147eb39b6cc27",
+      "bytes": 11585,
+      "object": "../objects/464166759c5da198b2b5d9e8d71d4b3584bffb8ea6dfb27fb3f147eb39b6cc27",
+      "originalurls": [
+        "https://comp.school/assets/BtecKeywordsPage-Cnlw-O1K.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/BtecKeywordsPage-Cnlw-O1K.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/BtecKeywordsPage-Cnlw-O1K.js",
+          "final": "https://comp.school/assets/BtecKeywordsPage-Cnlw-O1K.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/464166759c5da198b2b5d9e8d71d4b3584bffb8ea6dfb27fb3f147eb39b6cc27.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "464166759c5da198b2b5d9e8d71d4b3584bffb8ea6dfb27fb3f147eb39b6cc27"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "469ca8b85ce0f3fa72c6730d2f38dccd718d6b9147921b5813d3e7374e7dd413",
+      "bytes": 12395,
+      "object": "../objects/469ca8b85ce0f3fa72c6730d2f38dccd718d6b9147921b5813d3e7374e7dd413",
+      "originalurls": [
+        "https://comp.school/assets/if-IXJs7uiF.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/if-IXJs7uiF.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/if-IXJs7uiF.js",
+          "final": "https://comp.school/assets/if-IXJs7uiF.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/469ca8b85ce0f3fa72c6730d2f38dccd718d6b9147921b5813d3e7374e7dd413.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "469ca8b85ce0f3fa72c6730d2f38dccd718d6b9147921b5813d3e7374e7dd413"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "472ef931194268e51bdbc5cb2ecee79040d359dd5b50102eb50d1f7c9a1c3902",
+      "bytes": 37658,
+      "object": "../objects/472ef931194268e51bdbc5cb2ecee79040d359dd5b50102eb50d1f7c9a1c3902",
+      "originalurls": [
+        "https://comp.school/exams/assets/BoxOfficeGame-DETNqaK-.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/BoxOfficeGame-DETNqaK-.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/BoxOfficeGame-DETNqaK-.js",
+          "final": "https://comp.school/exams/assets/BoxOfficeGame-DETNqaK-.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/472ef931194268e51bdbc5cb2ecee79040d359dd5b50102eb50d1f7c9a1c3902.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "472ef931194268e51bdbc5cb2ecee79040d359dd5b50102eb50d1f7c9a1c3902"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 4,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "4764f0a5cf907c7ffef869461b1494d5578152ec696a8a0b2d4f545693b45178",
+      "bytes": 362,
+      "object": "../objects/4764f0a5cf907c7ffef869461b1494d5578152ec696a8a0b2d4f545693b45178",
+      "originalurls": [
+        "https://comp.school/exams/assets/index-DODcXJEq.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/index-DODcXJEq.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/index-DODcXJEq.js",
+          "final": "https://comp.school/exams/assets/index-DODcXJEq.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/4764f0a5cf907c7ffef869461b1494d5578152ec696a8a0b2d4f545693b45178.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "4764f0a5cf907c7ffef869461b1494d5578152ec696a8a0b2d4f545693b45178"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "47726b923fc46cd7298801a8bff0ec81a6494f49cc9269ae8e08ebfdb55dda69",
+      "bytes": 148564,
+      "object": "../objects/47726b923fc46cd7298801a8bff0ec81a6494f49cc9269ae8e08ebfdb55dda69",
+      "originalurls": [
+        "https://comp.school/exams/assets/network-build-z_ixRQe6.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/network-build-z_ixRQe6.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/network-build-z_ixRQe6.js",
+          "final": "https://comp.school/exams/assets/network-build-z_ixRQe6.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/47726b923fc46cd7298801a8bff0ec81a6494f49cc9269ae8e08ebfdb55dda69.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "47726b923fc46cd7298801a8bff0ec81a6494f49cc9269ae8e08ebfdb55dda69"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "47990c014be784f390cf97cdcf05245dfaf4dafabe8a0ba98381bd474f0df95f",
+      "bytes": 2200,
+      "object": "../objects/47990c014be784f390cf97cdcf05245dfaf4dafabe8a0ba98381bd474f0df95f",
+      "originalurls": [
+        "https://comp.school/assets/pictures-CQnqrXNG.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/pictures-CQnqrXNG.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/pictures-CQnqrXNG.js",
+          "final": "https://comp.school/assets/pictures-CQnqrXNG.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/47990c014be784f390cf97cdcf05245dfaf4dafabe8a0ba98381bd474f0df95f.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "47990c014be784f390cf97cdcf05245dfaf4dafabe8a0ba98381bd474f0df95f"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "4806c544c1ec21ff635d7b2cbbf25b69c92d7e3028380e58b5cfa858bd868d2c",
+      "bytes": 1457,
+      "object": "../objects/4806c544c1ec21ff635d7b2cbbf25b69c92d7e3028380e58b5cfa858bd868d2c",
+      "originalurls": [
+        "https://comp.school/assets/cinema-CBL_zzZm.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/cinema-CBL_zzZm.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/cinema-CBL_zzZm.js",
+          "final": "https://comp.school/assets/cinema-CBL_zzZm.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/4806c544c1ec21ff635d7b2cbbf25b69c92d7e3028380e58b5cfa858bd868d2c.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "4806c544c1ec21ff635d7b2cbbf25b69c92d7e3028380e58b5cfa858bd868d2c"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "4ae4ffc47a593007a6b5e7ff4c919492b3054a7debfddd165c5609858ef3e0c0",
+      "bytes": 40384,
+      "object": "../objects/4ae4ffc47a593007a6b5e7ff4c919492b3054a7debfddd165c5609858ef3e0c0",
+      "originalurls": [
+        "https://comp.school/exams/assets/DefragGame-Cbp3Z9Xu.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/DefragGame-Cbp3Z9Xu.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/DefragGame-Cbp3Z9Xu.js",
+          "final": "https://comp.school/exams/assets/DefragGame-Cbp3Z9Xu.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/4ae4ffc47a593007a6b5e7ff4c919492b3054a7debfddd165c5609858ef3e0c0.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "4ae4ffc47a593007a6b5e7ff4c919492b3054a7debfddd165c5609858ef3e0c0"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 17,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "512cabb15c536550129c066dbab19c32149b72f58aeebacfc770fd108bae406f",
+      "bytes": 1649,
+      "object": "../objects/512cabb15c536550129c066dbab19c32149b72f58aeebacfc770fd108bae406f",
+      "originalurls": [
+        "https://comp.school/exams/assets/immersive-picker-PA4Q0OWd.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/immersive-picker-PA4Q0OWd.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/immersive-picker-PA4Q0OWd.js",
+          "final": "https://comp.school/exams/assets/immersive-picker-PA4Q0OWd.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/512cabb15c536550129c066dbab19c32149b72f58aeebacfc770fd108bae406f.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "512cabb15c536550129c066dbab19c32149b72f58aeebacfc770fd108bae406f"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 4,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "5169200ab784a703c293b74baa198526b08c7535c998bb7e2b5d36b7f2428a3e",
+      "bytes": 4092954,
+      "object": "../objects/5169200ab784a703c293b74baa198526b08c7535c998bb7e2b5d36b7f2428a3e",
+      "originalurls": [
+        "https://comp.school/exams/assets/AppRoutes-Br4afREO.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/AppRoutes-Br4afREO.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+          "final": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/5169200ab784a703c293b74baa198526b08c7535c998bb7e2b5d36b7f2428a3e.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "5169200ab784a703c293b74baa198526b08c7535c998bb7e2b5d36b7f2428a3e"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 522,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "522b08a4ee6595c8ba864ac2483d49bb94854831c0703f676926c981f747cb90",
+      "bytes": 699,
+      "object": "../objects/522b08a4ee6595c8ba864ac2483d49bb94854831c0703f676926c981f747cb90",
+      "originalurls": [
+        "https://comp.school/recall/assets/tell-me-why-ai-CjfIUx40.js"
+      ],
+      "finalurls": [
+        "https://comp.school/recall/assets/tell-me-why-ai-CjfIUx40.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/recall/assets/tell-me-why-ai-CjfIUx40.js",
+          "final": "https://comp.school/recall/assets/tell-me-why-ai-CjfIUx40.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/522b08a4ee6595c8ba864ac2483d49bb94854831c0703f676926c981f747cb90.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "522b08a4ee6595c8ba864ac2483d49bb94854831c0703f676926c981f747cb90"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "52d834dffae062b8c2e236c4b26cc618817fac26f18198ebae10f3af06277ca6",
+      "bytes": 2464,
+      "object": "../objects/52d834dffae062b8c2e236c4b26cc618817fac26f18198ebae10f3af06277ca6",
+      "originalurls": [
+        "https://comp.school/exams/assets/Careers-D4RUuMak.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/Careers-D4RUuMak.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/Careers-D4RUuMak.js",
+          "final": "https://comp.school/exams/assets/Careers-D4RUuMak.js",
+          "pageurls": [
+            "https://comp.school/exams/games/careers?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/52d834dffae062b8c2e236c4b26cc618817fac26f18198ebae10f3af06277ca6.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "52d834dffae062b8c2e236c4b26cc618817fac26f18198ebae10f3af06277ca6"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 11,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "53ae0f048b5ff4b193e1e4c7f717375cfd7c9cde0a841ee5c79e42b1e02a02c1",
+      "bytes": 15180,
+      "object": "../objects/53ae0f048b5ff4b193e1e4c7f717375cfd7c9cde0a841ee5c79e42b1e02a02c1",
+      "originalurls": [
+        "https://comp.school/assets/countif-CfOf0eFA.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/countif-CfOf0eFA.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/countif-CfOf0eFA.js",
+          "final": "https://comp.school/assets/countif-CfOf0eFA.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/53ae0f048b5ff4b193e1e4c7f717375cfd7c9cde0a841ee5c79e42b1e02a02c1.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "53ae0f048b5ff4b193e1e4c7f717375cfd7c9cde0a841ee5c79e42b1e02a02c1"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "590ab8057bc032c3e14f9f1a76aaeffd01da609413fb12888819ca0433c1fae9",
+      "bytes": 239,
+      "object": "../objects/590ab8057bc032c3e14f9f1a76aaeffd01da609413fb12888819ca0433c1fae9",
+      "originalurls": [
+        "https://comp.school/assets/_commonjs-dynamic-modules-TDtrdbi3.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/_commonjs-dynamic-modules-TDtrdbi3.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/_commonjs-dynamic-modules-TDtrdbi3.js",
+          "final": "https://comp.school/assets/_commonjs-dynamic-modules-TDtrdbi3.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/590ab8057bc032c3e14f9f1a76aaeffd01da609413fb12888819ca0433c1fae9.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "590ab8057bc032c3e14f9f1a76aaeffd01da609413fb12888819ca0433c1fae9"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "5ab0ff7a9f9b9430fafe7f2e5aa9993a487969237f92d5ecd7e51e9cdd2e52f7",
+      "bytes": 71587,
+      "object": "../objects/5ab0ff7a9f9b9430fafe7f2e5aa9993a487969237f92d5ecd7e51e9cdd2e52f7",
+      "originalurls": [
+        "https://comp.school/exams/assets/UpgradeBayGame-C8dsS5A0.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/UpgradeBayGame-C8dsS5A0.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/UpgradeBayGame-C8dsS5A0.js",
+          "final": "https://comp.school/exams/assets/UpgradeBayGame-C8dsS5A0.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/5ab0ff7a9f9b9430fafe7f2e5aa9993a487969237f92d5ecd7e51e9cdd2e52f7.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "5ab0ff7a9f9b9430fafe7f2e5aa9993a487969237f92d5ecd7e51e9cdd2e52f7"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 6,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+      "bytes": 3997235,
+      "object": "../objects/5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+      "originalurls": [
+        "https://comp.school/assets/index-CHiQZc8e.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/index-CHiQZc8e.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/index-CHiQZc8e.js",
+          "final": "https://comp.school/assets/index-CHiQZc8e.js",
+          "pageurls": [
+            "https://comp.school/",
+            "https://comp.school/?menu=more",
+            "https://comp.school/?menu=paper-1",
+            "https://comp.school/?menu=paper-2",
+            "https://comp.school/?menu=python-challenges",
+            "https://comp.school/code/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 274,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4",
+      "bytes": 1399420,
+      "object": "../objects/5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4",
+      "originalurls": [
+        "https://comp.school/code/assets/index-DwyvelI3.js"
+      ],
+      "finalurls": [
+        "https://comp.school/code/assets/index-DwyvelI3.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/code/assets/index-DwyvelI3.js",
+          "final": "https://comp.school/code/assets/index-DwyvelI3.js",
+          "pageurls": [
+            "https://comp.school/code/",
+            "https://comp.school/code/editor?paper=2&sql=mock",
+            "https://comp.school/code/essentials/for?sql=mock",
+            "https://comp.school/code/essentials/functions?sql=mock",
+            "https://comp.school/code/essentials/if?sql=mock",
+            "https://comp.school/code/essentials/io?sql=mock",
+            "https://comp.school/code/essentials/scratch?sql=mock",
+            "https://comp.school/code/essentials/while?sql=mock",
+            "https://comp.school/code/python?paper=2&sql=mock",
+            "https://comp.school/code/sql-challenges?sql=mock",
+            "https://comp.school/code/sql?paper=2&sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 7,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "627f2253246ee121f69e17ff4f33ca74f7da5183ccc047e94c9ead3f5d06e038",
+      "bytes": 43990,
+      "object": "../objects/627f2253246ee121f69e17ff4f33ca74f7da5183ccc047e94c9ead3f5d06e038",
+      "originalurls": [
+        "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js",
+          "final": "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/627f2253246ee121f69e17ff4f33ca74f7da5183ccc047e94c9ead3f5d06e038.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "627f2253246ee121f69e17ff4f33ca74f7da5183ccc047e94c9ead3f5d06e038"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "637381256384554e1cc3309a62fb238a51b83e7f10b2a56d8ba15dbc73ca762e",
+      "bytes": 31853,
+      "object": "../objects/637381256384554e1cc3309a62fb238a51b83e7f10b2a56d8ba15dbc73ca762e",
+      "originalurls": [
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+      ],
+      "finalurls": [
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+      ],
+      "origins": [
+        {
+          "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+          "final": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/637381256384554e1cc3309a62fb238a51b83e7f10b2a56d8ba15dbc73ca762e.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "637381256384554e1cc3309a62fb238a51b83e7f10b2a56d8ba15dbc73ca762e"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "text/javascript"
+      ]
+    },
+    {
+      "sha256": "67a214be24adab38d55d1e290f339842c0dff4ca3b75b449bf01eb2ce9eb08be",
+      "bytes": 1568250,
+      "object": "../objects/67a214be24adab38d55d1e290f339842c0dff4ca3b75b449bf01eb2ce9eb08be",
+      "originalurls": [
+        "https://comp.school/exams/assets/index-DjyiOHey.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/index-DjyiOHey.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/index-DjyiOHey.js",
+          "final": "https://comp.school/exams/assets/index-DjyiOHey.js",
+          "pageurls": [
+            "https://comp.school/exams/",
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/67a214be24adab38d55d1e290f339842c0dff4ca3b75b449bf01eb2ce9eb08be.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "67a214be24adab38d55d1e290f339842c0dff4ca3b75b449bf01eb2ce9eb08be"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 236,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "68d433d59c87239f6b1e1ee02534d3ac4f55f5235656fe8d189d57ab5f586d73",
+      "bytes": 3520,
+      "object": "../objects/68d433d59c87239f6b1e1ee02534d3ac4f55f5235656fe8d189d57ab5f586d73",
+      "originalurls": [
+        "https://comp.school/exams/assets/index-B24ohNs7.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/index-B24ohNs7.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/index-B24ohNs7.js",
+          "final": "https://comp.school/exams/assets/index-B24ohNs7.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/68d433d59c87239f6b1e1ee02534d3ac4f55f5235656fe8d189d57ab5f586d73.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "68d433d59c87239f6b1e1ee02534d3ac4f55f5235656fe8d189d57ab5f586d73"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "6a49c2e70fb2badab0e383e64c4905c47c2cba249acf354e3a33a1c9d358e1d1",
+      "bytes": 48904,
+      "object": "../objects/6a49c2e70fb2badab0e383e64c4905c47c2cba249acf354e3a33a1c9d358e1d1",
+      "originalurls": [
+        "https://comp.school/exams/assets/BinaryBakeryGame-BXeXrTUn.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/BinaryBakeryGame-BXeXrTUn.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/BinaryBakeryGame-BXeXrTUn.js",
+          "final": "https://comp.school/exams/assets/BinaryBakeryGame-BXeXrTUn.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/6a49c2e70fb2badab0e383e64c4905c47c2cba249acf354e3a33a1c9d358e1d1.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "6a49c2e70fb2badab0e383e64c4905c47c2cba249acf354e3a33a1c9d358e1d1"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 6,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "6b8e2ff24006ebcc6798824f43bb1716deefa4f49df21ead12addbe5ba5e1039",
+      "bytes": 57284,
+      "object": "../objects/6b8e2ff24006ebcc6798824f43bb1716deefa4f49df21ead12addbe5ba5e1039",
+      "originalurls": [
+        "https://comp.school/exams/assets/SoundStudioGame-C-zDgI2b.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/SoundStudioGame-C-zDgI2b.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/SoundStudioGame-C-zDgI2b.js",
+          "final": "https://comp.school/exams/assets/SoundStudioGame-C-zDgI2b.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/6b8e2ff24006ebcc6798824f43bb1716deefa4f49df21ead12addbe5ba5e1039.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "6b8e2ff24006ebcc6798824f43bb1716deefa4f49df21ead12addbe5ba5e1039"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "6bb95eb5d5d8b23158054a09021ab6713e23223bf40418b14b2242e8aeedc5c3",
+      "bytes": 27739,
+      "object": "../objects/6bb95eb5d5d8b23158054a09021ab6713e23223bf40418b14b2242e8aeedc5c3",
+      "originalurls": [
+        "https://comp.school/code/assets/challenges-sort-search-algorithms-9bSV7OuV.js"
+      ],
+      "finalurls": [
+        "https://comp.school/code/assets/challenges-sort-search-algorithms-9bSV7OuV.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/code/assets/challenges-sort-search-algorithms-9bSV7OuV.js",
+          "final": "https://comp.school/code/assets/challenges-sort-search-algorithms-9bSV7OuV.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/6bb95eb5d5d8b23158054a09021ab6713e23223bf40418b14b2242e8aeedc5c3.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "6bb95eb5d5d8b23158054a09021ab6713e23223bf40418b14b2242e8aeedc5c3"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "6f4f8df565fa07dc668520442e5d4c24c85f436224e23edcd20c2feb535e07e7",
+      "bytes": 71287,
+      "object": "../objects/6f4f8df565fa07dc668520442e5d4c24c85f436224e23edcd20c2feb535e07e7",
+      "originalurls": [
+        "https://comp.school/assets/index-Cyo9THSS.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/index-Cyo9THSS.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/index-Cyo9THSS.js",
+          "final": "https://comp.school/assets/index-Cyo9THSS.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/6f4f8df565fa07dc668520442e5d4c24c85f436224e23edcd20c2feb535e07e7.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "6f4f8df565fa07dc668520442e5d4c24c85f436224e23edcd20c2feb535e07e7"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 39,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "bytes": 3048759,
+      "object": "../objects/7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "originalurls": [
+        "https://preview-1349.comp.school/assets/index-BoOY-xik.js"
+      ],
+      "finalurls": [
+        "https://preview-1349.comp.school/assets/index-BoOY-xik.js"
+      ],
+      "origins": [
+        {
+          "url": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+          "final": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+          "pageurls": [
+            "https://preview-1349.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 215,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "73badc785e95405a5de7ff8e9a4bd6de810d00aa943eff63d5a4399aa73dff6a",
+      "bytes": 316223,
+      "object": "../objects/73badc785e95405a5de7ff8e9a4bd6de810d00aa943eff63d5a4399aa73dff6a",
+      "originalurls": [
+        "https://homework.comp.school/assets/index-BMINHhky.js"
+      ],
+      "finalurls": [
+        "https://homework.comp.school/assets/index-BMINHhky.js"
+      ],
+      "origins": [
+        {
+          "url": "https://homework.comp.school/assets/index-BMINHhky.js",
+          "final": "https://homework.comp.school/assets/index-BMINHhky.js",
+          "pageurls": [
+            "https://homework.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/73badc785e95405a5de7ff8e9a4bd6de810d00aa943eff63d5a4399aa73dff6a.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "73badc785e95405a5de7ff8e9a4bd6de810d00aa943eff63d5a4399aa73dff6a"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 36,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "7614ec8ac08e2070d9c92ef5d6c1d391673a0280ce9195f049cbe44c38b181bd",
+      "bytes": 50978,
+      "object": "../objects/7614ec8ac08e2070d9c92ef5d6c1d391673a0280ce9195f049cbe44c38b181bd",
+      "originalurls": [
+        "https://comp.school/assets/BtecTaskKeywords-BT_ljUsk.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/BtecTaskKeywords-BT_ljUsk.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/BtecTaskKeywords-BT_ljUsk.js",
+          "final": "https://comp.school/assets/BtecTaskKeywords-BT_ljUsk.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/7614ec8ac08e2070d9c92ef5d6c1d391673a0280ce9195f049cbe44c38b181bd.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7614ec8ac08e2070d9c92ef5d6c1d391673a0280ce9195f049cbe44c38b181bd"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "76b2ca2257670726734e91d569a4eb85c0131e6ff683e343b6049d4cda4a0f7b",
+      "bytes": 43494,
+      "object": "../objects/76b2ca2257670726734e91d569a4eb85c0131e6ff683e343b6049d4cda4a0f7b",
+      "originalurls": [
+        "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js",
+          "final": "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/76b2ca2257670726734e91d569a4eb85c0131e6ff683e343b6049d4cda4a0f7b.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "76b2ca2257670726734e91d569a4eb85c0131e6ff683e343b6049d4cda4a0f7b"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 6,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c",
+      "bytes": 1527,
+      "object": "../objects/78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c",
+      "originalurls": [
+        "https://code.comp.school/code/assets/index-DwyvelI3.js"
+      ],
+      "finalurls": [
+        "https://comp.school/code/code/assets/index-DwyvelI3.js"
+      ],
+      "origins": [
+        {
+          "url": "https://code.comp.school/code/assets/index-DwyvelI3.js",
+          "final": "https://comp.school/code/code/assets/index-DwyvelI3.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c"
+      },
+      "parse": {
+        "status": "error",
+        "error": "Unexpected token (1:1)"
+      },
+      "format": {
+        "status": "not-formatted",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": [],
+      "types": [
+        "text/html; charset=utf-8"
+      ]
+    },
+    {
+      "sha256": "7951eda5dbd5387f22e07370d534ccf8d8d8b76d4c9f146cdc8ba18f51fe8b81",
+      "bytes": 1704,
+      "object": "../objects/7951eda5dbd5387f22e07370d534ccf8d8d8b76d4c9f146cdc8ba18f51fe8b81",
+      "originalurls": [
+        "https://comp.school/assets/OfficeChrome-BlQi-GP2.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/OfficeChrome-BlQi-GP2.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/OfficeChrome-BlQi-GP2.js",
+          "final": "https://comp.school/assets/OfficeChrome-BlQi-GP2.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/7951eda5dbd5387f22e07370d534ccf8d8d8b76d4c9f146cdc8ba18f51fe8b81.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7951eda5dbd5387f22e07370d534ccf8d8d8b76d4c9f146cdc8ba18f51fe8b81"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "7c65fca44f55018e7cc0e8c125c69d22ebe81f63d30701e961188202b038ac5e",
+      "bytes": 120144,
+      "object": "../objects/7c65fca44f55018e7cc0e8c125c69d22ebe81f63d30701e961188202b038ac5e",
+      "originalurls": [
+        "https://comp.school/assets/Careers-BSnYwGQP.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/Careers-BSnYwGQP.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/Careers-BSnYwGQP.js",
+          "final": "https://comp.school/assets/Careers-BSnYwGQP.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/7c65fca44f55018e7cc0e8c125c69d22ebe81f63d30701e961188202b038ac5e.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7c65fca44f55018e7cc0e8c125c69d22ebe81f63d30701e961188202b038ac5e"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "7d159a98add47eddf9617c8c0259631852be35c91799664b581d8ddd37061602",
+      "bytes": 80565,
+      "object": "../objects/7d159a98add47eddf9617c8c0259631852be35c91799664b581d8ddd37061602",
+      "originalurls": [
+        "https://comp.school/exams/assets/OsControlRoomGame-Os9AAYzi.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/OsControlRoomGame-Os9AAYzi.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/OsControlRoomGame-Os9AAYzi.js",
+          "final": "https://comp.school/exams/assets/OsControlRoomGame-Os9AAYzi.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/7d159a98add47eddf9617c8c0259631852be35c91799664b581d8ddd37061602.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7d159a98add47eddf9617c8c0259631852be35c91799664b581d8ddd37061602"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 8,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "7f0fbebbad435b3c198940e6897a325c2ddde2a2d6d198dd0e56504428d41739",
+      "bytes": 117201,
+      "object": "../objects/7f0fbebbad435b3c198940e6897a325c2ddde2a2d6d198dd0e56504428d41739",
+      "originalurls": [
+        "https://comp.school/exams/assets/CareerQuiz-8ISD3rOQ.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/CareerQuiz-8ISD3rOQ.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/CareerQuiz-8ISD3rOQ.js",
+          "final": "https://comp.school/exams/assets/CareerQuiz-8ISD3rOQ.js",
+          "pageurls": [
+            "https://comp.school/exams/games/careers?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/7f0fbebbad435b3c198940e6897a325c2ddde2a2d6d198dd0e56504428d41739.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "7f0fbebbad435b3c198940e6897a325c2ddde2a2d6d198dd0e56504428d41739"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 3,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "808cff1f2381e2be6878cbd7efd2cfee6aa154548b6cd562a2f8d8336b12286e",
+      "bytes": 302245,
+      "object": "../objects/808cff1f2381e2be6878cbd7efd2cfee6aa154548b6cd562a2f8d8336b12286e",
+      "originalurls": [
+        "https://mark.comp.school/assets/index-DThs38Se.js"
+      ],
+      "finalurls": [
+        "https://mark.comp.school/assets/index-DThs38Se.js"
+      ],
+      "origins": [
+        {
+          "url": "https://mark.comp.school/assets/index-DThs38Se.js",
+          "final": "https://mark.comp.school/assets/index-DThs38Se.js",
+          "pageurls": [
+            "https://mark.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/808cff1f2381e2be6878cbd7efd2cfee6aa154548b6cd562a2f8d8336b12286e.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "808cff1f2381e2be6878cbd7efd2cfee6aa154548b6cd562a2f8d8336b12286e"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "80f828a6022c92506516a27985be20f9ccc6c4c65e75d6c06ca7aaac95d60aca",
+      "bytes": 12273,
+      "object": "../objects/80f828a6022c92506516a27985be20f9ccc6c4c65e75d6c06ca7aaac95d60aca",
+      "originalurls": [
+        "https://comp.school/assets/sumif-Ea7d1XgW.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/sumif-Ea7d1XgW.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/sumif-Ea7d1XgW.js",
+          "final": "https://comp.school/assets/sumif-Ea7d1XgW.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/80f828a6022c92506516a27985be20f9ccc6c4c65e75d6c06ca7aaac95d60aca.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "80f828a6022c92506516a27985be20f9ccc6c4c65e75d6c06ca7aaac95d60aca"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "81925d00734abc984e1f2f8c1906ade0a51a5a1430a48d19b9d56dc8d9f1dc07",
+      "bytes": 53380,
+      "object": "../objects/81925d00734abc984e1f2f8c1906ade0a51a5a1430a48d19b9d56dc8d9f1dc07",
+      "originalurls": [
+        "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js",
+          "final": "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/81925d00734abc984e1f2f8c1906ade0a51a5a1430a48d19b9d56dc8d9f1dc07.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "81925d00734abc984e1f2f8c1906ade0a51a5a1430a48d19b9d56dc8d9f1dc07"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 7,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "82507b0bb9ac4affaeb17c40968d830cbd6d14a2ffa04d8994faf1a78e58e1b5",
+      "bytes": 33,
+      "object": "../objects/82507b0bb9ac4affaeb17c40968d830cbd6d14a2ffa04d8994faf1a78e58e1b5",
+      "originalurls": [
+        "https://comp.school/assets/__vite-browser-external-BIHI7g3E.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/__vite-browser-external-BIHI7g3E.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/__vite-browser-external-BIHI7g3E.js",
+          "final": "https://comp.school/assets/__vite-browser-external-BIHI7g3E.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/82507b0bb9ac4affaeb17c40968d830cbd6d14a2ffa04d8994faf1a78e58e1b5.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "82507b0bb9ac4affaeb17c40968d830cbd6d14a2ffa04d8994faf1a78e58e1b5"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "8287ccce4a834627a99eb657d76989066b7be476ebbdcf55f2db09d1c15fa821",
+      "bytes": 63264,
+      "object": "../objects/8287ccce4a834627a99eb657d76989066b7be476ebbdcf55f2db09d1c15fa821",
+      "originalurls": [
+        "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
+          "final": "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/8287ccce4a834627a99eb657d76989066b7be476ebbdcf55f2db09d1c15fa821.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "8287ccce4a834627a99eb657d76989066b7be476ebbdcf55f2db09d1c15fa821"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 8,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "88c99f17e02769f3ca0a8004bc69f8fbaf12460e50bd47f42135329d08c4a145",
+      "bytes": 294728,
+      "object": "../objects/88c99f17e02769f3ca0a8004bc69f8fbaf12460e50bd47f42135329d08c4a145",
+      "originalurls": [
+        "https://admin.comp.school/assets/index-DZASS4VW.js"
+      ],
+      "finalurls": [
+        "https://admin.comp.school/assets/index-DZASS4VW.js"
+      ],
+      "origins": [
+        {
+          "url": "https://admin.comp.school/assets/index-DZASS4VW.js",
+          "final": "https://admin.comp.school/assets/index-DZASS4VW.js",
+          "pageurls": [
+            "https://admin.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/88c99f17e02769f3ca0a8004bc69f8fbaf12460e50bd47f42135329d08c4a145.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "88c99f17e02769f3ca0a8004bc69f8fbaf12460e50bd47f42135329d08c4a145"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "8c198827d74e4040385fb70e9942d21850df73040ddce6a7a93e49f21553729a",
+      "bytes": 48999,
+      "object": "../objects/8c198827d74e4040385fb70e9942d21850df73040ddce6a7a93e49f21553729a",
+      "originalurls": [
+        "https://comp.school/exams/assets/radix-ui-Vw-YFQN8.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/radix-ui-Vw-YFQN8.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/radix-ui-Vw-YFQN8.js",
+          "final": "https://comp.school/exams/assets/radix-ui-Vw-YFQN8.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/8c198827d74e4040385fb70e9942d21850df73040ddce6a7a93e49f21553729a.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "8c198827d74e4040385fb70e9942d21850df73040ddce6a7a93e49f21553729a"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "8fbb633f5ce4948468aadbad46c76f489c94cfefc345b1ca63cab0ff5824dcb0",
+      "bytes": 298319,
+      "object": "../objects/8fbb633f5ce4948468aadbad46c76f489c94cfefc345b1ca63cab0ff5824dcb0",
+      "originalurls": [
+        "https://issues.comp.school/assets/index-CZ7Z_dFd.js"
+      ],
+      "finalurls": [
+        "https://issues.comp.school/assets/index-CZ7Z_dFd.js"
+      ],
+      "origins": [
+        {
+          "url": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+          "final": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+          "pageurls": [
+            "https://issues.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/8fbb633f5ce4948468aadbad46c76f489c94cfefc345b1ca63cab0ff5824dcb0.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "8fbb633f5ce4948468aadbad46c76f489c94cfefc345b1ca63cab0ff5824dcb0"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "930a76ec8bb718d1469d9c47b8500a6ddf5e9809a5487728d3114f4438e9c78b",
+      "bytes": 8172,
+      "object": "../objects/930a76ec8bb718d1469d9c47b8500a6ddf5e9809a5487728d3114f4438e9c78b",
+      "originalurls": [
+        "https://comp.school/code/assets/examples-CtrJP_Th.js"
+      ],
+      "finalurls": [
+        "https://comp.school/code/assets/examples-CtrJP_Th.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/code/assets/examples-CtrJP_Th.js",
+          "final": "https://comp.school/code/assets/examples-CtrJP_Th.js",
+          "pageurls": [
+            "https://comp.school/code/sql?paper=2&sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/930a76ec8bb718d1469d9c47b8500a6ddf5e9809a5487728d3114f4438e9c78b.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "930a76ec8bb718d1469d9c47b8500a6ddf5e9809a5487728d3114f4438e9c78b"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "9b1dc4f468886e1074ab04417ec327558ef0ee426a019e6be9facdb154eb8abb",
+      "bytes": 72825,
+      "object": "../objects/9b1dc4f468886e1074ab04417ec327558ef0ee426a019e6be9facdb154eb8abb",
+      "originalurls": [
+        "https://comp.school/exams/assets/SecretAgentsGame-CFNZoJLR.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/SecretAgentsGame-CFNZoJLR.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/SecretAgentsGame-CFNZoJLR.js",
+          "final": "https://comp.school/exams/assets/SecretAgentsGame-CFNZoJLR.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/9b1dc4f468886e1074ab04417ec327558ef0ee426a019e6be9facdb154eb8abb.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "9b1dc4f468886e1074ab04417ec327558ef0ee426a019e6be9facdb154eb8abb"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e",
+      "bytes": 7581465,
+      "object": "../objects/9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e",
+      "originalurls": [
+        "https://library.comp.school/assets/index-CTxi99Mm.js"
+      ],
+      "finalurls": [
+        "https://library.comp.school/assets/index-CTxi99Mm.js"
+      ],
+      "origins": [
+        {
+          "url": "https://library.comp.school/assets/index-CTxi99Mm.js",
+          "final": "https://library.comp.school/assets/index-CTxi99Mm.js",
+          "pageurls": [
+            "https://library.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 1658,
+      "types": [
+        "text/javascript"
+      ]
+    },
+    {
+      "sha256": "9ca39ec2e87d549c5ac76db9cf32b981bf73af08ed1003bed9c78f7110fc059b",
+      "bytes": 20447,
+      "object": "../objects/9ca39ec2e87d549c5ac76db9cf32b981bf73af08ed1003bed9c78f7110fc059b",
+      "originalurls": [
+        "https://comp.school/exams/assets/NetworkBuildGame-CzKkAyEJ.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/NetworkBuildGame-CzKkAyEJ.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/NetworkBuildGame-CzKkAyEJ.js",
+          "final": "https://comp.school/exams/assets/NetworkBuildGame-CzKkAyEJ.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/9ca39ec2e87d549c5ac76db9cf32b981bf73af08ed1003bed9c78f7110fc059b.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "9ca39ec2e87d549c5ac76db9cf32b981bf73af08ed1003bed9c78f7110fc059b"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 10,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "9d6e3f3a0e37b6b91853ac45ecf241340b245691f00e3586fccb0f6dafe4f7de",
+      "bytes": 81316,
+      "object": "../objects/9d6e3f3a0e37b6b91853ac45ecf241340b245691f00e3586fccb0f6dafe4f7de",
+      "originalurls": [
+        "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js",
+          "final": "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/9d6e3f3a0e37b6b91853ac45ecf241340b245691f00e3586fccb0f6dafe4f7de.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "9d6e3f3a0e37b6b91853ac45ecf241340b245691f00e3586fccb0f6dafe4f7de"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 9,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "9f8a7aedb8cbf034c123ae863b78386ff9875c7d9c4bc8a40752718b8b4d26f8",
+      "bytes": 19093,
+      "object": "../objects/9f8a7aedb8cbf034c123ae863b78386ff9875c7d9c4bc8a40752718b8b4d26f8",
+      "originalurls": [
+        "https://comp.school/assets/FlashcardsDeck-DS4H-fcj.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/FlashcardsDeck-DS4H-fcj.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/FlashcardsDeck-DS4H-fcj.js",
+          "final": "https://comp.school/assets/FlashcardsDeck-DS4H-fcj.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/9f8a7aedb8cbf034c123ae863b78386ff9875c7d9c4bc8a40752718b8b4d26f8.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "9f8a7aedb8cbf034c123ae863b78386ff9875c7d9c4bc8a40752718b8b4d26f8"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "a46b4131cf38c164db6c05e97223849abdab4da346fdb7e781e8c8ca8d82f5fe",
+      "bytes": 302403,
+      "object": "../objects/a46b4131cf38c164db6c05e97223849abdab4da346fdb7e781e8c8ca8d82f5fe",
+      "originalurls": [
+        "https://printouts.comp.school/assets/index-DIMUjXiM.js"
+      ],
+      "finalurls": [
+        "https://printouts.comp.school/assets/index-DIMUjXiM.js"
+      ],
+      "origins": [
+        {
+          "url": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+          "final": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+          "pageurls": [
+            "https://printouts.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/a46b4131cf38c164db6c05e97223849abdab4da346fdb7e781e8c8ca8d82f5fe.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "a46b4131cf38c164db6c05e97223849abdab4da346fdb7e781e8c8ca8d82f5fe"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 3,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "a800976b5efc9b3cc6115d0349f668f19620044cf7ea3ead1854e5fc36030c65",
+      "bytes": 3604610,
+      "object": "../objects/a800976b5efc9b3cc6115d0349f668f19620044cf7ea3ead1854e5fc36030c65",
+      "originalurls": [
+        "https://self-assess.comp.school/assets/index-wqfvhi8V.js"
+      ],
+      "finalurls": [
+        "https://self-assess.comp.school/assets/index-wqfvhi8V.js"
+      ],
+      "origins": [
+        {
+          "url": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+          "final": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+          "pageurls": [
+            "https://self-assess.comp.school/"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/a800976b5efc9b3cc6115d0349f668f19620044cf7ea3ead1854e5fc36030c65.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "a800976b5efc9b3cc6115d0349f668f19620044cf7ea3ead1854e5fc36030c65"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 291,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "b7f0258ab7c386a7e03ac267039f3e5e0d5b94da7c81114494368fea068df2c1",
+      "bytes": 55838,
+      "object": "../objects/b7f0258ab7c386a7e03ac267039f3e5e0d5b94da7c81114494368fea068df2c1",
+      "originalurls": [
+        "https://comp.school/exams/assets/ui-components-DeMDYLzO.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/ui-components-DeMDYLzO.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/ui-components-DeMDYLzO.js",
+          "final": "https://comp.school/exams/assets/ui-components-DeMDYLzO.js",
+          "pageurls": [
+            "https://comp.school/exams/",
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/b7f0258ab7c386a7e03ac267039f3e5e0d5b94da7c81114494368fea068df2c1.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "b7f0258ab7c386a7e03ac267039f3e5e0d5b94da7c81114494368fea068df2c1"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "b911ee1f0ad52852aaf107bce6c0391a45fc4ed3bf4ba28b89006c0a70808d28",
+      "bytes": 52420,
+      "object": "../objects/b911ee1f0ad52852aaf107bce6c0391a45fc4ed3bf4ba28b89006c0a70808d28",
+      "originalurls": [
+        "https://comp.school/exams/assets/FdeQuiz-QJ8t5VNa.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/FdeQuiz-QJ8t5VNa.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/FdeQuiz-QJ8t5VNa.js",
+          "final": "https://comp.school/exams/assets/FdeQuiz-QJ8t5VNa.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/b911ee1f0ad52852aaf107bce6c0391a45fc4ed3bf4ba28b89006c0a70808d28.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "b911ee1f0ad52852aaf107bce6c0391a45fc4ed3bf4ba28b89006c0a70808d28"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "bfe64446cf30abf52e0469857921fe66af5aa48c567843961db9575df8941c54",
+      "bytes": 3713489,
+      "object": "../objects/bfe64446cf30abf52e0469857921fe66af5aa48c567843961db9575df8941c54",
+      "originalurls": [
+        "https://printouts.comp.school/assets/App-Cih2P1hp.js"
+      ],
+      "finalurls": [
+        "https://printouts.comp.school/assets/App-Cih2P1hp.js"
+      ],
+      "origins": [
+        {
+          "url": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+          "final": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/bfe64446cf30abf52e0469857921fe66af5aa48c567843961db9575df8941c54.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "bfe64446cf30abf52e0469857921fe66af5aa48c567843961db9575df8941c54"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 209,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "c2bd1bddd0796f58fde6e213c061b2721256d46366bcee00c8530819e5fbc573",
+      "bytes": 202363,
+      "object": "../objects/c2bd1bddd0796f58fde6e213c061b2721256d46366bcee00c8530819e5fbc573",
+      "originalurls": [
+        "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
+      ],
+      "finalurls": [
+        "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
+      ],
+      "origins": [
+        {
+          "url": "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
+          "final": "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/c2bd1bddd0796f58fde6e213c061b2721256d46366bcee00c8530819e5fbc573.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "c2bd1bddd0796f58fde6e213c061b2721256d46366bcee00c8530819e5fbc573"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "c4edb21996573d2adba12bb7247869431b62960ca4adc845d980893dc57d9bd6",
+      "bytes": 152,
+      "object": "../objects/c4edb21996573d2adba12bb7247869431b62960ca4adc845d980893dc57d9bd6",
+      "originalurls": [
+        "https://comp.school/exams/assets/action-styles-DWMwPIR0.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/action-styles-DWMwPIR0.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/action-styles-DWMwPIR0.js",
+          "final": "https://comp.school/exams/assets/action-styles-DWMwPIR0.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/c4edb21996573d2adba12bb7247869431b62960ca4adc845d980893dc57d9bd6.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "c4edb21996573d2adba12bb7247869431b62960ca4adc845d980893dc57d9bd6"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "c9d6eec5a9bc1cc82e9ee901325db2ccb84ecc74384eea045bf5c4b8436409bf",
+      "bytes": 28930,
+      "object": "../objects/c9d6eec5a9bc1cc82e9ee901325db2ccb84ecc74384eea045bf5c4b8436409bf",
+      "originalurls": [
+        "https://mark.comp.school/assets/purify.es-CYR4BTuT.js"
+      ],
+      "finalurls": [
+        "https://mark.comp.school/assets/purify.es-CYR4BTuT.js"
+      ],
+      "origins": [
+        {
+          "url": "https://mark.comp.school/assets/purify.es-CYR4BTuT.js",
+          "final": "https://mark.comp.school/assets/purify.es-CYR4BTuT.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/c9d6eec5a9bc1cc82e9ee901325db2ccb84ecc74384eea045bf5c4b8436409bf.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "c9d6eec5a9bc1cc82e9ee901325db2ccb84ecc74384eea045bf5c4b8436409bf"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "ca118ac8428c5317cd087261fd9c7571af7617bc507f6bd3f2ebbc37d2f6bd66",
+      "bytes": 346,
+      "object": "../objects/ca118ac8428c5317cd087261fd9c7571af7617bc507f6bd3f2ebbc37d2f6bd66",
+      "originalurls": [
+        "https://comp.school/assets/coursework-editors-DmNamGFm.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/coursework-editors-DmNamGFm.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/coursework-editors-DmNamGFm.js",
+          "final": "https://comp.school/assets/coursework-editors-DmNamGFm.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/ca118ac8428c5317cd087261fd9c7571af7617bc507f6bd3f2ebbc37d2f6bd66.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "ca118ac8428c5317cd087261fd9c7571af7617bc507f6bd3f2ebbc37d2f6bd66"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "cc7e5e6328f8418d9913906ad3b77570b85e8698b900d02fb4e256a881eb416c",
+      "bytes": 19475,
+      "object": "../objects/cc7e5e6328f8418d9913906ad3b77570b85e8698b900d02fb4e256a881eb416c",
+      "originalurls": [
+        "https://comp.school/exams/assets/GamesRoom-C77RFDyI.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/GamesRoom-C77RFDyI.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/GamesRoom-C77RFDyI.js",
+          "final": "https://comp.school/exams/assets/GamesRoom-C77RFDyI.js",
+          "pageurls": [
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/cc7e5e6328f8418d9913906ad3b77570b85e8698b900d02fb4e256a881eb416c.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "cc7e5e6328f8418d9913906ad3b77570b85e8698b900d02fb4e256a881eb416c"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 43,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "d424784369b2c1fcbac83aecd2bc30ce0fa1dcfa681c084c19afa3d16d4a0a84",
+      "bytes": 6515,
+      "object": "../objects/d424784369b2c1fcbac83aecd2bc30ce0fa1dcfa681c084c19afa3d16d4a0a84",
+      "originalurls": [
+        "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js",
+          "final": "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/d424784369b2c1fcbac83aecd2bc30ce0fa1dcfa681c084c19afa3d16d4a0a84.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "d424784369b2c1fcbac83aecd2bc30ce0fa1dcfa681c084c19afa3d16d4a0a84"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 4,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "d4a4186afad00cb889c31541581ffb61a9957cf0a55aca26f719d4d7fd5237cb",
+      "bytes": 70467,
+      "object": "../objects/d4a4186afad00cb889c31541581ffb61a9957cf0a55aca26f719d4d7fd5237cb",
+      "originalurls": [
+        "https://comp.school/exams/assets/AddressArcadeGame-DPEl4ZPp.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/AddressArcadeGame-DPEl4ZPp.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/AddressArcadeGame-DPEl4ZPp.js",
+          "final": "https://comp.school/exams/assets/AddressArcadeGame-DPEl4ZPp.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/d4a4186afad00cb889c31541581ffb61a9957cf0a55aca26f719d4d7fd5237cb.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "d4a4186afad00cb889c31541581ffb61a9957cf0a55aca26f719d4d7fd5237cb"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 9,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "d5bc475f0890142fb8f2a74188b2ca493cee7eaa27cc80dc67dd9d6cb083377c",
+      "bytes": 435231,
+      "object": "../objects/d5bc475f0890142fb8f2a74188b2ca493cee7eaa27cc80dc67dd9d6cb083377c",
+      "originalurls": [
+        "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js",
+          "final": "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/d5bc475f0890142fb8f2a74188b2ca493cee7eaa27cc80dc67dd9d6cb083377c.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "d5bc475f0890142fb8f2a74188b2ca493cee7eaa27cc80dc67dd9d6cb083377c"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 12,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "d74eaf1e400e8b315229c3b52bd7907fca3f277a36a184ae72efbae283c6187b",
+      "bytes": 2280505,
+      "object": "../objects/d74eaf1e400e8b315229c3b52bd7907fca3f277a36a184ae72efbae283c6187b",
+      "originalurls": [
+        "https://comp.school/assets/BtecTaskActivity-Dt0Xd-0I.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/BtecTaskActivity-Dt0Xd-0I.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/BtecTaskActivity-Dt0Xd-0I.js",
+          "final": "https://comp.school/assets/BtecTaskActivity-Dt0Xd-0I.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/d74eaf1e400e8b315229c3b52bd7907fca3f277a36a184ae72efbae283c6187b.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "d74eaf1e400e8b315229c3b52bd7907fca3f277a36a184ae72efbae283c6187b"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 1127,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "d7a57b61401734f1621c8e6435667281f1c3c04e28f60891ef968e8ddef50a30",
+      "bytes": 5470,
+      "object": "../objects/d7a57b61401734f1621c8e6435667281f1c3c04e28f60891ef968e8ddef50a30",
+      "originalurls": [
+        "https://comp.school/assets/officeExport-CWuTEx50.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/officeExport-CWuTEx50.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/officeExport-CWuTEx50.js",
+          "final": "https://comp.school/assets/officeExport-CWuTEx50.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/d7a57b61401734f1621c8e6435667281f1c3c04e28f60891ef968e8ddef50a30.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "d7a57b61401734f1621c8e6435667281f1c3c04e28f60891ef968e8ddef50a30"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 8,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca",
+      "bytes": 1398,
+      "object": "../objects/d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca",
+      "originalurls": [
+        "https://recall.comp.school/recall/assets/index-OXn7GuU2.js"
+      ],
+      "finalurls": [
+        "https://comp.school/recall/recall/assets/index-OXn7GuU2.js"
+      ],
+      "origins": [
+        {
+          "url": "https://recall.comp.school/recall/assets/index-OXn7GuU2.js",
+          "final": "https://comp.school/recall/recall/assets/index-OXn7GuU2.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca"
+      },
+      "parse": {
+        "status": "error",
+        "error": "Unexpected token (1:1)"
+      },
+      "format": {
+        "status": "not-formatted",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": [],
+      "types": [
+        "text/html; charset=utf-8"
+      ]
+    },
+    {
+      "sha256": "da465924736b7beaf7360e52243febf2de90aa6df87e6ac1fbbddedd95d77b4b",
+      "bytes": 21710,
+      "object": "../objects/da465924736b7beaf7360e52243febf2de90aa6df87e6ac1fbbddedd95d77b4b",
+      "originalurls": [
+        "https://comp.school/exams/assets/NetworkTraceGame-Qz8SQ8Dr.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/NetworkTraceGame-Qz8SQ8Dr.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/NetworkTraceGame-Qz8SQ8Dr.js",
+          "final": "https://comp.school/exams/assets/NetworkTraceGame-Qz8SQ8Dr.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/da465924736b7beaf7360e52243febf2de90aa6df87e6ac1fbbddedd95d77b4b.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "da465924736b7beaf7360e52243febf2de90aa6df87e6ac1fbbddedd95d77b4b"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "e08b469dca17bb89b638d46cbb099a8d02d79c31fc1ad630c1b2b06d7268bc5b",
+      "bytes": 295446,
+      "object": "../objects/e08b469dca17bb89b638d46cbb099a8d02d79c31fc1ad630c1b2b06d7268bc5b",
+      "originalurls": [
+        "https://comp.school/assets/index-nz6jw_Fj.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/index-nz6jw_Fj.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/index-nz6jw_Fj.js",
+          "final": "https://comp.school/assets/index-nz6jw_Fj.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/e08b469dca17bb89b638d46cbb099a8d02d79c31fc1ad630c1b2b06d7268bc5b.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "e08b469dca17bb89b638d46cbb099a8d02d79c31fc1ad630c1b2b06d7268bc5b"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 65,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "e1216e97d963947234ff3fed615246a2d4239bc884c6dc47ed582b145b24e3fa",
+      "bytes": 12067,
+      "object": "../objects/e1216e97d963947234ff3fed615246a2d4239bc884c6dc47ed582b145b24e3fa",
+      "originalurls": [
+        "https://comp.school/assets/iferror-G0a-UzSa.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/iferror-G0a-UzSa.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/iferror-G0a-UzSa.js",
+          "final": "https://comp.school/assets/iferror-G0a-UzSa.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/e1216e97d963947234ff3fed615246a2d4239bc884c6dc47ed582b145b24e3fa.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "e1216e97d963947234ff3fed615246a2d4239bc884c6dc47ed582b145b24e3fa"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "e68520ab6f8510f545b91de2368ae760d783e0d0ff1e52e16385975d794b9239",
+      "bytes": 20333,
+      "object": "../objects/e68520ab6f8510f545b91de2368ae760d783e0d0ff1e52e16385975d794b9239",
+      "originalurls": [
+        "https://comp.school/assets/vlookup-BbKWtiKZ.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/vlookup-BbKWtiKZ.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/vlookup-BbKWtiKZ.js",
+          "final": "https://comp.school/assets/vlookup-BbKWtiKZ.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/e68520ab6f8510f545b91de2368ae760d783e0d0ff1e52e16385975d794b9239.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "e68520ab6f8510f545b91de2368ae760d783e0d0ff1e52e16385975d794b9239"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5",
+      "bytes": 1562,
+      "object": "../objects/eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5",
+      "originalurls": [
+        "https://exams.comp.school/exams/assets/index-DjyiOHey.js",
+        "https://exams.comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+        "https://exams.comp.school/exams/assets/ui-components-DeMDYLzO.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/exams/assets/index-DjyiOHey.js",
+        "https://comp.school/exams/exams/assets/react-vendor-BK1G6oO1.js",
+        "https://comp.school/exams/exams/assets/ui-components-DeMDYLzO.js"
+      ],
+      "origins": [
+        {
+          "url": "https://exams.comp.school/exams/assets/index-DjyiOHey.js",
+          "final": "https://comp.school/exams/exams/assets/index-DjyiOHey.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://exams.comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+          "final": "https://comp.school/exams/exams/assets/react-vendor-BK1G6oO1.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        },
+        {
+          "url": "https://exams.comp.school/exams/assets/ui-components-DeMDYLzO.js",
+          "final": "https://comp.school/exams/exams/assets/ui-components-DeMDYLzO.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5"
+      },
+      "parse": {
+        "status": "error",
+        "error": "Unexpected token (1:1)"
+      },
+      "format": {
+        "status": "not-formatted",
+        "semanticallyequivalent": null,
+        "error": null
+      },
+      "dependencies": [],
+      "types": [
+        "text/html; charset=utf-8"
+      ]
+    },
+    {
+      "sha256": "eda7c8c1dc43a93227ae473f6b985e3292a4d26fe1142534e50b12f9279b5f8a",
+      "bytes": 159966,
+      "object": "../objects/eda7c8c1dc43a93227ae473f6b985e3292a4d26fe1142534e50b12f9279b5f8a",
+      "originalurls": [
+        "https://mark.comp.school/assets/index.es-DClevNrK.js"
+      ],
+      "finalurls": [
+        "https://mark.comp.school/assets/index.es-DClevNrK.js"
+      ],
+      "origins": [
+        {
+          "url": "https://mark.comp.school/assets/index.es-DClevNrK.js",
+          "final": "https://mark.comp.school/assets/index.es-DClevNrK.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/eda7c8c1dc43a93227ae473f6b985e3292a4d26fe1142534e50b12f9279b5f8a.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "eda7c8c1dc43a93227ae473f6b985e3292a4d26fe1142534e50b12f9279b5f8a"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "edaee5fa378701a1003f20053f2603568ede92a3b0ad30733cc22b083eabbc82",
+      "bytes": 5060,
+      "object": "../objects/edaee5fa378701a1003f20053f2603568ede92a3b0ad30733cc22b083eabbc82",
+      "originalurls": [
+        "https://comp.school/code/assets/examples-Dk-2skNd.js"
+      ],
+      "finalurls": [
+        "https://comp.school/code/assets/examples-Dk-2skNd.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/code/assets/examples-Dk-2skNd.js",
+          "final": "https://comp.school/code/assets/examples-Dk-2skNd.js",
+          "pageurls": [
+            "https://comp.school/code/python?paper=2&sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/edaee5fa378701a1003f20053f2603568ede92a3b0ad30733cc22b083eabbc82.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "edaee5fa378701a1003f20053f2603568ede92a3b0ad30733cc22b083eabbc82"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 0,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "eef0bdcd463ea90fe84703e1eb1ad651add2a72a92951f026b9f75692f0e64ee",
+      "bytes": 112161,
+      "object": "../objects/eef0bdcd463ea90fe84703e1eb1ad651add2a72a92951f026b9f75692f0e64ee",
+      "originalurls": [
+        "https://comp.school/exams/assets/proxy-DGk2Wawc.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/proxy-DGk2Wawc.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/proxy-DGk2Wawc.js",
+          "final": "https://comp.school/exams/assets/proxy-DGk2Wawc.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/eef0bdcd463ea90fe84703e1eb1ad651add2a72a92951f026b9f75692f0e64ee.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "eef0bdcd463ea90fe84703e1eb1ad651add2a72a92951f026b9f75692f0e64ee"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 2,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "f010ff9aac3984c0e7cd33f674cb1a62971bce6d91420447ea5c0f6521f62aba",
+      "bytes": 24811,
+      "object": "../objects/f010ff9aac3984c0e7cd33f674cb1a62971bce6d91420447ea5c0f6521f62aba",
+      "originalurls": [
+        "https://comp.school/assets/QuizGame-CIgtM-fA.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/QuizGame-CIgtM-fA.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/QuizGame-CIgtM-fA.js",
+          "final": "https://comp.school/assets/QuizGame-CIgtM-fA.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/f010ff9aac3984c0e7cd33f674cb1a62971bce6d91420447ea5c0f6521f62aba.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "f010ff9aac3984c0e7cd33f674cb1a62971bce6d91420447ea5c0f6521f62aba"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271",
+      "bytes": 1695731,
+      "object": "../objects/f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271",
+      "originalurls": [
+        "https://comp.school/recall/assets/index-OXn7GuU2.js"
+      ],
+      "finalurls": [
+        "https://comp.school/recall/assets/index-OXn7GuU2.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/recall/assets/index-OXn7GuU2.js",
+          "final": "https://comp.school/recall/assets/index-OXn7GuU2.js",
+          "pageurls": [
+            "https://comp.school/recall/",
+            "https://comp.school/recall/?paper=1&topic=1.1&sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "semantic-mismatch",
+        "semanticallyequivalent": false,
+        "error": null
+      },
+      "dependencies": 145,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "f2cedece2131484ae473d71c474c813e5c2d3afb51abf37d223b1f022c541118",
+      "bytes": 12435,
+      "object": "../objects/f2cedece2131484ae473d71c474c813e5c2d3afb51abf37d223b1f022c541118",
+      "originalurls": [
+        "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js"
+      ],
+      "finalurls": [
+        "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js",
+          "final": "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js",
+          "pageurls": [],
+          "captures": [
+            "inventory"
+          ]
+        }
+      ],
+      "readable": "readable/f2cedece2131484ae473d71c474c813e5c2d3afb51abf37d223b1f022c541118.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "f2cedece2131484ae473d71c474c813e5c2d3afb51abf37d223b1f022c541118"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 21,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "f56b648963092cb237cdd0a3ef4296962deaa24a5d75230f44dd02629cdd329b",
+      "bytes": 72120,
+      "object": "../objects/f56b648963092cb237cdd0a3ef4296962deaa24a5d75230f44dd02629cdd329b",
+      "originalurls": [
+        "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js",
+          "final": "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/f56b648963092cb237cdd0a3ef4296962deaa24a5d75230f44dd02629cdd329b.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "f56b648963092cb237cdd0a3ef4296962deaa24a5d75230f44dd02629cdd329b"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 7,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "f652eba9e2e60ca1e01215034eda5a5bd759795226d1b6d19ff46fc34a81fbff",
+      "bytes": 34236,
+      "object": "../objects/f652eba9e2e60ca1e01215034eda5a5bd759795226d1b6d19ff46fc34a81fbff",
+      "originalurls": [
+        "https://comp.school/exams/assets/LineByLineGame-Bcc5iq7z.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/LineByLineGame-Bcc5iq7z.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/LineByLineGame-Bcc5iq7z.js",
+          "final": "https://comp.school/exams/assets/LineByLineGame-Bcc5iq7z.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/f652eba9e2e60ca1e01215034eda5a5bd759795226d1b6d19ff46fc34a81fbff.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "f652eba9e2e60ca1e01215034eda5a5bd759795226d1b6d19ff46fc34a81fbff"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 5,
+      "types": [
+        "application/javascript"
+      ]
+    },
+    {
+      "sha256": "feecb816250be8262d227b06a3f663998715909833a668889daa4884055eef2a",
+      "bytes": 476,
+      "object": "../objects/feecb816250be8262d227b06a3f663998715909833a668889daa4884055eef2a",
+      "originalurls": [
+        "https://comp.school/exams/assets/keyword-flashcards-Ha6Msavb.js"
+      ],
+      "finalurls": [
+        "https://comp.school/exams/assets/keyword-flashcards-Ha6Msavb.js"
+      ],
+      "origins": [
+        {
+          "url": "https://comp.school/exams/assets/keyword-flashcards-Ha6Msavb.js",
+          "final": "https://comp.school/exams/assets/keyword-flashcards-Ha6Msavb.js",
+          "pageurls": [
+            "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
+            "https://comp.school/exams/games/careers?sql=mock",
+            "https://comp.school/exams/games/games-room?sql=mock"
+          ],
+          "captures": [
+            "inventory",
+            "runtime"
+          ]
+        }
+      ],
+      "readable": "readable/feecb816250be8262d227b06a3f663998715909833a668889daa4884055eef2a.js",
+      "verification": {
+        "status": "passed",
+        "actualsha256": "feecb816250be8262d227b06a3f663998715909833a668889daa4884055eef2a"
+      },
+      "parse": {
+        "status": "passed",
+        "error": null
+      },
+      "format": {
+        "status": "passed",
+        "semanticallyequivalent": true,
+        "error": null
+      },
+      "dependencies": 1,
+      "types": [
+        "application/javascript"
+      ]
+    }
+  ],
+  "runtimescriptsnotcaptured": [
+    {
+      "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
+      "pages": [
+        "https://comp.school/code/sql-challenges?sql=mock",
+        "https://comp.school/code/sql?paper=2&sql=mock"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "External origin recorded, not mirrored"
+      ]
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "pages": [
+        "https://comp.school/code/python?paper=2&sql=mock"
+      ],
+      "types": [
+        "text/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "External origin recorded, not mirrored"
+      ]
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "pages": [
+        "https://comp.school/code/python?paper=2&sql=mock"
+      ],
+      "types": [
+        "text/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "External origin recorded, not mirrored"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/action-styles-DWMwPIR0.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/proxy-DGk2Wawc.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    },
+    {
+      "url": "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js",
+      "pages": [
+        "https://admin.comp.school/"
+      ],
+      "types": [
+        "application/javascript"
+      ],
+      "statuses": [
+        200
+      ],
+      "reasons": [
+        "No resource with given identifier found"
+      ]
+    }
+  ],
+  "summary": {
+    "assets": 102,
+    "parsed": 99,
+    "parsefailures": 3,
+    "formatted": 79,
+    "formatfailures": 20,
+    "preserved": 0,
+    "dependencies": 16297,
+    "unresolved": 2236,
+    "external": 46
+  }
+}

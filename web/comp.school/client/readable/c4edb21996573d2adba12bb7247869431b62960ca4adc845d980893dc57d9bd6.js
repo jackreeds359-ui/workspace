@@ -1,0 +1,3 @@
+const t =
+  "bg-teal-400 text-[#020617] hover:bg-teal-300 hover:text-[#020617] dark:bg-teal-400 dark:text-[#020617] dark:hover:bg-teal-300";
+export { t as T };

@@ -1,0 +1,12427 @@
+import { j as t, r as S, k as yt, L as Qe } from "./react-vendor-BK1G6oO1.js";
+import {
+  cI as Ie,
+  cJ as Ht,
+  cK as Dt,
+  cL as Bt,
+  aW as Se,
+  aR as Wt,
+  aO as Ut,
+  b6 as zt,
+  ca as qt,
+  b5 as Kt,
+  a2 as Me,
+  bm as Gt,
+  P as Yt,
+  R as Zt,
+  ak as Jt,
+  b2 as Xt,
+  bz as Qt,
+  cb as en,
+  cM as tn,
+  a as nn,
+  cN as vt,
+  cO as sn,
+  aT as an,
+  cA as et,
+  cB as rn,
+  cC as on,
+  cD as ln,
+  cE as cn,
+  cF as un,
+  cG as dn,
+} from "./index-DjyiOHey.js";
+import {
+  f as pn,
+  c as hn,
+  B as tt,
+  H as mn,
+  t as _,
+  E as ue,
+  g as fn,
+  S as gn,
+  s as bn,
+  P as xn,
+  h as Ae,
+  k as wn,
+  i as $n,
+  j as yn,
+  m as vn,
+  n as kn,
+  p as jn,
+  q as nt,
+  a as Sn,
+  b as Nn,
+  u as Tn,
+  r as Cn,
+  G as st,
+  o as Ln,
+  L as In,
+} from "./AppRoutes-Br4afREO.js";
+import {
+  a as Mn,
+  P as An,
+  _ as Rn,
+  a0 as En,
+  a1 as Pn,
+  a2 as _n,
+} from "./ui-components-DeMDYLzO.js";
+const Fn = 600;
+function Vn(n) {
+  return n * 100;
+}
+const On = {
+    id: "animals",
+    name: "Animals",
+    stages: [
+      { key: "egg", name: "Egg" },
+      { key: "duckling", name: "Duckling" },
+      { key: "rabbit", name: "Rabbit" },
+      { key: "cat", name: "Cat" },
+      { key: "otter", name: "Otter" },
+      { key: "owl", name: "Owl" },
+      { key: "fox", name: "Fox" },
+      { key: "turtle", name: "Turtle" },
+      { key: "penguin", name: "Penguin" },
+      { key: "wolf", name: "Wolf" },
+      { key: "dragon", name: "Dragon" },
+    ],
+    flavour: {
+      collection: "rescue centre",
+      item: { one: "animal", many: "animals" },
+      items: ["otter", "owl", "fox", "rabbit", "penguin", "turtle"],
+      names: ["Pip", "Nova", "Biscuit", "Maple", "Echo"],
+      values: {
+        label: "weight in grams",
+        data: [420, 95, 1310, 760, 205, 2480, 58],
+      },
+      threshold: { label: "energy", value: 50 },
+      countdown: { label: "feeds left", start: 5 },
+      story: {
+        intro:
+          "The rescue centre needs your help sorting out the new arrivals.",
+        success: "Every animal is fed, sorted and settled in.",
+      },
+    },
+  },
+  Hn = {
+    id: "music",
+    name: "Music playlist",
+    stages: [
+      { key: "bedroom", name: "Bedroom producer" },
+      { key: "busker", name: "Busker" },
+      { key: "open-mic", name: "Open mic" },
+      { key: "local-gig", name: "Local gig" },
+      { key: "support-act", name: "Support act" },
+      { key: "headliner", name: "Headliner" },
+      { key: "album", name: "Album drop" },
+      { key: "tour", name: "On tour" },
+      { key: "festival", name: "Festival stage" },
+      { key: "arena", name: "Arena" },
+      { key: "legend", name: "Legend" },
+    ],
+    variants: [
+      { id: "female", name: "Maya" },
+      { id: "male", name: "Leo" },
+    ],
+    flavour: {
+      collection: "playlist",
+      item: { one: "track", many: "tracks" },
+      items: [
+        "Neon Nights",
+        "Golden Hour",
+        "Static",
+        "Wildfire",
+        "Low Tide",
+        "Echoes",
+      ],
+      names: ["Aria", "Jay", "Kai", "Luna", "Remy"],
+      values: { label: "plays", data: [1840, 320, 9120, 4410, 75, 2660, 610] },
+      threshold: { label: "volume", value: 70 },
+      countdown: { label: "tracks left", start: 5 },
+      story: {
+        intro: "Your first playlist is going live tonight.",
+        success: "The playlist is sorted and the crowd wants an encore.",
+      },
+    },
+  },
+  Dn = {
+    id: "arcade",
+    name: "Arcade",
+    stages: [
+      { key: "coin", name: "Coin" },
+      { key: "pixel", name: "Pixel" },
+      { key: "sprite", name: "Sprite" },
+      { key: "player-one", name: "Player 1" },
+      { key: "combo", name: "Combo" },
+      { key: "power-up", name: "Power-up" },
+      { key: "boss", name: "Boss fight" },
+      { key: "high-score", name: "High score" },
+      { key: "speedrun", name: "Speedrun" },
+      { key: "champion", name: "Champion" },
+      { key: "arcade-legend", name: "Arcade legend" },
+    ],
+    flavour: {
+      collection: "leaderboard",
+      item: { one: "power-up", many: "power-ups" },
+      items: [
+        "shield",
+        "magnet",
+        "speed boost",
+        "extra life",
+        "double jump",
+        "freeze",
+      ],
+      names: ["ACE", "ZED", "MOX", "RIO", "VEX"],
+      values: {
+        label: "points",
+        data: [12500, 870, 43200, 6100, 150, 21900, 3300],
+      },
+      threshold: { label: "lives", value: 1 },
+      countdown: { label: "coins", start: 5 },
+      story: {
+        intro: "The arcade high score table has been scrambled.",
+        success: "Scores restored and your initials are at the top.",
+      },
+    },
+  },
+  Bn = {
+    id: "zombie",
+    name: "Zombie apocalypse",
+    stages: [
+      { key: "hideout", name: "Hideout" },
+      { key: "scavenger", name: "Scavenger" },
+      { key: "lookout", name: "Lookout" },
+      { key: "runner", name: "Runner" },
+      { key: "medic", name: "Medic" },
+      { key: "engineer", name: "Engineer" },
+      { key: "scout-leader", name: "Scout leader" },
+      { key: "base-builder", name: "Base builder" },
+      { key: "convoy", name: "Convoy captain" },
+      { key: "commander", name: "Commander" },
+      { key: "cure", name: "Cure finder" },
+    ],
+    flavour: {
+      collection: "supply crate",
+      item: { one: "supply", many: "supplies" },
+      items: [
+        "torch",
+        "crowbar",
+        "first aid kit",
+        "radio",
+        "tinned beans",
+        "rope",
+      ],
+      names: ["Riley", "Sam", "Jordan", "Alex", "Morgan"],
+      values: { label: "metres away", data: [340, 12, 905, 150, 60, 480, 27] },
+      threshold: { label: "health", value: 30 },
+      countdown: { label: "zombies at the gate", start: 5 },
+      story: {
+        intro: "The horde is coming. Pack the crate and hold the gate.",
+        success: "The base is safe until sunrise.",
+      },
+    },
+  },
+  Wn = {
+    id: "space",
+    name: "Space mission",
+    stages: [
+      { key: "cadet", name: "Cadet" },
+      { key: "trainee", name: "Trainee" },
+      { key: "pilot", name: "Pilot" },
+      { key: "navigator", name: "Navigator" },
+      { key: "engineer", name: "Flight engineer" },
+      { key: "specialist", name: "Mission specialist" },
+      { key: "spacewalker", name: "Spacewalker" },
+      { key: "moonwalker", name: "Moonwalker" },
+      { key: "mars-pioneer", name: "Mars pioneer" },
+      { key: "deep-space", name: "Deep space" },
+      { key: "star-captain", name: "Star captain" },
+    ],
+    flavour: {
+      collection: "cargo bay",
+      item: { one: "planet", many: "planets" },
+      items: ["Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Neptune"],
+      names: ["Orion", "Vega", "Juno", "Atlas", "Lyra"],
+      values: { label: "fuel units", data: [640, 85, 1200, 390, 15, 970, 210] },
+      threshold: { label: "oxygen", value: 20 },
+      countdown: { label: "seconds to launch", start: 10 },
+      story: {
+        intro: "Mission control has handed you the launch checklist.",
+        success: "Lift-off. The crew is on course for the stars.",
+      },
+    },
+  },
+  Un = {
+    id: "sports",
+    name: "Sports league",
+    stages: [
+      { key: "rookie", name: "Rookie" },
+      { key: "academy", name: "Academy" },
+      { key: "sub", name: "Substitute" },
+      { key: "starter", name: "Starter" },
+      { key: "captain", name: "Captain" },
+      { key: "top-scorer", name: "Top scorer" },
+      { key: "mvp", name: "MVP" },
+      { key: "cup-winner", name: "Cup winner" },
+      { key: "international", name: "International" },
+      { key: "record-breaker", name: "Record breaker" },
+      { key: "hall-of-fame", name: "Hall of fame" },
+    ],
+    variants: [
+      { id: "female", name: "Zara" },
+      { id: "male", name: "Marcus" },
+    ],
+    flavour: {
+      collection: "squad",
+      item: { one: "team", many: "teams" },
+      items: ["Rovers", "Comets", "Falcons", "United", "Storm", "Athletic"],
+      names: ["Mo", "Ella", "Theo", "Priya", "Zac"],
+      values: { label: "points", data: [48, 12, 71, 33, 5, 60, 27] },
+      threshold: { label: "stamina", value: 40 },
+      countdown: { label: "minutes left", start: 5 },
+      story: {
+        intro: "The league table needs sorting before the final whistle.",
+        success: "Table sorted, trophy lifted.",
+      },
+    },
+  },
+  zn = {
+    id: "cyber",
+    name: "Cyber hacker",
+    stages: [
+      { key: "newbie", name: "Terminal newbie" },
+      { key: "script-tinkerer", name: "Script tinkerer" },
+      { key: "bug-hunter", name: "Bug hunter" },
+      { key: "packet-sniffer", name: "Packet sniffer" },
+      { key: "firewall-builder", name: "Firewall builder" },
+      { key: "code-breaker", name: "Code breaker" },
+      { key: "pen-tester", name: "Pen tester" },
+      { key: "red-teamer", name: "Red teamer" },
+      { key: "zero-day-hunter", name: "Zero-day hunter" },
+      { key: "cyber-guardian", name: "Cyber guardian" },
+      { key: "white-hat-legend", name: "White-hat legend" },
+    ],
+    flavour: {
+      collection: "server log",
+      item: { one: "packet", many: "packets" },
+      items: ["ping", "handshake", "login", "upload", "backup", "patch"],
+      names: ["Byte", "Cipher", "Nyx", "Echo", "Vex"],
+      values: {
+        label: "ms response time",
+        data: [240, 18, 905, 62, 331, 7, 488],
+      },
+      threshold: { label: "threat level", value: 60 },
+      countdown: { label: "firewall layers left", start: 5 },
+      story: {
+        intro:
+          "An unknown signal is probing the school server. Time to trace it, the ethical way.",
+        success:
+          "The breach is patched and the logs are clean. White hats win.",
+      },
+    },
+  },
+  qn = {
+    id: "skate",
+    name: "Skate park",
+    stages: [
+      { key: "first-board", name: "First board" },
+      { key: "pusher", name: "Pusher" },
+      { key: "ollie", name: "Ollie" },
+      { key: "kickflip", name: "Kickflip" },
+      { key: "grinder", name: "Rail grinder" },
+      { key: "bowl-rider", name: "Bowl rider" },
+      { key: "local-hero", name: "Local hero" },
+      { key: "sponsored", name: "Sponsored" },
+      { key: "pro-part", name: "Pro video part" },
+      { key: "x-games", name: "X Games" },
+      { key: "skate-icon", name: "Skate icon" },
+    ],
+    flavour: {
+      collection: "trick list",
+      item: { one: "trick", many: "tricks" },
+      items: [
+        "ollie",
+        "kickflip",
+        "manual",
+        "heelflip",
+        "shuvit",
+        "boardslide",
+      ],
+      names: ["Kai", "Rio", "Jules", "Sasha", "Remi"],
+      values: { label: "points", data: [640, 85, 1220, 410, 55, 930, 260] },
+      threshold: { label: "speed", value: 40 },
+      countdown: { label: "runs left", start: 5 },
+      story: {
+        intro: "The new skate park opens today and the judges are watching.",
+        success: "Clean landings all day. The crowd is chanting your name.",
+      },
+    },
+  },
+  Kn = {
+    id: "sneakers",
+    name: "Sneaker drop",
+    stages: [
+      { key: "sketchbook", name: "Sketchbook" },
+      { key: "customiser", name: "Customiser" },
+      { key: "first-pair", name: "First pair" },
+      { key: "resale-rookie", name: "Resale rookie" },
+      { key: "collab", name: "Collab" },
+      { key: "limited-run", name: "Limited run" },
+      { key: "sold-out", name: "Sold out" },
+      { key: "flagship", name: "Flagship store" },
+      { key: "runway", name: "Runway" },
+      { key: "global-drop", name: "Global drop" },
+      { key: "design-icon", name: "Design icon" },
+    ],
+    flavour: {
+      collection: "drop list",
+      item: { one: "sneaker", many: "sneakers" },
+      items: [
+        "Cloud Runner",
+        "Volt High",
+        "Neon Low",
+        "Street Pro",
+        "Aero Slide",
+        "Nova Boot",
+      ],
+      names: ["Ari", "Jaden", "Mika", "Priya", "Theo"],
+      values: {
+        label: "pairs sold",
+        data: [1250, 90, 3400, 610, 47, 2280, 880],
+      },
+      threshold: { label: "hype", value: 75 },
+      countdown: { label: "pairs left", start: 5 },
+      story: {
+        intro: "Your first sneaker design drops at midnight.",
+        success: "Sold out in seconds. Everyone wants a pair.",
+      },
+    },
+  },
+  Gn = {
+    id: "ninja",
+    name: "Ninja dojo",
+    stages: [
+      { key: "white-belt", name: "White belt" },
+      { key: "yellow-belt", name: "Yellow belt" },
+      { key: "orange-belt", name: "Orange belt" },
+      { key: "green-belt", name: "Green belt" },
+      { key: "blue-belt", name: "Blue belt" },
+      { key: "purple-belt", name: "Purple belt" },
+      { key: "brown-belt", name: "Brown belt" },
+      { key: "black-belt", name: "Black belt" },
+      { key: "shadow-runner", name: "Shadow runner" },
+      { key: "sensei", name: "Sensei" },
+      { key: "grandmaster", name: "Grandmaster" },
+    ],
+    flavour: {
+      collection: "scroll",
+      item: { one: "move", many: "moves" },
+      items: ["dash", "block", "flip", "sweep", "dodge", "strike"],
+      names: ["Hana", "Ren", "Aiko", "Sora", "Kenji"],
+      values: {
+        label: "training score",
+        data: [330, 74, 812, 156, 29, 560, 245],
+      },
+      threshold: { label: "focus", value: 65 },
+      countdown: { label: "lanterns left", start: 5 },
+      story: {
+        intro: "The dojo gates open at dawn. Your training begins.",
+        success: "Every scroll mastered. The sensei bows to you.",
+      },
+    },
+  },
+  Yn = {
+    id: "spells",
+    name: "Spell academy",
+    stages: [
+      { key: "first-wand", name: "First wand" },
+      { key: "apprentice", name: "Apprentice" },
+      { key: "potion-brewer", name: "Potion brewer" },
+      { key: "rune-reader", name: "Rune reader" },
+      { key: "familiar", name: "Familiar bond" },
+      { key: "spellcaster", name: "Spellcaster" },
+      { key: "enchanter", name: "Enchanter" },
+      { key: "storm-caller", name: "Storm caller" },
+      { key: "archmage", name: "Archmage" },
+      { key: "star-weaver", name: "Star weaver" },
+      { key: "legendary-wizard", name: "Legendary wizard" },
+    ],
+    flavour: {
+      collection: "spellbook",
+      item: { one: "spell", many: "spells" },
+      items: ["glow", "levitate", "shield", "spark", "shrink", "mirror"],
+      names: ["Wren", "Orla", "Felix", "Isla", "Zeph"],
+      values: { label: "mana", data: [720, 48, 1390, 255, 96, 1015, 380] },
+      threshold: { label: "focus", value: 50 },
+      countdown: { label: "potions left", start: 5 },
+      story: {
+        intro: "Your acceptance letter just arrived by owl.",
+        success: "The final exam is passed with a flourish of stars.",
+      },
+    },
+  },
+  Zn = {
+    id: "deep-sea",
+    name: "Deep sea",
+    stages: [
+      { key: "rock-pool", name: "Rock pooler" },
+      { key: "snorkeller", name: "Snorkeller" },
+      { key: "diver", name: "Diver" },
+      { key: "reef-guide", name: "Reef guide" },
+      { key: "wreck-explorer", name: "Wreck explorer" },
+      { key: "sub-pilot", name: "Sub pilot" },
+      { key: "trench-mapper", name: "Trench mapper" },
+      { key: "whale-friend", name: "Whale friend" },
+      { key: "abyss-diver", name: "Abyss diver" },
+      { key: "ocean-guardian", name: "Ocean guardian" },
+      { key: "sea-legend", name: "Sea legend" },
+    ],
+    flavour: {
+      collection: "dive log",
+      item: { one: "creature", many: "creatures" },
+      items: [
+        "jellyfish",
+        "octopus",
+        "seahorse",
+        "manta ray",
+        "anglerfish",
+        "turtle",
+      ],
+      names: ["Marina", "Finn", "Coral", "Neo", "Tide"],
+      values: { label: "metres deep", data: [120, 15, 980, 340, 6, 2100, 560] },
+      threshold: { label: "oxygen", value: 30 },
+      countdown: { label: "air tanks left", start: 5 },
+      story: {
+        intro: "The submarine hatch closes. The ocean floor is waiting.",
+        success: "Every creature logged and back to the surface safely.",
+      },
+    },
+  },
+  Jn = {
+    id: "streamer",
+    name: "Game streamer",
+    stages: [
+      { key: "first-stream", name: "First stream" },
+      { key: "webcam", name: "Webcam on" },
+      { key: "chat-regular", name: "Chat regular" },
+      { key: "affiliate", name: "Affiliate" },
+      { key: "raid", name: "First raid" },
+      { key: "partner", name: "Partner" },
+      { key: "tournament", name: "Tournament" },
+      { key: "charity-stream", name: "Charity stream" },
+      { key: "trending", name: "Trending" },
+      { key: "convention", name: "Convention stage" },
+      { key: "streaming-legend", name: "Streaming legend" },
+    ],
+    flavour: {
+      collection: "stream schedule",
+      item: { one: "clip", many: "clips" },
+      items: [
+        "speedrun",
+        "boss fight",
+        "build battle",
+        "collab",
+        "Q and A",
+        "retro night",
+      ],
+      names: ["Pixel", "Juno", "Blaze", "Mo", "Kiki"],
+      values: { label: "viewers", data: [1560, 42, 4870, 730, 18, 2990, 905] },
+      threshold: { label: "chat speed", value: 80 },
+      countdown: { label: "minutes left", start: 5 },
+      story: {
+        intro: "You are going live for the very first time.",
+        success: "Chat is going wild. Thanks for the raid!",
+      },
+    },
+  },
+  Xn = {
+    id: "chef",
+    name: "Street food chef",
+    stages: [
+      { key: "kitchen-helper", name: "Kitchen helper" },
+      { key: "dishwasher", name: "Dish hero" },
+      { key: "prep-cook", name: "Prep cook" },
+      { key: "food-truck", name: "Food truck" },
+      { key: "market-stall", name: "Market stall" },
+      { key: "sous-chef", name: "Sous chef" },
+      { key: "head-chef", name: "Head chef" },
+      { key: "cook-off", name: "Cook-off champ" },
+      { key: "restaurant", name: "Own restaurant" },
+      { key: "tv-chef", name: "TV chef" },
+      { key: "master-chef", name: "Master chef" },
+    ],
+    flavour: {
+      collection: "menu",
+      item: { one: "dish", many: "dishes" },
+      items: ["tacos", "ramen", "bao", "pizza", "jerk wings", "bubble tea"],
+      names: ["Ade", "Lola", "Kofi", "Mei", "Sami"],
+      values: { label: "orders", data: [260, 35, 740, 118, 12, 505, 190] },
+      threshold: { label: "spice", value: 6 },
+      countdown: { label: "orders left", start: 5 },
+      story: {
+        intro:
+          "The food truck is open and the queue is already round the corner.",
+        success: "Every order served hot. Five stars from every table.",
+      },
+    },
+  },
+  Qn = {
+    id: "racing",
+    name: "Racing driver",
+    stages: [
+      { key: "go-kart", name: "Go-kart" },
+      { key: "karting-cup", name: "Karting cup" },
+      { key: "rookie-driver", name: "Rookie driver" },
+      { key: "formula-4", name: "Formula 4" },
+      { key: "podium", name: "Podium" },
+      { key: "formula-2", name: "Formula 2" },
+      { key: "pole-position", name: "Pole position" },
+      { key: "race-winner", name: "Race winner" },
+      { key: "team-leader", name: "Team leader" },
+      { key: "world-champion", name: "World champion" },
+      { key: "racing-legend", name: "Racing legend" },
+    ],
+    flavour: {
+      collection: "lap board",
+      item: { one: "car", many: "cars" },
+      items: ["Comet", "Viper", "Blitz", "Nova", "Falcon", "Rogue"],
+      names: ["Lena", "Ines", "Marco", "Zoe", "Rafa"],
+      values: {
+        label: "lap time in tenths",
+        data: [812, 794, 831, 779, 856, 801, 769],
+      },
+      threshold: { label: "tyre grip", value: 55 },
+      countdown: { label: "laps left", start: 5 },
+      story: {
+        intro: "Lights out and away we go.",
+        success: "Chequered flag. First across the line.",
+      },
+    },
+  },
+  es = {
+    id: "detective",
+    name: "Detective agency",
+    stages: [
+      { key: "notebook", name: "Notebook" },
+      { key: "clue-spotter", name: "Clue spotter" },
+      { key: "junior-sleuth", name: "Junior sleuth" },
+      { key: "fingerprint", name: "Fingerprint pro" },
+      { key: "stakeout", name: "Stakeout" },
+      { key: "case-cracker", name: "Case cracker" },
+      { key: "inspector", name: "Inspector" },
+      { key: "chief-inspector", name: "Chief inspector" },
+      { key: "mastermind", name: "Mastermind" },
+      { key: "agency-head", name: "Agency head" },
+      { key: "legendary-sleuth", name: "Legendary sleuth" },
+    ],
+    flavour: {
+      collection: "case file",
+      item: { one: "clue", many: "clues" },
+      items: [
+        "footprint",
+        "torn ticket",
+        "muddy glove",
+        "coded note",
+        "broken lock",
+        "lost key",
+      ],
+      names: ["Iris", "Otis", "Nadia", "Rory", "Bea"],
+      values: {
+        label: "evidence number",
+        data: [417, 23, 988, 152, 76, 640, 305],
+      },
+      threshold: { label: "suspicion", value: 70 },
+      countdown: { label: "suspects left", start: 5 },
+      story: {
+        intro: "A priceless trophy has vanished from the school hall.",
+        success: "Case closed. The trophy is back in its cabinet.",
+      },
+    },
+  },
+  ts = [
+    "animals",
+    "music",
+    "arcade",
+    "zombie",
+    "space",
+    "sports",
+    "cyber",
+    "skate",
+    "sneakers",
+    "ninja",
+    "spells",
+    "deep-sea",
+    "streamer",
+    "chef",
+    "racing",
+    "detective",
+  ],
+  Ze = {
+    animals: On,
+    music: Hn,
+    arcade: Dn,
+    zombie: Bn,
+    space: Wn,
+    sports: Un,
+    cyber: zn,
+    skate: qn,
+    sneakers: Kn,
+    ninja: Gn,
+    spells: Yn,
+    "deep-sea": Zn,
+    streamer: Jn,
+    chef: Xn,
+    racing: Qn,
+    detective: es,
+  },
+  De = [
+    "cyber",
+    "chef",
+    "racing",
+    "detective",
+    "sneakers",
+    "music",
+    "space",
+    "streamer",
+    "sports",
+    "deep-sea",
+    "arcade",
+    "skate",
+    "animals",
+    "ninja",
+    "zombie",
+    "spells",
+  ],
+  Re = 6;
+Array.from({ length: Math.ceil(De.length / Re) }, (n, e) =>
+  De.slice(e * Re, (e + 1) * Re).map((a) => Ze[a]),
+);
+function at(n, e = Date.now()) {
+  return { set: n, seed: e };
+}
+const ns = new Map(pn.map((n) => [Ht(n), n]));
+function Be(n) {
+  return ns.get(n);
+}
+const ss = 5e3;
+function Wr(n) {
+  const e = new URLSearchParams(n).get("sql");
+  return e === "product" ? "Product" : e === "mock" ? "Mock" : "Real";
+}
+const Ee = De.map((n) => ({ id: n, title: Ze[n].name })),
+  rt = [
+    {
+      id: "crossword",
+      title: "Crossword",
+      sets: Ie,
+      options: (n) => at(Ie.some((e) => e.id === n) ? n : Ie[0].id),
+    },
+    {
+      id: "code-climb",
+      title: "Code Climb",
+      sets: Ee,
+      options: (n) => at(Ee.some((e) => e.id === n) ? n : Ee[0].id),
+    },
+  ];
+function kt(n) {
+  return rt.find((e) => e.id === n) ?? rt[0];
+}
+function jt(n) {
+  const e = (s) => s.trim().split(/\s+/)[0] ?? s,
+    a = new Map();
+  for (const s of n) a.set(e(s.name), (a.get(e(s.name)) ?? 0) + 1);
+  return new Map(
+    n.map((s) => {
+      const r = s.name.trim().split(/\s+/),
+        i = e(s.name),
+        d = r.length > 1 ? ` ${r[r.length - 1][0]}` : "";
+      return [s.key, (a.get(i) ?? 0) > 1 ? `${i}${d}` : i];
+    }),
+  );
+}
+function le({ player: n }) {
+  const e = S.useId(),
+    a = Se(n.colourIndex),
+    s = Wt(n.avatar) ? n.avatar : null;
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("span", {
+        className: "room-mark",
+        "data-colour": a.colour,
+        "data-avatar": s ?? void 0,
+        "aria-hidden": "true",
+        children: s
+          ? t.jsx(Ut, {
+              avatar: s,
+              profileName: hn(s),
+              instanceId: `lobby${e}`,
+            })
+          : a.shape,
+      }),
+      a.round > 0
+        ? t.jsx("sub", {
+            className: "room-mark-round",
+            "aria-hidden": "true",
+            children: a.round + 1,
+          })
+        : null,
+    ],
+  });
+}
+function it({ player: n, name: e, rank: a, you: s, online: r }) {
+  return t.jsxs("li", {
+    className: "room-leader",
+    "data-colour": Se(n.colourIndex).colour,
+    "data-you": n.key === s ? "true" : void 0,
+    "data-offline": r.includes(n.key) ? void 0 : "true",
+    "data-late": n.late ? "true" : void 0,
+    "data-lobby-player": n.name,
+    value: a,
+    children: [
+      t.jsx("span", { className: "room-leader-rank", children: a }),
+      t.jsx(le, { player: n }),
+      t.jsxs("span", {
+        className: "room-leader-name",
+        children: [
+          e,
+          n.key === s
+            ? t.jsx("span", { className: "sr-only", children: " (you)" })
+            : null,
+          r.includes(n.key)
+            ? null
+            : t.jsx("span", { className: "sr-only", children: " (left)" }),
+          n.late
+            ? t.jsx("span", {
+                className: "lobby-late",
+                "data-lobby-late": !0,
+                children: "joined late",
+              })
+            : null,
+        ],
+      }),
+      t.jsx("span", { className: "room-leader-score", children: n.score }),
+    ],
+  });
+}
+function ot({ players: n, you: e, online: a, limit: s = Bt, final: r }) {
+  const i = Dt(n),
+    d = i.slice(0, s),
+    c = e ? i.findIndex((p) => p.key === e) : -1,
+    u = jt(n);
+  return t.jsxs("div", {
+    className: "lobby-leaderboard-wrap",
+    children: [
+      t.jsx("ol", {
+        className: "room-leaderboard lobby-leaderboard",
+        "aria-label": "Leaderboard",
+        "data-final": r ? "true" : void 0,
+        children: d.map((p, l) =>
+          t.jsx(
+            it,
+            {
+              player: p,
+              name: u.get(p.key) ?? p.name,
+              rank: l + 1,
+              you: e,
+              online: a,
+            },
+            p.key,
+          ),
+        ),
+      }),
+      c >= s
+        ? t.jsx("ol", {
+            className: "room-leaderboard lobby-leaderboard lobby-own-place",
+            "aria-label": "Your place",
+            "data-lobby-own-place": !0,
+            children: t.jsx(it, {
+              player: i[c],
+              name: u.get(i[c].key) ?? i[c].name,
+              rank: c + 1,
+              you: e,
+              online: a,
+            }),
+          })
+        : null,
+    ],
+  });
+}
+function as({ players: n, online: e, ready: a }) {
+  const s = jt(n);
+  return t.jsx("ul", {
+    className: "lobby-roster",
+    "aria-label": "Players",
+    children: n.map((r) =>
+      t.jsxs(
+        "li",
+        {
+          className: "lobby-roster-player",
+          "data-colour": Se(r.colourIndex).colour,
+          "data-offline": e.includes(r.key) ? void 0 : "true",
+          "data-ready": a ? (a.has(r.key) ? "true" : "false") : void 0,
+          children: [
+            t.jsx(le, { player: r }),
+            t.jsxs("span", {
+              children: [
+                s.get(r.key),
+                e.includes(r.key)
+                  ? null
+                  : t.jsx("span", {
+                      className: "sr-only",
+                      children: " (left)",
+                    }),
+              ],
+            }),
+            a?.has(r.key)
+              ? t.jsxs(t.Fragment, {
+                  children: [
+                    t.jsx(zt, {
+                      "aria-hidden": "true",
+                      className: "lobby-ready-icon",
+                    }),
+                    t.jsx("span", { className: "sr-only", children: "ready" }),
+                  ],
+                })
+              : null,
+          ],
+        },
+        r.key,
+      ),
+    ),
+  });
+}
+function o(n) {
+  return `"${n}"`;
+}
+function Ne(n) {
+  return n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+function de(n) {
+  return `["']${Ne(n)}["']`;
+}
+function re(n, e) {
+  const a = e.map((r) => (typeof r == "number" ? String(r) : o(r))),
+    s = `${n} = [${a.join(", ")}]`;
+  return s.length <= 72
+    ? s
+    : `${n} = [
+${a.map((r) => `    ${r}`).join(`,
+`)}
+]`;
+}
+function q(n) {
+  return n.charAt(0).toUpperCase() + n.slice(1);
+}
+function he(n) {
+  return `${/^[aeiou]/i.test(n) ? "an" : "a"} ${n}`;
+}
+function N(n, e) {
+  return { label: n, type: "codeRegex", value: e };
+}
+function L(n, e) {
+  return {
+    label: n,
+    type: "outputLinesEqual",
+    value: e.join(`
+`),
+  };
+}
+function W(n, e, a) {
+  return {
+    label: n,
+    type: "codeNested",
+    value: JSON.stringify({ outer: e, inner: a }),
+  };
+}
+function K(n, e) {
+  return { label: n, type: "behaviour", value: "", cases: e };
+}
+function St(n) {
+  return { label: n, type: "callsOwnFunction", value: "" };
+}
+function ye() {
+  return {
+    label: "My program runs without an error and prints something.",
+    type: "runsCleanly",
+    value: "",
+  };
+}
+function Te(n) {
+  const e = re(n.stat.listVar, n.stat.values);
+  return n.stat.scenario
+    ? `# Scenario data: made-up numbers for practice
+${e}`
+    : e;
+}
+function fe(n) {
+  return n.stat.scenario
+    ? `
+These numbers are made-up scenario data.`
+    : "";
+}
+function Z(n, e, a) {
+  const [s, r] = n.stat.has;
+  return `${e} ${s} ${a} ${r}`;
+}
+function Nt(n, e, a, s) {
+  const [r, i] = n.stat.compare;
+  return `${e} ${r} ${a} ${i} ${s}`;
+}
+function ke(n, e, a) {
+  const [s, r] = n.stat.compare;
+  return `${o(e)}, ${o(s)}, difference, ${o(r)}, ${o(a)}`;
+}
+function rs(n) {
+  return n < 3
+    ? { tier: "bronze", successCriterion: "SC1" }
+    : n < 6
+      ? { tier: "silver", successCriterion: "SC2" }
+      : n < 9
+        ? { tier: "gold", successCriterion: "SC3" }
+        : n < 10
+          ? { tier: "emerald", successCriterion: "SC4" }
+          : { tier: "platinum", successCriterion: "SC5" };
+}
+function ge(n) {
+  const e = [...n.stat.values].sort((a, s) => a - s);
+  return { sorted: e, threshold: e[4], high: e[6], middle: e[3] };
+}
+function $e(n, e) {
+  const { high: a, middle: s } = ge(n);
+  return e >= a ? n.bands[0] : e >= s ? n.bands[1] : n.bands[2];
+}
+function Pe(n, e) {
+  const a = n.items.findIndex((s, r) =>
+    e(n.tag.values[r], n.stat.values[r], r),
+  );
+  if (a === -1)
+    throw new Error(
+      `Essentials pack ${n.theme} has no item for a required condition.`,
+    );
+  return a;
+}
+function is(n) {
+  const {
+      items: e,
+      itemVar: a,
+      listVar: s,
+      stat: r,
+      tag: i,
+      place: d,
+      extra: c,
+      item: u,
+      story: p,
+    } = n,
+    { threshold: l } = ge(n),
+    m = p.statNoun,
+    h = `Total ${m}:`,
+    g = re(s, e),
+    b = Te(n),
+    f = re(i.listVar, i.values),
+    y = r.values.reduce((k, I) => k + I, 0),
+    x = e.filter((k, I) => i.values[I] === i.target),
+    $ = r.values.filter((k) => k >= l).length,
+    j = Math.max(...r.values),
+    T = e[r.values.indexOf(j)],
+    w = e.slice(0, 5).map((k, I) => [k, d.values[I]]),
+    M = `${d.listVar} = [
+${w.map(([k, I]) => `    [${o(k)}, ${o(I)}]`).join(`,
+`)}
+]`,
+    v = w.map(([k, I]) => `${k} ${d.verb} ${I}`);
+  return [
+    {
+      id: "for-index-first",
+      category: "Lists",
+      title: `First on the ${p.list}`,
+      shortTitle: "Index 0",
+      illustration: "index-first",
+      description: `Change one number so Python prints the first ${u.one} in the list.
+
+Python starts counting at 0.
+Only change the number inside the square brackets.`,
+      learningIntention: "Choose a list item using the correct index number.",
+      starterCode: `${g}
+
+print(${s}[1])
+`,
+      solution: `${g}
+
+print(${s}[0])
+`,
+      checks: [
+        N(
+          "I print the item at index 0.",
+          `print\\(\\s*${s}\\s*\\[\\s*0\\s*\\]\\s*\\)`,
+        ),
+        L(`The output shows ${e[0]}.`, [e[0]]),
+      ],
+      hints: [
+        "Count from 0. The first item uses the smallest index.",
+        "Only change the number inside the square brackets.",
+        "Run the code, then check the output shows the first name.",
+      ],
+    },
+    {
+      id: "for-index-position",
+      category: "Lists",
+      title: `Find ${e[2]} and ${e[5]}`,
+      shortTitle: "Index pick",
+      illustration: "index-position",
+      description: `Change the two index numbers so Python prints ${e[2]} and then ${e[5]}.
+
+Count from 0 as you move along the list.`,
+      learningIntention: "Choose list items using the correct index numbers.",
+      starterCode: `${g}
+
+print(${s}[0])
+print(${s}[0])
+`,
+      solution: `${g}
+
+print(${s}[2])
+print(${s}[5])
+`,
+      checks: [
+        N(
+          "I use indexes 2 and 5.",
+          `${s}\\s*\\[\\s*2\\s*\\][\\s\\S]*${s}\\s*\\[\\s*5\\s*\\]`,
+        ),
+        L(`The output shows ${e[2]} then ${e[5]}.`, [e[2], e[5]]),
+      ],
+      hints: [
+        `${e[0]} is at index 0 and ${e[1]} is at index 1.`,
+        "Keep counting along to find each one.",
+        "Only change the numbers inside the square brackets.",
+      ],
+    },
+    {
+      id: "for-len",
+      category: "Lists",
+      title: `How many ${u.many} on the ${p.list}?`,
+      shortTitle: "len()",
+      illustration: "count",
+      description: `Change the print so it shows how many ${u.many} are in ${s}.
+
+len() gives the number of items in a list.`,
+      learningIntention: "Use len() to find the length of a list.",
+      starterCode: `${g}
+
+print(${s})
+`,
+      solution: `${g}
+
+print(len(${s}))
+`,
+      checks: [
+        N(`I use len(${s}).`, `len\\(\\s*${s}\\s*\\)`),
+        L("The output shows how many items there are.", [e.length]),
+      ],
+      hints: [
+        "len() goes around the name of the list.",
+        `print(len(${s}))`,
+        "The answer is a number, not a list.",
+      ],
+    },
+    {
+      id: "for-loop",
+      category: "For loops",
+      title: `Read out the ${p.list}`,
+      shortTitle: "for in",
+      illustration: "loop",
+      description: `Add the missing line inside the loop so every ${u.one} prints on its own line.
+
+A for loop runs its indented code once per item.`,
+      learningIntention: "Use a for loop to visit every item in a list.",
+      starterCode: `${g}
+
+for ${a} in ${s}:
+`,
+      solution: `${g}
+
+for ${a} in ${s}:
+    print(${a})
+`,
+      checks: [
+        N("The loop goes through the list.", `^for\\s+${a}\\s+in\\s+${s}\\s*:`),
+        W(
+          `print(${a}) is inside the loop.`,
+          `^for\\s+${a}\\s+in\\s`,
+          `^\\s+print\\(\\s*${a}\\s*\\)`,
+        ),
+        L(`The output shows every ${u.one} in order.`, e),
+      ],
+      hints: [
+        "The line inside the loop must be indented.",
+        `Each time round, ${a} holds the next item.`,
+        `    print(${a})`,
+      ],
+    },
+    {
+      id: "for-range",
+      category: "For loops",
+      title: `Number the ${p.list}`,
+      shortTitle: "range()",
+      illustration: "loop",
+      description: `Number the list from 1 instead of 0.
+
+range(len(${s})) gives the index numbers 0 to ${e.length - 1}.
+
+First line:
+1 ${e[0]}`,
+      learningIntention: "Use range() and an index to loop through a list.",
+      starterCode: `${g}
+
+for i in range(len(${s})):
+    print(i, ${s}[i])
+`,
+      solution: `${g}
+
+for i in range(len(${s})):
+    print(i + 1, ${s}[i])
+`,
+      checks: [
+        N(
+          "The loop uses range(len()).",
+          `range\\(\\s*len\\(\\s*${s}\\s*\\)\\s*\\)`,
+        ),
+        N(
+          "The print still reads the list with [i].",
+          `${s}\\s*\\[\\s*i\\s*\\]`,
+        ),
+        L(
+          "Each line starts with its position from 1.",
+          e.map((k, I) => `${I + 1} ${k}`),
+        ),
+      ],
+      hints: [
+        "i starts at 0, but people count from 1.",
+        "Add 1 to i only where it is printed.",
+        `print(i + 1, ${s}[i])`,
+      ],
+    },
+    {
+      id: "for-assign",
+      category: "Lists",
+      title: `Swap in ${c}`,
+      shortTitle: "Replace",
+      illustration: "build-array",
+      description: `Replace the last ${u.one} with ${c}, before the loop runs.
+
+Assign a new value to one index, the same way you would set a variable.
+The last index is ${e.length - 1}.`,
+      learningIntention: "Change one item in a list by assigning to its index.",
+      starterCode: `${g}
+
+for ${a} in ${s}:
+    print(${a})
+`,
+      solution: `${g}
+${s}[${e.length - 1}] = ${o(c)}
+
+for ${a} in ${s}:
+    print(${a})
+`,
+      checks: [
+        N(
+          `I set index ${e.length - 1} to ${c}.`,
+          `^${s}\\s*\\[\\s*(?:${e.length - 1}|-1|len\\(\\s*${s}\\s*\\)\\s*-\\s*1)\\s*\\]\\s*=\\s*${de(c)}`,
+        ),
+        L(`The loop prints ${c} last.`, [...e.slice(0, -1), c]),
+      ],
+      hints: [
+        `${s}[0] is the first item, so the last is ${s}[${e.length - 1}].`,
+        "Put the new line before the for line so the loop sees it.",
+        `${s}[${e.length - 1}] = ${o(c)}`,
+      ],
+    },
+    {
+      id: "for-total",
+      category: "Totals",
+      title: `Add up every ${p.statNoun}`,
+      shortTitle: "Total",
+      illustration: "count",
+      description: `Fix the line inside the loop so total keeps adding each number.
+
+${r.listVar} holds the ${m} of each ${u.one}.`,
+      learningIntention: "Keep a running total inside a for loop.",
+      starterCode: `${b}
+
+total = 0
+for number in ${r.listVar}:
+    total = total
+print(${o(h)}, total)
+`,
+      solution: `${b}
+
+total = 0
+for number in ${r.listVar}:
+    total = total + number
+print(${o(h)}, total)
+`,
+      checks: [
+        W(
+          "total adds number each time round the loop.",
+          "^for\\s+number\\s+in\\s",
+          "^\\s+total\\s*(?:=\\s*total\\s*\\+\\s*number|\\+=\\s*number)$",
+        ),
+        L("The output shows the full total.", [`${h} ${y}`]),
+      ],
+      hints: [
+        "total starts at 0 before the loop.",
+        "Each time round, add number on to total.",
+        "    total = total + number",
+      ],
+    },
+    {
+      id: "for-filter",
+      category: "If inside for",
+      title: `Only the ${i.target} ${u.many}`,
+      shortTitle: "Filter",
+      illustration: "filter",
+      description: `Add an if inside the loop so only the ${i.target} ${u.many} print.
+
+${i.listVar} holds the ${i.label} of each ${u.one}, in the same order.`,
+      learningIntention: "Use an if inside a loop to select items.",
+      starterCode: `${g}
+${f}
+
+for i in range(len(${s})):
+    print(${s}[i])
+`,
+      solution: `${g}
+${f}
+
+for i in range(len(${s})):
+    if ${i.listVar}[i] == ${o(i.target)}:
+        print(${s}[i])
+`,
+      checks: [
+        W(
+          "An if inside the loop checks the tag.",
+          "^for\\s",
+          `^\\s+if\\s.*${i.listVar}\\s*\\[\\s*i\\s*\\].*:$`,
+        ),
+        W(
+          "The print is inside the if.",
+          `^\\s+if\\s.*${i.listVar}\\s*\\[\\s*i\\s*\\].*:$`,
+          "^\\s+print\\(",
+        ),
+        L(`Only the ${i.target} ${u.many} print.`, x),
+      ],
+      hints: [
+        `${i.listVar}[i] is the ${i.label} of ${s}[i].`,
+        `    if ${i.listVar}[i] == ${o(i.target)}:`,
+        "Indent the print one more level so it belongs to the if.",
+      ],
+    },
+    {
+      id: "for-count",
+      category: "If inside for",
+      title: `How many reach ${l} ${r.unit}?`,
+      shortTitle: "Count",
+      illustration: "count",
+      description: `Add an if so count only goes up when the ${m} is at least ${l}.
+
+At the moment the loop counts every number.`,
+      learningIntention: "Count items that match a condition.",
+      starterCode: `${b}
+
+count = 0
+for number in ${r.listVar}:
+    count = count + 1
+print("Count:", count)
+`,
+      solution: `${b}
+
+count = 0
+for number in ${r.listVar}:
+    if number >= ${l}:
+        count = count + 1
+print("Count:", count)
+`,
+      checks: [
+        W(
+          "An if inside the loop checks each number.",
+          "^for\\s",
+          `^\\s+if\\s+number\\s*>=\\s*${l}\\s*:$`,
+        ),
+        W(
+          "count goes up inside the if.",
+          "^\\s+if\\s+number\\b.*:$",
+          "^\\s+count\\s*(?:=\\s*count\\s*\\+\\s*1|\\+=\\s*1)$",
+        ),
+        L("The output shows the right count.", [`Count: ${$}`]),
+      ],
+      hints: [
+        `${l} or more means >= ${l}.`,
+        "Put the if above the count line.",
+        "Indent count = count + 1 under the if.",
+      ],
+    },
+    {
+      id: "for-max",
+      category: "If inside for",
+      title: `Which ${u.one} has the top ${p.statNoun}?`,
+      shortTitle: "Biggest",
+      illustration: "linear-search",
+      description: `Find which ${u.one} has the highest ${m}, without using max().
+
+Inside the loop, if ${r.listVar}[i] is bigger than top, store it in top and store i in top_index.
+
+Output:
+${T} ${j}`,
+      learningIntention:
+        "Find the largest value by comparing each item in turn.",
+      starterCode: `${g}
+${b}
+
+top = ${r.listVar}[0]
+top_index = 0
+for i in range(len(${r.listVar})):
+    # compare ${r.listVar}[i] with top here
+
+print(${s}[top_index], top)
+`,
+      solution: `${g}
+${b}
+
+top = ${r.listVar}[0]
+top_index = 0
+for i in range(len(${r.listVar})):
+    if ${r.listVar}[i] > top:
+        top = ${r.listVar}[i]
+        top_index = i
+
+print(${s}[top_index], top)
+`,
+      checks: [
+        N(
+          "An if compares with top, without using max().",
+          `(?<![\\s\\S])(?![\\s\\S]*\\bmax\\s*\\()[\\s\\S]*^\\s+if\\s+${r.listVar}\\s*\\[\\s*i\\s*\\]\\s*>=?\\s*top\\s*:`,
+        ),
+        W(
+          "Inside the if, I store the new position in top_index.",
+          `^\\s+if\\s+${r.listVar}\\s*\\[`,
+          "^\\s+top_index\\s*=\\s*i$",
+        ),
+        L("The output names the top item and its value.", [`${T} ${j}`]),
+      ],
+      hints: [
+        "top holds the biggest number seen so far.",
+        `    if ${r.listVar}[i] > top:`,
+        "Inside that if, update both top and top_index.",
+      ],
+    },
+    {
+      id: "for-2d",
+      category: "2D lists",
+      title: `Read each row: ${u.one} and ${d.label}`,
+      shortTitle: "2D list",
+      illustration: "grid-2d",
+      description: `Change the print so each row reads as a sentence.
+
+Each row of ${d.listVar} is a list of two things: ${u.one} and ${d.label}.
+
+First line:
+${v[0]}`,
+      learningIntention: "Read values from a 2D list with two indexes.",
+      starterCode: `${M}
+
+for row in ${d.listVar}:
+    print(row)
+`,
+      solution: `${M}
+
+for row in ${d.listVar}:
+    print(row[0], ${o(d.verb)}, row[1])
+`,
+      checks: [
+        N(
+          "I use row[0] and row[1].",
+          "row\\s*\\[\\s*0\\s*\\][\\s\\S]*row\\s*\\[\\s*1\\s*\\]",
+        ),
+        L("Every row prints as a sentence.", v),
+      ],
+      hints: [
+        "row is a small list, so row[0] is its first value.",
+        `row[1] is the ${d.label}.`,
+        `print(row[0], ${o(d.verb)}, row[1])`,
+      ],
+    },
+    {
+      id: "for-sandbox",
+      category: "Sandbox",
+      title: `Build your own ${p.list}`,
+      shortTitle: "Sandbox",
+      illustration: "sandbox",
+      description: `Make your own list of at least four ${u.many}, then loop through it with an if inside.
+
+For example, print only some of them and count them.`,
+      learningIntention: "Design a list and a loop with selection.",
+      starterCode: `# Make your own list of ${u.many} here
+`,
+      solution: `${re("favourites", e.slice(0, 5))}
+
+for ${a} in favourites:
+    if ${a} != ${o(e[0])}:
+        print(${a})
+`,
+      checks: [
+        N(
+          "I make a list with at least four items and loop through it with for.",
+          "(?<![\\s\\S])(?=[\\s\\S]*^\\s*for\\s+\\w+\\s+in\\s)[\\s\\S]*\\[[^\\]]*,[^\\]]*,[^\\]]*,[^\\]]*\\]",
+        ),
+        W("An if sits inside the loop.", "^\\s*for\\s", "^\\s+if\\s"),
+        ye(),
+      ],
+      hints: [
+        "Separate list items with commas.",
+        "for thing in my_list: visits each one.",
+        "Indent an if inside the loop to choose some of them.",
+      ],
+    },
+  ];
+}
+function os(n) {
+  const {
+      items: e,
+      itemVar: a,
+      listVar: s,
+      stat: r,
+      tag: i,
+      person: d,
+      announce: c,
+      extra: u,
+      bands: p,
+      item: l,
+      story: m,
+    } = n,
+    { sorted: h, threshold: g, high: b, middle: f } = ge(n),
+    [y, x, $] = p,
+    j = re(s, e),
+    T = Te(n),
+    w = fe(n),
+    M = re(i.listVar, i.values),
+    [v, k] = [r.values[0], r.values[1]],
+    I = v >= k ? 0 : 1,
+    R = 1 - I,
+    C = Math.abs(v - k),
+    A = r.values.reduce((F, G) => F + G, 0),
+    z = e.filter((F, G) => i.values[G] === i.target),
+    E = r.values.filter((F) => F >= g).length,
+    O = h[4],
+    U = `Welcome to ${m.hq}, ${d.role}!`,
+    H = `def spotlight(name):
+    print(${o(`${c}: `)} + name)
+`,
+    B = `describe(${o(e[0])}, ${v})`,
+    [Y, se] = r.has,
+    ee = Z(n, e[0], v),
+    te = Nt(n, e[I], C, e[R]),
+    J = `${r.prompt}: `;
+  return [
+    {
+      id: "fn-call",
+      category: "Procedures",
+      title: `Welcome to ${m.hq}`,
+      shortTitle: "Call",
+      illustration: "function",
+      description: `Call the welcome procedure so its code runs.
+
+A def block only defines the procedure. Nothing happens until it is called.
+
+Output:
+${U}
+${c}: ${e[0]}`,
+      learningIntention: "Define a procedure once and run it by calling it.",
+      starterCode: `def welcome():
+    print(${o(U)})
+    print(${o(`${c}: ${e[0]}`)})
+
+`,
+      solution: `def welcome():
+    print(${o(U)})
+    print(${o(`${c}: ${e[0]}`)})
+
+welcome()
+`,
+      checks: [
+        N("I call welcome() outside the def.", "^welcome\\(\\s*\\)"),
+        L("Both lines print.", [U, `${c}: ${e[0]}`]),
+      ],
+      hints: [
+        "A call is the name followed by brackets.",
+        "Write the call on a new line with no indent.",
+        "welcome()",
+      ],
+    },
+    {
+      id: "fn-parameter",
+      category: "Parameters",
+      title: `Spotlight ${e[1]}`,
+      shortTitle: "Parameter",
+      illustration: "function",
+      description: `Pass ${e[1]} into spotlight so it prints the right line.
+
+name is a parameter: it gets the value you put in the brackets when you call it.
+
+Output:
+${c}: ${e[1]}`,
+      learningIntention: "Pass a value into a sub program through a parameter.",
+      starterCode: `${H}
+spotlight()
+`,
+      solution: `${H}
+spotlight(${o(e[1])})
+`,
+      checks: [
+        N(
+          `I call spotlight with ${e[1]}.`,
+          `^spotlight\\(\\s*${de(e[1])}\\s*\\)`,
+        ),
+        L("The output matches.", [`${c}: ${e[1]}`]),
+      ],
+      hints: [
+        "Run it first: the error says an argument is missing.",
+        "Put the value inside the brackets of the call.",
+        `spotlight(${o(e[1])})`,
+      ],
+    },
+    {
+      id: "fn-two-params",
+      category: "Parameters",
+      title: `Describe ${e[0]}`,
+      shortTitle: "2 params",
+      illustration: "function",
+      description: `Add a second parameter called value to describe.
+
+Run it first: the body uses value, but describe only takes name.${w}
+
+Output:
+${ee}`,
+      learningIntention: "Define a sub program with more than one parameter.",
+      starterCode: `def describe(name):
+    print(name, ${o(Y)}, value, ${o(se)})
+
+${B}
+`,
+      solution: `def describe(name, value):
+    print(name, ${o(Y)}, value, ${o(se)})
+
+${B}
+`,
+      checks: [
+        N(
+          "describe takes name and value.",
+          "^def\\s+describe\\(\\s*name\\s*,\\s*value\\s*\\)\\s*:",
+        ),
+        L("The output matches.", [ee]),
+      ],
+      hints: [
+        "Parameters are listed in the brackets of the def line.",
+        "Separate them with a comma, in the same order as the call.",
+        "def describe(name, value):",
+      ],
+    },
+    {
+      id: "fn-return",
+      category: "Functions",
+      title: `Return the combined ${m.statNoun}`,
+      shortTitle: "return",
+      illustration: "function",
+      description: `add works out the combined ${m.statNoun} of ${e[0]} and ${e[1]}. Add a return so it gives its result back to the program.
+
+Run it first: without return, a function gives back None.${w}
+
+Output:
+${v + k}`,
+      learningIntention: "Use return to send a value back from a function.",
+      starterCode: `def add(first, second):
+    result = first + second
+
+print(add(${v}, ${k}))
+`,
+      solution: `def add(first, second):
+    result = first + second
+    return result
+
+print(add(${v}, ${k}))
+`,
+      checks: [
+        N("The function returns result.", "^[ \\t]+return\\s+result\\s*$"),
+        L("The output shows the sum.", [v + k]),
+      ],
+      hints: [
+        "None means the function did not return anything.",
+        "return goes inside the function, at the end.",
+        "    return result",
+      ],
+    },
+    {
+      id: "fn-use-return",
+      category: "Functions",
+      title: `Store the gap to ${e[R]}`,
+      shortTitle: "Store",
+      illustration: "count",
+      description: `Store what gap returns in a variable called difference.
+
+Run it first: difference does not exist yet, because the returned value is thrown away.${w}
+
+Output:
+${te}`,
+      learningIntention: "Assign a function’s return value to a variable.",
+      starterCode: `def gap(bigger, smaller):
+    return bigger - smaller
+
+gap(${r.values[I]}, ${r.values[R]})
+print(${ke(n, e[I], e[R])})
+`,
+      solution: `def gap(bigger, smaller):
+    return bigger - smaller
+
+difference = gap(${r.values[I]}, ${r.values[R]})
+print(${ke(n, e[I], e[R])})
+`,
+      checks: [
+        N(
+          "difference stores the value gap returns.",
+          "^difference\\s*=\\s*gap\\(",
+        ),
+        L("The output matches.", [te]),
+      ],
+      hints: [
+        "A returned value is lost unless you store or print it.",
+        "Put difference = in front of the call.",
+        `difference = gap(${r.values[I]}, ${r.values[R]})`,
+      ],
+    },
+    {
+      id: "fn-band",
+      category: "Selection in functions",
+      title: `Return ${y}, ${x} or ${$}`,
+      shortTitle: "Band",
+      illustration: "branch",
+      description: `Add an elif so band returns ${x} in the middle band.
+
+Bands:
+${b} or more: ${y}
+${f} or more: ${x}
+anything else: ${$}
+
+Output:
+${x}`,
+      learningIntention:
+        "Use selection inside a function to choose what to return.",
+      starterCode: `def band(value):
+    if value >= ${b}:
+        return ${o(y)}
+    else:
+        return ${o($)}
+
+print(band(${O}))
+`,
+      solution: `def band(value):
+    if value >= ${b}:
+        return ${o(y)}
+    elif value >= ${f}:
+        return ${o(x)}
+    else:
+        return ${o($)}
+
+print(band(${O}))
+`,
+      checks: [
+        W(
+          "An elif returns the middle band.",
+          `^\\s+elif\\s+value\\s*>=\\s*${f}\\s*:$`,
+          `^\\s+return\\s+["']${Ne(x)}["']$`,
+        ),
+        L(`The output shows ${$e(n, O)}.`, [x]),
+      ],
+      hints: [
+        "A function can have a return in each branch.",
+        "The elif goes between the if block and the else.",
+        `    elif value >= ${f}:`,
+      ],
+    },
+    {
+      id: "fn-boolean",
+      category: "Selection in functions",
+      title: `Is the ${i.label} ${i.target}?`,
+      shortTitle: "Boolean",
+      illustration: "filter",
+      description: `Fix is_match so it returns True only when the ${i.label} is ${i.target}.
+
+The loop calls is_match on every ${l.one} and prints the ones that match.
+At the moment it prints the wrong ones.`,
+      learningIntention:
+        "Write a function that returns a Boolean and use it in a condition.",
+      starterCode: `def is_match(value):
+    return value != ${o(i.target)}
+
+${j}
+${M}
+
+for i in range(len(${s})):
+    if is_match(${i.listVar}[i]):
+        print(${s}[i])
+`,
+      solution: `def is_match(value):
+    return value == ${o(i.target)}
+
+${j}
+${M}
+
+for i in range(len(${s})):
+    if is_match(${i.listVar}[i]):
+        print(${s}[i])
+`,
+      checks: [
+        N(
+          "is_match compares with ==.",
+          `^[ \\t]+return\\s+(?:value\\s*==\\s*${de(i.target)}|${de(i.target)}\\s*==\\s*value)\\s*$`,
+        ),
+        L(`Only the ${i.target} ${l.many} print.`, z),
+      ],
+      hints: [
+        "A comparison is already True or False, so it can be returned directly.",
+        '!= means "not equal to".',
+        `    return value == ${o(i.target)}`,
+      ],
+    },
+    {
+      id: "fn-count",
+      category: "Iteration in functions",
+      title: `Count ${l.many} that reach ${g} ${r.unit}`,
+      shortTitle: "Count",
+      illustration: "count",
+      description: `Add an if inside count_at_least so it only counts numbers of at least limit.
+
+values and limit are parameters, so the same function works with any list and any limit.
+
+Output:
+Count: ${E}`,
+      learningIntention:
+        "Use iteration and selection inside a function with parameters.",
+      starterCode: `def count_at_least(values, limit):
+    count = 0
+    for number in values:
+        count = count + 1
+    return count
+
+${T}
+print("Count:", count_at_least(${r.listVar}, ${g}))
+`,
+      solution: `def count_at_least(values, limit):
+    count = 0
+    for number in values:
+        if number >= limit:
+            count = count + 1
+    return count
+
+${T}
+print("Count:", count_at_least(${r.listVar}, ${g}))
+`,
+      checks: [
+        W(
+          "An if inside the loop compares each number with limit.",
+          "^\\s+for\\s",
+          "^\\s+if\\s+number\\s*>=\\s*limit\\s*:$",
+        ),
+        W(
+          "count goes up inside the if.",
+          "^\\s+if\\s+number\\b.*:$",
+          "^\\s+count\\s*(?:=\\s*count\\s*\\+\\s*1|\\+=\\s*1)$",
+        ),
+        L("The output shows the right count.", [`Count: ${E}`]),
+      ],
+      hints: [
+        "Use the parameter limit, not a fixed number.",
+        "        if number >= limit:",
+        "Indent count = count + 1 one more level.",
+      ],
+    },
+    {
+      id: "fn-scope",
+      category: "Local and global",
+      title: `Total the ${m.list}`,
+      shortTitle: "Scope",
+      illustration: "lookup",
+      description: `Return total from make_total and store the result in a variable outside the function.
+
+Run it first: total is a local variable. It only exists inside make_total, so the last line cannot see it.
+
+Output:
+Total: ${A}`,
+      learningIntention:
+        "Explain why a local variable cannot be used outside its sub program.",
+      starterCode: `def make_total(values):
+    total = 0
+    for number in values:
+        total = total + number
+
+${T}
+make_total(${r.listVar})
+print("Total:", total)
+`,
+      solution: `def make_total(values):
+    total = 0
+    for number in values:
+        total = total + number
+    return total
+
+${T}
+total = make_total(${r.listVar})
+print("Total:", total)
+`,
+      checks: [
+        W(
+          "make_total returns total.",
+          "^def\\s+make_total\\(",
+          "^\\s+return\\s+total$",
+        ),
+        N(
+          "The returned total is stored outside the function.",
+          "^\\w+\\s*=\\s*make_total\\(",
+        ),
+        L("The output shows the full total.", [`Total: ${A}`]),
+      ],
+      hints: [
+        "A variable made inside a function is local to it.",
+        "Send it out with return total, lined up with the for.",
+        `total = make_total(${r.listVar})`,
+      ],
+    },
+    {
+      id: "fn-global",
+      category: "Local and global",
+      title: `Running ${m.statNoun} total`,
+      shortTitle: "Global",
+      illustration: "lookup",
+      description: `Keep a running total of the ${m.statNoun} as ${e[0]} and ${e[1]} are added.
+
+Declare running_total as global inside add_to_total, so the function changes the global variable.
+
+running_total is a global variable: it is made outside every function.
+A function can read a global, but assigning to it makes a new local variable unless you write global first.
+Run it first to see the error.${w}
+
+Output:
+Total: ${v + k}`,
+      learningIntention:
+        "Explain the difference between a global and a local variable, and change a global from a sub program.",
+      starterCode: `running_total = 0
+
+def add_to_total(value):
+    running_total = running_total + value
+
+add_to_total(${v})
+add_to_total(${k})
+print("Total:", running_total)
+`,
+      solution: `running_total = 0
+
+def add_to_total(value):
+    global running_total
+    running_total = running_total + value
+
+add_to_total(${v})
+add_to_total(${k})
+print("Total:", running_total)
+`,
+      checks: [
+        W(
+          "add_to_total declares running_total as global.",
+          "^def\\s+add_to_total\\(",
+          "^\\s+global\\s+running_total$",
+        ),
+        N(
+          "running_total starts as a global, outside the function.",
+          "^running_total\\s*=\\s*0$",
+        ),
+        L("The output shows the total of both calls.", [`Total: ${v + k}`]),
+      ],
+      hints: [
+        "Read the error: Python thinks running_total is a local variable.",
+        "The global line goes first inside the function.",
+        "    global running_total",
+      ],
+    },
+    {
+      id: "fn-search",
+      category: "From scratch",
+      title: `Search the ${m.list}`,
+      shortTitle: "Search",
+      illustration: "linear-search",
+      description: `Write a function called search that takes a target and returns True when it is in ${s} and False when it is not.
+
+Use a for loop to check each item in turn (a linear search).
+
+Output:
+True
+False`,
+      learningIntention:
+        "Write a function with a parameter, a loop and a Boolean return.",
+      starterCode: `${j}
+
+# Write the search function here
+
+print(search(${o(e[2])}))
+print(search(${o(u)}))
+`,
+      solution: `${j}
+
+def search(target):
+    for ${a} in ${s}:
+        if ${a} == target:
+            return True
+    return False
+
+print(search(${o(e[2])}))
+print(search(${o(u)}))
+`,
+      checks: [
+        W(
+          "search(target) checks each item with a for loop.",
+          "^def\\s+search\\(\\s*\\w+\\s*\\)\\s*:$",
+          "^\\s+for\\s+\\w+\\s+in\\s",
+        ),
+        N(
+          "The function returns True and False.",
+          "^\\s+return\\s+True$[\\s\\S]*^\\s+return\\s+False$",
+        ),
+        L("The output shows True then False.", ["True", "False"]),
+      ],
+      hints: [
+        "Inside the loop, return True as soon as you find a match.",
+        "return False goes after the loop, when nothing matched.",
+        "Line it up with for, not with the if.",
+      ],
+    },
+    {
+      id: "fn-sandbox",
+      category: "Sandbox",
+      title: `Your own ${l.one} function`,
+      shortTitle: "Sandbox",
+      illustration: "sandbox",
+      description: `Write your own ${l.one} program built around a function.
+
+Use:
+- a function with at least one parameter
+- return
+- input()
+- a call to your function`,
+      learningIntention: "Design and use a sub program of your own.",
+      starterCode: `# Write your function program here
+`,
+      solution: `def rating(value):
+    if value >= ${b}:
+        return ${o(y)}
+    return ${o($)}
+
+${r.var} = int(input(${o(J)}))
+print(rating(${r.var}))
+`,
+      stdin: String(h[7]),
+      checks: [
+        N(
+          "I define a function with a parameter that returns a value, and use input().",
+          "(?<![\\s\\S])(?=[\\s\\S]*input\\()(?=[\\s\\S]*^\\s+return\\b)[\\s\\S]*^def\\s+\\w+\\(\\s*\\w+",
+        ),
+        St("I call my function outside its def."),
+        ye(),
+      ],
+      mutants: [
+        `def rating(value):
+    if value >= ${b}:
+        return ${o(y)}
+    return ${o($)}
+
+${r.var} = int(input(${o(J)}))
+`,
+        `def rating(value):
+    if value >= ${b}:
+        return ${o(y)}
+    return ${o($)}
+
+${r.var} = int(input(${o(J)}))
+print("rating(${r.var})")
+`,
+      ],
+      hints: [
+        "Start with def name(parameter):",
+        "Return a result instead of printing inside the function.",
+        "Call the function and print what it returns.",
+      ],
+    },
+  ];
+}
+function ls(n) {
+  const {
+      items: e,
+      itemVar: a,
+      stat: s,
+      tag: r,
+      place: i,
+      bands: d,
+      item: c,
+      story: u,
+    } = n,
+    [p, l] = u.verdict,
+    { sorted: m, threshold: h, high: g, middle: b } = ge(n),
+    f = s.var,
+    y = r.var,
+    [x, $, j] = d,
+    T = K(
+      `It prints the right band at each edge: ${g}, ${g - 1}, ${b} and ${b - 1}.`,
+      [
+        { inputs: [String(g)], expected: [x] },
+        { inputs: [String(g - 1)], expected: [$] },
+        { inputs: [String(b)], expected: [$] },
+        { inputs: [String(b - 1)], expected: [j] },
+      ],
+    ),
+    w = fe(n),
+    M = u.statNoun,
+    v = `${s.prompt}: `,
+    k = (H, B = s.values[H]) => q(Z(n, e[H], B)),
+    I = n.stat.values.indexOf(m[7]),
+    R = n.stat.values.indexOf(m[0]),
+    C = n.stat.values.indexOf(h),
+    A = m[4],
+    z = Pe(n, (H, B) => H === r.target && B < h),
+    E = Pe(n, (H, B) => H !== r.target && B >= h),
+    O = Pe(n, (H, B) => H === r.target && B >= h),
+    U = (H) => `${f} = ${H}
+if ${f} >= ${g}:
+    print(${o(x)})
+elif ${f} >= ${b}:
+    print(${o($)})
+else:
+    print(${o(j)})
+`;
+  return [
+    {
+      id: "if-indent",
+      category: "If statements",
+      title: `Rate ${e[I]}`,
+      shortTitle: "Indent",
+      illustration: "branch",
+      description: `Fix the indentation so Python prints ${p}.
+
+${k(I)}.
+The code inside an if must be indented.${w}`,
+      learningIntention: "Indent the code that belongs inside an if statement.",
+      starterCode: `${f} = ${m[7]}
+if ${f} > ${h}:
+print(${o(p)})
+`,
+      solution: `${f} = ${m[7]}
+if ${f} > ${h}:
+    print(${o(p)})
+`,
+      checks: [
+        W("The print is indented under the if.", "^if\\s.*:$", "^\\s+print\\("),
+        L(`The output shows ${p}.`, [p]),
+      ],
+      hints: [
+        "Lines inside an if start with four spaces.",
+        "Press Tab or type four spaces before print.",
+        "The colon at the end of the if line starts the block.",
+      ],
+    },
+    {
+      id: "if-equals",
+      category: "If statements",
+      title: `Find ${e[1]}`,
+      shortTitle: "==",
+      illustration: "branch",
+      description: `Fix the if so it checks whether ${a} is ${e[1]}.
+
+One = stores a value. Two == compares values.`,
+      learningIntention: "Use == to compare two values in a condition.",
+      starterCode: `${a} = ${o(e[1])}
+if ${a} = ${o(e[1])}:
+    print(${o(`${e[1]} found`)})
+`,
+      solution: `${a} = ${o(e[1])}
+if ${a} == ${o(e[1])}:
+    print(${o(`${e[1]} found`)})
+`,
+      checks: [
+        N("The if uses ==.", `^if\\s+${a}\\s*==\\s*${de(e[1])}\\s*:`),
+        L("The output confirms the match.", [`${e[1]} found`]),
+      ],
+      hints: [
+        "Run it first and read the SyntaxError.",
+        "Conditions compare with ==.",
+        `if ${a} == ${o(e[1])}:`,
+      ],
+    },
+    {
+      id: "if-else",
+      category: "If statements",
+      title: `${e[R]} needs an else`,
+      shortTitle: "else",
+      illustration: "branch",
+      description: `Add an else that prints ${l}.
+
+${k(R)}, so the if is False and nothing prints yet.${w}`,
+      learningIntention: "Use else to run code when the condition is False.",
+      starterCode: `${f} = ${m[0]}
+if ${f} >= ${h}:
+    print(${o(p)})
+`,
+      solution: `${f} = ${m[0]}
+if ${f} >= ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      checks: [
+        N("I add an else line in line with the if.", "^else\\s*:\\s*$"),
+        L(`The output shows ${l}.`, [l]),
+      ],
+      hints: [
+        "else lines up with if, not with print.",
+        "else ends with a colon.",
+        `Indent print(${o(l)}) under the else.`,
+      ],
+    },
+    {
+      id: "if-operator",
+      category: "Comparison",
+      title: `Can ${e[C]} make the cut?`,
+      shortTitle: ">=",
+      illustration: "branch",
+      description: `Change the comparison so ${e[C]} gets ${p}.
+
+${k(C, `exactly ${h}`)}.
+The rule is at least ${h}.${w}`,
+      learningIntention: "Choose between > and >= in a condition.",
+      starterCode: `${f} = ${h}
+if ${f} > ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      solution: `${f} = ${h}
+if ${f} >= ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      checks: [
+        N("The if uses >=.", `^if\\s+${f}\\s*>=\\s*${h}\\s*:`),
+        L(`The output shows ${p}.`, [p]),
+      ],
+      hints: [
+        `> means "more than", so ${h} > ${h} is False.`,
+        '>= means "more than or equal to".',
+        `if ${f} >= ${h}:`,
+      ],
+    },
+    {
+      id: "if-input-text",
+      category: "Input and if",
+      title: `${q(i.label)} quiz`,
+      shortTitle: "Quiz",
+      illustration: "lookup",
+      description: `Put the right answer inside the empty speech marks, then run it and type that answer.
+
+Which ${c.one} ${i.verb} ${i.values[0]}? The answer is ${e[0]}.`,
+      learningIntention: "Compare what the user types with a stored answer.",
+      starterCode: `answer = input(${o(`Which ${c.one} ${i.verb} ${i.values[0]}? `)})
+if answer == "":
+    print("Correct")
+else:
+    print("Not this time")
+`,
+      solution: `answer = input(${o(`Which ${c.one} ${i.verb} ${i.values[0]}? `)})
+if answer == ${o(e[0])}:
+    print("Correct")
+else:
+    print("Not this time")
+`,
+      stdin: e[0],
+      checks: [
+        N(
+          "The if compares answer with the right answer.",
+          `^if\\s+answer\\s*==\\s*${de(e[0])}\\s*:`,
+        ),
+        K(
+          "Typing the right answer prints Correct; anything else prints Not this time.",
+          [
+            { inputs: [e[0]], expected: ["Correct"] },
+            { inputs: [e[1]], expected: ["Not this time"] },
+          ],
+        ),
+      ],
+      hints: [
+        `Type ${e[0]} between the speech marks.`,
+        "Capital letters must match exactly.",
+        "Run it and type the same answer into the output box.",
+      ],
+    },
+    {
+      id: "if-input-number",
+      category: "Input and if",
+      title: `Rate any ${c.one}`,
+      shortTitle: "int()",
+      illustration: "lookup",
+      description: `Use int() so the typed ${M} can be compared with ${h}.
+
+Run it first: Python cannot compare text with a number.
+Try typing ${m[6]}.`,
+      learningIntention: "Convert input to a number before comparing it.",
+      starterCode: `${f} = input(${o(v)})
+if ${f} >= ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      solution: `${f} = int(input(${o(v)}))
+if ${f} >= ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      stdin: String(m[6]),
+      checks: [
+        N("I use int(input()).", "int\\(\\s*input\\("),
+        K(`It works at the edge: ${h} prints ${p} and ${h - 1} prints ${l}.`, [
+          { inputs: [String(m[6])], expected: [p] },
+          { inputs: [String(h)], expected: [p] },
+          { inputs: [String(h - 1)], expected: [l] },
+          { inputs: [String(m[7])], expected: [p] },
+        ]),
+      ],
+      hints: [
+        "input() always returns text.",
+        "int() turns text into a whole number.",
+        `${f} = int(input(...))`,
+      ],
+    },
+    {
+      id: "if-elif",
+      category: "Elif",
+      title: `${x}, ${$} or ${j}?`,
+      shortTitle: "elif",
+      illustration: "branch",
+      description: `Add an elif to catch the middle band, so ${A} prints ${$}.
+
+Bands:
+${g} or more: ${x}
+${b} or more: ${$}
+anything else: ${j}`,
+      learningIntention: "Use elif to check more than two outcomes.",
+      starterCode: `${f} = ${A}
+if ${f} >= ${g}:
+    print(${o(x)})
+else:
+    print(${o(j)})
+`,
+      solution: U(A),
+      checks: [
+        N("I add an elif.", `^elif\\s+${f}\\s*>=\\s*${b}\\s*:`),
+        L(`The output shows ${$}.`, [$]),
+      ],
+      hints: [
+        'elif means "else if": it is only checked when the if was False.',
+        "Put the elif between the if block and the else.",
+        `elif ${f} >= ${b}:`,
+      ],
+    },
+    {
+      id: "if-and",
+      category: "Boolean operators",
+      title: `Check ${e[z]} with and`,
+      shortTitle: "and",
+      illustration: "filter",
+      description: `Change or to and so both conditions must be True.
+
+${p} only when the ${r.label} is ${r.target} and the ${M} is at least ${h}.
+${q(e[z])}: ${r.label} ${r.values[z]}, ${M} ${s.values[z]}. It should print ${l}.${w}`,
+      learningIntention: "Use and when both conditions must be True.",
+      starterCode: `${y} = ${o(r.values[z])}
+${f} = ${s.values[z]}
+if ${y} == ${o(r.target)} or ${f} >= ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      solution: `${y} = ${o(r.values[z])}
+${f} = ${s.values[z]}
+if ${y} == ${o(r.target)} and ${f} >= ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      checks: [
+        N(
+          "The if joins both conditions with and.",
+          "^if\\s.*\\band\\b.*:\\s*$",
+        ),
+        L(`The output shows ${l}.`, [l]),
+      ],
+      hints: [
+        "or is True when either side is True.",
+        "and is only True when both sides are True.",
+        "Swap the word or for and.",
+      ],
+    },
+    {
+      id: "if-or",
+      category: "Boolean operators",
+      title: `Check ${e[E]} with or`,
+      shortTitle: "or",
+      illustration: "filter",
+      description: `Change and to or so either condition can be True.
+
+${p} when the ${r.label} is ${r.target} or the ${M} is at least ${h}.
+${q(e[E])}: ${r.label} ${r.values[E]}, ${M} ${s.values[E]}. It should print ${p}.${w}`,
+      learningIntention: "Use or when either condition can be True.",
+      starterCode: `${y} = ${o(r.values[E])}
+${f} = ${s.values[E]}
+if ${y} == ${o(r.target)} and ${f} >= ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      solution: `${y} = ${o(r.values[E])}
+${f} = ${s.values[E]}
+if ${y} == ${o(r.target)} or ${f} >= ${h}:
+    print(${o(p)})
+else:
+    print(${o(l)})
+`,
+      checks: [
+        N("The if joins the conditions with or.", "^if\\s.*\\bor\\b.*:\\s*$"),
+        L(`The output shows ${p}.`, [p]),
+      ],
+      hints: [
+        `${e[E]} passes only one of the two tests.`,
+        "or needs just one side to be True.",
+        "Swap the word and for or.",
+      ],
+    },
+    {
+      id: "if-nested",
+      category: "Nested if",
+      title: `Check ${e[O]} twice`,
+      shortTitle: "Nested",
+      illustration: "branch",
+      description: `Replace the comment with a nested if that checks the ${M}.
+
+Only ${r.target} ${c.many} reach the inner if.
+At least ${h} prints ${p}, otherwise ${l}.
+${q(e[O])} should print ${p}.${w}`,
+      learningIntention: "Put one if statement inside another.",
+      starterCode: `${y} = ${o(r.values[O])}
+${f} = ${s.values[O]}
+if ${y} == ${o(r.target)}:
+    # check ${f} here
+    print("Check the ${M}")
+else:
+    print(${o(`Not ${r.target}`)})
+`,
+      solution: `${y} = ${o(r.values[O])}
+${f} = ${s.values[O]}
+if ${y} == ${o(r.target)}:
+    if ${f} >= ${h}:
+        print(${o(p)})
+    else:
+        print(${o(l)})
+else:
+    print(${o(`Not ${r.target}`)})
+`,
+      checks: [
+        W(
+          "An if sits inside the first if.",
+          `^if\\s+${y}\\b.*:$`,
+          "^\\s+if\\s.*:$",
+        ),
+        N("The inner if has its own else.", "^[ \\t]+else\\s*:\\s*$"),
+        L(`The output shows ${p}.`, [p]),
+      ],
+      hints: [
+        "The inner if is indented once; its print is indented twice.",
+        `    if ${f} >= ${h}:`,
+        "The inner else lines up with the inner if.",
+      ],
+    },
+    {
+      id: "if-scratch",
+      category: "From scratch",
+      title: `${q(u.statNoun)} band checker`,
+      shortTitle: "Scratch",
+      illustration: "from-scratch",
+      description: `Write a program that asks the user to type the ${M} and prints its band.
+
+Bands:
+${g} or more: ${x}
+${b} or more: ${$}
+anything else: ${j}
+
+Try typing ${m[5]}.
+
+Example output:
+${$e(n, m[5])}`,
+      learningIntention: "Write if, elif and else from scratch.",
+      starterCode: `# Ask for the ${M} as a number
+
+# Print the band with if, elif and else
+`,
+      solution: `${f} = int(input(${o(v)}))
+if ${f} >= ${g}:
+    print(${o(x)})
+elif ${f} >= ${b}:
+    print(${o($)})
+else:
+    print(${o(j)})
+`,
+      stdin: String(m[5]),
+      checks: [
+        N("I use int(input()).", "int\\(\\s*input\\("),
+        N(
+          "I use if, elif and else.",
+          "^\\s*if\\s[\\s\\S]*^\\s*elif\\s[\\s\\S]*^\\s*else\\s*:",
+        ),
+        T,
+      ],
+      alternatives: [
+        `${f} = int(input("Number: "))
+if ${f} < ${b}:
+  print(${o(j)})  # lowest band first
+elif ${f} < ${g}:
+  print(${o($)})
+else:
+  print(${o(x)})
+`,
+      ],
+      mutants: [
+        `${f} = int(input("Number: "))
+if ${f} >= ${b}:
+    print(${o($)})
+elif ${f} >= ${g}:
+    print(${o(x)})
+else:
+    print(${o(j)})
+`,
+        `${f} = int(input("Number: "))
+if ${f} <= ${g}:
+    print(${o(x)})
+elif ${f} <= ${b}:
+    print(${o($)})
+else:
+    print(${o(j)})
+`,
+      ],
+      hints: [
+        "Start with the number: x = int(input(...))",
+        `Check the highest band first: if x >= ${g}:`,
+        "Finish with else for everything left over.",
+      ],
+    },
+    {
+      id: "if-sandbox",
+      category: "Sandbox",
+      title: `${q(c.one)} decision maker`,
+      shortTitle: "Sandbox",
+      illustration: "sandbox",
+      description: `Write your own decision program about ${c.many}.
+
+Use:
+- input()
+- if, elif and else
+- and or or in a condition`,
+      learningIntention: "Design selection of your own.",
+      starterCode: `# Write your decision program here
+`,
+      solution: `${a} = input(${o(`Pick a ${c.one}: `)})
+${f} = int(input(${o(v)}))
+if ${a} == ${o(e[O])} and ${f} >= ${g}:
+    print(${o(x)})
+elif ${f} >= ${b}:
+    print(${o($)})
+else:
+    print(${o(j)})
+`,
+      stdin: `${e[O]}
+${m[6]}`,
+      checks: [
+        N(
+          "I use input(), if, elif and else.",
+          "(?<![\\s\\S])(?=[\\s\\S]*input\\()[\\s\\S]*^\\s*if\\s[\\s\\S]*^\\s*elif\\s[\\s\\S]*^\\s*else\\s*:",
+        ),
+        N(
+          "A condition uses and or or.",
+          "^\\s*(?:if|elif)\\s.*\\b(?:and|or)\\b.*:",
+        ),
+        ye(),
+      ],
+      hints: [
+        "Ask a question first and store the answer.",
+        "Check the most specific case first.",
+        "Join two tests with and or or.",
+      ],
+    },
+  ];
+}
+function cs(n) {
+  const {
+      items: e,
+      itemVar: a,
+      stat: s,
+      announce: r,
+      person: i,
+      item: d,
+      story: c,
+    } = n,
+    [u, p] = [s.values[0], s.values[1]],
+    l = u + p,
+    m = u >= p ? 0 : 1,
+    h = 1 - m,
+    g = Math.abs(u - p),
+    b = `What is your ${i.role} name? `,
+    f = `Welcome to ${c.hq}, `,
+    y = `${s.prompt} for ${e[4]}: `,
+    x = `Total ${c.statNoun}: `,
+    $ = Nt(n, e[m], g, e[h]);
+  return [
+    {
+      id: "io-print",
+      category: "Output",
+      title: `Announce ${e[0]}`,
+      shortTitle: "Print",
+      illustration: "playground",
+      description: `Change the text inside the speech marks so Python prints the message.
+
+Output:
+${r}: ${e[0]}`,
+      learningIntention: "Use print to show text on the screen.",
+      starterCode: `print(${o(`${r}: `)})
+`,
+      solution: `print(${o(`${r}: ${e[0]}`)})
+`,
+      checks: [
+        N("I use print.", "print\\("),
+        L("The output matches the message.", [`${r}: ${e[0]}`]),
+      ],
+      hints: [
+        "Text inside speech marks is printed exactly as it is typed.",
+        `Add ${e[0]} after the colon and space.`,
+        `print(${o(`${r}: ${e[0]}`)})`,
+      ],
+    },
+    {
+      id: "io-print-lines",
+      category: "Output",
+      title: `Top three on the ${c.list}`,
+      shortTitle: "Lines",
+      illustration: "select-many",
+      description: `Print the first three ${d.many} on the ${c.list}, each on its own line.
+
+Each print starts a new line.
+
+Output:
+${e[0]}
+${e[1]}
+${e[2]}`,
+      learningIntention: "Use one print for each line of output.",
+      starterCode: `print(${o(e[0])})
+`,
+      solution: `print(${o(e[0])})
+print(${o(e[1])})
+print(${o(e[2])})
+`,
+      checks: [
+        N(
+          "I use three print lines.",
+          "print\\([\\s\\S]*print\\([\\s\\S]*print\\(",
+        ),
+        L(`The output shows the three ${d.many} in order.`, e.slice(0, 3)),
+      ],
+      hints: [
+        "Copy the first print line and change the text.",
+        "Each print puts its text on a new line.",
+        `The order is ${e[0]}, ${e[1]}, ${e[2]}.`,
+      ],
+    },
+    {
+      id: "io-variable",
+      category: "Variables",
+      title: `Store ${e[1]} in a variable`,
+      shortTitle: "Variable",
+      illustration: "select-one",
+      description: `Fix the print so it shows what ${a} stores.
+
+The program prints the word ${a} instead of ${e[1]}.`,
+      learningIntention: "Print the value stored in a variable.",
+      starterCode: `${a} = ${o(e[1])}
+print(${o(a)})
+`,
+      solution: `${a} = ${o(e[1])}
+print(${a})
+`,
+      checks: [
+        N(`I print the variable ${a}.`, `^\\s*print\\(\\s*${a}\\s*\\)`),
+        L("The output shows the stored value.", [e[1]]),
+      ],
+      hints: [
+        'Speech marks mean "print this exact text".',
+        "A variable name has no speech marks around it.",
+        `Use print(${a}).`,
+      ],
+    },
+    {
+      id: "io-reassign",
+      category: "Variables",
+      title: `Swap ${e[0]} for ${e[3]}`,
+      shortTitle: "Reassign",
+      illustration: "select-one",
+      description: `Between the two prints, change ${a} to ${e[3]}.
+
+Output:
+${e[0]}
+${e[3]}`,
+      learningIntention: "Give a variable a new value while the program runs.",
+      starterCode: `${a} = ${o(e[0])}
+print(${a})
+
+print(${a})
+`,
+      solution: `${a} = ${o(e[0])}
+print(${a})
+${a} = ${o(e[3])}
+print(${a})
+`,
+      checks: [
+        N(
+          `I set ${a} to ${e[3]} between the prints.`,
+          `print\\(\\s*${a}\\s*\\)[\\s\\S]*^\\s*${a}\\s*=\\s*${de(e[3])}[\\s\\S]*print\\(\\s*${a}\\s*\\)`,
+        ),
+        L("The output shows both values in order.", [e[0], e[3]]),
+      ],
+      hints: [
+        "A variable keeps its newest value.",
+        `Write ${a} = ${o(e[3])} on the empty line.`,
+        "Keep both print lines.",
+      ],
+    },
+    {
+      id: "io-join",
+      category: "Variables",
+      title: `Announce ${e[2]} with +`,
+      shortTitle: "Join",
+      illustration: "build-array",
+      description: `Use + to join the text and the variable.
+
+Output:
+${r}: ${e[2]}`,
+      learningIntention: "Join text and a variable with +.",
+      starterCode: `${a} = ${o(e[2])}
+print(${o(`${r}: `)})
+`,
+      solution: `${a} = ${o(e[2])}
+print(${o(`${r}: `)} + ${a})
+`,
+      checks: [
+        N(
+          `I join the text and ${a} with +.`,
+          `["'][^"'\\n]*["']\\s*\\+\\s*${a}\\b`,
+        ),
+        L("The output matches.", [`${r}: ${e[2]}`]),
+      ],
+      hints: [
+        "+ joins two pieces of text together.",
+        `Put + ${a} after the closing speech mark.`,
+        "The space after the colon is already inside the text.",
+      ],
+    },
+    {
+      id: "io-numbers",
+      category: "Variables",
+      title: `Add up ${e[0]} and ${e[1]}`,
+      shortTitle: "Add",
+      illustration: "count",
+      description: `Fix the calculation so total adds the ${c.statNoun} of both ${d.many} together.
+
+${q(Z(n, e[0], u))}.
+${q(Z(n, e[1], p))}.${fe(n)}`,
+      learningIntention: "Store numbers in variables and add them.",
+      starterCode: `first = ${u}
+second = ${p}
+total = first - second
+print(total)
+`,
+      solution: `first = ${u}
+second = ${p}
+total = first + second
+print(total)
+`,
+      checks: [
+        N(
+          "total adds first and second.",
+          "^\\s*total\\s*=\\s*(?:first\\s*\\+\\s*second|second\\s*\\+\\s*first)\\s*$",
+        ),
+        L("The output shows the total.", [l]),
+      ],
+      hints: [
+        "Numbers do not need speech marks.",
+        "Look at the operator in the total line.",
+        "Use + to add.",
+      ],
+    },
+    {
+      id: "io-str",
+      category: "Data types",
+      title: `Print the combined ${c.statNoun}`,
+      shortTitle: "str()",
+      illustration: "count",
+      description: `Use str() to turn total into text.
+
+Run it first: Python cannot join text and a number with +.
+
+Output:
+${x}${l}`,
+      learningIntention: "Use str() to turn a number into text.",
+      starterCode: `first = ${u}
+second = ${p}
+total = first + second
+print(${o(x)} + total)
+`,
+      solution: `first = ${u}
+second = ${p}
+total = first + second
+print(${o(x)} + str(total))
+`,
+      checks: [
+        N("I use str(total).", "str\\(\\s*total\\s*\\)"),
+        L("The output matches.", [`${x}${l}`]),
+      ],
+      hints: [
+        "The error says Python can only join text (str) to text.",
+        "str(total) gives the number as text.",
+        "Replace total at the end of the print with str(total).",
+      ],
+    },
+    {
+      id: "io-input",
+      category: "Input",
+      title: `Who is at ${c.hq}?`,
+      shortTitle: "input()",
+      illustration: "lookup",
+      description: `Finish the print so ${c.hq} welcomes the ${i.role} who types their name.
+
+input() asks a question and stores the answer.
+Run it and type a name into the output box.
+
+Example output:
+${f}${i.name}`,
+      learningIntention: "Use input to store what the user types.",
+      starterCode: `name = input(${o(b)})
+print(${o(f)})
+`,
+      solution: `name = input(${o(b)})
+print(${o(f)} + name)
+`,
+      stdin: i.name,
+      checks: [
+        N(
+          "I store the answer from input in name.",
+          "^\\s*name\\s*=\\s*input\\(",
+        ),
+        N(
+          "I print the welcome with name.",
+          `["']${Ne(f.trimEnd())}\\s*["']\\s*(?:\\+|,)\\s*name\\b`,
+        ),
+        K(`It welcomes any name, for example ${i.name} or Sam.`, [
+          { inputs: [i.name], expected: [`${f}${i.name}`] },
+          { inputs: ["Sam"], expected: [`${f}Sam`] },
+        ]),
+      ],
+      hints: [
+        "The variable name already holds what was typed.",
+        "Join it to the text with +.",
+        "Type a name into the output box when Python asks.",
+      ],
+    },
+    {
+      id: "io-int-input",
+      category: "Input",
+      title: `Boost ${e[4]} by 10`,
+      shortTitle: "int()",
+      illustration: "lookup",
+      description: `Add 10 to the ${c.statNoun} of ${e[4]}.
+
+Wrap input() in int() so amount becomes a number, then run it.
+
+input() always gives back text, so + 10 fails.
+Try typing ${s.values[4]}.`,
+      learningIntention: "Use int() to turn typed text into a whole number.",
+      starterCode: `amount = input(${o(y)})
+print(amount + 10)
+`,
+      solution: `amount = int(input(${o(y)}))
+print(amount + 10)
+`,
+      stdin: String(s.values[4]),
+      checks: [
+        N("I use int(input()).", "int\\(\\s*input\\("),
+        N("I print amount + 10.", "print\\(\\s*amount\\s*\\+\\s*10\\s*\\)"),
+        K("It adds 10 to any number typed in, for example 7 or 0.", [
+          { inputs: ["7"], expected: ["17"] },
+          { inputs: ["0"], expected: ["10"] },
+          {
+            inputs: [String(s.values[4])],
+            expected: [String(s.values[4] + 10)],
+          },
+        ]),
+      ],
+      hints: [
+        'Text "5" and the number 5 are different types.',
+        "int() turns text into a whole number.",
+        "Write amount = int(input(...)).",
+      ],
+    },
+    {
+      id: "io-commas",
+      category: "Output",
+      title: `${e[m]} against ${e[h]}`,
+      shortTitle: "Commas",
+      illustration: "count",
+      description: `Finish the difference line to work out the difference between ${e[m]} and ${e[h]}.
+
+The print uses commas, so Python adds the spaces and turns numbers into text by itself.${fe(n)}
+
+Output:
+${$}`,
+      learningIntention:
+        "Subtract numbers and print several values with commas.",
+      starterCode: `first = ${s.values[m]}
+second = ${s.values[h]}
+difference = 
+print(${ke(n, e[m], e[h])})
+`,
+      solution: `first = ${s.values[m]}
+second = ${s.values[h]}
+difference = first - second
+print(${ke(n, e[m], e[h])})
+`,
+      checks: [
+        N(
+          "difference subtracts second from first.",
+          "^\\s*difference\\s*=\\s*first\\s*-\\s*second\\s*$",
+        ),
+        L("The output matches.", [$]),
+      ],
+      hints: [
+        "Use - to subtract.",
+        "The bigger number comes first.",
+        "difference = first - second",
+      ],
+    },
+    {
+      id: "io-scratch",
+      category: "From scratch",
+      title: `Your favourite ${d.one}`,
+      shortTitle: "Scratch",
+      illustration: "from-scratch",
+      description: `Write a program that asks the user to type a name and a favourite ${d.one}, then prints them.
+
+Steps:
+- ask their name
+- ask their favourite ${d.one}
+- print them like the example
+
+Example output:
+${i.name} picks ${e[5]}`,
+      learningIntention: "Combine input, variables and output in one program.",
+      starterCode: `# Ask for a name
+
+# Ask for a favourite ${d.one}
+
+# Print: <name> picks <favourite>
+`,
+      solution: `name = input("Name: ")
+favourite = input(${o(`Favourite ${d.one}: `)})
+print(name, "picks", favourite)
+`,
+      stdin: `${i.name}
+${e[5]}`,
+      checks: [
+        N("I use input twice.", "input\\([\\s\\S]*input\\("),
+        N(
+          "I store each answer in a variable.",
+          "^\\s*\\w+\\s*=\\s*input\\([\\s\\S]*^\\s*\\w+\\s*=\\s*input\\(",
+        ),
+        K('It prints "<name> picks <favourite>" for any answers.', [
+          { inputs: [i.name, e[5]], expected: [`${i.name} picks ${e[5]}`] },
+          { inputs: ["Sam", e[2]], expected: [`Sam picks ${e[2]}`] },
+        ]),
+      ],
+      hints: [
+        'Store each answer: name = input("Name: ")',
+        "You need two input lines and one print line.",
+        'print(name, "picks", favourite) puts spaces between the parts.',
+      ],
+    },
+    {
+      id: "io-sandbox",
+      category: "Sandbox",
+      title: `${q(d.one)} profile card`,
+      shortTitle: "Sandbox",
+      illustration: "sandbox",
+      description: `Build a profile card about any ${d.one} you like.
+
+Use:
+- at least two variables
+- at least one input()
+- at least three print lines`,
+      learningIntention: "Plan and write a short program of your own.",
+      starterCode: `# Build your ${d.one} profile card here
+`,
+      solution: `${a} = ${o(e[6])}
+${s.var} = ${s.values[6]}
+name = input("Your name: ")
+print(${o(`${r}: `)} + ${a})
+print(${o(`${q(c.statNoun)}:`)}, ${s.var})
+print("Card made by", name)
+`,
+      stdin: i.name,
+      checks: [
+        N(
+          "I use at least two variables and an input().",
+          "(?<![\\s\\S])(?=[\\s\\S]*input\\()[\\s\\S]*^\\s*[A-Za-z_]\\w*\\s*=[^=][\\s\\S]*^\\s*[A-Za-z_]\\w*\\s*=[^=]",
+        ),
+        N(
+          "I use at least three print lines.",
+          "print\\([\\s\\S]*print\\([\\s\\S]*print\\(",
+        ),
+        ye(),
+      ],
+      alternatives: [
+        `${a} = ${o(e[6])}
+status = "Error free"
+name = input("Your name: ")
+print(${a})
+print(status)
+print("Error count:", 0, name)
+`,
+      ],
+      mutants: [
+        `${a} = ${o(e[6])}
+name = input("Your name: ")
+print(${a})
+print(name)
+print(undefined_name)
+`,
+      ],
+      hints: [
+        `Start with a variable for the ${d.one}.`,
+        "Ask the user a question with input().",
+        "Print a line for each part of the card.",
+      ],
+    },
+  ];
+}
+function lt(...n) {
+  return `(?<![\\s\\S])(?![\\s\\S]*\\b(?:${n.join("|")})\\s*\\()`;
+}
+function ct(n, e, a) {
+  return [`${n}:`, e.join(" | "), ...a.map((s) => s.join(" | "))].join(`
+`);
+}
+function ne(n, e = []) {
+  const a = (s, r) => `${s}:
+${r.map((i) => `- ${i}`).join(`
+`)}`;
+  return [
+    a("You must use", n),
+    ...(e.length ? [a("You should use (other ways can work too)", e)] : []),
+  ].join(`
+
+`);
+}
+function be(n, e) {
+  return `${n.slice(0, 3).toUpperCase()}${e}`;
+}
+function us(n) {
+  const {
+      items: e,
+      listVar: a,
+      stat: s,
+      tag: r,
+      extra: i,
+      bands: d,
+      item: c,
+      story: u,
+      secret: p,
+    } = n,
+    l = s.values,
+    { sorted: m, threshold: h, high: g, middle: b } = ge(n),
+    [f, y, x] = d,
+    [$, j] = u.verdict,
+    T = fe(n),
+    w = re(a, e),
+    M = Te(n),
+    v = o(`${s.prompt}: `),
+    k = o(`${q(c.one)}: `),
+    I = q(u.statNoun),
+    [R, C] = s.has,
+    A = m[7],
+    z = (...P) => P.reduce((V, Le) => V + Le, 0),
+    E = l.indexOf(A),
+    O = ct(
+      "Data",
+      ["Index", q(a), q(s.listVar.replace(/_/g, " "))],
+      e.map((P, V) => [V, P, l[V]]),
+    ),
+    U = `${q(u.gate)} unlocked`,
+    H = `records = [
+${e.map((P, V) => `    [${o(P)}, ${o(r.values[V])}, ${l[V]}]`).join(`,
+`)}
+]`,
+    B = ct(
+      "Records",
+      [
+        "Row",
+        `Column 0: ${c.one}`,
+        `Column 1: ${r.label}`,
+        `Column 2: ${u.statNoun}`,
+      ],
+      e.map((P, V) => [V, P, r.values[V], l[V]]),
+    ),
+    Y = e.filter((P, V) => r.values[V] === r.target),
+    se = r.values.find((P) => P !== r.target),
+    ee = e.filter((P, V) => r.values[V] === se),
+    te = "none";
+  if (r.values.includes(te))
+    throw new Error(
+      `Essentials pack ${n.theme} uses the word none as a ${r.label}.`,
+    );
+  const J = o(`${q(r.label)}: `),
+    F = e[3].toLowerCase(),
+    G = (P) => [
+      `Total: ${z(...P)}`,
+      `Highest: ${Math.max(...P)}`,
+      `Mean: ${Math.floor(z(...P) / P.length)}`,
+    ],
+    D = [...l.slice(4, 8)].sort((P, V) => V - P);
+  return [
+    {
+      id: "scratch-sentence",
+      category: "Sequence",
+      title: `Describe ${he(c.one)}`,
+      shortTitle: "Input",
+      illustration: "from-scratch",
+      description: `Write a program that inputs the name of ${he(c.one)} and its ${u.statNoun}, then outputs one sentence about it.
+
+Your program must:
+- input the name
+- input the ${u.statNoun}
+- output the sentence shown
+
+${ne(["input() for the name", `input() for the ${u.statNoun}`, "print() for the sentence"], ["commas inside print() to join the text and variables"])}
+
+Example output:
+${Z(n, e[0], l[0])}`,
+      learningIntention:
+        "Write a sequence of inputs and an output from a blank editor.",
+      starterCode: `# Write your program here
+`,
+      solution: `name = input(${k})
+value = input(${v})
+print(name, ${o(R)}, value, ${o(C)})
+`,
+      stdin: `${e[0]}
+${l[0]}`,
+      checks: [
+        N(
+          "I use input() for the name and for the number.",
+          "input\\([\\s\\S]*input\\(",
+        ),
+        K(`It describes ${e[2]} and ${i} correctly.`, [
+          { inputs: [e[2], String(l[2])], expected: [Z(n, e[2], l[2])] },
+          { inputs: [i, String(l[5])], expected: [Z(n, i, l[5])] },
+        ]),
+      ],
+      mutants: [
+        `name = input(${k})
+value = input(${v})
+print(${o(Z(n, e[0], l[0]))})
+`,
+      ],
+      hints: [
+        "Store each input in its own variable.",
+        "print can join text and variables with commas, and adds the spaces for you.",
+        `print(name, ${o(R)}, value, ${o(C)})`,
+      ],
+    },
+    {
+      id: "scratch-decision",
+      category: "Selection",
+      title: `Decide at ${u.hq}`,
+      shortTitle: "if else",
+      illustration: "branch",
+      description: `Write a program that inputs a ${u.statNoun} and outputs ${$} when it is ${h} or more, otherwise ${j}.
+
+Your program must:
+- output ${$} or ${j}
+
+${ne(["int() around input()", "if and else"], [`>= so that ${h} itself gives ${$}`])}
+
+Example output:
+${$}`,
+      learningIntention:
+        "Choose between two outputs with a comparison operator.",
+      starterCode: `# Write your program here
+`,
+      solution: `value = int(input(${v}))
+if value >= ${h}:
+    print(${o($)})
+else:
+    print(${o(j)})
+`,
+      alternatives: [
+        `value = int(input(${v}))
+if value < ${h}:
+    print(${o(j)})
+else:
+    print(${o($)})
+`,
+      ],
+      stdin: String(A),
+      checks: [
+        N("I use if and else.", "^\\s*if\\s[\\s\\S]*^\\s*else\\s*:"),
+        K(`It says ${$} for ${h} and above, and ${j} below ${h}.`, [
+          { inputs: [String(h)], expected: [$] },
+          { inputs: [String(h - 1)], expected: [j] },
+          { inputs: [String(A)], expected: [$] },
+          { inputs: [String(m[0])], expected: [j] },
+        ]),
+      ],
+      mutants: [
+        `value = int(input(${v}))
+if value > ${h}:
+    print(${o($)})
+else:
+    print(${o(j)})
+`,
+      ],
+      hints: [
+        `${h} itself must give ${$}, so think about > and >=.`,
+        "else has no condition: it runs when the if is False.",
+        `if value >= ${h}:`,
+      ],
+    },
+    {
+      id: "scratch-total-mean",
+      category: "Arithmetic",
+      title: `Total and mean of two ${c.many}`,
+      shortTitle: "DIV",
+      illustration: "count",
+      description: `Write a program that inputs the ${u.statNoun} of two ${c.many} and outputs their total and their mean.
+
+Your program must:
+- input both numbers
+- output the total
+- output the mean as a whole number
+
+How to work out the mean:
+- the total is the two numbers added together with +
+- the mean is the total divided by how many numbers there are, which is 2
+- // (DIV) divides and drops the remainder, so total // 2 is a whole number
+- with ${l[0]} and ${l[1]}: ${l[0]} + ${l[1]} = ${l[0] + l[1]}, and ${l[0] + l[1]} // 2 = ${Math.floor((l[0] + l[1]) / 2)}
+
+${ne(["int() around each input()", "// to work out the mean"], ["a total variable, then total // 2"])}
+
+Example output:
+Total: ${l[0] + l[1]}
+Mean: ${Math.floor((l[0] + l[1]) / 2)}`,
+      learningIntention:
+        "Cast inputs to integers and use + and DIV in a calculation.",
+      starterCode: `# Write your program here
+`,
+      solution: `first_value = int(input(${v}))
+second_value = int(input(${v}))
+total = first_value + second_value
+print("Total:", total)
+print("Mean:", total // 2)
+`,
+      stdin: `${l[0]}
+${l[1]}`,
+      checks: [
+        N("I cast the inputs with int().", "int\\(\\s*input\\("),
+        N("I use DIV (//) for the mean.", "//"),
+        K("It gives the right total and mean for two other pairs.", [
+          {
+            inputs: [String(l[2]), String(l[3])],
+            expected: [
+              `Total: ${l[2] + l[3]}`,
+              `Mean: ${Math.floor((l[2] + l[3]) / 2)}`,
+            ],
+          },
+          {
+            inputs: [String(l[4]), String(l[7])],
+            expected: [
+              `Total: ${l[4] + l[7]}`,
+              `Mean: ${Math.floor((l[4] + l[7]) / 2)}`,
+            ],
+          },
+        ]),
+      ],
+      mutants: [
+        `first_value = int(input(${v}))
+second_value = int(input(${v}))
+total = first_value + second_value
+print("Total:", total)
+print("Mean:", total / 2)
+`,
+        `first_value = input(${v})
+second_value = input(${v})
+print("Total:", first_value + second_value)
+print("Mean:", 0 // 2)
+`,
+      ],
+      hints: [
+        "input() always gives a string. int() turns it into a whole number.",
+        "// is DIV: it divides and drops the remainder.",
+        'print("Mean:", total // 2)',
+      ],
+    },
+    {
+      id: "scratch-bands",
+      category: "Selection",
+      title: `${f}, ${y} or ${x}`,
+      shortTitle: "elif",
+      illustration: "branch",
+      description: `Write a program that inputs a ${u.statNoun} and outputs its band from the table.
+
+Bands:
+${I} | Band
+${g} or more | ${f}
+${b} to ${g - 1} | ${y}
+below ${b} | ${x}
+
+${ne(["if, then elif, then else"], ["the highest band in the if, then work down"])}
+
+Example output:
+${$e(n, l[0])}`,
+      learningIntention:
+        "Use if, elif and else to choose one of three outputs.",
+      starterCode: `# Write your program here
+`,
+      solution: `value = int(input(${v}))
+if value >= ${g}:
+    print(${o(f)})
+elif value >= ${b}:
+    print(${o(y)})
+else:
+    print(${o(x)})
+`,
+      alternatives: [
+        `value = int(input(${v}))
+if value < ${b}:
+    print(${o(x)})
+elif value < ${g}:
+    print(${o(y)})
+else:
+    print(${o(f)})
+`,
+      ],
+      stdin: String(l[0]),
+      checks: [
+        N("I use elif.", "^\\s*elif\\s"),
+        K("Every band is right, including the edges of each band.", [
+          { inputs: [String(g)], expected: [f] },
+          { inputs: [String(g - 1)], expected: [y] },
+          { inputs: [String(b)], expected: [y] },
+          { inputs: [String(b - 1)], expected: [x] },
+        ]),
+      ],
+      mutants: [
+        `value = int(input(${v}))
+if value >= ${b}:
+    print(${o(y)})
+elif value >= ${g}:
+    print(${o(f)})
+else:
+    print(${o(x)})
+`,
+        `value = int(input(${v}))
+if value > ${g}:
+    print(${o(f)})
+elif value > ${b}:
+    print(${o(y)})
+else:
+    print(${o(x)})
+`,
+      ],
+      hints: [
+        "Test the highest band first, then work down.",
+        "Only the first True branch runs, so the elif only needs the lower limit.",
+        `elif value >= ${b}:`,
+      ],
+    },
+    {
+      id: "scratch-for-total",
+      category: "Count-controlled iteration",
+      title: `Total the ${u.list}`,
+      shortTitle: "for total",
+      illustration: "loop",
+      description: `Write a program that asks how many ${c.many} there are, inputs the ${u.statNoun} of each one, then outputs the total.
+
+Your program must:
+- input how many ${c.many} there are
+- input each ${u.statNoun}
+- keep a running total
+- output the total after the loop
+
+${ne(["a for loop with input() nested inside it"], ["a total set to 0 before the loop", "total = total + value inside the loop"])}
+
+Example output:
+Total: ${z(l[0], l[1], l[2])}`,
+      learningIntention:
+        "Use a count-controlled loop to input values and keep a running total.",
+      starterCode: `# Write your program here
+`,
+      solution: `how_many = int(input("How many ${c.many}? "))
+total = 0
+for i in range(how_many):
+    value = int(input(${v}))
+    total = total + value
+print("Total:", total)
+`,
+      stdin: `3
+${l[0]}
+${l[1]}
+${l[2]}`,
+      checks: [
+        W(
+          "A for loop inputs each value.",
+          "^\\s*for\\s+\\w+\\s+in\\s+range\\(",
+          "\\binput\\(",
+        ),
+        K("It totals 4 values, 1 value and 0 values.", [
+          {
+            inputs: ["4", ...l.slice(3, 7).map(String)],
+            expected: [`Total: ${z(...l.slice(3, 7))}`],
+          },
+          { inputs: ["1", String(l[7])], expected: [`Total: ${l[7]}`] },
+          { inputs: ["0"], expected: ["Total: 0"] },
+        ]),
+      ],
+      mutants: [
+        `how_many = int(input("How many ${c.many}? "))
+total = 0
+for i in range(how_many):
+    value = int(input(${v}))
+    total = value
+print("Total:", total)
+`,
+        `how_many = int(input("How many ${c.many}? "))
+total = 0
+for i in range(how_many):
+    value = int(input(${v}))
+    total = total + value
+    print("Total:", total)
+`,
+      ],
+      hints: [
+        "Set total to 0 before the loop starts.",
+        "range(how_many) repeats the loop how_many times.",
+        "print the total after the loop, with no indent.",
+      ],
+    },
+    {
+      id: "scratch-validate",
+      category: "Input validation",
+      title: `Validate a ${u.statNoun}`,
+      shortTitle: "Validate",
+      illustration: "filter",
+      description: `Write a program that only accepts a ${u.statNoun} from 1 to ${A}.
+
+Your program must:
+- input a ${u.statNoun}
+- output Invalid and ask again while it is out of range
+- output Accepted and the value once it is valid
+
+${ne(["a while loop"], ["or in the while condition", "a second input() nested inside the while loop"])}
+
+Example output:
+Invalid
+Accepted: ${l[0]}`,
+      learningIntention:
+        "Use a condition-controlled loop to validate an input with a range check.",
+      starterCode: `# Write your program here
+`,
+      solution: `value = int(input(${v}))
+while value < 1 or value > ${A}:
+    print("Invalid")
+    value = int(input(${v}))
+print("Accepted:", value)
+`,
+      alternatives: [
+        `value = int(input(${v}))
+while not (value >= 1 and value <= ${A}):
+    print("Invalid")
+    value = int(input(${v}))
+print("Accepted:", value)
+`,
+      ],
+      stdin: `0
+${l[0]}`,
+      checks: [
+        N("I use a while loop.", "^\\s*while\\s"),
+        K(
+          `It rejects 0 and ${A + 1} as many times as they are typed, and accepts 1 and ${A}.`,
+          [
+            {
+              inputs: ["0", String(A + 1), String(l[3])],
+              expected: ["Invalid", "Invalid", `Accepted: ${l[3]}`],
+            },
+            { inputs: ["1"], expected: ["Accepted: 1"] },
+            { inputs: [String(A)], expected: [`Accepted: ${A}`] },
+          ],
+        ),
+      ],
+      mutants: [
+        `value = int(input(${v}))
+if value < 1 or value > ${A}:
+    print("Invalid")
+    value = int(input(${v}))
+print("Accepted:", value)
+`,
+        `value = int(input(${v}))
+while value < 1 and value > ${A}:
+    print("Invalid")
+    value = int(input(${v}))
+print("Accepted:", value)
+`,
+      ],
+      hints: [
+        "An if only checks once. A while keeps checking until the value is valid.",
+        "Out of range means below 1 or above the limit.",
+        `while value < 1 or value > ${A}:`,
+      ],
+    },
+    {
+      id: "scratch-highest",
+      category: "Arrays",
+      title: `Top of the ${u.list}`,
+      shortTitle: "Highest",
+      illustration: "index-position",
+      description: `Write a program that outputs the ${c.one} with the highest ${u.statNoun}.${T}
+
+The arrays ${a} and ${s.listVar} are already in the editor. The value at each index belongs to the ${c.one} at the same index.
+
+${O}
+
+Your program must:
+- check every ${u.statNoun}
+- not use max()
+- output the sentence shown
+
+${ne(["a loop with an if nested inside it"], ["a for loop with range(len()), and top_index to remember the best so far"])}
+
+Example output:
+${Z(n, e[E], A)}`,
+      learningIntention:
+        "Search an array for its highest value with a loop and a comparison.",
+      starterCode: `${w}
+${M}
+
+# Write your program here
+`,
+      solution: `${w}
+${M}
+
+top_index = 0
+for i in range(len(${s.listVar})):
+    if ${s.listVar}[i] > ${s.listVar}[top_index]:
+        top_index = i
+print(${a}[top_index], ${o(R)}, ${s.listVar}[top_index], ${o(C)})
+`,
+      checks: [
+        W(
+          "An if inside a loop compares the values.",
+          "^\\s*(?:for|while)\\s",
+          "^\\s+if\\s.*[<>]",
+        ),
+        N("I do not use max().", lt("max")),
+        L("The output names the right one.", [Z(n, e[E], A)]),
+      ],
+      mutants: [
+        `${w}
+${M}
+
+print(${o(Z(n, e[E], A))})
+`,
+      ],
+      hints: [
+        "Remember the index of the best value so far, starting at 0.",
+        "Inside the loop, compare each value with the best so far.",
+        `    if ${s.listVar}[i] > ${s.listVar}[top_index]:`,
+      ],
+    },
+    {
+      id: "scratch-function",
+      category: "Sub programs",
+      title: `Make ${c.one} codes`,
+      shortTitle: "Function",
+      illustration: "function",
+      description: `Write a function called make_code that takes a name and a ${u.statNoun} as parameters and returns a code.
+
+The code is the first three characters of the name in upper case, followed by the ${u.statNoun}. The main program inputs both values, calls make_code and outputs the code.
+
+${ne(["def make_code with two parameters", "return inside the function", "a call to make_code in the main program", ".upper() for the capitals"], ["[0:3] to take the first three characters", "str() to join the number"])}
+
+Examples:
+Name | ${I} | Code
+${e.slice(0, 3).map((P, V) => `${P} | ${l[V]} | ${be(P, l[V])}`).join(`
+`)}
+
+Example output:
+${be(e[0], l[0])}`,
+      learningIntention:
+        "Write a function with two parameters that returns a value built with string manipulation.",
+      starterCode: `# Write your function and main program here
+`,
+      solution: `def make_code(name, value):
+    return name[0:3].upper() + str(value)
+
+name = input(${k})
+value = int(input(${v}))
+print(make_code(name, value))
+`,
+      alternatives: [
+        `def make_code(name, value):
+    code = name.upper()[:3]
+    code = code + str(value)
+    return code
+
+entry = input(${k})
+amount = input(${v})
+code = make_code(entry, amount)
+print(code)
+`,
+      ],
+      stdin: `${e[0]}
+${l[0]}`,
+      checks: [
+        N(
+          "make_code takes two parameters, uses .upper() and returns the code.",
+          "(?<![\\s\\S])(?=[\\s\\S]*^def\\s+make_code\\(\\s*\\w+\\s*,\\s*\\w+\\s*\\)\\s*:)(?=[\\s\\S]*\\.upper\\(\\))(?=[\\s\\S]*^\\s+return\\s)",
+        ),
+        St("I call make_code from the main program."),
+        K(`It makes the right code for ${e[5]}, ${i} and ${F}.`, [
+          { inputs: [e[5], String(l[5])], expected: [be(e[5], l[5])] },
+          { inputs: [i, String(l[6])], expected: [be(i, l[6])] },
+          { inputs: [F, String(l[7])], expected: [be(F, l[7])] },
+        ]),
+      ],
+      mutants: [
+        `def make_code(name, value):
+    return name[0:3] + str(value)
+
+name = input(${k})
+value = int(input(${v}))
+print(make_code(name, value))
+`,
+        `def make_code(name, value):
+    print(name[0:3].upper() + str(value))
+
+name = input(${k})
+value = int(input(${v}))
+make_code(name, value)
+`,
+      ],
+      hints: [
+        "name[0:3] is a substring: the characters at index 0, 1 and 2.",
+        "str() casts the number to a string so it can be joined on.",
+        "    return name[0:3].upper() + str(value)",
+      ],
+    },
+    {
+      id: "scratch-search",
+      category: "Linear search",
+      title: `Search the ${u.list}`,
+      shortTitle: "Search",
+      illustration: "linear-search",
+      description: `Write a program that inputs the name of ${he(c.one)} and uses a linear search to find it in ${a}.${T}
+
+${O}
+
+Your program must:
+- check each ${c.one} in turn
+- output the sentence for the ${c.one} when it is found
+- output the not found line once when it is missing, like ${i} is not on the ${u.list}
+
+${ne(["a loop with an if nested inside it"], ["a for loop with found = False set before it", "an if after the loop to output the not found line"])}
+
+Example output:
+${Z(n, e[1], l[1])}`,
+      learningIntention:
+        "Write a linear search over an array that reports found or not found once.",
+      starterCode: `${w}
+${M}
+
+# Write your program here
+`,
+      solution: `${w}
+${M}
+
+target = input(${k})
+found = False
+for i in range(len(${a})):
+    if ${a}[i] == target:
+        print(${a}[i], ${o(R)}, ${s.listVar}[i], ${o(C)})
+        found = True
+if found == False:
+    print(target, ${o(`is not on the ${u.list}`)})
+`,
+      alternatives: [
+        `${w}
+${M}
+
+target = input(${k})
+position = -1
+index = 0
+while index < len(${a}) and position == -1:
+    if ${a}[index] == target:
+        position = index
+    index = index + 1
+if position == -1:
+    print(target, ${o(`is not on the ${u.list}`)})
+else:
+    print(target, ${o(R)}, ${s.listVar}[position], ${o(C)})
+`,
+      ],
+      stdin: e[1],
+      checks: [
+        W(
+          "A loop compares each one with the name typed in.",
+          "^\\s*(?:for|while)\\s",
+          "^\\s+if\\s.*==",
+        ),
+        K(
+          `It finds the first, middle and last ${c.many}, and reports ${i} missing once.`,
+          [
+            { inputs: [e[0]], expected: [Z(n, e[0], l[0])] },
+            { inputs: [e[4]], expected: [Z(n, e[4], l[4])] },
+            { inputs: [e[7]], expected: [Z(n, e[7], l[7])] },
+            { inputs: [i], expected: [`${i} is not on the ${u.list}`] },
+          ],
+        ),
+      ],
+      mutants: [
+        `${w}
+${M}
+
+target = input(${k})
+for i in range(len(${a})):
+    if ${a}[i] == target:
+        print(${a}[i], ${o(R)}, ${s.listVar}[i], ${o(C)})
+    else:
+        print(target, ${o(`is not on the ${u.list}`)})
+`,
+      ],
+      hints: [
+        "Use a Boolean flag such as found = False before the loop.",
+        "Do not print not found inside the loop, or it prints for every other item.",
+        "After the loop: if found == False:",
+      ],
+    },
+    {
+      id: "scratch-attempts",
+      category: "Authentication",
+      title: `Guard the ${u.gate}`,
+      shortTitle: "3 tries",
+      illustration: "lookup",
+      description: `Write a program that gives the user three attempts to enter the password ${p}.
+
+Your program must:
+- output Wrong password after each wrong attempt
+- output ${U} and stop asking as soon as the password is right
+- output Locked out after three wrong attempts
+
+${ne(["a loop that runs at most three times"], ["a while loop with and in its condition", "an if and else nested inside the loop", "a counter for the attempts"])}
+
+Example output:
+Wrong password
+Wrong password
+Wrong password
+Locked out`,
+      learningIntention:
+        "Combine a loop, a counter and a condition to limit login attempts.",
+      starterCode: `# Write your program here
+`,
+      solution: `attempts = 0
+password = ""
+while password != ${o(p)} and attempts < 3:
+    password = input("Password: ")
+    attempts = attempts + 1
+    if password == ${o(p)}:
+        print(${o(U)})
+    else:
+        print("Wrong password")
+if password != ${o(p)}:
+    print("Locked out")
+`,
+      alternatives: [
+        `unlocked = False
+for attempt in range(3):
+    if not unlocked:
+        password = input("Password: ")
+        if password == ${o(p)}:
+            unlocked = True
+            print(${o(U)})
+        else:
+            print("Wrong password")
+if unlocked == False:
+    print("Locked out")
+`,
+      ],
+      stdin: p,
+      checks: [
+        N("I use a loop and count the attempts.", "^\\s*(?:for|while)\\s"),
+        K(
+          "It unlocks on the first or third try, and locks out after three wrong ones.",
+          [
+            { inputs: [p], expected: [U] },
+            {
+              inputs: ["open", "letmein", p],
+              expected: ["Wrong password", "Wrong password", U],
+            },
+            {
+              inputs: ["open", "letmein", "password"],
+              expected: [
+                "Wrong password",
+                "Wrong password",
+                "Wrong password",
+                "Locked out",
+              ],
+            },
+          ],
+        ),
+      ],
+      mutants: [
+        `password = input("Password: ")
+while password != ${o(p)}:
+    print("Wrong password")
+    password = input("Password: ")
+print(${o(U)})
+`,
+        `for attempt in range(3):
+    password = input("Password: ")
+    if password == ${o(p)}:
+        print(${o(U)})
+    else:
+        print("Wrong password")
+print("Locked out")
+`,
+      ],
+      hints: [
+        "Keep a count of attempts, starting at 0.",
+        "The loop carries on while the password is wrong and fewer than 3 attempts have been made.",
+        `while password != ${o(p)} and attempts < 3:`,
+      ],
+    },
+    {
+      id: "scratch-records",
+      category: "2D arrays",
+      title: `Filter ${c.many} by ${r.label}`,
+      shortTitle: "2D array",
+      illustration: "grid-2d",
+      description: `Write a program that inputs a ${r.label} and outputs the name of every ${c.one} with that ${r.label} in the 2D array records, then how many were found.${T}
+
+${B}
+
+Your program must:
+- check every row of records
+- compare column 1 with the ${r.label} typed in
+- output column 0 of each match
+- output Found and the count at the end
+
+${ne(["a for loop with an if nested inside it"], ["a count set to 0 before the loop"])}
+
+Example output:
+${[...Y, `Found: ${Y.length}`].join(`
+`)}`,
+      learningIntention:
+        "Loop through a 2D array and use row and column indexes to filter and count records.",
+      starterCode: `${H}
+
+# Write your program here
+`,
+      solution: `${H}
+
+choice = input(${J})
+found = 0
+for record in records:
+    if record[1] == choice:
+        print(record[0])
+        found = found + 1
+print("Found:", found)
+`,
+      alternatives: [
+        `${H}
+
+choice = input(${J})
+found = 0
+for row in range(len(records)):
+    if records[row][1] == choice:
+        print(records[row][0])
+        found = found + 1
+print("Found:", found)
+`,
+      ],
+      stdin: r.target,
+      checks: [
+        W(
+          "An if inside the loop checks column 1.",
+          "^\\s*for\\s",
+          "^\\s+if\\s.*\\[\\s*1\\s*\\]",
+        ),
+        K(
+          `It lists the ${r.target} and ${se} ${c.many}, and finds 0 for ${te}.`,
+          [
+            { inputs: [r.target], expected: [...Y, `Found: ${Y.length}`] },
+            { inputs: [se], expected: [...ee, `Found: ${ee.length}`] },
+            { inputs: [te], expected: ["Found: 0"] },
+          ],
+        ),
+      ],
+      mutants: [
+        `${H}
+
+choice = input(${J})
+found = 0
+for record in records:
+    if record[1] == choice:
+        print(record[0])
+    found = found + 1
+print("Found:", found)
+`,
+        `${H}
+
+choice = input(${J})
+found = 0
+for record in records:
+    if record[0] == choice:
+        print(record[0])
+        found = found + 1
+print("Found:", found)
+`,
+      ],
+      hints: [
+        "Each row is a list: record[0] is the name and record[1] is the column to compare.",
+        "Add 1 to the count inside the if, so only matches are counted.",
+        "    if record[1] == choice:",
+      ],
+    },
+    {
+      id: "scratch-report",
+      category: "Exam-style program",
+      title: `${q(u.list)} report`,
+      shortTitle: "Report",
+      illustration: "from-scratch",
+      description: `Write a program that inputs the ${u.statNoun} of several ${c.many} and outputs a report.
+
+Your program must:
+- input how many ${c.many} there are
+- input each ${u.statNoun}
+- output Invalid and ask again while a ${u.statNoun} is below 1
+- output the total, the highest and the mean using DIV
+- not use max() or sum()
+
+${ne(["a for loop with a while loop nested inside it"], ["an if nested inside the for loop to keep the highest", "total // how_many after the loop"])}
+
+Example output:
+${["Invalid", ...G([l[0], l[1]])].join(`
+`)}`,
+      learningIntention:
+        "Combine validation, a count-controlled loop, a running total, a highest value and DIV in one program.",
+      starterCode: `# Write your program here
+`,
+      solution: `how_many = int(input("How many ${c.many}? "))
+total = 0
+highest = 0
+for i in range(how_many):
+    value = int(input(${v}))
+    while value < 1:
+        print("Invalid")
+        value = int(input(${v}))
+    total = total + value
+    if value > highest:
+        highest = value
+print("Total:", total)
+print("Highest:", highest)
+print("Mean:", total // how_many)
+`,
+      stdin: `2
+0
+${l[0]}
+${l[1]}`,
+      checks: [
+        W(
+          "A while loop inside the for loop validates each value.",
+          "^\\s*for\\s",
+          "^\\s+while\\s",
+        ),
+        N("I do not use max() or sum().", lt("max", "sum")),
+        K(
+          "It reports correctly with invalid values typed in, and with a single value.",
+          [
+            {
+              inputs: [
+                "3",
+                String(l[2]),
+                "0",
+                "-4",
+                String(l[3]),
+                String(l[4]),
+              ],
+              expected: ["Invalid", "Invalid", ...G([l[2], l[3], l[4]])],
+            },
+            { inputs: ["1", String(A)], expected: G([A]) },
+            { inputs: ["4", ...D.map(String)], expected: G(D) },
+          ],
+        ),
+      ],
+      mutants: [
+        `how_many = int(input("How many ${c.many}? "))
+total = 0
+highest = 0
+for i in range(how_many):
+    value = int(input(${v}))
+    if value < 1:
+        print("Invalid")
+        value = int(input(${v}))
+    total = total + value
+    if value > highest:
+        highest = value
+print("Total:", total)
+print("Highest:", highest)
+print("Mean:", total // how_many)
+`,
+        `how_many = int(input("How many ${c.many}? "))
+total = 0
+highest = 0
+for i in range(how_many):
+    value = int(input(${v}))
+    while value < 1:
+        print("Invalid")
+        value = int(input(${v}))
+    total = total + value
+    highest = value
+print("Total:", total)
+print("Highest:", highest)
+print("Mean:", total // how_many)
+`,
+      ],
+      hints: [
+        "Plan it first: inputs, then the loop, then the three outputs.",
+        "Set total and highest before the loop. Update both inside it, after the value is valid.",
+        "The mean is total // how_many, worked out after the loop.",
+      ],
+    },
+  ];
+}
+const _e = 20;
+function ds(n) {
+  const {
+      items: e,
+      listVar: a,
+      stat: s,
+      tag: r,
+      countdown: i,
+      secret: d,
+      person: c,
+      bands: u,
+      item: p,
+      story: l,
+    } = n,
+    { threshold: m, high: h, middle: g, sorted: b } = ge(n),
+    [f, y, x] = u,
+    $ = re(a, e),
+    j = Te(n),
+    T = re(r.listVar, r.values),
+    w = i.start,
+    M = Array.from({ length: w }, (B, Y) => w - Y),
+    v = [20, 15, 10, 5],
+    k = `${q(l.gate)} open`,
+    I = s.values[0] + s.values[1] + s.values[2],
+    R = `${q(c.role)} password: `,
+    C = `Pick ${he(p.one)} from 1 to ${e.length}: `,
+    A = `${q(p.one)} (or stop): `,
+    z = e.filter((B, Y) => r.values[Y] === r.target && s.values[Y] >= m),
+    E = m,
+    O = l.statNoun,
+    U = `Guess the ${O}: `,
+    H = (B) => `i = 0
+while i < len(${a}):
+${B}    i = i + 1
+`;
+  return [
+    {
+      id: "while-countdown",
+      category: "While loops",
+      title: `Count down the ${i.label}`,
+      shortTitle: "Countdown",
+      illustration: "loop",
+      description: `Fix the condition so the loop counts down the ${i.label} from ${w} to 1.
+
+At the moment the loop never runs.
+
+Output:
+${[...M, i.done].join(`
+`)}`,
+      learningIntention:
+        "Write a while loop condition that is True while the loop should run.",
+      starterCode: `count = ${w}
+while count < 0:
+    print(count)
+    count = count - 1
+print(${o(i.done)})
+`,
+      solution: `count = ${w}
+while count > 0:
+    print(count)
+    count = count - 1
+print(${o(i.done)})
+`,
+      checks: [
+        N(
+          "The while condition keeps going while count is above 0.",
+          "^while\\s+count\\s*(?:>\\s*0|>=\\s*1|!=\\s*0)\\s*:",
+        ),
+        L("The output counts down and then finishes.", [...M, i.done]),
+      ],
+      hints: [
+        "A while loop repeats while its condition is True.",
+        `count starts at ${w}. Is ${w} < 0 True?`,
+        "while count > 0:",
+      ],
+    },
+    {
+      id: "while-list",
+      category: "While loops",
+      title: `Read the whole ${l.list}`,
+      shortTitle: "len()",
+      illustration: "loop",
+      description: `Change the condition so every ${p.one} on the ${l.list} prints.
+
+The loop stops after one ${p.one}.
+Use len() so it works with a list of any length.`,
+      learningIntention: "Use a counter and len() to loop through a list.",
+      starterCode: `${$}
+
+i = 0
+while i < 1:
+    print(${a}[i])
+    i = i + 1
+`,
+      solution: `${$}
+
+i = 0
+while i < len(${a}):
+    print(${a}[i])
+    i = i + 1
+`,
+      checks: [
+        N(
+          "The condition uses len().",
+          `^while\\s+i\\s*<\\s*len\\(\\s*${a}\\s*\\)\\s*:`,
+        ),
+        L(`Every ${p.one} prints.`, e),
+      ],
+      hints: [
+        "i is the index, starting at 0.",
+        `len(${a}) is ${e.length}, so i goes 0 to ${e.length - 1}.`,
+        `while i < len(${a}):`,
+      ],
+    },
+    {
+      id: "while-step",
+      category: "While loops",
+      title: `${q(i.label)} in fives`,
+      shortTitle: "Steps",
+      illustration: "loop",
+      description: `Count the ${i.label} down in fives, from ${_e}.
+
+Change how much count goes down each time.
+
+Output:
+${[...v, i.done].join(`
+`)}`,
+      learningIntention: "Change the step of a while loop counter.",
+      starterCode: `count = ${_e}
+while count > 0:
+    print(count)
+    count = count - 1
+print(${o(i.done)})
+`,
+      solution: `count = ${_e}
+while count > 0:
+    print(count)
+    count = count - 5
+print(${o(i.done)})
+`,
+      checks: [
+        N(
+          "count goes down by 5.",
+          "^[ \\t]+count\\s*(?:=\\s*count\\s*-\\s*5|-=\\s*5)\\s*$",
+        ),
+        L("The output counts down in fives and then finishes.", [...v, i.done]),
+      ],
+      hints: [
+        "The last line of the loop changes count.",
+        "Take away 5 instead of 1.",
+        "    count = count - 5",
+      ],
+    },
+    {
+      id: "while-if",
+      category: "If inside while",
+      title: `${l.alert} at 3`,
+      shortTitle: "if inside",
+      illustration: "branch",
+      description: `Add an if inside the loop that prints ${l.alert} straight after the 3.
+
+Only print it when count is 3.`,
+      learningIntention: "Put an if statement inside a while loop.",
+      starterCode: `count = ${w}
+while count > 0:
+    print(count)
+    count = count - 1
+print(${o(i.done)})
+`,
+      solution: `count = ${w}
+while count > 0:
+    print(count)
+    if count == 3:
+        print(${o(l.alert)})
+    count = count - 1
+print(${o(i.done)})
+`,
+      checks: [
+        W(
+          "An if checks count == 3 inside the loop.",
+          "^while\\s",
+          "^\\s+if\\s+count\\s*==\\s*3\\s*:$",
+        ),
+        L(`${l.alert} prints once, after 3.`, [
+          ...M.flatMap((B) => (B === 3 ? [B, l.alert] : [B])),
+          i.done,
+        ]),
+      ],
+      hints: [
+        "The if goes after print(count) and before count changes.",
+        "    if count == 3:",
+        "Indent the print under the if by another four spaces.",
+      ],
+    },
+    {
+      id: "while-total",
+      category: "Totals",
+      title: `Reach ${I} ${s.unit}`,
+      shortTitle: "Goal",
+      illustration: "count",
+      description: `Fix the condition so the loop keeps adding until total reaches the goal of ${I}.
+
+The condition is back to front, so the loop never runs.
+Each number is the ${O} of one ${p.one}.`,
+      learningIntention: "Stop a while loop when a total reaches a goal.",
+      starterCode: `${j}
+
+goal = ${I}
+total = 0
+i = 0
+while total > goal:
+    total = total + ${s.listVar}[i]
+    i = i + 1
+print("Total:", total)
+print(i, ${o(`${p.many} needed`)})
+`,
+      solution: `${j}
+
+goal = ${I}
+total = 0
+i = 0
+while total < goal:
+    total = total + ${s.listVar}[i]
+    i = i + 1
+print("Total:", total)
+print(i, ${o(`${p.many} needed`)})
+`,
+      checks: [
+        N(
+          "The loop runs while total is below the goal.",
+          "^while\\s+total\\s*<\\s*goal\\s*:",
+        ),
+        L("The output shows the total and how many were needed.", [
+          `Total: ${I}`,
+          `3 ${p.many} needed`,
+        ]),
+      ],
+      hints: [
+        "total starts at 0. Is 0 > goal True?",
+        "Keep going while total is still less than goal.",
+        "while total < goal:",
+      ],
+    },
+    {
+      id: "while-password",
+      category: "Validation",
+      title: `Unlock the ${l.gate}`,
+      shortTitle: "Password",
+      illustration: "lookup",
+      description: `Only the right ${c.role} password opens the ${l.gate}. Change the if to a while so it keeps asking until the password is right.
+
+The password is ${d}. An if only asks again once.
+Run it, type a wrong password first, then the right one.`,
+      learningIntention: "Use a while loop to repeat until the input is valid.",
+      starterCode: `guess = input(${o(R)})
+if guess != ${o(d)}:
+    print("Try again")
+    guess = input(${o(R)})
+print(${o(k)})
+`,
+      solution: `guess = input(${o(R)})
+while guess != ${o(d)}:
+    print("Try again")
+    guess = input(${o(R)})
+print(${o(k)})
+`,
+      stdin: `hello
+${d}`,
+      checks: [
+        N(
+          "A while keeps asking while the guess is wrong.",
+          `^while\\s+guess\\s*!=\\s*["']${Ne(d)}["']\\s*:`,
+        ),
+        K(
+          "It keeps asking after each wrong password, and lets the right one in first time.",
+          [
+            { inputs: ["hello", d], expected: ["Try again", k] },
+            {
+              inputs: ["hello", "open", d],
+              expected: ["Try again", "Try again", k],
+            },
+            { inputs: [d], expected: [k] },
+          ],
+        ),
+      ],
+      hints: [
+        "if runs its block at most once.",
+        "while runs its block again and again until the condition is False.",
+        `while guess != ${o(d)}:`,
+      ],
+    },
+    {
+      id: "while-range-check",
+      category: "Validation",
+      title: `Pick ${he(p.one)} from 1 to ${e.length}`,
+      shortTitle: "Range",
+      illustration: "lookup",
+      description: `Fix the while condition so it catches numbers below 1 or above ${e.length}.
+
+Run it and type 12 first: it crashes.`,
+      learningIntention: "Validate that a number is within a range.",
+      starterCode: `${$}
+
+number = int(input(${o(C)}))
+while number < 1 and number > ${e.length}:
+    print("Out of range")
+    number = int(input(${o(C)}))
+print(${a}[number - 1])
+`,
+      solution: `${$}
+
+number = int(input(${o(C)}))
+while number < 1 or number > ${e.length}:
+    print("Out of range")
+    number = int(input(${o(C)}))
+print(${a}[number - 1])
+`,
+      stdin: `12
+3`,
+      checks: [
+        N(
+          "The while joins the two tests with or.",
+          "^while\\s.*\\bor\\b.*:\\s*$",
+        ),
+        K(`It rejects 12 and 0, then accepts 1 to ${e.length}.`, [
+          { inputs: ["12", "3"], expected: ["Out of range", e[2]] },
+          {
+            inputs: ["12", "0", "3"],
+            expected: ["Out of range", "Out of range", e[2]],
+          },
+          { inputs: ["1"], expected: [e[0]] },
+          { inputs: [String(e.length)], expected: [e[e.length - 1]] },
+        ]),
+      ],
+      hints: [
+        "A number cannot be below 1 and above 8 at the same time.",
+        "Use or: out of range if either test is True.",
+        `while number < 1 or number > ${e.length}:`,
+      ],
+    },
+    {
+      id: "while-stop",
+      category: "Validation",
+      title: `Add ${p.many} until stop`,
+      shortTitle: "Stop",
+      illustration: "count",
+      description: `Add one line inside the loop so count goes up each time ${he(p.one)} is added to the ${l.list}.
+
+The loop keeps asking until the user types stop.`,
+      learningIntention: "Use a stop word to end a while loop.",
+      starterCode: `count = 0
+entry = input(${o(A)})
+while entry != "stop":
+    entry = input(${o(A)})
+print("You added", count, ${o(p.many)})
+`,
+      solution: `count = 0
+entry = input(${o(A)})
+while entry != "stop":
+    count = count + 1
+    entry = input(${o(A)})
+print("You added", count, ${o(p.many)})
+`,
+      stdin: `${e[0]}
+${e[1]}
+stop`,
+      mutants: [
+        `count = 100
+entry = input(${o(A)})
+while entry != "stop":
+    count = count + 1
+    entry = input(${o(A)})
+print("You added", count, ${o(p.many)})
+`,
+      ],
+      checks: [
+        W(
+          "count goes up inside the loop.",
+          "^while\\s",
+          "^\\s+count\\s*(?:=\\s*count\\s*\\+\\s*1|\\+=\\s*1)$",
+        ),
+        K(
+          `It counts 2 when two ${p.many} are added, and 0 when stop comes first.`,
+          [
+            {
+              inputs: [e[0], e[1], "stop"],
+              expected: [`You added 2 ${p.many}`],
+            },
+            { inputs: ["stop"], expected: [`You added 0 ${p.many}`] },
+          ],
+        ),
+      ],
+      hints: [
+        "Add to count each time an entry is not stop.",
+        "    count = count + 1",
+        `Type at least one ${p.one} before stop.`,
+      ],
+    },
+    {
+      id: "while-nested",
+      category: "Nested if",
+      title: `Filter the ${l.list} twice`,
+      shortTitle: "Nested",
+      illustration: "filter",
+      description: `Use nested ifs so only the ${r.target} ${p.many} whose ${O} is at least ${m} are printed.
+
+The outer if checks the ${r.label}.
+The inner if checks the ${O}.`,
+      learningIntention: "Nest one if inside another inside a loop.",
+      starterCode: `${$}
+${T}
+${j}
+
+${H(`    print(${a}[i])
+`)}`,
+      solution: `${$}
+${T}
+${j}
+
+${H(`    if ${r.listVar}[i] == ${o(r.target)}:
+        if ${s.listVar}[i] >= ${m}:
+            print(${a}[i])
+`)}`,
+      checks: [
+        W(
+          "A second if is nested inside the first.",
+          "^\\s+if\\s.*:$",
+          "^\\s+if\\s.*:$",
+        ),
+        W(
+          "i still goes up every time round.",
+          "^while\\s",
+          "^\\s+i\\s*(?:=\\s*i\\s*\\+\\s*1|\\+=\\s*1)$",
+        ),
+        L("Only the matching items print.", z),
+      ],
+      hints: [
+        `    if ${r.listVar}[i] == ${o(r.target)}:`,
+        `        if ${s.listVar}[i] >= ${m}:`,
+        "Keep i = i + 1 outside both ifs, or the loop never ends.",
+      ],
+    },
+    {
+      id: "while-bands",
+      category: "Elif inside while",
+      title: `Label the whole ${l.list}`,
+      shortTitle: "Bands",
+      illustration: "branch",
+      description: `Print every ${p.one} with its band.
+
+Bands:
+${h} or more: ${f}
+${g} or more: ${y}
+anything else: ${x}
+
+First line:
+${e[0]} - ${$e(n, s.values[0])}`,
+      learningIntention: "Use if, elif and else inside a while loop.",
+      starterCode: `${$}
+${j}
+
+${H(`    print(${a}[i])
+`)}`,
+      solution: `${$}
+${j}
+
+${H(`    if ${s.listVar}[i] >= ${h}:
+        band = ${o(f)}
+    elif ${s.listVar}[i] >= ${g}:
+        band = ${o(y)}
+    else:
+        band = ${o(x)}
+    print(${a}[i], "-", band)
+`)}`,
+      checks: [
+        W("I use an elif inside the loop.", "^while\\s", "^\\s+elif\\s"),
+        L(
+          "Every item prints with its band.",
+          e.map((B, Y) => `${B} - ${$e(n, s.values[Y])}`),
+        ),
+      ],
+      hints: [
+        "Work out the band first, then print once.",
+        `Check the highest band first: if ${s.listVar}[i] >= ${h}:`,
+        `print(${a}[i], "-", band)`,
+      ],
+    },
+    {
+      id: "while-guess",
+      category: "From scratch",
+      title: `Guess the ${l.statNoun}`,
+      shortTitle: "Guess",
+      illustration: "binary-search",
+      description: `Make a guessing game where the player finds the secret ${O}.
+
+Keep asking until the guess is right. After a guess that is too low, print Higher. After one that is too high, print Lower.
+The secret is ${E}. Try ${b[0]}, then ${b[7]}, then ${E}.${fe(n)}`,
+      learningIntention: "Combine a while loop, selection and input.",
+      starterCode: `target = ${E}
+guess = int(input(${o(U)}))
+# Keep asking until guess is right
+# Print Higher or Lower after each wrong guess
+
+print("Correct")
+`,
+      solution: `target = ${E}
+guess = int(input(${o(U)}))
+while guess != target:
+    if guess < target:
+        print("Higher")
+    else:
+        print("Lower")
+    guess = int(input(${o(U)}))
+print("Correct")
+`,
+      stdin: `${b[0]}
+${b[7]}
+${E}`,
+      mutants: [
+        `target = ${E}
+guess = int(input(${o(U)}))
+while guess != target:
+    if guess > target:
+        print("Higher")
+    else:
+        print("Lower")
+    guess = int(input(${o(U)}))
+print("Correct")
+`,
+      ],
+      checks: [
+        N(
+          "A while loops until the guess is right.",
+          "^while\\s+(?:guess\\s*!=\\s*target|target\\s*!=\\s*guess)\\s*:",
+        ),
+        W(
+          "An if inside the loop compares guess with target.",
+          "^while\\s",
+          "^\\s+if\\s.*\\bguess\\b.*\\btarget\\b|^\\s+if\\s.*\\btarget\\b.*\\bguess\\b",
+        ),
+        K(
+          `Low guesses get Higher and high guesses get Lower, including ${E - 1} and ${E + 1}.`,
+          [
+            {
+              inputs: [String(b[0]), String(b[7]), String(E)],
+              expected: ["Higher", "Lower", "Correct"],
+            },
+            {
+              inputs: [String(E - 1), String(E + 1), String(E)],
+              expected: ["Higher", "Lower", "Correct"],
+            },
+            { inputs: [String(E)], expected: ["Correct"] },
+          ],
+        ),
+      ],
+      hints: [
+        "while guess != target:",
+        "If the guess is too small, the answer is Higher.",
+        "Ask for a new guess at the end of the loop.",
+      ],
+    },
+    {
+      id: "while-sandbox",
+      category: "Sandbox",
+      title: `Your own ${p.one} loop`,
+      shortTitle: "Sandbox",
+      illustration: "sandbox",
+      description: `Write your own ${p.one} program with a while loop.
+
+Use:
+- input()
+- a while loop
+- an if inside the loop`,
+      learningIntention: "Design iteration with selection inside it.",
+      starterCode: `# Write your while loop program here
+`,
+      solution: `lives = int(input(${o(`How many ${i.label}? `)}))
+while lives > 0:
+    if lives == 1:
+        print("Last one!")
+    else:
+        print(lives, ${o(i.label)})
+    lives = lives - 1
+print(${o(i.done)})
+`,
+      stdin: "3",
+      checks: [
+        N(
+          "I use input() and a while loop.",
+          "(?<![\\s\\S])(?=[\\s\\S]*input\\()[\\s\\S]*^\\s*while\\s",
+        ),
+        W("An if sits inside the loop.", "^\\s*while\\s", "^\\s+if\\s"),
+        ye(),
+      ],
+      hints: [
+        "Decide what the loop counts or checks.",
+        "Make sure something inside the loop changes, so it can stop.",
+        "Indent an if inside the loop to react to one case.",
+      ],
+    },
+  ];
+}
+const ps = {
+    music: {
+      theme: "music",
+      item: { one: "artist", many: "artists" },
+      listVar: "artists",
+      itemVar: "artist",
+      items: [
+        "Stormzy",
+        "Raye",
+        "Dua Lipa",
+        "Burna Boy",
+        "Taylor Swift",
+        "Ed Sheeran",
+        "Dave",
+        "Central Cee",
+      ],
+      extra: "Little Simz",
+      stat: {
+        var: "listeners",
+        listVar: "listener_counts",
+        values: [14, 21, 72, 31, 95, 88, 11, 26],
+        scenario: !0,
+        unit: "million listeners",
+        has: ["has", "million monthly listeners"],
+        compare: ["has", "million more monthly listeners than"],
+        prompt: "Monthly listeners in millions",
+      },
+      tag: {
+        label: "genre",
+        var: "genre",
+        listVar: "genres",
+        values: ["rap", "pop", "pop", "afrobeats", "pop", "pop", "rap", "rap"],
+        target: "pop",
+      },
+      place: {
+        label: "venue",
+        verb: "is playing",
+        listVar: "gigs",
+        values: [
+          "The O2",
+          "Wembley Stadium",
+          "Co-op Live",
+          "Tottenham Hotspur Stadium",
+          "Anfield",
+          "Etihad Stadium",
+          "Alexandra Palace",
+          "OVO Arena Wembley",
+        ],
+      },
+      announce: "Now playing",
+      person: { role: "DJ", name: "Maya" },
+      countdown: { label: "songs left in the set", start: 5, done: "Encore!" },
+      secret: "backstage",
+      bands: ["Headliner", "Main stage", "Warm-up act"],
+      story: {
+        list: "festival line-up",
+        hq: "the festival",
+        statNoun: "listener count",
+        alert: "Lighters up",
+        gate: "backstage door",
+        verdict: ["Book them", "Pass"],
+      },
+    },
+    space: {
+      theme: "space",
+      item: { one: "rocket", many: "rockets" },
+      listVar: "rockets",
+      itemVar: "rocket",
+      items: [
+        "Saturn V",
+        "Falcon 9",
+        "Starship",
+        "N1",
+        "Soyuz",
+        "Electron",
+        "New Glenn",
+        "Long March 5",
+      ],
+      extra: "Ariane 6",
+      stat: {
+        var: "height",
+        listVar: "heights",
+        values: [111, 70, 121, 105, 46, 18, 98, 57],
+        unit: "metres",
+        has: ["is", "metres tall"],
+        compare: ["is", "metres taller than"],
+        prompt: "Height in metres",
+      },
+      tag: {
+        label: "country",
+        var: "country",
+        listVar: "countries",
+        values: ["USA", "USA", "USA", "USSR", "Russia", "USA", "USA", "China"],
+        target: "USA",
+      },
+      place: {
+        label: "launch site",
+        verb: "launches from",
+        listVar: "launches",
+        values: [
+          "Kennedy Space Center",
+          "Cape Canaveral",
+          "Starbase",
+          "Baikonur",
+          "Baikonur",
+          "Mahia",
+          "Cape Canaveral",
+          "Wenchang",
+        ],
+      },
+      announce: "Next launch",
+      person: { role: "astronaut", name: "Tim" },
+      countdown: { label: "seconds to launch", start: 10, done: "Lift-off!" },
+      secret: "apollo",
+      bands: ["Super tall", "Tall", "Compact"],
+      story: {
+        list: "launch schedule",
+        hq: "mission control",
+        statNoun: "height",
+        alert: "Engines on",
+        gate: "launch pad",
+        verdict: ["Cleared to launch", "Scrub"],
+      },
+    },
+    animals: {
+      theme: "animals",
+      item: { one: "animal", many: "animals" },
+      listVar: "animals",
+      itemVar: "animal",
+      items: [
+        "otter",
+        "snow leopard",
+        "red panda",
+        "axolotl",
+        "emperor penguin",
+        "giraffe",
+        "koala",
+        "cheetah",
+      ],
+      extra: "meerkat",
+      stat: {
+        var: "lifespan",
+        listVar: "lifespans",
+        values: [12, 16, 14, 15, 20, 25, 13, 11],
+        scenario: !0,
+        unit: "years",
+        has: ["lives", "years"],
+        compare: ["lives", "years longer than"],
+        prompt: "Lifespan in years",
+      },
+      tag: {
+        label: "habitat",
+        var: "habitat",
+        listVar: "habitats",
+        values: [
+          "river",
+          "mountains",
+          "forest",
+          "lake",
+          "ice",
+          "savanna",
+          "forest",
+          "savanna",
+        ],
+        target: "savanna",
+      },
+      place: {
+        label: "home continent",
+        verb: "lives in",
+        listVar: "homes",
+        values: [
+          "Europe",
+          "Asia",
+          "Asia",
+          "North America",
+          "Antarctica",
+          "Africa",
+          "Australia",
+          "Africa",
+        ],
+      },
+      announce: "Next rescue",
+      person: { role: "keeper", name: "Pip" },
+      countdown: { label: "feeds left", start: 5, done: "All fed!" },
+      secret: "burrow",
+      bands: ["Long life", "Medium life", "Short life"],
+      story: {
+        list: "rescue list",
+        hq: "the rescue centre",
+        statNoun: "lifespan",
+        alert: "Buckets ready",
+        gate: "enclosure gate",
+        verdict: ["Adopt", "Not today"],
+      },
+    },
+    arcade: {
+      theme: "arcade",
+      item: { one: "game", many: "games" },
+      listVar: "games",
+      itemVar: "game",
+      items: [
+        "Pac-Man",
+        "Tetris",
+        "Space Invaders",
+        "Donkey Kong",
+        "Street Fighter II",
+        "Dig Dug",
+        "Pong",
+        "Asteroids",
+      ],
+      extra: "Centipede",
+      stat: {
+        var: "score",
+        listVar: "scores",
+        values: [3350, 1200, 870, 4400, 2100, 960, 150, 2750],
+        scenario: !0,
+        unit: "points",
+        has: ["scored", "points"],
+        compare: ["scored", "more points than"],
+        prompt: "Best score",
+      },
+      tag: {
+        label: "genre",
+        var: "genre",
+        listVar: "genres",
+        values: [
+          "maze",
+          "puzzle",
+          "shooter",
+          "platform",
+          "fighting",
+          "maze",
+          "sports",
+          "shooter",
+        ],
+        target: "shooter",
+      },
+      place: {
+        label: "maker",
+        verb: "was made by",
+        listVar: "makers",
+        values: [
+          "Namco",
+          "Alexey Pajitnov",
+          "Taito",
+          "Nintendo",
+          "Capcom",
+          "Namco",
+          "Atari",
+          "Atari",
+        ],
+      },
+      announce: "Now loading",
+      person: { role: "player", name: "ACE" },
+      countdown: { label: "coins left", start: 5, done: "Game over!" },
+      secret: "konami",
+      bands: ["High score", "Good run", "Try again"],
+      story: {
+        list: "arcade floor",
+        hq: "the arcade",
+        statNoun: "score",
+        alert: "Last chance",
+        gate: "secret level",
+        verdict: ["Play it", "Skip it"],
+      },
+    },
+    zombie: {
+      theme: "zombie",
+      item: { one: "supply", many: "supplies" },
+      listVar: "supplies",
+      itemVar: "supply",
+      items: [
+        "torch",
+        "crowbar",
+        "first aid kit",
+        "radio",
+        "tinned beans",
+        "rope",
+        "water bottle",
+        "map",
+      ],
+      extra: "compass",
+      stat: {
+        var: "weight",
+        listVar: "weights",
+        values: [300, 1500, 800, 600, 400, 2e3, 1e3, 100],
+        scenario: !0,
+        unit: "grams",
+        has: ["weighs", "grams"],
+        compare: ["weighs", "grams more than"],
+        prompt: "Weight in grams",
+      },
+      tag: {
+        label: "type",
+        var: "kind",
+        listVar: "kinds",
+        values: [
+          "tech",
+          "tool",
+          "medical",
+          "tech",
+          "food",
+          "tool",
+          "food",
+          "tool",
+        ],
+        target: "tool",
+      },
+      place: {
+        label: "place found",
+        verb: "was found in the",
+        listVar: "finds",
+        values: [
+          "garage",
+          "shed",
+          "pharmacy",
+          "attic",
+          "kitchen",
+          "shed",
+          "kitchen",
+          "car",
+        ],
+      },
+      announce: "Packing",
+      person: { role: "survivor", name: "Riley" },
+      countdown: {
+        label: "zombies at the gate",
+        start: 5,
+        done: "Gate secured!",
+      },
+      secret: "safehouse",
+      bands: ["Heavy", "Medium", "Light"],
+      story: {
+        list: "supply list",
+        hq: "the safehouse",
+        statNoun: "weight",
+        alert: "Brace the door",
+        gate: "safehouse door",
+        verdict: ["Pack it", "Leave it"],
+      },
+    },
+    sports: {
+      theme: "sports",
+      item: { one: "club", many: "clubs" },
+      listVar: "clubs",
+      itemVar: "club",
+      items: [
+        "Arsenal",
+        "Liverpool",
+        "Manchester City",
+        "Chelsea",
+        "Tottenham",
+        "Everton",
+        "Aston Villa",
+        "Newcastle",
+      ],
+      extra: "Brighton",
+      stat: {
+        var: "titles",
+        listVar: "title_counts",
+        values: [13, 20, 10, 6, 2, 9, 7, 4],
+        unit: "league titles",
+        has: ["has won", "league titles"],
+        compare: ["has won", "more league titles than"],
+        prompt: "League titles won",
+      },
+      tag: {
+        label: "city",
+        var: "city",
+        listVar: "cities",
+        values: [
+          "London",
+          "Liverpool",
+          "Manchester",
+          "London",
+          "London",
+          "Liverpool",
+          "Birmingham",
+          "Newcastle",
+        ],
+        target: "London",
+      },
+      place: {
+        label: "stadium",
+        verb: "plays at",
+        listVar: "grounds",
+        values: [
+          "Emirates Stadium",
+          "Anfield",
+          "Etihad Stadium",
+          "Stamford Bridge",
+          "Tottenham Hotspur Stadium",
+          "Hill Dickinson Stadium",
+          "Villa Park",
+          "St James' Park",
+        ],
+      },
+      announce: "Kick-off",
+      person: { role: "captain", name: "Ella" },
+      countdown: { label: "minutes left", start: 5, done: "Full time!" },
+      secret: "hattrick",
+      bands: ["Giants", "Contenders", "Underdogs"],
+      story: {
+        list: "league table",
+        hq: "the stadium",
+        statNoun: "title count",
+        alert: "Final push",
+        gate: "changing room",
+        verdict: ["Sign them", "Pass"],
+      },
+    },
+    cyber: {
+      theme: "cyber",
+      item: { one: "protocol", many: "protocols" },
+      listVar: "protocols",
+      itemVar: "protocol",
+      items: ["HTTP", "HTTPS", "SSH", "FTP", "DNS", "SMTP", "IMAP", "Telnet"],
+      extra: "POP3",
+      stat: {
+        var: "attacks",
+        listVar: "attack_counts",
+        values: [420, 310, 580, 150, 260, 90, 340, 610],
+        scenario: !0,
+        unit: "attacks",
+        has: ["blocked", "attacks today"],
+        compare: ["blocked", "more attacks than"],
+        prompt: "Attacks blocked",
+      },
+      tag: {
+        label: "use",
+        var: "use",
+        listVar: "uses",
+        values: [
+          "web",
+          "web",
+          "remote",
+          "files",
+          "names",
+          "email",
+          "email",
+          "remote",
+        ],
+        target: "email",
+      },
+      place: {
+        label: "full name",
+        verb: "expands to",
+        listVar: "meanings",
+        values: [
+          "Hypertext Transfer Protocol",
+          "Hypertext Transfer Protocol Secure",
+          "Secure Shell",
+          "File Transfer Protocol",
+          "Domain Name System",
+          "Simple Mail Transfer Protocol",
+          "Internet Message Access Protocol",
+          "Teletype Network",
+        ],
+      },
+      announce: "Scanning",
+      person: { role: "hacker", name: "Nyx" },
+      countdown: {
+        label: "firewall layers left",
+        start: 5,
+        done: "Firewall up!",
+      },
+      secret: "firewall",
+      bands: ["High risk", "Medium risk", "Low risk"],
+      story: {
+        list: "port scan",
+        hq: "the server room",
+        statNoun: "attack count",
+        alert: "Breach close",
+        gate: "server room",
+        verdict: ["Flag it", "Ignore it"],
+      },
+    },
+    skate: {
+      theme: "skate",
+      item: { one: "skater", many: "skaters" },
+      listVar: "skaters",
+      itemVar: "skater",
+      items: [
+        "Tony Hawk",
+        "Sky Brown",
+        "Nyjah Huston",
+        "Rayssa Leal",
+        "Leticia Bufoni",
+        "Yuto Horigome",
+        "Momiji Nishiya",
+        "Rodney Mullen",
+      ],
+      extra: "Arisa Trew",
+      stat: {
+        var: "points",
+        listVar: "scores",
+        values: [96, 89, 93, 91, 82, 94, 87, 79],
+        scenario: !0,
+        unit: "points",
+        has: ["scored", "contest points"],
+        compare: ["scored", "more contest points than"],
+        prompt: "Contest points",
+      },
+      tag: {
+        label: "country",
+        var: "country",
+        listVar: "countries",
+        values: [
+          "USA",
+          "Great Britain",
+          "USA",
+          "Brazil",
+          "Brazil",
+          "Japan",
+          "Japan",
+          "USA",
+        ],
+        target: "Japan",
+      },
+      place: {
+        label: "style",
+        verb: "skates",
+        listVar: "styles",
+        values: [
+          "vert",
+          "park",
+          "street",
+          "street",
+          "street",
+          "street",
+          "street",
+          "freestyle",
+        ],
+      },
+      announce: "Dropping in",
+      person: { role: "skater", name: "Jules" },
+      countdown: { label: "runs left", start: 5, done: "Session over!" },
+      secret: "kickflip",
+      bands: ["Podium", "Finalist", "Qualifier"],
+      story: {
+        list: "contest roster",
+        hq: "the skate park",
+        statNoun: "score",
+        alert: "Last run coming",
+        gate: "VIP ramp",
+        verdict: ["Invite", "Pass"],
+      },
+    },
+    sneakers: {
+      theme: "sneakers",
+      item: { one: "sneaker", many: "sneakers" },
+      listVar: "sneakers",
+      itemVar: "sneaker",
+      items: [
+        "Air Force 1",
+        "Stan Smith",
+        "Chuck Taylor All Star",
+        "Air Jordan 1",
+        "Old Skool",
+        "Superstar",
+        "Air Max 90",
+        "Gel-Lyte III",
+      ],
+      extra: "Samba",
+      stat: {
+        var: "price",
+        listVar: "prices",
+        values: [110, 90, 65, 150, 70, 125, 135, 100],
+        scenario: !0,
+        unit: "pounds",
+        has: ["costs", "pounds"],
+        compare: ["costs", "pounds more than"],
+        prompt: "Price in pounds",
+      },
+      tag: {
+        label: "brand",
+        var: "brand",
+        listVar: "brands",
+        values: [
+          "Nike",
+          "adidas",
+          "Converse",
+          "Nike",
+          "Vans",
+          "adidas",
+          "Nike",
+          "ASICS",
+        ],
+        target: "adidas",
+      },
+      place: {
+        label: "first release",
+        verb: "first dropped in",
+        listVar: "drops",
+        values: [
+          "1982",
+          "1971",
+          "1917",
+          "1985",
+          "1977",
+          "1969",
+          "1990",
+          "1990",
+        ],
+      },
+      announce: "Dropping today",
+      person: { role: "collector", name: "Priya" },
+      countdown: { label: "pairs left", start: 5, done: "Sold out!" },
+      secret: "deadstock",
+      bands: ["Grail", "Heat", "Everyday"],
+      story: {
+        list: "drop list",
+        hq: "the sneaker store",
+        statNoun: "price",
+        alert: "Almost gone",
+        gate: "VIP queue",
+        verdict: ["Cop", "Drop"],
+      },
+    },
+    ninja: {
+      theme: "ninja",
+      item: { one: "martial art", many: "martial arts" },
+      listVar: "arts",
+      itemVar: "art",
+      items: [
+        "karate",
+        "judo",
+        "taekwondo",
+        "kung fu",
+        "aikido",
+        "jiu-jitsu",
+        "kendo",
+        "kyudo",
+      ],
+      extra: "sumo",
+      stat: {
+        var: "minutes",
+        listVar: "training",
+        values: [45, 60, 50, 90, 30, 75, 40, 55],
+        scenario: !0,
+        unit: "minutes",
+        has: ["practice lasts", "minutes"],
+        compare: ["practice lasts", "minutes longer than"],
+        prompt: "Practice time in minutes",
+      },
+      tag: {
+        label: "origin",
+        var: "origin",
+        listVar: "origins",
+        values: [
+          "Japan",
+          "Japan",
+          "Korea",
+          "China",
+          "Japan",
+          "Japan",
+          "Japan",
+          "Japan",
+        ],
+        target: "Japan",
+      },
+      place: {
+        label: "meaning",
+        verb: "means",
+        listVar: "meanings",
+        values: [
+          "empty hand",
+          "gentle way",
+          "way of the foot and fist",
+          "skill from hard work",
+          "way of harmony",
+          "gentle art",
+          "way of the sword",
+          "way of the bow",
+        ],
+      },
+      announce: "Training",
+      person: { role: "student", name: "Hana" },
+      countdown: { label: "lanterns left", start: 5, done: "Dojo closed!" },
+      secret: "shadow",
+      bands: ["Black belt", "Brown belt", "White belt"],
+      story: {
+        list: "training scroll",
+        hq: "the dojo",
+        statNoun: "training time",
+        alert: "Final lanterns",
+        gate: "hidden dojo",
+        verdict: ["Train", "Rest"],
+      },
+    },
+    spells: {
+      theme: "spells",
+      item: { one: "creature", many: "creatures" },
+      listVar: "creatures",
+      itemVar: "creature",
+      items: [
+        "dragon",
+        "phoenix",
+        "unicorn",
+        "griffin",
+        "kraken",
+        "pegasus",
+        "basilisk",
+        "hydra",
+      ],
+      extra: "minotaur",
+      stat: {
+        var: "mana",
+        listVar: "mana_levels",
+        values: [900, 750, 400, 520, 610, 350, 480, 820],
+        scenario: !0,
+        unit: "mana",
+        has: ["has", "mana"],
+        compare: ["has", "more mana than"],
+        prompt: "Mana",
+      },
+      tag: {
+        label: "myth",
+        var: "myth",
+        listVar: "myths",
+        values: [
+          "Chinese",
+          "Greek",
+          "Scottish",
+          "Greek",
+          "Norse",
+          "Greek",
+          "European",
+          "Greek",
+        ],
+        target: "Greek",
+      },
+      place: {
+        label: "element",
+        verb: "commands",
+        listVar: "elements",
+        values: [
+          "fire",
+          "fire",
+          "light",
+          "air",
+          "water",
+          "air",
+          "earth",
+          "water",
+        ],
+      },
+      announce: "Summoning",
+      person: { role: "wizard", name: "Wren" },
+      countdown: { label: "potions left", start: 5, done: "Spell cast!" },
+      secret: "abracadabra",
+      bands: ["Legendary", "Rare", "Common"],
+      story: {
+        list: "summoning list",
+        hq: "the academy",
+        statNoun: "mana",
+        alert: "Wand ready",
+        gate: "restricted library",
+        verdict: ["Summon", "Dismiss"],
+      },
+    },
+    "deep-sea": {
+      theme: "deep-sea",
+      item: { one: "sea creature", many: "sea creatures" },
+      listVar: "sea_life",
+      itemVar: "creature",
+      items: [
+        "blue whale",
+        "great white shark",
+        "common octopus",
+        "anglerfish",
+        "manta ray",
+        "leatherback turtle",
+        "moon jellyfish",
+        "orca",
+      ],
+      extra: "hammerhead shark",
+      stat: {
+        var: "depth",
+        listVar: "depths",
+        values: [150, 250, 40, 1800, 120, 900, 20, 300],
+        scenario: !0,
+        unit: "metres",
+        has: ["was seen", "metres deep"],
+        compare: ["was seen", "metres deeper than"],
+        prompt: "Depth in metres",
+      },
+      tag: {
+        label: "group",
+        var: "group",
+        listVar: "groups",
+        values: [
+          "mammal",
+          "fish",
+          "mollusc",
+          "fish",
+          "fish",
+          "reptile",
+          "jellyfish",
+          "mammal",
+        ],
+        target: "mammal",
+      },
+      place: {
+        label: "ocean",
+        verb: "was spotted in the",
+        listVar: "sightings",
+        values: [
+          "Pacific Ocean",
+          "Atlantic Ocean",
+          "Mediterranean Sea",
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Pacific Ocean",
+          "Arctic Ocean",
+          "Southern Ocean",
+        ],
+      },
+      announce: "Diving to",
+      person: { role: "diver", name: "Marina" },
+      countdown: { label: "air tanks left", start: 5, done: "Back on deck!" },
+      secret: "coral",
+      bands: ["Abyss", "Twilight zone", "Sunlit zone"],
+      story: {
+        list: "dive log",
+        hq: "the dive boat",
+        statNoun: "depth",
+        alert: "Check your gauge",
+        gate: "submarine hatch",
+        verdict: ["Film it", "Swim on"],
+      },
+    },
+    streamer: {
+      theme: "streamer",
+      item: { one: "game", many: "games" },
+      listVar: "games",
+      itemVar: "game",
+      items: [
+        "Minecraft",
+        "Fortnite",
+        "Roblox",
+        "Rocket League",
+        "Among Us",
+        "Mario Kart 8",
+        "EA Sports FC",
+        "Terraria",
+      ],
+      extra: "Stardew Valley",
+      stat: {
+        var: "viewers",
+        listVar: "viewer_counts",
+        values: [4200, 3800, 2900, 1500, 900, 2100, 3300, 700],
+        scenario: !0,
+        unit: "viewers",
+        has: ["has", "viewers"],
+        compare: ["has", "more viewers than"],
+        prompt: "Viewers",
+      },
+      tag: {
+        label: "genre",
+        var: "genre",
+        listVar: "genres",
+        values: [
+          "sandbox",
+          "shooter",
+          "sandbox",
+          "sports",
+          "party",
+          "racing",
+          "sports",
+          "sandbox",
+        ],
+        target: "sandbox",
+      },
+      place: {
+        label: "studio",
+        verb: "is made by",
+        listVar: "studios",
+        values: [
+          "Mojang",
+          "Epic Games",
+          "Roblox Corporation",
+          "Psyonix",
+          "Innersloth",
+          "Nintendo",
+          "EA Sports",
+          "Re-Logic",
+        ],
+      },
+      announce: "Going live with",
+      person: { role: "streamer", name: "Kiki" },
+      countdown: {
+        label: "minutes to go live",
+        start: 5,
+        done: "We are live!",
+      },
+      secret: "subscribe",
+      bands: ["Trending", "Popular", "Chill"],
+      story: {
+        list: "stream schedule",
+        hq: "the studio",
+        statNoun: "viewer count",
+        alert: "Mic check",
+        gate: "mod chat",
+        verdict: ["Stream it", "Skip it"],
+      },
+    },
+    chef: {
+      theme: "chef",
+      item: { one: "dish", many: "dishes" },
+      listVar: "dishes",
+      itemVar: "dish",
+      items: [
+        "tacos",
+        "ramen",
+        "jollof rice",
+        "pizza",
+        "jerk chicken",
+        "sushi",
+        "paella",
+        "pad thai",
+      ],
+      extra: "biryani",
+      stat: {
+        var: "orders",
+        listVar: "order_counts",
+        values: [120, 95, 140, 210, 160, 80, 60, 110],
+        scenario: !0,
+        unit: "orders",
+        has: ["sold", "orders today"],
+        compare: ["sold", "more orders than"],
+        prompt: "Orders today",
+      },
+      tag: {
+        label: "heat",
+        var: "heat",
+        listVar: "heat_levels",
+        values: [
+          "spicy",
+          "mild",
+          "spicy",
+          "mild",
+          "spicy",
+          "mild",
+          "mild",
+          "spicy",
+        ],
+        target: "spicy",
+      },
+      place: {
+        label: "origin",
+        verb: "comes from",
+        listVar: "origins",
+        values: [
+          "Mexico",
+          "Japan",
+          "West Africa",
+          "Italy",
+          "Jamaica",
+          "Japan",
+          "Spain",
+          "Thailand",
+        ],
+      },
+      announce: "Order up",
+      person: { role: "chef", name: "Kofi" },
+      countdown: { label: "orders left", start: 5, done: "Kitchen closed!" },
+      secret: "umami",
+      bands: ["Best seller", "Popular", "Special"],
+      story: {
+        list: "menu",
+        hq: "the food truck",
+        statNoun: "order count",
+        alert: "Plates warming",
+        gate: "recipe box",
+        verdict: ["Cook it", "Off menu"],
+      },
+    },
+    racing: {
+      theme: "racing",
+      item: { one: "driver", many: "drivers" },
+      listVar: "drivers",
+      itemVar: "driver",
+      items: [
+        "Lewis Hamilton",
+        "Max Verstappen",
+        "Lando Norris",
+        "Charles Leclerc",
+        "Fernando Alonso",
+        "Oscar Piastri",
+        "George Russell",
+        "Carlos Sainz",
+      ],
+      extra: "Kimi Antonelli",
+      stat: {
+        var: "points",
+        listVar: "standings",
+        values: [240, 310, 330, 220, 60, 290, 250, 90],
+        scenario: !0,
+        unit: "points",
+        has: ["has", "points this season"],
+        compare: ["has", "more points than"],
+        prompt: "Points this season",
+      },
+      tag: {
+        label: "nationality",
+        var: "nationality",
+        listVar: "nationalities",
+        values: [
+          "British",
+          "Dutch",
+          "British",
+          "Monegasque",
+          "Spanish",
+          "Australian",
+          "British",
+          "Spanish",
+        ],
+        target: "British",
+      },
+      place: {
+        label: "team",
+        verb: "races with",
+        listVar: "teams",
+        values: [
+          "Ferrari",
+          "Red Bull",
+          "McLaren",
+          "Ferrari",
+          "Aston Martin",
+          "McLaren",
+          "Mercedes",
+          "Williams",
+        ],
+      },
+      announce: "On pole",
+      person: { role: "driver", name: "Lena" },
+      countdown: { label: "laps left", start: 5, done: "Chequered flag!" },
+      secret: "pitstop",
+      bands: ["Title fight", "Points finish", "Back of the grid"],
+      story: {
+        list: "grid",
+        hq: "the pit wall",
+        statNoun: "score",
+        alert: "Box, box",
+        gate: "garage",
+        verdict: ["Sign them", "Not this year"],
+      },
+    },
+    detective: {
+      theme: "detective",
+      item: { one: "detective", many: "detectives" },
+      listVar: "detectives",
+      itemVar: "detective",
+      items: [
+        "Sherlock Holmes",
+        "Hercule Poirot",
+        "Miss Marple",
+        "Nancy Drew",
+        "Inspector Morse",
+        "Enola Holmes",
+        "Father Brown",
+        "Sam Spade",
+      ],
+      extra: "Precious Ramotswe",
+      stat: {
+        var: "cases",
+        listVar: "case_counts",
+        values: [60, 85, 40, 55, 30, 12, 90, 25],
+        scenario: !0,
+        unit: "cases",
+        has: ["has solved", "cases"],
+        compare: ["has solved", "more cases than"],
+        prompt: "Cases solved",
+      },
+      tag: {
+        label: "nationality",
+        var: "nationality",
+        listVar: "nationalities",
+        values: [
+          "British",
+          "Belgian",
+          "British",
+          "American",
+          "British",
+          "British",
+          "British",
+          "American",
+        ],
+        target: "British",
+      },
+      place: {
+        label: "home",
+        verb: "is based in",
+        listVar: "bases",
+        values: [
+          "London",
+          "London",
+          "St Mary Mead",
+          "River Heights",
+          "Oxford",
+          "London",
+          "Kembleford",
+          "San Francisco",
+        ],
+      },
+      announce: "On the case",
+      person: { role: "detective", name: "Iris" },
+      countdown: { label: "suspects left", start: 5, done: "Case closed!" },
+      secret: "elementary",
+      bands: ["Mastermind", "Sharp", "Rookie"],
+      story: {
+        list: "case file",
+        hq: "the agency",
+        statNoun: "case count",
+        alert: "Closing in",
+        gate: "evidence room",
+        verdict: ["Hire", "Pass"],
+      },
+    },
+  },
+  hs = new RegExp("(?<!\\d)\\.|\\.(?!\\d)|-(?!\\d)|[,!?;:'\"`()[\\]{}*_]", "g");
+function ms(n) {
+  return n.toLowerCase().replace(hs, " ").replace(/\s+/g, " ").trim();
+}
+function je(n) {
+  return n
+    .split(/\r?\n/)
+    .map(ms)
+    .filter((e) => e.length > 0);
+}
+function Tt(n, e) {
+  const a = je(
+      typeof e == "string"
+        ? e
+        : e.join(`
+`),
+    ),
+    s = je(n);
+  return s.length === a.length && a.every((r, i) => s[i] === r);
+}
+function fs(n, e) {
+  return je(n)
+    .join(
+      `
+`,
+    )
+    .includes(
+      je(e).join(`
+`),
+    );
+}
+function Je(n) {
+  return n
+    .split(/\r?\n/)
+    .map((e) => gs(e).trimEnd())
+    .filter((e) => e.trim().length > 0).join(`
+`);
+}
+function gs(n) {
+  let e = null;
+  for (let a = 0; a < n.length; a += 1) {
+    const s = n[a];
+    if (e) s === "\\" ? (a += 1) : s === e && (e = null);
+    else if (s === '"' || s === "'") e = s;
+    else if (s === "#") return n.slice(0, a);
+  }
+  return n;
+}
+function bs(n) {
+  let e = null,
+    a = "";
+  for (let s = 0; s < n.length; s += 1) {
+    const r = n[s];
+    e
+      ? r === "\\"
+        ? ((a += "  "), (s += 1))
+        : r === e
+          ? ((e = null), (a += r))
+          : (a += " ")
+      : ((r === '"' || r === "'") && (e = r), (a += r));
+  }
+  return a;
+}
+function We(n) {
+  return (/^[ \t]*/.exec(n)?.[0] ?? "").replace(/\t/g, "    ").length;
+}
+function xs(n, e, a) {
+  const s = Je(n).split(`
+`);
+  return s.some((r, i) => {
+    if (!e.test(r)) return !1;
+    const d = We(r);
+    for (const c of s.slice(i + 1)) {
+      if (We(c) <= d) return !1;
+      if (a.test(c)) return !0;
+    }
+    return !1;
+  });
+}
+function ws(n) {
+  const e = Je(n)
+    .split(
+      `
+`,
+    )
+    .map(bs);
+  return e
+    .flatMap((s) => /^\s*def\s+(\w+)\s*\(/.exec(s)?.[1] ?? [])
+    .some((s) => {
+      const r = new RegExp(`\\b${s}\\s*\\(`);
+      let i = !1,
+        d = 0;
+      return e.some((c) => {
+        const u = We(c);
+        return (
+          i && u <= d && (i = !1),
+          new RegExp(`^\\s*def\\s+${s}\\s*\\(`).test(c)
+            ? ((i = !0), (d = u), !1)
+            : !i && r.test(c)
+        );
+      });
+    });
+}
+function Ct(n, e) {
+  return n.error === null && Tt(n.stdout, e.expected);
+}
+function $s(n, e, a, s = {}) {
+  const r = Je(n),
+    i = e.error !== null;
+  return a.map((d, c) => {
+    const u = (p) => ({ label: d.label, passed: p });
+    switch (d.type) {
+      case "codeIncludes":
+        return u(r.includes(d.value));
+      case "codeRegex":
+        return u(new RegExp(d.value, "m").test(r));
+      case "codeNested": {
+        const { outer: p, inner: l } = JSON.parse(d.value);
+        return u(xs(n, new RegExp(p), new RegExp(l)));
+      }
+      case "callsOwnFunction":
+        return u(ws(n));
+      case "runsCleanly":
+        return u(!i && e.stdout.trim().length > 0);
+      case "behaviour": {
+        const p = s[c] ?? [],
+          l = d.cases ?? [];
+        return u(!i && p.length === l.length && l.every((m, h) => Ct(p[h], m)));
+      }
+      case "outputRegex":
+        return u(!i && new RegExp(d.value, "im").test(e.stdout));
+      case "outputLinesEqual":
+        return u(!i && Tt(e.stdout, d.value));
+      case "outputIncludes":
+        return u(!i && fs(e.stdout, d.value));
+    }
+  });
+}
+const ys = /\n\n(?:Example output|Output):\n/,
+  vs = { io: cs, if: ls, for: is, while: ds, functions: os, scratch: us };
+function ks(n, e) {
+  return js(n, ps[e]);
+}
+function js(n, e) {
+  return vs[n](e).map((a, s) => ({
+    ...rs(s),
+    ...a,
+    title: q(a.title),
+    description: Ss(a),
+    stdin: a.stdin ?? "",
+  }));
+}
+function Ss(n) {
+  const { description: e, checks: a } = n;
+  if (ys.test(e)) return e;
+  const s = a.find((c) => c.type === "outputLinesEqual");
+  if (s)
+    return `${e}
+
+Output:
+${s.value}`;
+  const r = a.find((c) => c.type === "behaviour")?.cases ?? [],
+    i =
+      n.stdin?.split(`
+`) ?? [],
+    d =
+      r.find(
+        (c) =>
+          c.inputs.join(`
+`) ===
+          i.join(`
+`),
+      ) ?? r[0];
+  return d
+    ? `${e}
+
+Example output:
+${d.expected.join(`
+`)}`
+    : e;
+}
+const ce = (n, ...e) => e.map((a) => ({ lane: n, id: a })),
+  Xe = [
+    {
+      level: 1,
+      title: "Inputs and outputs",
+      practise: "inputs-and-outputs",
+      picks: ce(
+        "io",
+        "io-variable",
+        "io-join",
+        "io-numbers",
+        "io-input",
+        "io-int-input",
+      ),
+    },
+    {
+      level: 2,
+      title: "If statements",
+      practise: "if-statements",
+      picks: ce("if", "if-else", "if-operator", "if-elif", "if-and"),
+    },
+    {
+      level: 3,
+      title: "Loops",
+      practise: "for-loops",
+      picks: [
+        ...ce("for", "for-loop", "for-total"),
+        ...ce("while", "while-countdown", "while-if"),
+      ],
+    },
+    {
+      level: 4,
+      title: "Functions and lists",
+      practise: "functions",
+      picks: [
+        ...ce("functions", "fn-parameter", "fn-return", "fn-count"),
+        ...ce("for", "for-max"),
+      ],
+    },
+    {
+      level: 5,
+      title: "Code from scratch",
+      practise: "code-from-scratch",
+      picks: ce(
+        "scratch",
+        "scratch-sentence",
+        "scratch-decision",
+        "scratch-bands",
+        "scratch-validate",
+        "scratch-for-total",
+      ),
+    },
+  ];
+function Ns(n) {
+  return typeof n == "string" && ts.includes(n);
+}
+const ut = new Map();
+function Lt(n, e) {
+  const a = `${n.lane}/${e}`;
+  let s = ut.get(a);
+  s || ((s = ks(n.lane, e)), ut.set(a, s));
+  const r = s.find((i) => i.id === n.id);
+  if (!r) throw new Error(`No Essentials challenge ${n.lane}/${n.id}`);
+  return r;
+}
+function Ts(n) {
+  for (const e of Xe) {
+    const a = e.picks.find((s) => s.id === n);
+    if (a) return { level: e, pick: a };
+  }
+  return null;
+}
+const Cs = "examhost:essentials:v1:",
+  Ls = "challenge",
+  Is = "theme";
+function Ms(n, e, a) {
+  return `${Cs}${n}:${e}:${a}`;
+}
+function As(n) {
+  return `/essentials/${n}`;
+}
+function Rs(n, e, a) {
+  const s = new URL(n);
+  return (s.searchParams.set(Ls, a), s.searchParams.set(Is, e), s.toString());
+}
+const Es = 3;
+function dt(n) {
+  return Math.min(Es, n);
+}
+function Fe({
+  answer: n,
+  language: e,
+  locked: a = !1,
+  onReveal: s,
+  className: r = "",
+}) {
+  const [i, d] = S.useState(!1),
+    c = n?.trimEnd();
+  if (!c || a) return null;
+  const u = i;
+  return t.jsxs("div", {
+    className: r,
+    "data-testid": "answer-reveal",
+    children: [
+      t.jsxs("button", {
+        type: "button",
+        onClick: () => {
+          (u || s?.(), d(!u));
+        },
+        "aria-expanded": u,
+        className:
+          "inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-sky-200 transition-colors hover:bg-sky-300/10 hover:text-sky-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-300/60",
+        children: [
+          u
+            ? t.jsx(qt, { className: "h-4 w-4", "aria-hidden": "true" })
+            : t.jsx(Kt, { className: "h-4 w-4", "aria-hidden": "true" }),
+          u ? "Hide answer" : "Reveal answer",
+        ],
+      }),
+      u
+        ? t.jsxs("div", {
+            className:
+              "mt-2 rounded-lg border border-sky-400/30 bg-sky-400/10 p-3 motion-safe:duration-300 motion-safe:animate-in motion-safe:fade-in-0 motion-safe:slide-in-from-top-1",
+            children: [
+              t.jsxs("p", {
+                className: "text-xs leading-5 text-sky-100",
+                children: [
+                  "Model answer (",
+                  e,
+                  "). Read it line by line and work out why each part is there, then try writing it yourself.",
+                ],
+              }),
+              t.jsx("pre", {
+                className:
+                  "mt-2 max-h-80 overflow-auto whitespace-pre rounded-md bg-slate-950/70 p-3 font-mono text-xs leading-5 text-slate-100",
+                children: t.jsx("code", { children: c }),
+              }),
+            ],
+          })
+        : null,
+    ],
+  });
+}
+function Ps({
+  hints: n,
+  renderHint: e = (u) => u,
+  answer: a,
+  answerLanguage: s = "Python",
+  onReveal: r,
+  onAnswerReveal: i,
+  floating: d = !1,
+  className: c = "",
+}) {
+  const [u, p] = S.useState(0),
+    [l, m] = S.useState(!1);
+  if (
+    (S.useEffect(() => {
+      if (!d || !l) return;
+      const g = (b) => {
+        b.key === "Escape" && m(!1);
+      };
+      return (
+        window.addEventListener("keydown", g),
+        () => window.removeEventListener("keydown", g)
+      );
+    }, [d, l]),
+    n.length === 0)
+  )
+    return a?.trim()
+      ? t.jsx(Fe, { answer: a, language: s, onReveal: i, className: c })
+      : null;
+  const h = u >= n.length;
+  return t.jsxs("div", {
+    className: c,
+    "data-testid": "hint-reveal",
+    children: [
+      t.jsxs("div", {
+        className: "flex flex-wrap items-center gap-3",
+        children: [
+          t.jsxs("button", {
+            type: "button",
+            onClick: () => {
+              (r?.(), p((g) => Math.min(g + 1, n.length)), m(!0));
+            },
+            disabled: h,
+            className:
+              "inline-flex items-center gap-2 rounded-xl px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-yellow-200 transition-colors hover:text-yellow-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300/60 disabled:cursor-default disabled:text-slate-500",
+            children: [
+              t.jsx(Me, { className: "h-4 w-4", "aria-hidden": "true" }),
+              h ? "All hints shown" : u === 0 ? "Hint" : "Another hint",
+            ],
+          }),
+          t.jsx("span", {
+            className: "sr-only",
+            children: `${u} of ${n.length} hints shown`,
+          }),
+        ],
+      }),
+      d
+        ? u > 0 && l
+          ? t.jsxs("div", {
+              role: "dialog",
+              "aria-label": "Hints",
+              "data-hint-toast": !0,
+              className:
+                "fixed bottom-24 right-4 z-40 max-h-[60vh] w-[min(26rem,calc(100vw-2rem))] lg:bottom-6 lg:left-[7.5rem] lg:right-auto overflow-y-auto rounded-xl bg-slate-900 p-3 pr-11 shadow-2xl ring-1 ring-slate-600",
+              children: [
+                t.jsx("div", {
+                  className: "absolute right-2 top-2",
+                  children: t.jsx("button", {
+                    type: "button",
+                    onClick: () => m(!1),
+                    "aria-label": "Close hints",
+                    className:
+                      "inline-flex h-8 w-8 items-center justify-center rounded-lg text-slate-400 hover:bg-slate-800 hover:text-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300/60",
+                    children: t.jsx(Gt, {
+                      className: "h-4 w-4",
+                      "aria-hidden": "true",
+                    }),
+                  }),
+                }),
+                u > 0
+                  ? t.jsx("ol", {
+                      className:
+                        "mt-2 space-y-1.5 text-sm leading-6 text-amber-200",
+                      children: n
+                        .slice(0, u)
+                        .map((g, b) =>
+                          t.jsxs(
+                            "li",
+                            {
+                              className:
+                                "flex gap-2 motion-safe:duration-300 motion-safe:animate-in motion-safe:fade-in-0 motion-safe:slide-in-from-top-1",
+                              children: [
+                                t.jsx(Me, {
+                                  className:
+                                    "mt-1 h-3.5 w-3.5 shrink-0 text-yellow-300",
+                                  "aria-hidden": "true",
+                                }),
+                                t.jsx("span", { children: e(g, b) }),
+                                t.jsxs("span", {
+                                  className: "sr-only",
+                                  children: ["Hint ", b + 1],
+                                }),
+                              ],
+                            },
+                            g,
+                          ),
+                        ),
+                    })
+                  : null,
+                t.jsx(Fe, {
+                  answer: a,
+                  language: s,
+                  locked: u < dt(n.length),
+                  onReveal: i,
+                  className: "mt-2",
+                }),
+              ],
+            })
+          : null
+        : t.jsxs(t.Fragment, {
+            children: [
+              u > 0
+                ? t.jsx("ol", {
+                    className:
+                      "mt-2 space-y-1.5 text-sm leading-6 text-amber-200",
+                    children: n
+                      .slice(0, u)
+                      .map((g, b) =>
+                        t.jsxs(
+                          "li",
+                          {
+                            className:
+                              "flex gap-2 motion-safe:duration-300 motion-safe:animate-in motion-safe:fade-in-0 motion-safe:slide-in-from-top-1",
+                            children: [
+                              t.jsx(Me, {
+                                className:
+                                  "mt-1 h-3.5 w-3.5 shrink-0 text-yellow-300",
+                                "aria-hidden": "true",
+                              }),
+                              t.jsx("span", { children: e(g, b) }),
+                              t.jsxs("span", {
+                                className: "sr-only",
+                                children: ["Hint ", b + 1],
+                              }),
+                            ],
+                          },
+                          g,
+                        ),
+                      ),
+                  })
+                : null,
+              t.jsx(Fe, {
+                answer: a,
+                language: s,
+                locked: u < dt(n.length),
+                onReveal: i,
+                className: "mt-2",
+              }),
+            ],
+          }),
+    ],
+  });
+}
+const _s =
+  /(startswith\("[^"]*"\)|\b(?:for|if|or|pass|print|True|False|setlist|gap|index)\b|\b\d+\b)/g;
+function Ue(n, e = _s, a = "text-blue-200") {
+  return n
+    .split(e)
+    .map((s, r) =>
+      r % 2 === 1
+        ? t.jsx(
+            "code",
+            { className: `font-mono font-bold ${a}`, children: s },
+            r,
+          )
+        : s,
+    );
+}
+const It = " | ";
+function Fs({ rows: n }) {
+  const [e = [], ...a] = n.map((s) => s.split(It));
+  return t.jsx("div", {
+    className: "mt-1.5 overflow-x-auto",
+    children: t.jsxs("table", {
+      className: "w-full border-collapse text-left font-mono text-sm leading-6",
+      children: [
+        t.jsx("thead", {
+          children: t.jsx("tr", {
+            className: "border-b border-slate-700",
+            children: e.map((s, r) =>
+              t.jsx(
+                "th",
+                {
+                  scope: "col",
+                  className:
+                    "px-3 py-1.5 font-sans text-xs font-bold text-slate-400",
+                  children: s,
+                },
+                r,
+              ),
+            ),
+          }),
+        }),
+        t.jsx("tbody", {
+          children: a.map((s, r) =>
+            t.jsx(
+              "tr",
+              {
+                className: "border-b border-slate-800 last:border-b-0",
+                children: s.map((i, d) =>
+                  t.jsx(
+                    "td",
+                    {
+                      className: "whitespace-nowrap px-3 py-1 text-slate-200",
+                      children: i,
+                    },
+                    d,
+                  ),
+                ),
+              },
+              r,
+            ),
+          ),
+        }),
+      ],
+    }),
+  });
+}
+function pt({ lines: n, single: e = !1 }) {
+  const [a = "", ...s] = n,
+    r = a.endsWith(":") && s.length > 0,
+    i = r && s.length > 1 && s.every((u) => u.includes(It)),
+    d = r && !i && s.every((u) => u.startsWith("- ")),
+    c = r && !d && !i;
+  return i
+    ? t.jsxs("div", {
+        children: [
+          t.jsx("div", {
+            className:
+              "text-xs font-bold uppercase tracking-[0.1em] text-slate-400",
+            children: a.slice(0, -1),
+          }),
+          t.jsx(Fs, { rows: s }),
+        ],
+      })
+    : r
+      ? t.jsxs("div", {
+          className: c
+            ? "bg-slate-950 pb-1 pt-1 lg:sticky lg:bottom-0"
+            : void 0,
+          children: [
+            t.jsx("div", {
+              className:
+                "text-xs font-bold uppercase tracking-[0.1em] text-slate-400",
+              children: a.slice(0, -1),
+            }),
+            c
+              ? t.jsx("pre", {
+                  className:
+                    "mt-1.5 whitespace-pre-wrap font-mono text-sm leading-6 text-emerald-300",
+                  children: s.join(`
+`),
+                })
+              : t.jsx("ul", {
+                  className: `mt-1.5 grid gap-1.5 text-sm text-slate-200 ${e ? "" : "sm:grid-cols-2"}`,
+                  children: s.map((u) =>
+                    t.jsx(
+                      "li",
+                      { className: "font-medium", children: Ue(u.slice(2)) },
+                      u,
+                    ),
+                  ),
+                }),
+          ],
+        })
+      : t.jsx("ul", {
+          className: "space-y-1.5 text-sm leading-relaxed text-slate-300",
+          children: n.map((u) =>
+            t.jsxs(
+              "li",
+              {
+                className: "flex gap-2",
+                children: [
+                  t.jsx("span", {
+                    className:
+                      "mt-[0.55rem] h-1 w-1 shrink-0 rounded-full bg-slate-500",
+                  }),
+                  t.jsx("span", { children: Ue(u) }),
+                ],
+              },
+              u,
+            ),
+          ),
+        });
+}
+const ht = /^You (?:must|should) use\b/,
+  mt = (n) =>
+    n
+      .split(
+        `
+`,
+      )
+      .filter((e) => e.trim());
+function Vs({ text: n, stacked: e = !1 }) {
+  const [a = "", ...s] = n.trim().split(/\n\s*\n/),
+    r = s.filter((c) => ht.test(c)),
+    i = s.filter((c) => !ht.test(c)),
+    d = t.jsxs("div", {
+      className: "min-w-0 space-y-3",
+      children: [
+        t.jsx("p", {
+          className: "text-base font-semibold leading-relaxed text-slate-100",
+          children: Ue(a),
+        }),
+        i.map((c) => t.jsx(pt, { lines: mt(c) }, c)),
+      ],
+    });
+  return r.length === 0
+    ? d
+    : t.jsxs("div", {
+        className: e
+          ? "grid gap-3"
+          : "grid gap-3 xl:grid-cols-[minmax(0,1fr)_minmax(13rem,17rem)] xl:gap-5",
+        children: [
+          d,
+          t.jsx("aside", {
+            "aria-label": "Constructs to use",
+            "data-testid": "challenge-constructs",
+            className: `min-w-0 space-y-3 border-t border-slate-700 pt-3 ${e ? "" : "xl:border-l xl:border-t-0 xl:pl-5 xl:pt-0"}`,
+            children: r.map((c) => t.jsx(pt, { lines: mt(c), single: !0 }, c)),
+          }),
+        ],
+      });
+}
+const Os = {
+  music: (n, e) =>
+    t.jsxs(t.Fragment, {
+      children: [
+        t.jsx("circle", { cx: "-3", cy: "5", r: "3.2", className: n }),
+        t.jsx("path", {
+          d: "M0 5V-7l6-2v4",
+          className: e,
+          strokeWidth: "2.2",
+          fill: "none",
+        }),
+      ],
+    }),
+  animals: (n) =>
+    t.jsxs(t.Fragment, {
+      children: [
+        t.jsx("ellipse", {
+          cx: "0",
+          cy: "3.5",
+          rx: "4.6",
+          ry: "3.8",
+          className: n,
+        }),
+        t.jsx("circle", { cx: "-5.4", cy: "-2.6", r: "2", className: n }),
+        t.jsx("circle", { cx: "-2", cy: "-6", r: "2", className: n }),
+        t.jsx("circle", { cx: "2", cy: "-6", r: "2", className: n }),
+        t.jsx("circle", { cx: "5.4", cy: "-2.6", r: "2", className: n }),
+      ],
+    }),
+  arcade: (n) =>
+    t.jsx("path", {
+      d: "M-4-7h2v2h4v-2h2v2h2v2h2v4h-2v2h2v3h-3v-3h-8v3h-3v-3h2v-2h-2v-4h2v-2h2Zm1 5v2h2v-2Zm4 0v2h2v-2Z",
+      className: n,
+      fillRule: "evenodd",
+    }),
+  zombie: (n) =>
+    t.jsx("path", {
+      d: "M0-8c5 0 7 3 7 7 0 3-2 4-2 6v2h-10v-2c0-2-2-3-2-6 0-4 2-7 7-7Zm-3 5a2 2 0 1 0 0 4a2 2 0 1 0 0-4Zm6 0a2 2 0 1 0 0 4a2 2 0 1 0 0-4Z",
+      className: n,
+      fillRule: "evenodd",
+    }),
+  space: (n) =>
+    t.jsx("path", {
+      d: "M0-8l2.4 5.2 5.6.6-4.2 3.8 1.2 5.6L0 4.4-5 7.2l1.2-5.6L-8-2.2l5.6-.6Z",
+      className: n,
+    }),
+  sports: (n, e) =>
+    t.jsxs(t.Fragment, {
+      children: [
+        t.jsx("circle", { r: "7", className: n }),
+        t.jsx("path", {
+          d: "M0-3.2l3 2.2-1.1 3.6h-3.8L-3-1Z",
+          className: "ci-ink",
+        }),
+        t.jsx("path", {
+          d: "M0-7v3.8M6.7-2.2 3-1M4.2 5.7 1.9 2.6M-4.2 5.7l2.3-3.1M-6.7-2.2-3-1",
+          className: e,
+          strokeWidth: "1.3",
+          fill: "none",
+        }),
+      ],
+    }),
+  cyber: (n, e) =>
+    t.jsxs(t.Fragment, {
+      children: [
+        t.jsx("rect", {
+          x: "-5",
+          y: "-5",
+          width: "10",
+          height: "10",
+          rx: "1.5",
+          className: n,
+        }),
+        t.jsx("path", {
+          d: "M-3-8v3M0-8v3M3-8v3M-3 5v3M0 5v3M3 5v3M-8-3h3M-8 0h3M-8 3h3M5-3h3M5 0h3M5 3h3",
+          className: e,
+          strokeWidth: "1.4",
+          fill: "none",
+        }),
+      ],
+    }),
+  skate: (n, e) =>
+    t.jsxs(t.Fragment, {
+      children: [
+        t.jsx("path", {
+          d: "M-9-2q0 3 3 3h12q3 0 3-3",
+          className: e,
+          strokeWidth: "2.2",
+          fill: "none",
+        }),
+        t.jsx("circle", { cx: "-4.5", cy: "4.5", r: "2.4", className: n }),
+        t.jsx("circle", { cx: "4.5", cy: "4.5", r: "2.4", className: n }),
+      ],
+    }),
+  sneakers: (n) =>
+    t.jsx("path", { d: "M-8 5v-9h4l2 3 5 1.5q5 1.2 5 4.5Z", className: n }),
+  ninja: (n) =>
+    t.jsx("path", {
+      d: "M0-8 2.2-2.2 8 0 2.2 2.2 0 8-2.2 2.2-8 0-2.2-2.2Z",
+      className: n,
+    }),
+  spells: (n) =>
+    t.jsx("path", {
+      d: "M2-7.5a7.5 7.5 0 1 0 5.5 12.5a6 6 0 1 1-5.5-12.5Z",
+      className: n,
+    }),
+  "deep-sea": (n) =>
+    t.jsx("path", {
+      d: "M-7 0q5-6.5 11 0q-6 6.5-11 0Zm11 0 4.5-4.5v9Z",
+      className: n,
+    }),
+  streamer: (n, e) =>
+    t.jsxs(t.Fragment, {
+      children: [
+        t.jsx("rect", {
+          x: "-8",
+          y: "-6",
+          width: "16",
+          height: "12",
+          rx: "3",
+          className: e,
+          strokeWidth: "1.6",
+          fill: "none",
+        }),
+        t.jsx("path", { d: "M-2-3v6l5-3Z", className: n }),
+      ],
+    }),
+  chef: (n) =>
+    t.jsx("path", {
+      d: "M-5 7v-5.5a4 4 0 0 1 1.5-7.2 4.2 4.2 0 0 1 7 0 4 4 0 0 1 1.5 7.2V7Z",
+      className: n,
+    }),
+  racing: (n, e) =>
+    t.jsxs(t.Fragment, {
+      children: [
+        t.jsx("path", {
+          d: "M-6-8v16",
+          className: e,
+          strokeWidth: "1.6",
+          fill: "none",
+        }),
+        t.jsx("path", {
+          d: "M-5-7h4v3h-4Zm8 0h4v3h-4Zm-4 3h4v3h-4Zm8 0h4v3h-4Z",
+          className: n,
+        }),
+      ],
+    }),
+  detective: (n, e) =>
+    t.jsxs(t.Fragment, {
+      children: [
+        t.jsx("path", { d: "M-8 2q8-4 16 0l-2 2h-12Z", className: n }),
+        t.jsx("path", {
+          d: "M-5 1q0-8 5-8t5 8",
+          className: e,
+          strokeWidth: "1.8",
+          fill: "none",
+        }),
+      ],
+    }),
+};
+function Hs({ illustration: n, theme: e }) {
+  const a = la[n],
+    s = ({ x: r, y: i, scale: d = 1, tone: c = "a" }) =>
+      t.jsx("g", {
+        transform: `translate(${r} ${i}) scale(${d})`,
+        children: Os[e](
+          c === "a" ? "ci-a" : "ci-b",
+          c === "a" ? "ci-sa" : "ci-sb",
+        ),
+      });
+  return t.jsx(a, { Glyph: s });
+}
+function X({
+  x: n,
+  y: e,
+  Glyph: a,
+  lifted: s = !1,
+  faded: r = !1,
+  w: i = 30,
+  h: d = 40,
+}) {
+  return t.jsxs("g", {
+    opacity: r ? 0.4 : 1,
+    children: [
+      t.jsx("rect", {
+        x: n,
+        y: e,
+        width: i,
+        height: d,
+        rx: "6",
+        className: s ? "ci-b-soft" : "ci-a-soft",
+      }),
+      t.jsx("rect", {
+        x: n,
+        y: e,
+        width: i,
+        height: d,
+        rx: "6",
+        className: s ? "ci-sb" : "ci-sa",
+        strokeWidth: "2.5",
+        fill: "none",
+      }),
+      t.jsx(a, { x: n + i / 2, y: e + d / 2, tone: s ? "b" : "a" }),
+    ],
+  });
+}
+function Ce({ x: n, y: e, r: a = 22, tilt: s = 0 }) {
+  return t.jsxs("g", {
+    transform: `rotate(${s} ${n} ${e})`,
+    children: [
+      t.jsx("circle", { cx: n, cy: e, r: a, className: "ci-b-soft" }),
+      t.jsx("circle", {
+        cx: n,
+        cy: e,
+        r: a,
+        className: "ci-sb",
+        strokeWidth: "6",
+        fill: "none",
+      }),
+      t.jsx("path", {
+        d: `M${n + a * 0.72} ${e + a * 0.72}l${a * 0.75} ${a * 0.75}`,
+        className: "ci-sb",
+        strokeWidth: "10",
+        strokeLinecap: "round",
+      }),
+      t.jsx("path", {
+        d: `M${n - a * 0.5} ${e - a * 0.2}a${a * 0.55} ${a * 0.55} 0 0 1 ${a * 0.35} -${a * 0.35}`,
+        className: "ci-sb",
+        strokeWidth: "3",
+        strokeLinecap: "round",
+        fill: "none",
+      }),
+    ],
+  });
+}
+function Ds({ x: n, y: e }) {
+  return t.jsxs("g", {
+    children: [
+      t.jsx("circle", { cx: n, cy: e - 9, r: "8", className: "ci-a" }),
+      t.jsx("path", {
+        d: `M${n - 14} ${e + 16}q0-16 14-16t14 16Z`,
+        className: "ci-a",
+      }),
+      t.jsx("path", {
+        d: `M${n - 3.5} ${e - 12}q0-4 3.5-4t3.5 3.5q0 2.5-3.5 3.5v2.5`,
+        className: "ci-ink-stroke",
+        strokeWidth: "2",
+        strokeLinecap: "round",
+        fill: "none",
+      }),
+      t.jsx("circle", { cx: n, cy: e - 1.5, r: "1.3", className: "ci-ink" }),
+    ],
+  });
+}
+function Mt({ xs: n, y: e, active: a }) {
+  return t.jsx("g", {
+    children: n.map((s, r) =>
+      t.jsx(
+        "text",
+        {
+          x: s,
+          y: e,
+          textAnchor: "middle",
+          className: r === a ? "ci-b ci-text" : "ci-a ci-text",
+          children: r,
+        },
+        s,
+      ),
+    ),
+  });
+}
+function Q({ d: n, tone: e = "b" }) {
+  const a = e === "a" ? "ci-sa" : "ci-sb";
+  return t.jsx("path", {
+    d: n,
+    className: a,
+    strokeWidth: "4",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    fill: "none",
+  });
+}
+function me({
+  x: n,
+  base: e,
+  heights: a,
+  highlight: s = [],
+  faded: r = [],
+  width: i = 16,
+  gap: d = 8,
+}) {
+  return t.jsx("g", {
+    children: a.map((c, u) =>
+      t.jsx(
+        "rect",
+        {
+          x: n + u * (i + d),
+          y: e - c,
+          width: i,
+          height: c,
+          rx: "4",
+          opacity: r.includes(u) ? 0.35 : 1,
+          className: s.includes(u) ? "ci-b" : "ci-a",
+        },
+        `${u}-${c}`,
+      ),
+    ),
+  });
+}
+const ie = [52, 90, 128, 166];
+function Bs({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      ie.slice(1).map((e) => t.jsx(X, { x: e, y: 62, Glyph: n }, e)),
+      t.jsx("rect", {
+        x: ie[0],
+        y: 62,
+        width: "30",
+        height: "40",
+        rx: "6",
+        className: "ci-a-soft",
+      }),
+      t.jsx(Mt, { xs: ie.map((e) => e + 15), y: 122, active: 0 }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(Ds, { x: 67, y: 80 }),
+          t.jsx(Ce, { x: 67, y: 78, r: 26, tilt: -8 }),
+        ],
+      }),
+    ],
+  });
+}
+function Ws({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      ie.map((e, a) => t.jsx(X, { x: e, y: 66, Glyph: n, lifted: a === 2 }, e)),
+      t.jsx(Mt, { xs: ie.map((e) => e + 15), y: 126, active: 2 }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(Q, { d: "M143 22v30m-9-10 9 10 9-10" }),
+          t.jsx("rect", {
+            x: "126",
+            y: "6",
+            width: "34",
+            height: "18",
+            rx: "9",
+            className: "ci-b-soft",
+          }),
+          t.jsx("text", {
+            x: "143",
+            y: "19.5",
+            textAnchor: "middle",
+            className: "ci-b ci-text",
+            children: "[2]",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function Us({ Glyph: n }) {
+  const e = [
+    [120, 22],
+    [182, 66],
+    [120, 112],
+    [58, 66],
+  ];
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("ellipse", {
+        cx: "135",
+        cy: "86",
+        rx: "66",
+        ry: "48",
+        className: "ci-sa",
+        strokeWidth: "3",
+        strokeDasharray: "4 8",
+        fill: "none",
+      }),
+      e.map(([a, s], r) =>
+        t.jsx(
+          X,
+          { x: a, y: s, w: 30, h: 38, Glyph: n, lifted: r === 0 },
+          `${a}-${s}`,
+        ),
+      ),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(Q, { d: "M196 44q16 14 12 34m-10-6 10 8 8-10" }),
+          t.jsx(Q, { d: "M74 128q-16-14-12-34m10 6-10-8-8 10" }),
+        ],
+      }),
+    ],
+  });
+}
+function zs({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      ie.map((e, a) =>
+        t.jsx(
+          X,
+          {
+            x: e,
+            y: a === 1 ? 32 : 78,
+            Glyph: n,
+            lifted: a === 1,
+            faded: a !== 1,
+          },
+          e,
+        ),
+      ),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx("circle", { cx: "120", cy: "30", r: "12", className: "ci-b" }),
+          t.jsx("path", {
+            d: "m114 30 4 4 8-8",
+            className: "ci-ink-stroke",
+            strokeWidth: "3",
+            strokeLinecap: "round",
+            fill: "none",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function qs({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      ie.map((e, a) => {
+        const s = a === 0 || a === 2;
+        return t.jsx(
+          X,
+          { x: e, y: s ? 32 : 78, Glyph: n, lifted: s, faded: !s },
+          e,
+        );
+      }),
+      t.jsx("g", {
+        className: "ci-pop",
+        children: [82, 158].map((e) =>
+          t.jsxs(
+            "g",
+            {
+              children: [
+                t.jsx("circle", {
+                  cx: e,
+                  cy: "30",
+                  r: "11",
+                  className: "ci-b",
+                }),
+                t.jsx("path", {
+                  d: `m${e - 5} 30 3.5 3.5 7-7`,
+                  className: "ci-ink-stroke",
+                  strokeWidth: "3",
+                  strokeLinecap: "round",
+                  fill: "none",
+                }),
+              ],
+            },
+            e,
+          ),
+        ),
+      }),
+    ],
+  });
+}
+function Ks({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("path", {
+        d: "M60 30h150l-56 58v38l-38 14v-52Z",
+        className: "ci-a-soft",
+      }),
+      t.jsx("path", {
+        d: "M60 30h150l-56 58v38l-38 14v-52Z",
+        className: "ci-sa",
+        strokeWidth: "3",
+        strokeLinejoin: "round",
+        fill: "none",
+      }),
+      [72, 110, 148, 186].map((e, a) =>
+        t.jsx(
+          "g",
+          {
+            opacity: a % 2 === 0 ? 1 : 0.45,
+            children: t.jsx(n, { x: e, y: 16, scale: 1.2 }),
+          },
+          e,
+        ),
+      ),
+      t.jsx("g", {
+        className: "ci-pop",
+        children: t.jsx(X, {
+          x: 122,
+          y: 112,
+          w: 26,
+          h: 34,
+          Glyph: n,
+          lifted: !0,
+        }),
+      }),
+    ],
+  });
+}
+function Gs() {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("rect", {
+        x: "66",
+        y: "14",
+        width: "112",
+        height: "136",
+        rx: "10",
+        className: "ci-a-soft",
+      }),
+      t.jsx("rect", {
+        x: "66",
+        y: "14",
+        width: "112",
+        height: "136",
+        rx: "10",
+        className: "ci-sa",
+        strokeWidth: "3",
+        fill: "none",
+      }),
+      [
+        [80, 40, 56],
+        [92, 60, 64],
+        [104, 80, 44],
+        [92, 100, 52],
+      ].map(([n, e, a]) =>
+        t.jsx(
+          "rect",
+          { x: n, y: e, width: a, height: "8", rx: "4", className: "ci-a" },
+          `${n}-${e}`,
+        ),
+      ),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx("path", {
+            d: "m168 118 42-58 14 10-42 58-18 8Z",
+            className: "ci-b",
+          }),
+          t.jsx("path", { d: "m164 136 4-18 14 10Z", className: "ci-ink" }),
+          t.jsx("rect", {
+            x: "80",
+            y: "120",
+            width: "24",
+            height: "8",
+            rx: "4",
+            className: "ci-b",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function Ys({ Glyph: n }) {
+  const e = [70, 110, 150],
+    a = [22, 64, 106];
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("rect", {
+        x: "62",
+        y: "42",
+        width: "128",
+        height: "24",
+        rx: "8",
+        className: "ci-b-soft",
+      }),
+      t.jsx("rect", {
+        x: "102",
+        y: "14",
+        width: "44",
+        height: "130",
+        rx: "8",
+        className: "ci-b-soft",
+      }),
+      a.map((s, r) =>
+        e.map((i, d) =>
+          t.jsx(
+            X,
+            { x: i, y: s, w: 32, h: 32, Glyph: n, lifted: r === 1 && d === 1 },
+            `${i}-${s}`,
+          ),
+        ),
+      ),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx("text", {
+            x: "46",
+            y: "85",
+            textAnchor: "middle",
+            className: "ci-b ci-text",
+            children: "[1]",
+          }),
+          t.jsx("text", {
+            x: "126",
+            y: "157",
+            textAnchor: "middle",
+            className: "ci-b ci-text",
+            children: "[1]",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function Zs({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("path", {
+        d: "M40 150h170",
+        className: "ci-sa",
+        strokeWidth: "4",
+        strokeLinecap: "round",
+      }),
+      t.jsx("path", { d: "M150 8 118 140h72Z", className: "ci-b-soft" }),
+      t.jsx(X, { x: 138, y: 96, w: 34, h: 44, Glyph: n, lifted: !0 }),
+      t.jsx(X, { x: 70, y: 112, w: 26, h: 30, Glyph: n, faded: !0 }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(Q, {
+            d: "M104 24v26q0 12-12 12H74m44-12v0q0 12 12 12h8",
+            tone: "a",
+          }),
+          t.jsx("circle", { cx: "104", cy: "20", r: "8", className: "ci-a" }),
+          t.jsx(n, { x: 202, y: 40, scale: 1.4, tone: "b" }),
+        ],
+      }),
+    ],
+  });
+}
+function Js({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("path", {
+        d: "M44 70h-10v64h10M204 70h10v64h-10",
+        className: "ci-sa",
+        strokeWidth: "4",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        fill: "none",
+      }),
+      [52, 90, 128].map((e) => t.jsx(X, { x: e, y: 82, Glyph: n }, e)),
+      t.jsx("rect", {
+        x: "166",
+        y: "82",
+        width: "30",
+        height: "40",
+        rx: "6",
+        className: "ci-sa",
+        strokeWidth: "2.5",
+        strokeDasharray: "5 5",
+        fill: "none",
+      }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(X, { x: 166, y: 18, Glyph: n, lifted: !0 }),
+          t.jsx(Q, { d: "M181 64v10" }),
+          t.jsx("circle", { cx: "210", cy: "24", r: "10", className: "ci-b" }),
+          t.jsx("path", {
+            d: "M210 18v12M204 24h12",
+            className: "ci-ink-stroke",
+            strokeWidth: "3",
+            strokeLinecap: "round",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function Xs({ Glyph: n }) {
+  const e = [
+    [70, 60],
+    [100, 96],
+    [130, 44],
+    [160, 80],
+    [190, 110],
+  ];
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("rect", {
+        x: "54",
+        y: "26",
+        width: "152",
+        height: "118",
+        rx: "12",
+        className: "ci-a-soft",
+      }),
+      e.map(([a, s]) =>
+        t.jsxs(
+          "g",
+          {
+            children: [
+              t.jsx("path", {
+                d: `M${a} 40v92`,
+                className: "ci-sa",
+                strokeWidth: "4",
+                strokeLinecap: "round",
+              }),
+              t.jsx("rect", {
+                x: a - 9,
+                y: s,
+                width: "18",
+                height: "12",
+                rx: "4",
+                className: "ci-a",
+              }),
+            ],
+          },
+          a,
+        ),
+      ),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(n, { x: 40, y: 30, scale: 1.3, tone: "b" }),
+          t.jsx(n, { x: 218, y: 20, scale: 1.1, tone: "b" }),
+          t.jsx(n, { x: 222, y: 140, scale: 1.4, tone: "b" }),
+          t.jsx("path", {
+            d: "M30 120l4 8 8 4-8 4-4 8-4-8-8-4 8-4Z",
+            className: "ci-b",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function Qs({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      ie.map((e, a) =>
+        t.jsx(X, { x: e, y: 78, Glyph: n, faded: a < 2, lifted: a === 2 }, e),
+      ),
+      t.jsx(Q, { d: "M60 138h118", tone: "a" }),
+      t.jsx("path", {
+        d: "m170 131 10 7-10 7",
+        className: "ci-sa",
+        strokeWidth: "4",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        fill: "none",
+      }),
+      t.jsx("g", {
+        className: "ci-pop",
+        children: t.jsx(Ce, { x: 143, y: 52, r: 24, tilt: -10 }),
+      }),
+    ],
+  });
+}
+function ea() {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx(me, {
+        x: 44,
+        base: 138,
+        heights: [24, 38, 52, 66, 80, 94, 108],
+        highlight: [3],
+        faded: [0, 1, 2],
+      }),
+      t.jsx("path", {
+        d: "M128 18v128",
+        className: "ci-sb",
+        strokeWidth: "3",
+        strokeDasharray: "6 6",
+      }),
+      t.jsx("g", {
+        className: "ci-pop",
+        children: t.jsx(Ce, { x: 128, y: 40, r: 20, tilt: -10 }),
+      }),
+    ],
+  });
+}
+function ta() {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx(me, {
+        x: 50,
+        base: 140,
+        heights: [46, 88, 30, 104, 64, 118],
+        highlight: [1, 2],
+        width: 20,
+        gap: 9,
+      }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(Q, { d: "M88 44q14-22 28 0m-6-2 6 3 2-7" }),
+          t.jsx(Q, { d: "M116 104q-14 22-28 0m6 2-6-3-2 7" }),
+        ],
+      }),
+    ],
+  });
+}
+function na() {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx(me, { x: 36, base: 70, heights: [18, 34, 50], width: 12, gap: 6 }),
+      t.jsx(me, { x: 158, base: 70, heights: [26, 42, 58], width: 12, gap: 6 }),
+      t.jsx(me, {
+        x: 62,
+        base: 150,
+        heights: [14, 22, 30, 38, 46, 54],
+        highlight: [0, 1, 2],
+        width: 14,
+        gap: 7,
+      }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(Q, { d: "M70 78q10 14 30 16m-6-6 6 6-8 4" }),
+          t.jsx(Q, { d: "M176 78q-10 14-30 16m6-6-6 6 8 4" }),
+        ],
+      }),
+    ],
+  });
+}
+function sa() {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx(me, {
+        x: 40,
+        base: 140,
+        heights: [26, 42, 58, 74, 90, 106],
+        highlight: [4],
+        width: 18,
+        gap: 10,
+      }),
+      t.jsx(Q, { d: "M36 24h60m-8-7 8 7-8 7", tone: "a" }),
+      t.jsx("g", {
+        className: "ci-pop",
+        children: t.jsx(Ce, { x: 162, y: 40, r: 20, tilt: -10 }),
+      }),
+    ],
+  });
+}
+function aa({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      ie.map((e, a) =>
+        t.jsx(X, { x: e, y: 76, Glyph: n, lifted: a !== 1, faded: a === 1 }, e),
+      ),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx("rect", {
+            x: "80",
+            y: "12",
+            width: "92",
+            height: "44",
+            rx: "10",
+            className: "ci-b-soft",
+          }),
+          [96, 108, 120].map((e) =>
+            t.jsx(
+              "path",
+              {
+                d: `M${e} 22v24`,
+                className: "ci-sb",
+                strokeWidth: "4",
+                strokeLinecap: "round",
+              },
+              e,
+            ),
+          ),
+          t.jsx("text", {
+            x: "152",
+            y: "41",
+            textAnchor: "middle",
+            className: "ci-b ci-text ci-text-lg",
+            children: "3",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function ra({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("rect", {
+        x: "50",
+        y: "36",
+        width: "120",
+        height: "84",
+        rx: "10",
+        className: "ci-a-soft",
+      }),
+      t.jsx("rect", {
+        x: "50",
+        y: "36",
+        width: "120",
+        height: "84",
+        rx: "10",
+        className: "ci-sa",
+        strokeWidth: "3",
+        fill: "none",
+      }),
+      t.jsx(n, { x: 82, y: 70, scale: 1.8 }),
+      t.jsx("rect", {
+        x: "104",
+        y: "58",
+        width: "50",
+        height: "8",
+        rx: "4",
+        className: "ci-a",
+      }),
+      t.jsx("rect", {
+        x: "104",
+        y: "76",
+        width: "36",
+        height: "8",
+        rx: "4",
+        className: "ci-a",
+      }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx("circle", {
+            cx: "186",
+            cy: "118",
+            r: "16",
+            className: "ci-sb",
+            strokeWidth: "6",
+            fill: "none",
+          }),
+          t.jsx("path", {
+            d: "M198 106l24-24m-10 10 8 8m-2-14 6 6",
+            className: "ci-sb",
+            strokeWidth: "6",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            fill: "none",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function ia({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("rect", {
+        x: "82",
+        y: "44",
+        width: "80",
+        height: "74",
+        rx: "12",
+        className: "ci-a-soft",
+      }),
+      t.jsx("rect", {
+        x: "82",
+        y: "44",
+        width: "80",
+        height: "74",
+        rx: "12",
+        className: "ci-sa",
+        strokeWidth: "3",
+        fill: "none",
+      }),
+      t.jsx("text", {
+        x: "122",
+        y: "88",
+        textAnchor: "middle",
+        className: "ci-a ci-text ci-text-lg",
+        children: "def",
+      }),
+      t.jsx(n, { x: 40, y: 81, scale: 1.4 }),
+      t.jsx(Q, { d: "M54 81h20m-7-7 7 7-7 7", tone: "a" }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(Q, { d: "M170 81h20m-7-7 7 7-7 7" }),
+          t.jsx(n, { x: 210, y: 81, scale: 1.6, tone: "b" }),
+        ],
+      }),
+    ],
+  });
+}
+function oa({ Glyph: n }) {
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx("path", {
+        d: "M86 40 50 80l36 40M158 40l36 40-36 40",
+        className: "ci-sa",
+        strokeWidth: "10",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        fill: "none",
+      }),
+      t.jsx("path", {
+        d: "M134 34 110 126",
+        className: "ci-sa",
+        strokeWidth: "8",
+        strokeLinecap: "round",
+      }),
+      t.jsxs("g", {
+        className: "ci-pop",
+        children: [
+          t.jsx(n, { x: 40, y: 30, scale: 1.3, tone: "b" }),
+          t.jsx(n, { x: 206, y: 132, scale: 1.3, tone: "b" }),
+          t.jsx("path", {
+            d: "M204 22l4 8 8 4-8 4-4 8-4-8-8-4 8-4Z",
+            className: "ci-b",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+const la = {
+    "index-first": Bs,
+    "index-position": Ws,
+    loop: Us,
+    "select-one": zs,
+    "select-many": qs,
+    filter: Ks,
+    "from-scratch": Gs,
+    "grid-2d": Ys,
+    branch: Zs,
+    "build-array": Js,
+    sandbox: Xs,
+    "linear-search": Qs,
+    "binary-search": ea,
+    "bubble-sort": ta,
+    "merge-sort": na,
+    "sort-then-search": sa,
+    count: aa,
+    lookup: ra,
+    function: ia,
+    playground: oa,
+  },
+  ca = [
+    "index-first",
+    "index-position",
+    "loop",
+    "select-one",
+    "select-many",
+    "filter",
+    "from-scratch",
+    "grid-2d",
+    "branch",
+    "build-array",
+    "sandbox",
+    "linear-search",
+    "binary-search",
+    "bubble-sort",
+    "merge-sort",
+    "sort-then-search",
+    "count",
+    "lookup",
+    "function",
+    "playground",
+  ],
+  ua = {
+    animals: { a: "#6ee7b7", b: "#fdba74" },
+    music: { a: "#a5b4fc", b: "#f472b6" },
+    arcade: { a: "#38bdf8", b: "#facc15" },
+    zombie: { a: "#a3e635", b: "#f87171" },
+    space: { a: "#a5b4fc", b: "#fde047" },
+    sports: { a: "#4ade80", b: "#e2e8f0" },
+    cyber: { a: "#22d3ee", b: "#a3e635" },
+    skate: { a: "#fb923c", b: "#22d3ee" },
+    sneakers: { a: "#fb7185", b: "#fde047" },
+    ninja: { a: "#f87171", b: "#f9a8d4" },
+    spells: { a: "#a78bfa", b: "#fbbf24" },
+    "deep-sea": { a: "#2dd4bf", b: "#fb7185" },
+    streamer: { a: "#f472b6", b: "#60a5fa" },
+    chef: { a: "#f59e0b", b: "#f87171" },
+    racing: { a: "#f87171", b: "#f8fafc" },
+    detective: { a: "#93c5fd", b: "#f59e0b" },
+  },
+  da = {
+    indexing: "index-position",
+    "for loops": "loop",
+    selection: "filter",
+    "from scratch": "from-scratch",
+    "2d lists": "grid-2d",
+    "open playground": "branch",
+    "array design": "build-array",
+    sandbox: "sandbox",
+    "linear search": "linear-search",
+    "binary search": "binary-search",
+    "bubble sort": "bubble-sort",
+    "merge sort": "merge-sort",
+    "bubble sort + binary search": "sort-then-search",
+    "list lookup": "lookup",
+    "free python": "playground",
+  };
+function pa(n) {
+  return typeof n == "string" && ca.includes(n);
+}
+function ha(n) {
+  if (pa(n.illustration)) return n.illustration;
+  const e = (n.category ?? n.algorithm ?? "").trim().toLowerCase();
+  return da[e] ?? "playground";
+}
+function ma({
+  illustration: n,
+  theme: e,
+  passCount: a = 0,
+  challengeId: s,
+  className: r = "",
+}) {
+  const [i, d] = S.useState(0),
+    c = s ?? n,
+    u = S.useRef({ challengeKey: c, passCount: a });
+  S.useEffect(() => {
+    const m = u.current;
+    ((u.current = { challengeKey: c, passCount: a }),
+      m.challengeKey === c && a > m.passCount && d((h) => h + 1));
+  }, [c, a]);
+  const p = ua[e],
+    l = { "--ci-a": p.a, "--ci-b": p.b };
+  return t.jsx(
+    "div",
+    {
+      "aria-hidden": "true",
+      className: ["challenge-illustration", i > 0 ? "ci-nudge" : "", r]
+        .filter(Boolean)
+        .join(" "),
+      "data-illustration": n,
+      "data-theme": e,
+      style: l,
+      children: t.jsx("svg", {
+        viewBox: "0 0 240 160",
+        className: "ci-svg",
+        focusable: "false",
+        children: t.jsx(Hs, { illustration: n, theme: e }),
+      }),
+    },
+    i,
+  );
+}
+function fa({ art: n }) {
+  return n ? t.jsx(ma, { className: "challenge-header__art", ...n }) : null;
+}
+function ga({ title: n, description: e, art: a, stacked: s = !1 }) {
+  return t.jsx("div", {
+    className: "mb-4 px-1 py-2",
+    children: t.jsxs("div", {
+      className: "challenge-header",
+      children: [
+        t.jsx("h1", {
+          className:
+            "challenge-header__title text-xl font-bold text-blue-200 sm:text-2xl",
+          children: n,
+        }),
+        t.jsx("div", {
+          className: "challenge-header__body mt-3",
+          children: t.jsx(Vs, { text: e, stacked: s }),
+        }),
+        t.jsx(fa, { art: a }),
+      ],
+    }),
+  });
+}
+const At = "comp-school:coding-run-shortcut-used",
+  ze = "comp-school:coding-run-shortcut-used";
+function Ve() {
+  try {
+    return window.localStorage.getItem(At) === "1";
+  } catch {
+    return !1;
+  }
+}
+function ba() {
+  try {
+    window.localStorage.setItem(At, "1");
+  } catch {}
+  window.dispatchEvent(new Event(ze));
+}
+function xa() {
+  return typeof navigator > "u"
+    ? !1
+    : /Mac|iPhone|iPad/i.test(navigator.platform || navigator.userAgent);
+}
+function wa(n) {
+  return (
+    n.key === "Enter" && (n.ctrlKey || n.metaKey) && !n.altKey && !n.shiftKey
+  );
+}
+function $a(n, e, a = !0) {
+  const [s, r] = S.useState(Ve),
+    i = S.useRef({ onRun: n, disabled: e });
+  return (
+    (i.current = { onRun: n, disabled: e }),
+    S.useEffect(() => {
+      const d = () => r(Ve());
+      return (
+        window.addEventListener(ze, d),
+        () => window.removeEventListener(ze, d)
+      );
+    }, []),
+    S.useEffect(() => {
+      if (!a) return;
+      const d = (c) => {
+        !wa(c) ||
+          c.repeat ||
+          (c.preventDefault(),
+          c.stopPropagation(),
+          !i.current.disabled && (i.current.onRun(), Ve() || ba()));
+      };
+      return (
+        window.addEventListener("keydown", d, !0),
+        () => window.removeEventListener("keydown", d, !0)
+      );
+    }, [a]),
+    { used: s }
+  );
+}
+const ya = "Control+Enter Meta+Enter";
+function va({ className: n = "" }) {
+  const e = xa();
+  return t.jsxs("span", {
+    "aria-hidden": "true",
+    "data-run-shortcut-pill": !0,
+    className: `ml-1 hidden items-center gap-1 rounded-md bg-black/25 px-1.5 py-0.5 font-mono text-[0.7rem] font-semibold leading-none text-current opacity-90 [@media(pointer:fine)]:inline-flex ${n}`,
+    children: [
+      t.jsx("span", { children: e ? "⌘" : "Ctrl" }),
+      t.jsx("span", { children: "↵" }),
+    ],
+  });
+}
+const ka = {
+  sandbox: {
+    wrap: "mb-3 flex flex-wrap items-center gap-2",
+    run: "gap-2",
+    reset: "gap-2",
+    badge:
+      "rounded-full bg-amber-100 px-2 py-1 font-medium text-amber-700 dark:bg-amber-950/60 dark:text-amber-200",
+  },
+  playlist: {
+    wrap: "mb-3 flex flex-wrap items-center gap-2",
+    run: "gap-2 bg-[#1e3a8a] text-white hover:bg-[#2c4ba0]",
+    reset:
+      "gap-2 border-slate-600 bg-slate-900 text-blue-200 hover:bg-slate-800",
+    badge: "rounded-full bg-amber-400/10 px-2 py-1 font-bold text-amber-200",
+  },
+  algorithm: {
+    wrap: "flex flex-wrap items-center gap-2",
+    run: "gap-2 bg-emerald-700 text-white hover:bg-emerald-800",
+    reset:
+      "gap-2 border-emerald-400/30 bg-slate-900 text-emerald-300 hover:bg-emerald-400/10",
+    badge:
+      "rounded-full bg-amber-400/10 px-2 py-1 text-xs font-medium text-amber-300",
+  },
+  sql: {
+    wrap: "mb-2 flex flex-wrap items-center gap-2",
+    run: "gap-2",
+    reset: "gap-2",
+    badge:
+      "rounded-full bg-amber-400/10 px-2 py-1 text-xs font-medium text-amber-300",
+  },
+};
+function ja({
+  tone: n,
+  onRun: e,
+  runDisabled: a = !1,
+  isRunning: s = !1,
+  onReset: r,
+  resetDisabled: i = !1,
+  inputRequired: d = !1,
+  runtime: c,
+  shortcut: u = !0,
+  inline: p = !1,
+  children: l,
+}) {
+  const m = ka[n],
+    h = p ? "flex flex-nowrap items-center gap-2" : m.wrap,
+    { used: g } = $a(e, a || s, u),
+    b = u && !g,
+    f = d
+      ? t.jsx("span", { className: m.badge, children: "Input required" })
+      : null;
+  return t.jsxs("div", {
+    className: h,
+    "data-lane-run-bar": !0,
+    children: [
+      t.jsxs(tt, {
+        type: "button",
+        onClick: e,
+        disabled: a,
+        "aria-keyshortcuts": u ? ya : void 0,
+        className: `${m.run} ${b ? "[@media(pointer:fine)]:pr-2.5" : ""}`,
+        children: [
+          t.jsx(Yt, { className: "h-4 w-4", "aria-hidden": "true" }),
+          s ? "Running" : "Run",
+          b ? t.jsx(va, {}) : null,
+        ],
+      }),
+      r
+        ? t.jsxs(tt, {
+            type: "button",
+            variant: "outline",
+            onClick: r,
+            disabled: i,
+            className: m.reset,
+            children: [
+              t.jsx(Zt, { className: "h-4 w-4", "aria-hidden": "true" }),
+              "Reset",
+            ],
+          })
+        : null,
+      l,
+      n === "sandbox"
+        ? t.jsxs("div", {
+            className:
+              "ml-auto flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400",
+            children: [
+              f,
+              c && (c.state !== "ready" || d)
+                ? t.jsxs(t.Fragment, {
+                    children: [
+                      t.jsx("span", {
+                        className: `h-2 w-2 rounded-full ${d ? "bg-amber-400" : c.state === "ready" ? "bg-emerald-500" : c.state === "error" ? "bg-red-500" : "bg-amber-400"}`,
+                        "aria-hidden": "true",
+                      }),
+                      c.state !== "ready"
+                        ? t.jsx("span", { children: c.label })
+                        : null,
+                    ],
+                  })
+                : null,
+            ],
+          })
+        : null,
+      n === "playlist"
+        ? t.jsxs("div", {
+            className: "ml-auto flex items-center gap-2 text-xs text-slate-400",
+            children: [
+              f,
+              c && c.state !== "ready"
+                ? t.jsx("span", {
+                    className: c.state === "error" ? "text-red-300" : void 0,
+                    children: c.label,
+                  })
+                : null,
+            ],
+          })
+        : null,
+      n === "algorithm" ? f : null,
+      n === "sql" && c && c.state !== "ready"
+        ? t.jsx("span", {
+            className: `ml-auto text-xs ${c.state === "error" ? "text-red-300" : "text-slate-400"}`,
+            children: c.label,
+          })
+        : null,
+    ],
+  });
+}
+const Sa = {
+    sandbox:
+      "overflow-hidden rounded-lg border border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900 [&_.cm-editor.cm-focused]:outline-none",
+    playlist:
+      "rounded-md border border-slate-700 bg-slate-900 [&_.cm-editor.cm-focused]:outline-none [&_.cm-editor]:bg-slate-950 [&_.cm-gutters]:bg-slate-800",
+    algorithm:
+      "overflow-hidden rounded-lg border border-emerald-400/30 bg-slate-900 shadow-sm [&_.cm-editor.cm-focused]:outline-none",
+    sql: "overflow-hidden rounded-lg border border-slate-700 bg-slate-950 [&_.cm-editor.cm-focused]:outline-none",
+  },
+  Na =
+    "mb-1 text-[11px] font-medium uppercase tracking-[0.08em] text-slate-400 dark:text-slate-500",
+  Ta =
+    "mb-1 text-[11px] font-semibold uppercase tracking-[0.1em] text-slate-400",
+  Ca = "mb-1 text-[11px] font-bold uppercase tracking-[0.08em] text-slate-400";
+function Rt({ tone: n, kind: e, hidden: a = !1 }) {
+  if (n === "sql" || e === "editor") return null;
+  const s = a ? "invisible" : "";
+  return n === "playlist"
+    ? t.jsx("div", {
+        className: `${Ca} ${s}`,
+        "aria-hidden": a || void 0,
+        children: t.jsx("span", {
+          "data-testid": "playlist-output-label",
+          children: "Output",
+        }),
+      })
+    : t.jsx("div", {
+        className: `${n === "sandbox" ? Na : Ta} ${s}`,
+        "aria-hidden": a || void 0,
+        children: "Output",
+      });
+}
+const La = "Click Run to execute";
+function Ia({ art: n }) {
+  return t.jsxs("div", {
+    className: "flex flex-col items-center gap-3 pt-6",
+    "data-output-idle-art": !0,
+    children: [
+      n,
+      t.jsx("p", {
+        className:
+          "font-sans text-xs font-semibold uppercase tracking-[0.16em] text-slate-400",
+        children: La,
+      }),
+    ],
+  });
+}
+const Ma =
+    "min-h-0 flex-1 [&_.cm-editor]:!h-full [&_.cm-editor]:!min-h-0 [&_.cm-scroller]:!overflow-auto",
+  Aa = S.forwardRef(function ({ tone: e, testId: a, fill: s = !1 }, r) {
+    return t.jsxs(t.Fragment, {
+      children: [
+        t.jsx(Rt, { tone: e, kind: "editor" }),
+        t.jsx("div", {
+          ref: r,
+          className: `${Sa[e]} ${s ? Ma : ""}`,
+          "data-testid": a,
+        }),
+      ],
+    });
+  }),
+  Ra = {
+    sandbox:
+      "h-[200px] overflow-auto whitespace-pre-wrap rounded-lg bg-slate-100 p-3 font-mono text-sm leading-relaxed dark:bg-slate-800",
+    playlist:
+      "min-h-[182px] whitespace-pre-wrap py-1 font-mono text-sm leading-relaxed",
+    algorithm:
+      "h-[360px] overflow-auto whitespace-pre-wrap py-1 font-mono text-sm leading-relaxed",
+  },
+  Ea = "!h-auto min-h-[160px] flex-1 overflow-auto",
+  Pa = {
+    sandbox: {
+      error: "text-red-700 dark:text-red-300",
+      dim: "text-slate-400 dark:text-slate-500",
+      normal: "text-slate-900 dark:text-slate-100",
+      success: "text-slate-900 dark:text-slate-100",
+    },
+    playlist: {
+      error: "text-red-300",
+      dim: "text-slate-400",
+      normal: "text-slate-100",
+      success: "text-emerald-200",
+    },
+    algorithm: {
+      error: "text-red-300",
+      success: "text-emerald-300",
+      dim: "text-slate-400",
+      normal: "text-slate-100",
+    },
+  },
+  _a = {
+    sandbox:
+      "ml-1 inline-block min-w-0 max-w-[14rem] rounded border border-teal-300 bg-white px-1 py-0.5 font-mono text-sm text-slate-900 outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 dark:border-teal-700 dark:bg-slate-900 dark:text-slate-100",
+    playlist:
+      "ml-1 inline-block min-w-0 max-w-[14rem] rounded border border-blue-500 bg-slate-900 px-1 py-0.5 font-mono text-sm text-slate-100 outline-none focus:ring-2 focus:ring-blue-400/20",
+    algorithm:
+      "ml-1 inline-block min-w-0 max-w-[14rem] rounded border border-emerald-400/30 bg-slate-900 px-1 py-0.5 font-mono text-sm text-slate-100 outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20",
+  };
+function Fa({
+  tone: n,
+  text: e,
+  state: a,
+  input: s,
+  testId: r,
+  fill: i = !1,
+  idleArt: d,
+}) {
+  const c = !!d && a === "dim" && !s;
+  return t.jsxs(t.Fragment, {
+    children: [
+      t.jsx(Rt, { tone: n, kind: "output", hidden: c }),
+      t.jsxs("div", {
+        "data-testid": r,
+        "data-output-opener": c || void 0,
+        className: `${Ra[n]} ${i ? Ea : ""} ${Pa[n][a]}`,
+        children: [
+          c ? t.jsx(Ia, { art: d }) : t.jsx("span", { children: e }),
+          s
+            ? t.jsx("form", {
+                className: "inline-flex max-w-full align-baseline",
+                onSubmit: s.onSubmit,
+                children: t.jsx("input", {
+                  ref: s.ref,
+                  "aria-label": "Python input",
+                  value: s.value,
+                  onChange: (u) => s.onChange(u.target.value),
+                  placeholder: s.placeholder,
+                  className: _a[n],
+                }),
+              })
+            : null,
+        ],
+      }),
+    ],
+  });
+}
+const Va = new Set([
+    "ADD",
+    "ALL",
+    "ALTER",
+    "AND",
+    "AS",
+    "ASC",
+    "AUTOINCREMENT",
+    "BETWEEN",
+    "BY",
+    "COUNT",
+    "CREATE",
+    "DELETE",
+    "DESC",
+    "DISTINCT",
+    "DROP",
+    "FROM",
+    "GROUP",
+    "HAVING",
+    "IN",
+    "INSERT",
+    "INTO",
+    "IS",
+    "JOIN",
+    "LIKE",
+    "LIMIT",
+    "NOT",
+    "NULL",
+    "OR",
+    "ORDER",
+    "PRIMARY",
+    "SELECT",
+    "SET",
+    "TABLE",
+    "UPDATE",
+    "VALUES",
+    "WHERE",
+  ]),
+  Oa = new Set(["INTEGER", "REAL", "TEXT"]),
+  Ha = gn.define({
+    token(n) {
+      if (n.eatSpace()) return null;
+      if (n.match("--")) return (n.skipToEnd(), "comment");
+      if (n.match("/*")) {
+        for (; !n.eol() && !n.match("*/");) n.next();
+        return "comment";
+      }
+      const e = n.peek();
+      if (e === "'" || e === '"') {
+        const a = n.next();
+        let s = !1;
+        for (; !n.eol();) {
+          const r = n.next();
+          if (r === a && !s) break;
+          s = r === "\\" && !s;
+        }
+        return "string";
+      }
+      if (e && /\d/.test(e)) return (n.eatWhile(/[\d.]/), "number");
+      if (e && /[=<>!+\-*/%]/.test(e))
+        return (n.next(), n.eatWhile(/[=<>]/), "operator");
+      if (e && /[A-Za-z_]/.test(e)) {
+        n.eatWhile(/[A-Za-z0-9_]/);
+        const a = n.current().toUpperCase();
+        return Va.has(a) ? "keyword" : Oa.has(a) ? "typeName" : "variableName";
+      }
+      return (n.next(), null);
+    },
+  });
+function ft({ isDark: n = !0, height: e = "200px", onChange: a }) {
+  const s = mn.define(
+      n
+        ? [
+            { tag: _.keyword, color: "#CECBF6" },
+            { tag: [_.string, _.special(_.string)], color: "#C0DD97" },
+            { tag: [_.number, _.bool, _.null], color: "#F5C4B3" },
+            {
+              tag: _.comment,
+              color: "rgb(var(--slate-400, 180 178 169))",
+              fontStyle: "italic",
+            },
+            {
+              tag: [_.function(_.variableName), _.function(_.propertyName)],
+              color: "#B5D4F4",
+            },
+            { tag: _.operator, color: "#D3D1C7" },
+            { tag: _.variableName, color: "#F1EFE8" },
+            { tag: _.propertyName, color: "#F4C0D1" },
+            { tag: _.typeName, color: "#F4C0D1" },
+            { tag: _.definition(_.variableName), color: "#F1EFE8" },
+          ]
+        : [
+            { tag: _.keyword, color: "#534AB7" },
+            { tag: [_.string, _.special(_.string)], color: "#3B6D11" },
+            { tag: [_.number, _.bool, _.null], color: "#993C1D" },
+            {
+              tag: _.comment,
+              color: "rgb(var(--slate-500, 136 135 128))",
+              fontStyle: "italic",
+            },
+            {
+              tag: [_.function(_.variableName), _.function(_.propertyName)],
+              color: "#185FA5",
+            },
+            { tag: _.operator, color: "rgb(var(--slate-600, 95 94 90))" },
+            { tag: _.variableName, color: "rgb(var(--slate-800, 44 44 42))" },
+            { tag: _.propertyName, color: "#993556" },
+            { tag: _.typeName, color: "#993556" },
+            {
+              tag: _.definition(_.variableName),
+              color: "rgb(var(--slate-800, 44 44 42))",
+            },
+          ],
+    ),
+    r = ue.theme(
+      {
+        "&": {
+          height: e,
+          fontSize: "13px",
+          backgroundColor: "hsl(var(--background))",
+        },
+        ".cm-scroller": {
+          fontFamily:
+            'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace',
+        },
+        ".cm-content": {
+          caretColor: "hsl(var(--foreground))",
+          color: "hsl(var(--foreground))",
+        },
+        ".cm-gutters": {
+          backgroundColor: "hsl(var(--muted))",
+          color: "hsl(var(--muted-foreground))",
+          border: "none",
+          fontFamily:
+            'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace',
+        },
+        ".cm-activeLine": { backgroundColor: "transparent" },
+        ".cm-activeLineGutter": {
+          backgroundColor: "transparent",
+          color: "hsl(var(--foreground))",
+        },
+        ".cm-selectionBackground, &.cm-focused .cm-selectionBackground, ::selection":
+          { backgroundColor: "hsl(var(--primary) / 0.2) !important" },
+        ".cm-cursor": { borderLeftColor: "hsl(var(--foreground))" },
+      },
+      { dark: n },
+    );
+  return [
+    fn,
+    ue.lineWrapping,
+    Ha,
+    bn(s),
+    r,
+    ue.updateListener.of((i) => {
+      i.docChanged && a(i.state.doc.toString());
+    }),
+  ];
+}
+function Da(n, e) {
+  switch (n) {
+    case "python-sandbox":
+      return Ae({ isDark: !0, onChange: e });
+    case "playlist":
+      return Ae({
+        isDark: !0,
+        height: "auto",
+        minHeight: "330px",
+        scrollable: !1,
+        tabIndents: !0,
+        onChange: e,
+      });
+    case "algorithm":
+      return [
+        xn.highest(
+          wn.of([$n, { key: "Ctrl-]", run: yn }, { key: "Ctrl-[", run: vn }]),
+        ),
+        ...Ae({ isDark: !0, height: "360px", onChange: e }),
+      ];
+    case "sql-sandbox":
+      return ft({ isDark: !0, onChange: e });
+    case "sql-challenges":
+      return ft({ isDark: !0, height: "180px", onChange: e });
+  }
+}
+const Ba = {
+    none: "border-[#1f5523] bg-[#2e7d32] text-white",
+    hint: "border-yellow-600 bg-yellow-400 text-slate-950",
+    answer: "border-blue-800 bg-blue-600 text-white",
+  },
+  Wa = {
+    none: " (complete)",
+    hint: " (complete with a hint)",
+    answer: " (complete after revealing the answer)",
+  };
+function Ua({ checks: n }) {
+  return t.jsxs("div", {
+    className: "mt-3",
+    children: [
+      t.jsx("h2", { className: "sr-only", children: "Checks" }),
+      t.jsx("div", {
+        className: "space-y-2",
+        children: n.map((e, a) =>
+          t.jsxs(
+            "div",
+            {
+              className: "flex items-start gap-2 py-1 text-sm text-slate-300",
+              children: [
+                t.jsx("span", {
+                  className: `inline-flex w-4 shrink-0 justify-center font-bold ${e.status === "passed" ? "text-[#4caf50]" : "text-slate-500"}`,
+                  children: e.status === "passed" ? "✓" : "·",
+                }),
+                t.jsxs("span", {
+                  children: [
+                    e.label,
+                    e.status === "failed"
+                      ? t.jsx("span", {
+                          className: "sr-only",
+                          children: " (not yet)",
+                        })
+                      : null,
+                  ],
+                }),
+              ],
+            },
+            `${e.label}-${a}`,
+          ),
+        ),
+      }),
+    ],
+  });
+}
+function Et({ complete: n, assist: e }) {
+  return n
+    ? t.jsx("span", { className: "sr-only", children: Wa[e ?? "none"] })
+    : null;
+}
+function Pt({
+  number: n,
+  complete: e,
+  assist: a = "none",
+  locked: s = !1,
+  active: r = !1,
+  size: i = "sm",
+}) {
+  return t.jsx("span", {
+    "data-complete": e,
+    "data-assist": e ? a : void 0,
+    className: `inline-flex shrink-0 items-center justify-center rounded-full border-2 font-bold ${i === "lg" ? "h-12 w-12 border-[4px] text-sm" : "h-7 w-7 text-xs"} ${e ? Ba[a] : s ? "border-slate-600 bg-slate-800 text-slate-400" : "border-slate-600 bg-slate-900 text-slate-200"} ${r ? "!border-teal-300" : "group-focus-visible:!border-slate-200"}`,
+    children: s
+      ? t.jsx(Jt, { className: "h-5 w-5", "aria-hidden": "true" })
+      : n,
+  });
+}
+function za({ text: n, anchor: e }) {
+  return e
+    ? t.jsx("span", {
+        role: "presentation",
+        "aria-hidden": "true",
+        "data-level-rail-tip": !0,
+        className:
+          "pointer-events-none fixed z-50 -translate-y-1/2 whitespace-nowrap rounded-md bg-slate-800 px-2.5 py-1.5 text-sm font-semibold text-slate-100 shadow-lg ring-1 ring-slate-600",
+        style: { left: e.right + 10, top: e.top + e.height / 2 },
+        children: n,
+      })
+    : null;
+}
+function qa({
+  label: n,
+  companion: e,
+  steps: a,
+  activeId: s,
+  disabled: r = !1,
+  onSelect: i,
+  testId: d,
+}) {
+  const [c, u] = S.useState(null),
+    p = (m) => (h) =>
+      u({ text: m, anchor: h.currentTarget.getBoundingClientRect() }),
+    l = () => u(null);
+  return t.jsxs("nav", {
+    "aria-label": n,
+    className: "flex flex-col items-center",
+    "data-testid": d,
+    "data-level-rail": !0,
+    children: [
+      t.jsx("h2", { className: "sr-only", children: n }),
+      e ? t.jsx("div", { className: "mb-3", children: e }) : null,
+      t.jsx("ol", {
+        className: "flex flex-col items-center gap-2 py-1",
+        onScroll: l,
+        children: a.map((m) => {
+          const h = m.id === s;
+          return t.jsxs(
+            "li",
+            {
+              className: "flex flex-col items-center",
+              children: [
+                m.group
+                  ? t.jsx("span", {
+                      className: "mb-2 mt-1 block h-px w-7 bg-slate-700",
+                      "aria-hidden": "true",
+                    })
+                  : null,
+                m.group
+                  ? t.jsx("span", { className: "sr-only", children: m.group })
+                  : null,
+                t.jsxs("button", {
+                  type: "button",
+                  disabled: r || m.locked,
+                  onClick: () => {
+                    m.locked || i(m.id);
+                  },
+                  onMouseEnter: p(m.title),
+                  onMouseLeave: l,
+                  onFocus: p(m.title),
+                  onBlur: l,
+                  "aria-current": h ? "step" : void 0,
+                  className: `group rounded-full transition focus-visible:outline-none disabled:cursor-not-allowed ${m.locked ? "opacity-70" : ""}`,
+                  children: [
+                    t.jsx(Pt, {
+                      number: m.number,
+                      complete: m.complete,
+                      assist: m.assist,
+                      locked: m.locked,
+                      active: h,
+                      size: "lg",
+                    }),
+                    t.jsxs("span", {
+                      className: "sr-only",
+                      children: [
+                        m.title,
+                        t.jsx(Et, { complete: m.complete, assist: m.assist }),
+                        m.locked ? " (locked)" : null,
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            },
+            m.id,
+          );
+        }),
+      }),
+      t.jsx(za, { text: c?.text ?? "", anchor: c?.anchor ?? null }),
+    ],
+  });
+}
+function Ka({
+  companion: n,
+  levels: e,
+  activeId: a,
+  disabled: s = !1,
+  onSelect: r,
+}) {
+  return t.jsx(qa, {
+    label: "Levels",
+    testId: "playlist-level-path",
+    companion: n,
+    steps: e.map((i, d) => ({
+      id: i.id,
+      number: d + 1,
+      title: i.shortTitle,
+      complete: i.complete,
+      assist: i.assist,
+      locked: i.locked,
+    })),
+    activeId: a,
+    disabled: s,
+    onSelect: r,
+  });
+}
+function Ga({
+  label: n,
+  steps: e,
+  activeId: a,
+  disabled: s = !1,
+  onSelect: r,
+}) {
+  const i = S.useRef(null);
+  return (
+    S.useEffect(() => {
+      const d = i.current,
+        c = d?.querySelector('[aria-current="step"]');
+      if (!d || !c) return;
+      const u = d.getBoundingClientRect(),
+        p = c.getBoundingClientRect(),
+        l = d.scrollLeft + p.left - u.left - (d.clientWidth - p.width) / 2,
+        m =
+          typeof window.matchMedia == "function" &&
+          window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      typeof d.scrollTo == "function"
+        ? d.scrollTo({ left: Math.max(0, l), behavior: m ? "auto" : "smooth" })
+        : (d.scrollLeft = Math.max(0, l));
+    }, [a, e.length]),
+    t.jsx("nav", {
+      "aria-label": n,
+      className: "-mx-3 sm:-mx-4",
+      "data-testid": "level-track",
+      children: t.jsx("ol", {
+        ref: i,
+        className:
+          "relative flex snap-x items-center gap-3 overflow-x-auto px-4 py-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
+        children: e.map((d, c) => {
+          const u = d.id === a;
+          return t.jsx(
+            "li",
+            {
+              className: `relative flex shrink-0 snap-center items-center ${c > 0 ? "before:absolute before:right-full before:top-1/2 before:w-3 before:-translate-y-1/2 before:border-t-4 before:border-dotted before:border-slate-600 before:content-['']" : ""}`,
+              children: t.jsxs("button", {
+                type: "button",
+                disabled: s || d.locked,
+                onClick: () => {
+                  d.locked || r(d.id);
+                },
+                "aria-current": u ? "step" : void 0,
+                className: `group rounded-full transition focus-visible:outline-none disabled:cursor-not-allowed ${d.locked ? "opacity-70" : ""}`,
+                children: [
+                  t.jsx(Pt, {
+                    number: d.number,
+                    complete: d.complete,
+                    assist: d.assist,
+                    locked: d.locked,
+                    active: u,
+                    size: "lg",
+                  }),
+                  t.jsxs("span", {
+                    className: "sr-only",
+                    children: [
+                      d.title,
+                      t.jsx(Et, { complete: d.complete, assist: d.assist }),
+                      d.locked ? " (locked)" : null,
+                    ],
+                  }),
+                ],
+              }),
+            },
+            d.id,
+          );
+        }),
+      }),
+    })
+  );
+}
+function Ya() {
+  const n = new URL(Xt(window.location.hostname, "https://comp.school")),
+    e = new URLSearchParams(window.location.search).get("sql");
+  return (e && n.searchParams.set("sql", e), Qt(n.toString()));
+}
+function Za(n) {
+  const e = new URL(Ya());
+  return (e.searchParams.set("menu", n), e.toString());
+}
+function Ja() {
+  return Za("python-challenges");
+}
+const Xa =
+  "inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-slate-300 transition hover:bg-slate-800 hover:text-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-300";
+function gt({ layout: n }) {
+  return t.jsx("div", {
+    "data-challenge-exit": !0,
+    className:
+      n === "rail"
+        ? "flex flex-col items-center gap-1 pb-3"
+        : "flex items-center gap-1",
+    children: t.jsx("a", {
+      href: Ja(),
+      "aria-label": "Back to menu",
+      title: "Back to menu",
+      className: Xa,
+      children: t.jsx(en, { "aria-hidden": "true", className: "h-5 w-5" }),
+    }),
+  });
+}
+const oe = {
+    menuCollapsed: !1,
+    instructionsCollapsed: !1,
+    outputCollapsed: !1,
+    split: 0.56,
+    instructionsHeight: null,
+    stackSplit: 0.55,
+  },
+  _t = "comp-school:lane-layout:",
+  xe = 0.25,
+  qe = 0.2,
+  Ke = 0.8,
+  we = 0.8,
+  ve = 72,
+  Qa = 480,
+  er = 12;
+function ae(n, e, a) {
+  return Math.min(a, Math.max(e, n));
+}
+function bt() {
+  return typeof window.matchMedia == "function" &&
+    !window.matchMedia("(min-width: 1024px)").matches
+    ? { ...oe, menuCollapsed: !0 }
+    : oe;
+}
+function xt(n) {
+  try {
+    const e = window.localStorage.getItem(`${_t}${n}`);
+    if (!e) return bt();
+    const a = JSON.parse(e);
+    return {
+      menuCollapsed: a.menuCollapsed === !0,
+      instructionsCollapsed: a.instructionsCollapsed === !0,
+      outputCollapsed: a.outputCollapsed === !0,
+      split: typeof a.split == "number" ? ae(a.split, xe, we) : oe.split,
+      instructionsHeight:
+        typeof a.instructionsHeight == "number"
+          ? Math.max(ve, a.instructionsHeight)
+          : null,
+      stackSplit:
+        typeof a.stackSplit == "number"
+          ? ae(a.stackSplit, qe, Ke)
+          : oe.stackSplit,
+    };
+  } catch {
+    return bt();
+  }
+}
+function tr(n, e) {
+  try {
+    window.localStorage.setItem(`${_t}${n}`, JSON.stringify(e));
+  } catch {}
+}
+function nr(n) {
+  const [e, a] = S.useState(640);
+  return (
+    S.useLayoutEffect(() => {
+      const s = () => {
+        const i = n.current;
+        if (!i) return;
+        const d = i.getBoundingClientRect().top + window.scrollY;
+        a(Math.max(Qa, Math.floor(window.innerHeight - d - er)));
+      };
+      s();
+      const r = typeof ResizeObserver > "u" ? null : new ResizeObserver(s);
+      return (
+        r?.observe(document.body),
+        window.addEventListener("resize", s),
+        document.addEventListener("fullscreenchange", s),
+        () => {
+          (r?.disconnect(),
+            window.removeEventListener("resize", s),
+            document.removeEventListener("fullscreenchange", s));
+        }
+      );
+    }, [n]),
+    e
+  );
+}
+function sr() {
+  const n = "(min-width: 1024px)",
+    [e, a] = S.useState(
+      () =>
+        typeof window.matchMedia == "function" && window.matchMedia(n).matches,
+    );
+  return (
+    S.useEffect(() => {
+      if (typeof window.matchMedia != "function") return;
+      const s = window.matchMedia(n),
+        r = () => a(s.matches);
+      return (
+        r(),
+        s.addEventListener?.("change", r),
+        () => s.removeEventListener?.("change", r)
+      );
+    }, []),
+    e
+  );
+}
+const Ge = {
+  light: {
+    toggle:
+      "inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-slate-200 bg-white text-slate-500 transition hover:bg-slate-100 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500/40 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-slate-100",
+    grip: "bg-slate-300 group-hover:bg-teal-500 group-focus-visible:bg-teal-500 dark:bg-slate-600 dark:group-hover:bg-teal-500 dark:group-focus-visible:bg-teal-500",
+    gripActive: "bg-teal-500",
+  },
+  dark: {
+    toggle:
+      "inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-slate-700 bg-slate-900 text-slate-400 transition hover:bg-slate-800 hover:text-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400/40",
+    grip: "bg-slate-600 group-hover:bg-blue-400 group-focus-visible:bg-blue-400",
+    gripActive: "bg-blue-400",
+  },
+};
+function Oe({ tone: n, label: e, pressed: a, onClick: s, children: r }) {
+  return t.jsx("button", {
+    type: "button",
+    className: Ge[n].toggle,
+    "aria-label": e,
+    "aria-pressed": a,
+    title: e,
+    onClick: s,
+    "data-pane-toggle": !0,
+    children: r,
+  });
+}
+function pe({
+  tone: n,
+  orientation: e,
+  label: a,
+  valueNow: s,
+  onDrag: r,
+  onStep: i,
+  onReset: d,
+  line: c = !1,
+  narrow: u = !1,
+  className: p = "",
+}) {
+  const [l, m] = S.useState(!1),
+    h = e === "vertical";
+  function g(x) {
+    x.button === 0 &&
+      (x.preventDefault(),
+      x.currentTarget.setPointerCapture(x.pointerId),
+      m(!0));
+  }
+  function b(x) {
+    l && r(x.clientX, x.clientY);
+  }
+  function f(x) {
+    (x.currentTarget.hasPointerCapture(x.pointerId) &&
+      x.currentTarget.releasePointerCapture(x.pointerId),
+      m(!1));
+  }
+  function y(x) {
+    const $ = h ? "ArrowLeft" : "ArrowUp",
+      j = h ? "ArrowRight" : "ArrowDown";
+    x.key === $ || x.key === j
+      ? (x.preventDefault(), i(x.key === $ ? -1 : 1))
+      : (x.key === "Enter" || x.key === "Home") && (x.preventDefault(), d());
+  }
+  return t.jsxs("div", {
+    role: "separator",
+    tabIndex: 0,
+    "aria-orientation": e,
+    "aria-label": a,
+    "aria-valuenow": Math.round(s),
+    "aria-valuemin": 0,
+    "aria-valuemax": 100,
+    title: `${a}. Drag to resize, double-click to reset.`,
+    onPointerDown: g,
+    onPointerMove: b,
+    onPointerUp: f,
+    onPointerCancel: f,
+    onDoubleClick: d,
+    onKeyDown: y,
+    className: `group relative shrink-0 touch-none select-none items-center justify-center focus-visible:outline-none ${u ? "flex lg:hidden" : "hidden lg:flex"} ${h ? "w-3 cursor-col-resize self-stretch" : "h-3 cursor-row-resize"} ${p}`,
+    children: [
+      c
+        ? t.jsx("span", {
+            "aria-hidden": "true",
+            className: `absolute bg-slate-800 transition-colors group-hover:bg-slate-600 ${h ? "inset-y-0 left-1/2 w-px -translate-x-1/2" : "inset-x-0 top-1/2 h-px -translate-y-1/2"} ${l ? "bg-slate-500" : ""}`,
+          })
+        : null,
+      t.jsx("span", {
+        "aria-hidden": "true",
+        className: `relative rounded-full transition-colors ${l ? Ge[n].gripActive : Ge[n].grip} ${h ? "h-10 w-1" : "h-1 w-10"}`,
+      }),
+    ],
+  });
+}
+function ar({
+  lane: n,
+  tone: e,
+  menu: a,
+  menuLabel: s = "menu",
+  track: r,
+  instructions: i,
+  target: d,
+  actions: c,
+  toolbar: u,
+  editor: p,
+  output: l,
+  challenge: m = !1,
+  stack: h = !1,
+  className: g = "",
+}) {
+  const b = S.useRef(null),
+    f = S.useRef(null),
+    y = S.useRef(null),
+    x = S.useRef(null),
+    $ = nr(b),
+    [j, T] = S.useState(() => xt(n)),
+    w = m ? { ...j, instructionsCollapsed: !1, outputCollapsed: !1 } : j,
+    M = sr(),
+    v = i != null;
+  S.useEffect(() => {
+    T(xt(n));
+  }, [n]);
+  const k = S.useCallback(
+      (D) => {
+        T((P) => {
+          const V = { ...P, ...D };
+          return (tr(n, V), V);
+        });
+      },
+      [n],
+    ),
+    I = () => Math.max(ve, (f.current?.clientHeight ?? 600) * 0.7);
+  function R(D) {
+    const P = y.current?.getBoundingClientRect();
+    !P || P.width === 0 || k({ split: ae((D - P.left) / P.width, xe, we) });
+  }
+  function C(D, P) {
+    const V = x.current?.getBoundingClientRect();
+    V && k({ instructionsHeight: ae(P - V.top, ve, I()) });
+  }
+  function A(D) {
+    const P = w.instructionsHeight ?? x.current?.clientHeight ?? 200;
+    k({ instructionsHeight: ae(P + D * 32, ve, I()) });
+  }
+  function z(D, P) {
+    const V = y.current?.getBoundingClientRect();
+    !V ||
+      V.height === 0 ||
+      k({ stackSplit: ae((P - V.top) / V.height, qe, Ke) });
+  }
+  const E = {
+      "--lane-h": `${$}px`,
+      "--lane-split": `${w.split * 100}%`,
+      "--lane-stack": `${w.stackSplit * 100}%`,
+      ...(w.instructionsHeight !== null
+        ? { "--lane-instructions-h": `${w.instructionsHeight}px` }
+        : {}),
+    },
+    O = w.menuCollapsed ? Mn : An,
+    U = w.instructionsCollapsed ? Rn : En,
+    H = w.outputCollapsed ? Pn : _n,
+    B = t.jsx(Oe, {
+      tone: e,
+      label: w.menuCollapsed ? `Show ${s}` : `Hide ${s}`,
+      pressed: !w.menuCollapsed,
+      onClick: () => k({ menuCollapsed: !w.menuCollapsed }),
+      children: t.jsx(O, { className: "h-4 w-4", "aria-hidden": "true" }),
+    }),
+    Y = v
+      ? t.jsx(Oe, {
+          tone: e,
+          label: w.instructionsCollapsed
+            ? "Show instructions"
+            : "Hide instructions",
+          pressed: !w.instructionsCollapsed,
+          onClick: () => k({ instructionsCollapsed: !w.instructionsCollapsed }),
+          children: t.jsx(U, { className: "h-4 w-4", "aria-hidden": "true" }),
+        })
+      : null,
+    se = t.jsx(Oe, {
+      tone: e,
+      label: w.outputCollapsed ? "Show output" : "Hide output",
+      pressed: !w.outputCollapsed,
+      onClick: () => k({ outputCollapsed: !w.outputCollapsed }),
+      children: t.jsx(H, { className: "h-4 w-4", "aria-hidden": "true" }),
+    }),
+    ee = m && M,
+    te = ee
+      ? t.jsxs("div", {
+          "data-testid": "lane-buttons",
+          className: "flex shrink-0 items-start justify-between gap-3 pt-3",
+          children: [
+            t.jsx("div", { className: "shrink-0", children: u }),
+            c
+              ? t.jsx("div", {
+                  className: "flex min-w-0 items-start justify-end gap-2",
+                  children: c,
+                })
+              : null,
+          ],
+        })
+      : null,
+    J = m && M && !!d && v,
+    F = (D) => k({ split: ae(w.split + D * 0.05, xe, we) }),
+    G = J
+      ? t.jsxs("div", {
+          ref: y,
+          "data-testid": "lane-quad",
+          className: "grid min-h-0 flex-1",
+          style: {
+            gridTemplateColumns:
+              "calc(var(--lane-split) - 6px) 12px minmax(0, 1fr)",
+            gridTemplateRows: `${w.instructionsHeight !== null ? "var(--lane-instructions-h)" : "fit-content(34%)"} 12px minmax(0, 1fr)`,
+          },
+          children: [
+            t.jsx("div", {
+              ref: x,
+              "data-testid": "lane-top-row",
+              className:
+                "col-start-1 row-start-1 min-h-0 min-w-0 overflow-y-auto",
+              children: t.jsx("div", {
+                "data-testid": "lane-instructions",
+                children: i,
+              }),
+            }),
+            t.jsx("div", {
+              "data-testid": "lane-target",
+              className: "col-start-3 row-start-1 min-h-0 min-w-0",
+              children: d,
+            }),
+            t.jsx(pe, {
+              tone: e,
+              orientation: "horizontal",
+              label: "Resize instructions",
+              line: !0,
+              className: "col-span-3 col-start-1 row-start-2",
+              valueNow:
+                ((w.instructionsHeight ?? x.current?.clientHeight ?? 0) /
+                  Math.max(1, f.current?.clientHeight ?? 1)) *
+                100,
+              onDrag: C,
+              onStep: A,
+              onReset: () => k({ instructionsHeight: null }),
+            }),
+            t.jsx(pe, {
+              tone: e,
+              orientation: "vertical",
+              label: "Resize editor and output",
+              line: !0,
+              className: "col-start-2 row-span-3 row-start-1",
+              valueNow: w.split * 100,
+              onDrag: (D) => R(D),
+              onStep: F,
+              onReset: () => k({ split: oe.split }),
+            }),
+            t.jsx("div", {
+              "data-testid": "lane-editor-pane",
+              className:
+                "col-start-1 row-start-3 flex min-h-0 min-w-0 flex-col",
+              children: p,
+            }),
+            t.jsxs("div", {
+              className:
+                "col-start-3 row-start-3 flex min-h-0 min-w-0 flex-col",
+              children: [
+                t.jsx("div", {
+                  "data-testid": "lane-output-pane",
+                  className:
+                    "flex min-h-0 min-w-0 flex-1 flex-col overflow-y-auto",
+                  children: l,
+                }),
+                te,
+              ],
+            }),
+          ],
+        })
+      : null;
+  return t.jsxs("div", {
+    ref: b,
+    style: E,
+    "data-testid": "lane-workspace",
+    "data-lane-stack": h || void 0,
+    className: `flex flex-col gap-3 lg:h-[var(--lane-h)] lg:flex-row lg:gap-0 ${h ? "h-[var(--lane-h)]" : ""} ${g}`,
+    children: [
+      t.jsxs("aside", {
+        "aria-label": s,
+        className: `min-h-0 shrink-0 lg:overflow-y-auto ${m ? `lg:mr-3 ${w.menuCollapsed ? "lg:w-[52px]" : "lg:w-[72px]"} lg:border-r lg:border-slate-800 lg:[scrollbar-width:none] lg:[&::-webkit-scrollbar]:hidden` : "lg:w-[250px] lg:pr-3"} ${w.menuCollapsed ? (m ? "hidden lg:block" : "hidden") : m || h ? "hidden lg:block" : ""}`,
+        children: [
+          m
+            ? t.jsxs("div", {
+                className: "flex flex-col items-center gap-1 pb-3",
+                children: [t.jsx(gt, { layout: "rail" }), B],
+              })
+            : null,
+          m && w.menuCollapsed ? null : a,
+        ],
+      }),
+      t.jsx("div", {
+        ref: f,
+        className: "flex min-h-0 min-w-0 flex-1 flex-col",
+        children: J
+          ? G
+          : t.jsxs(t.Fragment, {
+              children: [
+                r
+                  ? t.jsxs("div", {
+                      className: "flex items-center gap-1 lg:hidden",
+                      children: [
+                        m && !tn()
+                          ? t.jsx("div", {
+                              className: "-ml-1 shrink-0",
+                              children: t.jsx(gt, { layout: "row" }),
+                            })
+                          : null,
+                        t.jsx("div", {
+                          className: "min-w-0 flex-1",
+                          children: r,
+                        }),
+                      ],
+                    })
+                  : null,
+                v
+                  ? t.jsxs(t.Fragment, {
+                      children: [
+                        t.jsxs("div", {
+                          ref: x,
+                          "data-testid": "lane-top-row",
+                          className: `mb-3 flex min-h-0 shrink-0 flex-col gap-3 lg:mb-0 lg:flex-row lg:gap-0 ${w.instructionsHeight !== null ? "lg:h-[var(--lane-instructions-h)]" : d ? "lg:max-h-[34%]" : "lg:max-h-[42%]"} ${w.instructionsCollapsed ? "hidden" : ""}`,
+                          children: [
+                            t.jsx("div", {
+                              "data-testid": "lane-instructions",
+                              className: `min-h-0 min-w-0 lg:overflow-y-auto ${d && !w.outputCollapsed ? "lg:shrink-0 lg:grow-0 lg:basis-[var(--lane-split)]" : "lg:flex-1"}`,
+                              children: i,
+                            }),
+                            d && !w.outputCollapsed
+                              ? t.jsxs(t.Fragment, {
+                                  children: [
+                                    t.jsx(pe, {
+                                      tone: e,
+                                      orientation: "vertical",
+                                      label:
+                                        "Resize instructions and expected output",
+                                      valueNow: w.split * 100,
+                                      onDrag: (D) => R(D),
+                                      onStep: (D) =>
+                                        k({
+                                          split: ae(w.split + D * 0.05, xe, we),
+                                        }),
+                                      onReset: () => k({ split: oe.split }),
+                                    }),
+                                    t.jsx("div", {
+                                      "data-testid": "lane-target",
+                                      className: "min-h-0 min-w-0 lg:flex-1",
+                                      children: d,
+                                    }),
+                                  ],
+                                })
+                              : null,
+                          ],
+                        }),
+                        w.instructionsCollapsed
+                          ? null
+                          : t.jsx(pe, {
+                              tone: e,
+                              orientation: "horizontal",
+                              label: "Resize instructions",
+                              valueNow:
+                                ((w.instructionsHeight ??
+                                  x.current?.clientHeight ??
+                                  0) /
+                                  Math.max(1, f.current?.clientHeight ?? 1)) *
+                                100,
+                              onDrag: C,
+                              onStep: A,
+                              onReset: () => k({ instructionsHeight: null }),
+                            }),
+                      ],
+                    })
+                  : null,
+                ee
+                  ? null
+                  : t.jsxs("div", {
+                      className: `flex items-start gap-2 [&>*:nth-child(n+2)]:min-w-0 ${h && !u ? "max-lg:hidden" : ""}`,
+                      children: [
+                        m
+                          ? null
+                          : h
+                            ? t.jsx("span", {
+                                className: "contents max-lg:hidden",
+                                children: B,
+                              })
+                            : B,
+                        m ? null : Y,
+                        t.jsx("div", { className: "flex-1", children: u }),
+                        m
+                          ? null
+                          : h
+                            ? t.jsx("span", {
+                                className: "contents max-lg:hidden",
+                                children: se,
+                              })
+                            : se,
+                      ],
+                    }),
+                t.jsxs("div", {
+                  ref: y,
+                  className: `flex min-h-0 flex-1 flex-col lg:flex-row lg:gap-0 ${h ? "" : "gap-3"}`,
+                  children: [
+                    t.jsxs("div", {
+                      "data-testid": "lane-editor-pane",
+                      className: `flex min-w-0 flex-col lg:h-auto lg:min-h-0 ${h ? "max-lg:min-h-0 max-lg:shrink-0 max-lg:grow-0 max-lg:basis-[var(--lane-stack)]" : "h-[60dvh] min-h-[320px]"} ${w.outputCollapsed ? "lg:flex-1" : "lg:shrink-0 lg:grow-0 lg:basis-[var(--lane-split)]"}`,
+                      children: [p, w.outputCollapsed ? te : null],
+                    }),
+                    h
+                      ? t.jsx(pe, {
+                          tone: e,
+                          orientation: "horizontal",
+                          label: "Resize editor and output",
+                          narrow: !0,
+                          valueNow: w.stackSplit * 100,
+                          onDrag: z,
+                          onStep: (D) =>
+                            k({
+                              stackSplit: ae(w.stackSplit + D * 0.05, qe, Ke),
+                            }),
+                          onReset: () => k({ stackSplit: oe.stackSplit }),
+                        })
+                      : null,
+                    w.outputCollapsed
+                      ? null
+                      : t.jsx(pe, {
+                          tone: e,
+                          orientation: "vertical",
+                          label: "Resize editor and output",
+                          valueNow: w.split * 100,
+                          onDrag: (D) => R(D),
+                          onStep: (D) =>
+                            k({ split: ae(w.split + D * 0.05, xe, we) }),
+                          onReset: () => k({ split: oe.split }),
+                        }),
+                    t.jsxs("div", {
+                      className: `flex min-h-0 min-w-0 flex-col lg:flex-1 ${h ? "max-lg:flex-1" : ""} ${w.outputCollapsed ? (h ? "lg:hidden" : "hidden") : ""}`,
+                      children: [
+                        t.jsxs("div", {
+                          "data-testid": "lane-output-pane",
+                          className: `flex min-h-0 min-w-0 flex-1 flex-col lg:overflow-y-auto ${h ? "max-lg:overflow-y-auto" : ""} ${w.outputCollapsed ? (h ? "lg:hidden" : "hidden") : ""}`,
+                          children: [
+                            l,
+                            !ee && c
+                              ? t.jsx("div", {
+                                  className:
+                                    "mt-4 flex items-start justify-between gap-2",
+                                  children: c,
+                                })
+                              : null,
+                          ],
+                        }),
+                        w.outputCollapsed ? null : te,
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+      }),
+    ],
+  });
+}
+const rr = [
+  { label: "Tab", name: "Indent", insert: "    " },
+  { label: ":", name: "Colon", insert: ":" },
+  { label: "( )", name: "Brackets", insert: "()", cursor: 1 },
+  { label: '" "', name: "Speech marks", insert: '""', cursor: 1 },
+  { label: "=", name: "Equals", insert: "=" },
+  { label: "[ ]", name: "Square brackets", insert: "[]", cursor: 1 },
+  { label: "+", name: "Plus", insert: "+" },
+  { label: "_", name: "Underscore", insert: "_" },
+];
+function ir(n, e) {
+  const { from: a, to: s } = n.state.selection.main;
+  (n.dispatch({
+    changes: { from: a, to: s, insert: e.insert },
+    selection: { anchor: a + (e.cursor ?? e.insert.length) },
+    scrollIntoView: !0,
+  }),
+    n.focus());
+}
+function or({ viewRef: n }) {
+  return t.jsx("div", {
+    className: "climb-keys",
+    role: "toolbar",
+    "aria-label": "Code keys",
+    "data-climb-keys": !0,
+    children: rr.map((e) =>
+      t.jsx(
+        "button",
+        {
+          type: "button",
+          className: "climb-key",
+          "aria-label": e.name,
+          onPointerDown: (a) => a.preventDefault(),
+          onClick: () => n.current && ir(n.current, e),
+          children: e.label,
+        },
+        e.label,
+      ),
+    ),
+  });
+}
+const lr = 3e3,
+  cr =
+    "Your program ran for too long and was stopped. Check that every loop can finish.",
+  ur = `
+let pyodide = null;
+let pending = null;
+self.onmessage = async (event) => {
+  const message = event.data;
+  if (message.type === 'init') {
+    try {
+      importScripts(message.baseUrl + 'pyodide.js');
+      pyodide = await self.loadPyodide({ indexURL: message.baseUrl });
+      self.postMessage({ type: 'ready' });
+    } catch (error) {
+      self.postMessage({ type: 'failed', message: String(error && error.message || error) });
+    }
+    return;
+  }
+  if (message.type === 'input') {
+    if (pending) { const resolve = pending; pending = null; resolve(message.value); }
+    return;
+  }
+  if (message.type === 'run') {
+    const queue = message.inputs ? message.inputs.slice() : null;
+    let stdout = '';
+    pyodide.setStdout({ batched: (text) => { stdout += text + '\\n'; self.postMessage({ type: 'write', text: text + '\\n' }); } });
+    pyodide.setStderr({ batched: (text) => self.postMessage({ type: 'write', text: text + '\\n' }) });
+    pyodide.setStdin({ stdin: () => '' });
+    self.compSchoolReadInput = (prompt) => {
+      if (queue) {
+        return queue.length ? Promise.resolve(queue.shift()) : Promise.reject(new Error('The test gave all of its input, but the program asked for more.'));
+      }
+      return new Promise((resolve) => {
+        pending = resolve;
+        self.postMessage({ type: 'ask', prompt: String(prompt == null ? '' : prompt) });
+      });
+    };
+    let error = null;
+    try {
+      const result = await pyodide.runPythonAsync(message.code);
+      error = typeof result === 'string' ? result : null;
+    } catch (caught) {
+      error = String(caught && caught.message || caught);
+    }
+    self.postMessage({ type: 'done', stdout, error });
+  }
+};
+`;
+function dr() {
+  const n = new Set();
+  let e = null,
+    a = "loading",
+    s = Promise.resolve(),
+    r = Promise.resolve(),
+    i = !1;
+  const d = (p) => {
+    ((a = p), n.forEach((l) => l(p)));
+  };
+  function c() {
+    const p = URL.createObjectURL(new Blob([ur], { type: "text/javascript" })),
+      l = new Worker(p);
+    (URL.revokeObjectURL(p),
+      (e = l),
+      d("loading"),
+      (s = new Promise((m, h) => {
+        const g = (b) => {
+          b.data.type === "ready"
+            ? (l.removeEventListener("message", g), d("ready"), m())
+            : b.data.type === "failed" &&
+              (l.removeEventListener("message", g),
+              d("error"),
+              h(new Error(b.data.message)));
+        };
+        (l.addEventListener("message", g),
+          l.addEventListener("error", () => {
+            (d("error"), h(new Error("Python did not load.")));
+          }));
+      })),
+      s.catch(() => {}),
+      l.postMessage({ type: "init", baseUrl: nn().pyodideBaseUrl }));
+  }
+  function u(p, l, m) {
+    return s.then(
+      () =>
+        new Promise((h) => {
+          const g = e;
+          let b = null,
+            f = m,
+            y = Date.now();
+          const x = () => {
+              ((y = Date.now()),
+                (b = setTimeout(() => {
+                  (g.removeEventListener("message", j),
+                    g.terminate(),
+                    i || c(),
+                    h({ stdout: "", error: cr, timedOut: !0 }));
+                }, f)));
+            },
+            $ = () => {
+              (b && clearTimeout(b),
+                (b = null),
+                (f = Math.max(0, f - (Date.now() - y))));
+            },
+            j = (T) => {
+              const w = T.data;
+              w.type === "write"
+                ? l.write?.(w.text)
+                : w.type === "ask"
+                  ? ($(),
+                    (l.ask ? l.ask(w.prompt) : Promise.resolve("")).then(
+                      (v) => {
+                        (g.postMessage({ type: "input", value: v }), x());
+                      },
+                    ))
+                  : w.type === "done" &&
+                    ($(),
+                    g.removeEventListener("message", j),
+                    h({ stdout: w.stdout, error: w.error, timedOut: !1 }));
+            };
+          (g.addEventListener("message", j),
+            x(),
+            g.postMessage({
+              type: "run",
+              code: kn(p),
+              inputs: l.inputs ? [...l.inputs] : null,
+            }));
+        }),
+    );
+  }
+  return (
+    c(),
+    {
+      status: () => a,
+      ready: () => s,
+      onStatus(p) {
+        return (n.add(p), () => n.delete(p));
+      },
+      run(p, l = {}, m = lr) {
+        const h = r.then(() => u(p, l, m));
+        return ((r = h.catch(() => {})), h);
+      },
+      dispose() {
+        ((i = !0), e?.terminate(), n.clear());
+      },
+    }
+  );
+}
+const pr = {
+    "animals/fn-count": {
+      swaps: [
+        ["number", "12", "16"],
+        ["number", "16", "14"],
+        ["number", "14", "15"],
+        ["number", "15", "20"],
+        ["number", "20", "25"],
+        ["number", "25", "13"],
+        ["number", "13", "11"],
+        ["number", "11", "12"],
+      ],
+      expected: ["Count: 2"],
+    },
+    "animals/fn-parameter": {
+      swaps: [["text", "snow leopard", "otter"]],
+      expected: ["Next rescue: otter"],
+    },
+    "animals/fn-return": {
+      swaps: [
+        ["number", "12", "16"],
+        ["number", "16", "14"],
+      ],
+      expected: ["30"],
+    },
+    "animals/for-loop": {
+      swaps: [
+        ["text", "otter", "snow leopard"],
+        ["text", "snow leopard", "red panda"],
+        ["text", "red panda", "axolotl"],
+        ["text", "axolotl", "emperor penguin"],
+        ["text", "emperor penguin", "giraffe"],
+        ["text", "giraffe", "koala"],
+        ["text", "koala", "cheetah"],
+        ["text", "cheetah", "otter"],
+      ],
+      expected: [
+        "snow leopard",
+        "red panda",
+        "axolotl",
+        "emperor penguin",
+        "giraffe",
+        "koala",
+        "cheetah",
+        "otter",
+      ],
+    },
+    "animals/for-max": {
+      swaps: [["text", "giraffe", "otter"]],
+      expected: ["otter 25"],
+    },
+    "animals/for-total": {
+      swaps: [["number", "12", "16"]],
+      expected: ["Total lifespan: 130"],
+    },
+    "animals/if-and": { swaps: [["number", "11", "16"]], expected: ["Adopt"] },
+    "animals/if-elif": {
+      swaps: [["number", "15", "12"]],
+      expected: ["Short life"],
+    },
+    "animals/if-else": { swaps: [["number", "11", "16"]], expected: ["Adopt"] },
+    "animals/if-operator": {
+      swaps: [["number", "15", "12"]],
+      expected: ["Not today"],
+    },
+    "animals/io-join": {
+      swaps: [["text", "red panda", "axolotl"]],
+      expected: ["Next rescue: axolotl"],
+    },
+    "animals/io-numbers": {
+      swaps: [
+        ["number", "12", "16"],
+        ["number", "16", "14"],
+      ],
+      expected: ["30"],
+    },
+    "animals/io-variable": {
+      swaps: [["text", "snow leopard", "red panda"]],
+      expected: ["red panda"],
+    },
+    "animals/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "All fed!"],
+    },
+    "animals/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Buckets ready",
+        "2",
+        "1",
+        "All fed!",
+      ],
+    },
+    "arcade/fn-count": {
+      swaps: [
+        ["number", "3350", "1200"],
+        ["number", "1200", "870"],
+        ["number", "870", "4400"],
+        ["number", "4400", "2100"],
+        ["number", "2100", "960"],
+        ["number", "960", "150"],
+        ["number", "150", "2750"],
+        ["number", "2750", "3350"],
+      ],
+      expected: ["Count: 6"],
+    },
+    "arcade/fn-parameter": {
+      swaps: [["text", "Tetris", "Pac-Man"]],
+      expected: ["Now loading: Pac-Man"],
+    },
+    "arcade/fn-return": {
+      swaps: [
+        ["number", "3350", "1200"],
+        ["number", "1200", "870"],
+      ],
+      expected: ["2070"],
+    },
+    "arcade/for-loop": {
+      swaps: [
+        ["text", "Pac-Man", "Tetris"],
+        ["text", "Tetris", "Space Invaders"],
+        ["text", "Space Invaders", "Donkey Kong"],
+        ["text", "Donkey Kong", "Street Fighter II"],
+        ["text", "Street Fighter II", "Dig Dug"],
+        ["text", "Dig Dug", "Pong"],
+        ["text", "Pong", "Asteroids"],
+        ["text", "Asteroids", "Pac-Man"],
+      ],
+      expected: [
+        "Tetris",
+        "Space Invaders",
+        "Donkey Kong",
+        "Street Fighter II",
+        "Dig Dug",
+        "Pong",
+        "Asteroids",
+        "Pac-Man",
+      ],
+    },
+    "arcade/for-max": {
+      swaps: [["text", "Donkey Kong", "Pac-Man"]],
+      expected: ["Pac-Man 4400"],
+    },
+    "arcade/for-total": {
+      swaps: [["number", "3350", "1200"]],
+      expected: ["Total score: 13630"],
+    },
+    "arcade/if-and": {
+      swaps: [["number", "870", "3350"]],
+      expected: ["Play it"],
+    },
+    "arcade/if-elif": {
+      swaps: [["number", "2100", "3350"]],
+      expected: ["High score"],
+    },
+    "arcade/if-else": {
+      swaps: [["number", "150", "3350"]],
+      expected: ["Play it"],
+    },
+    "arcade/if-operator": {
+      swaps: [["number", "2100", "1200"]],
+      expected: ["Skip it"],
+    },
+    "arcade/io-join": {
+      swaps: [["text", "Space Invaders", "Donkey Kong"]],
+      expected: ["Now loading: Donkey Kong"],
+    },
+    "arcade/io-numbers": {
+      swaps: [
+        ["number", "3350", "1200"],
+        ["number", "1200", "870"],
+      ],
+      expected: ["2070"],
+    },
+    "arcade/io-variable": {
+      swaps: [["text", "Tetris", "Space Invaders"]],
+      expected: ["Space Invaders"],
+    },
+    "arcade/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Game over!"],
+    },
+    "arcade/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Last chance",
+        "2",
+        "1",
+        "Game over!",
+      ],
+    },
+    "chef/fn-count": {
+      swaps: [
+        ["number", "120", "95"],
+        ["number", "95", "140"],
+        ["number", "140", "210"],
+        ["number", "210", "160"],
+        ["number", "160", "80"],
+        ["number", "80", "60"],
+        ["number", "60", "110"],
+        ["number", "110", "120"],
+      ],
+      expected: ["Count: 6"],
+    },
+    "chef/fn-parameter": {
+      swaps: [["text", "ramen", "tacos"]],
+      expected: ["Order up: tacos"],
+    },
+    "chef/fn-return": {
+      swaps: [
+        ["number", "120", "95"],
+        ["number", "95", "140"],
+      ],
+      expected: ["235"],
+    },
+    "chef/for-loop": {
+      swaps: [
+        ["text", "tacos", "ramen"],
+        ["text", "ramen", "jollof rice"],
+        ["text", "jollof rice", "pizza"],
+        ["text", "pizza", "jerk chicken"],
+        ["text", "jerk chicken", "sushi"],
+        ["text", "sushi", "paella"],
+        ["text", "paella", "pad thai"],
+        ["text", "pad thai", "tacos"],
+      ],
+      expected: [
+        "ramen",
+        "jollof rice",
+        "pizza",
+        "jerk chicken",
+        "sushi",
+        "paella",
+        "pad thai",
+        "tacos",
+      ],
+    },
+    "chef/for-max": {
+      swaps: [["text", "pizza", "tacos"]],
+      expected: ["tacos 210"],
+    },
+    "chef/for-total": {
+      swaps: [["number", "120", "95"]],
+      expected: ["Total order count: 950"],
+    },
+    "chef/if-and": { swaps: [["number", "110", "120"]], expected: ["Cook it"] },
+    "chef/if-elif": { swaps: [["number", "120", "95"]], expected: ["Special"] },
+    "chef/if-else": { swaps: [["number", "60", "120"]], expected: ["Cook it"] },
+    "chef/if-operator": {
+      swaps: [["number", "120", "95"]],
+      expected: ["Off menu"],
+    },
+    "chef/io-join": {
+      swaps: [["text", "jollof rice", "pizza"]],
+      expected: ["Order up: pizza"],
+    },
+    "chef/io-numbers": {
+      swaps: [
+        ["number", "120", "95"],
+        ["number", "95", "140"],
+      ],
+      expected: ["235"],
+    },
+    "chef/io-variable": {
+      swaps: [["text", "ramen", "jollof rice"]],
+      expected: ["jollof rice"],
+    },
+    "chef/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Kitchen closed!"],
+    },
+    "chef/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Plates warming",
+        "2",
+        "1",
+        "Kitchen closed!",
+      ],
+    },
+    "cyber/fn-count": {
+      swaps: [
+        ["number", "420", "310"],
+        ["number", "310", "580"],
+        ["number", "580", "150"],
+        ["number", "150", "260"],
+        ["number", "260", "90"],
+        ["number", "90", "340"],
+        ["number", "340", "610"],
+        ["number", "610", "420"],
+      ],
+      expected: ["Count: 1"],
+    },
+    "cyber/fn-parameter": {
+      swaps: [["text", "HTTPS", "HTTP"]],
+      expected: ["Scanning: HTTP"],
+    },
+    "cyber/fn-return": {
+      swaps: [
+        ["number", "420", "310"],
+        ["number", "310", "580"],
+      ],
+      expected: ["890"],
+    },
+    "cyber/for-loop": {
+      swaps: [
+        ["text", "HTTP", "HTTPS"],
+        ["text", "HTTPS", "SSH"],
+        ["text", "SSH", "FTP"],
+        ["text", "FTP", "DNS"],
+        ["text", "DNS", "SMTP"],
+        ["text", "SMTP", "IMAP"],
+        ["text", "IMAP", "Telnet"],
+        ["text", "Telnet", "HTTP"],
+      ],
+      expected: [
+        "HTTPS",
+        "SSH",
+        "FTP",
+        "DNS",
+        "SMTP",
+        "IMAP",
+        "Telnet",
+        "HTTP",
+      ],
+    },
+    "cyber/for-max": {
+      swaps: [["text", "Telnet", "HTTP"]],
+      expected: ["HTTP 610"],
+    },
+    "cyber/for-total": {
+      swaps: [["number", "420", "310"]],
+      expected: ["Total attack count: 2650"],
+    },
+    "cyber/if-and": { swaps: [["number", "90", "420"]], expected: ["Flag it"] },
+    "cyber/if-elif": {
+      swaps: [["number", "340", "580"]],
+      expected: ["High risk"],
+    },
+    "cyber/if-else": {
+      swaps: [["number", "90", "420"]],
+      expected: ["Flag it"],
+    },
+    "cyber/if-operator": {
+      swaps: [["number", "340", "310"]],
+      expected: ["Ignore it"],
+    },
+    "cyber/io-join": {
+      swaps: [["text", "SSH", "FTP"]],
+      expected: ["Scanning: FTP"],
+    },
+    "cyber/io-numbers": {
+      swaps: [
+        ["number", "420", "310"],
+        ["number", "310", "580"],
+      ],
+      expected: ["890"],
+    },
+    "cyber/io-variable": {
+      swaps: [["text", "HTTPS", "SSH"]],
+      expected: ["SSH"],
+    },
+    "cyber/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Firewall up!"],
+    },
+    "cyber/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Breach close",
+        "2",
+        "1",
+        "Firewall up!",
+      ],
+    },
+    "deep-sea/fn-count": {
+      swaps: [
+        ["number", "150", "250"],
+        ["number", "250", "40"],
+        ["number", "40", "1800"],
+        ["number", "1800", "120"],
+        ["number", "120", "900"],
+        ["number", "900", "20"],
+        ["number", "20", "300"],
+        ["number", "300", "150"],
+      ],
+      expected: ["Count: 7"],
+    },
+    "deep-sea/fn-parameter": {
+      swaps: [["text", "great white shark", "blue whale"]],
+      expected: ["Diving to: blue whale"],
+    },
+    "deep-sea/fn-return": {
+      swaps: [
+        ["number", "150", "250"],
+        ["number", "250", "40"],
+      ],
+      expected: ["290"],
+    },
+    "deep-sea/for-loop": {
+      swaps: [
+        ["text", "blue whale", "great white shark"],
+        ["text", "great white shark", "common octopus"],
+        ["text", "common octopus", "anglerfish"],
+        ["text", "anglerfish", "manta ray"],
+        ["text", "manta ray", "leatherback turtle"],
+        ["text", "leatherback turtle", "moon jellyfish"],
+        ["text", "moon jellyfish", "orca"],
+        ["text", "orca", "blue whale"],
+      ],
+      expected: [
+        "great white shark",
+        "common octopus",
+        "anglerfish",
+        "manta ray",
+        "leatherback turtle",
+        "moon jellyfish",
+        "orca",
+        "blue whale",
+      ],
+    },
+    "deep-sea/for-max": {
+      swaps: [["text", "anglerfish", "blue whale"]],
+      expected: ["blue whale 1800"],
+    },
+    "deep-sea/for-total": {
+      swaps: [["number", "150", "250"]],
+      expected: ["Total depth: 3680"],
+    },
+    "deep-sea/if-and": {
+      swaps: [["number", "150", "250"]],
+      expected: ["Film it"],
+    },
+    "deep-sea/if-elif": {
+      swaps: [["number", "250", "40"]],
+      expected: ["Sunlit zone"],
+    },
+    "deep-sea/if-else": {
+      swaps: [["number", "20", "250"]],
+      expected: ["Film it"],
+    },
+    "deep-sea/if-operator": {
+      swaps: [["number", "250", "150"]],
+      expected: ["Swim on"],
+    },
+    "deep-sea/io-join": {
+      swaps: [["text", "common octopus", "anglerfish"]],
+      expected: ["Diving to: anglerfish"],
+    },
+    "deep-sea/io-numbers": {
+      swaps: [
+        ["number", "150", "250"],
+        ["number", "250", "40"],
+      ],
+      expected: ["290"],
+    },
+    "deep-sea/io-variable": {
+      swaps: [["text", "great white shark", "common octopus"]],
+      expected: ["common octopus"],
+    },
+    "deep-sea/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Back on deck!"],
+    },
+    "deep-sea/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Check your gauge",
+        "2",
+        "1",
+        "Back on deck!",
+      ],
+    },
+    "detective/fn-count": {
+      swaps: [
+        ["number", "60", "85"],
+        ["number", "85", "40"],
+        ["number", "40", "55"],
+        ["number", "55", "30"],
+        ["number", "30", "12"],
+        ["number", "12", "90"],
+        ["number", "90", "25"],
+        ["number", "25", "60"],
+      ],
+      expected: ["Count: 6"],
+    },
+    "detective/fn-parameter": {
+      swaps: [["text", "Hercule Poirot", "Sherlock Holmes"]],
+      expected: ["On the case: Sherlock Holmes"],
+    },
+    "detective/fn-return": {
+      swaps: [
+        ["number", "60", "85"],
+        ["number", "85", "40"],
+      ],
+      expected: ["125"],
+    },
+    "detective/for-loop": {
+      swaps: [
+        ["text", "Sherlock Holmes", "Hercule Poirot"],
+        ["text", "Hercule Poirot", "Miss Marple"],
+        ["text", "Miss Marple", "Nancy Drew"],
+        ["text", "Nancy Drew", "Inspector Morse"],
+        ["text", "Inspector Morse", "Enola Holmes"],
+        ["text", "Enola Holmes", "Father Brown"],
+        ["text", "Father Brown", "Sam Spade"],
+        ["text", "Sam Spade", "Sherlock Holmes"],
+      ],
+      expected: [
+        "Hercule Poirot",
+        "Miss Marple",
+        "Nancy Drew",
+        "Inspector Morse",
+        "Enola Holmes",
+        "Father Brown",
+        "Sam Spade",
+        "Sherlock Holmes",
+      ],
+    },
+    "detective/for-max": {
+      swaps: [["text", "Father Brown", "Sherlock Holmes"]],
+      expected: ["Sherlock Holmes 90"],
+    },
+    "detective/for-total": {
+      swaps: [["number", "60", "85"]],
+      expected: ["Total case count: 422"],
+    },
+    "detective/if-and": { swaps: [["number", "40", "60"]], expected: ["Hire"] },
+    "detective/if-elif": {
+      swaps: [["number", "55", "85"]],
+      expected: ["Mastermind"],
+    },
+    "detective/if-else": {
+      swaps: [["number", "12", "60"]],
+      expected: ["Hire"],
+    },
+    "detective/if-operator": {
+      swaps: [["number", "55", "40"]],
+      expected: ["Pass"],
+    },
+    "detective/io-join": {
+      swaps: [["text", "Miss Marple", "Nancy Drew"]],
+      expected: ["On the case: Nancy Drew"],
+    },
+    "detective/io-numbers": {
+      swaps: [
+        ["number", "60", "85"],
+        ["number", "85", "40"],
+      ],
+      expected: ["125"],
+    },
+    "detective/io-variable": {
+      swaps: [["text", "Hercule Poirot", "Miss Marple"]],
+      expected: ["Miss Marple"],
+    },
+    "detective/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Case closed!"],
+    },
+    "detective/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Closing in",
+        "2",
+        "1",
+        "Case closed!",
+      ],
+    },
+    "music/fn-count": {
+      swaps: [
+        ["number", "14", "21"],
+        ["number", "21", "72"],
+        ["number", "72", "31"],
+        ["number", "31", "95"],
+        ["number", "95", "88"],
+        ["number", "88", "11"],
+        ["number", "11", "26"],
+        ["number", "26", "14"],
+      ],
+      expected: ["Count: 1"],
+    },
+    "music/fn-parameter": {
+      swaps: [["text", "Raye", "Stormzy"]],
+      expected: ["Now playing: Stormzy"],
+    },
+    "music/fn-return": {
+      swaps: [
+        ["number", "14", "21"],
+        ["number", "21", "72"],
+      ],
+      expected: ["93"],
+    },
+    "music/for-loop": {
+      swaps: [
+        ["text", "Stormzy", "Raye"],
+        ["text", "Raye", "Dua Lipa"],
+        ["text", "Dua Lipa", "Burna Boy"],
+        ["text", "Burna Boy", "Taylor Swift"],
+        ["text", "Taylor Swift", "Ed Sheeran"],
+        ["text", "Ed Sheeran", "Dave"],
+        ["text", "Dave", "Central Cee"],
+        ["text", "Central Cee", "Stormzy"],
+      ],
+      expected: [
+        "Raye",
+        "Dua Lipa",
+        "Burna Boy",
+        "Taylor Swift",
+        "Ed Sheeran",
+        "Dave",
+        "Central Cee",
+        "Stormzy",
+      ],
+    },
+    "music/for-max": {
+      swaps: [["text", "Taylor Swift", "Stormzy"]],
+      expected: ["Stormzy 95"],
+    },
+    "music/for-total": {
+      swaps: [["number", "14", "21"]],
+      expected: ["Total listener count: 365"],
+    },
+    "music/if-and": {
+      swaps: [["number", "21", "72"]],
+      expected: ["Book them"],
+    },
+    "music/if-elif": {
+      swaps: [["number", "31", "14"]],
+      expected: ["Warm-up act"],
+    },
+    "music/if-else": {
+      swaps: [["number", "11", "72"]],
+      expected: ["Book them"],
+    },
+    "music/if-operator": {
+      swaps: [["number", "31", "14"]],
+      expected: ["Pass"],
+    },
+    "music/io-join": {
+      swaps: [["text", "Dua Lipa", "Burna Boy"]],
+      expected: ["Now playing: Burna Boy"],
+    },
+    "music/io-numbers": {
+      swaps: [
+        ["number", "14", "21"],
+        ["number", "21", "72"],
+      ],
+      expected: ["93"],
+    },
+    "music/io-variable": {
+      swaps: [["text", "Raye", "Dua Lipa"]],
+      expected: ["Dua Lipa"],
+    },
+    "music/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Encore!"],
+    },
+    "music/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "Lighters up", "2", "1", "Encore!"],
+    },
+    "ninja/fn-count": {
+      swaps: [
+        ["number", "45", "60"],
+        ["number", "60", "50"],
+        ["number", "50", "90"],
+        ["number", "90", "30"],
+        ["number", "30", "75"],
+        ["number", "75", "40"],
+        ["number", "40", "55"],
+        ["number", "55", "45"],
+      ],
+      expected: ["Count: 6"],
+    },
+    "ninja/fn-parameter": {
+      swaps: [["text", "judo", "karate"]],
+      expected: ["Training: karate"],
+    },
+    "ninja/fn-return": {
+      swaps: [
+        ["number", "45", "60"],
+        ["number", "60", "50"],
+      ],
+      expected: ["110"],
+    },
+    "ninja/for-loop": {
+      swaps: [
+        ["text", "karate", "judo"],
+        ["text", "judo", "taekwondo"],
+        ["text", "taekwondo", "kung fu"],
+        ["text", "kung fu", "aikido"],
+        ["text", "aikido", "jiu-jitsu"],
+        ["text", "jiu-jitsu", "kendo"],
+        ["text", "kendo", "kyudo"],
+        ["text", "kyudo", "karate"],
+      ],
+      expected: [
+        "judo",
+        "taekwondo",
+        "kung fu",
+        "aikido",
+        "jiu-jitsu",
+        "kendo",
+        "kyudo",
+        "karate",
+      ],
+    },
+    "ninja/for-max": {
+      swaps: [["text", "kung fu", "karate"]],
+      expected: ["karate 90"],
+    },
+    "ninja/for-total": {
+      swaps: [["number", "45", "60"]],
+      expected: ["Total training time: 460"],
+    },
+    "ninja/if-and": { swaps: [["number", "45", "60"]], expected: ["Train"] },
+    "ninja/if-elif": {
+      swaps: [["number", "55", "45"]],
+      expected: ["White belt"],
+    },
+    "ninja/if-else": { swaps: [["number", "30", "60"]], expected: ["Train"] },
+    "ninja/if-operator": {
+      swaps: [["number", "55", "45"]],
+      expected: ["Rest"],
+    },
+    "ninja/io-join": {
+      swaps: [["text", "taekwondo", "kung fu"]],
+      expected: ["Training: kung fu"],
+    },
+    "ninja/io-numbers": {
+      swaps: [
+        ["number", "45", "60"],
+        ["number", "60", "50"],
+      ],
+      expected: ["110"],
+    },
+    "ninja/io-variable": {
+      swaps: [["text", "judo", "taekwondo"]],
+      expected: ["taekwondo"],
+    },
+    "ninja/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Dojo closed!"],
+    },
+    "ninja/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Final lanterns",
+        "2",
+        "1",
+        "Dojo closed!",
+      ],
+    },
+    "racing/fn-count": {
+      swaps: [
+        ["number", "240", "310"],
+        ["number", "310", "330"],
+        ["number", "330", "220"],
+        ["number", "220", "60"],
+        ["number", "60", "290"],
+        ["number", "290", "250"],
+        ["number", "250", "90"],
+        ["number", "90", "240"],
+      ],
+      expected: ["Count: 7"],
+    },
+    "racing/fn-parameter": {
+      swaps: [["text", "Max Verstappen", "Lewis Hamilton"]],
+      expected: ["On pole: Lewis Hamilton"],
+    },
+    "racing/fn-return": {
+      swaps: [
+        ["number", "240", "310"],
+        ["number", "310", "330"],
+      ],
+      expected: ["640"],
+    },
+    "racing/for-loop": {
+      swaps: [
+        ["text", "Lewis Hamilton", "Max Verstappen"],
+        ["text", "Max Verstappen", "Lando Norris"],
+        ["text", "Lando Norris", "Charles Leclerc"],
+        ["text", "Charles Leclerc", "Fernando Alonso"],
+        ["text", "Fernando Alonso", "Oscar Piastri"],
+        ["text", "Oscar Piastri", "George Russell"],
+        ["text", "George Russell", "Carlos Sainz"],
+        ["text", "Carlos Sainz", "Lewis Hamilton"],
+      ],
+      expected: [
+        "Max Verstappen",
+        "Lando Norris",
+        "Charles Leclerc",
+        "Fernando Alonso",
+        "Oscar Piastri",
+        "George Russell",
+        "Carlos Sainz",
+        "Lewis Hamilton",
+      ],
+    },
+    "racing/for-max": {
+      swaps: [["text", "Lando Norris", "Lewis Hamilton"]],
+      expected: ["Lewis Hamilton 330"],
+    },
+    "racing/for-total": {
+      swaps: [["number", "240", "310"]],
+      expected: ["Total score: 1860"],
+    },
+    "racing/if-and": {
+      swaps: [["number", "240", "310"]],
+      expected: ["Sign them"],
+    },
+    "racing/if-elif": {
+      swaps: [["number", "250", "310"]],
+      expected: ["Title fight"],
+    },
+    "racing/if-else": {
+      swaps: [["number", "60", "310"]],
+      expected: ["Sign them"],
+    },
+    "racing/if-operator": {
+      swaps: [["number", "250", "240"]],
+      expected: ["Not this year"],
+    },
+    "racing/io-join": {
+      swaps: [["text", "Lando Norris", "Charles Leclerc"]],
+      expected: ["On pole: Charles Leclerc"],
+    },
+    "racing/io-numbers": {
+      swaps: [
+        ["number", "240", "310"],
+        ["number", "310", "330"],
+      ],
+      expected: ["640"],
+    },
+    "racing/io-variable": {
+      swaps: [["text", "Max Verstappen", "Lando Norris"]],
+      expected: ["Lando Norris"],
+    },
+    "racing/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Chequered flag!"],
+    },
+    "racing/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Box, box",
+        "2",
+        "1",
+        "Chequered flag!",
+      ],
+    },
+    "skate/fn-count": {
+      swaps: [
+        ["number", "96", "89"],
+        ["number", "89", "93"],
+        ["number", "93", "91"],
+        ["number", "91", "82"],
+        ["number", "82", "94"],
+        ["number", "94", "87"],
+        ["number", "87", "79"],
+        ["number", "79", "96"],
+      ],
+      expected: ["Count: 7"],
+    },
+    "skate/fn-parameter": {
+      swaps: [["text", "Sky Brown", "Tony Hawk"]],
+      expected: ["Dropping in: Tony Hawk"],
+    },
+    "skate/fn-return": {
+      swaps: [
+        ["number", "96", "89"],
+        ["number", "89", "93"],
+      ],
+      expected: ["182"],
+    },
+    "skate/for-loop": {
+      swaps: [
+        ["text", "Tony Hawk", "Sky Brown"],
+        ["text", "Sky Brown", "Nyjah Huston"],
+        ["text", "Nyjah Huston", "Rayssa Leal"],
+        ["text", "Rayssa Leal", "Leticia Bufoni"],
+        ["text", "Leticia Bufoni", "Yuto Horigome"],
+        ["text", "Yuto Horigome", "Momiji Nishiya"],
+        ["text", "Momiji Nishiya", "Rodney Mullen"],
+        ["text", "Rodney Mullen", "Tony Hawk"],
+      ],
+      expected: [
+        "Sky Brown",
+        "Nyjah Huston",
+        "Rayssa Leal",
+        "Leticia Bufoni",
+        "Yuto Horigome",
+        "Momiji Nishiya",
+        "Rodney Mullen",
+        "Tony Hawk",
+      ],
+    },
+    "skate/for-max": {
+      swaps: [["text", "Tony Hawk", "Sky Brown"]],
+      expected: ["Sky Brown 96"],
+    },
+    "skate/for-total": {
+      swaps: [["number", "96", "89"]],
+      expected: ["Total score: 704"],
+    },
+    "skate/if-and": { swaps: [["number", "87", "96"]], expected: ["Invite"] },
+    "skate/if-elif": { swaps: [["number", "91", "96"]], expected: ["Podium"] },
+    "skate/if-else": { swaps: [["number", "79", "96"]], expected: ["Invite"] },
+    "skate/if-operator": {
+      swaps: [["number", "91", "89"]],
+      expected: ["Pass"],
+    },
+    "skate/io-join": {
+      swaps: [["text", "Nyjah Huston", "Rayssa Leal"]],
+      expected: ["Dropping in: Rayssa Leal"],
+    },
+    "skate/io-numbers": {
+      swaps: [
+        ["number", "96", "89"],
+        ["number", "89", "93"],
+      ],
+      expected: ["182"],
+    },
+    "skate/io-variable": {
+      swaps: [["text", "Sky Brown", "Nyjah Huston"]],
+      expected: ["Nyjah Huston"],
+    },
+    "skate/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Session over!"],
+    },
+    "skate/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Last run coming",
+        "2",
+        "1",
+        "Session over!",
+      ],
+    },
+    "sneakers/fn-count": {
+      swaps: [
+        ["number", "110", "90"],
+        ["number", "90", "65"],
+        ["number", "65", "150"],
+        ["number", "150", "70"],
+        ["number", "70", "125"],
+        ["number", "125", "135"],
+        ["number", "135", "100"],
+        ["number", "100", "110"],
+      ],
+      expected: ["Count: 6"],
+    },
+    "sneakers/fn-parameter": {
+      swaps: [["text", "Stan Smith", "Air Force 1"]],
+      expected: ["Dropping today: Air Force 1"],
+    },
+    "sneakers/fn-return": {
+      swaps: [
+        ["number", "110", "90"],
+        ["number", "90", "65"],
+      ],
+      expected: ["155"],
+    },
+    "sneakers/for-loop": {
+      swaps: [
+        ["text", "Air Force 1", "Stan Smith"],
+        ["text", "Stan Smith", "Chuck Taylor All Star"],
+        ["text", "Chuck Taylor All Star", "Air Jordan 1"],
+        ["text", "Air Jordan 1", "Old Skool"],
+        ["text", "Old Skool", "Superstar"],
+        ["text", "Superstar", "Air Max 90"],
+        ["text", "Air Max 90", "Gel-Lyte III"],
+        ["text", "Gel-Lyte III", "Air Force 1"],
+      ],
+      expected: [
+        "Stan Smith",
+        "Chuck Taylor All Star",
+        "Air Jordan 1",
+        "Old Skool",
+        "Superstar",
+        "Air Max 90",
+        "Gel-Lyte III",
+        "Air Force 1",
+      ],
+    },
+    "sneakers/for-max": {
+      swaps: [["text", "Air Jordan 1", "Air Force 1"]],
+      expected: ["Air Force 1 150"],
+    },
+    "sneakers/for-total": {
+      swaps: [["number", "110", "90"]],
+      expected: ["Total price: 825"],
+    },
+    "sneakers/if-and": { swaps: [["number", "90", "110"]], expected: ["Cop"] },
+    "sneakers/if-elif": {
+      swaps: [["number", "110", "90"]],
+      expected: ["Everyday"],
+    },
+    "sneakers/if-else": { swaps: [["number", "65", "110"]], expected: ["Cop"] },
+    "sneakers/if-operator": {
+      swaps: [["number", "110", "90"]],
+      expected: ["Drop"],
+    },
+    "sneakers/io-join": {
+      swaps: [["text", "Chuck Taylor All Star", "Air Jordan 1"]],
+      expected: ["Dropping today: Air Jordan 1"],
+    },
+    "sneakers/io-numbers": {
+      swaps: [
+        ["number", "110", "90"],
+        ["number", "90", "65"],
+      ],
+      expected: ["155"],
+    },
+    "sneakers/io-variable": {
+      swaps: [["text", "Stan Smith", "Chuck Taylor All Star"]],
+      expected: ["Chuck Taylor All Star"],
+    },
+    "sneakers/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Sold out!"],
+    },
+    "sneakers/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "Almost gone", "2", "1", "Sold out!"],
+    },
+    "space/fn-count": {
+      swaps: [
+        ["number", "111", "70"],
+        ["number", "70", "121"],
+        ["number", "121", "105"],
+        ["number", "105", "46"],
+        ["number", "46", "18"],
+        ["number", "18", "98"],
+        ["number", "98", "57"],
+        ["number", "57", "111"],
+      ],
+      expected: ["Count: 6"],
+    },
+    "space/fn-parameter": {
+      swaps: [["text", "Falcon 9", "Saturn V"]],
+      expected: ["Next launch: Saturn V"],
+    },
+    "space/fn-return": {
+      swaps: [
+        ["number", "111", "70"],
+        ["number", "70", "121"],
+      ],
+      expected: ["191"],
+    },
+    "space/for-loop": {
+      swaps: [
+        ["text", "Saturn V", "Falcon 9"],
+        ["text", "Falcon 9", "Starship"],
+        ["text", "Starship", "N1"],
+        ["text", "N1", "Soyuz"],
+        ["text", "Soyuz", "Electron"],
+        ["text", "Electron", "New Glenn"],
+        ["text", "New Glenn", "Long March 5"],
+        ["text", "Long March 5", "Saturn V"],
+      ],
+      expected: [
+        "Falcon 9",
+        "Starship",
+        "N1",
+        "Soyuz",
+        "Electron",
+        "New Glenn",
+        "Long March 5",
+        "Saturn V",
+      ],
+    },
+    "space/for-max": {
+      swaps: [["text", "Starship", "Saturn V"]],
+      expected: ["Saturn V 121"],
+    },
+    "space/for-total": {
+      swaps: [["number", "111", "70"]],
+      expected: ["Total height: 585"],
+    },
+    "space/if-and": {
+      swaps: [["number", "70", "111"]],
+      expected: ["Cleared to launch"],
+    },
+    "space/if-elif": {
+      swaps: [["number", "98", "111"]],
+      expected: ["Super tall"],
+    },
+    "space/if-else": {
+      swaps: [["number", "18", "111"]],
+      expected: ["Cleared to launch"],
+    },
+    "space/if-operator": {
+      swaps: [["number", "98", "70"]],
+      expected: ["Scrub"],
+    },
+    "space/io-join": {
+      swaps: [["text", "Starship", "N1"]],
+      expected: ["Next launch: N1"],
+    },
+    "space/io-numbers": {
+      swaps: [
+        ["number", "111", "70"],
+        ["number", "70", "121"],
+      ],
+      expected: ["191"],
+    },
+    "space/io-variable": {
+      swaps: [["text", "Falcon 9", "Starship"]],
+      expected: ["Starship"],
+    },
+    "space/while-countdown": {
+      swaps: [["number", "10", "12"]],
+      expected: [
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "2",
+        "1",
+        "Lift-off!",
+      ],
+    },
+    "space/while-if": {
+      swaps: [["number", "10", "12"]],
+      expected: [
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Engines on",
+        "2",
+        "1",
+        "Lift-off!",
+      ],
+    },
+    "spells/fn-count": {
+      swaps: [
+        ["number", "900", "750"],
+        ["number", "750", "400"],
+        ["number", "400", "520"],
+        ["number", "520", "610"],
+        ["number", "610", "350"],
+        ["number", "350", "480"],
+        ["number", "480", "820"],
+        ["number", "820", "900"],
+      ],
+      expected: ["Count: 8"],
+    },
+    "spells/fn-parameter": {
+      swaps: [["text", "phoenix", "dragon"]],
+      expected: ["Summoning: dragon"],
+    },
+    "spells/fn-return": {
+      swaps: [
+        ["number", "900", "750"],
+        ["number", "750", "400"],
+      ],
+      expected: ["1150"],
+    },
+    "spells/for-loop": {
+      swaps: [
+        ["text", "dragon", "phoenix"],
+        ["text", "phoenix", "unicorn"],
+        ["text", "unicorn", "griffin"],
+        ["text", "griffin", "kraken"],
+        ["text", "kraken", "pegasus"],
+        ["text", "pegasus", "basilisk"],
+        ["text", "basilisk", "hydra"],
+        ["text", "hydra", "dragon"],
+      ],
+      expected: [
+        "phoenix",
+        "unicorn",
+        "griffin",
+        "kraken",
+        "pegasus",
+        "basilisk",
+        "hydra",
+        "dragon",
+      ],
+    },
+    "spells/for-max": {
+      swaps: [["text", "dragon", "phoenix"]],
+      expected: ["phoenix 900"],
+    },
+    "spells/for-total": {
+      swaps: [["number", "900", "750"]],
+      expected: ["Total mana: 4680"],
+    },
+    "spells/if-and": {
+      swaps: [["number", "520", "900"]],
+      expected: ["Summon"],
+    },
+    "spells/if-elif": {
+      swaps: [["number", "610", "900"]],
+      expected: ["Legendary"],
+    },
+    "spells/if-else": {
+      swaps: [["number", "350", "900"]],
+      expected: ["Summon"],
+    },
+    "spells/if-operator": {
+      swaps: [["number", "610", "400"]],
+      expected: ["Dismiss"],
+    },
+    "spells/io-join": {
+      swaps: [["text", "unicorn", "griffin"]],
+      expected: ["Summoning: griffin"],
+    },
+    "spells/io-numbers": {
+      swaps: [
+        ["number", "900", "750"],
+        ["number", "750", "400"],
+      ],
+      expected: ["1150"],
+    },
+    "spells/io-variable": {
+      swaps: [["text", "phoenix", "unicorn"]],
+      expected: ["unicorn"],
+    },
+    "spells/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Spell cast!"],
+    },
+    "spells/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Wand ready",
+        "2",
+        "1",
+        "Spell cast!",
+      ],
+    },
+    "sports/fn-count": {
+      swaps: [
+        ["number", "13", "20"],
+        ["number", "20", "10"],
+        ["number", "10", "6"],
+        ["number", "6", "2"],
+        ["number", "2", "9"],
+        ["number", "9", "7"],
+        ["number", "7", "4"],
+        ["number", "4", "13"],
+      ],
+      expected: ["Count: 5"],
+    },
+    "sports/fn-parameter": {
+      swaps: [["text", "Liverpool", "Arsenal"]],
+      expected: ["Kick-off: Arsenal"],
+    },
+    "sports/fn-return": {
+      swaps: [
+        ["number", "13", "20"],
+        ["number", "20", "10"],
+      ],
+      expected: ["30"],
+    },
+    "sports/for-loop": {
+      swaps: [
+        ["text", "Arsenal", "Liverpool"],
+        ["text", "Liverpool", "Manchester City"],
+        ["text", "Manchester City", "Chelsea"],
+        ["text", "Chelsea", "Tottenham"],
+        ["text", "Tottenham", "Everton"],
+        ["text", "Everton", "Aston Villa"],
+        ["text", "Aston Villa", "Newcastle"],
+        ["text", "Newcastle", "Arsenal"],
+      ],
+      expected: [
+        "Liverpool",
+        "Manchester City",
+        "Chelsea",
+        "Tottenham",
+        "Everton",
+        "Aston Villa",
+        "Newcastle",
+        "Arsenal",
+      ],
+    },
+    "sports/for-max": {
+      swaps: [["text", "Liverpool", "Arsenal"]],
+      expected: ["Arsenal 20"],
+    },
+    "sports/for-total": {
+      swaps: [["number", "13", "20"]],
+      expected: ["Total title count: 78"],
+    },
+    "sports/if-and": {
+      swaps: [["number", "6", "13"]],
+      expected: ["Sign them"],
+    },
+    "sports/if-elif": { swaps: [["number", "9", "13"]], expected: ["Giants"] },
+    "sports/if-else": {
+      swaps: [["number", "2", "13"]],
+      expected: ["Sign them"],
+    },
+    "sports/if-operator": { swaps: [["number", "9", "6"]], expected: ["Pass"] },
+    "sports/io-join": {
+      swaps: [["text", "Manchester City", "Chelsea"]],
+      expected: ["Kick-off: Chelsea"],
+    },
+    "sports/io-numbers": {
+      swaps: [
+        ["number", "13", "20"],
+        ["number", "20", "10"],
+      ],
+      expected: ["30"],
+    },
+    "sports/io-variable": {
+      swaps: [["text", "Liverpool", "Manchester City"]],
+      expected: ["Manchester City"],
+    },
+    "sports/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Full time!"],
+    },
+    "sports/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "Final push", "2", "1", "Full time!"],
+    },
+    "streamer/fn-count": {
+      swaps: [
+        ["number", "4200", "3800"],
+        ["number", "3800", "2900"],
+        ["number", "2900", "1500"],
+        ["number", "1500", "900"],
+        ["number", "900", "2100"],
+        ["number", "2100", "3300"],
+        ["number", "3300", "700"],
+        ["number", "700", "4200"],
+      ],
+      expected: ["Count: 6"],
+    },
+    "streamer/fn-parameter": {
+      swaps: [["text", "Fortnite", "Minecraft"]],
+      expected: ["Going live with: Minecraft"],
+    },
+    "streamer/fn-return": {
+      swaps: [
+        ["number", "4200", "3800"],
+        ["number", "3800", "2900"],
+      ],
+      expected: ["6700"],
+    },
+    "streamer/for-loop": {
+      swaps: [
+        ["text", "Minecraft", "Fortnite"],
+        ["text", "Fortnite", "Roblox"],
+        ["text", "Roblox", "Rocket League"],
+        ["text", "Rocket League", "Among Us"],
+        ["text", "Among Us", "Mario Kart 8"],
+        ["text", "Mario Kart 8", "EA Sports FC"],
+        ["text", "EA Sports FC", "Terraria"],
+        ["text", "Terraria", "Minecraft"],
+      ],
+      expected: [
+        "Fortnite",
+        "Roblox",
+        "Rocket League",
+        "Among Us",
+        "Mario Kart 8",
+        "EA Sports FC",
+        "Terraria",
+        "Minecraft",
+      ],
+    },
+    "streamer/for-max": {
+      swaps: [["text", "Minecraft", "Fortnite"]],
+      expected: ["Fortnite 4200"],
+    },
+    "streamer/for-total": {
+      swaps: [["number", "4200", "3800"]],
+      expected: ["Total viewer count: 19000"],
+    },
+    "streamer/if-and": {
+      swaps: [["number", "700", "4200"]],
+      expected: ["Stream it"],
+    },
+    "streamer/if-elif": {
+      swaps: [["number", "2900", "4200"]],
+      expected: ["Trending"],
+    },
+    "streamer/if-else": {
+      swaps: [["number", "700", "4200"]],
+      expected: ["Stream it"],
+    },
+    "streamer/if-operator": {
+      swaps: [["number", "2900", "1500"]],
+      expected: ["Skip it"],
+    },
+    "streamer/io-join": {
+      swaps: [["text", "Roblox", "Rocket League"]],
+      expected: ["Going live with: Rocket League"],
+    },
+    "streamer/io-numbers": {
+      swaps: [
+        ["number", "4200", "3800"],
+        ["number", "3800", "2900"],
+      ],
+      expected: ["6700"],
+    },
+    "streamer/io-variable": {
+      swaps: [["text", "Fortnite", "Roblox"]],
+      expected: ["Roblox"],
+    },
+    "streamer/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "We are live!"],
+    },
+    "streamer/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Mic check",
+        "2",
+        "1",
+        "We are live!",
+      ],
+    },
+    "zombie/fn-count": {
+      swaps: [
+        ["number", "300", "1500"],
+        ["number", "1500", "800"],
+        ["number", "800", "600"],
+        ["number", "600", "400"],
+        ["number", "400", "2000"],
+        ["number", "2000", "1000"],
+        ["number", "1000", "100"],
+        ["number", "100", "300"],
+      ],
+      expected: ["Count: 5"],
+    },
+    "zombie/fn-parameter": {
+      swaps: [["text", "crowbar", "torch"]],
+      expected: ["Packing: torch"],
+    },
+    "zombie/fn-return": {
+      swaps: [
+        ["number", "300", "1500"],
+        ["number", "1500", "800"],
+      ],
+      expected: ["2300"],
+    },
+    "zombie/for-loop": {
+      swaps: [
+        ["text", "torch", "crowbar"],
+        ["text", "crowbar", "first aid kit"],
+        ["text", "first aid kit", "radio"],
+        ["text", "radio", "tinned beans"],
+        ["text", "tinned beans", "rope"],
+        ["text", "rope", "water bottle"],
+        ["text", "water bottle", "map"],
+        ["text", "map", "torch"],
+      ],
+      expected: [
+        "crowbar",
+        "first aid kit",
+        "radio",
+        "tinned beans",
+        "rope",
+        "water bottle",
+        "map",
+        "torch",
+      ],
+    },
+    "zombie/for-max": {
+      swaps: [["text", "rope", "torch"]],
+      expected: ["torch 2000"],
+    },
+    "zombie/for-total": {
+      swaps: [["number", "300", "1500"]],
+      expected: ["Total weight: 7900"],
+    },
+    "zombie/if-and": {
+      swaps: [["number", "100", "1500"]],
+      expected: ["Pack it"],
+    },
+    "zombie/if-elif": {
+      swaps: [["number", "800", "300"]],
+      expected: ["Light"],
+    },
+    "zombie/if-else": {
+      swaps: [["number", "100", "1500"]],
+      expected: ["Pack it"],
+    },
+    "zombie/if-operator": {
+      swaps: [["number", "800", "300"]],
+      expected: ["Leave it"],
+    },
+    "zombie/io-join": {
+      swaps: [["text", "first aid kit", "radio"]],
+      expected: ["Packing: radio"],
+    },
+    "zombie/io-numbers": {
+      swaps: [
+        ["number", "300", "1500"],
+        ["number", "1500", "800"],
+      ],
+      expected: ["2300"],
+    },
+    "zombie/io-variable": {
+      swaps: [["text", "crowbar", "first aid kit"]],
+      expected: ["first aid kit"],
+    },
+    "zombie/while-countdown": {
+      swaps: [["number", "5", "7"]],
+      expected: ["7", "6", "5", "4", "3", "2", "1", "Gate secured!"],
+    },
+    "zombie/while-if": {
+      swaps: [["number", "5", "7"]],
+      expected: [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3",
+        "Brace the door",
+        "2",
+        "1",
+        "Gate secured!",
+      ],
+    },
+  },
+  hr = /^([rRbBuUfF]{0,2})("""|'''|"|')/;
+function mr(n) {
+  return n.replace(/\\(.)/g, (e, a) =>
+    a === "n"
+      ? `
+`
+      : a === "t"
+        ? "	"
+        : a,
+  );
+}
+function fr(n) {
+  const e = [];
+  let a = 0;
+  for (; a < n.length;) {
+    const s = n[a];
+    if (s === "#") {
+      const c = n.indexOf(
+        `
+`,
+        a,
+      );
+      a = c === -1 ? n.length : c;
+      continue;
+    }
+    if (/\s/.test(s)) {
+      a += 1;
+      continue;
+    }
+    const r = hr.exec(n.slice(a, a + 5));
+    if (r && (r[1] === "" || /[rRbBuUfF]/.test(s))) {
+      const c = r[1],
+        u = r[2];
+      let p = a + c.length + u.length;
+      for (; p < n.length && !n.startsWith(u, p);) {
+        if (n[p] === "\\") p += 1;
+        else if (
+          u.length === 1 &&
+          n[p] ===
+            `
+`
+        )
+          break;
+        p += 1;
+      }
+      const l = Math.min(n.length, p + u.length),
+        m = n.slice(a + c.length + u.length, p);
+      (e.push({
+        kind: /[fF]/.test(c) ? "fstring" : "text",
+        raw: n.slice(a, l),
+        value: /[rR]/.test(c) ? m : mr(m),
+        start: a,
+        end: l,
+      }),
+        (a = l));
+      continue;
+    }
+    const i = /^\d+(?:\.\d+)?/.exec(n.slice(a));
+    if (i && !/[A-Za-z0-9_]/.test(n[a - 1] ?? "")) {
+      (e.push({
+        kind: "number",
+        raw: i[0],
+        value: String(Number(i[0])),
+        start: a,
+        end: a + i[0].length,
+      }),
+        (a += i[0].length));
+      continue;
+    }
+    const d = /^[A-Za-z_][A-Za-z0-9_]*/.exec(n.slice(a));
+    if (d) {
+      (e.push({
+        kind: "name",
+        raw: d[0],
+        value: d[0],
+        start: a,
+        end: a + d[0].length,
+      }),
+        (a += d[0].length));
+      continue;
+    }
+    (e.push({ kind: "op", raw: s, value: s, start: a, end: a + 1 }), (a += 1));
+  }
+  return e;
+}
+function gr(n) {
+  return JSON.stringify(n);
+}
+function br(n) {
+  const e = fr(n),
+    a = [],
+    s = [];
+  let r = !1,
+    i = !0;
+  for (const [d, c] of e.entries()) {
+    if (s.length === 0 && i) {
+      const h = e[d + 1],
+        g = e[d + 2];
+      ((r =
+        c.kind === "name" &&
+        h?.raw === "=" &&
+        g?.raw !== "=" &&
+        /^[^\n]*$/.test(n.slice(c.end, h.start))),
+        (i = !1));
+    }
+    if (c.kind === "op" && "([{".includes(c.raw)) {
+      const h = e[d - 1];
+      s.push(c.raw === "(" && h?.kind === "name" ? h.raw : null);
+    } else c.kind === "op" && ")]}".includes(c.raw) && s.pop();
+    const u = [...s].reverse().find((h) => h !== null) ?? null,
+      p = c.kind === "number" || c.kind === "text",
+      l = u === "print";
+    a.push({ ...c, swappable: p && !l && (r || u !== null) });
+    const m = e[d + 1];
+    s.length === 0 &&
+      m &&
+      n.slice(c.end, m.start).includes(`
+`) &&
+      (i = !0);
+  }
+  return a;
+}
+function xr(n, e) {
+  if (!e.length) return n;
+  const a = new Map(e.map((i) => [`${i.kind}:${i.from}`, i]));
+  let s = "",
+    r = 0;
+  for (const i of br(n)) {
+    if (!i.swappable) continue;
+    const d = a.get(`${i.kind}:${i.value}`);
+    d &&
+      ((s += n.slice(r, i.start) + (d.kind === "number" ? d.to : gr(d.to))),
+      (r = i.end));
+  }
+  return s + n.slice(r);
+}
+function wr(n, e) {
+  const a = pr[`${e}/${n.id}`];
+  return a
+    ? {
+        inputs: [],
+        swaps: a.swaps.map(([s, r, i]) => ({ kind: s, from: r, to: i })),
+        expected: [...a.expected],
+      }
+    : null;
+}
+function Ft(n, e, a) {
+  const s = a.checks.flatMap((i) =>
+    i.type === "behaviour" ? (i.cases ?? []) : [],
+  );
+  if (s.length)
+    return s.map((i) => ({
+      inputs: [...i.inputs],
+      swaps: [],
+      expected: [...i.expected],
+    }));
+  const r = wr(n, e);
+  return r ? [r] : [];
+}
+const $r = "My program works with other values too.";
+function yr(n, e, a) {
+  const s = Lt(n, e),
+    r = Ft(n, e, s),
+    i = {};
+  let d = 0;
+  for (const [l, m] of s.checks.entries()) {
+    if (m.type !== "behaviour") continue;
+    const h = m.cases?.length ?? 0;
+    ((i[l] = a.hidden.slice(d, d + h)), (d += h));
+  }
+  const c = $s(a.code, a.run, s.checks, i),
+    u = r.find((l) => l.swaps.length > 0);
+  if (u) {
+    const l = a.hidden[d];
+    c.push({
+      label: $r,
+      passed: !!l && a.run.error === null && Ct(l, { expected: u.expected }),
+    });
+  }
+  return {
+    passed: a.hidden.length === r.length && c.every((l) => l.passed),
+    results: c,
+  };
+}
+function vr() {
+  const n = S.useRef(null),
+    [e, a] = S.useState("loading");
+  S.useEffect(() => {
+    const r = dr();
+    ((n.current = r), a(r.status()));
+    const i = r.onStatus(a);
+    return () => {
+      (i(), r.dispose(), (n.current = null));
+    };
+  }, []);
+  async function s(r, i, d, c) {
+    const u = n.current;
+    if (!u || u.status() !== "ready") return null;
+    const p = i.stdin
+      ? i.stdin.split(`
+`)
+      : [];
+    let l = 0;
+    const m = await u.run(d, {
+      write: c.write,
+      ask: (y) => {
+        c.write(y);
+        const x = c.ask(y, p[l] ?? "");
+        return (
+          (l += 1),
+          x.then(
+            ($) => (
+              c.write(`${$}
+`),
+              $
+            ),
+          )
+        );
+      },
+    });
+    m.error &&
+      c.write(`
+${m.error}
+`);
+    const h = { stdout: m.stdout, error: m.error },
+      g = [];
+    if (!h.error)
+      for (const y of Ft(r.pick, r.theme, i)) {
+        const x = await u.run(xr(d, y.swaps), { inputs: y.inputs });
+        g.push({ stdout: x.stdout, error: x.error });
+      }
+    const b = { code: d, run: h, hidden: g },
+      f = yr(r.pick, r.theme, b);
+    return { run: h, results: f.results, passed: f.passed, submission: b };
+  }
+  return { status: e, runAndMark: s };
+}
+function kr(n) {
+  try {
+    return window.localStorage.getItem(n);
+  } catch {
+    return null;
+  }
+}
+function jr(n, e) {
+  try {
+    window.localStorage.setItem(n, e);
+  } catch {}
+}
+function Sr(n) {
+  const e = n.state;
+  return new Set(Object.keys(e?.climbers ?? {}));
+}
+function Nr({ snapshot: n, send: e }) {
+  const a = n.state,
+    s = n.you;
+  return s
+    ? t.jsx(Cr, { snapshot: n, view: a, you: s, send: e })
+    : t.jsx(Tr, { snapshot: n });
+}
+function Tr({ snapshot: n }) {
+  const e = Sr(n);
+  return t.jsx("div", {
+    className: "climb-watch",
+    "data-climb-watch": !0,
+    children:
+      n.status === "playing"
+        ? t.jsxs(t.Fragment, {
+            children: [
+              t.jsxs("p", {
+                className: "lobby-status",
+                "aria-live": "polite",
+                "data-climb-ready-count": !0,
+                children: [e.size, "/", n.players.length, " ready"],
+              }),
+              t.jsx(as, { players: n.players, online: n.online, ready: e }),
+            ],
+          })
+        : null,
+  });
+}
+function Cr({ snapshot: n, view: e, you: a, send: s }) {
+  const r = vr(),
+    i = e.climbers[a],
+    d = S.useRef(!1);
+  S.useEffect(() => {
+    r.status !== "ready" ||
+      i ||
+      d.current ||
+      (n.status === "playing" &&
+        ((d.current = !0),
+        s({ kind: "ready" }).then((p) => {
+          p || (d.current = !1);
+        })));
+  }, [r.status, i, n.status, s]);
+  const c = Ns(e.theme) ? e.theme : "music",
+    u = n.status === "finished" || n.status === "ended";
+  return i
+    ? i.at
+      ? t.jsx(
+          Lr,
+          {
+            snapshot: n,
+            theme: c,
+            challengeId: i.at,
+            level: Math.min(i.level, Xe.length),
+            passedLevels: i.level - 1,
+            hints: i.hints,
+            runner: r,
+            over: u,
+            send: s,
+          },
+          `${n.round}:${i.at}`,
+        )
+      : t.jsx("div", {
+          className: "climb-watch",
+          children: t.jsxs("p", {
+            className: "lobby-status",
+            "data-climb-done": !0,
+            children: [Ze[c].name, ": every level climbed"],
+          }),
+        })
+    : t.jsx("div", {
+        className: "climb-watch",
+        "data-climb-waiting": !0,
+        children: t.jsx("p", {
+          className: "lobby-status",
+          "aria-live": "polite",
+          "data-climb-runtime": r.status,
+          children:
+            r.status === "error"
+              ? "Python did not load. Check the connection and reload."
+              : r.status === "ready"
+                ? "Ready"
+                : "Loading Python…",
+        }),
+      });
+}
+const wt = "Click Run to execute.";
+function Lr({
+  snapshot: n,
+  theme: e,
+  challengeId: a,
+  level: s,
+  passedLevels: r,
+  hints: i,
+  runner: d,
+  over: c,
+  send: u,
+}) {
+  const p = Ts(a),
+    l = S.useMemo(() => Lt(p.pick, e), [p.pick, e]),
+    m = Ms(p.pick.lane, e, l.id),
+    h = S.useRef(null),
+    g = S.useRef(null),
+    b = S.useRef(new jn()).current,
+    f = S.useRef(null),
+    [y, x] = S.useState(wt),
+    [$, j] = S.useState("dim"),
+    [T, w] = S.useState(!1),
+    [M, v] = S.useState(null),
+    [k, I] = S.useState(""),
+    [R, C] = S.useState(null),
+    [A, z] = S.useState(i > 0),
+    E = vt(n.status),
+    O = A ? 0 : Vn(p.level.level);
+  (S.useEffect(() => {
+    if (!h.current) return;
+    const F = new ue({
+      doc: kr(m) ?? l.starterCode,
+      extensions: [
+        Da("playlist", (G) => jr(m, G)),
+        ue.contentAttributes.of({
+          "aria-label": "Python code",
+          autocapitalize: "off",
+          autocorrect: "off",
+          spellcheck: "false",
+        }),
+        b.of(ue.editable.of(!0)),
+      ],
+      parent: h.current,
+    });
+    return (
+      (g.current = F),
+      () => {
+        (F.destroy(), (g.current = null));
+      }
+    );
+  }, [l, m, b]),
+    S.useEffect(() => {
+      g.current?.dispatch({ effects: b.reconfigure(ue.editable.of(!c)) });
+    }, [c, b]),
+    S.useEffect(() => {
+      M && f.current?.focus();
+    }, [M]));
+  async function U() {
+    const F = g.current;
+    if (!F || T || !E) return;
+    (w(!0), x(""), j("normal"), C(null));
+    let G = "";
+    try {
+      const D = await d.runAndMark(
+        { pick: p.pick, theme: e },
+        l,
+        F.state.doc.toString(),
+        {
+          write: (P) => {
+            ((G += P), x(G));
+          },
+          ask: (P, V) =>
+            new Promise((Le) => {
+              (I(""), v({ suggested: V, resolve: Le }));
+            }),
+        },
+      );
+      if (!D) return;
+      (G.trim() || x("(no output)"),
+        C(D.results),
+        j(D.run.error ? "error" : D.passed ? "success" : "normal"),
+        D.passed &&
+          (await u({ kind: "submit", challenge: l.id, ...D.submission })));
+    } finally {
+      (v(null), w(!1));
+    }
+  }
+  function H(F) {
+    if ((F.preventDefault(), !M)) return;
+    const { resolve: G } = M;
+    (v(null), G(k));
+  }
+  function B() {
+    const F = g.current;
+    if (!(!F || T)) {
+      try {
+        window.localStorage.removeItem(m);
+      } catch {}
+      (F.dispatch({
+        changes: { from: 0, to: F.state.doc.length, insert: l.starterCode },
+      }),
+        x(wt),
+        j("dim"),
+        C(null));
+    }
+  }
+  function Y() {
+    (z(!0), E && u({ kind: "hint", challenge: l.id }));
+  }
+  const se = R
+      ? R.map((F) => ({
+          label: F.label,
+          status: F.passed ? "passed" : "failed",
+        }))
+      : l.checks.map((F) => ({ label: F.label, status: "pending" })),
+    ee = Xe.map((F) => ({
+      id: String(F.level),
+      shortTitle: F.title,
+      complete: F.level <= r,
+      locked: !1,
+    })),
+    te = Rs(sn(As(p.pick.lane)), e, l.id),
+    J =
+      d.status === "ready"
+        ? "Python 3 ready"
+        : d.status === "error"
+          ? "Failed to load Python"
+          : "Loading editor and Python";
+  return t.jsx("div", {
+    className: "lobby-climb",
+    "data-room-view": "lobby-code-climb",
+    "data-level": s,
+    "data-challenge": l.id,
+    "data-theme": e,
+    children: t.jsx(ar, {
+      lane: "code-climb",
+      tone: "dark",
+      menuLabel: "levels",
+      menu: t.jsx(Ka, {
+        companion: null,
+        levels: ee,
+        activeId: String(s),
+        disabled: !0,
+        onSelect: () => {},
+      }),
+      track: t.jsx(Ga, {
+        label: "Levels",
+        steps: ee.map((F, G) => ({ ...F, number: G + 1, title: F.shortTitle })),
+        activeId: String(s),
+        disabled: !0,
+        onSelect: () => {},
+      }),
+      instructions: t.jsx(ga, {
+        title: l.title,
+        description: l.description,
+        art: { illustration: ha(l), theme: e, challengeId: l.id },
+      }),
+      toolbar: c
+        ? t.jsx("div", {
+            className: "mb-3",
+            children: t.jsx("a", {
+              className: "room-secondary",
+              href: te,
+              "data-climb-finish-later": !0,
+              children: "Finish in the Coding Playground",
+            }),
+          })
+        : t.jsxs("div", {
+            className: "climb-toolbar",
+            children: [
+              t.jsx(ja, {
+                tone: "playlist",
+                onRun: () => void U(),
+                runDisabled: d.status !== "ready" || T || !E,
+                isRunning: T,
+                onReset: B,
+                resetDisabled: T,
+                inputRequired: !!M,
+                runtime: { state: d.status, label: J },
+              }),
+              t.jsx("span", {
+                className: "climb-worth",
+                "data-climb-worth": O,
+                children: O,
+              }),
+            ],
+          }),
+      editor: t.jsxs(t.Fragment, {
+        children: [
+          t.jsx(Aa, {
+            ref: h,
+            tone: "playlist",
+            fill: !0,
+            testId: "climb-editor",
+          }),
+          c ? null : t.jsx(or, { viewRef: g }),
+        ],
+      }),
+      output: t.jsxs(t.Fragment, {
+        children: [
+          t.jsx(Fa, {
+            tone: "playlist",
+            fill: !0,
+            testId: "climb-output",
+            text: y,
+            state: $,
+            input: M
+              ? {
+                  ref: f,
+                  value: k,
+                  placeholder: M.suggested,
+                  onChange: I,
+                  onSubmit: H,
+                }
+              : null,
+          }),
+          t.jsx(Ua, { checks: se }),
+          c
+            ? null
+            : t.jsx(
+                Ps,
+                {
+                  hints: l.hints,
+                  answer: l.solution,
+                  onReveal: Y,
+                  onAnswerReveal: Y,
+                  className: "mt-4",
+                },
+                l.id,
+              ),
+        ],
+      }),
+    }),
+  });
+}
+function Ir({
+  view: n,
+  players: e,
+  you: a,
+  live: s,
+  reconnecting: r,
+  onGuess: i,
+  onHint: d,
+}) {
+  const [c, u] = S.useState(""),
+    [p, l] = S.useState(null),
+    [m, h] = S.useState(!1),
+    [g, b] = S.useState(!1),
+    f = S.useRef(null),
+    y = new Map(e.map((C) => [C.key, C])),
+    x = n.current,
+    $ = n.played[n.played.length - 1],
+    j = $?.solver ? y.get($.solver) : void 0;
+  if (!x)
+    return t.jsx("div", {
+      className: "room-guess lobby-guess",
+      "data-room-view": "lobby-guess-done",
+      children: $ ? t.jsx(Mr, { view: n, byKey: y }) : null,
+    });
+  const T = x,
+    w = Be(T.ref)?.art ?? null,
+    M = T.tiles
+      .flat()
+      .filter((C) => C.kind === "letter" && C.char === null).length,
+    v = an(c),
+    k = m ? Math.min(v.length, Math.max(0, M - 1)) : -1;
+  let I = 0;
+  async function R() {
+    const C = c.trim();
+    if (!C || !s || g) return;
+    b(!0);
+    const A = await i(C);
+    (b(!1), u(""), l(A === !1 ? C : null));
+  }
+  return t.jsxs("div", {
+    className: "room-guess lobby-guess",
+    "data-room-view": "lobby-guess",
+    "data-guess-at": n.at,
+    "data-guess-ref": T.ref,
+    children: [
+      t.jsxs("p", {
+        className: "guess-progress",
+        "aria-label": `Term ${n.at + 1} of ${n.total}`,
+        children: [n.at + 1, " / ", n.total],
+      }),
+      $
+        ? t.jsxs("p", {
+            className: "lobby-guess-last",
+            "aria-live": "polite",
+            "data-guess-last": j ? "solved" : "given",
+            children: [
+              j ? t.jsx(le, { player: j }) : null,
+              t.jsx("span", { children: j ? `${j.name}: ${$.term}` : $.term }),
+            ],
+          })
+        : null,
+      w
+        ? t.jsx("img", {
+            className: "guess-art guess-art-lead",
+            src: w,
+            alt: "",
+            "aria-hidden": "true",
+            "data-guess-art": !0,
+          })
+        : null,
+      t.jsxs("form", {
+        className: "guess-answer",
+        onSubmit: (C) => {
+          (C.preventDefault(), R());
+        },
+        children: [
+          t.jsxs("div", {
+            className: "guess-tiles-wrap",
+            onClick: () => f.current?.focus(),
+            children: [
+              t.jsx("div", {
+                className: "guess-tiles",
+                "aria-hidden": "true",
+                "data-guess-tiles": !0,
+                style: {
+                  "--tile-count": Math.max(8, ...T.tiles.map((C) => C.length)),
+                },
+                children: T.tiles.map((C, A) =>
+                  t.jsx(
+                    "span",
+                    {
+                      className: "guess-word",
+                      children: C.map((z, E) => {
+                        if (z.kind === "fixed")
+                          return t.jsx(
+                            "span",
+                            {
+                              className: "guess-tile",
+                              "data-tile": "fixed",
+                              children: z.char,
+                            },
+                            E,
+                          );
+                        const O = z.char !== null,
+                          U = O ? -1 : I++,
+                          H = O ? z.char : (v[U] ?? "");
+                        return t.jsx(
+                          "span",
+                          {
+                            className: "guess-tile",
+                            "data-tile": O ? "turned" : H ? "typed" : "empty",
+                            "data-caret": !O && U === k ? "true" : void 0,
+                            children: H,
+                          },
+                          E,
+                        );
+                      }),
+                    },
+                    A,
+                  ),
+                ),
+              }),
+              t.jsx("input", {
+                ref: f,
+                className: "guess-input",
+                "aria-label": "Answer",
+                "aria-describedby": "lobby-guess-count",
+                autoComplete: "off",
+                autoCapitalize: "characters",
+                spellCheck: !1,
+                maxLength: M + 16,
+                value: c,
+                disabled: !s || !a,
+                readOnly: g,
+                onFocus: () => h(!0),
+                onBlur: () => h(!1),
+                onChange: (C) => {
+                  (u(C.target.value), l(null));
+                },
+                "data-guess-input": !0,
+              }),
+            ],
+          }),
+          t.jsx("p", {
+            id: "lobby-guess-count",
+            className: "sr-only",
+            children: `${T.tiles.flat().filter((C) => C.kind === "letter").length} letters, ${T.tiles.length} ${T.tiles.length === 1 ? "word" : "words"}, ${n.revealed} shown`,
+          }),
+          t.jsxs("div", {
+            className: "crossword-answer-row",
+            children: [
+              t.jsx("button", {
+                type: "submit",
+                className: "room-primary",
+                disabled: !s || !a || g,
+                "data-guess-check": !0,
+                children: "Check",
+              }),
+              t.jsx("button", {
+                type: "button",
+                className: "room-secondary",
+                disabled: !s || !a || !n.canHint,
+                onClick: d,
+                "data-guess-hint": !0,
+                children: "Show a letter",
+              }),
+            ],
+          }),
+          t.jsx("p", {
+            className: "crossword-miss",
+            "aria-live": "polite",
+            "data-guess-miss": p ? "true" : void 0,
+            "data-lobby-reconnecting": g && r ? "true" : void 0,
+            children:
+              g && r
+                ? "Reconnecting"
+                : p
+                  ? t.jsxs(t.Fragment, {
+                      children: [
+                        t.jsx("span", {
+                          className: "sr-only",
+                          children: "Not right: ",
+                        }),
+                        t.jsx("span", {
+                          "aria-hidden": "true",
+                          children: "✗ ",
+                        }),
+                        t.jsx("s", { children: p }),
+                      ],
+                    })
+                  : null,
+          }),
+        ],
+      }),
+      t.jsx("article", {
+        className: "guess-card",
+        "aria-label": "Clue",
+        children: t.jsxs("div", {
+          className: "guess-clue",
+          children: [
+            t.jsx("p", {
+              className: "guess-definition",
+              "data-guess-definition": !0,
+              children: T.definition,
+            }),
+            T.example
+              ? t.jsxs("p", {
+                  className: "guess-example",
+                  "data-guess-example": !0,
+                  children: [
+                    t.jsx("span", {
+                      className: "sr-only",
+                      children: "Example: ",
+                    }),
+                    T.example,
+                  ],
+                })
+              : null,
+          ],
+        }),
+      }),
+    ],
+  });
+}
+function Mr({ view: n, byKey: e }) {
+  return t.jsx("ol", {
+    className: "lobby-played",
+    "aria-label": "Terms",
+    children: n.played.map((a) => {
+      const s = a.solver ? e.get(a.solver) : void 0;
+      return t.jsxs(
+        "li",
+        {
+          className: "lobby-played-word",
+          "data-solved": s ? "true" : void 0,
+          children: [
+            s
+              ? t.jsx(le, { player: s })
+              : t.jsx("span", {
+                  className: "lobby-played-none",
+                  "aria-hidden": "true",
+                }),
+            t.jsx("span", { children: a.term }),
+            s
+              ? t.jsx("span", {
+                  className: "sr-only",
+                  children: `, solved by ${s.name}`,
+                })
+              : null,
+          ],
+        },
+        a.ref,
+      );
+    }),
+  });
+}
+function $t(n) {
+  return Array.from({ length: n.length }, (e, a) =>
+    n.direction === "across" ? [n.row, n.col + a] : [n.row + a, n.col],
+  );
+}
+function Vt({ terms: n }) {
+  return n.length === 0
+    ? null
+    : t.jsxs("section", {
+        className: "lobby-review",
+        "aria-labelledby": "lobby-review-title",
+        "data-lobby-review": !0,
+        children: [
+          t.jsx("h2", {
+            id: "lobby-review-title",
+            className: "room-section-title",
+            children: "Terms to go over",
+          }),
+          t.jsx("dl", {
+            className: "lobby-review-list",
+            children: n.map((e) =>
+              t.jsxs(
+                "div",
+                {
+                  className: "lobby-review-term",
+                  children: [
+                    t.jsx("dt", {
+                      className: "lobby-review-name",
+                      children: e.term,
+                    }),
+                    t.jsx("dd", {
+                      className: "lobby-review-definition",
+                      children: e.definition,
+                    }),
+                  ],
+                },
+                e.term,
+              ),
+            ),
+          }),
+        ],
+      });
+}
+function Ar({ startedAt: n, seconds: e = Fn }) {
+  const a = Date.parse(n),
+    [s, r] = S.useState(() => Date.now());
+  if (
+    (S.useEffect(() => {
+      const u = window.setInterval(() => r(Date.now()), 1e3);
+      return () => window.clearInterval(u);
+    }, []),
+    Number.isNaN(a))
+  )
+    return null;
+  const i = Math.max(0, Math.ceil(e - (s - a) / 1e3)),
+    d = Math.floor(i / 60),
+    c = `${d}:${String(i % 60).padStart(2, "0")}`;
+  return t.jsx("span", {
+    className: "lobby-timer",
+    role: "timer",
+    "aria-label": `${d} ${d === 1 ? "minute" : "minutes"} ${i % 60} seconds left`,
+    "data-lobby-timer": !0,
+    "data-low": i <= 60 ? "true" : void 0,
+    children: c,
+  });
+}
+function Rr({ view: n, players: e, review: a, onMoveOn: s }) {
+  const r = n.entries,
+    i = S.useMemo(() => new Map(e.map((b) => [b.key, b])), [e]),
+    [d, c] = S.useState(r[0]?.key ?? ""),
+    u = r.find((b) => b.key === d) ?? r[0],
+    p = S.useMemo(() => {
+      const b = new Map();
+      for (const f of r)
+        $t(f).forEach(([y, x], $) => {
+          const j = `${y},${x}`,
+            T = b.get(j) ?? { entries: [] };
+          (T.entries.push(f),
+            $ === 0 && (T.number = f.number),
+            f.answer && (T.letter = f.answer[$]));
+          const w = n.solved[f.key];
+          (w !== void 0 && (T.owner ??= w), b.set(j, T));
+        });
+      return b;
+    }, [r, n.solved]),
+    l = new Set(u ? $t(u).map(([b, f]) => `${b},${f}`) : []);
+  function m(b) {
+    const f = p.get(b);
+    if (!f) return;
+    const y =
+      f.entries.find((x) => x.key !== u?.key && l.has(b)) ?? f.entries[0];
+    c(y.key);
+  }
+  const h = u && n.solved[u.key] ? i.get(n.solved[u.key]) : void 0,
+    g = u ? nt(u.ref) : null;
+  return t.jsxs("div", {
+    className: "lobby-reveal",
+    "data-lobby-reveal": !0,
+    children: [
+      s
+        ? t.jsx("div", {
+            className: "lobby-reveal-bar",
+            children: t.jsx("button", {
+              type: "button",
+              className: "room-primary",
+              onClick: s,
+              "data-lobby-move-on": !0,
+              children: "Move on",
+            }),
+          })
+        : null,
+      t.jsx(Vt, { terms: a }),
+      t.jsxs("div", {
+        className: "crossword-layout lobby-crossword",
+        children: [
+          t.jsx("div", {
+            className: "crossword-grid",
+            role: "grid",
+            "aria-label": `Crossword answers, ${n.rows} rows by ${n.cols} columns`,
+            style: {
+              gridTemplateColumns: `repeat(${n.cols}, minmax(0, 1fr))`,
+              "--crossword-cols": n.cols,
+              "--crossword-rows": n.rows,
+            },
+            children: Array.from({ length: n.rows * n.cols }, (b, f) => {
+              const y = Math.floor(f / n.cols),
+                x = f % n.cols,
+                $ = `${y},${x}`,
+                j = p.get($);
+              if (!j)
+                return t.jsx(
+                  "span",
+                  { className: "crossword-block", "aria-hidden": "true" },
+                  $,
+                );
+              const T = j.owner ? i.get(j.owner) : void 0;
+              return t.jsxs(
+                "button",
+                {
+                  type: "button",
+                  className: "crossword-cell",
+                  "data-cell": $,
+                  "data-colour": T ? Se(T.colourIndex).colour : void 0,
+                  "data-unsolved": j.owner ? void 0 : "true",
+                  "data-selected": l.has($) ? "true" : void 0,
+                  "aria-label": j.letter ?? `Row ${y + 1}, column ${x + 1}`,
+                  onClick: () => m($),
+                  children: [
+                    j.number
+                      ? t.jsx("span", {
+                          className: "crossword-number",
+                          children: j.number,
+                        })
+                      : null,
+                    j.letter
+                      ? t.jsx("span", {
+                          className: "crossword-letter",
+                          children: j.letter,
+                        })
+                      : null,
+                  ],
+                },
+                $,
+              );
+            }),
+          }),
+          u
+            ? t.jsxs("article", {
+                className: "lobby-reveal-word",
+                "aria-live": "polite",
+                "data-lobby-reveal-word": u.key,
+                "data-unsolved": h ? void 0 : "true",
+                children: [
+                  g
+                    ? t.jsx("img", {
+                        className: "lobby-reveal-art",
+                        src: g,
+                        alt: "",
+                        "aria-hidden": "true",
+                      })
+                    : null,
+                  t.jsxs("div", {
+                    className: "lobby-reveal-text",
+                    children: [
+                      t.jsxs("h2", {
+                        className: "lobby-reveal-term",
+                        children: [
+                          h
+                            ? t.jsx(le, { player: h })
+                            : t.jsx("span", {
+                                className: "lobby-reveal-unsolved",
+                                "aria-hidden": "true",
+                                children: "✗",
+                              }),
+                          t.jsx("span", { children: u.term }),
+                          t.jsx("span", {
+                            className: "sr-only",
+                            children: h
+                              ? `, solved by ${h.name}`
+                              : ", not solved",
+                          }),
+                        ],
+                      }),
+                      u.definition
+                        ? t.jsx("p", {
+                            className: "lobby-reveal-definition",
+                            children: u.definition,
+                          })
+                        : null,
+                      t.jsxs("p", {
+                        className: "lobby-reveal-clue",
+                        children: [
+                          t.jsxs("strong", {
+                            children: [u.number, " ", u.direction],
+                          }),
+                          " ",
+                          u.clue,
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              })
+            : null,
+          t.jsx("div", {
+            className: "crossword-clues",
+            children: ["across", "down"].map((b) => {
+              const f = r.filter((y) => y.direction === b);
+              return f.length > 0
+                ? t.jsxs(
+                    "section",
+                    {
+                      "aria-labelledby": `reveal-${b}`,
+                      children: [
+                        t.jsx("h2", {
+                          id: `reveal-${b}`,
+                          className: "crossword-clues-title",
+                          children: b === "across" ? "Across" : "Down",
+                        }),
+                        t.jsx("ol", {
+                          className: "crossword-clue-list",
+                          children: f.map((y) => {
+                            const x = n.solved[y.key]
+                                ? i.get(n.solved[y.key])
+                                : void 0,
+                              $ = nt(y.ref);
+                            return t.jsx(
+                              "li",
+                              {
+                                children: t.jsxs("button", {
+                                  type: "button",
+                                  className: "crossword-clue-item",
+                                  "data-selected":
+                                    y.key === u?.key ? "true" : void 0,
+                                  "data-solved": x ? "true" : void 0,
+                                  "data-unsolved": x ? void 0 : "true",
+                                  onClick: () => c(y.key),
+                                  children: [
+                                    t.jsx("span", {
+                                      className: "crossword-clue-number",
+                                      children: y.number,
+                                    }),
+                                    $
+                                      ? t.jsx("img", {
+                                          className: "lobby-clue-art",
+                                          src: $,
+                                          alt: "",
+                                          "aria-hidden": "true",
+                                          loading: "lazy",
+                                        })
+                                      : null,
+                                    t.jsx("span", {
+                                      className: "crossword-clue-body",
+                                      children: t.jsxs("span", {
+                                        className: "crossword-clue-answer",
+                                        children: [
+                                          x
+                                            ? t.jsx(le, { player: x })
+                                            : t.jsx("span", {
+                                                className:
+                                                  "lobby-reveal-unsolved",
+                                                "aria-hidden": "true",
+                                                children: "✗",
+                                              }),
+                                          " ",
+                                          y.term,
+                                          t.jsx("span", {
+                                            className: "sr-only",
+                                            children: x
+                                              ? `, solved by ${x.name}`
+                                              : ", not solved",
+                                          }),
+                                        ],
+                                      }),
+                                    }),
+                                  ],
+                                }),
+                              },
+                              y.key,
+                            );
+                          }),
+                        }),
+                      ],
+                    },
+                    b,
+                  )
+                : null;
+            }),
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function Er({ view: n, players: e, review: a, onMoveOn: s }) {
+  const r = S.useMemo(() => new Map(e.map((m) => [m.key, m])), [e]),
+    i = n.reveal ?? n.played,
+    [d, c] = S.useState(i[0]?.ref ?? ""),
+    u = i.find((m) => m.ref === d) ?? i[0],
+    p = u?.solver ? r.get(u.solver) : void 0,
+    l = u ? (Be(u.ref)?.art ?? null) : null;
+  return t.jsxs("div", {
+    className: "lobby-reveal",
+    "data-lobby-reveal": !0,
+    "data-lobby-reveal-game": "guess-the-term",
+    children: [
+      s
+        ? t.jsx("div", {
+            className: "lobby-reveal-bar",
+            children: t.jsx("button", {
+              type: "button",
+              className: "room-primary",
+              onClick: s,
+              "data-lobby-move-on": !0,
+              children: "Move on",
+            }),
+          })
+        : null,
+      t.jsx(Vt, { terms: a }),
+      u
+        ? t.jsxs("article", {
+            className: "lobby-reveal-word",
+            "aria-live": "polite",
+            "data-lobby-reveal-word": u.ref,
+            "data-unsolved": p ? void 0 : "true",
+            children: [
+              l
+                ? t.jsx("img", {
+                    className: "lobby-reveal-art",
+                    src: l,
+                    alt: "",
+                    "aria-hidden": "true",
+                  })
+                : null,
+              t.jsxs("div", {
+                className: "lobby-reveal-text",
+                children: [
+                  t.jsxs("h2", {
+                    className: "lobby-reveal-term",
+                    children: [
+                      p
+                        ? t.jsx(le, { player: p })
+                        : t.jsx("span", {
+                            className: "lobby-reveal-unsolved",
+                            "aria-hidden": "true",
+                            children: "✗",
+                          }),
+                      t.jsx("span", { children: u.term }),
+                      t.jsx("span", {
+                        className: "sr-only",
+                        children: p ? `, solved by ${p.name}` : ", not solved",
+                      }),
+                    ],
+                  }),
+                  u.definition
+                    ? t.jsx("p", {
+                        className: "lobby-reveal-definition",
+                        children: u.definition,
+                      })
+                    : null,
+                ],
+              }),
+            ],
+          })
+        : null,
+      t.jsx("ol", {
+        className: "lobby-reveal-terms",
+        "aria-label": "Terms",
+        children: i.map((m) => {
+          const h = m.solver ? r.get(m.solver) : void 0,
+            g = Be(m.ref)?.art ?? null;
+          return t.jsx(
+            "li",
+            {
+              children: t.jsxs("button", {
+                type: "button",
+                className: "lobby-reveal-term-button",
+                "data-selected": m.ref === u?.ref ? "true" : void 0,
+                "data-unsolved": h ? void 0 : "true",
+                onClick: () => c(m.ref),
+                children: [
+                  g
+                    ? t.jsx("img", {
+                        className: "lobby-clue-art",
+                        src: g,
+                        alt: "",
+                        "aria-hidden": "true",
+                        loading: "lazy",
+                      })
+                    : null,
+                  h
+                    ? t.jsx(le, { player: h })
+                    : t.jsx("span", {
+                        className: "lobby-reveal-unsolved",
+                        "aria-hidden": "true",
+                        children: "✗",
+                      }),
+                  t.jsx("span", { children: m.term }),
+                  t.jsx("span", {
+                    className: "sr-only",
+                    children: h ? `, solved by ${h.name}` : ", not solved",
+                  }),
+                ],
+              }),
+            },
+            m.ref,
+          );
+        }),
+      }),
+    ],
+  });
+}
+const Ye = new Set(["code-climb"]);
+function Pr(n) {
+  if (Ye.has(n.game)) return null;
+  if (!n.state) return { solved: 0, total: 0 };
+  if (n.game === "guess-the-term") {
+    const a = n.state;
+    return { solved: a.at, total: a.total };
+  }
+  const e = n.state;
+  return { solved: Object.keys(e.solved).length, total: e.entries.length };
+}
+function _r({ snapshot: n, onNext: e }) {
+  const a = kt(n.game),
+    [s, r] = S.useState(a.sets[0].id),
+    i = n.players.find((c) => c.key === n.picker);
+  return (n.picker !== null && n.picker === n.you) || n.host
+    ? t.jsxs("form", {
+        className: "lobby-start",
+        onSubmit: (c) => {
+          (c.preventDefault(), e(s));
+        },
+        "data-lobby-next": !0,
+        children: [
+          t.jsxs("label", {
+            className: "lobby-field",
+            children: [
+              t.jsx("span", {
+                className: "lobby-field-label",
+                children:
+                  n.picker === n.you
+                    ? "You won: pick the next topic"
+                    : "Next topic",
+              }),
+              t.jsx("select", {
+                className: "lobby-select",
+                value: s,
+                onChange: (c) => r(c.target.value),
+                "data-lobby-next-set": !0,
+                children: a.sets.map((c) =>
+                  t.jsx("option", { value: c.id, children: c.title }, c.id),
+                ),
+              }),
+            ],
+          }),
+          t.jsx("button", {
+            type: "submit",
+            className: "room-primary",
+            "data-lobby-next-start": !0,
+            children: "Next round",
+          }),
+        ],
+      })
+    : t.jsx("p", {
+        className: "lobby-status",
+        "aria-live": "polite",
+        "data-lobby-picking": !0,
+        children: i
+          ? `${i.name} is picking the next topic`
+          : "Waiting for the next round",
+      });
+}
+function He({ snapshot: n, review: e, onMoveOn: a }) {
+  return n.state
+    ? n.game === "guess-the-term"
+      ? t.jsx(Er, { view: n.state, players: n.players, review: e, onMoveOn: a })
+      : t.jsx(Rr, { view: n.state, players: n.players, review: e, onMoveOn: a })
+    : null;
+}
+function Fr({ snapshot: n, board: e, onBoard: a, onRelease: s }) {
+  return t.jsxs("div", {
+    className: "lobby-controls",
+    role: "toolbar",
+    "aria-label": "Game controls",
+    "data-lobby-controls": !0,
+    children: [
+      t.jsx("button", {
+        type: "button",
+        className: "room-secondary",
+        "aria-pressed": e,
+        onClick: () => a(!e),
+        "data-lobby-control": "board",
+        children: e ? "Game" : "Board",
+      }),
+      n.directed.length
+        ? t.jsx("button", {
+            type: "button",
+            className: "room-secondary lobby-end",
+            onClick: s,
+            "data-lobby-control": "release",
+            children: "Send class back",
+          })
+        : null,
+    ],
+  });
+}
+function Vr() {
+  const [n] = yt(),
+    e = n.get("id"),
+    a = Sn(),
+    s = Nn(),
+    r = Tn(),
+    i = Cn(s ? e : null),
+    { snapshot: d, error: c, send: u } = i,
+    p = S.useRef(null),
+    l = S.useRef(0),
+    m = n.get("sql"),
+    h = m ? `${st}?sql=${encodeURIComponent(m)}` : st;
+  return (
+    S.useEffect(() => {
+      const g = new URL(window.location.href),
+        b = g.searchParams.get(et);
+      b &&
+        (rn(b, window.location.origin) && on(b),
+        g.searchParams.delete(et),
+        window.history.replaceState(window.history.state, "", g.toString()));
+    }, []),
+    S.useEffect(() => {
+      !e ||
+        !d ||
+        p.current === e ||
+        d.you ||
+        d.host ||
+        a ||
+        (d.status !== "ended" &&
+          (l.current >= 5 ||
+            ((p.current = e),
+            (l.current += 1),
+            u({ action: "join", id: e }).then((g) => {
+              g || (p.current = null);
+            }))));
+    }, [e, d, a, u]),
+    S.useEffect(() => {
+      if (!e || !s || a || !ln()) return;
+      let g = !1,
+        b;
+      const f = async () => {
+          if (g || b !== void 0) return;
+          const x = await r.takeover();
+          g ||
+            !x.ok ||
+            (x.data && !un(x.data) && x.data.id === e) ||
+            (b = window.setTimeout(() => {
+              const $ = dn();
+              $ && window.location.assign($);
+            }, ss));
+        },
+        y = window.setInterval(() => void f(), cn);
+      return () => {
+        ((g = !0),
+          window.clearInterval(y),
+          b !== void 0 && window.clearTimeout(b));
+      };
+    }, [e, s, a, r]),
+    S.useEffect(() => {
+      if (!e || !s) return;
+      const g = () => void r.send({ action: "leave", id: e });
+      return (
+        window.addEventListener("pagehide", g),
+        () => {
+          (window.removeEventListener("pagehide", g), g());
+        }
+      );
+    }, [e, s, r]),
+    !e || !s
+      ? t.jsxs("div", {
+          className: "room",
+          "data-room-view": "lobby-missing",
+          children: [
+            t.jsx("h1", {
+              className: "room-title",
+              children: "Game not found",
+            }),
+            t.jsx(Qe, {
+              to: h,
+              className: "room-secondary",
+              children: "Multiplayer",
+            }),
+          ],
+        })
+      : d
+        ? t.jsx(Ot, { connection: i, id: e })
+        : t.jsxs("div", {
+            className: "room",
+            "data-room-view": "lobby-loading",
+            children: [
+              t.jsx("h1", { className: "sr-only", children: "Lobby" }),
+              c
+                ? t.jsxs(t.Fragment, {
+                    children: [
+                      t.jsx("p", {
+                        className: "lobby-error",
+                        role: "alert",
+                        children: c,
+                      }),
+                      t.jsx(Qe, {
+                        to: h,
+                        className: "room-secondary",
+                        children: "Multiplayer",
+                      }),
+                    ],
+                  })
+                : t.jsx("p", {
+                    className: "lobby-status",
+                    children: "Loading…",
+                  }),
+            ],
+          })
+  );
+}
+function Ot({ connection: n, id: e, players: a }) {
+  const { snapshot: s, error: r, reconnecting: i, send: d } = n,
+    [c] = yt(),
+    [u, p] = S.useState(() => c.get("board") === "1"),
+    [l, m] = S.useState(null),
+    [h, g] = S.useState(null);
+  if (
+    (S.useEffect(() => {
+      s && s.status !== "playing" && !Ye.has(s.game) && g(s);
+    }, [s]),
+    !s)
+  )
+    return null;
+  const b = vt(s.status),
+    f = Pr(s),
+    y = s.status !== "playing",
+    x = u && s.host;
+  async function $(k, I) {
+    const R = await d({ action: "move", id: e, move: k }, { keep: I });
+    return (m(R?.near ?? null), R ? R.correct === !0 : null);
+  }
+  const j = y ? (s.review ?? []) : [],
+    T = y && !Ye.has(s.game),
+    w = h !== null && h.round < s.round;
+  function M(k) {
+    d({ action: "next", id: e, options: kt(s.game).options(k) });
+  }
+  const v = t.jsxs("div", {
+    className: "lobby-header",
+    children: [
+      t.jsx("h1", { className: "room-title", children: s.title }),
+      t.jsxs("p", {
+        className: "lobby-meta",
+        "data-lobby-status": s.status,
+        children: [
+          t.jsx("span", {
+            "data-lobby-online": !0,
+            children: Ln(s.online.length),
+          }),
+          t.jsx("span", { "aria-hidden": "true", children: "·" }),
+          t.jsx("span", { children: s.hostName }),
+          s.directed.length && !s.className
+            ? t.jsxs(t.Fragment, {
+                children: [
+                  t.jsx("span", { "aria-hidden": "true", children: "·" }),
+                  t.jsx("span", {
+                    "data-lobby-directed": !0,
+                    children: s.directed.join(", "),
+                  }),
+                ],
+              })
+            : null,
+          f
+            ? t.jsxs(t.Fragment, {
+                children: [
+                  t.jsx("span", { "aria-hidden": "true", children: "·" }),
+                  t.jsxs("span", {
+                    "data-lobby-progress": !0,
+                    children: [f.solved, "/", f.total],
+                  }),
+                ],
+              })
+            : null,
+          s.roundSeconds && !y
+            ? t.jsx(
+                Ar,
+                { startedAt: s.roundStartedAt, seconds: s.roundSeconds },
+                s.round,
+              )
+            : null,
+          i
+            ? t.jsx("span", {
+                className: "lobby-pill",
+                role: "status",
+                "data-lobby-reconnecting": !0,
+                children: "Reconnecting",
+              })
+            : null,
+        ],
+      }),
+      a,
+      s.host
+        ? t.jsx(Fr, {
+            snapshot: s,
+            board: u,
+            onBoard: p,
+            onRelease: () => void d({ action: "release", id: e }),
+          })
+        : null,
+    ],
+  });
+  return x
+    ? t.jsxs("div", {
+        className: "room lobby lobby-board",
+        "data-room-view": "lobby-board",
+        children: [
+          v,
+          t.jsx(ot, { players: s.players, online: s.online, final: !0 }),
+          T ? t.jsx(He, { snapshot: s, review: j }) : null,
+        ],
+      })
+    : w && h
+      ? t.jsxs("div", {
+          className: `room lobby${h.game === "crossword" ? " room-crossword" : ""}`,
+          "data-room-view": "lobby-reveal-held",
+          children: [
+            v,
+            t.jsx(He, {
+              snapshot: h,
+              review: h.review ?? [],
+              onMoveOn: () => g(null),
+            }),
+          ],
+        })
+      : t.jsxs("div", {
+          className: `room lobby${s.game === "crossword" ? " room-crossword" : s.game === "code-climb" ? " room-climb" : ""}`,
+          "data-room-view": "lobby",
+          "data-lobby-mode": s.mode,
+          "data-done": y ? "true" : void 0,
+          children: [
+            v,
+            r
+              ? t.jsx("p", {
+                  className: "lobby-error",
+                  role: "alert",
+                  children: r,
+                })
+              : null,
+            a
+              ? null
+              : t.jsx(ot, {
+                  players: s.players,
+                  you: s.you,
+                  online: s.online,
+                  final: y,
+                }),
+            t.jsx("p", {
+              className: "lobby-status lobby-near",
+              role: "status",
+              "data-lobby-near": l ?? void 0,
+              children: l
+                ? t.jsxs(t.Fragment, {
+                    children: [
+                      t.jsx("span", { "aria-hidden": "true", children: "✓ " }),
+                      t.jsx("span", {
+                        className: "sr-only",
+                        children: "Counted, spelt ",
+                      }),
+                      l,
+                    ],
+                  })
+                : null,
+            }),
+            s.status === "finished"
+              ? t.jsx(_r, { snapshot: s, onNext: M }, s.round)
+              : null,
+            T && s.state ? t.jsx(He, { snapshot: s, review: j }) : null,
+            s.game === "crossword" && s.state && !T
+              ? t.jsx("div", {
+                  className: "lobby-play",
+                  children: t.jsx(In, {
+                    view: s.state,
+                    players: s.players,
+                    you: s.you,
+                    live: b,
+                    paused: !1,
+                    reconnecting: i,
+                    onGuess: (k, I) =>
+                      $(
+                        { entry: k, guess: I },
+                        (R) =>
+                          R.status === "playing" &&
+                          R.game === "crossword" &&
+                          R.state.solved[k] === void 0,
+                      ),
+                  }),
+                })
+              : null,
+            s.game === "code-climb" && s.state
+              ? t.jsx("div", {
+                  className: "lobby-play",
+                  children: t.jsx(Nr, {
+                    snapshot: s,
+                    send: (k) => d({ action: "move", id: e, move: k }),
+                  }),
+                })
+              : null,
+            s.game === "guess-the-term" && s.state && !T
+              ? t.jsx("div", {
+                  className: "lobby-play",
+                  children: t.jsx(
+                    Ir,
+                    {
+                      view: s.state,
+                      players: s.players,
+                      you: s.you,
+                      live: b,
+                      reconnecting: i,
+                      onGuess: (k) => {
+                        const I = s.state.at,
+                          R = s.round;
+                        return $(
+                          { kind: "guess", guess: k },
+                          (C) =>
+                            C.round === R &&
+                            C.game === "guess-the-term" &&
+                            C.state.at === I,
+                        );
+                      },
+                      onHint: () =>
+                        void d({
+                          action: "move",
+                          id: e,
+                          move: { kind: "hint" },
+                        }),
+                    },
+                    s.state.at + s.round * 100,
+                  ),
+                })
+              : null,
+          ],
+        });
+}
+const Ur = Object.freeze(
+  Object.defineProperty(
+    { __proto__: null, LobbyPage: Vr, LobbyRoom: Ot },
+    Symbol.toStringTag,
+    { value: "Module" },
+  ),
+);
+export { rt as L, ss as R, Ot as a, ot as b, Ur as c, kt as f, Wr as l };
