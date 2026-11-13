@@ -124,3 +124,9 @@ All four approved tools installed locally: Ghidra 12.2, Temurin JDK 25.0.5+8, pe
 ## Toolkit completion 2026-11-13T07:18:00.601575+00:00
 
 Toolkit setup complete. Clean-directory installation, second-run idempotency and full headless/PE/disassembly verification all passed with exit code zero. All installer sources, startup instructions and version/hash pins are ready for checkpoint. No Windows/game integration was tested.
+
+## Web task switch 2026-11-13T19:05:55Z
+
+The owner stated that today's task is web work, not binary reverse engineering. No target, requested behaviour or deliverable has been given yet; a question asking for them is open. Nothing has been built or changed for the web task. The reverse-engineering toolkit, its setup scripts and pins are unchanged and still installed in this sandbox. The working tree was clean at a81a105 before this entry. Recurring checkpoint wakes stay paused until active work starts.
+
+Correction: an earlier chat report said this environment has no browser or screenshot tool. That was wrong. The sandbox ships Chrome for Testing and the agent-browser CLI; see handoff.md. The design-loop tiers that need a browser are not blocked on tooling.

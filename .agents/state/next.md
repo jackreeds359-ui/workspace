@@ -100,3 +100,9 @@ Complete clean-directory setup/verification, then final checkpoint. For subseque
 ## Toolkit completion 2026-11-13T07:18:00.601575+00:00
 
 Installation and verification are complete. Next task requires a specific target binary/build and requested behavior. Future agents run bash setup.sh at Linux x86-64 startup, then bash tools.sh verify on fresh installs/restores. No repeated idle checkpoint commits are needed.
+
+## Web task 2026-11-13T19:05:55Z
+
+This supersedes the earlier line saying the next task needs a target binary. The next task is web work. Its target, requested behaviour and deliverable are not known yet: get them from the owner before choosing a stack or writing code. bash setup.sh is not needed for web-only work.
+
+When work starts: re-arm the five-minute checkpoint wake, load the relevant project skills, and verify UI changes with real screenshots from the bundled Chrome or agent-browser. Installing anything new, for example Playwright, needs the owner's approval of tool, source and version first. The default-branch decision still matters for pull requests: there is no main branch to target.

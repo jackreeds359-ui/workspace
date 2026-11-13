@@ -169,3 +169,17 @@ At agent startup on Linux x86-64, run bash setup.sh; after fresh installation or
 ## Toolkit completion 2026-11-13T07:18:00.601575+00:00
 
 Fresh-directory restore was exercised using only the setup sources: downloaded and verified both archives, installed pinned Python wheels, reran setup without reinstalling, then passed full toolkit verification. The installer uses the invoking Python interpreter and rejects unsupported Python/glibc/platform combinations. Binary caches remain excluded from handoff.zip.
+
+## Web tooling 2026-11-13T19:05:55Z
+
+Observed in this sandbox:
+
+- Node v24.22.2, npm 11.19.1, pnpm 10.34.9, bun 1.3.1, yarn 4.12.0, Python 3.12.3, curl 8.5.0.
+- Chrome: /usr/local/bin/google-chrome is a symlink to /opt/hoplite/agent-browser/browsers/chrome-157.0.8103.38/chrome and reports Google Chrome for Testing 157.0.8103.38. It is platform-provided, not installed by an agent.
+- agent-browser CLI: /usr/bin/agent-browser. Its version command printed: agent-browser 0.31.1 (hoplite-fps-6). Present but not yet exercised on a page.
+- Headless probe with a throwaway local HTML file, flags --headless=new --no-sandbox --disable-gpu: --dump-dom returned the script-written text script-42, so JavaScript ran. --screenshot with --window-size=800,600 wrote an 800x600 PNG that was viewed and showed the expected page. Chrome printed two crashpad socket errors on stderr during the screenshot; the file was still written.
+- Playwright is not installed and has no browser cache.
+- The repository holds no web project: no package.json, no components.json, no run script and no managed Preview configuration.
+- No Unicorn Studio tools are in the agent tool list.
+
+Only a throwaway local page has been loaded. No real site or app has been opened or tested.
