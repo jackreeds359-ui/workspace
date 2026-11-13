@@ -1,3 +1,9 @@
+# Current auth next actions — 2026-11-13T21:03:31.110354+00:00
+
+1. Incorporate the independent production admin-client session/role review and verify critical line claims locally.
+2. Finalize static report, check its source hashes and syntax evidence, review the scoped diff, then finish the existing archive/checkpoint process and cancel the active-work wake.
+3. Live teacher-session creation is not established. Minimum additional evidence is the real login/session backend or a sanitized trace from a provisioned teacher test identity. Do not resume historical website crawling or use the student's fallback access.
+
 # Ready for the next explicit task — 2026-11-13T20:56:23.403628+00:00
 
 No remaining setup action. Pinned tools and Fastfetch ran successfully, the existing handoff has been refreshed and independently verified, and the current non-default branch has been published with an upstream. The final updater report records this documentation checkpoint. The active-work recurring wake is cancelled.

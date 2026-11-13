@@ -1,3 +1,7 @@
+# Current authentication analysis — 2026-11-13T21:03:31.110354+00:00
+
+User request: understand default-access authentication and teacher-level session prerequisites, excluding the student fallback lane. Static analysis of the captured production client confirms shared /api/login with two credential branches and /api/session validation. Server-returned user.role drives role gates; Teacher View alone is not authorization. Report: web/comp.school/authentication.md. Main production source hash was rechecked. No live auth request, credential use, account creation or teacher session was performed. Backend role mapping and session issuance remain unverified. This replaces setup-only as the active scope; earlier setup milestones below remain valid history.
+
 # Setup complete — 2026-11-13T20:56:23.403628+00:00
 
 Toolkit restore, repeat setup, two full verification passes, Fastfetch 2.71.0 execution, syntax checks and scoped diff review are complete. Checkpoint `7aec076` was published to `origin/hoplite/skepsis-93a77a1a` with an explicit refspec after confirming the remote default is a different branch. Independent archive verification passed CRC, 770-entry manifest membership, all eight owned-file byte comparisons and committed-blob equality. The initial checkpoint was late while the handoff audit completed. The active-work wake has been cancelled; no setup work remains. This final documentation checkpoint uses the existing updater and configured upstream; its report/log supplies the final commit and push result.

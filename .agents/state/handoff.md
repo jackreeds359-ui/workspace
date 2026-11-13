@@ -1,3 +1,7 @@
+# Current auth analysis handoff — 2026-11-13T21:03:31.110354+00:00
+
+Mapped the legitimate production login/session flow offline in web/comp.school/authentication.md with exact source identity and readable line evidence. Main bundle 5c6a9d68b722... is index-CHiQZc8e.js, not a preview. Two normal login branches exist: recognized account username/password and accessCode; do not conflate normal accessCode with the later fallback route. User role is supplied by the server response. No cookie name, signing method or teacher code is established by the current evidence. Do not attempt fallback, impersonation, role forgery, code guessing or protected-data access. Reproduce only via provisioned teacher test access or inspect actual backend handlers. Existing setup/tools remain verified; no new dependency was added.
+
 # Final setup handoff — 2026-11-13T20:56:23.403628+00:00
 
 The requested environment setup is complete. Commands, pinned versions and limitations are in SETUP.md. Root setup, tool verification and the Fastfetch wrapper all work in this runtime. Two full fixture-based toolkit checks passed; no real Windows target was available. The current branch tracks `origin/hoplite/skepsis-93a77a1a`; publication of checkpoint `7aec076` was confirmed, without changing the remote default branch. Root handoff.zip independently passed CRC/manifest/owned-copy/committed-blob checks. The existing updater regenerates it for this final documentation checkpoint. Read its JSON/log for final publication status.

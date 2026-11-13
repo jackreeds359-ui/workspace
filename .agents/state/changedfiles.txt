@@ -1,6 +1,4 @@
-.agents/scripts/toolsetup.py
-tools.sh
-SETUP.md
+web/comp.school/authentication.md
 .agents/state/status.md
 .agents/state/handoff.md
 .agents/state/next.md

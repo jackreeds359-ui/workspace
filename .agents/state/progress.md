@@ -1,3 +1,10 @@
+# Authentication analysis — 2026-11-13T21:03:31.110354+00:00
+
+- Resumed the same clean branch and read current project instructions/briefings. Re-ran setup successfully and enabled a four-minute native checkpoint wake for active work.
+- Traced the archived production login, session bootstrap, username classifier, access-code branch, response checks, password transition, menu role derivation and logout. Verified source object/readable SHA-256 identities. No live target request was made.
+- Wrote web/comp.school/authentication.md with confirmed client facts, explicit inferences/unknowns and a legitimate test-identity reproduction procedure. No teacher session or backend enforcement is claimed.
+- A bounded independent production admin-client review is being integrated. No product code, credentials or private data were changed.
+
 # Final setup milestone — 2026-11-13T20:56:23.403628+00:00
 
 - Published checkpoint `7aec076` via explicit refspec to the existing authorized repository; its current branch now tracks the matching origin branch. The remote default was checked and is different.
