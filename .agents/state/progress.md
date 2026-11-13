@@ -128,3 +128,11 @@ As of 2026-11-13T19:16:04.041731+00:00: 342 URL response/error records, 220 uniq
 ## Read-only delivery 2026-11-13T19:25:02.279397+00:00
 
 Read-only comp.school archive and map completed within the documented public-response scope. Saved 781 URL records, 324 deduplicated objects (53,590,925 bytes), 97 distinct JS objects, 35 API-string variants and 23 route/path candidates. Passive DNS covers 441 source-evidenced names: 93 resolved and 348 NXDOMAIN; all 93 resolving roots were checked (26 HTTP 200, 4 HTTP 410, 63 HTTP 404). This is not a full server, private-data or all-preview-code dump. Finished final public crawl and zero-request replay; root mapping completed by parent with 93 unauthenticated GETs. Verified all 324 hashes and metadata JSON; scanner found no supplied credential, private key or credential-token patterns. Restore test produced 611 files and refused a second write into the nonempty directory. Generated readable host/route maps and final coverage summary. Preparing downloadable archive, final Git/ZIP checkpoint and cancellation of active wake.
+
+## Client coverage extension 2026-11-13T19:49:29.191235+00:00
+
+Resumed at user request to complete browser-level JS coverage, dependency graph and readable copies. Inspected clean repository at 065fef0, previous scope/limits and installed browser tooling. Re-armed active checkpoint wake. Installed exact Prettier3.10.1 after user said to proceed without further asking, verifying official tarball SHA-512. Started CDP audit with all non-read requests blocked except explicit login; normal login succeeded and first dashboard route captured. Two offline agents are enumerating route evidence and implementing AST-based graph/formatting; no new target API actions.
+
+## Runtime coverage checkpoint 2026-11-13T19:50:41.986385+00:00
+
+Prettier3.10.1 installed with official SHA-512 verified; clientsetup.py persists the exact approved formatter. Implemented CDP capture using existing Node/agent-browser, verified successful normal login, visited 14 production entries/menus and captured script/CSS responses without API payload persistence. Read-only guard blocked telemetry and any non-read methods. Started second pass using actual site menu routes for topics, exercises and games. Offline route and AST graph agents continue independently.

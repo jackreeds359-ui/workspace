@@ -148,3 +148,11 @@ As of 2026-11-13T19:16:04.041731+00:00: 342 URL response/error records, 220 uniq
 ## Read-only delivery 2026-11-13T19:25:02.279397+00:00
 
 Read-only comp.school archive and map completed within the documented public-response scope. Saved 781 URL records, 324 deduplicated objects (53,590,925 bytes), 97 distinct JS objects, 35 API-string variants and 23 route/path candidates. Passive DNS covers 441 source-evidenced names: 93 resolved and 348 NXDOMAIN; all 93 resolving roots were checked (26 HTTP 200, 4 HTTP 410, 63 HTTP 404). This is not a full server, private-data or all-preview-code dump. The authenticated browser session is closed. Final download packaging and checkpoint are the only closing actions; no further target requests are planned.
+
+## Client coverage extension 2026-11-13T19:49:29.191235+00:00
+
+User requested completion of browser-observed all-page client JS extraction, dependency mapping and readable code organization after explicit correction that the earlier 97-object archive was not exhaustive. Active work resumed. A guarded CDP audit is visiting observed app entry/menu routes, capturing only JS/CSS/WASM bodies and sanitized navigation. Non-read network methods are blocked except the requested normal login. Prettier 3.10.1 approved by user response to exact package question and installed locally after published SHA-512 verification. No backend source or account records are part of this task.
+
+## Runtime coverage checkpoint 2026-11-13T19:50:41.986385+00:00
+
+Client JS coverage extension is active. Browser login succeeded; first guarded pass visited 14 production entry/menu URLs, captured delivered code dependencies and blocked non-read requests. Second pass is exercising normal coding, paper/topic and game-selector routes. Earlier archive completion statements refer only to bounded public crawl, not exhaustive page/runtime logic coverage.

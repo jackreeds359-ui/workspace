@@ -1,11 +1,13 @@
 {
-  "time": "2026-11-13T19:25:02.421933+00:00",
+  "time": "2026-11-13T19:50:42.043202+00:00",
   "branch": "hoplite/kyrene-3f44dbf5",
-  "parent": "f2921549c4201ccc12d135ce068b922876361541",
-  "digest": "9042516a597998e3374538e09dfb546dc71e4f8a87ec1fa527c0e4458be99d7e",
-  "count": 526,
+  "parent": "065fef0142cffc33e8bd9731bcb294645c25ea17",
+  "digest": "836674ee5a796dd9946e2ca78fe47fc1184dc1f0acd33442cc704d34b8226318",
+  "count": 529,
   "files": [
     ".agents/scripts/autoupdate.py",
+    ".agents/scripts/browseraudit.mjs",
+    ".agents/scripts/clientsetup.py",
     ".agents/scripts/hostcheck.py",
     ".agents/scripts/requirements.txt",
     ".agents/scripts/toolcheck.py",
@@ -529,6 +531,7 @@
     "web/comp.school/objects/feecb816250be8262d227b06a3f663998715909833a668889daa4884055eef2a",
     "web/comp.school/objects/ff327ccf7a7b9896fd1fc7e1a9cd841617d8c6b95a6d568a8f6519e9af194792",
     "web/comp.school/observations.json",
+    "web/comp.school/runtime.json",
     "web/comp.school/seeds.json",
     "web/comp.school/summary.json"
   ]
