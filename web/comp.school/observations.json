@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://self-assess.comp.school/",
+    "time": "2026-11-13T19:13:04.021553+00:00",
+    "purpose": "GET root of client-referenced hostname; exams retry after earlier timeout",
+    "status": 200,
+    "final": "https://self-assess.comp.school/",
+    "type": "text/html; charset=utf-8",
+    "bytes": 1347,
+    "sha256": "6e187088431b1b9700e9745e5ec834dada75fa3ffaffd5ec4eeab03cdddf9934"
+  },
+  {
+    "url": "https://exams.comp.school/",
+    "time": "2026-11-13T19:13:04.238315+00:00",
+    "purpose": "GET root of client-referenced hostname; exams retry after earlier timeout",
+    "status": 200,
+    "final": "https://comp.school/exams/",
+    "type": "text/html; charset=utf-8",
+    "bytes": 1562,
+    "sha256": "eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5"
+  }
+]

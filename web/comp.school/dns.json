@@ -1,0 +1,2432 @@
+{
+  "timestamp": "2026-11-13T19:11:59.787055+00:00",
+  "source_files": [
+    "certspotter.json",
+    "app.js"
+  ],
+  "hostname_count_extracted": 62,
+  "hostname_count_queried": 62,
+  "hostname_count_not_queried_due_to_limit": 0,
+  "records": [
+    {
+      "hostname": "admin.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "admin.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "admin.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            },
+            {
+              "name": "admin.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            }
+          ],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "admin.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "admin.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            },
+            {
+              "name": "admin.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            }
+          ],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "admin.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "code.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "code.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "code.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            },
+            {
+              "name": "code.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            }
+          ],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "code.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "code.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            },
+            {
+              "name": "code.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            }
+          ],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "code.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            },
+            {
+              "name": "comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            }
+          ],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            },
+            {
+              "name": "comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            }
+          ],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "docs.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "docs.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "docs.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            },
+            {
+              "name": "docs.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            }
+          ],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "docs.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "docs.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            },
+            {
+              "name": "docs.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            }
+          ],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "docs.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "exams.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "exams.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "exams.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            },
+            {
+              "name": "exams.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            }
+          ],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "exams.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "exams.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            },
+            {
+              "name": "exams.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            }
+          ],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "exams.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "games.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "games.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "games.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            },
+            {
+              "name": "games.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            }
+          ],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "games.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "games.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            },
+            {
+              "name": "games.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            }
+          ],
+          "comment": "Response from 108.162.195.219."
+        },
+        "CNAME": {
+          "name": "games.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "homework.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "homework.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "homework.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            },
+            {
+              "name": "homework.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            }
+          ],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "homework.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "homework.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            },
+            {
+              "name": "homework.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            }
+          ],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "homework.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "issues.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "issues.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "issues.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            },
+            {
+              "name": "issues.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            }
+          ],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "issues.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "issues.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            },
+            {
+              "name": "issues.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            }
+          ],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "issues.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "mark.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "mark.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "mark.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            },
+            {
+              "name": "mark.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            }
+          ],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "mark.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "mark.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            },
+            {
+              "name": "mark.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            }
+          ],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "mark.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1062.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1062.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "preview-1062.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1062.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.admin.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.admin.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1065.admin.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1065.admin.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.code.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.code.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "AAAA": {
+          "name": "preview-1065.code.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1065.code.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "preview-1065.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1065.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.exams.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.exams.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1065.exams.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1065.exams.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.forms.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.forms.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1065.forms.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "CNAME": {
+          "name": "preview-1065.forms.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.games.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.games.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "AAAA": {
+          "name": "preview-1065.games.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1065.games.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.issues.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.issues.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1065.issues.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "preview-1065.issues.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.mark.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.mark.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1065.mark.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1065.mark.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.printouts.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.printouts.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1065.printouts.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1065.printouts.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.recall.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.recall.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1065.recall.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1065.recall.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1065.self-assess.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1065.self-assess.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1065.self-assess.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "CNAME": {
+          "name": "preview-1065.self-assess.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.admin.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.admin.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1066.admin.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1066.admin.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.code.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.code.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "AAAA": {
+          "name": "preview-1066.code.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1066.code.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1066.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1066.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.exams.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.exams.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1066.exams.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "preview-1066.exams.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.forms.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.forms.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "preview-1066.forms.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1066.forms.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.games.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.games.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1066.games.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1066.games.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.issues.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.issues.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1066.issues.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "CNAME": {
+          "name": "preview-1066.issues.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.mark.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.mark.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1066.mark.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1066.mark.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.printouts.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.printouts.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "AAAA": {
+          "name": "preview-1066.printouts.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1066.printouts.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.recall.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.recall.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1066.recall.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1066.recall.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1066.self-assess.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1066.self-assess.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1066.self-assess.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1066.self-assess.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1078.code.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1078.code.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "preview-1078.code.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1078.code.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1078.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1078.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1078.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1078.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1078.exams.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1078.exams.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1078.exams.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1078.exams.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1078.issues.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1078.issues.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "preview-1078.issues.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1078.issues.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1078.printouts.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1078.printouts.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1078.printouts.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1078.printouts.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1078.recall.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1078.recall.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "AAAA": {
+          "name": "preview-1078.recall.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1078.recall.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1083.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1083.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1083.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "preview-1083.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1083.exams.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1083.exams.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1083.exams.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1083.exams.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1084.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1084.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "preview-1084.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1084.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1092.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1092.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1092.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1092.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1099.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1099.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "preview-1099.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1099.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1117.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1117.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "AAAA": {
+          "name": "preview-1117.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1117.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1117.mark.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1117.mark.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1117.mark.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "CNAME": {
+          "name": "preview-1117.mark.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.admin.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.admin.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1135.admin.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1135.admin.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.code.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.code.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1135.code.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1135.code.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "preview-1135.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "preview-1135.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.exams.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.exams.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1135.exams.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1135.exams.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.forms.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.forms.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "preview-1135.forms.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1135.forms.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.games.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.games.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "preview-1135.games.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1135.games.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.issues.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.issues.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "AAAA": {
+          "name": "preview-1135.issues.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1135.issues.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.mark.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.mark.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1135.mark.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "preview-1135.mark.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.printouts.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.printouts.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.44.219."
+        },
+        "AAAA": {
+          "name": "preview-1135.printouts.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1135.printouts.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.recall.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.recall.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "preview-1135.recall.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1135.recall.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1135.self-assess.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1135.self-assess.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1135.self-assess.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "CNAME": {
+          "name": "preview-1135.self-assess.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1139.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1139.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "preview-1139.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.35.219."
+        },
+        "CNAME": {
+          "name": "preview-1139.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1141.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1141.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "preview-1141.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "CNAME": {
+          "name": "preview-1141.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.194.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "preview-1147.comp.school",
+      "source": [
+        "certspotter.json"
+      ],
+      "dns": {
+        "A": {
+          "name": "preview-1147.comp.school",
+          "qtype": "A",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        },
+        "AAAA": {
+          "name": "preview-1147.comp.school",
+          "qtype": "AAAA",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        },
+        "CNAME": {
+          "name": "preview-1147.comp.school",
+          "qtype": "CNAME",
+          "status": "NXDOMAIN",
+          "status_code": 3,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "printouts.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "printouts.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "printouts.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            },
+            {
+              "name": "printouts.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            }
+          ],
+          "comment": "Response from 172.64.35.219."
+        },
+        "AAAA": {
+          "name": "printouts.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "printouts.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            },
+            {
+              "name": "printouts.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            }
+          ],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "printouts.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "recall.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "recall.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "recall.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            },
+            {
+              "name": "recall.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            }
+          ],
+          "comment": "Response from 108.162.194.243."
+        },
+        "AAAA": {
+          "name": "recall.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "recall.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            },
+            {
+              "name": "recall.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            }
+          ],
+          "comment": "Response from 108.162.195.219."
+        },
+        "CNAME": {
+          "name": "recall.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 162.159.38.243."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    },
+    {
+      "hostname": "self-assess.comp.school",
+      "source": [
+        "app.js"
+      ],
+      "dns": {
+        "A": {
+          "name": "self-assess.comp.school",
+          "qtype": "A",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "self-assess.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.50.193"
+            },
+            {
+              "name": "self-assess.comp.school.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.210.6"
+            }
+          ],
+          "comment": "Response from 172.64.34.243."
+        },
+        "AAAA": {
+          "name": "self-assess.comp.school",
+          "qtype": "AAAA",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [
+            {
+              "name": "self-assess.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3030::ac43:d206"
+            },
+            {
+              "name": "self-assess.comp.school.",
+              "type": 28,
+              "TTL": 300,
+              "data": "2606:4700:3031::6815:32c1"
+            }
+          ],
+          "comment": "Response from 162.159.44.219."
+        },
+        "CNAME": {
+          "name": "self-assess.comp.school",
+          "qtype": "CNAME",
+          "status": "NOERROR",
+          "status_code": 0,
+          "answers": [],
+          "comment": "Response from 108.162.195.219."
+        }
+      },
+      "errors": [],
+      "timestamp": "2026-11-13T19:11:59.787055+00:00"
+    }
+  ]
+}
