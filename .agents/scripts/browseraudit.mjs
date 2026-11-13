@@ -53,6 +53,7 @@ let login = false;
 let active = null;
 const responses = new Map();
 const requests = new Map();
+const owners = new Map();
 const tasks = new Set();
 const runtimefile = path.join(archive, 'runtime.json');
 const runs = fs.existsSync(runtimefile) ? JSON.parse(fs.readFileSync(runtimefile, 'utf8')) : [];
@@ -88,18 +89,20 @@ listeners.push((message) => {
     const detail = params.exceptionDetails || {};
     active.errors.push({ kind: detail.exception?.className || 'JavaScript exception', source: safeurl(detail.url || ''), line: detail.lineNumber, column: detail.columnNumber });
   }
-  if (message.method === 'Network.requestWillBeSent' && active && ['Script', 'Stylesheet'].includes(params.type)) {
-    requests.set(params.requestId, { url: safeurl(params.request.url), type: params.type });
+  if (message.method === 'Network.requestWillBeSent' && active) {
+    owners.set(params.requestId, active);
+    if (['Script', 'Stylesheet'].includes(params.type)) requests.set(params.requestId, { url: safeurl(params.request.url), type: params.type });
   }
   if (message.method === 'Network.responseReceived' && active) {
     const response = params.response;
     const clean = safeurl(response.url);
     if (!clean) return;
     const url = new URL(response.url);
-    const resource = { url: clean, type: params.type, mime: response.mimeType, status: response.status, page: active.url, fromServiceWorker: !!response.fromServiceWorker };
+    const owner = owners.get(params.requestId) || active;
+    const resource = { url: clean, type: params.type, mime: response.mimeType, status: response.status, page: owner.url, fromServiceWorker: !!response.fromServiceWorker, attribution: owners.has(params.requestId) ? 'Network.requestWillBeSent owner' : 'Response window only' };
     const code = params.type === 'Script' || params.type === 'Stylesheet' || /\.(?:m?js|css|wasm)$/.test(url.pathname) || /javascript|application\/wasm/.test(response.mimeType);
     if (code && !url.pathname.startsWith('/api/')) {
-      active.resources.push(resource);
+      owner.resources.push(resource);
       if (response.status === 200 && clean === response.url && /javascript|css|wasm/.test(response.mimeType)) responses.set(params.requestId, resource);
       else if (!scoped(response.url)) resource.capture_error = 'External code response not eligible for capture';
       else if (clean !== response.url) resource.capture_error = 'URL contains excluded query parameters; not archived';
@@ -113,7 +116,7 @@ listeners.push((message) => {
   if (message.method === 'Network.loadingFailed' && active) {
     const resource = responses.get(params.requestId);
     if (resource) { resource.capture_error = params.errorText; responses.delete(params.requestId); }
-    else if (requests.has(params.requestId)) active.resources.push({ ...requests.get(params.requestId), status: null, capture_error: params.errorText });
+    else if (requests.has(params.requestId)) (owners.get(params.requestId) || active).resources.push({ ...requests.get(params.requestId), status: null, capture_error: params.errorText });
   }
 });
 await send('Page.enable', {}, session);
@@ -143,7 +146,7 @@ try {
   }
   for (const job of plan) {
     if (!scoped(job.url)) throw new Error('Out-of-scope page');
-    active = { url: safeurl(job.url), label: job.label || null, time: new Date().toISOString(), resources: [], blocked: [], errors: [], actions: [], modes: job.modes || [] };
+    active = { attribution: 'Network.requestWillBeSent owner', url: safeurl(job.url), label: job.label || null, time: new Date().toISOString(), resources: [], blocked: [], errors: [], actions: [], modes: job.modes || [] };
     try {
       await send('Page.navigate', { url: job.url }, session); await delay(job.wait || 2200);
       for (let n = 0; n < 12; n++) {

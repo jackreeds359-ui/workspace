@@ -168,3 +168,7 @@ Expanded runtime coverage currently contains 101 page/state records across norma
 ## Client graph verification 2026-11-13T20:04:01.174709+00:00
 
 Browser capture completed 101 observations; AST dependency resolution is now being tightened to use captured Vite modulepreload helper bases instead of leaving bare assets/... unresolved. Selected vendor scripts and directly referenced workers/runtime assets have been archived without credentials. Formatting pass is running with zero parse failures in the latest graph pass. Embedded blob-worker bootstrap logic is being inspected for safe literal extraction; no target program execution or server writes.
+
+## Verified readable-code milestone 2026-11-13T20:08:28.152605+00:00
+
+All 121 indexed JS objects now pass parsing and structural formatting equivalence; independent Node syntax checks also passed for all121 readable files. The concrete static/dynamic/preload/worker module URL graph has0 missing targets at this checkpoint;13 unavailable filename literals are defaults or editor sample filenames and remain explicit. One JavaScript Blob bootstrap was statically extracted/verified;13 other Blob constructions remain computed. Runtime has144 observations; final request-owner-attributed evidence sweep is still running. No universal all-roles/all-runtime-program guarantee.

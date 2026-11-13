@@ -219,3 +219,7 @@ Parent now owns jsindex.mjs and final client integration; its agent was stopped 
 ## Client graph verification 2026-11-13T20:04:01.174709+00:00
 
 Evidence-based Vite rule: entry helpers explicitly prefix preload assets with /, /code/, /recall/ or /exams/. The parser now derives these bases from fetched helper code for the app rather than guessing. Bare package names remain unresolved. Extra .js/.mjs filename strings are literal candidates, not automatically live modules; actual fallback HTML is recorded and excluded from code. Runtime resources from allowed direct vendor CDNs include Pyodide/sql.js; fetches.json records exact outcomes. pagecoverage.py maps observed state/entries/network code to static/dynamic/preload/worker closure and app-specific source/readable indexes.
+
+## Verified readable-code milestone 2026-11-13T20:08:28.152605+00:00
+
+Readables are formatting-only and preserve minified identifiers. Structural equivalence normalizes only source metadata/comments, equivalent noncomputed keys and regexp flag order; changed operators/flags have negative selftests. client/verification.json records independent Node syntax and readable SHA-256 for121 files. pagecoverage.py emits per-page entry/shared/lazy/worker graph, apps/ hostname indexes and explicit gaps. embedded.mjs statically resolves const string JavaScript Blob parts without evaluating source, records original/readable bootstrap hash and source offsets. The extracted lobby bootstrap imports message.baseUrl+pyodide.js at runtime; baseUrl is not invented.

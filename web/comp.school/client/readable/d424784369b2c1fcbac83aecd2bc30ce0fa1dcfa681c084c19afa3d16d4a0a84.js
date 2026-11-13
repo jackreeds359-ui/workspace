@@ -1,1 +1,368 @@
-import{j as e,r as f}from"./react-vendor-BK1G6oO1.js";import{u as A}from"./keyword-flashcards-Ha6Msavb.js";import{u as E}from"./use-cover-art-CyGvgy9q.js";import{k as T}from"./index-DjyiOHey.js";function P(n){let s=2166136261;for(let t=0;t<n.length;t+=1)s^=n.charCodeAt(t),s=Math.imul(s,16777619);return s>>>0}function F(n){let s=typeof n=="number"?n>>>0:P(n);return()=>{s=s+1831565813>>>0;let t=s;return t=Math.imul(t^t>>>15,t|1),t^=t+Math.imul(t^t>>>7,t|61),((t^t>>>14)>>>0)/4294967296}}function p(n,s,t){return s+n()*(t-s)}const m=200,M=240;function I(n,s,t,r){const o=Math.floor(p(n,5,11)),i=p(n,.06,.16),N=p(n,0,Math.PI*2),x=Math.floor(p(n,5,8)),l=[];for(let d=0;d<x;d+=1){const c=r*(.35+d/x*.65),v=N+d*(Math.PI/o);let u="";for(let h=0;h<=M;h+=1){const a=h/M*Math.PI*2,k=c*(1+i*Math.sin(o*a+v)),j=s+k*Math.cos(a),$=t+k*Math.sin(a);u+=`${h===0?"M":"L"}${j.toFixed(1)} ${$.toFixed(1)}`}l.push(`${u}Z`)}return l}function L(n){const s=F(`pattern:${n}`),r=s()<.5?m*.82:m*.18,o=m*p(s,.12,.3);return I(s,r,o,m*p(s,.42,.55))}function R({seed:n,className:s}){return e.jsx("svg",{className:s??"rc-pattern",viewBox:`0 0 ${m} ${m}`,preserveAspectRatio:"xMidYMid slice","aria-hidden":"true",focusable:"false",children:e.jsx("g",{fill:"none",stroke:"currentColor",strokeWidth:"0.6",children:L(n).map((t,r)=>e.jsx("path",{d:t},r))})})}function B({kind:n}){return e.jsx("svg",{className:"rc-suit",viewBox:"0 0 16 16","aria-hidden":"true",focusable:"false",children:n==="chip"?e.jsxs("g",{fill:"none",stroke:"currentColor",strokeWidth:"1.5",strokeLinecap:"round",children:[e.jsx("rect",{x:"4",y:"4",width:"8",height:"8",rx:"1.5",fill:"currentColor",fillOpacity:"0.25"}),e.jsx("path",{d:"M6 1.5v2.5M10 1.5v2.5M6 12v2.5M10 12v2.5M1.5 6h2.5M1.5 10h2.5M12 6h2.5M12 10h2.5"})]}):n==="brace"?e.jsxs("g",{fill:"none",stroke:"currentColor",strokeWidth:"1.6",strokeLinecap:"round",strokeLinejoin:"round",children:[e.jsx("path",{d:"M6 2.5C4 2.5 4.5 4 4.5 6S3.5 8 2.5 8c1 0 2 0 2 2s-.5 3.5 1.5 3.5"}),e.jsx("path",{d:"M10 2.5c2 0 1.5 1.5 1.5 3.5s1 2 2 2c-1 0-2 0-2 2s.5 3.5-1.5 3.5"})]}):e.jsx("path",{d:"M8 1.5 9.6 6.4 14.5 8 9.6 9.6 8 14.5 6.4 9.6 1.5 8 6.4 6.4Z",fill:"currentColor"})})}function O({seed:n,rank:s,suit:t}){const r=e.jsxs(e.Fragment,{children:[s==null?null:e.jsx("span",{className:"rc-rank",children:s}),e.jsx(B,{kind:t})]});return e.jsxs("span",{className:"rc-face","aria-hidden":"true",children:[e.jsx(R,{seed:n}),e.jsx("span",{className:"rc-frame"}),e.jsx("span",{className:"rc-corner","data-corner":"top",children:r}),e.jsx("span",{className:"rc-corner","data-corner":"bottom",children:r})]})}function W(){const[n,s]=f.useState(0),t=f.useCallback(()=>s(r=>r+1),[]);return{flip:n===0?void 0:n%2?"a":"b",turn:t}}function _(){const[n,s]=f.useState(()=>new Map),t=f.useCallback(o=>s(i=>new Map(i).set(o,(i.get(o)??0)+1)),[]);return{flipOf:f.useCallback(o=>{const i=n.get(o)??0;return i===0?void 0:i%2?"a":"b"},[n]),turn:t}}function z({title:n,cards:s,skipLabel:t,doneLabel:r,buttonClass:o,primaryClass:i,titleClass:N,withKeywords:x=c=>c,realCard:l,onDone:d}){const[c,v]=f.useState(0),[u,h]=f.useState(!1),a=s[c],k=c===s.length-1,j=A(),{flip:$,turn:C}=W(),g=j&&a.tallArt?"cover":"contain",S=E(`${a.id}-${u}-${g}`,"top");function y(b){v(b),h(!1)}return e.jsxs("div",{className:"kf-cards","data-stage":"cards","data-layout":j?"tall":"wide",children:[e.jsxs("div",{className:"kf-head",children:[e.jsx("h2",{className:N,children:n}),e.jsx("button",{type:"button",className:`${o} kf-quiet`,onClick:d,children:t})]}),e.jsxs("button",{type:"button",className:l?"kf-card rc-card":"kf-card","data-story-card":"flashcard","data-card":a.id,"data-turned":u,"data-flip":l?$:void 0,"aria-label":u?`${a.term}. ${a.definition} ${a.example}${a.code?` ${a.code}`:""}`:`${a.says?`${a.says} `:""}${a.term}${a.name?`, ${a.name}`:""}. Turn over.`,onClick:()=>{h(b=>!b),C()},children:[l?e.jsx(O,{seed:a.id,rank:c+1,suit:l.suit}):null,u?e.jsxs("span",{className:"kf-back","data-art":a.art?"yes":"no",children:[e.jsx("span",{className:"kf-term",children:a.term}),a.art?e.jsx("span",{className:"kf-art","aria-hidden":"true",children:a.art}):null,e.jsx("span",{className:"kf-definition",children:x(a.definition)}),e.jsx("span",{className:"kf-example",children:x(a.example)}),a.code?e.jsx("code",{className:"kf-code",translate:"no",children:a.code}):null]}):e.jsxs("span",{className:"kf-front","data-fill":g,"data-art":a.art?"yes":"no",children:[a.says?e.jsx("span",{className:"kf-says",children:a.says}):null,a.art?e.jsx("span",{className:"kf-art","aria-hidden":"true",ref:g==="cover"?S:void 0,children:g==="cover"?a.tallArt:a.art}):null,e.jsxs("span",{className:"kf-caption",children:[e.jsx("span",{className:"kf-term",children:a.term}),a.name?e.jsx("span",{className:"kf-name",children:a.name}):null,e.jsx("span",{className:"kf-turn",children:"Tap to turn over"})]})]})]}),a.explore?e.jsx("div",{className:"kf-explore",children:a.explore},a.id):null,e.jsxs("div",{className:"kf-nav",children:[e.jsx("button",{type:"button",className:o,onClick:()=>y(c-1),disabled:c===0,children:"Back"}),e.jsxs("p",{className:"kf-count",children:[c+1," of ",s.length]}),k?e.jsx("button",{type:"button",className:`${o} ${i}`,onClick:d,children:r}):e.jsx("button",{type:"button",className:`${o} ${i}`,onClick:()=>y(c+1),children:"Next"})]})]})}const Z=T,K={"1.4":[{term:"Account Lockout",definition:"Blocking an account after a set number of wrong password attempts, so a brute force attack cannot keep guessing",example:"After three wrong passwords the account locks for 30 minutes, so a bot trying passwords gets only a handful of guesses an hour"},{term:"Two-Factor Authentication",definition:"Logging in with two different kinds of proof, such as a password and a code sent to a phone, so a stolen password alone is not enough",example:"A bank texts a six-digit code that must be typed in after the password"},{term:"Staff Training",definition:"Teaching staff to spot phishing and social engineering, and what to do when they do",example:"Staff learn to check where an email really came from before clicking a link, and never to give a password over the phone"}]};function q(n,s){const t=[...Z[n]??[],...K[n]??[]].find(r=>r.term===s);if(!t)throw new Error(`No ${n} keyword "${s}"`);return t}function w(n){const s=n.trim(),t=s.charAt(0).toUpperCase()+s.slice(1);return/[.!?]$/.test(t)?t:`${t}.`}function H(n,s,t){const r=q(n,s);return{...t,definition:t.definition??w(r.definition),example:t.example??w(r.example??"")}}export{z as K,O as R,_ as a,H as d,W as u};
+import { j as e, r as f } from "./react-vendor-BK1G6oO1.js";
+import { u as A } from "./keyword-flashcards-Ha6Msavb.js";
+import { u as E } from "./use-cover-art-CyGvgy9q.js";
+import { k as T } from "./index-DjyiOHey.js";
+function P(n) {
+  let s = 2166136261;
+  for (let t = 0; t < n.length; t += 1)
+    ((s ^= n.charCodeAt(t)), (s = Math.imul(s, 16777619)));
+  return s >>> 0;
+}
+function F(n) {
+  let s = typeof n == "number" ? n >>> 0 : P(n);
+  return () => {
+    s = (s + 1831565813) >>> 0;
+    let t = s;
+    return (
+      (t = Math.imul(t ^ (t >>> 15), t | 1)),
+      (t ^= t + Math.imul(t ^ (t >>> 7), t | 61)),
+      ((t ^ (t >>> 14)) >>> 0) / 4294967296
+    );
+  };
+}
+function p(n, s, t) {
+  return s + n() * (t - s);
+}
+const m = 200,
+  M = 240;
+function I(n, s, t, r) {
+  const o = Math.floor(p(n, 5, 11)),
+    i = p(n, 0.06, 0.16),
+    N = p(n, 0, Math.PI * 2),
+    x = Math.floor(p(n, 5, 8)),
+    l = [];
+  for (let d = 0; d < x; d += 1) {
+    const c = r * (0.35 + (d / x) * 0.65),
+      v = N + d * (Math.PI / o);
+    let u = "";
+    for (let h = 0; h <= M; h += 1) {
+      const a = (h / M) * Math.PI * 2,
+        k = c * (1 + i * Math.sin(o * a + v)),
+        j = s + k * Math.cos(a),
+        $ = t + k * Math.sin(a);
+      u += `${h === 0 ? "M" : "L"}${j.toFixed(1)} ${$.toFixed(1)}`;
+    }
+    l.push(`${u}Z`);
+  }
+  return l;
+}
+function L(n) {
+  const s = F(`pattern:${n}`),
+    r = s() < 0.5 ? m * 0.82 : m * 0.18,
+    o = m * p(s, 0.12, 0.3);
+  return I(s, r, o, m * p(s, 0.42, 0.55));
+}
+function R({ seed: n, className: s }) {
+  return e.jsx("svg", {
+    className: s ?? "rc-pattern",
+    viewBox: `0 0 ${m} ${m}`,
+    preserveAspectRatio: "xMidYMid slice",
+    "aria-hidden": "true",
+    focusable: "false",
+    children: e.jsx("g", {
+      fill: "none",
+      stroke: "currentColor",
+      strokeWidth: "0.6",
+      children: L(n).map((t, r) => e.jsx("path", { d: t }, r)),
+    }),
+  });
+}
+function B({ kind: n }) {
+  return e.jsx("svg", {
+    className: "rc-suit",
+    viewBox: "0 0 16 16",
+    "aria-hidden": "true",
+    focusable: "false",
+    children:
+      n === "chip"
+        ? e.jsxs("g", {
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "1.5",
+            strokeLinecap: "round",
+            children: [
+              e.jsx("rect", {
+                x: "4",
+                y: "4",
+                width: "8",
+                height: "8",
+                rx: "1.5",
+                fill: "currentColor",
+                fillOpacity: "0.25",
+              }),
+              e.jsx("path", {
+                d: "M6 1.5v2.5M10 1.5v2.5M6 12v2.5M10 12v2.5M1.5 6h2.5M1.5 10h2.5M12 6h2.5M12 10h2.5",
+              }),
+            ],
+          })
+        : n === "brace"
+          ? e.jsxs("g", {
+              fill: "none",
+              stroke: "currentColor",
+              strokeWidth: "1.6",
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              children: [
+                e.jsx("path", {
+                  d: "M6 2.5C4 2.5 4.5 4 4.5 6S3.5 8 2.5 8c1 0 2 0 2 2s-.5 3.5 1.5 3.5",
+                }),
+                e.jsx("path", {
+                  d: "M10 2.5c2 0 1.5 1.5 1.5 3.5s1 2 2 2c-1 0-2 0-2 2s.5 3.5-1.5 3.5",
+                }),
+              ],
+            })
+          : e.jsx("path", {
+              d: "M8 1.5 9.6 6.4 14.5 8 9.6 9.6 8 14.5 6.4 9.6 1.5 8 6.4 6.4Z",
+              fill: "currentColor",
+            }),
+  });
+}
+function O({ seed: n, rank: s, suit: t }) {
+  const r = e.jsxs(e.Fragment, {
+    children: [
+      s == null ? null : e.jsx("span", { className: "rc-rank", children: s }),
+      e.jsx(B, { kind: t }),
+    ],
+  });
+  return e.jsxs("span", {
+    className: "rc-face",
+    "aria-hidden": "true",
+    children: [
+      e.jsx(R, { seed: n }),
+      e.jsx("span", { className: "rc-frame" }),
+      e.jsx("span", {
+        className: "rc-corner",
+        "data-corner": "top",
+        children: r,
+      }),
+      e.jsx("span", {
+        className: "rc-corner",
+        "data-corner": "bottom",
+        children: r,
+      }),
+    ],
+  });
+}
+function W() {
+  const [n, s] = f.useState(0),
+    t = f.useCallback(() => s((r) => r + 1), []);
+  return { flip: n === 0 ? void 0 : n % 2 ? "a" : "b", turn: t };
+}
+function _() {
+  const [n, s] = f.useState(() => new Map()),
+    t = f.useCallback(
+      (o) => s((i) => new Map(i).set(o, (i.get(o) ?? 0) + 1)),
+      [],
+    );
+  return {
+    flipOf: f.useCallback(
+      (o) => {
+        const i = n.get(o) ?? 0;
+        return i === 0 ? void 0 : i % 2 ? "a" : "b";
+      },
+      [n],
+    ),
+    turn: t,
+  };
+}
+function z({
+  title: n,
+  cards: s,
+  skipLabel: t,
+  doneLabel: r,
+  buttonClass: o,
+  primaryClass: i,
+  titleClass: N,
+  withKeywords: x = (c) => c,
+  realCard: l,
+  onDone: d,
+}) {
+  const [c, v] = f.useState(0),
+    [u, h] = f.useState(!1),
+    a = s[c],
+    k = c === s.length - 1,
+    j = A(),
+    { flip: $, turn: C } = W(),
+    g = j && a.tallArt ? "cover" : "contain",
+    S = E(`${a.id}-${u}-${g}`, "top");
+  function y(b) {
+    (v(b), h(!1));
+  }
+  return e.jsxs("div", {
+    className: "kf-cards",
+    "data-stage": "cards",
+    "data-layout": j ? "tall" : "wide",
+    children: [
+      e.jsxs("div", {
+        className: "kf-head",
+        children: [
+          e.jsx("h2", { className: N, children: n }),
+          e.jsx("button", {
+            type: "button",
+            className: `${o} kf-quiet`,
+            onClick: d,
+            children: t,
+          }),
+        ],
+      }),
+      e.jsxs("button", {
+        type: "button",
+        className: l ? "kf-card rc-card" : "kf-card",
+        "data-story-card": "flashcard",
+        "data-card": a.id,
+        "data-turned": u,
+        "data-flip": l ? $ : void 0,
+        "aria-label": u
+          ? `${a.term}. ${a.definition} ${a.example}${a.code ? ` ${a.code}` : ""}`
+          : `${a.says ? `${a.says} ` : ""}${a.term}${a.name ? `, ${a.name}` : ""}. Turn over.`,
+        onClick: () => {
+          (h((b) => !b), C());
+        },
+        children: [
+          l ? e.jsx(O, { seed: a.id, rank: c + 1, suit: l.suit }) : null,
+          u
+            ? e.jsxs("span", {
+                className: "kf-back",
+                "data-art": a.art ? "yes" : "no",
+                children: [
+                  e.jsx("span", { className: "kf-term", children: a.term }),
+                  a.art
+                    ? e.jsx("span", {
+                        className: "kf-art",
+                        "aria-hidden": "true",
+                        children: a.art,
+                      })
+                    : null,
+                  e.jsx("span", {
+                    className: "kf-definition",
+                    children: x(a.definition),
+                  }),
+                  e.jsx("span", {
+                    className: "kf-example",
+                    children: x(a.example),
+                  }),
+                  a.code
+                    ? e.jsx("code", {
+                        className: "kf-code",
+                        translate: "no",
+                        children: a.code,
+                      })
+                    : null,
+                ],
+              })
+            : e.jsxs("span", {
+                className: "kf-front",
+                "data-fill": g,
+                "data-art": a.art ? "yes" : "no",
+                children: [
+                  a.says
+                    ? e.jsx("span", { className: "kf-says", children: a.says })
+                    : null,
+                  a.art
+                    ? e.jsx("span", {
+                        className: "kf-art",
+                        "aria-hidden": "true",
+                        ref: g === "cover" ? S : void 0,
+                        children: g === "cover" ? a.tallArt : a.art,
+                      })
+                    : null,
+                  e.jsxs("span", {
+                    className: "kf-caption",
+                    children: [
+                      e.jsx("span", { className: "kf-term", children: a.term }),
+                      a.name
+                        ? e.jsx("span", {
+                            className: "kf-name",
+                            children: a.name,
+                          })
+                        : null,
+                      e.jsx("span", {
+                        className: "kf-turn",
+                        children: "Tap to turn over",
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+        ],
+      }),
+      a.explore
+        ? e.jsx("div", { className: "kf-explore", children: a.explore }, a.id)
+        : null,
+      e.jsxs("div", {
+        className: "kf-nav",
+        children: [
+          e.jsx("button", {
+            type: "button",
+            className: o,
+            onClick: () => y(c - 1),
+            disabled: c === 0,
+            children: "Back",
+          }),
+          e.jsxs("p", {
+            className: "kf-count",
+            children: [c + 1, " of ", s.length],
+          }),
+          k
+            ? e.jsx("button", {
+                type: "button",
+                className: `${o} ${i}`,
+                onClick: d,
+                children: r,
+              })
+            : e.jsx("button", {
+                type: "button",
+                className: `${o} ${i}`,
+                onClick: () => y(c + 1),
+                children: "Next",
+              }),
+        ],
+      }),
+    ],
+  });
+}
+const Z = T,
+  K = {
+    1.4: [
+      {
+        term: "Account Lockout",
+        definition:
+          "Blocking an account after a set number of wrong password attempts, so a brute force attack cannot keep guessing",
+        example:
+          "After three wrong passwords the account locks for 30 minutes, so a bot trying passwords gets only a handful of guesses an hour",
+      },
+      {
+        term: "Two-Factor Authentication",
+        definition:
+          "Logging in with two different kinds of proof, such as a password and a code sent to a phone, so a stolen password alone is not enough",
+        example:
+          "A bank texts a six-digit code that must be typed in after the password",
+      },
+      {
+        term: "Staff Training",
+        definition:
+          "Teaching staff to spot phishing and social engineering, and what to do when they do",
+        example:
+          "Staff learn to check where an email really came from before clicking a link, and never to give a password over the phone",
+      },
+    ],
+  };
+function q(n, s) {
+  const t = [...(Z[n] ?? []), ...(K[n] ?? [])].find((r) => r.term === s);
+  if (!t) throw new Error(`No ${n} keyword "${s}"`);
+  return t;
+}
+function w(n) {
+  const s = n.trim(),
+    t = s.charAt(0).toUpperCase() + s.slice(1);
+  return /[.!?]$/.test(t) ? t : `${t}.`;
+}
+function H(n, s, t) {
+  const r = q(n, s);
+  return {
+    ...t,
+    definition: t.definition ?? w(r.definition),
+    example: t.example ?? w(r.example ?? ""),
+  };
+}
+export { z as K, O as R, _ as a, H as d, W as u };

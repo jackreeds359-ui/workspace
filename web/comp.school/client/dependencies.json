@@ -480921,7 +480921,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
@@ -480934,7 +480934,7 @@
           "column": 241
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/.mp3",
@@ -484861,7 +484861,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/index-CHiQZc8e.js",
@@ -484944,7 +484944,7 @@
           "column": 395
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/BtecTaskActivity-Dt0Xd-0I.js",
@@ -485291,7 +485291,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/index-CHiQZc8e.js",
@@ -485374,7 +485374,7 @@
           "column": 472
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/budget-BVClBdpG.svg",
@@ -486631,7 +486631,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/index-CHiQZc8e.js",
@@ -486714,7 +486714,7 @@
           "column": 601
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/Careers-BSnYwGQP.js",
@@ -487591,7 +487591,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js",
@@ -487604,7 +487604,7 @@
           "column": 371
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/colour-coding-CevjnsQZ.svg",
@@ -488321,7 +488321,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js",
@@ -488334,7 +488334,7 @@
           "column": 217
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/coursework-editors-DmNamGFm.js",
@@ -488391,7 +488391,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/index-CHiQZc8e.js",
@@ -488474,7 +488474,7 @@
           "column": 665
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/CritWallGame-qwLk7gDB.js",
@@ -491001,7 +491001,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/index-CHiQZc8e.js",
@@ -491084,7 +491084,7 @@
           "column": 131
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/FlashcardsDeck-DS4H-fcj.js",
@@ -499131,7 +499131,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/index-CHiQZc8e.js",
@@ -499214,7 +499214,7 @@
           "column": 541
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/range-check.svg",
@@ -500091,7 +500091,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js",
@@ -500104,7 +500104,7 @@
           "column": 405
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://comp.school/assets/SheetEditor-DPKlmwzo.js",
@@ -758551,7 +758551,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://mark.comp.school/assets/index-DThs38Se.js",
@@ -758564,7 +758564,7 @@
           "column": 82
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://mark.comp.school/assets/application/json,.json",
@@ -759181,7 +759181,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://mark.comp.school/assets/index-DThs38Se.js",
@@ -759194,7 +759194,7 @@
           "column": 108
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://mark.comp.school/assets/file.pdf",
@@ -801461,7 +801461,7 @@
       "classification": "asset",
       "targetkind": "asset",
       "resolution": "internal",
-      "captured": false,
+      "captured": true,
       "references": [
         {
           "sourceurl": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
@@ -801474,7 +801474,7 @@
           "column": 57
         }
       ],
-      "requested": true
+      "requested": false
     },
     {
       "url": "https://printouts.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",

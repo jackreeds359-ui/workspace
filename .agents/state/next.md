@@ -142,3 +142,7 @@ Finish updated AST graph pass, fetch missing concrete module references and work
 ## Client graph verification 2026-11-13T20:04:01.174709+00:00
 
 Finish semantic formatter result, resolve any remaining new concrete dependencies once, extract statically recoverable blob-worker code without evaluating it, then final graph/coverage/hash/syntax checks. Confirm no private project or account text in runtime.json. Produce updated archive with originals+readables+page graph and explicit limits. No blanket all-pages or all-roles claim; preserve remaining computed/bare/default-unavailable references.
+
+## Verified readable-code milestone 2026-11-13T20:08:28.152605+00:00
+
+Finish request-owner-attributed browser sweep, close browser, rerun fast index only if new code hashes appeared, regenerate pagecoverage and report outputs, validate all raw/readable hashes+JSON, scan secrets, restore-test, update final handoff and package. This is not an offline working clone or original TS/TSX source recovery. Keep remaining computed/default/browser errors and role/access limitations explicit; do not attempt to bypass them.

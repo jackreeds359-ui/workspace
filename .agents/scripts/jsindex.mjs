@@ -609,7 +609,9 @@ async function main() {
   process.stdout.write(`${JSON.stringify({ status: counters.parsefailures || counters.formatfailures ? 'completed-with-issues' : 'passed', ...counters, dependencyTargets: targetmap.size, unresolved: unresolved.length, runtimeScriptsNotCaptured: externalScripts.length }, null, 2)}\n`);
 }
 
-main().catch(error => {
+export { parse, extract, fingerprint };
+
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch(error => {
   process.stderr.write(`${cleanmessage(error)}\n`);
   process.exitCode = 1;
 });

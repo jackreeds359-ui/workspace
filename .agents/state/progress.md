@@ -148,3 +148,7 @@ Current runtime capture has 101 observations. Visited coding, Python/SQL playgro
 ## Client graph verification 2026-11-13T20:04:01.174709+00:00
 
 Captured101 page/state observations and28 explicit entry-script snapshots with read-only guard. Latest index parsed120 code objects with0 parse failures. Fixed Vite preload bases from actual helper source, reducing unresolved references from4208 to124 (computed/bare imports/workers only at that point). Fetched preview-only lazy modules and named PDF workers; bare default worker names returned HTML. Added per-page graph generator and durable approved formatter setup. Full format/equivalence pass and final code-only dependency checks remain in progress.
+
+## Verified readable-code milestone 2026-11-13T20:08:28.152605+00:00
+
+Formatter passed for121/121 code objects (42 newly formatted plus79 verified/preserved);0 parse or semantic-format failures. Independent Node module syntax and original-hash checks passed for121. Legacy HTML .js fallbacks excluded; orphaned generated HTML readables removed. Additional runtime/worker/CSS dependencies fetched from exact code references; latest concrete import/preload/worker missing count0. Extracted one1691-byte lobby Python worker bootstrap and structurally verified readable copy. Current browser observation count144; final attribution sweep ongoing.

@@ -1,0 +1,186 @@
+{
+  "time": "2026-11-13T20:06:36.612Z",
+  "method": "Static constant-string resolution for JavaScript Blob parts; no evaluation or execution",
+  "records": [
+    {
+      "bundle": "137d6bc67dfcb726d70a519a55a528afb3491daec241e423ba61f116093e468d",
+      "urls": [
+        "https://mark.comp.school/assets/App-BruRv-ox.js"
+      ],
+      "start": 1556912,
+      "end": 1556950,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "141282ff1c1b0c3ce6a194c453b7c03b94f9d85aecf0990864f4821b0b083b5e",
+      "urls": [
+        "https://comp.school/recall/assets/App-Cywbl0vP.js"
+      ],
+      "start": 6257107,
+      "end": 6257145,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "urls": [
+        "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
+      ],
+      "start": 1849373,
+      "end": 1849411,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "17b15f1b96972bd980ed56598577ae1769fe71b155bad6f4c8b4a6b6a73f6495",
+      "urls": [
+        "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js"
+      ],
+      "start": 179536,
+      "end": 179575,
+      "mime": "text/javascript",
+      "status": "extracted-and-verified",
+      "reason": null,
+      "sha256": "be57cd1e5c93427ddb7b55f36edb24ab4cf3a758c89df822febecc8f719aaf29",
+      "original": "embedded/be57cd1e5c93427ddb7b55f36edb24ab4cf3a758c89df822febecc8f719aaf29.original.js",
+      "readable": "embedded/be57cd1e5c93427ddb7b55f36edb24ab4cf3a758c89df822febecc8f719aaf29.js",
+      "bytes": 1691,
+      "dependencies": [
+        {
+          "kind": "importScripts",
+          "specifier": null,
+          "start": 170,
+          "end": 200,
+          "line": 8,
+          "column": 20,
+          "basekind": "source",
+          "reason": "computed-import-scripts"
+        },
+        {
+          "kind": "code",
+          "specifier": "pyodide.js",
+          "start": 188,
+          "end": 200,
+          "line": 8,
+          "column": 38,
+          "basekind": "source",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "bundle": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "urls": [
+        "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js"
+      ],
+      "start": 2465793,
+      "end": 2465831,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "5169200ab784a703c293b74baa198526b08c7535c998bb7e2b5d36b7f2428a3e",
+      "urls": [
+        "https://comp.school/exams/assets/AppRoutes-Br4afREO.js"
+      ],
+      "start": 767826,
+      "end": 767864,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "urls": [
+        "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js"
+      ],
+      "start": 3559362,
+      "end": 3559400,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "6f4f8df565fa07dc668520442e5d4c24c85f436224e23edcd20c2feb535e07e7",
+      "urls": [
+        "https://comp.school/assets/index-Cyo9THSS.js"
+      ],
+      "start": 284,
+      "end": 420,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "urls": [
+        "https://preview-1349.comp.school/assets/index-BoOY-xik.js"
+      ],
+      "start": 2811022,
+      "end": 2811060,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "urls": [
+        "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
+      ],
+      "start": 4520514,
+      "end": 4520552,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e",
+      "urls": [
+        "https://library.comp.school/assets/index-CTxi99Mm.js"
+      ],
+      "start": 6349394,
+      "end": 6349432,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "urls": [
+        "https://preview-1373.comp.school/assets/index-BIpziTN_.js"
+      ],
+      "start": 4317376,
+      "end": 4317414,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "a800976b5efc9b3cc6115d0349f668f19620044cf7ea3ead1854e5fc36030c65",
+      "urls": [
+        "https://self-assess.comp.school/assets/index-wqfvhi8V.js"
+      ],
+      "start": 3357989,
+      "end": 3358027,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    },
+    {
+      "bundle": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "urls": [
+        "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+      ],
+      "start": 4353150,
+      "end": 4353188,
+      "mime": "text/javascript",
+      "status": "unresolved",
+      "reason": "Blob source is not a statically resolvable string array"
+    }
+  ]
+}
