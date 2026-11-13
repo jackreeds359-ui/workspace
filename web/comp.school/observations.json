@@ -18,5 +18,46 @@
     "type": "text/html; charset=utf-8",
     "bytes": 1562,
     "sha256": "eca747457e34c7b7aece63907c2a0412a39cf352ad2e5a0d662941d67b4d7db5"
+  },
+  {
+    "url": "https://analytics.comp.school/",
+    "time": "2026-11-13T19:20:30.842911+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 410,
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "url": "https://forms.comp.school/",
+    "time": "2026-11-13T19:20:31.746095+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 410,
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "url": "https://dates.comp.school/",
+    "time": "2026-11-13T19:20:32.536577+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://library.comp.school/",
+    "time": "2026-11-13T19:20:33.270230+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 200,
+    "final": "https://library.comp.school/",
+    "type": "text/html",
+    "bytes": 1208,
+    "sha256": "d08e06d53093f2ca02eb499338b499f2fb7594a08ef4cf92a61078d06fe7f898"
+  },
+  {
+    "url": "https://www.comp.school/",
+    "time": "2026-11-13T19:20:34.010653+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 200,
+    "final": "https://www.comp.school/",
+    "type": "text/html; charset=utf-8",
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
   }
 ]

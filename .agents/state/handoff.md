@@ -191,3 +191,7 @@ Continue the current comp.school task from web/comp.school and .agents/scripts/w
 ## Mapping progress 2026-11-13T19:16:04.041731+00:00
 
 The crawler now prioritizes JS/CSS, avoids recursively expanding identical response bodies across mirrored hosts, and resumes from its inventory. Fixed replay discovery to resolve references against the final response URL after redirects. Some literal legacy image paths return HTML app fallback with HTTP 200; classify MIME mismatches explicitly. codeindex.json provides client string evidence with source object hashes and offsets, not verified API contracts. webrestore.py reconstructs a host/path tree while excluding HTML responses masquerading as assets. Continue maintaining briefings/checkpoints and next-agent instructions as the user explicitly requested.
+
+## Mapping checkpoint 2026-11-13T19:20:43.438626+00:00
+
+All 145 tested legacy /assets/svg/ URLs returned the same HTML fallback type, so the remaining legacy references are now explicitly deferred instead of repeatedly downloading fallback markup. Other referenced code/assets continue. Root production names newly discovered in CT (analytics, forms, dates, library, www) are being checked and added to observations/seeds. Preview roots are being mapped separately without recursive source mirroring. Continue keeping the briefings and checkpoint ZIP current; do not put credentials/auth state or personal records in any deliverable.

@@ -138,3 +138,7 @@ Active task: read-only archive and map https://comp.school, its pages, browser-d
 ## Mapping progress 2026-11-13T19:16:04.041731+00:00
 
 As of 2026-11-13T19:16:04.041731+00:00: 342 URL response/error records, 220 unique public response objects, 35265693 deduplicated bytes. Collection is ongoing, not complete. Normal account login and navigation were used only to map menus; no credentials, cookies, account payloads or personal records are archived. DNS checked 62 source-evidenced hostnames: 12 production names resolved; 50 certificate-only historical preview names returned NXDOMAIN. Exams root retry redirected successfully to comp.school/exams/. docs and games legacy roots returned 410.
+
+## Mapping checkpoint 2026-11-13T19:20:43.438626+00:00
+
+597 URL records and 96 distinct JavaScript objects saved so far; 27 non-deferred queued URLs remain. DNS evidence now has 441 names. CT stop reason: successful response returned X-RateLimit-Remaining=1; stopped before the next request. Capture remains read-only and in progress. No private server source or account data has been collected. Only public bodies and sanitized navigation are persisted.

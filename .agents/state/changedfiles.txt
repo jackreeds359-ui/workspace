@@ -1,3 +1,4 @@
 .agents/scripts/webdump.py
 .agents/scripts/webrestore.py
+.agents/scripts/webreport.py
 web/comp.school

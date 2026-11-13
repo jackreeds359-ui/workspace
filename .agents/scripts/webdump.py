@@ -20,6 +20,7 @@ queue = deque(['https://comp.school/', 'https://comp.school/robots.txt', 'https:
 hosts = {'comp.school'}
 edges = set()
 references = set()
+deferred = {}
 limits = {'requests': 700, 'bytes': 160000000, 'perfile': 16000000}
 size = sum(entry.get('bytes', 0) for entry in entries)
 requests = 0
@@ -70,6 +71,12 @@ def add(value, source, kind='asset'):
         return
     if kind == 'host':
         return
+    if any(token in url for token in ['${', '{', '}', '<', '>']):
+        deferred[url] = 'computed/template reference, not a literal fetchable asset URL'
+        return
+    if '/assets/svg/' in parsed.path:
+        deferred[url] = 'legacy diagram reference; 145 checked URLs returned HTML fallback, remaining references not requested'
+        return
     if url not in seen and not parsed.query:
         if parsed.path.endswith(('.js', '.css', '.wasm', '.map')):
             queue.appendleft(url)
@@ -108,7 +115,7 @@ def save():
     temp.write_text(json.dumps(entries, indent=2) + '\n')
     temp.replace(manifest)
     (root / 'links.json').write_text(json.dumps([{'from': a, 'to': b, 'kind': c} for a, b, c in sorted(edges)], indent=2) + '\n')
-    (root / 'discovery.json').write_text(json.dumps({'time': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'hosts': sorted(hosts), 'external': sorted(references), 'limits': limits, 'requests': requests, 'bytes': size, 'remaining': sorted(set(queue) - seen), 'scope': 'GET public pages and directly referenced assets only; no cookies, API calls, guessed paths or exploit probing'}, indent=2) + '\n')
+    (root / 'discovery.json').write_text(json.dumps({'time': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'hosts': sorted(hosts), 'external': sorted(references), 'limits': limits, 'requests': requests, 'bytes': size, 'deferred': deferred, 'remaining': sorted(set(queue) - seen), 'scope': 'GET public pages and directly referenced assets only; no cookies, API calls, guessed paths or exploit probing'}, indent=2) + '\n')
 
 
 opener = urllib.request.build_opener(Redirect())

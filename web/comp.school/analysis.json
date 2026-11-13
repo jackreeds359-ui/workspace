@@ -1,0 +1,79 @@
+{
+  "time": "2026-11-13T19:17:34.728250+00:00",
+  "basis": "Read-only static inspection of the main delivered JS bundle plus normal navigation; not server-source access.",
+  "routing": {
+    "legacy_hosts_to_prefixes": {
+      "exams.comp.school": "/exams/",
+      "recall.comp.school": "/recall/",
+      "code.comp.school": "/code/"
+    },
+    "game_paths": [
+      "/games/careers",
+      "/games/games-room",
+      "/games/lobby",
+      "/games/crossword"
+    ],
+    "notes": [
+      "Client helpers recognize preview-prefixed hostnames.",
+      "Paper/topic/subtopic and session/activity state are selected using query parameters, not separate standalone HTML pages.",
+      "Observed More-menu links use /exams/games/careers and /exams/games/games-room."
+    ]
+  },
+  "client_dependencies": {
+    "confirmed": [
+      "React",
+      "ReactDOM",
+      "React Router 7.9.5",
+      "Vite-style module preload and dynamic chunks"
+    ],
+    "other_markers": "See codeindex.json for per-file runtime/library string markers; it is not an authoritative dependency lockfile."
+  },
+  "api_client_methods": {
+    "GET": [
+      "/api/avatar",
+      "/api/class-results",
+      "/api/leaderboard",
+      "/api/learning-progress",
+      "/api/licensed/{path}",
+      "/api/licensed-media/{path}",
+      "/api/lobby",
+      "/api/release-log",
+      "/api/room-control",
+      "/api/saved-state",
+      "/api/session",
+      "/api/signup-requests",
+      "/api/teacher-pupil",
+      "/api/waitlist"
+    ],
+    "POST": [
+      "/api/btec-access",
+      "/api/fallback-access",
+      "/api/invite",
+      "/api/learning-progress",
+      "/api/lobby",
+      "/api/login",
+      "/api/logout",
+      "/api/password",
+      "/api/reset-link",
+      "/api/room-control",
+      "/api/saved-state",
+      "/api/signup-requests"
+    ],
+    "PATCH": [
+      "/api/teacher-pupil"
+    ],
+    "notes": "Methods evidenced in client fetch code, not exercised or verified as server contracts. GET includes fetch defaults. Other API literals from sub-apps are indexed separately."
+  },
+  "backend": {
+    "observed": "Cloudflare response headers and edge DNS addresses; same-origin API path strings in client bundles.",
+    "not_established": [
+      "origin IP or server topology",
+      "backend source language/framework",
+      "database schema/content",
+      "private server source",
+      "full role/access policy"
+    ]
+  },
+  "source_maps": "No sourceMappingURL reference found in collected code at this checkpoint. No guessed .map/.git/backup paths requested.",
+  "privacy": "Only sanitized main-menu navigation is archived. No account history, roster data, credentials, session cookies or authorization headers."
+}

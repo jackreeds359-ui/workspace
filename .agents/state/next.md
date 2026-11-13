@@ -114,3 +114,7 @@ Continue public asset crawl; analyze routes/API references offline; map producti
 ## Mapping progress 2026-11-13T19:16:04.041731+00:00
 
 Current milestone: collection pass 2 is running; generated codeindex.json will need regeneration after the final assets arrive. DNS/CT agent and offline bundle analysis agent are still working. Need final README/MAP, object/hash verification, restoration test, credential scan, downloadable artifact and final checkpoint. No offensive actions or server-code probing.
+
+## Mapping checkpoint 2026-11-13T19:20:43.438626+00:00
+
+Finish pass 3 remaining assets. Merge newly discovered production roots from observations.json and crawl their directly referenced assets in a final pass. Finish root reachability map, regenerate webreport.py outputs, validate all hashes and restored paths, scan for secrets, package downloadable archive, and save a final handoff. CT enumeration is incomplete at the actual provider rate budget; preserve its cursor and limit evidence, do not evade that limit.
