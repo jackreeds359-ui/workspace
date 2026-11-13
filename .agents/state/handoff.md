@@ -1,3 +1,9 @@
+# Final setup handoff — 2026-11-13T20:56:23.403628+00:00
+
+The requested environment setup is complete. Commands, pinned versions and limitations are in SETUP.md. Root setup, tool verification and the Fastfetch wrapper all work in this runtime. Two full fixture-based toolkit checks passed; no real Windows target was available. The current branch tracks `origin/hoplite/skepsis-93a77a1a`; publication of checkpoint `7aec076` was confirmed, without changing the remote default branch. Root handoff.zip independently passed CRC/manifest/owned-copy/committed-blob checks. The existing updater regenerates it for this final documentation checkpoint. Read its JSON/log for final publication status.
+
+The five-minute wake is cancelled because active work is complete. The first checkpoint was late during archive/updater audit; no claim of exact five-minute cadence is made. Future work must follow the next explicit task, not historical web extraction instructions.
+
 # Current continuation — 2026-11-13T20:52:27.621128+00:00
 
 The current request is setup/readiness only: preserve the existing repository, inspect the handoff, restore and verify the RE toolkit, and run Fastfetch. Use collaboration label mc1h and address the owner as kindmops. No new target was supplied; do not resume historical web mapping or invent a game build.

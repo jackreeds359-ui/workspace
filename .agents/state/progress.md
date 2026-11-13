@@ -1,3 +1,10 @@
+# Final setup milestone — 2026-11-13T20:56:23.403628+00:00
+
+- Published checkpoint `7aec076` via explicit refspec to the existing authorized repository; its current branch now tracks the matching origin branch. The remote default was checked and is different.
+- Independently verified handoff.zip CRC, exact 770-entry manifest membership, all eight owned paths byte-for-byte and equality with the committed Git blob. Updater reported no stale briefings and no remaining changes.
+- Recorded the first checkpoint's delay during the handoff audit. Cancelled the active-work recurring wake. Updating the final briefings through the same updater; no duplicate checkpoint mechanism was created.
+- Setup is complete. No Windows target execution, real crash diagnosis, game integration, email, signup or offensive test is claimed.
+
 # Current session progress — 2026-11-13T20:52:27.621128+00:00
 
 - Inspected Git branch/history/clean state, root setup/tool wrappers, skill inventory and the existing handoff briefings. Started the native five-minute checkpoint wake and a read-only audit of the existing archive/updater.

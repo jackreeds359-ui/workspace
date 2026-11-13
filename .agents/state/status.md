@@ -1,3 +1,9 @@
+# Setup complete — 2026-11-13T20:56:23.403628+00:00
+
+Toolkit restore, repeat setup, two full verification passes, Fastfetch 2.71.0 execution, syntax checks and scoped diff review are complete. Checkpoint `7aec076` was published to `origin/hoplite/skepsis-93a77a1a` with an explicit refspec after confirming the remote default is a different branch. Independent archive verification passed CRC, 770-entry manifest membership, all eight owned-file byte comparisons and committed-blob equality. The initial checkpoint was late while the handoff audit completed. The active-work wake has been cancelled; no setup work remains. This final documentation checkpoint uses the existing updater and configured upstream; its report/log supplies the final commit and push result.
+
+No target-level integration is verified. No email was sent and no signup or offensive testing was performed. The supplied credential was not saved or used. Earlier session snapshots follow.
+
 # Current setup session — 2026-11-13T20:52:27.621128+00:00
 
 - Active branch: `hoplite/skepsis-93a77a1a`; base checkpoint `44c3126`. Initial working tree was clean; the branch initially had no upstream; the checkpoint report records publication results.
