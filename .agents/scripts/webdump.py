@@ -20,9 +20,10 @@ queue = deque(['https://comp.school/', 'https://comp.school/robots.txt', 'https:
 hosts = {'comp.school'}
 edges = set()
 references = set()
-limits = {'requests': 450, 'bytes': 160000000, 'perfile': 16000000}
-size = 0
+limits = {'requests': 700, 'bytes': 160000000, 'perfile': 16000000}
+size = sum(entry.get('bytes', 0) for entry in entries)
 requests = 0
+expanded = set()
 
 
 class Links(HTMLParser):
@@ -63,19 +64,26 @@ def add(value, source, kind='asset'):
     host = parsed.hostname
     if host not in hosts:
         hosts.add(host)
-        queue.append('https://' + host + '/')
+        queue.appendleft('https://' + host + '/')
     edges.add((source, url, kind))
     if parsed.path.startswith('/api/') or any(word in parsed.path.lower() for word in ['logout', 'signout', 'reset-link', 'password', 'invite']):
         return
     if kind == 'host':
         return
     if url not in seen and not parsed.query:
-        queue.append(url)
+        if parsed.path.endswith(('.js', '.css', '.wasm', '.map')):
+            queue.appendleft(url)
+        else:
+            queue.append(url)
 
 
 def discover(url, data, content):
     if not any(kind in content for kind in ['html', 'javascript', 'css', 'json', 'xml', 'text/plain']):
         return
+    digest = hashlib.sha256(data).hexdigest()
+    if digest in expanded:
+        return
+    expanded.add(digest)
     text = data.decode('utf-8', errors='replace')
     for match in re.findall(r'https://(?:[a-zA-Z0-9-]+\.)*comp\.school(?=[/:"\s\'`<]|$)', text):
         add(match, url, 'host')
@@ -96,12 +104,21 @@ def discover(url, data, content):
 
 
 def save():
-    manifest.write_text(json.dumps(entries, indent=2) + '\n')
+    temp = manifest.with_suffix('.tmp')
+    temp.write_text(json.dumps(entries, indent=2) + '\n')
+    temp.replace(manifest)
     (root / 'links.json').write_text(json.dumps([{'from': a, 'to': b, 'kind': c} for a, b, c in sorted(edges)], indent=2) + '\n')
     (root / 'discovery.json').write_text(json.dumps({'time': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'hosts': sorted(hosts), 'external': sorted(references), 'limits': limits, 'requests': requests, 'bytes': size, 'remaining': sorted(set(queue) - seen), 'scope': 'GET public pages and directly referenced assets only; no cookies, API calls, guessed paths or exploit probing'}, indent=2) + '\n')
 
 
 opener = urllib.request.build_opener(Redirect())
+extra = root / 'observations.json'
+if extra.exists():
+    known = {entry['url'] for entry in entries if entry.get('sha256')}
+    for entry in json.loads(extra.read_text()):
+        if entry.get('sha256') and entry['url'] not in known:
+            entries.append(entry)
+            seen.add(entry['url'])
 for entry in entries:
     if entry.get('sha256'):
         discover(entry['url'], (root / 'objects' / entry['sha256']).read_bytes(), entry.get('type', ''))

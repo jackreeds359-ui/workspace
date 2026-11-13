@@ -60,6 +60,36 @@
     "kind": "host"
   },
   {
+    "from": "https://code.comp.school/",
+    "to": "https://code.comp.school/code/assets/index-CkLs-ldM.css",
+    "kind": "asset"
+  },
+  {
+    "from": "https://code.comp.school/",
+    "to": "https://code.comp.school/code/assets/index-DwyvelI3.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://code.comp.school/",
+    "to": "https://code.comp.school/code/favicon/favicon.ico",
+    "kind": "asset"
+  },
+  {
+    "from": "https://code.comp.school/",
+    "to": "https://code.comp.school/code/favicon/favicon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://code.comp.school/",
+    "to": "https://code.comp.school/code/favicon/site.webmanifest",
+    "kind": "asset"
+  },
+  {
+    "from": "https://code.comp.school/",
+    "to": "https://code.comp.school/favicon/apple-touch-icon.png",
+    "kind": "asset"
+  },
+  {
     "from": "https://comp.school/",
     "to": "https://comp.school/assets/index-CFivEobA.css",
     "kind": "asset"
@@ -2935,6 +2965,11 @@
     "kind": "asset"
   },
   {
+    "from": "https://comp.school/assets/FlashcardsDeck-DS4H-fcj.js",
+    "to": "https://comp.school/assets/index-CHiQZc8e.js",
+    "kind": "asset"
+  },
+  {
     "from": "https://comp.school/assets/QuizGame-CIgtM-fA.js",
     "to": "https://comp.school/assets/index-CHiQZc8e.js",
     "kind": "asset"
@@ -2952,6 +2987,1326 @@
   {
     "from": "https://comp.school/assets/iferror-G0a-UzSa.js",
     "to": "https://comp.school/assets/cinema-CBL_zzZm.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/absolute-reference-ClBaFqgW.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/accuracy-ewnyrC64.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/age-CP83OqUF.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/and-or-not-CtQwTufX.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/axis-labels-Pamu-Lxa.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/budget-BVClBdpG.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/colour-coding-CevjnsQZ.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/conditional-formatting-BZERfnYJ.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/counta-QcPtehQo.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/countblank-BRPvgby9.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/countif-DfLQ3W8t.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/dashboard-BlqM7kRc.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/data-C-Tkitvx.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/dataset-evidence-DB4os6uy.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/default-value-CyjbY3q4.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/demographics-DfTnKZj6.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/dynamic-chart-BSh-yqXa.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/form-controls-CBZzoBoe.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/formula-BWTEW4E7.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/inaccurate-conclusion-CN3BFaJc.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/inaccurate-data-stored-CcRpOxaZ.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/index-CHiQZc8e.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/infographic-Dw5L2Sf3.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/information-Cf-pRuF3.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/input-screen-BfZYEgH6.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/justify-mPQemi4s.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/key-metric-CuzqVoDC.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/length-check-zgz9u8f2.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/linking-worksheets-DNfmSzEA.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/merge-cells-BnLbLuMX.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/min-and-max-Dzow2nAq.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/named-cell-D_GatwWd.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/overall-timescale-dkbR1D_y.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/possible-error-CE99xim_.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/presentation-feature-BSE9IWdP.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/qualitative-data-CHjnXzby.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/reduced-learning-time-pG57vyMA.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/reduced-need-for-specialised-knowledge-Db6hGg3D.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/reduced-time-to-complete-tasks-DK9QcCJd.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/relative-reference-BhgN63oX.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/scale-CwYU9yLR.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/size-of-sample-BSRHBnko.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/slicer-CY91u0Ta.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/subtotal-DXjE2thS.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/sum-C820RU7d.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/sumif-DHxXj7JV.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/survey-CVQkUZQM.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/absolute-reference.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/accessibility-features.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/accessibility-needs.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/accuracy.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/age.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/agile.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/alt-text.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/alternative-views.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/amount-of-detail.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/amount-of-information.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/and-or-not.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/annotated-screenshot.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/annotation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/appropriate-chart.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/audience.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/autofill.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/average.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/averages.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/axis-labels.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/bar-chart.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/biased.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/bigger-objects.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/breakdown.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/budget.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/cell-borders-and-shading.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/cell-comment.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/clarity.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/client-brief.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/colour-coding.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/colours.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/completeness.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/conclusion.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/conditional-formatting.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/consistency.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/constraint.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/contingency.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/contrast.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/counta.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/countblank.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/countif.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/counts.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/dashboard-evidence.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/dashboard.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/data-label.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/dataset-evidence.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/deadline.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/default-value.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/demographics.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/design-specification.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/distinguishable-buttons-links.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/dynamic-chart.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/ease-of-use.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/easy-reversal-of-actions.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/effectiveness.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/filtering.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/flowchart.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/font-size-style-and-colour.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/font-style-size.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/form-controls.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/format-presentation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/formula.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/fraud.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/function.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/gantt-chart.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/graph-chart.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/graphics.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/hardware-requirements.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/hlookup.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/house-style.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/however.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/hyperlink.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/icon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/if.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/impact.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/importing-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/improvement.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/inaccurate-conclusion.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/inaccurate-data-stored.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/increased-user-attention.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/increased-user-confidence-familiarity.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/infographic.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/information.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/informative-feedback.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/input-controls.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/input-requirements.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/input-screen.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/interpretation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/interview.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/intuitive-design.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/invasion-of-privacy.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/justify.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/key-metric.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/key-milestone.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/keyboard-shortcut.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/language.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/layout.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/legend.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/length-check.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/line-graph.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/linking-worksheets.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/macro.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/making-objects-stand-out.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/menu.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/merge-cells.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/min-and-max.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/mind-map.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/misinterpreted.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/misleading.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/monitoring.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/mood-board.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/named-cell.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/navigation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/navigational-components.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/observation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/outlier.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/outline-group-ungroup.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/output-requirements.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/output-screen.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/overall-timescale.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/pattern.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/percentage.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/percentages.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/phase.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/pie-chart.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/pivot-table.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/possible-error.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/presence-check.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/presentation-feature.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/presentation-method.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/primary-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/project-requirements.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/prototype.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/purpose.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/qualitative-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/quantitative-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/questionnaire.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/range-check.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/readability.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/realistic-timing.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/recommendation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/reduced-learning-time.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/reduced-need-for-specialised-knowledge.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/reduced-time-to-complete-tasks.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/reference-to-the-brief.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/related-objects-next-to-each-other.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/relative-reference.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/reliability.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/resources.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/responsive-design.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/retaining-user-attention.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/review.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/sample.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/scale.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/scrum.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/secondary-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/security.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/sensor.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/size-of-sample.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/sketch.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/skill-level.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/slicer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/software-requirements.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/sorting.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/source-collection-method.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/sparkline.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/storyboard.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/strength.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/sub-task.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/subtotal.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/success-criteria.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/suggestion.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/suitability-for-purpose-and-audience.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/sum.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/sumif.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/survey.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/table.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/targeting-vulnerable-groups.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/task-dependency.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/task-list.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/task.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/test-plan.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/text-to-columns.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/text-wrap.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/time.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/tip-text.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/titles.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/totals.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/trend.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/truncated-axis.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/type-check.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/user-accessibility-requirements.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/user-feedback.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/user-perception.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/user-requirements-met.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/user-requirements.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/validation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/verification.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/visualisation-diagram.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/visualisation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/vlookup.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/volume.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/waterfall.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/weakness.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/what-if-analysis.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/where-and-when.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/white-space.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/who-was-in-the-sample.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/wireframe.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/svg/written-or-graphical-description.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/text-to-columns-CxJICX1e.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/titles-B8PjFvHs.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/truncated-axis-DCFvX607.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/type-check-C9q96sQO.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/verification-C2Nxjh8g.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/vlookup-CFjiZSMl.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://comp.school/assets/index-CA7mxY42.js",
+    "to": "https://comp.school/assets/what-if-analysis-ByOctI9y.svg",
     "kind": "asset"
   },
   {
@@ -3255,36 +4610,6 @@
     "kind": "asset"
   },
   {
-    "from": "https://comp.school/code/",
-    "to": "https://comp.school/code/assets/index-CkLs-ldM.css",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/code/",
-    "to": "https://comp.school/code/assets/index-DwyvelI3.js",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/code/",
-    "to": "https://comp.school/code/favicon/favicon.ico",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/code/",
-    "to": "https://comp.school/code/favicon/favicon.svg",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/code/",
-    "to": "https://comp.school/code/favicon/site.webmanifest",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/code/",
-    "to": "https://comp.school/favicon/apple-touch-icon.png",
-    "kind": "asset"
-  },
-  {
     "from": "https://comp.school/code/assets/index-DwyvelI3.js",
     "to": "https://code.comp.school/",
     "kind": "host"
@@ -3323,36 +4648,6 @@
     "from": "https://comp.school/code/assets/index-DwyvelI3.js",
     "to": "https://recall.comp.school/",
     "kind": "host"
-  },
-  {
-    "from": "https://comp.school/recall/",
-    "to": "https://comp.school/recall/assets/index-BHDAmMDK.css",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/recall/",
-    "to": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/recall/",
-    "to": "https://comp.school/recall/favicon/apple-touch-icon.png",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/recall/",
-    "to": "https://comp.school/recall/favicon/favicon.ico",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/recall/",
-    "to": "https://comp.school/recall/favicon/favicon.svg",
-    "kind": "asset"
-  },
-  {
-    "from": "https://comp.school/recall/",
-    "to": "https://comp.school/recall/favicon/site.webmanifest",
-    "kind": "asset"
   },
   {
     "from": "https://comp.school/recall/assets/index-OXn7GuU2.js",
@@ -3395,33 +4690,43 @@
     "kind": "asset"
   },
   {
-    "from": "https://comp.school/sitemap.xml",
-    "to": "https://comp.school/assets/index-CFivEobA.css",
+    "from": "https://exams.comp.school/",
+    "to": "https://exams.comp.school/exams/assets/index-DjyiOHey.js",
     "kind": "asset"
   },
   {
-    "from": "https://comp.school/sitemap.xml",
-    "to": "https://comp.school/assets/index-CHiQZc8e.js",
+    "from": "https://exams.comp.school/",
+    "to": "https://exams.comp.school/exams/assets/index-DxyXV9aR.css",
     "kind": "asset"
   },
   {
-    "from": "https://comp.school/sitemap.xml",
-    "to": "https://comp.school/favicon/apple-touch-icon.png",
+    "from": "https://exams.comp.school/",
+    "to": "https://exams.comp.school/exams/assets/react-vendor-BK1G6oO1.js",
     "kind": "asset"
   },
   {
-    "from": "https://comp.school/sitemap.xml",
-    "to": "https://comp.school/favicon/favicon.ico",
+    "from": "https://exams.comp.school/",
+    "to": "https://exams.comp.school/exams/assets/ui-components-DeMDYLzO.js",
     "kind": "asset"
   },
   {
-    "from": "https://comp.school/sitemap.xml",
-    "to": "https://comp.school/favicon/favicon.svg",
+    "from": "https://exams.comp.school/",
+    "to": "https://exams.comp.school/exams/favicon/favicon.ico",
     "kind": "asset"
   },
   {
-    "from": "https://comp.school/sitemap.xml",
-    "to": "https://comp.school/favicon/site.webmanifest",
+    "from": "https://exams.comp.school/",
+    "to": "https://exams.comp.school/exams/favicon/favicon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://exams.comp.school/",
+    "to": "https://exams.comp.school/exams/favicon/site.webmanifest",
+    "kind": "asset"
+  },
+  {
+    "from": "https://exams.comp.school/",
+    "to": "https://exams.comp.school/favicon/apple-touch-icon.png",
     "kind": "asset"
   },
   {
@@ -3455,6 +4760,36 @@
     "kind": "asset"
   },
   {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://code.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://exams.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://homework.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://issues.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://recall.comp.school/",
+    "kind": "host"
+  },
+  {
     "from": "https://issues.comp.school/",
     "to": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
     "kind": "asset"
@@ -3485,6 +4820,31 @@
     "kind": "asset"
   },
   {
+    "from": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+    "to": "https://code.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+    "to": "https://comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+    "to": "https://exams.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+    "to": "https://issues.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+    "to": "https://recall.comp.school/",
+    "kind": "host"
+  },
+  {
     "from": "https://mark.comp.school/",
     "to": "https://mark.comp.school/assets/index-DThs38Se.js",
     "kind": "asset"
@@ -3510,6 +4870,41 @@
     "kind": "asset"
   },
   {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://code.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://exams.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://issues.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://mark.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://mark.comp.school/assets/App-BruRv-ox.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://recall.comp.school/",
+    "kind": "host"
+  },
+  {
     "from": "https://printouts.comp.school/",
     "to": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
     "kind": "asset"
@@ -3532,6 +4927,481 @@
   {
     "from": "https://printouts.comp.school/",
     "to": "https://printouts.comp.school/favicon/site.webmanifest",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/a-DobarutV.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/answer-CMTK8mNy.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/array-BkphWtpy.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/array-D9hbdIZ5.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/b-BFSigdO3.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/c-WLvzh3fx.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/canvas-BNjiSqJl.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/canvas-BPXNl8oO.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/canvas-DmUjKc5v.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/canvas-jbwsqzu9.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/circuit-frame-DaRNRjij.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/flowchart-BBozX2nS.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/flowchart-BKM6tL5v.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/flowchart-BkR_ZXtE.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/games-time-flowchart-Cj8FEXpN.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/image-CD9r7wsz.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/image-CZEZTeor.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/iteration-flowchart-BgIPvSgx.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/matching-BD8ptTcc.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/sale-price-flowchart-rqYTXHmQ.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/the-team-array-uFjFeqbK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "to": "https://printouts.comp.school/assets/username-flowchart-LiyHIxZo.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+    "to": "https://code.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+    "to": "https://comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+    "to": "https://exams.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+    "to": "https://issues.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+    "to": "https://printouts.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+    "to": "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+    "to": "https://recall.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://recall.comp.school/",
+    "to": "https://recall.comp.school/recall/assets/index-BHDAmMDK.css",
+    "kind": "asset"
+  },
+  {
+    "from": "https://recall.comp.school/",
+    "to": "https://recall.comp.school/recall/assets/index-OXn7GuU2.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://recall.comp.school/",
+    "to": "https://recall.comp.school/recall/favicon/apple-touch-icon.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://recall.comp.school/",
+    "to": "https://recall.comp.school/recall/favicon/favicon.ico",
+    "kind": "asset"
+  },
+  {
+    "from": "https://recall.comp.school/",
+    "to": "https://recall.comp.school/recall/favicon/favicon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://recall.comp.school/",
+    "to": "https://recall.comp.school/recall/favicon/site.webmanifest",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/",
+    "to": "https://self-assess.comp.school/assets/index-DoXRWrB1.css",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/",
+    "to": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/",
+    "to": "https://self-assess.comp.school/favicon/apple-touch-icon.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/",
+    "to": "https://self-assess.comp.school/favicon/favicon.ico",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/",
+    "to": "https://self-assess.comp.school/favicon/favicon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/",
+    "to": "https://self-assess.comp.school/favicon/site.webmanifest",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://code.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://exams.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://issues.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://recall.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/${this.",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/a-DobarutV.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/answer-CMTK8mNy.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/array-BkphWtpy.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/array-D9hbdIZ5.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/b-BFSigdO3.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/c-WLvzh3fx.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/canvas-BNjiSqJl.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/canvas-BPXNl8oO.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/canvas-DmUjKc5v.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/canvas-jbwsqzu9.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/circuit-frame-DaRNRjij.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/flowchart-BBozX2nS.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/flowchart-BKM6tL5v.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/flowchart-BkR_ZXtE.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/games-time-flowchart-Cj8FEXpN.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/image-CD9r7wsz.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/image-CZEZTeor.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/iteration-flowchart-BgIPvSgx.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/matching-BD8ptTcc.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/sale-price-flowchart-rqYTXHmQ.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/the-team-array-uFjFeqbK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+    "to": "https://self-assess.comp.school/assets/username-flowchart-LiyHIxZo.png",
     "kind": "asset"
   }
 ]
