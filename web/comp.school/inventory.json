@@ -12928,5 +12928,49 @@
     "time": "2026-11-13T19:53:14.223Z",
     "acquisition": "browser Network.getResponseBody",
     "page": "https://preview-main-1134.printouts.comp.school/"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+    "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+    "type": "text/javascript",
+    "status": 200,
+    "bytes": 14928,
+    "sha256": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+    "time": "2026-11-13T19:55:33.266Z",
+    "acquisition": "browser Network.getResponseBody",
+    "page": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+    "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+    "type": "text/javascript",
+    "status": 200,
+    "bytes": 1253804,
+    "sha256": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+    "time": "2026-11-13T19:55:33.878Z",
+    "acquisition": "browser Network.getResponseBody",
+    "page": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/python_stdlib.zip",
+    "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/python_stdlib.zip",
+    "type": "application/wasm",
+    "status": 200,
+    "bytes": 2358894,
+    "sha256": "6030964967e447c887abc46c5f0967c55688644d759496de82a3ef09f49f5cba",
+    "time": "2026-11-13T19:55:34.017Z",
+    "acquisition": "browser Network.getResponseBody",
+    "page": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.wasm",
+    "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.wasm",
+    "type": "application/wasm",
+    "status": 200,
+    "bytes": 10103326,
+    "sha256": "f7fefe563134714a17abd65516d94960e8dbd96fe6778a7a842947fc9686b3a1",
+    "time": "2026-11-13T19:55:36.041Z",
+    "acquisition": "browser Network.getResponseBody",
+    "page": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
   }
 ]
