@@ -1,3 +1,10 @@
+# Authentication final milestone — 2026-11-13T21:04:31.443854+00:00
+
+- Integrated and locally verified independent production Admin app evidence: same-origin /api/session request and teacher/admin allowed-role configuration. Preserved the uncharacterized alternate client predicate as unknown, not a security finding.
+- Recomputed main/Admin original and readable SHA-256 hashes. Node syntax checks for both bundles and git diff whitespace checks passed. Reviewed the scoped report; no live target behavior is claimed.
+- First auth checkpoint 3b0d32a pushed with verified 771-file archive, no stale briefings and no remaining changes. Final report additions are being saved by the same updater. Cancelled the active-work wake.
+- Delivered static protocol analysis and a reproducible legitimate validation procedure. Teacher-role issuance/backend enforcement remain unverified pending backend handlers or provisioned teacher test access. No login attempts or fallback-access requests were made.
+
 # Authentication analysis — 2026-11-13T21:03:31.110354+00:00
 
 - Resumed the same clean branch and read current project instructions/briefings. Re-ran setup successfully and enabled a four-minute native checkpoint wake for active work.

@@ -1,3 +1,9 @@
+# Authentication next dependency — 2026-11-13T21:04:31.443854+00:00
+
+No static-analysis or setup action remains. The report and provenance are complete; the existing updater packages the final report and these briefings. Check its JSON/log for final ZIP, commit and push results. The active-work wake is cancelled.
+
+To move from client expectations to a verified teacher session, obtain the actual /api/login and /api/session backend handlers or a provisioned teacher test identity through an approved access path. The next concrete check is a sanitized normal-login response followed by /api/session reporting the test teacher and an agreed read-only capability check. Do not forge roles, guess codes, reuse student fallback access or resume historical site crawling.
+
 # Current auth next actions — 2026-11-13T21:03:31.110354+00:00
 
 1. Incorporate the independent production admin-client session/role review and verify critical line claims locally.

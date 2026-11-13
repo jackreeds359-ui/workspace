@@ -1,3 +1,9 @@
+# Final authentication handoff — 2026-11-13T21:04:31.443854+00:00
+
+The completed report web/comp.school/authentication.md is the authoritative static finding, with original URLs, SHA-256 identities, readable source ranges, two normal credential branches, role/UI distinction, Admin app session transport, unknowns and a legitimate test-identity reproduction procedure. Neither a shared code's role mapping nor production session issuance can be inferred from this frontend alone. Preserve this uncertainty; do not describe the work as obtaining teacher access.
+
+Original and readable hashes of both production bundles were verified; Node syntax and git whitespace checks passed. No source implementation, user data, cookie or credential was modified. Checkpoint 3b0d32a was published; the final updater records the cross-app additions. The recurring wake is cancelled because static work is complete. Any follow-on runtime validation needs real backend source or provisioned teacher access, not student fallback credentials.
+
 # Current auth analysis handoff — 2026-11-13T21:03:31.110354+00:00
 
 Mapped the legitimate production login/session flow offline in web/comp.school/authentication.md with exact source identity and readable line evidence. Main bundle 5c6a9d68b722... is index-CHiQZc8e.js, not a preview. Two normal login branches exist: recognized account username/password and accessCode; do not conflate normal accessCode with the later fallback route. User role is supplied by the server response. No cookie name, signing method or teacher code is established by the current evidence. Do not attempt fallback, impersonation, role forgery, code guessing or protected-data access. Reproduce only via provisioned teacher test access or inspect actual backend handlers. Existing setup/tools remain verified; no new dependency was added.

@@ -1,3 +1,9 @@
+# Authentication analysis delivered — 2026-11-13T21:04:31.443854+00:00
+
+Static analysis is complete in web/comp.school/authentication.md. Production main and Admin app source identities were rehashed, relevant line claims checked, both readable files passed Node syntax checks and the scoped diff passed whitespace review. Main login has account and accessCode branches; the server returns user.role. Admin checks a same-origin /api/session and configures teacher/admin roles, with an additional guard predicate left explicitly uncharacterized. No backend enforcement, cookie design or teacher session was verified. Checkpoint 3b0d32a was pushed and its archive passed; the updater below records the final cross-app report save. The active-work recurring wake has been cancelled.
+
+Minimum new evidence for live reproduction: actual deployment login/session backend handlers or an approved, provisioned teacher test identity with a sanitized normal login/session trace. No fallback student access, live authentication request, forged session, signup or private-data collection was performed. Earlier snapshots below are historical.
+
 # Current authentication analysis — 2026-11-13T21:03:31.110354+00:00
 
 User request: understand default-access authentication and teacher-level session prerequisites, excluding the student fallback lane. Static analysis of the captured production client confirms shared /api/login with two credential branches and /api/session validation. Server-returned user.role drives role gates; Teacher View alone is not authorization. Report: web/comp.school/authentication.md. Main production source hash was rechecked. No live auth request, credential use, account creation or teacher session was performed. Backend role mapping and session issuance remain unverified. This replaces setup-only as the active scope; earlier setup milestones below remain valid history.
