@@ -1,0 +1,446 @@
+import { i as b, r as d, j as t } from "./index-CHiQZc8e.js";
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ const S = b("Baseline", [
+  ["path", { d: "M4 20h16", key: "14thso" }],
+  ["path", { d: "m6 16 6-12 6 12", key: "1b4byz" }],
+  ["path", { d: "M8 12h8", key: "1wcyev" }],
+]);
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ const T = b("PaintBucket", [
+  [
+    "path",
+    {
+      d: "m19 11-8-8-8.6 8.6a2 2 0 0 0 0 2.8l5.2 5.2c.8.8 2 .8 2.8 0L19 11Z",
+      key: "irua1i",
+    },
+  ],
+  ["path", { d: "m5 2 5 5", key: "1lls2c" }],
+  ["path", { d: "M2 13h15", key: "1hkzvu" }],
+  [
+    "path",
+    {
+      d: "M22 20a2 2 0 1 1-4 0c0-1.6 1.7-2.4 2-4 .3 1.6 2 2.4 2 4Z",
+      key: "xk76lq",
+    },
+  ],
+]);
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ const G = b("PenLine", [
+  ["path", { d: "M12 20h9", key: "t2du7b" }],
+  [
+    "path",
+    {
+      d: "M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z",
+      key: "1ykcvy",
+    },
+  ],
+]);
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ const O = b("Trash2", [
+    ["path", { d: "M3 6h18", key: "d0wm0j" }],
+    ["path", { d: "M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6", key: "4alrt4" }],
+    ["path", { d: "M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2", key: "v07s0e" }],
+    ["line", { x1: "10", x2: "10", y1: "11", y2: "17", key: "1uufr5" }],
+    ["line", { x1: "14", x2: "14", y1: "11", y2: "17", key: "xtxkd" }],
+  ]),
+  N = [
+    { hex: "FFFFFF", name: "White, Background 1" },
+    { hex: "000000", name: "Black, Text 1" },
+    { hex: "E7E6E6", name: "Light Grey, Background 2" },
+    { hex: "44546A", name: "Blue-Grey, Text 2" },
+    { hex: "4472C4", name: "Blue, Accent 1" },
+    { hex: "ED7D31", name: "Orange, Accent 2" },
+    { hex: "A5A5A5", name: "Grey, Accent 3" },
+    { hex: "FFC000", name: "Gold, Accent 4" },
+    { hex: "5B9BD5", name: "Blue, Accent 5" },
+    { hex: "70AD47", name: "Green, Accent 6" },
+  ],
+  L = [
+    { hex: "C00000", name: "Dark Red" },
+    { hex: "FF0000", name: "Red" },
+    { hex: "FFC000", name: "Orange" },
+    { hex: "FFFF00", name: "Yellow" },
+    { hex: "92D050", name: "Light Green" },
+    { hex: "00B050", name: "Green" },
+    { hex: "00B0F0", name: "Light Blue" },
+    { hex: "0070C0", name: "Blue" },
+    { hex: "002060", name: "Dark Blue" },
+    { hex: "7030A0", name: "Purple" },
+  ];
+function w(s) {
+  const c = Number.parseInt(s, 16),
+    [o, r, i] = [(c >> 16) & 255, (c >> 8) & 255, c & 255].map((p) => p / 255),
+    a = Math.max(o, r, i),
+    h = Math.min(o, r, i),
+    x = (a + h) / 2;
+  if (a === h) return { h: 0, s: 0, l: x };
+  const u = a - h,
+    m = x > 0.5 ? u / (2 - a - h) : u / (a + h);
+  return {
+    h:
+      (a === o
+        ? (r - i) / u + (r < i ? 6 : 0)
+        : a === r
+          ? (i - o) / u + 2
+          : (o - r) / u + 4) * 60,
+    s: m,
+    l: x,
+  };
+}
+function v({ h: s, s: c, l: o }) {
+  const r = (i) => {
+    const a = (i + s / 30) % 12,
+      h = c * Math.min(o, 1 - o);
+    return Math.round(255 * (o - h * Math.max(-1, Math.min(a - 3, 9 - a, 1))));
+  };
+  return [r(0), r(8), r(4)]
+    .map((i) => i.toString(16).padStart(2, "0"))
+    .join("")
+    .toUpperCase();
+}
+function F(s, c, o = 0) {
+  const r = w(s);
+  return v({ ...r, l: Math.min(1, Math.max(0, r.l * c + o)) });
+}
+function B(s, c) {
+  const { l: o } = w(s);
+  return (
+    o >= 0.99
+      ? [
+          [0.95, 0, "Darker 5%"],
+          [0.85, 0, "Darker 15%"],
+          [0.75, 0, "Darker 25%"],
+          [0.65, 0, "Darker 35%"],
+          [0.5, 0, "Darker 50%"],
+        ]
+      : o <= 0.01
+        ? [
+            [0.5, 0.5, "Lighter 50%"],
+            [0.65, 0.35, "Lighter 35%"],
+            [0.75, 0.25, "Lighter 25%"],
+            [0.85, 0.15, "Lighter 15%"],
+            [0.95, 0.05, "Lighter 5%"],
+          ]
+        : c === 2
+          ? [
+              [0.9, 0, "Darker 10%"],
+              [0.75, 0, "Darker 25%"],
+              [0.5, 0, "Darker 50%"],
+              [0.25, 0, "Darker 75%"],
+              [0.1, 0, "Darker 90%"],
+            ]
+          : [
+              [0.2, 0.8, "Lighter 80%"],
+              [0.4, 0.6, "Lighter 60%"],
+              [0.6, 0.4, "Lighter 40%"],
+              [0.75, 0, "Darker 25%"],
+              [0.5, 0, "Darker 50%"],
+            ]
+  ).map(([i, a, h]) => ({ hex: F(s, i, a), name: `${N[c]?.name ?? s}, ${h}` }));
+}
+const $ = /^[0-9A-F]{6}$/;
+function C(s) {
+  const c = s.trim().replace(/^#/, "").toUpperCase(),
+    o = c.length === 3 ? c.replace(/./g, (r) => r + r) : c;
+  return $.test(o) ? o : null;
+}
+let D = [];
+const R = 10;
+function E(s) {
+  s && (D = [s, ...D.filter((c) => c !== s)].slice(0, R));
+}
+const M = (s) => s.preventDefault();
+function K({ value: s, onChange: c, none: o, label: r = "Colour" }) {
+  const [i, a] = d.useState(!1),
+    [h, x] = d.useState(D),
+    u = d.useRef(null),
+    m = (n) => {
+      (E(n), x(D), c(n));
+    },
+    g = (n) => {
+      const k = { ArrowRight: 1, ArrowLeft: -1, ArrowDown: 10, ArrowUp: -10 }[
+        n.key
+      ];
+      if (!k || !u.current) return;
+      const e = [...u.current.querySelectorAll("[data-swatch]")],
+        l = e.indexOf(document.activeElement);
+      l < 0 ||
+        (n.preventDefault(),
+        e[Math.min(e.length - 1, Math.max(0, l + k))]?.focus());
+    },
+    p = (n, f) =>
+      t.jsx(
+        "button",
+        {
+          "aria-label": n.name,
+          "aria-pressed": s === n.hex,
+          className: "cp-swatch",
+          "data-swatch": "",
+          onClick: () => m(n.hex),
+          onMouseDown: M,
+          style: { background: `#${n.hex}` },
+          title: n.name,
+          type: "button",
+        },
+        f,
+      );
+  if (i)
+    return t.jsx(H, {
+      current: s,
+      onCancel: () => a(!1),
+      onPick: (n) => {
+        (m(n), a(!1));
+      },
+    });
+  const y = N.map((n, f) => B(n.hex, f));
+  return t.jsxs("div", {
+    "aria-label": r,
+    className: "cp",
+    "data-color-picker": "",
+    onKeyDown: g,
+    ref: u,
+    role: "toolbar",
+    children: [
+      t.jsx("div", { className: "cp-heading", children: "Theme Colours" }),
+      t.jsx("div", {
+        className: "cp-row",
+        children: N.map((n) => p(n, `t${n.hex}`)),
+      }),
+      t.jsx("div", {
+        className: "cp-tints",
+        children: [0, 1, 2, 3, 4].map((n) =>
+          t.jsx(
+            "div",
+            {
+              className: "cp-row cp-row-tight",
+              children: y.map((f, k) => p(f[n], `v${k}-${n}`)),
+            },
+            n,
+          ),
+        ),
+      }),
+      t.jsx("div", { className: "cp-heading", children: "Standard Colours" }),
+      t.jsx("div", {
+        className: "cp-row",
+        children: L.map((n) => p(n, `s${n.hex}`)),
+      }),
+      h.length
+        ? t.jsxs(t.Fragment, {
+            children: [
+              t.jsx("div", {
+                className: "cp-heading",
+                children: "Recent Colours",
+              }),
+              t.jsx("div", {
+                "aria-label": "Recent Colours",
+                className: "cp-row",
+                role: "group",
+                children: h.map((n) =>
+                  p({ hex: n, name: `Recent colour #${n}` }, `r${n}`),
+                ),
+              }),
+            ],
+          })
+        : null,
+      t.jsx("div", { className: "cp-divider" }),
+      o
+        ? t.jsxs("button", {
+            "aria-pressed": !s,
+            className: "cp-item",
+            onClick: () => c(""),
+            onMouseDown: M,
+            type: "button",
+            children: [
+              t.jsx("span", {
+                "aria-hidden": "true",
+                className: "cp-none-icon",
+              }),
+              o,
+            ],
+          })
+        : null,
+      t.jsxs("button", {
+        className: "cp-item",
+        onClick: () => a(!0),
+        onMouseDown: M,
+        type: "button",
+        children: [
+          t.jsx("span", { "aria-hidden": "true", className: "cp-more-icon" }),
+          "More Colours...",
+        ],
+      }),
+    ],
+  });
+}
+function H({ current: s, onPick: c, onCancel: o }) {
+  const [r, i] = d.useState(s || "4472C4"),
+    [a, h] = d.useState(() => w(s || "4472C4")),
+    x = (e) => {
+      (h(e), i(v(e)));
+    },
+    u = (e) => {
+      (i(e), h(w(e)));
+    },
+    [m, g] = d.useState(r),
+    p = d.useRef(null),
+    y = d.useRef(!1);
+  (d.useEffect(() => g(r), [r]), d.useEffect(() => p.current?.focus(), []));
+  const n = (e) => {
+      const l = p.current?.getBoundingClientRect();
+      if (!l) return;
+      const A = Math.min(1, Math.max(0, (e.clientX - l.left) / l.width)),
+        j = Math.min(1, Math.max(0, (e.clientY - l.top) / l.height));
+      x({ h: A * 360, s: 1 - j, l: a.l <= 0.02 || a.l >= 0.98 ? 0.5 : a.l });
+    },
+    f = (e) => {
+      const l = e.shiftKey ? 10 : 2,
+        j = {
+          ArrowLeft: { h: (a.h - l + 360) % 360 },
+          ArrowRight: { h: (a.h + l) % 360 },
+          ArrowUp: { s: Math.min(1, a.s + l / 100) },
+          ArrowDown: { s: Math.max(0, a.s - l / 100) },
+        }[e.key];
+      j && (e.preventDefault(), e.stopPropagation(), x({ ...a, ...j }));
+    },
+    k = () => {
+      const e = C(m);
+      e ? u(e) : g(r);
+    };
+  return t.jsxs("div", {
+    "aria-label": "Colours",
+    className: "cp cp-more",
+    "data-color-picker": "more",
+    role: "group",
+    children: [
+      t.jsx("div", { className: "cp-heading", children: "Colours" }),
+      t.jsxs("div", {
+        className: "cp-custom",
+        children: [
+          t.jsx("div", {
+            "aria-label": "Hue and saturation",
+            "aria-valuemax": 360,
+            "aria-valuemin": 0,
+            "aria-valuenow": Math.round(a.h),
+            "aria-valuetext": `Hue ${Math.round(a.h)} degrees, saturation ${Math.round(a.s * 100)}%`,
+            className: "cp-spectrum",
+            "data-spectrum": "",
+            onKeyDown: f,
+            onPointerDown: (e) => {
+              ((y.current = !0),
+                e.target.setPointerCapture?.(e.pointerId),
+                n(e));
+            },
+            onPointerMove: (e) => y.current && n(e),
+            onPointerUp: () => {
+              y.current = !1;
+            },
+            ref: p,
+            role: "slider",
+            tabIndex: 0,
+            children: t.jsx("span", {
+              "aria-hidden": "true",
+              className: "cp-spectrum-mark",
+              style: {
+                left: `${(a.h / 360) * 100}%`,
+                top: `${(1 - a.s) * 100}%`,
+              },
+            }),
+          }),
+          t.jsx("input", {
+            "aria-label": "Lightness",
+            className: "cp-lightness",
+            max: 100,
+            min: 0,
+            onChange: (e) => x({ ...a, l: Number(e.target.value) / 100 }),
+            style: {
+              background: `linear-gradient(to right, #000, #${v({ ...a, l: 0.5 })}, #fff)`,
+            },
+            type: "range",
+            value: Math.round(a.l * 100),
+          }),
+        ],
+      }),
+      t.jsxs("div", {
+        className: "cp-more-foot",
+        children: [
+          t.jsxs("label", {
+            className: "cp-hex",
+            children: [
+              t.jsx("span", { children: "Hex" }),
+              t.jsx("input", {
+                "aria-label": "Hex",
+                maxLength: 7,
+                onBlur: k,
+                onChange: (e) => {
+                  if (
+                    (g(e.target.value),
+                    e.target.value.replace("#", "").length === 6)
+                  ) {
+                    const l = C(e.target.value);
+                    l && u(l);
+                  }
+                },
+                onKeyDown: (e) => {
+                  if (e.key === "Enter") {
+                    e.preventDefault();
+                    const l = C(m);
+                    l && c(l);
+                  }
+                },
+                spellCheck: !1,
+                value: m.startsWith("#") ? m : `#${m}`,
+              }),
+            ],
+          }),
+          t.jsxs("div", {
+            "aria-hidden": "true",
+            className: "cp-compare",
+            children: [
+              t.jsx("span", { style: { background: `#${r}` }, title: "New" }),
+              t.jsx("span", {
+                style: { background: s ? `#${s}` : "transparent" },
+                title: "Current",
+              }),
+            ],
+          }),
+        ],
+      }),
+      t.jsxs("div", {
+        className: "cp-actions",
+        children: [
+          t.jsx("button", {
+            className: "cp-button cp-button-primary",
+            onClick: () => c(r),
+            onMouseDown: M,
+            type: "button",
+            children: "OK",
+          }),
+          t.jsx("button", {
+            className: "cp-button",
+            onClick: o,
+            onMouseDown: M,
+            type: "button",
+            children: "Cancel",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+export { S as B, K as C, T as P, O as T, G as a };

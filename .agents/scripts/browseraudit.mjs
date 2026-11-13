@@ -92,8 +92,8 @@ listeners.push((message) => {
     const code = params.type === 'Script' || params.type === 'Stylesheet' || /\.(?:m?js|css|wasm)$/.test(url.pathname) || /javascript|application\/wasm/.test(response.mimeType);
     if (code && !url.pathname.startsWith('/api/')) {
       active.resources.push(resource);
-      if (scoped(response.url) && response.status === 200 && clean === response.url && /javascript|css|wasm/.test(response.mimeType)) responses.set(params.requestId, resource);
-      else if (!scoped(response.url)) resource.capture_error = 'External origin recorded, not mirrored';
+      if (response.status === 200 && clean === response.url && /javascript|css|wasm/.test(response.mimeType)) responses.set(params.requestId, resource);
+      else if (!scoped(response.url)) resource.capture_error = 'External code response not eligible for capture';
       else if (clean !== response.url) resource.capture_error = 'URL contains excluded query parameters; not archived';
     }
   }
@@ -146,6 +146,12 @@ try {
         active.actions.push({ label: action.label, result }); await delay(1200);
       }
       active.observed = await evaluate(`({url:location.origin+location.pathname+location.search,title:document.title,headings:[...document.querySelectorAll('h1,h2,h3')].slice(0,20).map(e=>e.textContent.trim()),links:[...document.querySelectorAll('main a[href]')].slice(0,120).map(e=>({label:e.textContent.trim().slice(0,90),url:e.href})),buttons:[...document.querySelectorAll('main button,[role=main] button')].slice(0,80).map(e=>e.textContent.trim().slice(0,70)),login:!!document.querySelector('input[type=password]'),loading:!!document.querySelector('[data-comp-school-loading]'),workers:performance.getEntriesByType('resource').filter(e=>e.initiatorType==='worker').map(e=>e.name)})`);
+      if (/\/editor(?:\/|\?|$)/.test(job.url) || /https:\/\/(?:preview-[^.]+\.)?(?:admin|homework|mark|printouts|self-assess)\.comp\.school/.test(job.url)) {
+        active.observed.headings = [];
+        active.observed.buttons = [];
+        active.observed.links = [];
+        active.observed.redaction = 'Account/project-facing UI text omitted; only script/resource coverage retained';
+      }
       active.observed.url = safeurl(active.observed.url);
       active.observed.links = active.observed.links.map((link) => ({ label: link.label, url: safeurl(link.url) })).filter((link) => link.url);
       await Promise.all([...tasks]);

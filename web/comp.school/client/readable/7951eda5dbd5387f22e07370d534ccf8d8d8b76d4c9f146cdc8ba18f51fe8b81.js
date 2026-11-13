@@ -1,0 +1,86 @@
+import { i as l, j as e } from "./index-CHiQZc8e.js";
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ const d = l("Italic", [
+    ["line", { x1: "19", x2: "10", y1: "4", y2: "4", key: "15jd3p" }],
+    ["line", { x1: "14", x2: "5", y1: "20", y2: "20", key: "bu0au3" }],
+    ["line", { x1: "15", x2: "9", y1: "4", y2: "20", key: "uljnxc" }],
+  ]),
+  r = {
+    word: { letter: "W", name: "Word" },
+    excel: { letter: "X", name: "Excel" },
+    powerpoint: { letter: "P", name: "PowerPoint" },
+  };
+function u({ app: i, fileName: a, ribbon: o, children: s }) {
+  return e.jsxs("div", {
+    className: "office",
+    "data-office": i,
+    children: [
+      e.jsxs("div", {
+        className: "office-titlebar",
+        children: [
+          e.jsx("span", {
+            "aria-hidden": "true",
+            className: "office-logo",
+            children: r[i].letter,
+          }),
+          e.jsx("span", { className: "office-file", children: a }),
+          e.jsx("span", { className: "sr-only", children: r[i].name }),
+        ],
+      }),
+      e.jsx("div", {
+        "aria-label": "Ribbon",
+        className: "office-ribbon",
+        role: "toolbar",
+        children: o,
+      }),
+      e.jsx("div", { className: "office-body", children: s }),
+    ],
+  });
+}
+function x({ label: i, children: a }) {
+  return e.jsxs("div", {
+    "aria-label": i,
+    className: "office-group",
+    role: "group",
+    children: [
+      e.jsx("div", { className: "office-group-tools", children: a }),
+      e.jsx("div", {
+        "aria-hidden": "true",
+        className: "office-group-label",
+        children: i,
+      }),
+    ],
+  });
+}
+function b({
+  label: i,
+  icon: a,
+  pressed: o,
+  disabled: s,
+  onClick: c,
+  wide: n,
+}) {
+  return e.jsxs("button", {
+    "aria-label": n ? void 0 : i,
+    "aria-pressed": o,
+    className: n ? "office-button office-button-wide" : "office-button",
+    disabled: s,
+    onClick: c,
+    onMouseDown: (t) => t.preventDefault(),
+    title: i,
+    type: "button",
+    children: [
+      e.jsx("span", {
+        "aria-hidden": "true",
+        className: "office-button-icon",
+        children: a,
+      }),
+      n ? e.jsx("span", { children: i }) : null,
+    ],
+  });
+}
+export { d as I, u as O, x as R, b as a };
