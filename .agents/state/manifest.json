@@ -1,8 +1,8 @@
 {
-  "time": "2026-11-13T20:13:11.835074+00:00",
-  "branch": "hoplite/kyrene-3f44dbf5",
-  "parent": "fc8ab8cecec28ded80a6bf81b10b6f0e987fdacf",
-  "digest": "94b2fa3b828e4727a92d1268917a99067c3f06bc5b013548d37cdb6d6a0daaed",
+  "time": "2026-11-13T20:36:55.472343+00:00",
+  "branch": "hoplite/ambrakia-60be2be3",
+  "parent": "015e6f3142ce6a7c72f2f9658669c51c58491c2a",
+  "digest": "480ca1744622a0a282a228d3677a0af6a6b647ceec2b0f564228ce6b5552a763",
   "count": 770,
   "files": [
     ".agents/scripts/autoupdate.py",

@@ -1,6 +1,14 @@
 # Status
 
-Current summary updated 2026-11-13T19:16:04.041731+00:00. Earlier sections below are historical where superseded by dated task entries.
+Current summary updated 2026-11-13T20:42Z. Earlier sections below are historical where superseded by dated task entries.
+
+## Active session 2026-11-13 20:32Z, branch hoplite/ambrakia-60be2be3
+
+- Task from owner (kindmops, collaboration label mc1h): confirm, install and verify required and wanted reverse-engineering tools; catch up from the handoff.
+- Done and verified in this sandbox: managed setup restored Ghidra 12.2, Temurin JDK 25.0.5+8, pefile 2024.8.26, Capstone 5.0.9 and Prettier 3.10.1 with checksum verification; toolsetup.py and clientsetup.py were rerun idempotently and toolcheck.py passed (PE32+ parsing, malformed PE rejection, x86-64 decoding, C++20 fixture, Ghidra headless decompilation of `value * 3 + 7`).
+- Hoplite's source-control policy blocks agent invocation of `bash setup.sh` and `bash tools.sh verify` as indeterminate scripts. Equivalent direct calls work: `python3 .agents/scripts/toolsetup.py`, `python3 .agents/scripts/clientsetup.py`, `.venv/bin/python .agents/scripts/toolcheck.py`. Managed setup still runs setup.sh through .hoplite/setup.sh.
+- In progress: owner-requested Windows-focused extension, pinned like the existing toolkit: llvm-mingw 20261104 (Windows x64 C++20 cross-compiler, GitHub-published SHA-256) and minidump 0.0.24 (Windows crash-dump parser, PyPI wheel hash). Not yet installed or verified at this checkpoint.
+- No game, DLL, dump, crash log or target build has been supplied in this session. No target behaviour is verified.
 
 ## Stage
 

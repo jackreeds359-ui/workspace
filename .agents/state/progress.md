@@ -156,3 +156,7 @@ Formatter passed for121/121 code objects (42 newly formatted plus79 verified/pre
 ## Client extraction completion 2026-11-13T20:13:11.762000+00:00
 
 Completed final58-state request-owner-attributed sweep and closed browser. Total159 page/state observations; all121 known JS hashes indexed/formatted,0 parse/semantic errors. Independent Node syntax checks passed121/121; cached final pass preserved121 with structural equivalence rechecked. Original hashes/readable hashes, allJSON, source AST UTF16 ranges, supplied-credential/key/token scan and editor-UI redaction passed. Static Blob extraction recovered one1691-byte lobby worker bootstrap;13 other computed constructions recorded. Concrete module graph gaps0; all remaining defaults/computed/bare sites are documented. Managed setup reran with approved formatter successfully. Preparing final verified package and Git checkpoint; no more target requests planned.
+
+## Toolkit restore on new thread branch 2026-11-13T20:42Z
+
+New thread branch hoplite/ambrakia-60be2be3 (from 015e6f3). Managed setup restored the five pinned tools; rerunning toolsetup.py and clientsetup.py reused them and toolcheck.py passed in full. Agent calls to `bash setup.sh` and `bash tools.sh` are blocked by Hoplite policy; direct Python entrypoints are the working equivalent. Started the owner-requested Windows extension: llvm-mingw 20261104 and minidump 0.0.24 selected with published hashes, not yet installed.

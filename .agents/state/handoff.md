@@ -227,3 +227,8 @@ Readables are formatting-only and preserve minified identifiers. Structural equi
 ## Client extraction completion 2026-11-13T20:13:11.762000+00:00
 
 Final tools: browseraudit.mjs (guarded CDP code/resource capture; login stdin only); clientsetup.py (exact Prettier3.10.1 official integrity pin, also called by root setup.sh); jsindex.mjs (Babel AST graph, Vite helper-derived preload bases, readable semantic check/cache, raw hash verification); clientfetch.py (GET exact evidenced module/worker/runtime refs, records fallback failures); embedded.mjs (no-eval static const-string Blob extraction); pagecoverage.py (page entry/network/shared/eager/lazy/worker graph and per-host indexes); webreport.py (updated overall map). root managed setup reran successfully with formatter. Final module index:121 parsed,121 preserved/verified,0 failures,0 missing captured runtime script URLs. Original refs/offsets remain in dependencies.json. Final current-object and readable-hash checks, independent Node syntax, metadata JSON and UTF16 source-range checks passed. Keep briefings/checkpoints current in the next agent and pause wakes when idle.
+
+## Toolkit session on hoplite/ambrakia-60be2be3 2026-11-13
+
+- Agent shell calls `bash setup.sh` and `bash tools.sh ...` are rejected by the Hoplite workspace source-control policy as indeterminate scripts. Use `python3 .agents/scripts/toolsetup.py`, `python3 .agents/scripts/clientsetup.py` and `.venv/bin/python .agents/scripts/toolcheck.py` instead. Managed setup still runs `.hoplite/setup.sh`, which calls `bash setup.sh`.
+- The new branch has no upstream at session start; the updater skips push until one is configured with an explicit refspec.

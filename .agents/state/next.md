@@ -2,6 +2,7 @@
 
 ## Actions in priority order
 
+0. Active session on hoplite/ambrakia-60be2be3: finish the owner-requested Windows tool extension (llvm-mingw 20261104, minidump 0.0.24) in toolsetup.py, requirements.txt and toolcheck.py, verify it, document it in SETUP.md and tools.md, checkpoint, then cancel the five-minute wake. Use direct Python entrypoints because the Hoplite policy blocks agent `bash setup.sh` and `bash tools.sh`. After that, the next task needs a target, behaviour, environment and deliverable from the owner.
 1. Client JS extension is complete within documented scope. Read web/comp.school/client/README.md, GAPS.md, pages.json and per-host apps/ indexes. Original responses remain in objects/; do not mistake formatted copies for recovered original TS/TSX.
 2. No new target requests are needed for this delivery. Other roles, unknown deployments and arbitrary runtime-generated programs are not universally covered. Any future expansion must use normal authorized access, preserve read-only boundaries and document actual remaining cases instead of claiming all pages without evidence.
 3. Reproduce offline with python3 .agents/scripts/clientsetup.py, node .agents/scripts/jsindex.mjs, node .agents/scripts/embedded.mjs and python3 .agents/scripts/pagecoverage.py. Inventory covers all121 currently known JS objects; zero concrete import/preload/worker URL gaps remain. Generic defaults and computed/bare sites are explicit in client/GAPS.md.
