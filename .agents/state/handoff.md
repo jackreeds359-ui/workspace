@@ -211,3 +211,7 @@ Use runtime.json to distinguish observed page resources from static discovered f
 ## Client coverage progress 2026-11-13T19:55:03.870944+00:00
 
 Browser capture persists only script/CSS/WASM bodies, sanitized menus/actions, resource statuses and guard events. Account/project-facing editor UI text is removed; app data payloads are never captured. The next script invocation adds failed resource and exception diagnostics and access-gate flags. Runtime JavaScript and scripts parsed statically are separate evidence sets. Previews are now browser-visited at root; source completeness still requires recursive module graph resolution after the index is generated. Formatted code preserves originals, and semantic AST equivalence checks are pending completion.
+
+## Dependency closure checkpoint 2026-11-13T19:59:49.056655+00:00
+
+Parent now owns jsindex.mjs and final client integration; its agent was stopped after bounded implementation. Normalizer evidence: Prettier can reorder equivalent regexp flags (ig -> gi) and change equivalent noncomputed property-key spellings, so these are canonicalized while retaining actual regex flags, operators and values. Selftests assert changed regex flags and arithmetic still fail semantic equality. Known HTML fallback .js responses are excluded from code parsing/closure. Existing unchanged readables are preserved; >1300-line readable replacement backs up first. Routeaudit report is offline regex evidence, not runtime coverage. Runtime entryScripts and workerTargets are explicit in latest diagnostic pass.

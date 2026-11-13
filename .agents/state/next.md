@@ -134,3 +134,7 @@ Continue plan2 guarded browser capture, inspect observed UI and code-import evid
 ## Client coverage progress 2026-11-13T19:55:03.870944+00:00
 
 Finish current safe feature-style browser pass, collect JS dependency index results and fetch directly evidenced missing code/assets, then repeat AST index to closure. Generate page->entry/static/dynamic/shared/worker coverage and explicit access/errors/unresolved list. Do not claim all pages or original source reconstruction from readable formatting. Test worker/code loader coverage without running user programs or submitting grades. Preserve checkpoint/next-agent continuity.
+
+## Dependency closure checkpoint 2026-11-13T19:59:49.056655+00:00
+
+Finish updated AST graph pass, fetch missing concrete module references and worker/runtime dependencies once, then default formatter pass with semantic checks/cache. Produce page entry/shared/lazy/worker dependency closure, explicit computed/default/unavailable/access-gated list and readable hash-to-source organization. Final validation must show graph coverage and current raw/readable hash checks; do not equate formatted minified code with recovered TS/TSX source. Maintain next-agent briefing/checkpoints and cancel wake when done.

@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rename, copyFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -194,10 +194,11 @@ function fingerprint(node) {
       hash.update(']');
     } else if (typeof value === 'object') {
       const keys = Object.keys(value).filter(key => !ignored.has(key)).sort();
+      const objectkey = value.type === 'ObjectProperty' && value.computed === false ? propertykey(value.key) : null;
       hash.update(`object:${keys.length}{`);
       for (const key of keys) {
         encode(key);
-        encode(value[key]);
+        encode(key === 'key' && objectkey !== null ? `property:${objectkey}` : key === 'flags' && value.type === 'RegExpLiteral' ? value[key].split('').sort().join('') : value[key]);
       }
       hash.update('}');
     } else if (typeof value === 'string') {
@@ -235,6 +236,15 @@ function normalizedurl(value, base) {
   }
 }
 
+function propertykey(node) {
+  if (node?.type === 'Identifier') return node.name;
+  if (['StringLiteral', 'Literal'].includes(node?.type) && typeof node.value === 'string') return node.value;
+  if (node?.type === 'NumericLiteral' && typeof node.value === 'number') return String(node.value);
+  if (node?.type === 'BigIntLiteral') return String(node.value).replace(/n$/i, '');
+  if (node?.type === 'TemplateLiteral' && node.expressions.length === 0 && node.quasis.length === 1) return node.quasis[0].value.cooked ?? node.quasis[0].value.raw;
+  return null;
+}
+
 function classify(event, target) {
   if (!target) return { resolution: 'unresolved', classification: 'unresolved', targetkind: null, reason: event.reason ?? 'bare-or-computed-specifier' };
   const protocol = target.protocol.toLowerCase();
@@ -255,12 +265,20 @@ function cleanmessage(error) {
   return String(error?.message ?? error).replace(/\s+/g, ' ').slice(0, 800);
 }
 
-function atomic(path, value) {
-  return writeFile(path, value).then(() => rename(path, path.replace(/\.tmp$/, '')));
+async function atomic(path, value) {
+  const target = path.replace(/\.tmp$/, '');
+  if (existsSync(target)) {
+    const previous = await readFile(target, 'utf8');
+    if (previous === value) return;
+    if (target.endsWith('.js') && previous.split('\n').length > 1300 && !existsSync(`${target}.backup`)) await copyFile(target, `${target}.backup`);
+  }
+  await writeFile(path, value);
+  await rename(path, target);
 }
 
 function assetlike(record) {
-  const mime = text(record.type || record.mime);
+  const mime = text(record.mime || record.type);
+  if (/text\/html|application\/xhtml/i.test(mime)) return false;
   const kind = text(record.resourceType || record.resource_type || record.kind);
   const url = text(record.url);
   return scriptmime.test(mime) || /^(?:script|javascript)$/i.test(kind) || jssuffix.test(url.split(/[?#]/, 1)[0]);
@@ -276,7 +294,8 @@ navigator.serviceWorker.register('./service.js');
 importScripts('./legacy.js');
 const __vite__mapDeps = (i, m = __vite__mapDeps, d = (m.f || (m.f = ['/assets/preload.js']))) => i.map(i => d[i]);
 __vite__preload(() => import('./async.js'), ['/assets/direct.js']);
-new URL('./icons/test.svg', import.meta.url);`;
+new URL('./icons/test.svg', import.meta.url);
+const properties = { "0": 'zero', "named-key": 'named' };`;
   const found = extract(fixture);
   const kinds = new Set(found.map(item => item.kind));
   for (const kind of ['static', 'dynamic', 'worker', 'importScripts', 'preload', 'asset']) if (!kinds.has(kind)) throw new Error(`selftest missed ${kind}`);
@@ -285,6 +304,9 @@ new URL('./icons/test.svg', import.meta.url);`;
   const origin = 'https://comp.school/assets/main.js';
   const target = normalizedurl('./static.js', origin);
   if (target?.href !== 'https://comp.school/assets/static.js') throw new Error('selftest relative resolution failed');
+  if (fingerprint(parse('const r=/x/ig;')) !== fingerprint(parse('const r=/x/gi;'))) throw new Error('regex flag order normalization failed');
+  if (fingerprint(parse('const r=/x/i;')) === fingerprint(parse('const r=/x/g;'))) throw new Error('semantic guard missed changed regex flags');
+  if (fingerprint(parse('const x=3+7;')) === fingerprint(parse('const x=3-7;'))) throw new Error('semantic guard missed changed arithmetic');
   const original = parse(fixture);
   const formatted = await prettier.format(fixture, { parser: 'babel', plugins: [babel] });
   const rewritten = parse(formatted);
@@ -397,7 +419,7 @@ async function main() {
       let events;
       try {
         const ast = parse(source);
-        events = extract(source);
+        events = extract(source, ast);
         record.parse = { status: 'passed', error: null };
         counters.parsed += 1;
         record.dependencies = events.length;
@@ -439,7 +461,15 @@ async function main() {
 
         const prior = previous.get(asset.sha256);
         let formatted = null;
-        if (args.has('--no-format')) {
+        let cached = false;
+        if (prior?.format?.status === 'passed' && prior.format.semanticallyequivalent === true && existsSync(readablePath)) {
+          const content = await readFile(readablePath, 'utf8');
+          cached = fingerprint(ast) === fingerprint(parse(content));
+        }
+        if (cached) {
+          record.format = prior.format;
+          counters.preserved += 1;
+        } else if (args.has('--no-format')) {
           if (prior?.format?.status === 'passed' && prior.format.semanticallyequivalent === true && prior.readable === readable && existsSync(readablePath)) {
             record.format = prior.format;
             counters.preserved += 1;
@@ -465,7 +495,10 @@ async function main() {
             formatted = source;
           }
         }
-        if (formatted !== null) await atomic(`${readablePath}.tmp`, formatted);
+        if (formatted !== null) {
+          const previousText = existsSync(readablePath) ? await readFile(readablePath, 'utf8') : null;
+          if (!args.has('--no-format') || previousText === null) await atomic(`${readablePath}.tmp`, formatted);
+        }
       } catch (error) {
         record.parse = { status: 'error', error: cleanmessage(error) };
         counters.parsefailures += 1;

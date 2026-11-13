@@ -1,4 +1,5 @@
 .agents/scripts/browseraudit.mjs
 .agents/scripts/clientsetup.py
+.agents/scripts/clientfetch.py
 .agents/scripts/jsindex.mjs
 web/comp.school

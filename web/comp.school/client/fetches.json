@@ -1,0 +1,172 @@
+[
+  {
+    "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
+    "time": "2026-11-13T19:56:14.117467+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "external",
+    "status": 200,
+    "final": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
+    "type": "application/javascript; charset=utf-8",
+    "bytes": 49857,
+    "sha256": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+    "time": "2026-11-13T19:56:14.859671+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "external",
+    "status": 200,
+    "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+    "type": "text/javascript; charset=utf-8",
+    "bytes": 1253804,
+    "sha256": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+    "time": "2026-11-13T19:56:15.707763+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "external",
+    "status": 200,
+    "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+    "type": "text/javascript; charset=utf-8",
+    "bytes": 14928,
+    "sha256": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js",
+    "time": "2026-11-13T19:56:16.459843+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "external",
+    "status": 200,
+    "final": "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js",
+    "type": "application/javascript; charset=utf-8",
+    "bytes": 5541,
+    "sha256": "ad83d7ddd5eaf0d879df612f092d9fa1ec93826cdb702f2efa70a4feb12d2970"
+  },
+  {
+    "url": "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs",
+    "time": "2026-11-13T19:56:17.228625+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs",
+    "type": "application/javascript",
+    "bytes": 1375838,
+    "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+  },
+  {
+    "url": "https://comp.school/exams/assets/pdf.worker.mjs",
+    "time": "2026-11-13T19:56:18.808772+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://comp.school/exams/assets/pdf.worker.mjs",
+    "type": "text/html; charset=utf-8",
+    "error": "HTML fallback, not a JavaScript/worker module; not saved as code"
+  },
+  {
+    "url": "https://comp.school/recall/assets/pdf.worker.min-yatZIOMy.mjs",
+    "time": "2026-11-13T19:56:20.290760+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://comp.school/recall/assets/pdf.worker.min-yatZIOMy.mjs",
+    "type": "application/javascript",
+    "bytes": 1375838,
+    "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+  },
+  {
+    "url": "https://comp.school/recall/assets/pdf.worker.mjs",
+    "time": "2026-11-13T19:56:22.219107+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://comp.school/recall/assets/pdf.worker.mjs",
+    "type": "text/html; charset=utf-8",
+    "error": "HTML fallback, not a JavaScript/worker module; not saved as code"
+  },
+  {
+    "url": "https://library.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+    "time": "2026-11-13T19:56:23.408529+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://library.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+    "type": "text/javascript",
+    "bytes": 1375838,
+    "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+  },
+  {
+    "url": "https://library.comp.school/assets/pdf.worker.mjs",
+    "time": "2026-11-13T19:56:24.714394+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://library.comp.school/assets/pdf.worker.mjs",
+    "type": "text/html",
+    "error": "HTML fallback, not a JavaScript/worker module; not saved as code"
+  },
+  {
+    "url": "https://mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+    "time": "2026-11-13T19:56:25.617365+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+    "type": "application/javascript",
+    "bytes": 1375838,
+    "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+  },
+  {
+    "url": "https://mark.comp.school/assets/pdf.worker.mjs",
+    "time": "2026-11-13T19:56:27.089595+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/pdf.worker.mjs",
+    "type": "text/html; charset=utf-8",
+    "error": "HTML fallback, not a JavaScript/worker module; not saved as code"
+  },
+  {
+    "url": "https://preview-1349.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+    "time": "2026-11-13T19:56:29.733306+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://preview-1349.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+    "type": "application/javascript",
+    "bytes": 1375838,
+    "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+  },
+  {
+    "url": "https://preview-1349.comp.school/assets/pdf.worker.mjs",
+    "time": "2026-11-13T19:56:31.004877+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://preview-1349.comp.school/assets/pdf.worker.mjs",
+    "type": "text/html; charset=utf-8",
+    "error": "HTML fallback, not a JavaScript/worker module; not saved as code"
+  },
+  {
+    "url": "https://self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+    "time": "2026-11-13T19:56:31.877831+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://self-assess.comp.school/assets/pdf.worker.min-yatZIOMy.mjs",
+    "type": "application/javascript",
+    "bytes": 1375838,
+    "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+  },
+  {
+    "url": "https://self-assess.comp.school/assets/pdf.worker.mjs",
+    "time": "2026-11-13T19:56:33.109235+00:00",
+    "acquisition": "GET directly evidenced client dependency",
+    "classification": "code",
+    "status": 200,
+    "final": "https://self-assess.comp.school/assets/pdf.worker.mjs",
+    "type": "text/html; charset=utf-8",
+    "error": "HTML fallback, not a JavaScript/worker module; not saved as code"
+  }
+]
