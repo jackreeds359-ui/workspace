@@ -1269,5 +1269,261 @@
     },
     "bytes": 294728,
     "sha256": "88c99f17e02769f3ca0a8004bc69f8fbaf12460e50bd47f42135329d08c4a145"
+  },
+  {
+    "url": "https://admin.comp.school/assets/index-B-fhCWF2.css",
+    "time": "2026-11-13T19:11:56.946571+00:00",
+    "status": 200,
+    "final": "https://admin.comp.school/assets/index-B-fhCWF2.css",
+    "type": "text/css; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/css; charset=utf-8",
+      "ETag": "\"9d9efa5e0b85600fbc661ecaa239d308\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 19290,
+    "sha256": "84b63d6175d4dde03d6cd6558b1f6e95b0efad557a427969b6599971f931df6e"
+  },
+  {
+    "url": "https://homework.comp.school/favicon/favicon.svg",
+    "time": "2026-11-13T19:11:57.784852+00:00",
+    "status": 200,
+    "final": "https://homework.comp.school/favicon/favicon.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ba70fd0d4731267d3bbf162b6d7e74c2\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 766,
+    "sha256": "0bb505d3e3bdf3080f13cac0ac842038d800d0e91788d679838bd37d64c77baf"
+  },
+  {
+    "url": "https://homework.comp.school/favicon/favicon.ico",
+    "time": "2026-11-13T19:11:58.694673+00:00",
+    "status": 200,
+    "final": "https://homework.comp.school/favicon/favicon.ico",
+    "type": "image/vnd.microsoft.icon",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/vnd.microsoft.icon",
+      "ETag": "W/\"9cb46babdfdccce71dd5e34bba81db96\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 15086,
+    "sha256": "c943dfd2e82baa6217676822b1dc3a955938a4f82fe32b3910fdf96a84158725"
+  },
+  {
+    "url": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "time": "2026-11-13T19:11:59.442933+00:00",
+    "status": 200,
+    "final": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:11:59 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1340,
+    "sha256": "ce875c655f9280fbabc0330bf894c8ef33214855a1fd13995e2b5482df8626ae"
+  },
+  {
+    "url": "https://homework.comp.school/favicon/site.webmanifest",
+    "time": "2026-11-13T19:12:00.218415+00:00",
+    "status": 200,
+    "final": "https://homework.comp.school/favicon/site.webmanifest",
+    "type": "application/manifest+json",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/manifest+json",
+      "ETag": "\"323c97ba0cd00c8295cd267c842f6ff2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 460,
+    "sha256": "aa869a105b4c9016b426a1fdd01346b1420e750dc4ae5ede668078ec4d58b54d"
+  },
+  {
+    "url": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "time": "2026-11-13T19:12:01.066826+00:00",
+    "status": 200,
+    "final": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"eb4f695b3080e8ec176f84f3b6145501\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 316223,
+    "sha256": "73badc785e95405a5de7ff8e9a4bd6de810d00aa943eff63d5a4399aa73dff6a"
+  },
+  {
+    "url": "https://homework.comp.school/assets/index-CiuFtAIG.css",
+    "time": "2026-11-13T19:12:02.034699+00:00",
+    "status": 200,
+    "final": "https://homework.comp.school/assets/index-CiuFtAIG.css",
+    "type": "text/css; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/css; charset=utf-8",
+      "ETag": "W/\"cdf9105caa3f2de7008ef16a5308dcad\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 20300,
+    "sha256": "1ba026640508cefbb70987eee7f8b607bcaf31f6967995a7ce77bb5f0b2961c5"
+  },
+  {
+    "url": "https://mark.comp.school/favicon/favicon.svg",
+    "time": "2026-11-13T19:12:02.780853+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/favicon/favicon.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ba70fd0d4731267d3bbf162b6d7e74c2\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 766,
+    "sha256": "0bb505d3e3bdf3080f13cac0ac842038d800d0e91788d679838bd37d64c77baf"
+  },
+  {
+    "url": "https://mark.comp.school/favicon/favicon.ico",
+    "time": "2026-11-13T19:12:03.560409+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/favicon/favicon.ico",
+    "type": "image/vnd.microsoft.icon",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/vnd.microsoft.icon",
+      "ETag": "W/\"9cb46babdfdccce71dd5e34bba81db96\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 15086,
+    "sha256": "c943dfd2e82baa6217676822b1dc3a955938a4f82fe32b3910fdf96a84158725"
+  },
+  {
+    "url": "https://mark.comp.school/favicon/apple-touch-icon.png",
+    "time": "2026-11-13T19:12:04.239955+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/favicon/apple-touch-icon.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"c945be5b727d41d07fcb3df8cc701f41\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 5784,
+    "sha256": "53e2fc144d9f33e698b7ee2e54e6fbfdd5a834bf04354f38262ce99c983e3556"
+  },
+  {
+    "url": "https://mark.comp.school/favicon/site.webmanifest",
+    "time": "2026-11-13T19:12:04.960074+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/favicon/site.webmanifest",
+    "type": "application/manifest+json",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/manifest+json",
+      "ETag": "\"323c97ba0cd00c8295cd267c842f6ff2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 460,
+    "sha256": "aa869a105b4c9016b426a1fdd01346b1420e750dc4ae5ede668078ec4d58b54d"
+  },
+  {
+    "url": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "time": "2026-11-13T19:12:05.701705+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "W/\"0915c994744594d5781fd899b89d4ee5\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 302245,
+    "sha256": "808cff1f2381e2be6878cbd7efd2cfee6aa154548b6cd562a2f8d8336b12286e"
+  },
+  {
+    "url": "https://printouts.comp.school/favicon/favicon.svg",
+    "time": "2026-11-13T19:12:06.450194+00:00",
+    "status": 200,
+    "final": "https://printouts.comp.school/favicon/favicon.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ba70fd0d4731267d3bbf162b6d7e74c2\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 766,
+    "sha256": "0bb505d3e3bdf3080f13cac0ac842038d800d0e91788d679838bd37d64c77baf"
+  },
+  {
+    "url": "https://printouts.comp.school/favicon/favicon.ico",
+    "time": "2026-11-13T19:12:07.232292+00:00",
+    "status": 200,
+    "final": "https://printouts.comp.school/favicon/favicon.ico",
+    "type": "image/vnd.microsoft.icon",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/vnd.microsoft.icon",
+      "ETag": "W/\"9cb46babdfdccce71dd5e34bba81db96\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 15086,
+    "sha256": "c943dfd2e82baa6217676822b1dc3a955938a4f82fe32b3910fdf96a84158725"
+  },
+  {
+    "url": "https://printouts.comp.school/favicon/apple-touch-icon.png",
+    "time": "2026-11-13T19:12:08.008006+00:00",
+    "status": 200,
+    "final": "https://printouts.comp.school/favicon/apple-touch-icon.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"c945be5b727d41d07fcb3df8cc701f41\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 5784,
+    "sha256": "53e2fc144d9f33e698b7ee2e54e6fbfdd5a834bf04354f38262ce99c983e3556"
+  },
+  {
+    "url": "https://printouts.comp.school/favicon/site.webmanifest",
+    "time": "2026-11-13T19:12:08.732932+00:00",
+    "status": 200,
+    "final": "https://printouts.comp.school/favicon/site.webmanifest",
+    "type": "application/manifest+json",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/manifest+json",
+      "ETag": "\"323c97ba0cd00c8295cd267c842f6ff2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 460,
+    "sha256": "aa869a105b4c9016b426a1fdd01346b1420e750dc4ae5ede668078ec4d58b54d"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-13T19:11:56.345937+00:00",
+  "time": "2026-11-13T19:12:08.958385+00:00",
   "hosts": [
     "admin.comp.school",
     "code.comp.school",
@@ -25,10 +25,9 @@
     "bytes": 160000000,
     "perfile": 16000000
   },
-  "requests": 82,
-  "bytes": 13058603,
+  "requests": 98,
+  "bytes": 13778505,
   "remaining": [
-    "https://admin.comp.school/assets/index-B-fhCWF2.css",
     "https://comp.school/assets/01101010-YgQ475IB.svg",
     "https://comp.school/assets/01111010-BiDKQaBg.svg",
     "https://comp.school/assets/01111011-DSwMyESx.svg",
@@ -594,28 +593,14 @@
     "https://comp.school/code/assets/examples-CtrJP_Th.js",
     "https://comp.school/code/assets/examples-Dk-2skNd.js",
     "https://comp.school/recall/assets/App-Cywbl0vP.js",
-    "https://homework.comp.school/assets/index-BMINHhky.js",
-    "https://homework.comp.school/assets/index-CiuFtAIG.css",
-    "https://homework.comp.school/favicon/apple-touch-icon.png",
-    "https://homework.comp.school/favicon/favicon.ico",
-    "https://homework.comp.school/favicon/favicon.svg",
-    "https://homework.comp.school/favicon/site.webmanifest",
     "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
     "https://issues.comp.school/assets/index-KyZfkpPi.css",
     "https://issues.comp.school/favicon/apple-touch-icon.png",
     "https://issues.comp.school/favicon/favicon.ico",
     "https://issues.comp.school/favicon/favicon.svg",
     "https://issues.comp.school/favicon/site.webmanifest",
-    "https://mark.comp.school/assets/index-DThs38Se.js",
-    "https://mark.comp.school/favicon/apple-touch-icon.png",
-    "https://mark.comp.school/favicon/favicon.ico",
-    "https://mark.comp.school/favicon/favicon.svg",
-    "https://mark.comp.school/favicon/site.webmanifest",
-    "https://printouts.comp.school/assets/index-DIMUjXiM.js",
-    "https://printouts.comp.school/favicon/apple-touch-icon.png",
-    "https://printouts.comp.school/favicon/favicon.ico",
-    "https://printouts.comp.school/favicon/favicon.svg",
-    "https://printouts.comp.school/favicon/site.webmanifest"
+    "https://mark.comp.school/assets/App-BruRv-ox.js",
+    "https://printouts.comp.school/assets/index-DIMUjXiM.js"
   ],
   "scope": "GET public pages and directly referenced assets only; no cookies, API calls, guessed paths or exploit probing"
 }

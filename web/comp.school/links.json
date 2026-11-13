@@ -3455,6 +3455,66 @@
     "kind": "asset"
   },
   {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://code.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://exams.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://homework.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://issues.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "to": "https://recall.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "to": "https://homework.comp.school/assets/index-BMINHhky.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "to": "https://homework.comp.school/assets/index-CiuFtAIG.css",
+    "kind": "asset"
+  },
+  {
+    "from": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "to": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "to": "https://homework.comp.school/favicon/favicon.ico",
+    "kind": "asset"
+  },
+  {
+    "from": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "to": "https://homework.comp.school/favicon/favicon.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://homework.comp.school/favicon/apple-touch-icon.png",
+    "to": "https://homework.comp.school/favicon/site.webmanifest",
+    "kind": "asset"
+  },
+  {
     "from": "https://issues.comp.school/",
     "to": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
     "kind": "asset"
@@ -3508,6 +3568,41 @@
     "from": "https://mark.comp.school/",
     "to": "https://mark.comp.school/favicon/site.webmanifest",
     "kind": "asset"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://code.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://exams.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://issues.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://mark.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://mark.comp.school/assets/App-BruRv-ox.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://mark.comp.school/assets/index-DThs38Se.js",
+    "to": "https://recall.comp.school/",
+    "kind": "host"
   },
   {
     "from": "https://printouts.comp.school/",
