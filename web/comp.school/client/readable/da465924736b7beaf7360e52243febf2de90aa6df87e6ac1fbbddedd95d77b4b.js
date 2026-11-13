@@ -1,0 +1,1462 @@
+import { j as e, r as m } from "./react-vendor-BK1G6oO1.js";
+import { aq as K, aT as Q } from "./GameNotebook-b0Qw2wzd.js";
+import {
+  C as x,
+  N as Z,
+  L as C,
+  u as D,
+  v as H,
+  x as V,
+  S as F,
+  y as J,
+  z as R,
+  A as ee,
+  E as O,
+  F as te,
+  G as L,
+  H as se,
+  J as ae,
+  M as ne,
+  Q as A,
+  U as ie,
+  V as _,
+  X as T,
+  Y as re,
+  Z as le,
+  _ as oe,
+  $ as de,
+  a0 as ce,
+  a1 as he,
+  a2 as ue,
+  a3 as pe,
+  a4 as xe,
+  a5 as Y,
+  a6 as je,
+  a7 as G,
+  a8 as be,
+  a9 as me,
+  aa as S,
+  ab as ge,
+  ac as fe,
+  ad as B,
+  ae as ke,
+  af as z,
+  ag as ye,
+  ah as we,
+  ai as Ne,
+  aj as ve,
+  g as Se,
+  ak as Ce,
+  m as $e,
+  r as Ae,
+  al as De,
+  R as U,
+  T as Pe,
+  l as Me,
+  P as Te,
+  am as We,
+} from "./network-build-z_ixRQe6.js";
+import { c as Ie, u as Ee } from "./helpers-DmEFZcxj.js";
+import { u as He } from "./keyword-flashcards-Ha6Msavb.js";
+const Re = "0 0 440 300";
+function P({ from: s, to: a, text: t }) {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("path", {
+        d: `M${s[0]} ${s[1]} L${a[0]} ${a[1]}`,
+        stroke: L,
+        strokeWidth: "1.5",
+        strokeDasharray: "4 3",
+      }),
+      e.jsx("circle", { cx: s[0], cy: s[1], r: "3.5", fill: L }),
+      e.jsx(se, { x: a[0], y: a[1], text: t, size: 12 }),
+    ],
+  });
+}
+function Le() {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("rect", { width: "440", height: "300", fill: x.blueprint }),
+      e.jsx(Z, { x: 210, y: 140, s: 4.4 }),
+      e.jsx(P, { from: [310, 128], to: [350, 62], text: "Ethernet port" }),
+      e.jsx(P, {
+        from: [150, 192],
+        to: [120, 236],
+        text: "Slots into the computer",
+      }),
+      e.jsx("rect", {
+        x: "218",
+        y: "214",
+        width: "180",
+        height: "40",
+        rx: "6",
+        fill: x.white,
+        ...C,
+      }),
+      e.jsx(D, {
+        x: 308,
+        y: 231,
+        size: 11,
+        anchor: "middle",
+        fill: x.navy,
+        children: "MAC address",
+      }),
+      e.jsx(D, {
+        x: 308,
+        y: 247,
+        size: 13,
+        weight: 700,
+        anchor: "middle",
+        children: H,
+      }),
+    ],
+  });
+}
+function Oe({ org: s }) {
+  const a = [-24, -14, -4, 6],
+    t = [70, 170, 270, 370];
+  return e.jsxs("g", {
+    children: [
+      e.jsx("rect", { width: "440", height: "300", fill: x.blueprint }),
+      e.jsx(V, { x: 220, y: 40, s: 0.7, sealed: !0, kind: s.theme.packet }),
+      e.jsxs(D, { x: 250, y: 46, size: 12, children: ["to ", H] }),
+      e.jsx(F, { x: 220, y: 110, s: 3 }),
+      a.map((c, n) => {
+        const j = 220 + (c + 0.5) * 3,
+          o = t[n],
+          g = n === 2,
+          d = n === 0 || n === 3 ? 158 : 184;
+        return e.jsx(
+          "path",
+          {
+            d: `M${j} 122 V${d} H${o} V210`,
+            fill: "none",
+            stroke: g ? x.mintDeep : x.greyDeep,
+            strokeWidth: g ? 5 : 3,
+            strokeLinejoin: "round",
+          },
+          c,
+        );
+      }),
+      t.map((c, n) =>
+        n === 1
+          ? e.jsx(J, { x: c, y: 240, s: 1.2 }, c)
+          : e.jsx(
+              R,
+              {
+                x: c,
+                y: 244,
+                colour: [x.peach, x.blue, x.mint, x.lilac][n],
+                s: 1.1,
+              },
+              c,
+            ),
+      ),
+      e.jsx(D, {
+        x: 220,
+        y: 290,
+        size: 12,
+        anchor: "middle",
+        children: "Only port 3 gets the packet",
+      }),
+      e.jsx(P, { from: [148, 104], to: [70, 70], text: "Ports" }),
+    ],
+  });
+}
+function _e() {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("rect", { width: "440", height: "300", fill: x.paper }),
+      e.jsx("rect", {
+        x: "0",
+        y: "0",
+        width: "440",
+        height: "30",
+        fill: x.grey,
+        ...C,
+      }),
+      e.jsx("path", {
+        d: "M260 34 H430",
+        stroke: x.cable,
+        strokeWidth: "4",
+        strokeLinecap: "round",
+      }),
+      e.jsx(ee, { x: 220, y: 52, s: 2.4, waves: !1 }),
+      [50, 90, 130].map((s) =>
+        e.jsx(
+          "path",
+          {
+            d: `M${220 - s * 1.5} ${80 + s * 0.6} Q220 ${80 + s * 1.6} ${220 + s * 1.5} ${80 + s * 0.6}`,
+            fill: "none",
+            stroke: x.cable,
+            strokeWidth: "3",
+            strokeLinecap: "round",
+            strokeDasharray: "10 8",
+          },
+          s,
+        ),
+      ),
+      e.jsx(R, { x: 90, y: 250, colour: x.peach }),
+      e.jsx(O, { x: 220, y: 258, s: 1.3 }),
+      e.jsx(O, { x: 340, y: 256, s: 0.9, rotate: -8 }),
+      e.jsx(P, { from: [312, 150], to: [360, 120], text: "Radio waves" }),
+      e.jsx(P, { from: [400, 34], to: [352, 76], text: "Cable to the switch" }),
+    ],
+  });
+}
+function Be({ org: s }) {
+  const a = [
+    [334, 84],
+    [396, 76],
+    [392, 168],
+    [332, 176],
+  ];
+  return e.jsxs("g", {
+    children: [
+      e.jsx("rect", { width: "440", height: "300", fill: x.sky }),
+      e.jsx("rect", {
+        x: "14",
+        y: "60",
+        width: "150",
+        height: "150",
+        rx: "14",
+        fill: x.paper,
+        ...C,
+      }),
+      e.jsx(F, { x: 89, y: 100, s: 1.2 }),
+      e.jsx(R, { x: 54, y: 176, colour: x.peach, s: 0.9 }),
+      e.jsx(R, { x: 124, y: 176, colour: x.blue, s: 0.9 }),
+      e.jsx("path", {
+        d: "M54 162 V140 H80 V112 M124 162 V140 H98 V112",
+        fill: "none",
+        stroke: x.cable,
+        strokeWidth: "2.5",
+      }),
+      e.jsxs(D, {
+        x: 89,
+        y: 232,
+        size: 13,
+        weight: 700,
+        anchor: "middle",
+        children: [s.placeSite, ": a LAN"],
+      }),
+      e.jsx("rect", {
+        x: "300",
+        y: "50",
+        width: "126",
+        height: "160",
+        rx: "22",
+        fill: x.blueprint,
+        ...C,
+        strokeDasharray: "8 6",
+      }),
+      a.map((t, c) =>
+        a
+          .slice(c + 1)
+          .map((n) =>
+            e.jsx(
+              "path",
+              {
+                d: `M${t[0]} ${t[1]} L${n[0]} ${n[1]}`,
+                stroke: x.cable,
+                strokeWidth: "2",
+              },
+              `${t.join()}-${n.join()}`,
+            ),
+          ),
+      ),
+      a.map((t) =>
+        e.jsx(
+          "rect",
+          {
+            x: t[0] - 12,
+            y: t[1] - 9,
+            width: "24",
+            height: "18",
+            rx: "5",
+            fill: x.yellow,
+            ...C,
+            strokeWidth: 1.5,
+          },
+          t.join(),
+        ),
+      ),
+      e.jsx(D, {
+        x: 360,
+        y: 232,
+        size: 13,
+        weight: 700,
+        anchor: "middle",
+        children: "The internet",
+      }),
+      e.jsx("path", {
+        d: "M164 136 H202 M262 136 H300",
+        stroke: x.cable,
+        strokeWidth: "5",
+        strokeLinecap: "round",
+      }),
+      e.jsx(te, { x: 232, y: 140, s: 1.5 }),
+      e.jsx(V, { x: 178, y: 112, s: 0.55, sealed: !0, kind: s.theme.packet }),
+      e.jsx("rect", {
+        x: "150",
+        y: "256",
+        width: "164",
+        height: "30",
+        rx: "8",
+        fill: x.white,
+        ...C,
+      }),
+      e.jsx(D, {
+        x: 232,
+        y: 276,
+        size: 13,
+        weight: 700,
+        anchor: "middle",
+        children: "to 203.0.113.24",
+      }),
+      e.jsx("path", {
+        d: "M232 254 V172",
+        stroke: L,
+        strokeWidth: "1.5",
+        strokeDasharray: "4 3",
+      }),
+    ],
+  });
+}
+function ze() {
+  const s = [x.amber, x.mintDeep, x.cable, "#8a5a3b"];
+  return e.jsxs("g", {
+    children: [
+      e.jsx("rect", { width: "440", height: "300", fill: x.blueprint }),
+      e.jsx("path", { d: "M0 110 H210", stroke: x.cable, strokeWidth: "34" }),
+      e.jsx("rect", {
+        x: "210",
+        y: "93",
+        width: "40",
+        height: "34",
+        fill: x.paper,
+        ...C,
+      }),
+      s.map((a, t) =>
+        e.jsx(
+          "path",
+          {
+            d: `M210 ${99 + t * 7} H286`,
+            stroke: a,
+            strokeWidth: "5",
+            strokeLinecap: "round",
+          },
+          a,
+        ),
+      ),
+      e.jsx("rect", {
+        x: "280",
+        y: "88",
+        width: "70",
+        height: "44",
+        rx: "6",
+        fill: x.white,
+        fillOpacity: 0.85,
+        ...C,
+      }),
+      e.jsx("rect", {
+        x: "350",
+        y: "98",
+        width: "14",
+        height: "24",
+        rx: "2",
+        fill: x.white,
+        ...C,
+      }),
+      s.map((a, t) =>
+        e.jsx(
+          "rect",
+          {
+            x: "336",
+            y: 96 + t * 8,
+            width: "10",
+            height: "4",
+            fill: "#d9a441",
+          },
+          a,
+        ),
+      ),
+      e.jsx(P, { from: [244, 112], to: [170, 60], text: "Copper wires" }),
+      e.jsx(P, {
+        from: [316, 132],
+        to: [330, 172],
+        text: "Plug: clicks into a port",
+      }),
+      e.jsx("path", {
+        d: "M0 240 H440",
+        stroke: x.navy,
+        strokeWidth: "14",
+        strokeLinecap: "round",
+      }),
+      e.jsx("path", {
+        d: "M0 240 H440",
+        stroke: x.yellow,
+        strokeWidth: "4",
+        strokeDasharray: "14 22",
+      }),
+      e.jsx(D, {
+        x: 220,
+        y: 274,
+        size: 13,
+        weight: 700,
+        anchor: "middle",
+        children: "Fibre optic: pulses of light",
+      }),
+    ],
+  });
+}
+function Ue({ org: s, id: a, title: t }) {
+  return e.jsxs("svg", {
+    viewBox: Re,
+    role: "img",
+    "aria-label": `Close-up: ${t}`,
+    className: "nb-art nb-closeup",
+    "data-closeup": a,
+    children: [
+      a === "nic" ? e.jsx(Le, {}) : null,
+      a === "switch" ? e.jsx(Oe, { org: s }) : null,
+      a === "wap" ? e.jsx(_e, {}) : null,
+      a === "router" ? e.jsx(Be, { org: s }) : null,
+      a === "cable" ? e.jsx(ze, {}) : null,
+    ],
+  });
+}
+const Ve = 6;
+function X({ onDrop: s, disabled: a = !1 }) {
+  const [t, c] = m.useState(null),
+    n = m.useRef(null),
+    j = m.useRef(new Map()),
+    o = m.useRef(!1);
+  function g(b, r) {
+    for (const [i, l] of j.current) {
+      const u = l.getBoundingClientRect();
+      if (b >= u.left && b <= u.right && r >= u.top && r <= u.bottom) return i;
+    }
+    return null;
+  }
+  const d = t?.moved ? t : null,
+    h = d ? n.current?.getBoundingClientRect() : void 0;
+  return {
+    root: n,
+    dragging: d?.item ?? null,
+    over: d?.over ?? null,
+    ghostStyle: d && h ? { left: d.x - h.left, top: d.y - h.top } : void 0,
+    target: (b) => (r) => {
+      r ? j.current.set(b, r) : j.current.delete(b);
+    },
+    handle: (b) => ({
+      onPointerDown(r) {
+        if (
+          ((o.current = !1), a || (r.pointerType === "mouse" && r.button !== 0))
+        )
+          return;
+        r.currentTarget.setPointerCapture?.(r.pointerId);
+        const { clientX: i, clientY: l } = r;
+        c({
+          item: b,
+          pointerId: r.pointerId,
+          startX: i,
+          startY: l,
+          x: i,
+          y: l,
+          moved: !1,
+          over: null,
+        });
+      },
+      onPointerMove(r) {
+        if (!t || r.pointerId !== t.pointerId) return;
+        const { clientX: i, clientY: l } = r,
+          u = t.moved || Math.hypot(i - t.startX, l - t.startY) > Ve;
+        (u && r.preventDefault(),
+          c({ ...t, x: i, y: l, moved: u, over: u ? g(i, l) : null }));
+      },
+      onPointerUp(r) {
+        if (!t || r.pointerId !== t.pointerId || (c(null), !t.moved)) return;
+        o.current = !0;
+        const i = g(r.clientX, r.clientY);
+        i && s(t.item, i);
+      },
+      onPointerCancel() {
+        c(null);
+      },
+    }),
+    endedDrag() {
+      const b = o.current;
+      return ((o.current = !1), b);
+    },
+  };
+}
+const Fe = 700;
+function Ye({ org: s, onDone: a }) {
+  const [t, c] = m.useState([]),
+    [n, j] = m.useState(0),
+    [o, g] = m.useState(null),
+    [d, h] = m.useState(null),
+    [b, r] = m.useState(null),
+    [i, l] = m.useState(null),
+    u = He() ? ae : ne,
+    v = m.useRef(null);
+  (m.useEffect(() => {
+    if (!b) return;
+    const p = window.setTimeout(() => {
+      (l(b), r(null));
+    }, Fe);
+    return () => window.clearTimeout(p);
+  }, [b]),
+    m.useEffect(() => {
+      d && v.current?.scrollIntoView?.({ block: "nearest" });
+    }, [d]));
+  function y(p, f) {
+    const N = A.find((I) => I.id === p);
+    if ((g(null), p !== f)) {
+      (j((I) => I + 1),
+        h({
+          text: `Not there. ${N.task}`,
+          tone: "friction",
+          part: p,
+          key: Date.now(),
+        }));
+      return;
+    }
+    const k = [...t, p];
+    (c(k),
+      h(null),
+      r(p),
+      k.length === A.length &&
+        a({
+          tone: n === 0 ? "good" : "friction",
+          choice:
+            n === 0 ? "Placed first time" : `${n} in the wrong place first`,
+        }));
+  }
+  const w = X({ onDrop: y, disabled: b !== null });
+  function q(p, f) {
+    if (w.endedDrag() || b) return;
+    if (t.includes(f)) {
+      l(f);
+      return;
+    }
+    if (p.detail === 0) {
+      g(o === f ? null : f);
+      return;
+    }
+    const N = A.find((k) => k.id === f);
+    h({
+      text: `Drag the ${N.name} to its place in the room.`,
+      tone: "neutral",
+      part: f,
+      key: Date.now(),
+    });
+  }
+  const W = i ? A.find((p) => p.id === i) : null;
+  if (W)
+    return e.jsxs("div", {
+      className: "nb-split",
+      "data-hardware-view": "closeup",
+      children: [
+        e.jsx("div", {
+          className: "nb-scene nb-zoom-in",
+          children: e.jsx(Ue, { org: s, id: W.id, title: W.title }),
+        }),
+        e.jsxs("div", {
+          className: "nb-panel",
+          children: [
+            e.jsx("h2", { className: "nb-title", children: W.title }),
+            e.jsx("ul", {
+              className: "nb-closeup-lines",
+              children: W.lines.map((p) => e.jsx("li", { children: p }, p)),
+            }),
+            e.jsx("button", {
+              type: "button",
+              className: "nb-button",
+              onClick: () => l(null),
+              children: "Back to the room",
+            }),
+          ],
+        }),
+      ],
+    });
+  const M = w.dragging ? A.find((p) => p.id === w.dragging) : null;
+  return e.jsxs("div", {
+    ref: w.root,
+    className: "nb-hardware",
+    "data-hardware-view": "room",
+    "data-dragging": M ? M.id : void 0,
+    children: [
+      e.jsxs("div", {
+        className: "nb-place-head",
+        children: [
+          e.jsx("h2", {
+            className: "nb-title",
+            children: "Place the hardware",
+          }),
+          e.jsxs("span", {
+            className: "nb-count",
+            children: [t.length, " of ", A.length],
+          }),
+        ],
+      }),
+      e.jsxs("div", {
+        className: "nb-place-scene",
+        children: [
+          e.jsx(ie, { org: s, placed: t, layout: u }),
+          A.map((p, f) => {
+            if (t.includes(p.id)) return null;
+            const N = u.slots[p.id],
+              k = u.viewBox;
+            return e.jsx(
+              "button",
+              {
+                ref: w.target(p.id),
+                type: "button",
+                className: "nb-slot",
+                "aria-label": p.slot,
+                disabled: !o,
+                "data-slot": p.id,
+                "data-over": w.over === p.id || void 0,
+                onClick: () => o && y(o, p.id),
+                style: {
+                  left: `${((N.x - k.x) / k.w) * 100}%`,
+                  top: `${((N.y - k.y) / k.h) * 100}%`,
+                  width: `${(N.w / k.w) * 100}%`,
+                  height: `${(N.h / k.h) * 100}%`,
+                },
+                children: e.jsx("span", {
+                  className: "nb-slot-number",
+                  "aria-hidden": "true",
+                  children: f + 1,
+                }),
+              },
+              p.id,
+            );
+          }),
+        ],
+      }),
+      e.jsx("div", {
+        className: "nb-tray",
+        role: "group",
+        "aria-label": "Hardware",
+        children: A.map((p) => {
+          const f = t.includes(p.id),
+            N = w.dragging === p.id,
+            k = d?.part === p.id && d.tone === "friction";
+          return e.jsx(
+            "button",
+            {
+              type: "button",
+              className: "nb-tray-item",
+              "aria-pressed": f ? void 0 : o === p.id,
+              "data-hardware": p.id,
+              "data-placed": f || void 0,
+              "data-lifted": N || void 0,
+              "data-wrong": k || void 0,
+              ...(f ? {} : w.handle(p.id)),
+              onClick: (I) => q(I, p.id),
+              children: e.jsxs(
+                "span",
+                {
+                  className: "nb-tray-face",
+                  children: [
+                    e.jsx(_, { id: p.id }),
+                    e.jsx("span", { children: p.name }),
+                  ],
+                },
+                k && d ? d.key : 0,
+              ),
+            },
+            p.id,
+          );
+        }),
+      }),
+      d
+        ? e.jsx("div", {
+            ref: v,
+            className: "nb-feedback",
+            "data-tone": d.tone,
+            "aria-live": "polite",
+            children: e.jsx("p", { children: d.text }),
+          })
+        : null,
+      M && w.ghostStyle
+        ? e.jsxs("div", {
+            className: "nb-drag-ghost",
+            "aria-hidden": "true",
+            "data-drag-ghost": M.id,
+            style: w.ghostStyle,
+            children: [
+              e.jsx(_, { id: M.id }),
+              e.jsx("span", { children: M.name }),
+            ],
+          })
+        : null,
+    ],
+  });
+}
+function Ge({
+  org: s,
+  build: a,
+  index: t,
+  results: c,
+  rng: n,
+  onDone: j,
+  onNext: o,
+  onGo: g,
+}) {
+  const d = T[t],
+    h = c[d.id],
+    b = T.map((u) => c[u.id]?.tone),
+    r = s.trace,
+    i = { onDone: (u) => j(d.id, u), done: h !== void 0 };
+  let l;
+  switch (d.id) {
+    case "dns":
+      l = e.jsx(E, {
+        ...i,
+        rng: n,
+        question: `${r.sender} sends ${r.packet} to ${r.domain}. Who turns this name into an IP address?`,
+        choices: ue,
+        art: (u) => e.jsx(pe, { org: s, revealed: u }),
+      });
+      break;
+    case "ip":
+      l = e.jsx(Xe, { ...i });
+      break;
+    case "https":
+      l = e.jsx(qe, { ...i, org: s, question: `Send ${r.packet} with` });
+      break;
+    case "hardware":
+      l = e.jsx(Ye, { org: s, onDone: i.onDone });
+      break;
+    case "build":
+      l = e.jsx(Ke, { ...i, org: s, mesh: a.topology === "b" });
+      break;
+    case "switch":
+      l = e.jsx(Qe, { ...i, org: s });
+      break;
+    case "bluetooth":
+      l = e.jsx(E, {
+        ...i,
+        rng: n,
+        question: r.bluetooth,
+        choices: ce,
+        art: (u) => e.jsx(he, { org: s, revealed: u }),
+      });
+      break;
+    case "mail":
+      l = e.jsx(Ze, { ...i, rng: n, org: s });
+      break;
+    case "standards":
+      l = e.jsx(E, {
+        ...i,
+        rng: n,
+        question: `${r.newKit} from a different manufacturer join the network first time. Why?`,
+        choices: oe,
+        art: (u) => e.jsx(de, { revealed: u }),
+      });
+      break;
+    case "layers":
+      l = e.jsx(E, {
+        ...i,
+        rng: n,
+        question: `The app team updates ${r.app}. What else has to change?`,
+        choices: re,
+        art: (u) => e.jsx(le, { org: s, revealed: u }),
+      });
+      break;
+    case "lan-wan":
+      l = e.jsx(Je, { ...i, org: s });
+      break;
+  }
+  return e.jsxs("div", {
+    className: "nb-page",
+    "data-network-build-stage": "trace",
+    "data-stop": d.id,
+    children: [
+      e.jsx(xe, { current: t, tones: b, onSelect: g }),
+      e.jsx("div", { className: "nb-stop-body", children: l }, d.id),
+      h
+        ? e.jsx("div", {
+            className: "nb-stop-foot",
+            children: e.jsx("button", {
+              type: "button",
+              className: "nb-button nb-primary",
+              onClick: o,
+              children: t === T.length - 1 ? "What happened next" : "Next stop",
+            }),
+          })
+        : null,
+    ],
+  });
+}
+function $({ tone: s, children: a }) {
+  return e.jsx("div", {
+    className: "nb-feedback",
+    "data-tone": s,
+    "aria-live": "polite",
+    children: a,
+  });
+}
+function E({ question: s, choices: a, art: t, rng: c, onDone: n }) {
+  const j = m.useMemo(() => Y(a, c), [a, c]),
+    [o, g] = m.useState(null),
+    d = a[0],
+    h = o?.id === d.id;
+  return e.jsxs("div", {
+    className: "nb-split",
+    children: [
+      e.jsx("div", { className: "nb-scene", children: t(o !== null) }),
+      e.jsxs("div", {
+        className: "nb-panel",
+        children: [
+          e.jsx("h2", { className: "nb-title", children: s }),
+          e.jsx("div", {
+            className: "nb-choices",
+            role: "group",
+            "aria-label": "Answers",
+            children: j.map((b) =>
+              e.jsx(
+                "button",
+                {
+                  type: "button",
+                  className: "nb-choice",
+                  disabled: o !== null,
+                  "aria-pressed": o?.id === b.id,
+                  "data-choice": b.id,
+                  "data-mark": o
+                    ? b.id === d.id
+                      ? "right"
+                      : o.id === b.id
+                        ? "wrong"
+                        : void 0
+                    : void 0,
+                  onClick: () => {
+                    (g(b),
+                      n({
+                        tone: b.id === d.id ? "good" : "friction",
+                        choice: b.label,
+                      }));
+                  },
+                  children: b.label,
+                },
+                b.id,
+              ),
+            ),
+          }),
+          o
+            ? e.jsxs($, {
+                tone: h ? "good" : "friction",
+                children: [
+                  h ? null : e.jsx("p", { children: o.feedback }),
+                  e.jsx("p", { children: d.feedback }),
+                ],
+              })
+            : null,
+        ],
+      }),
+    ],
+  });
+}
+function Xe({ onDone: s }) {
+  const [a, t] = m.useState([]),
+    [c, n] = m.useState(!1),
+    [j, o] = m.useState(!1),
+    g = S[a.length],
+    d = a.length > 0 ? S[a.length - 1] : null,
+    h = d ? a[a.length - 1] === d.kind : !1;
+  function b(i) {
+    (n(!1), o(!1));
+    const l = [...a, i];
+    if ((t(l), l.length === S.length)) {
+      const u = l.every((v, y) => v === S[y].kind);
+      s({
+        tone: u ? "good" : "friction",
+        choice: `${l.filter((v, y) => v === S[y].kind).length} of ${S.length} sorted`,
+      });
+    }
+  }
+  const r = X({ onDrop: (i, l) => b(l) });
+  return e.jsxs("div", {
+    ref: r.root,
+    className: "nb-address",
+    "data-dragging": r.dragging ?? void 0,
+    children: [
+      e.jsx("h2", { className: "nb-title", children: "Sort the addresses" }),
+      g
+        ? e.jsx("div", {
+            className: "nb-address-now",
+            children: e.jsx("button", {
+              type: "button",
+              className: "nb-tag nb-drag-tag",
+              "data-address": g.address,
+              "aria-pressed": c,
+              "data-lifted": r.dragging ? !0 : void 0,
+              ...r.handle(g.address),
+              onClick: (i) => {
+                r.endedDrag() || (i.detail === 0 ? n(!c) : o(!0));
+              },
+              children: g.address,
+            }),
+          })
+        : null,
+      e.jsx("div", {
+        className: "nb-bins",
+        children: ge.map((i) =>
+          e.jsxs(
+            "section",
+            {
+              ref: r.target(i.id),
+              className: "nb-bin",
+              "aria-label": i.label,
+              "data-bin-box": i.id,
+              "data-over": r.over === i.id || void 0,
+              children: [
+                e.jsx("h3", {
+                  children: e.jsx("button", {
+                    type: "button",
+                    className: "nb-bin-name",
+                    "data-bin": i.id,
+                    disabled: !c,
+                    onClick: () => b(i.id),
+                    children: i.label,
+                  }),
+                }),
+                e.jsx("ul", {
+                  children: S.map((l, u) =>
+                    a[u] === i.id
+                      ? e.jsxs(
+                          "li",
+                          {
+                            className: "nb-tag",
+                            "data-tone": l.kind === i.id ? "good" : "friction",
+                            children: [
+                              e.jsx(G, {
+                                tone: l.kind === i.id ? "good" : "friction",
+                                label:
+                                  l.kind === i.id
+                                    ? "Sorted right"
+                                    : "Sorted wrong",
+                              }),
+                              l.address,
+                            ],
+                          },
+                          l.address,
+                        )
+                      : null,
+                  ),
+                }),
+              ],
+            },
+            i.id,
+          ),
+        ),
+      }),
+      g
+        ? j
+          ? e.jsx($, {
+              tone: "neutral",
+              children: e.jsx("p", {
+                children: "Drag the address into its box.",
+              }),
+            })
+          : d
+            ? e.jsx($, {
+                tone: h ? "good" : "friction",
+                children: e.jsxs("p", { children: [d.address, ": ", d.why] }),
+              })
+            : null
+        : e.jsx($, {
+            tone: a.every((i, l) => i === S[l].kind) ? "good" : "friction",
+            children: S.map((i) =>
+              e.jsxs("p", { children: [i.address, ": ", i.why] }, i.address),
+            ),
+          }),
+      r.dragging && r.ghostStyle
+        ? e.jsx("div", {
+            className: "nb-drag-ghost nb-tag",
+            "aria-hidden": "true",
+            "data-drag-ghost": r.dragging,
+            style: r.ghostStyle,
+            children: r.dragging,
+          })
+        : null,
+    ],
+  });
+}
+function qe({ org: s, question: a, onDone: t }) {
+  const [c, n] = m.useState(null);
+  return e.jsxs("div", {
+    className: "nb-https",
+    children: [
+      e.jsx("h2", { className: "nb-title", children: a }),
+      e.jsx("div", {
+        className: "nb-options",
+        role: "group",
+        "aria-label": "Protocol",
+        children: be.map((j) =>
+          e.jsxs(
+            "button",
+            {
+              type: "button",
+              className: "nb-option nb-route",
+              "aria-pressed": c?.id === j.id,
+              disabled: c !== null,
+              "data-choice": j.id,
+              onClick: () => {
+                (n(j),
+                  t({
+                    tone: j.id === "https" ? "good" : "friction",
+                    choice: j.label,
+                    pick: j.id,
+                  }));
+              },
+              children: [
+                e.jsx("span", {
+                  className: "nb-option-name",
+                  children: j.label,
+                }),
+                e.jsx(me, { org: s, secure: j.id === "https" }),
+              ],
+            },
+            j.id,
+          ),
+        ),
+      }),
+      c
+        ? e.jsx($, {
+            tone: "neutral",
+            children: e.jsxs("p", {
+              children: [
+                "A protocol is a set of rules for transferring data. ",
+                c.feedback,
+              ],
+            }),
+          })
+        : null,
+    ],
+  });
+}
+function Ke({ org: s, mesh: a, onDone: t, done: c }) {
+  const n = s.trace;
+  return e.jsxs("div", {
+    className: "nb-split",
+    children: [
+      e.jsx("div", {
+        className: "nb-scene",
+        children: e.jsx(je, { org: s, mesh: a }),
+      }),
+      e.jsxs("div", {
+        className: "nb-panel",
+        children: [
+          e.jsxs("h2", {
+            className: "nb-title nb-with-mark",
+            children: [
+              e.jsx(G, { tone: a ? "good" : "friction" }),
+              a
+                ? `The mesh sends it via ${s.sites[0]}`
+                : `${Ie(n.packet)} waits at ${s.hub}`,
+            ],
+          }),
+          e.jsx("p", {
+            className: "nb-setup",
+            children: a
+              ? `The line to ${s.sites[2]} is under repair, so the packet takes another route across your WAN.`
+              : `The only line to ${s.sites[2]} is under repair. In a star, there is no other route, so it waits until the line is mended.`,
+          }),
+          a
+            ? null
+            : e.jsxs("div", {
+                className: "nb-fix",
+                children: [
+                  e.jsx("h3", { children: "What would have fixed it" }),
+                  e.jsx("p", {
+                    children: "Mesh: a second route to every site",
+                  }),
+                ],
+              }),
+          c
+            ? null
+            : e.jsx("button", {
+                type: "button",
+                className: "nb-button",
+                onClick: () =>
+                  t({
+                    tone: a ? "good" : "friction",
+                    choice: a ? "Mesh" : "Star",
+                  }),
+                children: "Follow the packet",
+              }),
+        ],
+      }),
+    ],
+  });
+}
+function Qe({ org: s, onDone: a }) {
+  const [t, c] = m.useState(null),
+    n = B.indexOf(H);
+  return e.jsxs("div", {
+    className: "nb-split",
+    children: [
+      e.jsx("div", {
+        className: "nb-scene",
+        children: e.jsx(fe, { org: s, picked: t === null ? null : n }),
+      }),
+      e.jsxs("div", {
+        className: "nb-panel",
+        children: [
+          e.jsxs("h2", {
+            className: "nb-title",
+            children: [
+              "Which port on the ",
+              s.placeSite,
+              " switch gets the packet?",
+            ],
+          }),
+          e.jsxs("p", {
+            className: "nb-mac-to",
+            children: [
+              e.jsx("span", { children: "Packet to MAC" }),
+              " ",
+              e.jsx("strong", { children: H }),
+            ],
+          }),
+          e.jsx("div", {
+            className: "nb-choices",
+            role: "group",
+            "aria-label": "Ports",
+            children: B.map((j, o) =>
+              e.jsxs(
+                "button",
+                {
+                  type: "button",
+                  className: "nb-choice nb-port",
+                  disabled: t !== null,
+                  "aria-pressed": t === o,
+                  "data-port": o + 1,
+                  "data-mark":
+                    t !== null
+                      ? o === n
+                        ? "right"
+                        : t === o
+                          ? "wrong"
+                          : void 0
+                      : void 0,
+                  onClick: () => {
+                    (c(o),
+                      a({
+                        tone: o === n ? "good" : "friction",
+                        choice: `Port ${o + 1}`,
+                      }));
+                  },
+                  children: [
+                    e.jsxs("span", { children: ["Port ", o + 1] }),
+                    e.jsx("span", { className: "nb-mono", children: j }),
+                  ],
+                },
+                j,
+              ),
+            ),
+          }),
+          t !== null
+            ? e.jsx($, {
+                tone: t === n ? "good" : "friction",
+                children: e.jsxs("p", {
+                  children: [
+                    "Port ",
+                    n + 1,
+                    ", the ",
+                    s.trace.devices[n],
+                    ". ",
+                    ke,
+                  ],
+                }),
+              })
+            : null,
+        ],
+      }),
+    ],
+  });
+}
+function Ze({ org: s, rng: a, onDone: t }) {
+  const c = m.useMemo(() => Y(z, a), [a]),
+    [n, j] = m.useState(null),
+    [o, g] = m.useState(null),
+    d = z[0];
+  return e.jsxs("div", {
+    className: "nb-split",
+    children: [
+      e.jsx("div", {
+        className: "nb-scene",
+        children: e.jsx(ye, {
+          org: s,
+          stage: o ? "done" : n ? "read" : "send",
+        }),
+      }),
+      e.jsxs("div", {
+        className: "nb-panel",
+        children: [
+          e.jsx("h2", { className: "nb-title", children: s.trace.mail.send }),
+          e.jsx("div", {
+            className: "nb-choices nb-row",
+            role: "group",
+            "aria-label": "Send with",
+            children: c.map((h) =>
+              e.jsx(
+                "button",
+                {
+                  type: "button",
+                  className: "nb-choice",
+                  disabled: n !== null,
+                  "aria-pressed": n?.id === h.id,
+                  "data-choice": h.id,
+                  "data-mark": n
+                    ? h.id === d.id
+                      ? "right"
+                      : n.id === h.id
+                        ? "wrong"
+                        : void 0
+                    : void 0,
+                  onClick: () => j(h),
+                  children: h.label,
+                },
+                h.id,
+              ),
+            ),
+          }),
+          n
+            ? e.jsxs(e.Fragment, {
+                children: [
+                  e.jsxs($, {
+                    tone: n.id === d.id ? "good" : "friction",
+                    children: [
+                      n.id === d.id
+                        ? null
+                        : e.jsx("p", { children: n.feedback }),
+                      e.jsx("p", { children: d.feedback }),
+                    ],
+                  }),
+                  e.jsx("h3", {
+                    className: "nb-subtitle",
+                    children: s.trace.mail.read,
+                  }),
+                  e.jsx("div", {
+                    className: "nb-choices nb-row",
+                    role: "group",
+                    "aria-label": "Mailbox",
+                    children: we.map((h) =>
+                      e.jsx(
+                        "button",
+                        {
+                          type: "button",
+                          className: "nb-choice",
+                          disabled: o !== null,
+                          "aria-pressed": o?.id === h.id,
+                          "data-mailbox": h.id,
+                          onClick: () => {
+                            (g(h),
+                              t({
+                                tone:
+                                  h.id === "imap" && n.id === d.id
+                                    ? "good"
+                                    : "friction",
+                                choice: `${n.label}, then ${h.label}`,
+                                pick: h.id,
+                              }));
+                          },
+                          children: h.label,
+                        },
+                        h.id,
+                      ),
+                    ),
+                  }),
+                  o
+                    ? e.jsx($, {
+                        tone: "neutral",
+                        children: e.jsx("p", { children: o.feedback }),
+                      })
+                    : null,
+                ],
+              })
+            : null,
+        ],
+      }),
+    ],
+  });
+}
+function Je({ org: s, onDone: a }) {
+  const [t, c] = m.useState(null);
+  return e.jsxs("div", {
+    className: "nb-split",
+    children: [
+      e.jsx(Ne, { org: s }),
+      e.jsxs("div", {
+        className: "nb-panel",
+        children: [
+          e.jsxs("h2", {
+            className: "nb-title",
+            children: [
+              "What links ",
+              s.hub,
+              " to the ",
+              s.siteCount,
+              " ",
+              s.sitesNoun,
+              "?",
+            ],
+          }),
+          e.jsx("div", {
+            className: "nb-answers",
+            role: "group",
+            "aria-label": "Answers",
+            children: ["lan", "wan"].map((n) =>
+              e.jsxs(
+                "button",
+                {
+                  type: "button",
+                  className: "nb-answer-card",
+                  "aria-pressed": t === n,
+                  disabled: t !== null,
+                  "data-answer": n,
+                  "data-mark": t
+                    ? n === "wan"
+                      ? "right"
+                      : t === n
+                        ? "wrong"
+                        : void 0
+                    : void 0,
+                  onClick: () => {
+                    (c(n),
+                      a({
+                        tone: n === "wan" ? "good" : "friction",
+                        choice: n.toUpperCase(),
+                      }));
+                  },
+                  children: [
+                    e.jsx(ve, { kind: n, org: s }),
+                    e.jsxs("span", {
+                      className: "nb-answer-text",
+                      children: [
+                        e.jsx("span", {
+                          className: "nb-answer-name",
+                          children: n.toUpperCase(),
+                        }),
+                        e.jsx("span", {
+                          className: "nb-answer-sub",
+                          children:
+                            n === "lan"
+                              ? "One site"
+                              : "Sites miles apart, linked through a telecoms provider",
+                        }),
+                      ],
+                    }),
+                  ],
+                },
+                n,
+              ),
+            ),
+          }),
+          t
+            ? e.jsx($, {
+                tone: t === "wan" ? "good" : "friction",
+                children: e.jsx("p", {
+                  children:
+                    t === "wan"
+                      ? `${s.sites[2]} is ${s.distance} from ${s.hub}. Sites that far apart are linked by a WAN, using a telecoms provider’s infrastructure.`
+                      : `A LAN covers one small site, on hardware the organisation owns. ${s.sites[2]} is ${s.distance} from ${s.hub}, so the sites need a WAN through a telecoms provider.`,
+                }),
+              })
+            : null,
+        ],
+      }),
+    ],
+  });
+}
+function et({ rng: s = Math.random }) {
+  Ee();
+  const [a, t] = m.useState({ type: "pick" }),
+    [c, n] = m.useState("police"),
+    [j, o] = m.useState({}),
+    [g, d] = m.useState({}),
+    h = Se(c);
+  K(
+    Object.keys(j).length,
+    T.length,
+    T.filter((u) => g[u.id]?.tone === "good").length,
+  );
+  function b(u) {
+    (n(u), o({}), d({}), t({ type: "trace", stop: 0 }));
+  }
+  function r(u, v) {
+    (o((y) => ({ ...y, [u]: v })), d((y) => (y[u] ? y : { ...y, [u]: v })));
+  }
+  const i = m.useMemo(() => Ce(h, j), [h, j]);
+  let l;
+  switch (a.type) {
+    case "pick":
+      l = e.jsx(Te, { ids: We, ready: !0, onPick: b });
+      break;
+    case "trace":
+      l = e.jsx(Ge, {
+        org: h,
+        build: U,
+        index: a.stop,
+        results: j,
+        rng: s,
+        onDone: r,
+        onNext: () => {
+          a.stop < T.length - 1
+            ? t({ type: "trace", stop: a.stop + 1 })
+            : t(i.length > 0 ? { type: "next", page: 0 } : { type: "report" });
+        },
+        onGo: (u) => t({ type: "trace", stop: u }),
+      });
+      break;
+    case "next":
+      l = e.jsx(De, {
+        pages: i,
+        page: a.page,
+        onBack: () => t({ type: "next", page: Math.max(0, a.page - 1) }),
+        onNext: () =>
+          t(
+            a.page === i.length - 1
+              ? { type: "report" }
+              : { type: "next", page: a.page + 1 },
+          ),
+      });
+      break;
+    case "report":
+      l = e.jsxs(e.Fragment, {
+        children: [
+          e.jsx($e, {
+            org: h,
+            rows: Ae({ build: U, week: [], trace: j }),
+            onPlayAgain: () => b(c),
+            onPickAnother: () => t({ type: "pick" }),
+          }),
+          e.jsx(Q, { game: "network-trace" }),
+        ],
+      });
+      break;
+  }
+  return e.jsxs("div", {
+    className: "network-build",
+    "data-network-trace": c,
+    children: [
+      e.jsx(Pe, {
+        title: "Network Trace",
+        right: a.type === "pick" ? null : e.jsx(Me, { org: h }),
+      }),
+      e.jsx("div", { className: "nb-body", children: l }),
+    ],
+  });
+}
+const rt = Object.freeze(
+  Object.defineProperty({ __proto__: null, default: et }, Symbol.toStringTag, {
+    value: "Module",
+  }),
+);
+export { et as N, rt as a, X as u };

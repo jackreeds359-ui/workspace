@@ -207,3 +207,7 @@ New workstream: .agents/scripts/browseraudit.mjs uses existing agent-browser and
 ## Runtime coverage checkpoint 2026-11-13T19:50:41.986385+00:00
 
 Use runtime.json to distinguish observed page resources from static discovered files. browseraudit.mjs now waits through the app platform-access loading state; initial 14-page results can include redirect/loading states and must not be called successful feature verification. The root coding/recall/exam links can redirect to dashboard without the site-provided query context; plan2 uses the normal menu URLs including sql=mock exactly as linked, without mocking any responses. Non-read requests remain blocked and guard events are recorded.
+
+## Client coverage progress 2026-11-13T19:55:03.870944+00:00
+
+Browser capture persists only script/CSS/WASM bodies, sanitized menus/actions, resource statuses and guard events. Account/project-facing editor UI text is removed; app data payloads are never captured. The next script invocation adds failed resource and exception diagnostics and access-gate flags. Runtime JavaScript and scripts parsed statically are separate evidence sets. Previews are now browser-visited at root; source completeness still requires recursive module graph resolution after the index is generated. Formatted code preserves originals, and semantic AST equivalence checks are pending completion.

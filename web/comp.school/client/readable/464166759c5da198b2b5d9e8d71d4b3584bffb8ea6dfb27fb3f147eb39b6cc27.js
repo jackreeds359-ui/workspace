@@ -1,0 +1,397 @@
+import { y as r, r as s, am as i, an as d, j as a } from "./index-CHiQZc8e.js";
+import { F as c } from "./FlashcardsDeck-DS4H-fcj.js";
+const l = [
+    {
+      term: "Ad hoc network",
+      definition:
+        "A short-term network set up where it is needed, such as open Wi-Fi or a phone sharing its connection.",
+      example:
+        "A sales team at a trade fair connects their laptops through one phone.",
+    },
+    {
+      term: "Tethering",
+      definition:
+        "Sharing a phone's mobile data connection with other devices, for example by turning on its personal hotspot.",
+      example:
+        "A plumber connects a tablet to their phone to send an invoice from a customer's house.",
+    },
+    {
+      term: "Open network",
+      definition:
+        "A Wi-Fi network that anyone can join without a password. Data sent on it can be seen by others.",
+      example:
+        "Free café Wi-Fi, where a stranger on the same network could capture unencrypted data.",
+    },
+    {
+      term: "Cloud storage",
+      definition:
+        "Saving files on a provider's servers over the internet, so they can be opened from any connected device.",
+      example:
+        "A charity keeps its photos online so every volunteer can open them at home.",
+    },
+    {
+      term: "Access rights",
+      definition:
+        "Settings that control who can open, edit or share a file or folder.",
+      example:
+        "Staff can view the price list, but only the manager can edit it.",
+    },
+    {
+      term: "Synchronisation",
+      definition:
+        "Keeping the copy of a file on each device the same as the copy in the cloud.",
+      example:
+        "A change made on a laptop appears on the same person's phone a few seconds later.",
+    },
+    {
+      term: "Scalability",
+      definition:
+        "Being able to rent more storage or computing power when it is needed, and give it up to save money.",
+      example:
+        "An online shop pays for extra server capacity in December, then reduces it in January.",
+    },
+    {
+      term: "Cloud computing",
+      definition:
+        "Using applications that run on a provider's servers through a web browser, instead of installing them on each device.",
+      example:
+        "A team writes a report in an online word processor that nobody installed.",
+    },
+  ],
+  h = [
+    {
+      term: "Collaboration tools",
+      definition:
+        "Online tools that let people work on the same task together, such as shared documents, calendars and task boards.",
+      example:
+        "A design team in three countries comments on the same draft poster.",
+    },
+    {
+      term: "Inclusivity",
+      definition:
+        "Making sure everyone can take part, whatever their age, health, needs or background.",
+      example:
+        "A company lets a staff member with a long-term illness work flexible hours from home.",
+    },
+    {
+      term: "Accessibility features",
+      definition:
+        "Features that help people with additional needs use a system, such as screen reader support, alt text and adjustable text size.",
+      example:
+        "A website adds alt text to every image, so a blind user's screen reader can describe them.",
+    },
+  ],
+  m = [
+    {
+      term: "Black hat hacker",
+      definition:
+        "Someone who gets into a computer system without permission, to cause harm or for their own gain.",
+      example:
+        "A criminal breaks into a shop's database to steal customers' card details.",
+    },
+    {
+      term: "Malware",
+      definition:
+        "Software written to harm a computer system or the data on it, such as a virus, worm or ransomware.",
+      example:
+        "A program hidden in an email attachment deletes files on a school laptop.",
+    },
+    {
+      term: "Virus",
+      definition:
+        "Malware that attaches itself to a file and spreads when that file is opened or copied.",
+      example:
+        "An infected document spreads to every computer that opens it from a shared drive.",
+    },
+    {
+      term: "Worm",
+      definition:
+        "Malware that copies itself across a network on its own, without needing a user to open a file.",
+      example:
+        "Malicious code spreads from one office computer to all the others overnight.",
+    },
+    {
+      term: "Trojan",
+      definition:
+        "Malware disguised as a useful program, so the user installs it themselves.",
+      example:
+        "A free game download secretly opens a back door for an attacker.",
+    },
+    {
+      term: "Ransomware",
+      definition:
+        "Malware that encrypts a victim's files, then demands payment for the key to unlock them.",
+      example:
+        "A dental practice cannot open any patient records until a ransom is paid.",
+    },
+    {
+      term: "Spyware",
+      definition:
+        "Malware that secretly records what a user does and sends it to someone else.",
+      example:
+        "Software logs every key typed, including passwords, and sends them to an attacker.",
+    },
+    {
+      term: "Botnet",
+      definition:
+        "A group of infected computers that an attacker controls remotely, without their owners knowing.",
+      example:
+        "Thousands of home computers are used together to flood a website with requests.",
+    },
+    {
+      term: "Rootkit",
+      definition:
+        "Malware that gives an attacker deep control of a computer and hides itself from the user and anti-virus software.",
+      example:
+        "An attacker keeps control of a server for months because the malware hides from scans.",
+    },
+    {
+      term: "Denial of service attack",
+      definition:
+        "Flooding a server or network with so many requests that real users cannot use it.",
+      example:
+        "A ticket website crashes on the day a concert goes on sale because of fake traffic.",
+    },
+    {
+      term: "Phishing",
+      definition:
+        "A message pretending to come from a trusted organisation, to trick someone into giving away personal details.",
+      example:
+        "A text that looks like it is from a bank asks the reader to log in through a link.",
+    },
+    {
+      term: "Pharming",
+      definition:
+        "Sending users to a fake website, even when they type the correct web address, to steal their details.",
+      example:
+        "A user types their bank's address but lands on a copy that records their password.",
+    },
+    {
+      term: "Social engineering",
+      definition:
+        "Tricking or persuading people into breaking security, instead of attacking the technology.",
+      example:
+        "A caller pretends to be from the IT department and asks a receptionist for her password.",
+    },
+    {
+      term: "Shoulder surfing",
+      definition:
+        "Watching someone enter a password or PIN by looking over their shoulder or from nearby.",
+      example:
+        "Someone on a train watches a commuter type in their work login.",
+    },
+    {
+      term: "Man-in-the-middle attack",
+      definition:
+        "An attacker secretly places themselves between two devices, so they can read or change the data passing between them.",
+      example:
+        "On open Wi-Fi, an attacker reads the messages between a laptop and a website.",
+    },
+    {
+      term: "Internal threat",
+      definition:
+        "A risk to data that comes from inside the organisation, by accident or on purpose.",
+      example:
+        "An employee plugs in a USB stick from home that carries malware.",
+    },
+  ],
+  p = [
+    {
+      term: "Biometrics",
+      definition:
+        "Using a part of a person's body, such as a fingerprint or face, to check who they are.",
+      example: "A nurse unlocks the drugs cabinet with a fingerprint scan.",
+    },
+    {
+      term: "Two-factor authentication",
+      definition:
+        "Logging in with two different types of proof from: something you know, something you have and something you are.",
+      example: "A password, then a code sent to the user's phone.",
+    },
+    {
+      term: "Firewall",
+      definition:
+        "Hardware or software that checks network traffic and blocks anything that breaks its rules.",
+      example:
+        "An office firewall blocks connections from outside the network to the staff computers.",
+    },
+    {
+      term: "Device hardening",
+      definition:
+        "Making a device harder to attack by removing what it does not need and turning on its security settings.",
+      example:
+        "IT removes unused apps from the office laptops and turns on automatic updates.",
+    },
+    {
+      term: "Encryption",
+      definition:
+        "Scrambling data with a key so that only someone with the right key can read it.",
+      example:
+        "A lost laptop's encrypted drive cannot be read by the person who finds it.",
+    },
+    {
+      term: "Ethical hacking",
+      definition:
+        "Hacking a system to find its weaknesses so they can be fixed. A white hat hacker has permission; a grey hat hacker does not, but means no harm.",
+      example: "A bank pays a security expert to try to break into its app.",
+    },
+    {
+      term: "Penetration testing",
+      definition:
+        "A planned, authorised attack on a system to find out how well its security holds up.",
+      example:
+        "A tester tries to get into a hospital's network and reports every way in they find.",
+    },
+  ],
+  f = [
+    {
+      term: "Disaster recovery policy",
+      definition:
+        "A plan for getting systems and data working again after a serious problem, such as an attack, fire or flood.",
+      example:
+        "The plan says what is backed up each night and who restores it on another site.",
+    },
+  ],
+  u = [
+    {
+      term: "Net neutrality",
+      definition:
+        "The idea that internet providers should treat all online traffic equally, without slowing or blocking some services.",
+      example:
+        "A provider may not slow down a rival company's video streaming service.",
+    },
+    {
+      term: "Acceptable use policy",
+      definition:
+        "A document setting out how an organisation's equipment and systems may and may not be used, and what happens if the rules are broken. Users agree to it before they start.",
+      example:
+        "New staff click to agree that they will not install their own software on work laptops.",
+    },
+    {
+      term: "Data protection principles",
+      definition:
+        "The rules for handling personal data: use it lawfully, for a stated purpose, collect only what is needed, keep it accurate, keep it no longer than needed, respect people's rights, keep it secure and do not send it to countries with weaker protection.",
+      example: "A gym deletes the details of members who left years ago.",
+    },
+    {
+      term: "Right to be forgotten",
+      definition:
+        "A person's right to ask an organisation to delete the personal data it holds about them.",
+      example:
+        "A former customer asks an online shop to remove their account and details.",
+    },
+    {
+      term: "Intellectual property",
+      definition:
+        "Original creations, such as designs, inventions, brand names and written work, that belong to the person or organisation that made them.",
+      example:
+        "A company protects its logo with a trademark and its new product design with a patent.",
+    },
+    {
+      term: "Computer Misuse Act 1990",
+      definition:
+        "A UK law that makes it a crime to access a computer without permission, to change its data without permission, and to make or spread malware.",
+      example:
+        "An employee who logs in to a manager's account without permission breaks this law.",
+    },
+  ],
+  w = [
+    {
+      term: "Flowchart",
+      definition:
+        "A diagram that shows the steps and decisions in a process, using standard shapes joined by arrows.",
+      example:
+        "A diamond asks 'Is the item in stock?' and the arrows show what happens for yes and for no.",
+    },
+    {
+      term: "Data flow diagram",
+      definition:
+        "A diagram that shows how data moves between external entities, processes and data stores in a system.",
+      example:
+        "Order details move from the customer to the 'take payment' process, then to the orders store.",
+    },
+    {
+      term: "Information flow diagram",
+      definition:
+        "A diagram that shows how information passes between people, departments and organisations.",
+      example:
+        "Arrows show a sales report going from the shop to head office and then to the accountant.",
+    },
+    {
+      term: "System diagram",
+      definition:
+        "A diagram that shows the parts of a system, such as devices and services, and how they connect.",
+      example: "Laptops and phones connect through a router to a cloud server.",
+    },
+  ],
+  g = { A1: l, A2: h, B1: m, B2: p, B3: f, C2: u, D1: w },
+  y = g,
+  n = "btec-c3",
+  k = (e) =>
+    e
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, ""),
+  o = {
+    code: n,
+    title: "Keywords",
+    label: "Component 3 keywords",
+    slug: "btec-c3-keywords",
+    cards: Object.values(y).flatMap((e) =>
+      e.map((t) => ({
+        id: `${n}/${k(t.term)}`,
+        deck: n,
+        term: t.term,
+        definition: t.definition,
+        example: t.example,
+      })),
+    ),
+  },
+  b = "comp-school:flashcards:btec-c3:v1";
+function x(e) {
+  return {
+    key: b,
+    storage: e ? () => window.localStorage : () => window.sessionStorage,
+  };
+}
+const v = () => null;
+function C({ signedIn: e }) {
+  r();
+  const t = s.useMemo(() => x(e), [e]);
+  return (
+    s.useEffect(() => {
+      (window.scrollTo(0, 0),
+        i({
+          key: "btec-c3-keywords",
+          kind: "flashcards",
+          code: null,
+          name: o.label ?? o.title,
+          href: `/${d("", { component: 3, task: null, keywords: !0 })}`,
+          way: "online",
+          lane: "btec",
+        }));
+    }, []),
+    a.jsxs("section", {
+      "aria-labelledby": "btec-keywords-heading",
+      "data-btec-keywords": "",
+      children: [
+        a.jsx("h1", {
+          id: "btec-keywords-heading",
+          className: "sr-only",
+          children: o.label,
+        }),
+        a.jsx("div", {
+          className: "rounded-3xl bg-slate-950 px-4 py-4 sm:px-6",
+          children: a.jsx(c, {
+            deck: o,
+            art: v,
+            embedded: !0,
+            pattern: !1,
+            storeLocation: t,
+          }),
+        }),
+      ],
+    })
+  );
+}
+export { C as default };

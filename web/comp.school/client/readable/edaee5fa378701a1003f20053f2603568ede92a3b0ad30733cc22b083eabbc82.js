@@ -1,0 +1,231 @@
+const e = [
+  {
+    id: "b1",
+    chapter: "Core Python",
+    category: "Basics",
+    title: "Print and variables",
+    code: `# Print and variables
+name = "Year 11"
+score = 42
+print("Hello,", name)
+print("Score:", score)
+print("Doubled:", score * 2)
+`,
+  },
+  {
+    id: "b2",
+    chapter: "Core Python",
+    category: "Basics",
+    title: "Input and casting",
+    code: `# Input and casting
+age_text = input("Enter age: ")
+age = int(age_text)
+print("In 10 years you will be", age + 10)
+`,
+    stdin: "15",
+  },
+  {
+    id: "s1",
+    chapter: "Core Python",
+    category: "Selection",
+    title: "If, elif, else",
+    code: `# If, elif, else
+score = 72
+if score >= 70:
+    print("Grade 7 or above")
+elif score >= 50:
+    print("Grade 5 or 6")
+else:
+    print("Below grade 5")
+`,
+  },
+  {
+    id: "i1",
+    chapter: "Core Python",
+    category: "Iteration",
+    title: "For loop",
+    code: `# For loop, summing 1 to 10
+total = 0
+for i in range(1, 11):
+    total = total + i
+print("Sum 1 to 10 is", total)
+`,
+  },
+  {
+    id: "i2",
+    chapter: "Core Python",
+    category: "Iteration",
+    title: "While loop",
+    code: `# While loop, count down from 5
+n = 5
+while n > 0:
+    print(n)
+    n = n - 1
+print("Liftoff")
+`,
+  },
+  {
+    id: "d1",
+    chapter: "Core Python",
+    category: "Data",
+    title: "Strings",
+    code: `# Strings
+word = "computer"
+print("Length:", len(word))
+print("Upper:", word.upper())
+print("First three:", word[0:3])
+print("Reversed:", word[::-1])
+`,
+  },
+  {
+    id: "d2",
+    chapter: "Core Python",
+    category: "Data",
+    title: "Lists",
+    code: `# Lists
+scores = [56, 72, 81, 49, 90]
+print("Highest:", max(scores))
+print("Lowest:", min(scores))
+print("Mean:", sum(scores) / len(scores))
+scores.append(65)
+print("After append:", scores)
+`,
+  },
+  {
+    id: "r1",
+    chapter: "Core Python",
+    category: "Subroutines",
+    title: "Function with return",
+    code: `# Function with return
+def area_of_rectangle(width, height):
+    return width * height
+
+print("3 by 4 area:", area_of_rectangle(3, 4))
+print("7 by 2 area:", area_of_rectangle(7, 2))
+`,
+  },
+  {
+    id: "r2",
+    chapter: "Core Python",
+    category: "Subroutines",
+    title: "Validation",
+    code: `# Validation, age between 11 and 18
+age_text = input("Enter age: ")
+age = int(age_text)
+if age < 11 or age > 18:
+    print("Invalid, age must be 11 to 18")
+else:
+    print("Accepted")
+`,
+    stdin: "14",
+  },
+  {
+    id: "z1",
+    chapter: "Themed bug fixes",
+    category: "Zombie apocalypse",
+    title: "Fix the barricade count",
+    code: `# The barricade report should count every plank.
+# Something is wrong with the loop. Fix it, then run again.
+planks = [4, 6, 3, 5, 7]
+total = 0
+for index in range(1, len(planks)):
+    total = total + planks[index]
+
+print("Barricade planks:", total)
+`,
+    solution: `# The barricade report should count every plank.
+# Something is wrong with the loop. Fix it, then run again.
+planks = [4, 6, 3, 5, 7]
+total = 0
+for index in range(0, len(planks)):
+    total = total + planks[index]
+
+print("Barricade planks:", total)
+`,
+  },
+  {
+    id: "z2",
+    chapter: "Themed bug fixes",
+    category: "Zombie apocalypse",
+    title: "Quarantine code checker",
+    code: `# Only codes starting with Q and exactly 6 characters long are allowed.
+# This currently lets the wrong codes through.
+codes = ["Q19A7Z", "A19A7Z", "Q2", "Q88BEE", "Q77RUN"]
+
+for code in codes:
+    if code[0] == "Q" or len(code) == 6:
+        print(code, "accepted")
+    else:
+        print(code, "rejected")
+`,
+    solution: `# Only codes starting with Q and exactly 6 characters long are allowed.
+# This currently lets the wrong codes through.
+codes = ["Q19A7Z", "A19A7Z", "Q2", "Q88BEE", "Q77RUN"]
+
+for code in codes:
+    if code[0] == "Q" and len(code) == 6:
+        print(code, "accepted")
+    else:
+        print(code, "rejected")
+`,
+  },
+  {
+    id: "f1",
+    chapter: "Themed bug fixes",
+    category: "Festival chaos",
+    title: "Find the loudest stage",
+    code: `# The code should print the loudest stage and its decibel reading.
+# It crashes because one variable is used before it has a value.
+stages = [["Main", 92], ["Arcade", 88], ["Silent disco", 74], ["Laser tent", 97]]
+
+for stage in stages:
+    if stage[1] > loudest_db:
+        loudest_name = stage[0]
+        loudest_db = stage[1]
+
+print(loudest_name, "is loudest at", loudest_db, "dB")
+`,
+    solution: `# The code should print the loudest stage and its decibel reading.
+# It crashes because one variable is used before it has a value.
+stages = [["Main", 92], ["Arcade", 88], ["Silent disco", 74], ["Laser tent", 97]]
+
+loudest_name = ""
+loudest_db = 0
+
+for stage in stages:
+    if stage[1] > loudest_db:
+        loudest_name = stage[0]
+        loudest_db = stage[1]
+
+print(loudest_name, "is loudest at", loudest_db, "dB")
+`,
+  },
+  {
+    id: "s2",
+    chapter: "Themed bug fixes",
+    category: "Space heist",
+    title: "Cargo manifest total",
+    code: `# The ship needs the total mass of stolen moon cheese.
+# Fix the subroutine so the total is returned to the caller.
+def calculate_total(boxes):
+    total = 0
+    for mass in boxes:
+        total = total + mass
+
+cargo = [12, 8, 15, 9, 11]
+print("Cargo mass:", calculate_total(cargo), "kg")
+`,
+    solution: `# The ship needs the total mass of stolen moon cheese.
+# Fix the subroutine so the total is returned to the caller.
+def calculate_total(boxes):
+    total = 0
+    for mass in boxes:
+        total = total + mass
+    return total
+
+cargo = [12, 8, 15, 9, 11]
+print("Cargo mass:", calculate_total(cargo), "kg")
+`,
+  },
+];
+export { e as default };

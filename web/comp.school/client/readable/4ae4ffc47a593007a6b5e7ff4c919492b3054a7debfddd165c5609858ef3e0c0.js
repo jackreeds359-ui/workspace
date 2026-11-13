@@ -1,0 +1,2261 @@
+import { r as x, j as e } from "./react-vendor-BK1G6oO1.js";
+import {
+  ae as pe,
+  a7 as Ze,
+  a8 as Ve,
+  ar as et,
+  bV as me,
+  bf as tt,
+  bW as st,
+  aB as Le,
+  bm as Re,
+  bX as at,
+  bY as nt,
+  bZ as rt,
+  b_ as lt,
+  R as _e,
+  P as it,
+  b6 as ot,
+} from "./index-DjyiOHey.js";
+import { aq as ct, aT as dt } from "./GameNotebook-b0Qw2wzd.js";
+import { T as ht } from "./action-styles-DWMwPIR0.js";
+import { m as Z } from "./proxy-DGk2Wawc.js";
+import "./ui-components-DeMDYLzO.js";
+const Oe = 16,
+  ft = 8,
+  le = Oe * ft,
+  Pe = "#94a3b8",
+  Q = [
+    "#22d3ee",
+    "#a78bfa",
+    "#34d399",
+    "#fb923c",
+    "#f472b6",
+    "#facc15",
+    "#60a5fa",
+    "#f87171",
+    "#a3e635",
+    "#f1f5f9",
+    "#c084fc",
+    "#fda4af",
+  ],
+  He = [
+    "essay.docx",
+    "photo.jpg",
+    "game.exe",
+    "song.mp3",
+    "notes.txt",
+    "video.mp4",
+    "slides.pptx",
+    "data.csv",
+    "map.png",
+    "code.py",
+    "backup.zip",
+    "report.pdf",
+  ];
+function ne(a, s, t) {
+  return Math.floor(t() * (s - a + 1)) + a;
+}
+function v(a, s = Math.random) {
+  const t = [...a];
+  for (let n = t.length - 1; n > 0; n -= 1) {
+    const r = Math.floor(s() * (n + 1));
+    [t[n], t[r]] = [t[r], t[n]];
+  }
+  return t;
+}
+function re(a, s, t, n) {
+  const r = [...a];
+  let c = t;
+  for (let l = 0; l < r.length && c < t + n; l += 1)
+    r[l] === null && ((r[l] = { fileId: s, part: c }), (c += 1));
+  return r;
+}
+function De(a, s) {
+  return a.map((t) => (t && t.fileId === s ? null : t));
+}
+function Fe(a) {
+  return a.filter((s) => s === null).length;
+}
+function te(a, s) {
+  const t = [];
+  return (
+    a.forEach((n, r) => {
+      n && n.fileId === s && t.push({ pos: r, part: n.part });
+    }),
+    t.sort((n, r) => n.part - r.part).map((n) => n.pos)
+  );
+}
+function P(a, s) {
+  const t = te(a, s);
+  if (t.length === 0) return 0;
+  let n = 1;
+  for (let r = 1; r < t.length; r += 1) t[r] !== t[r - 1] + 1 && (n += 1);
+  return n;
+}
+function V(a, s) {
+  return s.reduce((t, n) => t + Math.max(0, P(a, n.id) - 1), 0);
+}
+function Ge(a, s) {
+  return s.filter((t) => P(a, t.id) > 1);
+}
+function ge(a, s) {
+  return s.length === 0 ? 0 : Math.round((Ge(a, s).length / s.length) * 100);
+}
+function ut(a) {
+  let s = 0;
+  for (let t = 0; t < a.length; t += 1)
+    a[t] === null && (t === 0 || a[t - 1] !== null) && (s += 1);
+  return s;
+}
+function be(a = 8, s = Math.random) {
+  for (let t = 0; t < 50; t += 1) {
+    const n = v(He, s),
+      r = Array.from({ length: a }, (d, m) => `f${m}`),
+      c = ["x0", "x1", "x2"],
+      l = ["y0", "y1"],
+      i = new Map();
+    let o = Array(le).fill(null);
+    v([...r, ...c, ...l], s).forEach((d) => {
+      const m = ne(4, 8, s);
+      (i.set(d, m), (o = re(o, d, 0, m)));
+    });
+    const f = v(r, s).slice(0, 2);
+    if (
+      ([...c, ...f].forEach((d) => {
+        o = De(o, d);
+      }),
+      f.forEach((d) => {
+        const m = ne(7, 11, s);
+        (i.set(d, m), (o = re(o, d, 0, m)));
+      }),
+      v(
+        r.filter((d) => !f.includes(d)),
+        s,
+      )
+        .slice(0, 3)
+        .forEach((d) => {
+          const m = ne(2, 4, s),
+            h = i.get(d) ?? 0;
+          ((o = re(o, d, h, m)), i.set(d, h + m));
+        }),
+      l.forEach((d) => {
+        o = De(o, d);
+      }),
+      o.filter(Boolean).length > le * 0.8)
+    )
+      continue;
+    const p = r.map((d, m) => ({
+        id: d,
+        name: n[m],
+        size: i.get(d) ?? 0,
+        color: Q[m % Q.length],
+      })),
+      w = Ge(o, p).length;
+    if (w >= Math.ceil(a / 2) && w < a) return { disk: o, files: p };
+  }
+  return xt(a, s);
+}
+function xt(a, s) {
+  const t = v(He, s),
+    n = Array(le).fill(null),
+    r = v(
+      Array.from({ length: le }, (i, o) => o),
+      s,
+    ),
+    c = [];
+  let l = 0;
+  for (let i = 0; i < a; i += 1) {
+    const o = ne(4, 8, s),
+      f = `f${i}`;
+    c.push({ id: f, name: t[i], size: o, color: Q[i] });
+    for (let p = 0; p < o; p += 1) n[r[l++]] = { fileId: f, part: p };
+  }
+  return { disk: n, files: c };
+}
+function pt(a, s, t, n, r = Math.random) {
+  const c = a.flatMap((f, p) => (f === null && p >= s ? [p] : []));
+  if (c.length < t) return null;
+  const l = `tmp${n}`,
+    i = v(c, r).slice(0, t),
+    o = [...a];
+  return (
+    i.forEach((f, p) => {
+      o[f] = { fileId: l, part: p };
+    }),
+    {
+      disk: o,
+      file: { id: l, name: `~temp${n}.tmp`, size: t, color: Pe, temp: !0 },
+    }
+  );
+}
+function je(a, s) {
+  const t = [];
+  for (
+    s.forEach((n) => {
+      te(a, n.id).forEach((r) => t.push(a[r] ?? null));
+    });
+    t.length < a.length;
+  )
+    t.push(null);
+  return t;
+}
+function Ce(a, s) {
+  return !a || !s ? !a && !s : a.fileId === s.fileId && a.part === s.part;
+}
+function ye(a, s, t = 0, n = a.length) {
+  const r = [...a],
+    c = [];
+  for (let l = t; l < n; l += 1) {
+    const i = s[l];
+    if (!i || Ce(r[l], i)) continue;
+    const o = r.findIndex((f, p) => p > l && Ce(f, i));
+    o < 0 ||
+      (([r[l], r[o]] = [r[o] ?? null, r[l] ?? null]),
+      c.push({ from: o, to: l }));
+  }
+  return c;
+}
+function ie(a, s) {
+  const t = [...a];
+  return (([t[s.from], t[s.to]] = [t[s.to] ?? null, t[s.from] ?? null]), t);
+}
+function fe(a) {
+  const s = new Map();
+  let t = 0;
+  return (
+    a.forEach((n) => {
+      (s.set(n.id, { start: t, end: t + n.size }), (t += n.size));
+    }),
+    s
+  );
+}
+const ue = 8;
+function mt(a) {
+  return 100 + a * 25;
+}
+const gt = [
+  {
+    id: "what",
+    prompt: "What does defragmentation software do?",
+    answer:
+      "Moves the parts of each file so they are stored next to each other",
+    wrong: [
+      "Deletes files that have not been used recently",
+      "Compresses files so they take up less space",
+      "Scrambles files so they cannot be read without a key",
+    ],
+    explanation:
+      "Defragmentation rearranges blocks so each file is contiguous and the free space is collected together.",
+  },
+  {
+    id: "why-fragment",
+    prompt: "Why do files become fragmented over time?",
+    answer:
+      "Files are saved, deleted and resized, so new data is split across gaps",
+    wrong: [
+      "A virus splits the files up",
+      "The CPU breaks files up to process them faster",
+      "Files shrink when they are not opened for a long time",
+    ],
+    explanation:
+      "Deleting files leaves gaps. Later files are split to fill those gaps wherever there is free space.",
+  },
+  {
+    id: "faster",
+    prompt: "Why does defragmenting a hard disk drive make files load faster?",
+    answer: "The read/write head moves less because each file is in one place",
+    wrong: [
+      "The processor runs at a higher clock speed",
+      "Files are copied into RAM permanently",
+      "The disk gains extra storage capacity",
+    ],
+    explanation:
+      "Fewer head movements are needed to read a contiguous file, so access time falls.",
+  },
+  {
+    id: "category",
+    prompt: "Defragmentation is an example of which type of software?",
+    answer: "Utility software",
+    wrong: ["Application software", "Open source software", "A device driver"],
+    explanation:
+      "Utility software helps maintain the computer. Defragmentation, compression and encryption are utilities.",
+  },
+  {
+    id: "which-drive",
+    prompt: "Which type of storage benefits most from defragmentation?",
+    answer: "Magnetic hard disk drive (HDD)",
+    wrong: ["Solid state drive (SSD)", "RAM", "Cache"],
+    explanation:
+      "A magnetic hard disk’s read/write head moves to reach each piece of a file, so it is faster when the pieces are together.",
+  },
+  {
+    id: "capacity",
+    prompt:
+      "After defragmenting, how much storage capacity does the drive have?",
+    answer: "The same as before",
+    wrong: [
+      "More than before",
+      "Less than before",
+      "Double the original capacity",
+    ],
+    explanation:
+      "Defragmentation does not create space. It collects the existing free space into one area.",
+  },
+  {
+    id: "free-space",
+    prompt: "What happens to the free space on a disk during defragmentation?",
+    answer: "It is grouped together into one continuous area",
+    wrong: [
+      "It is deleted",
+      "It is spread evenly between every file",
+      "It is moved into RAM",
+    ],
+    explanation:
+      "Collecting free space together means new files can be saved without being split.",
+  },
+  {
+    id: "same-file",
+    prompt:
+      "Defragmentation moves blocks so they are stored together. Which blocks?",
+    answer: "The parts of the same file",
+    wrong: [
+      "Files of the same type",
+      "Files with similar names",
+      "Files that are used most often",
+    ],
+    explanation:
+      "Defragmentation puts the parts of each file back together. It does not group similar files.",
+  },
+  {
+    id: "term",
+    prompt:
+      "A file is stored in four separate places on the disk. What is this called?",
+    answer: "A fragmented file",
+    wrong: ["A compressed file", "An encrypted file", "A corrupted file"],
+    explanation: "A file split into non-contiguous pieces is fragmented.",
+  },
+  {
+    id: "slow-laptop",
+    prompt:
+      "An old laptop with a hard disk drive has become slow to open files. Which utility could help?",
+    answer: "Defragmentation software",
+    wrong: ["Encryption software", "A firewall", "A second monitor"],
+    explanation:
+      "Years of saving and deleting leaves files fragmented, which slows a hard disk. Defragmenting fixes that.",
+  },
+  {
+    id: "contiguous",
+    prompt: "What does contiguous mean when describing how a file is stored?",
+    answer: "All of its blocks are next to each other in order",
+    wrong: [
+      "It is stored on two different drives",
+      "It has been compressed",
+      "It is stored in the cloud",
+    ],
+    explanation:
+      "Contiguous blocks can be read in one sweep without the head jumping around.",
+  },
+];
+function Me(a = Math.random) {
+  return v(gt, a).map((s) => ({
+    id: s.id,
+    prompt: s.prompt,
+    answer: s.answer,
+    explanation: s.explanation,
+    options: v([s.answer, ...s.wrong], a),
+  }));
+}
+function ze(a) {
+  return `${a} ${a === 1 ? "piece" : "pieces"}`;
+}
+function bt(a, s, t = Math.random) {
+  const n = s.filter((r) => !r.temp).map((r) => ({ file: r, n: P(a, r.id) }));
+  for (const r of v(["most", "count", "contiguous"], t)) {
+    if (r === "most") {
+      const i = [...n].sort((p, w) => w.n - p.n),
+        o = i[0];
+      if (!o || i.length < 4 || o.n < 2 || o.n === i[1]?.n) continue;
+      const f = v(i.slice(1), t).slice(0, 3);
+      return {
+        id: `map-most-${o.file.id}`,
+        visual: !0,
+        prompt: "Which file on the disk map is split into the most pieces?",
+        answer: o.file.name,
+        options: v([o.file.name, ...f.map((p) => p.file.name)], t),
+        explanation: `${o.file.name} is in ${ze(o.n)}, so the head jumps ${o.n - 1} times to read it.`,
+      };
+    }
+    if (r === "count") {
+      const i = v(
+        n.filter((f) => f.n >= 2),
+        t,
+      )[0];
+      if (!i) continue;
+      const o = new Set([i.n]);
+      return (
+        [i.n + 1, i.n - 1, i.n + 2, 1, i.n + 3].forEach((f) => {
+          f >= 1 && o.size < 4 && o.add(f);
+        }),
+        {
+          id: `map-count-${i.file.id}`,
+          visual: !0,
+          prompt: `How many pieces is ${i.file.name} stored in?`,
+          answer: String(i.n),
+          options: v([...o].map(String), t),
+          explanation: `Follow ${i.file.name}’s colour across the map: it is in ${ze(i.n)}.`,
+        }
+      );
+    }
+    const c = v(
+        n.filter((i) => i.n === 1),
+        t,
+      )[0],
+      l = n.filter((i) => i.n >= 2);
+    if (!(!c || l.length < 3))
+      return {
+        id: `map-whole-${c.file.id}`,
+        visual: !0,
+        prompt: "Which file on the disk map is stored contiguously?",
+        answer: c.file.name,
+        options: v(
+          [
+            c.file.name,
+            ...v(l, t)
+              .slice(0, 3)
+              .map((i) => i.file.name),
+          ],
+          t,
+        ),
+        explanation: `${c.file.name} is one unbroken run of blocks, so it is read without the head jumping.`,
+      };
+  }
+  return null;
+}
+function Y(a) {
+  return a.split(" ").map((s) => (s === "." ? null : s));
+}
+const ae = [
+    {
+      heading: "Files are saved one after another",
+      body: "A new drive stores each file in one continuous run of blocks.",
+      slots: Y("A1 A2 A3 B1 B2 C1 C2 C3 C4 . . . . . . ."),
+    },
+    {
+      heading: "File B is deleted",
+      body: "Deleting a file leaves a gap of free blocks in the middle of the disk.",
+      slots: Y("A1 A2 A3 . . C1 C2 C3 C4 . . . . . . ."),
+    },
+    {
+      heading: "File D is saved and split",
+      body: "D is too big for the gap, so part of it is saved there and the rest further along: D is split into two pieces.",
+      slots: Y("A1 A2 A3 D1 D2 C1 C2 C3 C4 D3 D4 D5 . . . ."),
+    },
+    {
+      heading: "File A grows",
+      body: "A’s new parts are saved after D, so A and D are both fragmented and the head must jump to read them.",
+      slots: Y("A1 A2 A3 D1 D2 C1 C2 C3 C4 D3 D4 D5 A4 A5 . ."),
+    },
+    {
+      heading: "Defragmentation",
+      body: "Blocks are moved so every file is contiguous and the free space is together at the end.",
+      slots: Y("A1 A2 A3 A4 A5 D1 D2 D3 D4 D5 C1 C2 C3 C4 . ."),
+    },
+  ],
+  Ie = { A: "#22d3ee", B: "#a78bfa", C: "#fb923c", D: "#f472b6" };
+function jt(a, s) {
+  const t = a
+    .flatMap((n, r) =>
+      n?.[0] === s ? [{ i: r, part: Number(n.slice(1)) }] : [],
+    )
+    .sort((n, r) => n.part - r.part)
+    .map((n) => n.i);
+  return t.length === 0
+    ? 0
+    : t.reduce((n, r, c) => (c > 0 && r !== t[c - 1] + 1 ? n + 1 : n), 1);
+}
+function we({
+  disk: a,
+  files: s,
+  selectedId: t = null,
+  head: n = null,
+  flash: r = [],
+  doneUpTo: c = 0,
+  onSelect: l,
+}) {
+  const i = new Map(s.map((o) => [o.id, o]));
+  return e.jsx("div", {
+    className: "grid w-full gap-[3px]",
+    style: { gridTemplateColumns: `repeat(${Oe}, minmax(0, 1fr))` },
+    "data-defrag-disk": !0,
+    children: a.map((o, f) => {
+      const p = o ? i.get(o.fileId) : void 0,
+        w = p && o ? `${p.name} part ${o.part + 1}` : "Free",
+        d = `relative aspect-square rounded-[3px] transition-all duration-150 ${o ? "" : "border border-slate-800 bg-slate-800/40"} ${r.includes(f) ? "z-10 scale-110 ring-2 ring-white" : ""} ${n === f ? "z-20 ring-2 ring-yellow-300" : ""} ${t && o && o.fileId !== t ? "opacity-20" : ""}`,
+        m = e.jsxs(e.Fragment, {
+          children: [
+            o
+              ? e.jsx("span", {
+                  className:
+                    "absolute inset-0 hidden items-center justify-center text-[9px] font-bold text-black/60 sm:flex",
+                  children: o.part + 1,
+                })
+              : null,
+            f < c
+              ? e.jsx("span", {
+                  className:
+                    "absolute -bottom-[2px] left-0 right-0 h-[2px] bg-emerald-400",
+                })
+              : null,
+          ],
+        }),
+        h = o ? { backgroundColor: p?.color ?? Pe } : void 0;
+      return l
+        ? e.jsx(
+            "button",
+            {
+              type: "button",
+              title: w,
+              "aria-label": `Block ${f}: ${w}`,
+              onClick: () => l(o ? (o.fileId === t ? null : o.fileId) : null),
+              className: `${d} focus:outline-none focus-visible:ring-2 focus-visible:ring-primary`,
+              style: h,
+              "data-block": o ? o.fileId : "free",
+              children: m,
+            },
+            f,
+          )
+        : e.jsx(
+            "span",
+            {
+              title: w,
+              className: d,
+              style: h,
+              "data-block": o ? o.fileId : "free",
+              children: m,
+            },
+            f,
+          );
+    }),
+  });
+}
+function Ue({ disk: a, files: s, selectedId: t = null, onSelect: n }) {
+  return e.jsx("ul", {
+    className:
+      "grid grid-cols-[repeat(auto-fill,minmax(14rem,1fr))] gap-x-1.5 gap-y-0.5 font-mono text-xs",
+    "aria-label": "Files",
+    "data-defrag-key": !0,
+    children: s.map((r) => {
+      const c = P(a, r.id),
+        l = e.jsxs(e.Fragment, {
+          children: [
+            e.jsx("span", {
+              className: "h-3 w-3 shrink-0 rounded-sm",
+              style: { backgroundColor: r.color },
+            }),
+            e.jsx("span", { className: "truncate", children: r.name }),
+            e.jsx("span", {
+              "aria-hidden": "true",
+              className: "shrink-0 text-slate-600",
+              children: "·",
+            }),
+            e.jsxs("span", {
+              className: "shrink-0 text-slate-500",
+              children: [c, " ", c === 1 ? "fragment" : "fragments"],
+            }),
+          ],
+        }),
+        i = t === r.id;
+      return e.jsx(
+        "li",
+        {
+          "data-defrag-file": r.name,
+          children: n
+            ? e.jsx("button", {
+                type: "button",
+                "aria-pressed": i,
+                onClick: () => n(i ? null : r.id),
+                className: `flex w-full items-center gap-2 rounded px-2 py-1 text-left transition focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${i ? "bg-slate-800 text-slate-50" : "text-slate-300 hover:bg-slate-800/60"}`,
+                children: l,
+              })
+            : e.jsx("span", {
+                className: "flex items-center gap-2 px-2 py-1 text-slate-300",
+                children: l,
+              }),
+        },
+        r.id,
+      );
+    }),
+  });
+}
+function yt() {
+  const [a, s] = x.useState(0),
+    t = ae[a],
+    n = ["A", "B", "C", "D"].filter((l) => t.slots.some((i) => i?.[0] === l)),
+    r = pe(),
+    c =
+      "inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-600 text-slate-200 transition hover:bg-slate-800 disabled:opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary";
+  return e.jsxs("div", {
+    className: "space-y-5",
+    "data-defrag-step": a + 1,
+    children: [
+      e.jsxs("div", {
+        className: "flex items-center justify-between gap-2",
+        children: [
+          e.jsx("button", {
+            type: "button",
+            className: c,
+            onClick: () => s((l) => Math.max(0, l - 1)),
+            disabled: a === 0,
+            "aria-label": "Previous step",
+            children: e.jsx(Ze, {
+              "aria-hidden": "true",
+              className: "h-4 w-4",
+            }),
+          }),
+          e.jsx("div", {
+            className: "flex gap-1.5",
+            children: ae.map((l, i) =>
+              e.jsx(
+                "button",
+                {
+                  type: "button",
+                  onClick: () => s(i),
+                  "aria-label": `Step ${i + 1}: ${l.heading}`,
+                  "aria-current": i === a ? "step" : void 0,
+                  className: `relative h-2 rounded-full transition-all before:absolute before:-inset-x-0.5 before:-inset-y-4 before:content-[''] ${i === a ? "w-8 bg-primary" : "w-2 bg-slate-600"}`,
+                },
+                l.heading,
+              ),
+            ),
+          }),
+          e.jsx("button", {
+            type: "button",
+            className: c,
+            onClick: () => s((l) => Math.min(ae.length - 1, l + 1)),
+            disabled: a === ae.length - 1,
+            "aria-label": "Next step",
+            children: e.jsx(Ve, {
+              "aria-hidden": "true",
+              className: "h-4 w-4",
+            }),
+          }),
+        ],
+      }),
+      e.jsxs("div", {
+        "aria-live": "polite",
+        children: [
+          e.jsxs("h3", {
+            className: "text-lg font-semibold text-slate-50",
+            children: [a + 1, ". ", t.heading],
+          }),
+          e.jsx("p", { className: "mt-1 text-slate-300", children: t.body }),
+        ],
+      }),
+      e.jsx("div", {
+        className: "grid gap-1",
+        style: { gridTemplateColumns: "repeat(16, minmax(0, 1fr))" },
+        children: t.slots.map((l, i) =>
+          l
+            ? e.jsx(
+                Z.div,
+                {
+                  layout: !r,
+                  transition: { type: "spring", stiffness: 200, damping: 24 },
+                  className:
+                    "flex aspect-square items-center justify-center rounded text-[10px] font-bold text-black/70 sm:text-xs",
+                  style: { backgroundColor: Ie[l[0]] },
+                  children: l,
+                },
+                l,
+              )
+            : e.jsx(
+                Z.div,
+                {
+                  layout: !r,
+                  className:
+                    "aspect-square rounded border border-slate-800 bg-slate-800/40",
+                },
+                `free-${i}`,
+              ),
+        ),
+      }),
+      e.jsx("ul", {
+        className: "flex flex-wrap gap-2 font-mono text-xs text-slate-200",
+        children: n.map((l) => {
+          const i = jt(t.slots, l);
+          return e.jsxs(
+            "li",
+            {
+              className:
+                "flex items-center gap-1.5 rounded border border-slate-700 px-2 py-1",
+              children: [
+                e.jsx("span", {
+                  className: "h-3 w-3 rounded-sm",
+                  style: { backgroundColor: Ie[l] },
+                }),
+                "File ",
+                l,
+                ": ",
+                i,
+                " ",
+                i === 1 ? "piece" : "pieces",
+              ],
+            },
+            l,
+          );
+        }),
+      }),
+    ],
+  });
+}
+const B = "#0f172a",
+  wt = "#e2e8f0",
+  H = "#94a3b8",
+  vt = "#1e293b",
+  j = "#22d3ee",
+  $ = "#a78bfa",
+  C = "#fb923c",
+  T = "#f472b6",
+  ee = "#34d399";
+function y({
+  x: a,
+  y: s,
+  size: t = 10,
+  fill: n = wt,
+  weight: r = 700,
+  anchor: c = "middle",
+  children: l,
+}) {
+  return e.jsx("text", {
+    x: a,
+    y: s,
+    fontSize: t,
+    fill: n,
+    fontWeight: r,
+    textAnchor: c,
+    children: l,
+  });
+}
+function G({
+  x: a,
+  y: s,
+  cells: t,
+  size: n = 18,
+  gap: r = 2,
+  freeStroke: c = "#334155",
+  dashed: l = !1,
+}) {
+  return e.jsx(e.Fragment, {
+    children: t.map((i, o) =>
+      e.jsx(
+        "rect",
+        {
+          x: a + o * (n + r),
+          y: s,
+          width: n,
+          height: n,
+          rx: 3,
+          fill: i ?? vt,
+          stroke: i ? void 0 : c,
+          strokeWidth: i ? void 0 : 1.5,
+          strokeDasharray: !i && l ? "3 2" : void 0,
+        },
+        o,
+      ),
+    ),
+  });
+}
+function oe({ x: a, y: s, w: t = 60, h: n = 80 }) {
+  const r = Math.max(2, t / 22);
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("rect", {
+        x: a,
+        y: s,
+        width: t,
+        height: n,
+        rx: t / 10,
+        fill: "#94a3b8",
+        stroke: "#475569",
+      }),
+      e.jsx("rect", {
+        x: a + t * 0.15,
+        y: s + n * 0.14,
+        width: t * 0.7,
+        height: n * 0.36,
+        rx: 3,
+        fill: "#e2e8f0",
+      }),
+      e.jsx(y, {
+        x: a + t / 2,
+        y: s + n * 0.37,
+        size: t / 5,
+        fill: B,
+        children: "HDD",
+      }),
+      [
+        [a + t * 0.1, s + n * 0.07],
+        [a + t * 0.9, s + n * 0.07],
+        [a + t * 0.1, s + n * 0.93],
+        [a + t * 0.9, s + n * 0.93],
+      ].map(([c, l]) =>
+        e.jsx("circle", { cx: c, cy: l, r, fill: "#64748b" }, `${c}-${l}`),
+      ),
+      e.jsx("rect", {
+        x: a + t * 0.25,
+        y: s + n * 0.72,
+        width: t * 0.5,
+        height: n * 0.08,
+        rx: 2,
+        fill: "#64748b",
+      }),
+    ],
+  });
+}
+function qe({ x: a, y: s, w: t = 36, h: n = 46, color: r = "#f1f5f9" }) {
+  const c = t * 0.3;
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("path", {
+        d: `M${a} ${s}h${t - c}l${c} ${c}v${n - c}h${-t}z`,
+        fill: r,
+      }),
+      e.jsx("path", { d: `M${a + t - c} ${s}v${c}h${c}z`, fill: "#cbd5e1" }),
+      [0.45, 0.6, 0.75].map((l) =>
+        e.jsx(
+          "rect",
+          {
+            x: a + t * 0.18,
+            y: s + n * l,
+            width: t * 0.64,
+            height: 2.5,
+            rx: 1,
+            fill: "#64748b",
+          },
+          l,
+        ),
+      ),
+    ],
+  });
+}
+function ce({ x1: a, y1: s, x2: t, y2: n }) {
+  const r = Math.atan2(n - s, t - a),
+    c = (l) => `${t - 8 * Math.cos(r + l)} ${n - 8 * Math.sin(r + l)}`;
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("line", {
+        x1: a,
+        y1: s,
+        x2: t,
+        y2: n,
+        stroke: H,
+        strokeWidth: 2.5,
+        strokeLinecap: "round",
+      }),
+      e.jsx("path", {
+        d: `M${c(0.5)}L${t} ${n}L${c(-0.5)}`,
+        fill: "none",
+        stroke: H,
+        strokeWidth: 2.5,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+      }),
+    ],
+  });
+}
+function Ee({ x: a, y: s, day: t }) {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("rect", {
+        x: a,
+        y: s,
+        width: 46,
+        height: 42,
+        rx: 5,
+        fill: "#f1f5f9",
+      }),
+      e.jsx("path", {
+        d: `M${a} ${s + 5}a5 5 0 0 1 5 -5h36a5 5 0 0 1 5 5v7h-46z`,
+        fill: "#ef4444",
+      }),
+      e.jsx(y, {
+        x: a + 23,
+        y: s + 9.5,
+        size: 7,
+        fill: "#fff",
+        children: "DAY",
+      }),
+      e.jsx(y, {
+        x: a + 23,
+        y: s + 34,
+        size: t.length > 2 ? 15 : 18,
+        fill: B,
+        children: t,
+      }),
+    ],
+  });
+}
+function kt({ x: a, y: s, s: t = 1 }) {
+  return e.jsxs("g", {
+    transform: `translate(${a} ${s}) scale(${t})`,
+    children: [
+      e.jsx("rect", {
+        x: -12,
+        y: -20,
+        width: 24,
+        height: 4,
+        rx: 2,
+        fill: "#cbd5e1",
+      }),
+      e.jsx("rect", {
+        x: -12,
+        y: 16,
+        width: 24,
+        height: 4,
+        rx: 2,
+        fill: "#cbd5e1",
+      }),
+      e.jsx("path", {
+        d: "M-9 -16h18l-7 16 7 16h-18l7-16z",
+        fill: "none",
+        stroke: "#cbd5e1",
+        strokeWidth: 2,
+      }),
+      e.jsx("path", { d: "M-5 -10h10l-5 9z", fill: "#facc15" }),
+      e.jsx("path", { d: "M-6 15h12l-6-7z", fill: "#facc15" }),
+    ],
+  });
+}
+function Nt() {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("rect", {
+        x: 20,
+        y: 12,
+        width: 280,
+        height: 126,
+        rx: 8,
+        fill: "#1e293b",
+        stroke: "#475569",
+      }),
+      e.jsx("path", {
+        d: "M20 20a8 8 0 0 1 8 -8h264a8 8 0 0 1 8 8v12h-280z",
+        fill: "#334155",
+      }),
+      e.jsx(y, {
+        x: 30,
+        y: 26,
+        size: 9,
+        anchor: "start",
+        children: "Disk Defragmenter",
+      }),
+      [268, 280, 292].map((a) =>
+        e.jsx("circle", { cx: a - 4, cy: 22, r: 3, fill: "#64748b" }, a),
+      ),
+      e.jsx(y, {
+        x: 30,
+        y: 50,
+        size: 8,
+        fill: H,
+        weight: 400,
+        anchor: "start",
+        children: "Drive C:",
+      }),
+      e.jsx(G, {
+        x: 30,
+        y: 56,
+        size: 16,
+        gap: 3,
+        cells: [j, $, null, C, j, T, null, $, C, null, j, T, C, null],
+      }),
+      e.jsx("rect", {
+        x: 110,
+        y: 96,
+        width: 100,
+        height: 26,
+        rx: 6,
+        fill: "#0d9488",
+      }),
+      e.jsx(y, {
+        x: 160,
+        y: 113,
+        size: 11,
+        fill: "#f0fdfa",
+        children: "Defragment",
+      }),
+    ],
+  });
+}
+function $t() {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx(Ee, { x: 20, y: 12, day: "1" }),
+      e.jsx(Ee, { x: 20, y: 92, day: "400" }),
+      e.jsx(ce, { x1: 43, y1: 60, x2: 43, y2: 84 }),
+      e.jsx(G, { x: 84, y: 24, cells: [j, j, j, $, $, C, C, C, T, T, null] }),
+      e.jsx(G, {
+        x: 84,
+        y: 104,
+        cells: [j, T, null, C, j, $, null, T, C, j, null],
+      }),
+    ],
+  });
+}
+function St() {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx(oe, { x: 26, y: 20, w: 84, h: 112 }),
+      e.jsx(ce, { x1: 122, y1: 76, x2: 164, y2: 76 }),
+      e.jsx(qe, { x: 180, y: 34, w: 44, h: 56 }),
+      e.jsx("rect", {
+        x: 172,
+        y: 104,
+        width: 60,
+        height: 8,
+        rx: 4,
+        fill: "#334155",
+      }),
+      e.jsx("rect", { x: 172, y: 104, width: 22, height: 8, rx: 4, fill: j }),
+      e.jsx("circle", {
+        cx: 274,
+        cy: 76,
+        r: 22,
+        fill: "none",
+        stroke: "#facc15",
+        strokeWidth: 4,
+      }),
+      e.jsx("rect", {
+        x: 268,
+        y: 46,
+        width: 12,
+        height: 6,
+        rx: 2,
+        fill: "#facc15",
+      }),
+      e.jsx("line", {
+        x1: 274,
+        y1: 76,
+        x2: 274,
+        y2: 62,
+        stroke: "#facc15",
+        strokeWidth: 3,
+        strokeLinecap: "round",
+      }),
+      e.jsx("line", {
+        x1: 274,
+        y1: 76,
+        x2: 284,
+        y2: 82,
+        stroke: "#facc15",
+        strokeWidth: 3,
+        strokeLinecap: "round",
+      }),
+    ],
+  });
+}
+function At() {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("path", { d: "M110 34l14-14h80l-14 14z", fill: "#14b8a6" }),
+      e.jsx("path", { d: "M190 34l14-14v96l-14 14z", fill: "#0f766e" }),
+      e.jsx("rect", { x: 110, y: 34, width: 80, height: 96, fill: "#0d9488" }),
+      e.jsx(y, {
+        x: 150,
+        y: 58,
+        size: 12,
+        fill: "#f0fdfa",
+        children: "DEFRAG",
+      }),
+      e.jsx(G, { x: 120, y: 74, size: 13, gap: 3, cells: [j, j, $, $] }),
+      e.jsx("line", {
+        x1: 204,
+        y1: 24,
+        x2: 232,
+        y2: 46,
+        stroke: H,
+        strokeWidth: 1.5,
+      }),
+      e.jsx("rect", {
+        x: 224,
+        y: 44,
+        width: 64,
+        height: 32,
+        rx: 6,
+        fill: "#fef3c7",
+      }),
+      e.jsx("circle", { cx: 232, cy: 52, r: 2.5, fill: B }),
+      e.jsx(y, { x: 260, y: 66, size: 13, fill: "#92400e", children: "Type?" }),
+    ],
+  });
+}
+function Dt() {
+  const a = (s, t) => e.jsx(y, { x: s, y: 128, size: 11, children: t });
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx(oe, { x: 21, y: 30, w: 48, h: 64 }),
+      a(45, "HDD"),
+      e.jsx("rect", {
+        x: 94,
+        y: 44,
+        width: 52,
+        height: 36,
+        rx: 4,
+        fill: "#1e293b",
+        stroke: "#64748b",
+      }),
+      e.jsx("rect", {
+        x: 100,
+        y: 50,
+        width: 40,
+        height: 10,
+        rx: 2,
+        fill: "#0d9488",
+      }),
+      e.jsx("rect", {
+        x: 100,
+        y: 66,
+        width: 16,
+        height: 8,
+        rx: 1,
+        fill: "#334155",
+      }),
+      e.jsx("rect", {
+        x: 122,
+        y: 66,
+        width: 16,
+        height: 8,
+        rx: 1,
+        fill: "#334155",
+      }),
+      a(120, "SSD"),
+      e.jsx("rect", {
+        x: 168,
+        y: 50,
+        width: 64,
+        height: 24,
+        rx: 2,
+        fill: "#15803d",
+      }),
+      [0, 1, 2, 3].map((s) =>
+        e.jsx(
+          "rect",
+          { x: 173 + s * 15, y: 54, width: 11, height: 12, rx: 1, fill: B },
+          s,
+        ),
+      ),
+      Array.from({ length: 14 }, (s, t) =>
+        e.jsx(
+          "rect",
+          { x: 170 + t * 4.4, y: 70, width: 2.6, height: 4, fill: "#eab308" },
+          t,
+        ),
+      ),
+      a(200, "RAM"),
+      e.jsx("rect", {
+        x: 253,
+        y: 40,
+        width: 44,
+        height: 44,
+        rx: 4,
+        fill: "#334155",
+      }),
+      e.jsx("rect", {
+        x: 263,
+        y: 50,
+        width: 24,
+        height: 24,
+        rx: 2,
+        fill: "#64748b",
+      }),
+      [0, 1, 2, 3, 4].map((s) =>
+        e.jsxs(
+          "g",
+          {
+            fill: "#cbd5e1",
+            children: [
+              e.jsx("rect", { x: 257 + s * 8, y: 35, width: 3, height: 5 }),
+              e.jsx("rect", { x: 257 + s * 8, y: 84, width: 3, height: 5 }),
+              e.jsx("rect", { x: 248, y: 44 + s * 8, width: 5, height: 3 }),
+              e.jsx("rect", { x: 297, y: 44 + s * 8, width: 5, height: 3 }),
+            ],
+          },
+          s,
+        ),
+      ),
+      a(275, "Cache"),
+    ],
+  });
+}
+function Ft() {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx(oe, { x: 40, y: 14, w: 60, h: 80 }),
+      e.jsx(y, { x: 70, y: 124, size: 16, children: "500 GB" }),
+      e.jsx(y, {
+        x: 160,
+        y: 56,
+        size: 9,
+        fill: H,
+        weight: 400,
+        children: "defragment",
+      }),
+      e.jsx(ce, { x1: 116, y1: 66, x2: 204, y2: 66 }),
+      e.jsx(oe, { x: 220, y: 14, w: 60, h: 80 }),
+      e.jsx(y, { x: 250, y: 124, size: 16, fill: "#facc15", children: "? GB" }),
+    ],
+  });
+}
+function Ct() {
+  const a = [j, null, $, $, null, C, null, j, T, null, null, C, $, null];
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx(y, {
+        x: 160,
+        y: 30,
+        size: 11,
+        fill: "#facc15",
+        children: "Free space",
+      }),
+      a.map((s, t) =>
+        s
+          ? null
+          : e.jsx(
+              "line",
+              {
+                x1: 160,
+                y1: 36,
+                x2: 29 + t * 20,
+                y2: 72,
+                stroke: "#facc15",
+                strokeOpacity: 0.5,
+                strokeWidth: 1.2,
+              },
+              t,
+            ),
+      ),
+      e.jsx(G, { x: 20, y: 76, cells: a, freeStroke: "#facc15", dashed: !0 }),
+    ],
+  });
+}
+function Mt() {
+  const a = [
+    { name: "essay", part: 1, color: "#60a5fa" },
+    { name: "photo", part: 1, color: ee },
+    { name: "song", part: 1, color: T },
+    { name: "essay", part: 2, color: "#60a5fa" },
+    { name: "photo", part: 2, color: ee },
+    { name: "essay", part: 3, color: "#60a5fa" },
+  ];
+  return e.jsxs(e.Fragment, {
+    children: [
+      a.map((s, t) =>
+        e.jsxs(
+          "g",
+          {
+            children: [
+              e.jsx("rect", {
+                x: 12 + t * 50,
+                y: 46,
+                width: 46,
+                height: 52,
+                rx: 5,
+                fill: s.color,
+              }),
+              e.jsx(y, {
+                x: 35 + t * 50,
+                y: 68,
+                size: 10,
+                fill: B,
+                children: s.name,
+              }),
+              e.jsxs(y, {
+                x: 35 + t * 50,
+                y: 84,
+                size: 10,
+                fill: B,
+                weight: 400,
+                children: ["part ", s.part],
+              }),
+            ],
+          },
+          t,
+        ),
+      ),
+      e.jsx("path", { d: "M12 112h296", stroke: "#334155", strokeWidth: 2 }),
+      e.jsx(y, {
+        x: 160,
+        y: 130,
+        size: 9,
+        fill: H,
+        weight: 400,
+        children: "blocks on the disk",
+      }),
+    ],
+  });
+}
+function zt() {
+  const a = [1, 5, 8, 12],
+    s = [j, null, ee, C, null, j, ee, null, C, j, null, ee, null],
+    t = Array.from({ length: 14 }, (n, r) =>
+      a.includes(r) ? T : (s[r] ?? null),
+    );
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx(qe, { x: 142, y: 8, w: 36, h: 46, color: "#fbcfe8" }),
+      e.jsx(y, {
+        x: 186,
+        y: 36,
+        size: 10,
+        anchor: "start",
+        children: "video.mp4",
+      }),
+      a.map((n) => e.jsx(ce, { x1: 160, y1: 60, x2: 29 + n * 20, y2: 98 }, n)),
+      e.jsx(G, { x: 20, y: 104, cells: t }),
+    ],
+  });
+}
+function It() {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("rect", {
+        x: 90,
+        y: 14,
+        width: 140,
+        height: 92,
+        rx: 6,
+        fill: "#334155",
+      }),
+      e.jsx("rect", { x: 98, y: 22, width: 124, height: 76, rx: 2, fill: B }),
+      e.jsx(kt, { x: 160, y: 54 }),
+      e.jsx(y, {
+        x: 160,
+        y: 90,
+        size: 8,
+        fill: H,
+        weight: 400,
+        children: "Opening file…",
+      }),
+      e.jsx("path", { d: "M70 110h180l-10 14h-160z", fill: "#64748b" }),
+      e.jsx("rect", {
+        x: 196,
+        y: 112,
+        width: 26,
+        height: 9,
+        rx: 2,
+        fill: "#e2e8f0",
+      }),
+      e.jsx(y, { x: 209, y: 119, size: 7, fill: B, children: "HDD" }),
+      e.jsxs("g", {
+        stroke: "#cbd5e1",
+        strokeOpacity: 0.55,
+        strokeWidth: 0.8,
+        fill: "none",
+        children: [
+          e.jsx("path", { d: "M90 14l26 22M90 14l14 30M90 14l30 8" }),
+          e.jsx("path", {
+            d: "M98 22q6 0 7-6M100 28q9-1 12-10M102 36q12-3 16-15",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function Et() {
+  const a = (s, t, n, r) =>
+    e.jsxs(e.Fragment, {
+      children: [
+        e.jsx(y, { x: 20, y: s + 15, size: 10, anchor: "start", children: t }),
+        e.jsx(G, { x: 70, y: s, size: 20, gap: 3, cells: n }),
+        n.map((c, l) =>
+          c
+            ? e.jsx(
+                y,
+                { x: 80 + l * 23, y: s + 14, size: 9, fill: B, children: r[l] },
+                l,
+              )
+            : null,
+        ),
+      ],
+    });
+  return e.jsxs(e.Fragment, {
+    children: [
+      a(
+        36,
+        "File A",
+        [null, j, j, j, j, null, null, null, null, null],
+        [0, 1, 2, 3, 4],
+      ),
+      a(
+        92,
+        "File B",
+        [$, null, null, $, null, null, null, $, null, $],
+        [1, 0, 0, 2, 0, 0, 0, 3, 0, 4],
+      ),
+    ],
+  });
+}
+const Tt = {
+  what: {
+    Art: Nt,
+    alt: "A Disk Defragmenter window shows drive C with its blocks scattered and a Defragment button.",
+  },
+  "why-fragment": {
+    Art: $t,
+    alt: "On day 1 the files on a disk sit in neat runs. By day 400 the same disk is jumbled with gaps.",
+  },
+  faster: {
+    Art: St,
+    alt: "A hard disk drive loads a file slowly while a stopwatch ticks.",
+  },
+  category: {
+    Art: At,
+    alt: "A software box labelled Defrag with a tag asking what type of software it is.",
+  },
+  "which-drive": {
+    Art: Dt,
+    alt: "Four parts side by side: a hard disk drive, a solid state drive, a stick of RAM and a processor chip holding cache.",
+  },
+  capacity: {
+    Art: Ft,
+    alt: "A 500 GB hard disk drive is defragmented, and the capacity afterwards is a question mark.",
+  },
+  "free-space": {
+    Art: Ct,
+    alt: "A row of disk blocks with free gaps scattered between the files, each gap marked as free space.",
+  },
+  "same-file": {
+    Art: Mt,
+    alt: "Blocks on a disk in this order: essay part 1, photo part 1, song part 1, essay part 2, photo part 2, essay part 3.",
+  },
+  term: {
+    Art: zt,
+    alt: "Arrows from video.mp4 point to four separate places on a row of disk blocks.",
+  },
+  "slow-laptop": {
+    Art: It,
+    alt: "An old laptop with a hard disk drive and a cobweb shows an hourglass while opening a file.",
+  },
+  contiguous: {
+    Art: Et,
+    alt: "File A is stored as parts 1 to 4 side by side. File B’s four parts are spread out with gaps between them.",
+  },
+};
+function Bt({ questionId: a, className: s }) {
+  const t = Tt[a];
+  return t
+    ? e.jsx("svg", {
+        viewBox: "0 0 320 150",
+        className: s,
+        role: "img",
+        "aria-label": t.alt,
+        fontFamily: "Arial, Helvetica, sans-serif",
+        "data-defrag-picture": a,
+        children: e.jsx(t.Art, {}),
+      })
+    : null;
+}
+const ve = `inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-40 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${ht}`,
+  K =
+    "inline-flex items-center justify-center gap-2 rounded-lg border border-slate-600 px-3 py-2 text-sm font-semibold text-slate-100 transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary",
+  Wt = (a) =>
+    `rounded-lg border px-3 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:opacity-40 ${a ? "border-teal-400 bg-teal-400/15 text-teal-200" : "border-slate-600 text-slate-300 hover:bg-slate-800"}`;
+function Ke(a, s) {
+  const [t, n] = x.useState(null),
+    [r, c] = x.useState(null),
+    [l, i] = x.useState([]),
+    [o, f] = x.useState(null);
+  x.useEffect(() => {
+    if (!t) return;
+    const h = setTimeout(() => {
+      const D = t.kind === "moves" ? t.moves.length : t.positions.length;
+      if (t.i >= D) {
+        (i([]), f(null), n(null), t.onDone?.());
+        return;
+      }
+      if (t.kind === "moves") {
+        const k = t.moves[t.i];
+        (a((U) => ie(U, k)), c(k.to), i([k.from, k.to]), f(k));
+      } else {
+        const k = t.positions[t.i];
+        (c(k), i([k]));
+      }
+      n({ ...t, i: t.i + 1 });
+    }, s);
+    return () => clearTimeout(h);
+  }, [t, s, a]);
+  const p = x.useCallback(
+      (h, D) => {
+        if (pe()) {
+          (a((k) => h.reduce(ie, k)), h.length && c(h[h.length - 1].to), D?.());
+          return;
+        }
+        n({ kind: "moves", moves: h, i: 0, onDone: D });
+      },
+      [a],
+    ),
+    w = x.useCallback((h, D) => {
+      if (pe()) {
+        (h.length && c(h[h.length - 1]), D?.());
+        return;
+      }
+      n({ kind: "read", positions: h, i: 0, onDone: D });
+    }, []),
+    d = x.useCallback(() => {
+      (n(null), i([]), f(null));
+    }, []),
+    m = t ? (t.kind === "moves" ? t.moves.length : t.positions.length) : 0;
+  return {
+    busy: t !== null,
+    kind: t?.kind ?? null,
+    progress: t ? t.i / Math.max(1, m) : 0,
+    head: r,
+    flash: l,
+    setFlash: i,
+    lastMove: o,
+    runMoves: p,
+    runRead: w,
+    stop: d,
+  };
+}
+function L({ label: a, value: s, tone: t = "text-slate-50" }) {
+  return e.jsxs("div", {
+    className: "rounded-lg border border-slate-700 bg-slate-950/50 px-3 py-2",
+    children: [
+      e.jsx("div", { className: "text-xs text-slate-400", children: a }),
+      e.jsx("div", {
+        className: `font-mono text-lg font-bold ${t}`,
+        children: s,
+      }),
+    ],
+  });
+}
+const Te = [
+    "homework.docx",
+    "selfie.png",
+    "level2.sav",
+    "playlist.m3u",
+    "budget.xlsx",
+    "meme.gif",
+    "poster.psd",
+    "recipe.txt",
+    "vlog.mov",
+    "invoice.pdf",
+  ],
+  Be = [
+    { label: "Slow", ms: 320 },
+    { label: "Normal", ms: 120 },
+    { label: "Fast", ms: 35 },
+  ];
+function xe(a) {
+  return `${a} ${a === 1 ? "piece" : "pieces"}`;
+}
+function Lt() {
+  const [a] = x.useState(() => be(9)),
+    [s, t] = x.useState(a.disk),
+    [n, r] = x.useState(a.files),
+    [c, l] = x.useState(null),
+    [i, o] = x.useState(1),
+    [f, p] = x.useState([]),
+    w = x.useRef(0),
+    d = Ke(t, Be[i].ms),
+    m = (u) => p((b) => [u, ...b].slice(0, 6)),
+    h = n.find((u) => u.id === c) ?? null,
+    D = (u) => n.find((b) => b.id === u)?.name ?? u;
+  function k() {
+    const u = ye(s, je(s, n));
+    if (u.length === 0) {
+      m("Already optimised: nothing to move.");
+      return;
+    }
+    const b = u.reduce(ie, s),
+      J = V(s, n);
+    (l(null),
+      m(`Defragmenting: ${u.length} block moves.`),
+      d.runMoves(u, () =>
+        m(`Done. Head jumps to read every file: ${J} → ${V(b, n)}.`),
+      ));
+  }
+  function U() {
+    if (!h) return;
+    const u = P(s, h.id);
+    d.runRead(te(s, h.id), () =>
+      m(
+        `Read ${h.name}: ${xe(u)}, so the head jumps ${u - 1} ${u === 2 ? "time" : "times"}.`,
+      ),
+    );
+  }
+  function S() {
+    const u = 5 + Math.floor(Math.random() * 5);
+    if (Fe(s) < u) {
+      m("Disk full: delete a file first.");
+      return;
+    }
+    const b = new Set(n.map((A) => A.color)),
+      J = Q.find((A) => !b.has(A)) ?? Q[n.length % Q.length],
+      X = Te[w.current % Te.length],
+      I = `new${w.current}`;
+    w.current += 1;
+    const N = re(s, I, 0, u);
+    (t(N),
+      r((A) => [...A, { id: I, name: X, size: u, color: J }]),
+      l(I),
+      d.setFlash(te(N, I)),
+      m(`Saved ${X} (${u} blocks) into the first free gaps: ${xe(P(N, I))}.`));
+  }
+  function se() {
+    h &&
+      (t((u) => u.map((b) => (b?.fileId === h.id ? null : b))),
+      r((u) => u.filter((b) => b.id !== h.id)),
+      l(null),
+      m(`Deleted ${h.name}, leaving a gap of ${h.size} free blocks.`));
+  }
+  function z() {
+    d.stop();
+    const u = be(9);
+    (t(u.disk), r(u.files), l(null), p([]));
+  }
+  const q = ge(s, n),
+    R = d.lastMove ? s[d.lastMove.to] : null,
+    de =
+      d.kind === "moves" && d.lastMove && R
+        ? `Moving ${D(R.fileId)} part ${R.part + 1}: block ${d.lastMove.from} → ${d.lastMove.to}`
+        : d.kind === "read"
+          ? `Reading ${h?.name ?? ""}: block ${d.head}`
+          : h
+            ? `${h.name}: ${xe(P(s, h.id))}`
+            : "";
+  return e.jsxs("div", {
+    className: "grid gap-4 lg:grid-cols-[minmax(0,1fr)_17rem]",
+    "data-defrag-sandbox": !0,
+    children: [
+      e.jsxs("div", {
+        className: "min-w-0 space-y-3",
+        children: [
+          e.jsxs("div", {
+            className: "flex flex-wrap gap-2",
+            children: [
+              e.jsxs("button", {
+                type: "button",
+                className: ve,
+                onClick: k,
+                disabled: d.busy,
+                children: [
+                  e.jsx(at, { "aria-hidden": "true", className: "h-4 w-4" }),
+                  "Defragment",
+                ],
+              }),
+              e.jsxs("button", {
+                type: "button",
+                className: K,
+                onClick: U,
+                disabled: d.busy || !h,
+                children: [
+                  e.jsx(nt, { "aria-hidden": "true", className: "h-4 w-4" }),
+                  "Read file",
+                ],
+              }),
+              e.jsxs("button", {
+                type: "button",
+                className: K,
+                onClick: S,
+                disabled: d.busy,
+                children: [
+                  e.jsx(rt, { "aria-hidden": "true", className: "h-4 w-4" }),
+                  "Save new file",
+                ],
+              }),
+              e.jsxs("button", {
+                type: "button",
+                className: K,
+                onClick: se,
+                disabled: d.busy || !h,
+                children: [
+                  e.jsx(lt, { "aria-hidden": "true", className: "h-4 w-4" }),
+                  "Delete file",
+                ],
+              }),
+              e.jsxs("button", {
+                type: "button",
+                className: K,
+                onClick: z,
+                children: [
+                  e.jsx(_e, { "aria-hidden": "true", className: "h-4 w-4" }),
+                  "New drive",
+                ],
+              }),
+              d.busy
+                ? e.jsxs("button", {
+                    type: "button",
+                    className: K,
+                    onClick: d.stop,
+                    children: [
+                      e.jsx(Le, {
+                        "aria-hidden": "true",
+                        className: "h-4 w-4",
+                      }),
+                      "Stop",
+                    ],
+                  })
+                : null,
+            ],
+          }),
+          e.jsxs("div", {
+            className:
+              "rounded-lg border border-slate-700 bg-slate-950/50 p-2 sm:p-3",
+            children: [
+              e.jsx(we, {
+                disk: s,
+                files: n,
+                selectedId: c,
+                head: d.head,
+                flash: d.flash,
+                onSelect: l,
+              }),
+              e.jsx("div", {
+                className:
+                  "mt-3 h-1.5 overflow-hidden rounded-full bg-slate-800",
+                children: e.jsx("div", {
+                  className: "h-full bg-teal-400 transition-all",
+                  style: { width: `${d.busy ? d.progress * 100 : 0}%` },
+                }),
+              }),
+              e.jsx("p", {
+                className: "mt-2 min-h-5 font-mono text-xs text-slate-400",
+                "aria-live": "polite",
+                children: de,
+              }),
+            ],
+          }),
+          f.length
+            ? e.jsx("ol", {
+                className:
+                  "space-y-1 rounded-lg border border-slate-700 bg-black/60 p-3 font-mono text-xs",
+                "data-defrag-log": !0,
+                children: f.map((u, b) =>
+                  e.jsxs(
+                    "li",
+                    {
+                      className:
+                        b === 0 ? "text-emerald-300" : "text-slate-500",
+                      children: ["> ", u],
+                    },
+                    `${f.length - b}`,
+                  ),
+                ),
+              })
+            : null,
+        ],
+      }),
+      e.jsxs("aside", {
+        className: "space-y-3",
+        children: [
+          e.jsxs("div", {
+            className: "grid grid-cols-2 gap-2",
+            children: [
+              e.jsx(L, {
+                label: "Fragmented",
+                value: `${q}%`,
+                tone: q > 0 ? "text-rose-300" : "text-emerald-300",
+              }),
+              e.jsx(L, { label: "Free gaps", value: ut(s) }),
+              e.jsx(L, {
+                label: "Head jumps",
+                value: V(s, n),
+                tone: "text-teal-300",
+              }),
+              e.jsx(L, { label: "Free blocks", value: Fe(s) }),
+            ],
+          }),
+          e.jsx("div", {
+            className: "flex gap-1",
+            role: "group",
+            "aria-label": "Speed",
+            children: Be.map((u, b) =>
+              e.jsx(
+                "button",
+                {
+                  type: "button",
+                  "aria-pressed": i === b,
+                  onClick: () => o(b),
+                  className: `flex-1 ${Wt(i === b)}`,
+                  children: u.label,
+                },
+                u.label,
+              ),
+            ),
+          }),
+          e.jsx(Ue, { disk: s, files: n, selectedId: c, onSelect: l }),
+        ],
+      }),
+    ],
+  });
+}
+function Rt({ done: a, total: s }) {
+  return e.jsxs("div", {
+    className: "flex items-center gap-1.5",
+    "data-defrag-progress": !0,
+    children: [
+      e.jsx("span", {
+        className: "sr-only",
+        children: `${a} of ${s} files defragmented`,
+      }),
+      Array.from({ length: s }, (t, n) => {
+        const r = n < a ? "done" : n === a ? "next" : "pending";
+        return e.jsx(
+          "span",
+          {
+            "aria-hidden": "true",
+            className: `h-2 w-2 rounded-full transition-colors duration-300 ${r === "done" ? "bg-emerald-400" : r === "next" ? "bg-slate-300" : "bg-slate-700"}`,
+            "data-defrag-progress-dot": r,
+          },
+          n,
+        );
+      }),
+    ],
+  });
+}
+function _t() {
+  const [a, s] = x.useState("intro"),
+    [t, n] = x.useState([]),
+    [r, c] = x.useState([]),
+    [l, i] = x.useState(0),
+    [o, f] = x.useState(0),
+    [p, w] = x.useState(0),
+    [d, m] = x.useState(0),
+    [h, D] = x.useState(0),
+    [k, U] = x.useState(0),
+    [S, se] = x.useState(null),
+    [z, q] = x.useState(null),
+    [R, de] = x.useState(null),
+    [u, b] = x.useState(!1),
+    [J, X] = x.useState(() => new Set()),
+    I = x.useRef([]),
+    N = Ke(n, 70);
+  ct(l, ue, ue - J.size);
+  const A = r.filter((g) => !g.temp),
+    _ = A[l] ?? null;
+  function ke(g, E, M) {
+    const W = M % 3 === 2 ? bt(g, E) : null;
+    return W || (I.current.length === 0 && (I.current = Me()), I.current.pop());
+  }
+  function Ne() {
+    N.stop();
+    const g = be(ue);
+    ((I.current = Me()),
+      n(g.disk),
+      c(g.files),
+      i(0),
+      f(0),
+      w(0),
+      m(0),
+      D(0),
+      U(0),
+      q(null),
+      b(!1),
+      X(new Set()),
+      de({ jumps: V(g.disk, g.files), fragPct: ge(g.disk, g.files) }),
+      se(ke(g.disk, g.files, 0)),
+      s("playing"));
+  }
+  function Qe(g) {
+    if (!S || z !== null || N.busy) return;
+    (q(g), D((F) => F + 1));
+    const E = fe(r);
+    if (g === S.answer) {
+      if ((f((O) => O + mt(p)), w((O) => O + 1), m((O) => O + 1), !_)) return;
+      const F = E.get(_.id),
+        Se = ye(t, je(t, r), F.start, F.end),
+        Ae = Se.reduce(ie, t),
+        Ye = l + 1 >= A.length;
+      N.runMoves(Se, () => {
+        (i((O) => O + 1), Ye && (b(!0), N.runMoves(ye(Ae, je(Ae, r)))));
+      });
+      return;
+    }
+    (w(0), X((F) => (F.has(l) ? F : new Set(F).add(l))));
+    const M = _ ? E.get(_.id).start : 0,
+      W = pt(t, M, 3, k + 1);
+    W &&
+      (U((F) => F + 1),
+      n(W.disk),
+      c((F) => [...F, W.file]),
+      N.setFlash(te(W.disk, W.file.id)));
+  }
+  function Je() {
+    if (!N.busy) {
+      if (u) {
+        s("over");
+        return;
+      }
+      (q(null), N.setFlash([]), se(ke(t, r, h)));
+    }
+  }
+  if (a === "intro")
+    return e.jsxs(Z.div, {
+      initial: { opacity: 0, y: 12 },
+      animate: { opacity: 1, y: 0 },
+      className: "space-y-5",
+      "data-defrag-challenge": "intro",
+      children: [
+        e.jsx("div", {
+          className:
+            "rounded-2xl border border-l-4 border-slate-700 border-l-primary bg-slate-950/50 p-5 sm:p-7",
+          children: e.jsx("p", {
+            className: "text-lg leading-8 text-slate-200",
+            children:
+              "Drive C: is badly fragmented. Every correct answer defragments the next file. A wrong answer lets a temp file scatter into the gaps.",
+          }),
+        }),
+        e.jsxs("button", {
+          type: "button",
+          className: ve,
+          onClick: Ne,
+          children: [
+            e.jsx(it, { "aria-hidden": "true", className: "h-4 w-4" }),
+            "Start",
+          ],
+        }),
+      ],
+    });
+  if (a === "over" && R) {
+    const g = V(t, A),
+      E = ge(t, A),
+      M = A[l - 1];
+    return e.jsxs(e.Fragment, {
+      children: [
+        e.jsxs(Z.div, {
+          initial: { opacity: 0, scale: 0.97 },
+          animate: { opacity: 1, scale: 1 },
+          className: "space-y-5",
+          "aria-live": "polite",
+          "data-defrag-challenge": "over",
+          "data-game-finished": d * 4 >= h * 3 ? "good" : "poor",
+          children: [
+            e.jsx("h2", {
+              className: "text-3xl font-semibold text-emerald-300",
+              children: "Drive optimised",
+            }),
+            e.jsxs("div", {
+              className: "grid grid-cols-2 gap-3 md:grid-cols-4",
+              children: [
+                e.jsx(L, { label: "Score", value: o, tone: "text-teal-300" }),
+                e.jsx(L, { label: "Correct", value: `${d} / ${h}` }),
+                e.jsx(L, {
+                  label: "Head jumps",
+                  value: `${R.jumps} → ${g}`,
+                  tone: "text-emerald-300",
+                }),
+                e.jsx(L, {
+                  label: "Fragmented",
+                  value: `${R.fragPct}% → ${E}%`,
+                  tone: "text-emerald-300",
+                }),
+              ],
+            }),
+            e.jsx("div", {
+              className:
+                "rounded-lg border border-slate-700 bg-slate-950/50 p-2 sm:p-3",
+              children: e.jsx(we, {
+                disk: t,
+                files: r,
+                doneUpTo: M ? (fe(r).get(M.id)?.end ?? 0) : 0,
+              }),
+            }),
+            e.jsxs("button", {
+              type: "button",
+              className: K,
+              onClick: Ne,
+              children: [
+                e.jsx(_e, { "aria-hidden": "true", className: "h-4 w-4" }),
+                "Play again",
+              ],
+            }),
+          ],
+        }),
+        e.jsx(dt, { game: "defrag" }),
+      ],
+    });
+  }
+  const $e = A[l - 1],
+    Xe = $e ? (fe(r).get($e.id)?.end ?? 0) : 0,
+    he = z !== null && z === S?.answer;
+  return e.jsxs("div", {
+    className: "grid gap-4 lg:grid-cols-[minmax(0,1fr)_22rem]",
+    "data-defrag-challenge": "playing",
+    children: [
+      e.jsxs("div", {
+        className: "min-w-0 space-y-3",
+        children: [
+          e.jsxs("div", {
+            className: "flex items-center justify-between gap-3",
+            children: [
+              e.jsxs("dl", {
+                className: "flex gap-5",
+                children: [
+                  e.jsxs("div", {
+                    children: [
+                      e.jsx("dt", {
+                        className: "text-xs text-slate-400",
+                        children: "Score",
+                      }),
+                      e.jsx("dd", {
+                        className: "font-mono text-xl font-bold text-teal-300",
+                        "data-defrag-score": !0,
+                        children: o,
+                      }),
+                    ],
+                  }),
+                  e.jsxs("div", {
+                    children: [
+                      e.jsx("dt", {
+                        className: "text-xs text-slate-400",
+                        children: "Streak",
+                      }),
+                      e.jsx("dd", {
+                        className:
+                          "font-mono text-xl font-bold text-yellow-300",
+                        children: p,
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+              e.jsx(Rt, { done: l, total: A.length }),
+            ],
+          }),
+          e.jsx("div", {
+            className:
+              "rounded-lg border border-slate-700 bg-slate-950/50 p-2 sm:p-3",
+            children: e.jsx(we, {
+              disk: t,
+              files: r,
+              head: N.head,
+              flash: N.flash,
+              doneUpTo: Xe,
+            }),
+          }),
+          e.jsxs("div", {
+            className: "space-y-2",
+            children: [
+              _
+                ? e.jsxs("p", {
+                    className: "font-mono text-xs text-slate-400",
+                    children: [
+                      "Next: ",
+                      e.jsx("span", {
+                        style: { color: _.color },
+                        children: _.name,
+                      }),
+                    ],
+                  })
+                : null,
+              e.jsx(Ue, { disk: t, files: r }),
+            ],
+          }),
+        ],
+      }),
+      e.jsxs("div", {
+        className: "space-y-3",
+        children: [
+          S
+            ? e.jsxs("div", {
+                className: "space-y-4",
+                "data-defrag-question": S.id,
+                children: [
+                  e.jsx(Bt, {
+                    questionId: S.id,
+                    className: "block h-auto w-full rounded-lg bg-slate-950/50",
+                  }),
+                  e.jsx("h3", {
+                    className:
+                      "text-lg font-semibold leading-snug text-slate-50",
+                    children: S.prompt,
+                  }),
+                  e.jsx("div", {
+                    className: "grid gap-2",
+                    role: "group",
+                    "aria-label": "Answers",
+                    children: S.options.map((g) => {
+                      const E = z === g,
+                        M = z !== null && g === S.answer;
+                      return e.jsxs(
+                        "button",
+                        {
+                          type: "button",
+                          onClick: () => Qe(g),
+                          disabled: z !== null,
+                          "data-defrag-option": M
+                            ? "correct"
+                            : E
+                              ? "wrong"
+                              : void 0,
+                          className: `flex items-start gap-2 rounded-xl border px-3 py-2.5 text-left text-sm transition focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${M ? "border-emerald-500/60 bg-emerald-500/10 text-slate-50" : E ? "border-rose-500/60 bg-rose-500/10 text-slate-50" : z !== null ? "border-slate-800 text-slate-500" : "border-slate-700 text-slate-200 hover:border-slate-500 hover:bg-slate-800/60"}`,
+                          children: [
+                            M
+                              ? e.jsx(ot, {
+                                  "aria-hidden": "true",
+                                  className:
+                                    "mt-0.5 h-4 w-4 shrink-0 text-emerald-300",
+                                })
+                              : null,
+                            E && !M
+                              ? e.jsx(Re, {
+                                  "aria-hidden": "true",
+                                  className:
+                                    "mt-0.5 h-4 w-4 shrink-0 text-rose-300",
+                                })
+                              : null,
+                            e.jsx("span", { children: g }),
+                          ],
+                        },
+                        g,
+                      );
+                    }),
+                  }),
+                ],
+              })
+            : null,
+          z !== null && S
+            ? e.jsxs(Z.div, {
+                initial: { opacity: 0, y: 8 },
+                animate: { opacity: 1, y: 0 },
+                className: `space-y-3 rounded-2xl border p-4 text-sm ${he ? "border-emerald-500/40 bg-emerald-500/10" : "border-rose-500/40 bg-rose-500/10"}`,
+                "aria-live": "polite",
+                "data-defrag-feedback": he ? "correct" : "wrong",
+                children: [
+                  e.jsx("span", {
+                    className: "sr-only",
+                    children: he ? "Correct." : "Incorrect.",
+                  }),
+                  e.jsx("p", {
+                    className: "leading-6 text-slate-200",
+                    children: S.explanation,
+                  }),
+                  e.jsx("button", {
+                    type: "button",
+                    className: `w-full ${ve}`,
+                    onClick: Je,
+                    disabled: N.busy,
+                    children: u ? "See results" : "Next question",
+                  }),
+                ],
+              })
+            : null,
+        ],
+      }),
+    ],
+  });
+}
+const We = [
+  { id: "learn", label: "How it works", short: "Learn", Icon: et },
+  { id: "sandbox", label: "Sandbox", short: "Sandbox", Icon: me },
+  { id: "challenge", label: "Challenge", short: "Challenge", Icon: tt },
+];
+function Kt() {
+  const [a, s] = x.useState("learn");
+  return e.jsxs("div", {
+    className:
+      "overflow-hidden rounded-xl border border-slate-700 bg-slate-900 shadow-2xl shadow-black/40",
+    "data-defrag-window": !0,
+    children: [
+      e.jsxs("div", {
+        className:
+          "flex items-center gap-2 border-b border-slate-700 bg-slate-800 px-3 py-2",
+        children: [
+          e.jsx(me, {
+            "aria-hidden": "true",
+            className: "h-4 w-4 shrink-0 text-teal-300",
+          }),
+          e.jsxs("h2", {
+            className:
+              "flex-1 truncate font-mono text-sm font-semibold text-slate-100",
+            children: [
+              "Disk Defragmenter ",
+              e.jsx("span", {
+                className: "hidden font-normal text-slate-400 sm:inline",
+                children: "Local Disk (C:)",
+              }),
+            ],
+          }),
+          e.jsxs("span", {
+            className: "flex gap-1 text-slate-500",
+            "aria-hidden": "true",
+            children: [
+              e.jsx(st, { className: "h-3.5 w-3.5" }),
+              e.jsx(Le, { className: "h-3 w-3" }),
+              e.jsx(Re, { className: "h-3.5 w-3.5" }),
+            ],
+          }),
+        ],
+      }),
+      e.jsx("div", {
+        className:
+          "flex gap-1 overflow-x-auto border-b border-slate-700 px-2 pt-2",
+        role: "tablist",
+        "aria-label": "Disk Defragmenter",
+        children: We.map(({ id: t, label: n, short: r, Icon: c }) =>
+          e.jsxs(
+            "button",
+            {
+              id: `defrag-tab-${t}`,
+              type: "button",
+              role: "tab",
+              "aria-label": n,
+              "aria-selected": a === t,
+              "aria-controls": `defrag-panel-${t}`,
+              onClick: () => s(t),
+              className: `-mb-px flex items-center gap-1.5 whitespace-nowrap rounded-t-md border border-b-0 px-3 py-2 text-sm transition focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${a === t ? "border-slate-700 bg-slate-900 font-semibold text-slate-50" : "border-transparent text-slate-400 hover:text-slate-100"}`,
+              children: [
+                e.jsx(c, { "aria-hidden": "true", className: "h-4 w-4" }),
+                e.jsx("span", { className: "sm:hidden", children: r }),
+                e.jsx("span", { className: "hidden sm:inline", children: n }),
+              ],
+            },
+            t,
+          ),
+        ),
+      }),
+      We.map(({ id: t }) =>
+        e.jsx(
+          "div",
+          {
+            id: `defrag-panel-${t}`,
+            role: "tabpanel",
+            "aria-labelledby": `defrag-tab-${t}`,
+            hidden: a !== t,
+            className: "p-3 sm:p-5",
+            children:
+              t === "learn"
+                ? e.jsx(yt, {})
+                : t === "sandbox"
+                  ? e.jsx(Lt, {})
+                  : e.jsx(_t, {}),
+          },
+          t,
+        ),
+      ),
+      e.jsxs("div", {
+        className:
+          "flex items-center gap-2 border-t border-slate-700 bg-slate-950/80 px-2 py-1.5",
+        "aria-hidden": "true",
+        children: [
+          e.jsx("span", {
+            className:
+              "rounded bg-teal-400 px-2.5 py-1 font-mono text-xs font-bold text-[#020617]",
+            children: "Start",
+          }),
+          e.jsxs("span", {
+            className:
+              "flex items-center gap-1.5 rounded border-b-2 border-teal-400 bg-slate-800 px-2.5 py-1 font-mono text-xs text-slate-200",
+            children: [
+              e.jsx(me, { className: "h-3.5 w-3.5 text-teal-300" }),
+              "Disk Defragmenter",
+            ],
+          }),
+        ],
+      }),
+    ],
+  });
+}
+export { Kt as default };

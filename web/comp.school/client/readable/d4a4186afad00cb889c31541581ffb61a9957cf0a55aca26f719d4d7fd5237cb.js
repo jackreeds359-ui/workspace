@@ -1,0 +1,4422 @@
+import { r as v, j as e } from "./react-vendor-BK1G6oO1.js";
+import { aq as He, aT as _e } from "./GameNotebook-b0Qw2wzd.js";
+import { d as ce, K as Ve } from "./keyword-deck-Bo8inXG8.js";
+import { u as Ue } from "./helpers-DmEFZcxj.js";
+import { b as Ke } from "./keyword-text-BtYtr9f7.js";
+import "./index-DjyiOHey.js";
+import "./ui-components-DeMDYLzO.js";
+import "./keyword-flashcards-Ha6Msavb.js";
+import "./use-cover-art-CyGvgy9q.js";
+const a = {
+    ink: "#1f2a44",
+    ink2: "#2d3a5c",
+    slate: "#9aa6c4",
+    line: "#cfd6e4",
+    white: "#ffffff",
+    paper: "#fff8ec",
+    paper2: "#f3ead6",
+    sky: "#e8f4ff",
+    blue1: "#cfe0fb",
+    blue2: "#9fc3e6",
+    blue: "#4a7bd0",
+    mint2: "#b9ebcf",
+    mint: "#7dd8b5",
+    cream: "#fff1dc",
+    yellow: "#ffd166",
+    amber: "#f2a541",
+    peach: "#ffb38a",
+    lilac: "#c9b8ff",
+    pink: "#ff9fbf",
+    violet: "#6b3fd4",
+    violetGlow: "#a77bff",
+    magenta: "#e05bd0",
+    magentaGlow: "#ffc6f1",
+    cyan: "#25c6da",
+    cyanGlow: "#c2f5fb",
+  },
+  x = {
+    stroke: a.ink,
+    strokeWidth: 2.5,
+    strokeLinejoin: "round",
+    strokeLinecap: "round",
+  },
+  oe = "'Fredoka', ui-rounded, system-ui, sans-serif",
+  de = "ui-monospace, 'Cascadia Mono', Consolas, monospace";
+function ee({ good: t, x: s = 0, y: r = 0, size: l = 32 }) {
+  const n = l / 32;
+  return e.jsx("g", {
+    transform: `translate(${s} ${r}) scale(${n})`,
+    "data-badge": t ? "good" : "bad",
+    children: t
+      ? e.jsxs(e.Fragment, {
+          children: [
+            e.jsx("circle", {
+              cx: "16",
+              cy: "16",
+              r: "15",
+              fill: a.mint,
+              ...x,
+            }),
+            e.jsx("path", {
+              d: "M9 16.5l4.5 4.5 9.5-10",
+              fill: "none",
+              ...x,
+              strokeWidth: 3.5,
+            }),
+          ],
+        })
+      : e.jsxs(e.Fragment, {
+          children: [
+            e.jsx("rect", {
+              x: "4.5",
+              y: "4.5",
+              width: "23",
+              height: "23",
+              rx: "4",
+              transform: "rotate(45 16 16)",
+              fill: a.amber,
+              ...x,
+            }),
+            e.jsx("path", {
+              d: "M11 11l10 10M21 11L11 21",
+              fill: "none",
+              ...x,
+              strokeWidth: 3.5,
+            }),
+          ],
+        }),
+  });
+}
+function te({ good: t, label: s }) {
+  return e.jsx("svg", {
+    className: "aa-mark",
+    viewBox: "0 0 32 32",
+    width: "28",
+    height: "28",
+    role: "img",
+    "aria-label": s,
+    children: e.jsx(ee, { good: t }),
+  });
+}
+const Ye = {
+  blob: "M60 30c26 0 40 18 40 42s-14 36-40 36-40-12-40-36 14-42 40-42z",
+  bean: "M60 24c20 0 32 16 32 40v14c0 20-12 30-32 30S28 98 28 78V64c0-24 12-40 32-40z",
+  box: "M40 32h40c12 0 18 6 18 18v40c0 12-6 18-18 18H40c-12 0-18-6-18-18V50c0-12 6-18 18-18z",
+  pear: "M60 28c14 0 22 12 22 24 0 8 18 16 18 34 0 14-14 22-40 22s-40-8-40-22c0-18 18-26 18-34 0-12 8-24 22-24z",
+  drop: "M60 20c10 14 38 32 38 58 0 18-16 30-38 30S22 96 22 78c0-26 28-44 38-58z",
+};
+function Xe({ top: t, fur: s }) {
+  switch (t) {
+    case "ears":
+      return e.jsxs("g", {
+        fill: s,
+        ...x,
+        children: [
+          e.jsx("circle", { cx: "36", cy: "36", r: "11" }),
+          e.jsx("circle", { cx: "84", cy: "36", r: "11" }),
+          e.jsx("circle", {
+            cx: "36",
+            cy: "36",
+            r: "5",
+            fill: a.pink,
+            strokeWidth: 0,
+          }),
+          e.jsx("circle", {
+            cx: "84",
+            cy: "36",
+            r: "5",
+            fill: a.pink,
+            strokeWidth: 0,
+          }),
+        ],
+      });
+    case "antenna":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M60 30V12", fill: "none" }),
+          e.jsx("circle", { cx: "60", cy: "10", r: "6", fill: a.magenta }),
+        ],
+      });
+    case "horns":
+      return e.jsxs("g", {
+        fill: a.cream,
+        ...x,
+        children: [
+          e.jsx("path", { d: "M40 36c-6-6-8-14-4-20 4 6 10 10 14 14z" }),
+          e.jsx("path", { d: "M80 36c6-6 8-14 4-20-4 6-10 10-14 14z" }),
+        ],
+      });
+    case "tuft":
+      return e.jsx("path", {
+        d: "M50 30l2-14 6 10 4-14 4 14 6-10 2 14",
+        fill: s,
+        ...x,
+      });
+    case "leaf":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M60 26v-8", fill: "none" }),
+          e.jsx("path", {
+            d: "M60 18c-4-10 4-16 16-14-2 10-8 16-16 14z",
+            fill: a.mint,
+          }),
+        ],
+      });
+  }
+}
+function qe({ kit: t }) {
+  switch (t) {
+    case "headset":
+      return e.jsxs("g", {
+        fill: "none",
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M28 66c0-24 14-36 32-36s32 12 32 36",
+            strokeWidth: 3,
+          }),
+          e.jsx("rect", {
+            x: "22",
+            y: "60",
+            width: "10",
+            height: "16",
+            rx: "4",
+            fill: a.violet,
+          }),
+          e.jsx("rect", {
+            x: "88",
+            y: "60",
+            width: "10",
+            height: "16",
+            rx: "4",
+            fill: a.violet,
+          }),
+          e.jsx("path", { d: "M30 76c4 10 12 12 20 12" }),
+          e.jsx("circle", { cx: "51", cy: "88", r: "3", fill: a.magenta }),
+        ],
+      });
+    case "cap":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M34 46c2-14 14-20 26-20s24 6 26 20z",
+            fill: a.cyan,
+          }),
+          e.jsx("path", { d: "M60 46h36c2 0 2 6-2 6H60z", fill: a.cyan }),
+          e.jsx("circle", { cx: "60", cy: "26", r: "3", fill: a.white }),
+        ],
+      });
+    case "hardhat":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M32 46c0-16 12-24 28-24s28 8 28 24z",
+            fill: a.yellow,
+          }),
+          e.jsx("rect", {
+            x: "26",
+            y: "44",
+            width: "68",
+            height: "7",
+            rx: "3.5",
+            fill: a.yellow,
+          }),
+          e.jsx("path", { d: "M60 23v20", fill: "none" }),
+        ],
+      });
+    case "goggles":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M26 48h68",
+            fill: "none",
+            strokeWidth: 4,
+            stroke: a.ink2,
+          }),
+          e.jsx("circle", { cx: "47", cy: "47", r: "9", fill: a.cyanGlow }),
+          e.jsx("circle", { cx: "73", cy: "47", r: "9", fill: a.cyanGlow }),
+        ],
+      });
+    case "glasses":
+      return e.jsxs("g", {
+        fill: "none",
+        ...x,
+        children: [
+          e.jsx("circle", { cx: "48", cy: "62", r: "10" }),
+          e.jsx("circle", { cx: "72", cy: "62", r: "10" }),
+          e.jsx("path", { d: "M58 62h4" }),
+        ],
+      });
+    case "bow":
+      return e.jsxs("g", {
+        ...x,
+        fill: a.magenta,
+        children: [
+          e.jsx("path", { d: "M70 32l-12-8v16z" }),
+          e.jsx("path", { d: "M70 32l12-8v16z" }),
+          e.jsx("circle", { cx: "70", cy: "32", r: "4" }),
+        ],
+      });
+    case "scarf":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M34 86c16 6 36 6 52 0v9c-16 6-36 6-52 0z",
+            fill: a.magenta,
+          }),
+          e.jsx("path", { d: "M74 92l4 14h-10l-2-12z", fill: a.magenta }),
+        ],
+      });
+    case "none":
+      return null;
+  }
+}
+function $({ creature: t, mood: s = "calm" }) {
+  const r =
+    s === "happy"
+      ? "M50 76c4 7 16 7 20 0"
+      : s === "worried"
+        ? "M50 80c4-5 16-5 20 0"
+        : "M52 77c3 3 13 3 16 0";
+  return e.jsxs("g", {
+    className: "aa-creature",
+    "data-character": !0,
+    "data-mood": s,
+    children: [
+      e.jsx("ellipse", {
+        cx: "60",
+        cy: "112",
+        rx: "30",
+        ry: "5",
+        fill: a.ink,
+        opacity: "0.12",
+      }),
+      e.jsx(Xe, { top: t.top, fur: t.fur }),
+      e.jsx("path", { d: Ye[t.shape], fill: t.fur, ...x, strokeWidth: 3 }),
+      e.jsx("ellipse", {
+        cx: "60",
+        cy: "90",
+        rx: "20",
+        ry: "13",
+        fill: t.belly,
+      }),
+      e.jsxs("g", {
+        fill: t.fur,
+        ...x,
+        children: [
+          e.jsx("ellipse", { cx: "46", cy: "108", rx: "9", ry: "5" }),
+          e.jsx("ellipse", { cx: "74", cy: "108", rx: "9", ry: "5" }),
+        ],
+      }),
+      e.jsxs("g", {
+        className: "aa-creature-eyes",
+        children: [
+          e.jsx("circle", {
+            cx: "48",
+            cy: "62",
+            r: "7",
+            fill: a.white,
+            ...x,
+            strokeWidth: 2,
+          }),
+          e.jsx("circle", {
+            cx: "72",
+            cy: "62",
+            r: "7",
+            fill: a.white,
+            ...x,
+            strokeWidth: 2,
+          }),
+          e.jsx("circle", {
+            cx: s === "worried" ? 47 : 49,
+            cy: s === "worried" ? 64 : 62,
+            r: "3.2",
+            fill: a.ink,
+          }),
+          e.jsx("circle", {
+            cx: s === "worried" ? 71 : 73,
+            cy: s === "worried" ? 64 : 62,
+            r: "3.2",
+            fill: a.ink,
+          }),
+        ],
+      }),
+      s === "worried"
+        ? e.jsx("path", {
+            d: "M40 50l14 4M80 50l-14 4",
+            fill: "none",
+            ...x,
+            strokeWidth: 2,
+          })
+        : null,
+      e.jsx("circle", {
+        cx: "38",
+        cy: "74",
+        r: "4",
+        fill: a.pink,
+        opacity: "0.7",
+      }),
+      e.jsx("circle", {
+        cx: "82",
+        cy: "74",
+        r: "4",
+        fill: a.pink,
+        opacity: "0.7",
+      }),
+      e.jsx("path", { d: r, fill: "none", ...x, strokeWidth: 2.5 }),
+      e.jsx(qe, { kit: t.kit }),
+    ],
+  });
+}
+function be({ creature: t, mood: s, label: r, className: l }) {
+  return e.jsx("svg", {
+    className: l ?? "aa-avatar",
+    viewBox: "0 0 120 120",
+    width: "100%",
+    role: "img",
+    "aria-label": r,
+    children: e.jsx($, { creature: t, mood: s }),
+  });
+}
+function ke({ icon: t }) {
+  switch (t) {
+    case "scanner":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "27",
+            y: "40",
+            width: "10",
+            height: "22",
+            rx: "2",
+            fill: a.slate,
+          }),
+          e.jsx("rect", {
+            x: "16",
+            y: "6",
+            width: "32",
+            height: "38",
+            rx: "7",
+            fill: a.white,
+          }),
+          e.jsx("rect", {
+            x: "21",
+            y: "11",
+            width: "22",
+            height: "14",
+            rx: "3",
+            fill: a.cyanGlow,
+          }),
+          e.jsx("circle", { cx: "32", cy: "34", r: "4.5", fill: a.magenta }),
+          e.jsx("path", { d: "M26 18h12", fill: "none", stroke: a.cyan }),
+        ],
+      });
+    case "desk":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M6 30l8-12h36l8 12z", fill: a.lilac }),
+          e.jsx("rect", {
+            x: "6",
+            y: "30",
+            width: "52",
+            height: "20",
+            rx: "4",
+            fill: a.violetGlow,
+          }),
+          e.jsx("path", {
+            d: "M14 36v8M22 36v8M30 36v8M38 36v8",
+            fill: "none",
+          }),
+          e.jsx("rect", {
+            x: "11",
+            y: "38",
+            width: "6",
+            height: "4",
+            rx: "1",
+            fill: a.white,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("rect", {
+            x: "27",
+            y: "36",
+            width: "6",
+            height: "4",
+            rx: "1",
+            fill: a.white,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("rect", {
+            x: "44",
+            y: "35",
+            width: "10",
+            height: "10",
+            rx: "2",
+            fill: a.cyanGlow,
+          }),
+          e.jsx("path", { d: "M18 50v8M46 50v8", fill: "none" }),
+        ],
+      });
+    case "screen":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M18 46v14M46 46v14", fill: "none" }),
+          e.jsx("rect", {
+            x: "4",
+            y: "6",
+            width: "56",
+            height: "40",
+            rx: "4",
+            fill: a.ink2,
+          }),
+          e.jsx("rect", {
+            x: "9",
+            y: "11",
+            width: "46",
+            height: "30",
+            rx: "2",
+            fill: a.magentaGlow,
+            strokeWidth: 0,
+          }),
+          e.jsxs("g", {
+            fill: a.violet,
+            stroke: "none",
+            children: [
+              e.jsx("rect", { x: "14", y: "16", width: "6", height: "6" }),
+              e.jsx("rect", {
+                x: "22",
+                y: "16",
+                width: "20",
+                height: "6",
+                fill: a.magenta,
+              }),
+              e.jsx("rect", {
+                x: "14",
+                y: "26",
+                width: "36",
+                height: "4",
+                fill: a.cyan,
+              }),
+              e.jsx("rect", {
+                x: "14",
+                y: "33",
+                width: "26",
+                height: "4",
+                fill: a.violetGlow,
+              }),
+            ],
+          }),
+        ],
+      });
+    case "printer":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "18",
+            y: "8",
+            width: "28",
+            height: "18",
+            rx: "2",
+            fill: a.white,
+          }),
+          e.jsx("rect", {
+            x: "8",
+            y: "22",
+            width: "48",
+            height: "26",
+            rx: "6",
+            fill: a.blue1,
+          }),
+          e.jsx("rect", {
+            x: "18",
+            y: "40",
+            width: "28",
+            height: "16",
+            rx: "2",
+            fill: a.white,
+          }),
+          e.jsx("path", {
+            d: "M23 46h18M23 51h12",
+            fill: "none",
+            strokeWidth: 2,
+          }),
+          e.jsx("circle", { cx: "48", cy: "30", r: "3", fill: a.cyan }),
+        ],
+      });
+    case "reader":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "16",
+            y: "6",
+            width: "32",
+            height: "52",
+            rx: "8",
+            fill: a.white,
+          }),
+          e.jsx("rect", {
+            x: "21",
+            y: "11",
+            width: "22",
+            height: "12",
+            rx: "3",
+            fill: a.cyanGlow,
+          }),
+          e.jsxs("g", {
+            fill: a.lilac,
+            strokeWidth: 1.5,
+            children: [
+              e.jsx("circle", { cx: "25", cy: "31", r: "2.5" }),
+              e.jsx("circle", { cx: "32", cy: "31", r: "2.5" }),
+              e.jsx("circle", { cx: "39", cy: "31", r: "2.5" }),
+              e.jsx("circle", { cx: "25", cy: "38", r: "2.5" }),
+              e.jsx("circle", { cx: "32", cy: "38", r: "2.5" }),
+              e.jsx("circle", { cx: "39", cy: "38", r: "2.5" }),
+            ],
+          }),
+          e.jsx("rect", {
+            x: "22",
+            y: "44",
+            width: "20",
+            height: "9",
+            rx: "2",
+            fill: a.magenta,
+          }),
+        ],
+      });
+    case "board":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M32 46v14", fill: "none" }),
+          e.jsx("rect", {
+            x: "4",
+            y: "8",
+            width: "56",
+            height: "38",
+            rx: "4",
+            fill: a.ink2,
+          }),
+          e.jsxs("g", {
+            stroke: "none",
+            children: [
+              e.jsx("rect", {
+                x: "10",
+                y: "14",
+                width: "22",
+                height: "4",
+                fill: a.yellow,
+              }),
+              e.jsx("rect", {
+                x: "38",
+                y: "14",
+                width: "16",
+                height: "4",
+                fill: a.cyan,
+              }),
+              e.jsx("rect", {
+                x: "10",
+                y: "22",
+                width: "22",
+                height: "4",
+                fill: a.yellow,
+              }),
+              e.jsx("rect", {
+                x: "38",
+                y: "22",
+                width: "16",
+                height: "4",
+                fill: a.cyan,
+              }),
+              e.jsx("rect", {
+                x: "10",
+                y: "30",
+                width: "22",
+                height: "4",
+                fill: a.yellow,
+              }),
+              e.jsx("rect", {
+                x: "38",
+                y: "30",
+                width: "16",
+                height: "4",
+                fill: a.magentaGlow,
+              }),
+              e.jsx("rect", {
+                x: "10",
+                y: "38",
+                width: "22",
+                height: "3",
+                fill: a.yellow,
+              }),
+            ],
+          }),
+        ],
+      });
+    case "belt":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "18",
+            y: "14",
+            width: "28",
+            height: "26",
+            rx: "4",
+            fill: a.peach,
+          }),
+          e.jsx("path", { d: "M26 14v-5h12v5", fill: "none" }),
+          e.jsx("path", { d: "M18 26h28", fill: "none", strokeWidth: 2 }),
+          e.jsx("rect", {
+            x: "2",
+            y: "40",
+            width: "60",
+            height: "12",
+            rx: "6",
+            fill: a.slate,
+          }),
+          e.jsxs("g", {
+            fill: a.white,
+            strokeWidth: 2,
+            children: [
+              e.jsx("circle", { cx: "10", cy: "46", r: "3" }),
+              e.jsx("circle", { cx: "24", cy: "46", r: "3" }),
+              e.jsx("circle", { cx: "38", cy: "46", r: "3" }),
+              e.jsx("circle", { cx: "52", cy: "46", r: "3" }),
+            ],
+          }),
+          e.jsx("path", { d: "M14 52v8M50 52v8", fill: "none" }),
+        ],
+      });
+    case "sensor":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M32 40v20", fill: "none" }),
+          e.jsx("circle", { cx: "32", cy: "30", r: "13", fill: a.white }),
+          e.jsx("circle", { cx: "32", cy: "30", r: "5", fill: a.cyan }),
+          e.jsx("path", {
+            d: "M14 14c-6 8-6 24 0 32M50 14c6 8 6 24 0 32",
+            fill: "none",
+            stroke: a.cyan,
+            strokeWidth: 3,
+          }),
+        ],
+      });
+    case "milker":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "6",
+            y: "40",
+            width: "22",
+            height: "20",
+            rx: "4",
+            fill: a.blue1,
+          }),
+          e.jsx("path", {
+            d: "M17 40V20l22-8 10 18",
+            fill: "none",
+            strokeWidth: 4,
+            stroke: a.ink2,
+          }),
+          e.jsx("circle", { cx: "17", cy: "20", r: "4", fill: a.cyan }),
+          e.jsx("circle", { cx: "39", cy: "12", r: "4", fill: a.cyan }),
+          e.jsx("rect", {
+            x: "40",
+            y: "30",
+            width: "20",
+            height: "10",
+            rx: "3",
+            fill: a.white,
+          }),
+          e.jsx("path", { d: "M44 40v8M50 40v8M56 40v8", fill: "none" }),
+          e.jsx("circle", { cx: "17", cy: "50", r: "3", fill: a.magenta }),
+        ],
+      });
+    case "weather":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M32 18v42", fill: "none", strokeWidth: 3 }),
+          e.jsx("path", { d: "M16 12h32", fill: "none" }),
+          e.jsx("circle", { cx: "16", cy: "12", r: "5", fill: a.yellow }),
+          e.jsx("circle", { cx: "48", cy: "12", r: "5", fill: a.yellow }),
+          e.jsx("path", { d: "M32 24h16l-6 6h-10z", fill: a.magenta }),
+          e.jsx("rect", {
+            x: "22",
+            y: "36",
+            width: "20",
+            height: "14",
+            rx: "3",
+            fill: a.white,
+          }),
+          e.jsx("circle", { cx: "32", cy: "43", r: "3", fill: a.cyan }),
+        ],
+      });
+    case "drone":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M12 22l14 10M52 22L38 32M12 46l14-8M52 46l-14-8",
+            fill: "none",
+            strokeWidth: 3,
+          }),
+          e.jsx("ellipse", {
+            cx: "12",
+            cy: "20",
+            rx: "10",
+            ry: "3.5",
+            fill: a.cyanGlow,
+          }),
+          e.jsx("ellipse", {
+            cx: "52",
+            cy: "20",
+            rx: "10",
+            ry: "3.5",
+            fill: a.cyanGlow,
+          }),
+          e.jsx("ellipse", {
+            cx: "12",
+            cy: "46",
+            rx: "10",
+            ry: "3.5",
+            fill: a.cyanGlow,
+          }),
+          e.jsx("ellipse", {
+            cx: "52",
+            cy: "46",
+            rx: "10",
+            ry: "3.5",
+            fill: a.cyanGlow,
+          }),
+          e.jsx("rect", {
+            x: "22",
+            y: "26",
+            width: "20",
+            height: "16",
+            rx: "6",
+            fill: a.white,
+          }),
+          e.jsx("circle", { cx: "32", cy: "34", r: "3.5", fill: a.magenta }),
+        ],
+      });
+    case "tank":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M14 48l-4 12M50 48l4 12", fill: "none" }),
+          e.jsx("rect", {
+            x: "6",
+            y: "18",
+            width: "52",
+            height: "32",
+            rx: "16",
+            fill: a.white,
+          }),
+          e.jsx("path", {
+            d: "M20 18v32M44 18v32",
+            fill: "none",
+            strokeWidth: 1.5,
+            stroke: a.line,
+          }),
+          e.jsx("rect", {
+            x: "24",
+            y: "8",
+            width: "16",
+            height: "10",
+            rx: "2",
+            fill: a.cyanGlow,
+          }),
+          e.jsx("circle", { cx: "32", cy: "34", r: "6", fill: a.cyanGlow }),
+          e.jsx("path", { d: "M32 34l3-3", fill: "none", strokeWidth: 2 }),
+        ],
+      });
+    case "laptop":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "12",
+            y: "14",
+            width: "40",
+            height: "28",
+            rx: "3",
+            fill: a.ink2,
+          }),
+          e.jsx("rect", {
+            x: "16",
+            y: "18",
+            width: "32",
+            height: "20",
+            rx: "1",
+            fill: a.cyanGlow,
+            strokeWidth: 0,
+          }),
+          e.jsx("path", { d: "M4 46h56l-4 6H8z", fill: a.line }),
+        ],
+      });
+    case "switch":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "2",
+            y: "22",
+            width: "60",
+            height: "22",
+            rx: "5",
+            fill: a.violetGlow,
+          }),
+          e.jsxs("g", {
+            fill: a.ink2,
+            strokeWidth: 0,
+            children: [
+              e.jsx("rect", {
+                x: "8",
+                y: "30",
+                width: "7",
+                height: "7",
+                rx: "1",
+              }),
+              e.jsx("rect", {
+                x: "19",
+                y: "30",
+                width: "7",
+                height: "7",
+                rx: "1",
+              }),
+              e.jsx("rect", {
+                x: "30",
+                y: "30",
+                width: "7",
+                height: "7",
+                rx: "1",
+              }),
+              e.jsx("rect", {
+                x: "41",
+                y: "30",
+                width: "7",
+                height: "7",
+                rx: "1",
+              }),
+            ],
+          }),
+          e.jsx("circle", {
+            cx: "54",
+            cy: "33",
+            r: "3",
+            fill: a.cyan,
+            strokeWidth: 1.5,
+          }),
+        ],
+      });
+    case "router":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M18 28l-6-18M46 28l6-18",
+            fill: "none",
+            strokeWidth: 3,
+          }),
+          e.jsx("rect", {
+            x: "6",
+            y: "26",
+            width: "52",
+            height: "20",
+            rx: "6",
+            fill: a.magentaGlow,
+          }),
+          e.jsx("circle", {
+            cx: "18",
+            cy: "36",
+            r: "3",
+            fill: a.cyan,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("circle", {
+            cx: "28",
+            cy: "36",
+            r: "3",
+            fill: a.yellow,
+            strokeWidth: 1.5,
+          }),
+          e.jsx("circle", {
+            cx: "38",
+            cy: "36",
+            r: "3",
+            fill: a.cyan,
+            strokeWidth: 1.5,
+          }),
+        ],
+      });
+    case "office":
+      return e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M8 60V20l24-12 24 12v40z", fill: a.blue1 }),
+          e.jsxs("g", {
+            fill: a.cyanGlow,
+            strokeWidth: 2,
+            children: [
+              e.jsx("rect", {
+                x: "16",
+                y: "26",
+                width: "10",
+                height: "8",
+                rx: "1",
+              }),
+              e.jsx("rect", {
+                x: "38",
+                y: "26",
+                width: "10",
+                height: "8",
+                rx: "1",
+              }),
+              e.jsx("rect", {
+                x: "16",
+                y: "40",
+                width: "10",
+                height: "8",
+                rx: "1",
+              }),
+              e.jsx("rect", {
+                x: "38",
+                y: "40",
+                width: "10",
+                height: "8",
+                rx: "1",
+              }),
+            ],
+          }),
+          e.jsx("rect", {
+            x: "27",
+            y: "48",
+            width: "10",
+            height: "12",
+            rx: "1",
+            fill: a.white,
+            strokeWidth: 2,
+          }),
+        ],
+      });
+    case "cloud":
+      return e.jsx("path", {
+        d: "M16 48c-8 0-12-6-12-12 0-7 6-12 12-11 2-9 9-15 17-15 9 0 15 6 17 14 7 0 12 5 12 12s-5 12-12 12z",
+        fill: a.white,
+        ...x,
+      });
+  }
+}
+function he({ icon: t, x: s, y: r, size: l = 64 }) {
+  return e.jsx("g", {
+    transform: `translate(${s} ${r}) scale(${l / 64})`,
+    children: e.jsx(ke, { icon: t }),
+  });
+}
+function z({ icon: t, label: s }) {
+  return e.jsx("svg", {
+    className: "aa-device",
+    viewBox: "0 0 64 64",
+    width: "100%",
+    role: s ? "img" : void 0,
+    "aria-label": s || void 0,
+    "aria-hidden": s ? void 0 : !0,
+    children: e.jsx(ke, { icon: t }),
+  });
+}
+function se({ id: t, top: s, bottom: r, left: l }) {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("defs", {
+        children: e.jsxs("linearGradient", {
+          id: t,
+          x1: "0",
+          y1: "0",
+          x2: "0",
+          y2: "1",
+          children: [
+            e.jsx("stop", { offset: "0", stopColor: s }),
+            e.jsx("stop", { offset: "1", stopColor: r }),
+          ],
+        }),
+      }),
+      e.jsx("rect", {
+        x: l,
+        y: "-80",
+        width: 400 - l,
+        height: "420",
+        fill: `url(#${t})`,
+      }),
+    ],
+  });
+}
+function Me({ x: t, y: s }) {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("circle", { cx: t, cy: s, r: "24", fill: a.yellow, ...x }),
+      e.jsxs("g", {
+        fill: a.cream,
+        children: [
+          e.jsx("rect", { x: t - 20, y: s + 4, width: "40", height: "3" }),
+          e.jsx("rect", { x: t - 17, y: s + 11, width: "34", height: "3" }),
+        ],
+      }),
+    ],
+  });
+}
+function Je({ left: t = 0 }) {
+  const s = `aa-sky-${v.useId().replace(/:/g, "")}`,
+    r = [
+      a.yellow,
+      a.pink,
+      a.cyan,
+      a.lilac,
+      a.yellow,
+      a.pink,
+      a.cyan,
+      a.lilac,
+      a.yellow,
+    ];
+  return e.jsxs("g", {
+    "data-backdrop": "festival",
+    children: [
+      e.jsx(se, { id: s, top: a.magentaGlow, bottom: a.cream, left: t }),
+      e.jsx(Me, { x: 330, y: 52 }),
+      t < 0
+        ? e.jsx("g", {
+            ...x,
+            children: e.jsx("path", {
+              d: `M${t + 40} 152l18-26 18 26zM${t + 72} 152l14-20 14 20zM${t + 150} 152l16-24 16 24z`,
+              fill: a.white,
+            }),
+          })
+        : null,
+      e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M250 152l18-26 18 26zM282 152l14-20 14 20zM356 152l16-24 16 24z",
+            fill: a.white,
+          }),
+          e.jsx("path", { d: "M268 126v-8M372 128v-8", fill: "none" }),
+        ],
+      }),
+      e.jsx("path", { d: `M${t} 150H400v190H${t}z`, fill: a.mint2, ...x }),
+      e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M14 150V58h164v92", fill: a.lilac }),
+          e.jsx("path", { d: "M6 62l90-36 90 36z", fill: a.violet }),
+          e.jsx("rect", {
+            x: "26",
+            y: "74",
+            width: "140",
+            height: "64",
+            rx: "4",
+            fill: a.ink2,
+          }),
+          e.jsx("path", {
+            d: "M52 74l-22 64M140 74l22 64",
+            fill: "none",
+            stroke: a.magentaGlow,
+            strokeWidth: 10,
+            opacity: "0.55",
+          }),
+          e.jsx("rect", {
+            x: "18",
+            y: "104",
+            width: "16",
+            height: "44",
+            rx: "3",
+            fill: a.ink2,
+          }),
+          e.jsx("rect", {
+            x: "158",
+            y: "104",
+            width: "16",
+            height: "44",
+            rx: "3",
+            fill: a.ink2,
+          }),
+          e.jsx("circle", { cx: "26", cy: "116", r: "5", fill: a.slate }),
+          e.jsx("circle", { cx: "166", cy: "116", r: "5", fill: a.slate }),
+          e.jsx("circle", { cx: "52", cy: "72", r: "5", fill: a.magenta }),
+          e.jsx("circle", { cx: "96", cy: "70", r: "5", fill: a.cyan }),
+          e.jsx("circle", { cx: "140", cy: "72", r: "5", fill: a.magenta }),
+        ],
+      }),
+      e.jsx("path", {
+        d: "M186 64q100 30 214 14",
+        fill: "none",
+        ...x,
+        strokeWidth: 1.5,
+      }),
+      r.map((l, n) => {
+        const d = 196 + n * 23,
+          j = 64 + Math.sin((n / 8) * Math.PI) * 20 - n * 1.4;
+        return e.jsx(
+          "path",
+          { d: `M${d} ${j}h14l-7 12z`, fill: l, ...x, strokeWidth: 1.5 },
+          n,
+        );
+      }),
+    ],
+  });
+}
+function Qe({ left: t = 0 }) {
+  const s = `aa-sky-${v.useId().replace(/:/g, "")}`;
+  return e.jsxs("g", {
+    "data-backdrop": "airport",
+    children: [
+      e.jsx(se, { id: s, top: a.blue1, bottom: a.sky, left: t }),
+      e.jsxs("g", {
+        fill: a.white,
+        ...x,
+        strokeWidth: 2,
+        children: [
+          t < 0
+            ? e.jsx("path", {
+                d: `M${t + 60} 70c0-8 10-12 16-7 3-8 18-8 20 2 8 0 10 10 2 10H${t + 64}c-3 0-4-2-4-5z`,
+              })
+            : null,
+          e.jsx("path", {
+            d: "M40 46c0-8 10-12 16-7 3-8 18-8 20 2 8 0 10 10 2 10H44c-3 0-4-2-4-5z",
+          }),
+          e.jsx("path", {
+            d: "M250 30c0-6 8-9 12-5 2-6 14-6 15 1 6 0 8 8 2 8h-26c-2 0-3-2-3-4z",
+          }),
+        ],
+      }),
+      e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "336",
+            y: "54",
+            width: "18",
+            height: "96",
+            fill: a.slate,
+          }),
+          e.jsx("path", { d: "M322 54l8-24h30l8 24z", fill: a.cyanGlow }),
+          e.jsx("path", { d: "M318 54h54", fill: "none", strokeWidth: 3 }),
+          e.jsx("path", { d: "M345 30v-10", fill: "none" }),
+          e.jsx("circle", { cx: "345", cy: "18", r: "3", fill: a.magenta }),
+        ],
+      }),
+      e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", {
+            d: "M150 92h80l18 10h-12l-8 6-70 0c-6 0-10-4-10-8s2-8 2-8z",
+            fill: a.white,
+          }),
+          e.jsx("path", { d: "M222 92l10-20h10l-6 20z", fill: a.blue }),
+          e.jsx("path", { d: "M184 100l-14 18h12l22-18z", fill: a.blue2 }),
+          e.jsxs("g", {
+            fill: a.cyanGlow,
+            strokeWidth: 1.5,
+            children: [
+              e.jsx("circle", { cx: "166", cy: "99", r: "2.5" }),
+              e.jsx("circle", { cx: "176", cy: "99", r: "2.5" }),
+              e.jsx("circle", { cx: "186", cy: "99", r: "2.5" }),
+              e.jsx("circle", { cx: "196", cy: "99", r: "2.5" }),
+            ],
+          }),
+        ],
+      }),
+      e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("path", { d: "M0 108h130v42H0z", fill: a.blue1 }),
+          e.jsx("path", { d: "M0 108c20-14 110-14 130 0", fill: a.blue2 }),
+          e.jsxs("g", {
+            fill: a.cyanGlow,
+            strokeWidth: 2,
+            children: [
+              e.jsx("rect", {
+                x: "10",
+                y: "118",
+                width: "22",
+                height: "14",
+                rx: "2",
+              }),
+              e.jsx("rect", {
+                x: "40",
+                y: "118",
+                width: "22",
+                height: "14",
+                rx: "2",
+              }),
+              e.jsx("rect", {
+                x: "70",
+                y: "118",
+                width: "22",
+                height: "14",
+                rx: "2",
+              }),
+              e.jsx("rect", {
+                x: "100",
+                y: "118",
+                width: "22",
+                height: "14",
+                rx: "2",
+              }),
+            ],
+          }),
+        ],
+      }),
+      e.jsx("path", { d: `M${t} 150H400v190H${t}z`, fill: a.line, ...x }),
+      e.jsx("g", {
+        fill: a.white,
+        stroke: "none",
+        children: [-260, -190, -120, -50, 20, 90, 160, 230, 300, 370]
+          .filter((r) => r + 36 > t)
+          .map((r) =>
+            e.jsx(
+              "rect",
+              { x: r, y: "246", width: "36", height: "5", rx: "2" },
+              r,
+            ),
+          ),
+      }),
+    ],
+  });
+}
+function Ze({ left: t = 0 }) {
+  const s = `aa-sky-${v.useId().replace(/:/g, "")}`,
+    r = t < 0 ? `M${t} 124C${t + 90} 100 ${t / 2} 96 0 120` : "M0 120";
+  return e.jsxs("g", {
+    "data-backdrop": "farm",
+    children: [
+      e.jsx(se, { id: s, top: a.cream, bottom: a.paper, left: t }),
+      e.jsx(Me, { x: 64, y: 46 }),
+      e.jsx("path", {
+        d: `${r}c60-40 140-40 210-8 60-30 140-28 190 2v30H${t}z`,
+        fill: a.mint,
+        ...x,
+      }),
+      e.jsxs("g", {
+        ...x,
+        strokeWidth: 2,
+        children: [
+          e.jsx("path", {
+            d: "M232 118c40-22 110-22 168-2v36H232z",
+            fill: a.yellow,
+          }),
+          e.jsx("path", {
+            d: "M250 126c40-10 100-10 150 0M258 136c40-8 90-8 142 0",
+            fill: "none",
+            stroke: a.amber,
+          }),
+        ],
+      }),
+      e.jsx("path", { d: `M${t} 150H400v190H${t}z`, fill: a.mint2, ...x }),
+      e.jsxs("g", {
+        ...x,
+        children: [
+          e.jsx("rect", {
+            x: "150",
+            y: "70",
+            width: "26",
+            height: "80",
+            rx: "13",
+            fill: a.line,
+          }),
+          e.jsx("path", {
+            d: "M150 84h26M150 98h26",
+            fill: "none",
+            strokeWidth: 1.5,
+          }),
+          e.jsx("path", { d: "M84 150V92l34-26 34 26v58z", fill: a.peach }),
+          e.jsx("path", {
+            d: "M78 96l40-34 40 34",
+            fill: "none",
+            strokeWidth: 4,
+          }),
+          e.jsx("rect", {
+            x: "104",
+            y: "112",
+            width: "28",
+            height: "38",
+            fill: a.white,
+          }),
+          e.jsx("path", { d: "M104 112l28 38M132 112l-28 38", fill: "none" }),
+          e.jsx("rect", {
+            x: "111",
+            y: "80",
+            width: "14",
+            height: "12",
+            rx: "2",
+            fill: a.cream,
+          }),
+        ],
+      }),
+      e.jsx("g", {
+        ...x,
+        strokeWidth: 2,
+        fill: "none",
+        children: e.jsx("path", {
+          d: "M190 150v-20M214 150v-20M238 150v-20M190 136h48M190 144h48",
+        }),
+      }),
+    ],
+  });
+}
+function et({ org: t, left: s = 0 }) {
+  return t === "airport"
+    ? e.jsx(Qe, { left: s })
+    : t === "farm"
+      ? e.jsx(Ze, { left: s })
+      : e.jsx(Je, { left: s });
+}
+function tt({ org: t }) {
+  const s = Object.values(t.crew),
+    r = {
+      festival: ["scanner", "screen"],
+      airport: ["board", "belt"],
+      farm: ["drone", "milker"],
+    };
+  return e.jsxs("svg", {
+    className: "aa-scene",
+    viewBox: "0 0 400 260",
+    width: "100%",
+    role: "img",
+    "aria-label": t.name,
+    "data-org-scene": t.id,
+    children: [
+      e.jsx(et, { org: t.id }),
+      e.jsx(he, { icon: r[t.id][0], x: 196, y: 164, size: 70 }),
+      e.jsx(he, { icon: r[t.id][1], x: 286, y: 168, size: 66 }),
+      e.jsx("svg", {
+        x: "20",
+        y: "148",
+        width: "100",
+        height: "100",
+        viewBox: "0 0 120 120",
+        children: e.jsx($, { creature: s[0].creature, mood: "happy" }),
+      }),
+      e.jsx("svg", {
+        x: "104",
+        y: "160",
+        width: "86",
+        height: "86",
+        viewBox: "0 0 120 120",
+        children: e.jsx($, { creature: s[1].creature }),
+      }),
+    ],
+  });
+}
+function xe({ id: t, w: s, h: r }) {
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsx("defs", {
+        children: e.jsxs("pattern", {
+          id: t,
+          width: "32",
+          height: "32",
+          patternUnits: "userSpaceOnUse",
+          children: [
+            e.jsx("rect", { width: "32", height: "32", fill: a.paper }),
+            e.jsx("rect", {
+              width: "30",
+              height: "30",
+              fill: a.paper,
+              stroke: a.paper2,
+              strokeWidth: "2",
+            }),
+          ],
+        }),
+      }),
+      e.jsx("rect", { width: s, height: r, fill: `url(#${t})` }),
+    ],
+  });
+}
+function I({ x: t, y: s, fill: r, s: l = 1 }) {
+  return e.jsx("path", {
+    transform: `translate(${t} ${s}) scale(${l})`,
+    d: "M-4 -12h8v8h8v8h-8v8h-8v-8h-8v-8h8z",
+    fill: r,
+    stroke: a.ink,
+    strokeWidth: 2,
+    strokeLinejoin: "round",
+  });
+}
+function ue({ x: t, y: s, w: r }) {
+  const l = r * 1.45,
+    n = s + r * 0.34,
+    d = r * 0.56,
+    j = t + r * 0.1,
+    f = r * 0.8,
+    p = (c, o, h, g, u) =>
+      e.jsxs("g", {
+        children: [
+          e.jsx("text", {
+            x: j + f * 0.08,
+            y: n + c,
+            fontSize: u * 0.8,
+            fontWeight: "700",
+            fill: a.magentaGlow,
+            fontFamily: oe,
+            children: o,
+          }),
+          e.jsx("text", {
+            x: j + f * 0.08,
+            y: n + c + u * 1.1,
+            fontSize: u,
+            fontWeight: "700",
+            fill: g,
+            fontFamily: de,
+            children: h,
+          }),
+        ],
+      }),
+    i = r / 100;
+  return e.jsxs("g", {
+    "data-cabinet": !0,
+    children: [
+      e.jsx("ellipse", {
+        cx: t + r / 2,
+        cy: s + l + i * 2,
+        rx: r * 0.62,
+        ry: i * 5,
+        fill: a.ink,
+        opacity: "0.12",
+      }),
+      e.jsx("path", {
+        d: `M${t} ${s + i * 8}q0-${i * 8} ${i * 8}-${i * 8}h${r - i * 16}q${i * 8} 0 ${i * 8} ${i * 8}v${l - i * 8}h-${r}z`,
+        fill: a.violet,
+        ...x,
+        strokeWidth: 4,
+      }),
+      e.jsx("rect", {
+        x: t + i * 6,
+        y: s + i * 5,
+        width: r - i * 12,
+        height: i * 20,
+        rx: i * 4,
+        fill: a.magentaGlow,
+        ...x,
+        strokeWidth: 4,
+      }),
+      e.jsx("text", {
+        x: t + r / 2,
+        y: s + i * 18.5,
+        textAnchor: "middle",
+        fontSize: i * 10,
+        fontWeight: "700",
+        fill: a.ink,
+        fontFamily: oe,
+        children: "ADDRESS ARCADE",
+      }),
+      e.jsx("rect", {
+        x: j - i * 3,
+        y: n - i * 3,
+        width: f + i * 6,
+        height: d + i * 6,
+        rx: i * 5,
+        fill: a.ink,
+      }),
+      e.jsx("rect", {
+        x: j,
+        y: n,
+        width: f,
+        height: d,
+        rx: i * 3,
+        fill: a.ink2,
+      }),
+      p(i * 10, "IPv4", "84.17.3.12", a.cyanGlow, i * 6.4),
+      p(i * 28, "MAC", "3C:22:FB:9A:01:7E", a.yellow, i * 5.4),
+      e.jsxs("g", {
+        children: [
+          [0, 1, 2, 3, 4].map((c) =>
+            e.jsx(
+              "rect",
+              {
+                x: j + f * 0.08 + c * i * 9,
+                y: n + d - i * 11,
+                width: i * 6,
+                height: i * 6,
+                fill: c % 2 ? a.cyan : a.magenta,
+              },
+              c,
+            ),
+          ),
+          e.jsx("rect", {
+            x: j + f * 0.62,
+            y: n + d - i * 13,
+            width: i * 18,
+            height: i * 8,
+            rx: i * 2,
+            fill: a.mint,
+          }),
+        ],
+      }),
+      e.jsx("path", {
+        d: `M${t} ${n + d + i * 6}h${r}v${i * 20}h-${r}z`,
+        fill: a.lilac,
+        ...x,
+        strokeWidth: 4,
+      }),
+      e.jsxs("g", {
+        ...x,
+        strokeWidth: 3,
+        children: [
+          e.jsx("path", {
+            d: `M${t + r * 0.25} ${n + d + i * 16}v-${i * 8}`,
+            fill: "none",
+            strokeWidth: i * 2,
+          }),
+          e.jsx("circle", {
+            cx: t + r * 0.25,
+            cy: n + d + i * 7,
+            r: i * 4.5,
+            fill: a.magenta,
+          }),
+          e.jsx("circle", {
+            cx: t + r * 0.55,
+            cy: n + d + i * 16,
+            r: i * 4,
+            fill: a.cyan,
+          }),
+          e.jsx("circle", {
+            cx: t + r * 0.7,
+            cy: n + d + i * 13,
+            r: i * 4,
+            fill: a.yellow,
+          }),
+          e.jsx("circle", {
+            cx: t + r * 0.85,
+            cy: n + d + i * 16,
+            r: i * 4,
+            fill: a.mint,
+          }),
+        ],
+      }),
+      e.jsxs("g", {
+        ...x,
+        strokeWidth: 3,
+        children: [
+          e.jsx("rect", {
+            x: t + r * 0.32,
+            y: s + l - i * 34,
+            width: r * 0.36,
+            height: i * 22,
+            rx: i * 3,
+            fill: a.violetGlow,
+          }),
+          e.jsx("rect", {
+            x: t + r * 0.38,
+            y: s + l - i * 28,
+            width: i * 6,
+            height: i * 10,
+            rx: i * 1.5,
+            fill: a.yellow,
+          }),
+          e.jsx("rect", {
+            x: t + r * 0.56,
+            y: s + l - i * 28,
+            width: i * 6,
+            height: i * 10,
+            rx: i * 1.5,
+            fill: a.yellow,
+          }),
+        ],
+      }),
+      e.jsx("text", {
+        x: t + r / 2,
+        y: s + l - i * 4,
+        textAnchor: "middle",
+        fontSize: i * 4,
+        fontWeight: "700",
+        fill: a.cyanGlow,
+        fontFamily: de,
+        children: "2001:0DB8:85A3:0000:0000:8A2E:0370:7334",
+      }),
+    ],
+  });
+}
+function B({ cx: t, cy: s, r, fill: l }) {
+  return e.jsx("circle", { cx: t, cy: s, r, fill: l, opacity: "0.6" });
+}
+function st({ orgs: t }) {
+  const s = `aa-grid-${v.useId().replace(/:/g, "")}`,
+    r = (l, n) => Object.values(t[l].crew)[n].creature;
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsxs("svg", {
+        className: "game-landing-art game-landing-portrait",
+        viewBox: "0 0 900 1600",
+        preserveAspectRatio: "xMidYMid slice",
+        "aria-hidden": "true",
+        "data-variant": "portrait",
+        children: [
+          e.jsx(xe, { id: `${s}-p`, w: 900, h: 1600 }),
+          e.jsx(B, { cx: 450, cy: 620, r: 420, fill: a.magentaGlow }),
+          e.jsx(B, { cx: 300, cy: 980, r: 240, fill: a.cyanGlow }),
+          e.jsx("path", {
+            d: "M0 1180h900v420H0z",
+            fill: a.lilac,
+            stroke: a.ink,
+            strokeWidth: 4,
+          }),
+          e.jsx("g", {
+            fill: a.white,
+            opacity: "0.7",
+            children: Array.from({ length: 10 }, (l, n) =>
+              e.jsx(
+                "rect",
+                {
+                  x: n * 90 + (n % 2) * 20,
+                  y: 1240 + (n % 3) * 90,
+                  width: "44",
+                  height: "44",
+                  rx: "6",
+                },
+                n,
+              ),
+            ),
+          }),
+          e.jsx(ue, { x: 190, y: 210, w: 520 }),
+          e.jsx(I, { x: 120, y: 260, fill: a.yellow, s: 2 }),
+          e.jsx(I, { x: 790, y: 340, fill: a.cyan, s: 1.6 }),
+          e.jsx(I, { x: 110, y: 720, fill: a.magenta, s: 1.4 }),
+          e.jsx(I, { x: 800, y: 860, fill: a.yellow, s: 1.2 }),
+          e.jsx("svg", {
+            x: "20",
+            y: "1010",
+            width: "230",
+            height: "230",
+            viewBox: "0 0 120 120",
+            children: e.jsx($, { creature: r(0, 0), mood: "happy" }),
+          }),
+          e.jsx("svg", {
+            x: "650",
+            y: "1010",
+            width: "230",
+            height: "230",
+            viewBox: "0 0 120 120",
+            children: e.jsx($, { creature: r(1, 1), mood: "happy" }),
+          }),
+          e.jsx("svg", {
+            x: "690",
+            y: "80",
+            width: "170",
+            height: "170",
+            viewBox: "0 0 120 120",
+            children: e.jsx($, { creature: r(2, 2), mood: "happy" }),
+          }),
+        ],
+      }),
+      e.jsxs("svg", {
+        className: "game-landing-art game-landing-landscape",
+        viewBox: "0 0 1600 900",
+        preserveAspectRatio: "xMidYMid slice",
+        "aria-hidden": "true",
+        "data-variant": "landscape",
+        children: [
+          e.jsx(xe, { id: `${s}-l`, w: 1600, h: 900 }),
+          e.jsx(B, { cx: 800, cy: 380, r: 380, fill: a.magentaGlow }),
+          e.jsx(B, { cx: 1180, cy: 560, r: 220, fill: a.cyanGlow }),
+          e.jsx(B, { cx: 420, cy: 560, r: 220, fill: a.cyanGlow }),
+          e.jsx("path", {
+            d: "M0 680h1600v220H0z",
+            fill: a.lilac,
+            stroke: a.ink,
+            strokeWidth: 4,
+          }),
+          e.jsx("g", {
+            fill: a.white,
+            opacity: "0.7",
+            children: Array.from({ length: 16 }, (l, n) =>
+              e.jsx(
+                "rect",
+                {
+                  x: n * 100 + (n % 2) * 30,
+                  y: 710 + (n % 3) * 60,
+                  width: "40",
+                  height: "40",
+                  rx: "6",
+                },
+                n,
+              ),
+            ),
+          }),
+          e.jsx(ue, { x: 620, y: 60, w: 360 }),
+          e.jsx(I, { x: 300, y: 160, fill: a.yellow, s: 2 }),
+          e.jsx(I, { x: 1320, y: 130, fill: a.cyan, s: 1.8 }),
+          e.jsx(I, { x: 480, y: 300, fill: a.magenta, s: 1.3 }),
+          e.jsx(I, { x: 1150, y: 300, fill: a.yellow, s: 1.3 }),
+          e.jsx(I, { x: 200, y: 420, fill: a.cyan, s: 1.1 }),
+          e.jsx(I, { x: 1420, y: 430, fill: a.magenta, s: 1.2 }),
+          e.jsx("svg", {
+            x: "230",
+            y: "450",
+            width: "260",
+            height: "260",
+            viewBox: "0 0 120 120",
+            children: e.jsx($, { creature: r(0, 0), mood: "happy" }),
+          }),
+          e.jsx("svg", {
+            x: "1090",
+            y: "450",
+            width: "260",
+            height: "260",
+            viewBox: "0 0 120 120",
+            children: e.jsx($, { creature: r(1, 1), mood: "happy" }),
+          }),
+          e.jsx("svg", {
+            x: "1330",
+            y: "520",
+            width: "190",
+            height: "190",
+            viewBox: "0 0 120 120",
+            children: e.jsx($, { creature: r(2, 2), mood: "happy" }),
+          }),
+        ],
+      }),
+    ],
+  });
+}
+const Ne = ["festival", "airport", "farm"],
+  C = ["dial", "fix", "ipv6", "route", "rollout"],
+  at = {
+    id: "festival",
+    name: "Neon Fields Festival",
+    line: "Three stages, 40,000 fans, one muddy field.",
+    crew: {
+      gate: {
+        role: "Gate manager",
+        creature: {
+          shape: "blob",
+          fur: "#7dd8b5",
+          belly: "#e3f8ee",
+          top: "ears",
+          kit: "cap",
+        },
+      },
+      lights: {
+        role: "Lighting tech",
+        creature: {
+          shape: "bean",
+          fur: "#c9b8ff",
+          belly: "#fff8ec",
+          top: "antenna",
+          kit: "headset",
+        },
+      },
+      screen: {
+        role: "Production manager",
+        creature: {
+          shape: "box",
+          fur: "#ffb38a",
+          belly: "#fff1dc",
+          top: "horns",
+          kit: "hardhat",
+        },
+      },
+      tickets: {
+        role: "Box office lead",
+        creature: {
+          shape: "pear",
+          fur: "#9fc3e6",
+          belly: "#eaf2ff",
+          top: "tuft",
+          kit: "glasses",
+        },
+      },
+      bar: {
+        role: "Bar manager",
+        creature: {
+          shape: "drop",
+          fur: "#ff9fbf",
+          belly: "#fff8ec",
+          top: "ears",
+          kit: "bow",
+        },
+      },
+    },
+    asks: {
+      dial: {
+        from: "gate",
+        line: "Gate 3 has a new wristband scanner for our network, 81.2.69. Dial in a free last number.",
+      },
+      fix: {
+        from: "lights",
+        line: "The lighting desk will not join the network. Its address is wrong. Fix it.",
+      },
+      ipv6: {
+        from: "screen",
+        line: "The big screen uses IPv6. Two groups are missing. Fill the gaps.",
+      },
+      route: {
+        from: "tickets",
+        line: "These are the box office printer’s addresses. Which one does the switch use? Which one does the router use?",
+      },
+      rollout: {
+        from: "bar",
+        line: "2,000 card readers arrive for the bars. Each one needs its own address. Which kind?",
+      },
+    },
+    dial: {
+      name: "Gate 3 scanner",
+      icon: "scanner",
+      network: "81.2.69",
+      inUse: [1, 12, 40, 160],
+    },
+    fix: {
+      name: "Lighting desk",
+      icon: "desk",
+      broken: ["81", "2", "69", "300"],
+    },
+    ipv6: {
+      name: "Big screen",
+      icon: "screen",
+      groups: ["2001", "0DB8", "6C1E", null, "0042", null, "0370", "7334"],
+      tiles: ["4F1C", "G7K2", "09B2", "3F2A9"],
+    },
+    route: {
+      name: "Box office printer",
+      icon: "printer",
+      addresses: {
+        mac: "3C:22:FB:9A:01:7E",
+        ipv4: "81.2.69.160",
+        ipv6: "2001:0DB8:85A3:0000:0000:8A2E:0370:7334",
+      },
+    },
+    rollout: { count: 2e3, devices: "card readers", icon: "reader" },
+  },
+  rt = {
+    id: "airport",
+    name: "Northgate Airport",
+    line: "Two terminals, 200 flights a day, no room for delays.",
+    crew: {
+      gate: {
+        role: "Gate supervisor",
+        creature: {
+          shape: "pear",
+          fur: "#4a7bd0",
+          belly: "#e8f4ff",
+          top: "ears",
+          kit: "headset",
+        },
+      },
+      boards: {
+        role: "Flight info lead",
+        creature: {
+          shape: "box",
+          fur: "#c9b8ff",
+          belly: "#fff8ec",
+          top: "antenna",
+          kit: "glasses",
+        },
+      },
+      baggage: {
+        role: "Baggage controller",
+        creature: {
+          shape: "blob",
+          fur: "#f2a541",
+          belly: "#fff1dc",
+          top: "horns",
+          kit: "hardhat",
+        },
+      },
+      checkin: {
+        role: "Check-in lead",
+        creature: {
+          shape: "drop",
+          fur: "#7dd8b5",
+          belly: "#e3f8ee",
+          top: "tuft",
+          kit: "scarf",
+        },
+      },
+      duty: {
+        role: "Duty manager",
+        creature: {
+          shape: "bean",
+          fur: "#9aa6c4",
+          belly: "#ffffff",
+          top: "ears",
+          kit: "cap",
+        },
+      },
+    },
+    asks: {
+      dial: {
+        from: "gate",
+        line: "Gate 12 has a new boarding scanner for our network, 151.101.8. Dial in a free last number.",
+      },
+      fix: {
+        from: "boards",
+        line: "The departures board will not join the network. Its address is wrong. Fix it.",
+      },
+      ipv6: {
+        from: "baggage",
+        line: "Belt 4’s controller uses IPv6. Two groups are missing. Fill the gaps.",
+      },
+      route: {
+        from: "checkin",
+        line: "These are the check-in printer’s addresses. Which one does the switch use? Which one does the router use?",
+      },
+      rollout: {
+        from: "baggage",
+        line: "5,000 bag sensors arrive for the belts. Each one needs its own address. Which kind?",
+      },
+    },
+    dial: {
+      name: "Gate 12 scanner",
+      icon: "scanner",
+      network: "151.101.8",
+      inUse: [1, 9, 44, 120],
+    },
+    fix: {
+      name: "Departures board",
+      icon: "board",
+      broken: ["151", "101", "8", "256"],
+    },
+    ipv6: {
+      name: "Belt 4 controller",
+      icon: "belt",
+      groups: ["2001", "0DB8", "A0B3", null, "7E21", null, "00FF", "1A2C"],
+      tiles: ["K3P0", "5D9E", "0B7F2", "C04A"],
+    },
+    route: {
+      name: "Check-in printer",
+      icon: "printer",
+      addresses: {
+        mac: "A4:5E:60:C2:19:3B",
+        ipv4: "151.101.8.44",
+        ipv6: "2001:0DB8:4C2F:0000:0000:91A0:0BB2:0010",
+      },
+    },
+    rollout: { count: 5e3, devices: "bag sensors", icon: "sensor" },
+  },
+  it = {
+    id: "farm",
+    name: "Brookside Farm",
+    line: "120 cows, 40 fields, robots and drones.",
+    crew: {
+      herd: {
+        role: "Herd manager",
+        creature: {
+          shape: "blob",
+          fur: "#ffd166",
+          belly: "#fff8ec",
+          top: "horns",
+          kit: "cap",
+        },
+      },
+      field: {
+        role: "Field technician",
+        creature: {
+          shape: "drop",
+          fur: "#b9ebcf",
+          belly: "#ffffff",
+          top: "leaf",
+          kit: "scarf",
+        },
+      },
+      pilot: {
+        role: "Drone pilot",
+        creature: {
+          shape: "bean",
+          fur: "#9fc3e6",
+          belly: "#eaf2ff",
+          top: "antenna",
+          kit: "goggles",
+        },
+      },
+      dairy: {
+        role: "Dairy technician",
+        creature: {
+          shape: "box",
+          fur: "#ff9fbf",
+          belly: "#fff1dc",
+          top: "ears",
+          kit: "glasses",
+        },
+      },
+      manager: {
+        role: "Farm manager",
+        creature: {
+          shape: "pear",
+          fur: "#ffb38a",
+          belly: "#fff8ec",
+          top: "tuft",
+          kit: "none",
+        },
+      },
+    },
+    asks: {
+      dial: {
+        from: "herd",
+        line: "The robot milker is new to our network, 86.142.31. Dial in a free last number.",
+      },
+      fix: {
+        from: "field",
+        line: "The weather station will not join the network. Its address is wrong. Fix it.",
+      },
+      ipv6: {
+        from: "pilot",
+        line: "The crop drone uses IPv6. Two groups are missing. Fill the gaps.",
+      },
+      route: {
+        from: "dairy",
+        line: "These are the milk tank monitor’s addresses. Which one does the switch use? Which one does the router use?",
+      },
+      rollout: {
+        from: "manager",
+        line: "4,000 soil sensors arrive for the fields. Each one needs its own address. Which kind?",
+      },
+    },
+    dial: {
+      name: "Robot milker",
+      icon: "milker",
+      network: "86.142.31",
+      inUse: [1, 7, 30, 52],
+    },
+    fix: {
+      name: "Weather station",
+      icon: "weather",
+      broken: ["86", "142", "31", "14", "9"],
+    },
+    ipv6: {
+      name: "Crop drone",
+      icon: "drone",
+      groups: ["2001", "0DB8", "F00D", null, "0C1A", null, "5E77", "0002"],
+      tiles: ["2A6E", "MOO5", "1F4B0", "7C0D"],
+    },
+    route: {
+      name: "Milk tank monitor",
+      icon: "tank",
+      addresses: {
+        mac: "00:1B:63:84:45:E6",
+        ipv4: "86.142.31.7",
+        ipv6: "2001:0DB8:3E5A:0000:0000:7D2F:0A10:0C01",
+      },
+    },
+    rollout: { count: 4e3, devices: "soil sensors", icon: "sensor" },
+  },
+  Ae = { festival: at, airport: rt, farm: it };
+function fe(t) {
+  return Ae[t];
+}
+function Ie(t) {
+  return t
+    .map((s) => s.map(String).join(""))
+    .filter((s) => s !== "")
+    .map((s) => String(Number(s)));
+}
+function Ce(t) {
+  return Ie(t).join(".");
+}
+function $e(t) {
+  const s = Ie(t);
+  if (s.length !== 4) return { kind: "count", count: s.length };
+  const r = s.find((l) => Number(l) > 255);
+  return r ? { kind: "range", part: r } : null;
+}
+const lt = /^[0-9A-F]+$/i;
+function V(t) {
+  if (t.length !== 8 || t.some((s) => s === "")) return { kind: "missing" };
+  for (const s of t) {
+    const r = [...s].find((l) => !lt.test(l));
+    if (r) return { kind: "letter", group: s, char: r };
+    if (s.length > 4) return { kind: "long", group: s };
+  }
+  return null;
+}
+function nt(t) {
+  return t.join(":");
+}
+function F(t) {
+  switch (t.kind) {
+    case "count":
+      return `It has ${t.count === 1 ? "one number" : `${pe(t.count)} numbers`}. An IPv4 address has exactly four.`;
+    case "range":
+      return `${t.part} is more than 255. Each number in an IPv4 address is 0 to 255.`;
+    case "taken":
+      return `${t.address} is already in use. Each device on a network needs its own address.`;
+    case "letter":
+      return `${t.char} is not a hex digit. Hex only uses 0 to 9 and A to F.`;
+    case "long":
+      return `${t.group} has ${pe(t.group.length)} digits. Each IPv6 group has at most four.`;
+    case "missing":
+      return "A group is missing. An IPv6 address has eight groups.";
+  }
+}
+function pe(t) {
+  return (
+    ["no", "one", "two", "three", "four", "five", "six", "seven", "eight"][t] ??
+    String(t)
+  );
+}
+const _ =
+    "Four numbers, each 0 to 255, split by full stops: a valid IPv4 address.",
+  Se = "Eight groups of hex, split by colons: a valid IPv6 address.";
+function ct(t) {
+  return t === "ipv4" || t === "ipv6";
+}
+const je = { mac: "MAC address", ipv4: "IPv4 address", ipv6: "IPv6 address" },
+  We = "A switch delivers data inside the building by MAC address.",
+  Pe = "A router sends data between networks by IP address.";
+function Fe(t) {
+  return `Your network, ${t.dial.network}, only has last numbers 0 to 255: not enough for ${t.rollout.count.toLocaleString("en-GB")} ${t.rollout.devices}. IPv4 addresses have run out, so there are no more to get. IPv6 is 128-bit, so there are enough for every device.`;
+}
+function Be(t, s) {
+  return `${t.dial.network}.${Number(s.join(""))}`;
+}
+function Ee(t, s) {
+  const r = Number(s.join(""));
+  return r > 255
+    ? { kind: "range", part: String(r) }
+    : t.dial.inUse.includes(r)
+      ? { kind: "taken", address: Be(t, s) }
+      : null;
+}
+function D(t, s) {
+  return t === "switch" ? s === "mac" : ct(s);
+}
+function J(t, s, r) {
+  switch (t) {
+    case "dial": {
+      const l = Ee(s, r.dial);
+      return { right: !l, value: Be(s, r.dial), why: l ? F(l) : _ };
+    }
+    case "fix": {
+      const l = $e(r.fix);
+      return { right: !l, value: Ce(r.fix), why: l ? F(l) : _ };
+    }
+    case "ipv6": {
+      const l = V(r.ipv6);
+      return { right: !l, value: nt(r.ipv6), why: l ? F(l) : Se };
+    }
+    case "route": {
+      const { switch: l, router: n } = r.route;
+      return {
+        right: D("switch", l) && D("router", n),
+        value: `Switch: ${je[l]}, router: ${je[n]}`,
+        why: D("switch", l) ? Pe : We,
+      };
+    }
+    case "rollout":
+      return {
+        right: r.rollout === "ipv6",
+        value: r.rollout === "ipv6" ? "IPv6" : "IPv4",
+        why: Fe(s),
+      };
+  }
+}
+function ot(t) {
+  const s = [...t.ipv6.groups],
+    r = t.ipv6.tiles.filter((n) => !V(["0", "0", "0", "0", "0", "0", "0", n]));
+  let l = 0;
+  return {
+    dial: [0, 8, 4],
+    fix: t.fix.broken
+      .slice(0, 4)
+      .map((n) => [...String(Math.min(Number(n), 255))]),
+    ipv6: s.map((n) => n ?? r[l++] ?? ""),
+    route: { switch: "mac", router: "ipv4" },
+    rollout: "ipv6",
+  };
+}
+function dt(t, s = Math.random) {
+  const r = [...t];
+  for (let l = r.length - 1; l > 0; l -= 1) {
+    const n = Math.floor(s() * (l + 1));
+    [r[l], r[n]] = [r[n], r[l]];
+  }
+  return r;
+}
+const De = {
+  dial: "Dial it in",
+  fix: "Fix the address",
+  ipv6: "Fill the gaps",
+  route: "Switch and router",
+  rollout: "The big rollout",
+};
+function ht(t) {
+  return t >= 5
+    ? "High score!"
+    : t >= 3
+      ? "Nearly there"
+      : "Insert coin to retry";
+}
+const xt = 6;
+function U(t) {
+  const [s, r] = v.useState(null),
+    [l, n] = v.useState(null),
+    d = v.useRef(null),
+    j = v.useRef(new Map()),
+    f = v.useRef(!1);
+  function p(o, h) {
+    for (const [g, u] of j.current) {
+      const m = u.getBoundingClientRect();
+      if (o >= m.left && o <= m.right && h >= m.top && h <= m.bottom) return g;
+    }
+    return null;
+  }
+  const i = s?.moved ? s : null,
+    c = i ? d.current?.getBoundingClientRect() : void 0;
+  return {
+    root: d,
+    dragging: i?.item ?? null,
+    over: i ? l : null,
+    ghostStyle: i && c ? { left: i.x - c.left, top: i.y - c.top } : void 0,
+    slot: (o) => (h) => {
+      h ? j.current.set(o, h) : j.current.delete(o);
+    },
+    handle: (o) => ({
+      onPointerDown(h) {
+        if (((f.current = !1), h.pointerType === "mouse" && h.button !== 0))
+          return;
+        h.currentTarget.setPointerCapture?.(h.pointerId);
+        const { clientX: g, clientY: u } = h;
+        r({
+          item: o,
+          pointerId: h.pointerId,
+          startX: g,
+          startY: u,
+          x: g,
+          y: u,
+          moved: !1,
+        });
+      },
+      onPointerMove(h) {
+        if (!s || h.pointerId !== s.pointerId) return;
+        const { clientX: g, clientY: u } = h,
+          m = s.moved || Math.hypot(g - s.startX, u - s.startY) > xt;
+        (m && h.preventDefault(),
+          r({ ...s, x: g, y: u, moved: m }),
+          n(m ? p(g, u) : null));
+      },
+      onPointerUp(h) {
+        if (!s || h.pointerId !== s.pointerId || (r(null), n(null), !s.moved))
+          return;
+        ((f.current = !0),
+          setTimeout(() => {
+            f.current = !1;
+          }, 0));
+        const g = p(h.clientX, h.clientY);
+        g && t(s.item, g);
+      },
+      onPointerCancel() {
+        (r(null), n(null));
+      },
+    }),
+    endedDrag() {
+      const o = f.current;
+      return ((f.current = !1), o);
+    },
+  };
+}
+const ut =
+    /\b(IPv4|IPv6|IP address(?:es)?|MAC address(?:es)?|hexadecimal|hex|denary)\b/i,
+  K = (t) => Ke(t, ut, "aa-keyword");
+function T({ right: t, why: s }) {
+  return e.jsx("div", {
+    className: "aa-result aa-verdict",
+    "data-tone": t ? "good" : "bad",
+    "aria-live": "polite",
+    children: e.jsxs("p", {
+      className: "aa-feedback",
+      children: [
+        e.jsx(te, { good: t, label: t ? "Right" : "Not quite" }),
+        e.jsx("span", { children: K(s) }),
+      ],
+    }),
+  });
+}
+function Y({ ready: t, onClick: s, children: r = "Lock in" }) {
+  return e.jsx("div", {
+    className: "aa-actions",
+    children: e.jsx("button", {
+      type: "button",
+      className: "aa-btn aa-primary",
+      disabled: !t,
+      onClick: s,
+      "data-lock-in": !0,
+      children: r,
+    }),
+  });
+}
+function ae({ icon: t, name: s, address: r, valid: l }) {
+  return e.jsxs("div", {
+    className: "aa-stage",
+    children: [
+      e.jsxs("p", {
+        className: "aa-readout",
+        "aria-live": "polite",
+        "data-valid": l === void 0 ? void 0 : String(l),
+        children: [
+          e.jsx(S, { text: r || "–" }),
+          l === void 0 ? null : e.jsx(ft, { valid: l }),
+        ],
+      }),
+      e.jsx("span", { className: "aa-stage-tether", "aria-hidden": "true" }),
+      e.jsx(z, { icon: t, label: s }),
+      e.jsx("span", { className: "aa-stage-name", children: s }),
+    ],
+  });
+}
+function ft({ valid: t }) {
+  return e.jsx("svg", {
+    className: "aa-valid-glyph",
+    viewBox: "0 0 16 16",
+    "aria-hidden": "true",
+    children: t
+      ? e.jsx("path", {
+          d: "M3 8.5l3.2 3.2L13 4.8",
+          fill: "none",
+          stroke: "currentColor",
+          strokeWidth: "2.5",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        })
+      : e.jsx("path", {
+          d: "M4 4l8 8M12 4l-8 8",
+          stroke: "currentColor",
+          strokeWidth: "2.5",
+          strokeLinecap: "round",
+        }),
+  });
+}
+const pt = ["Hundreds", "Tens", "Units"];
+function S({ text: t, className: s }) {
+  const r = t.split(":");
+  return e.jsx("code", {
+    className: s ? `aa-address-text ${s}` : "aa-address-text",
+    children: r.map((l, n) =>
+      e.jsxs(
+        "span",
+        {
+          children: [
+            l,
+            n < r.length - 1
+              ? e.jsxs(e.Fragment, { children: [":", e.jsx("wbr", {})] })
+              : null,
+          ],
+        },
+        n,
+      ),
+    ),
+  });
+}
+function jt({ value: t, place: s, onChange: r }) {
+  const l = v.useRef(null),
+    n = (i) => r((t + i + 10) % 10);
+  function d(i) {
+    if (i.key === "ArrowUp") n(1);
+    else if (i.key === "ArrowDown") n(-1);
+    else if (/^[0-9]$/.test(i.key)) r(Number(i.key));
+    else return;
+    i.preventDefault();
+  }
+  function j(i) {
+    ((l.current = { y: i.clientY, id: i.pointerId }),
+      i.currentTarget.setPointerCapture?.(i.pointerId));
+  }
+  function f(i) {
+    const c = l.current;
+    if (!c || c.id !== i.pointerId) return;
+    const o = c.y - i.clientY;
+    Math.abs(o) >= 22 &&
+      (n(o > 0 ? 1 : -1), (l.current = { ...c, y: i.clientY }));
+  }
+  function p() {
+    l.current = null;
+  }
+  return e.jsxs("div", {
+    className: "aa-wheel",
+    children: [
+      e.jsx("button", {
+        type: "button",
+        className: "aa-wheel-step",
+        "aria-label": `${s} up`,
+        onClick: () => n(1),
+        children: e.jsx("svg", {
+          viewBox: "0 0 24 24",
+          width: "22",
+          height: "22",
+          "aria-hidden": "true",
+          children: e.jsx("path", {
+            d: "M5 15l7-7 7 7",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "3",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }),
+        }),
+      }),
+      e.jsxs("div", {
+        className: "aa-wheel-window",
+        role: "spinbutton",
+        tabIndex: 0,
+        "aria-label": s,
+        "aria-valuemin": 0,
+        "aria-valuemax": 9,
+        "aria-valuenow": t,
+        onKeyDown: d,
+        onPointerDown: j,
+        onPointerMove: f,
+        onPointerUp: p,
+        onPointerCancel: p,
+        children: [
+          e.jsx("span", {
+            className: "aa-wheel-side",
+            "aria-hidden": "true",
+            children: (t + 1) % 10,
+          }),
+          e.jsx("span", { className: "aa-wheel-now aa-digits", children: t }),
+          e.jsx("span", {
+            className: "aa-wheel-side",
+            "aria-hidden": "true",
+            children: (t + 9) % 10,
+          }),
+        ],
+      }),
+      e.jsx("button", {
+        type: "button",
+        className: "aa-wheel-step",
+        "aria-label": `${s} down`,
+        onClick: () => n(-1),
+        children: e.jsx("svg", {
+          viewBox: "0 0 24 24",
+          width: "22",
+          height: "22",
+          "aria-hidden": "true",
+          children: e.jsx("path", {
+            d: "M5 9l7 7 7-7",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "3",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }),
+        }),
+      }),
+    ],
+  });
+}
+function gt({ org: t, onDone: s }) {
+  const [r, l] = v.useState([0, 0, 0]),
+    [n, d] = v.useState(!1),
+    j = String(Number(r.join(""))),
+    f = t.dial.network.split("."),
+    p = n ? Ee(t, r) : null;
+  function i(c, o) {
+    (l((h) => h.map((g, u) => (u === c ? o : g))), d(!0));
+  }
+  return e.jsxs("div", {
+    className: "aa-dial",
+    "data-level-body": "dial",
+    children: [
+      e.jsx(ae, {
+        icon: t.dial.icon,
+        name: t.dial.name,
+        address: `${t.dial.network}.${n ? j : "?"}`,
+        valid: n ? p === null : void 0,
+      }),
+      e.jsxs("div", {
+        className: "aa-octets",
+        role: "group",
+        "aria-label": "IPv4 address",
+        children: [
+          f.map((c, o) =>
+            e.jsxs(
+              "span",
+              {
+                className: "aa-octet-wrap",
+                children: [
+                  e.jsx("span", {
+                    className: "aa-octet aa-digits",
+                    "data-fixed": !0,
+                    children: c,
+                  }),
+                  e.jsx("span", {
+                    className: "aa-dot",
+                    "aria-hidden": "true",
+                    children: ".",
+                  }),
+                ],
+              },
+              o,
+            ),
+          ),
+          e.jsx("span", {
+            className: "aa-octet aa-digits",
+            "data-octet": 3,
+            "data-valid": n ? String(p === null) : void 0,
+            children: n ? j : "?",
+          }),
+        ],
+      }),
+      e.jsxs("div", {
+        className: "aa-in-use",
+        children: [
+          e.jsx("h3", { className: "aa-in-use-title", children: "In use" }),
+          e.jsx("ul", {
+            children: t.dial.inUse.map((c) =>
+              e.jsx(
+                "li",
+                {
+                  children: e.jsx("code", {
+                    children: `${t.dial.network}.${c}`,
+                  }),
+                },
+                c,
+              ),
+            ),
+          }),
+        ],
+      }),
+      e.jsx("div", {
+        className: "aa-wheels",
+        role: "group",
+        "aria-label": "Last number",
+        "data-wheels": 3,
+        children: pt.map((c, o) =>
+          e.jsx(jt, { place: c, value: r[o], onChange: (h) => i(o, h) }, c),
+        ),
+      }),
+      n ? e.jsx(T, { right: p === null, why: p ? F(p) : _ }) : null,
+      e.jsx(Y, { ready: n, onClick: () => s(r) }),
+    ],
+  });
+}
+const mt = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", ""];
+function yt(t) {
+  const s = [...t];
+  for (; s.length < 3;) s.unshift("");
+  return s;
+}
+function ge(t) {
+  return t === "" ? "Clear" : t;
+}
+function me() {
+  return e.jsxs("svg", {
+    className: "aa-clear-glyph",
+    viewBox: "0 0 28 20",
+    "aria-hidden": "true",
+    children: [
+      e.jsx("path", {
+        d: "M9 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H9L1 10z",
+        fill: "none",
+        stroke: "currentColor",
+        strokeWidth: "2.5",
+        strokeLinejoin: "round",
+      }),
+      e.jsx("path", {
+        d: "M13 6.5l7 7M20 6.5l-7 7",
+        stroke: "currentColor",
+        strokeWidth: "2.5",
+        strokeLinecap: "round",
+      }),
+    ],
+  });
+}
+function vt({ org: t, onDone: s }) {
+  const r = () => t.fix.broken.map(yt),
+    [l, n] = v.useState(r),
+    [d, j] = v.useState(null);
+  function f(o, h) {
+    const [g, u] = h.split("-").map(Number);
+    (n((m) =>
+      m.map((k, N) => (N === g ? k.map((W, q) => (q === u ? o : W)) : k)),
+    ),
+      j(null));
+  }
+  function p(o) {
+    (n((h) => h.filter((g, u) => u !== o)), j(null));
+  }
+  const i = U((o, h) => f(o.slice(1), h)),
+    c = $e(l);
+  return e.jsxs("div", {
+    ref: i.root,
+    className: "aa-fix",
+    "data-level-body": "fix",
+    "data-dragging": i.dragging ?? void 0,
+    children: [
+      e.jsx(ae, {
+        icon: t.fix.icon,
+        name: t.fix.name,
+        address: Ce(l),
+        valid: c === null,
+      }),
+      e.jsx("div", {
+        className: "aa-cells",
+        role: "group",
+        "aria-label": "Address",
+        children: l.map((o, h) =>
+          e.jsxs(
+            "span",
+            {
+              className: "aa-cell-group",
+              children: [
+                e.jsxs("span", {
+                  className: "aa-cell-number",
+                  children: [
+                    e.jsx("span", {
+                      className: "aa-cell-row",
+                      children: o.map((g, u) => {
+                        const m = `${h}-${u}`;
+                        return e.jsx(
+                          "button",
+                          {
+                            type: "button",
+                            ref: i.slot(m),
+                            className: "aa-cell aa-digits",
+                            "data-cell": m,
+                            "data-empty": g === "" || void 0,
+                            "data-over": i.over === m || void 0,
+                            "aria-pressed":
+                              d !== null && "cell" in d && d.cell === m,
+                            "aria-label": `Number ${h + 1}, digit ${u + 1}: ${g === "" ? "empty" : g}`,
+                            onClick: () => {
+                              d && "tile" in d
+                                ? f(d.tile, m)
+                                : j(
+                                    d && "cell" in d && d.cell === m
+                                      ? null
+                                      : { cell: m },
+                                  );
+                            },
+                            children: g,
+                          },
+                          m,
+                        );
+                      }),
+                    }),
+                    e.jsx("button", {
+                      type: "button",
+                      className: "aa-remove-number",
+                      "aria-label": `Remove number ${h + 1}`,
+                      onClick: () => p(h),
+                      children: e.jsx("svg", {
+                        viewBox: "0 0 16 16",
+                        width: "14",
+                        height: "14",
+                        "aria-hidden": "true",
+                        children: e.jsx("path", {
+                          d: "M4 4l8 8M12 4l-8 8",
+                          stroke: "currentColor",
+                          strokeWidth: "2.5",
+                          strokeLinecap: "round",
+                        }),
+                      }),
+                    }),
+                  ],
+                }),
+                h < l.length - 1
+                  ? e.jsx("span", {
+                      className: "aa-dot",
+                      "aria-hidden": "true",
+                      children: ".",
+                    })
+                  : null,
+              ],
+            },
+            h,
+          ),
+        ),
+      }),
+      e.jsx("div", {
+        className: "aa-tray aa-digit-tray",
+        role: "group",
+        "aria-label": "Digit tiles",
+        children: mt.map((o) =>
+          e.jsx(
+            "button",
+            {
+              type: "button",
+              className: "aa-tile aa-digits",
+              "data-tile": ge(o),
+              "data-blank": o === "" || void 0,
+              "aria-pressed": d !== null && "tile" in d && d.tile === o,
+              "aria-label": o === "" ? "Clear tile" : `Tile ${o}`,
+              ...i.handle(`t${o}`),
+              onClick: () => {
+                i.endedDrag() ||
+                  (d && "cell" in d
+                    ? f(o, d.cell)
+                    : j(d && "tile" in d && d.tile === o ? null : { tile: o }));
+              },
+              children: o === "" ? e.jsx(me, {}) : o,
+            },
+            ge(o),
+          ),
+        ),
+      }),
+      e.jsx(T, { right: c === null, why: c ? F(c) : _ }),
+      e.jsxs("div", {
+        className: "aa-actions aa-actions-split",
+        children: [
+          e.jsx("button", {
+            type: "button",
+            className: "aa-btn",
+            onClick: () => {
+              (n(r()), j(null));
+            },
+            children: "Start again",
+          }),
+          e.jsx("button", {
+            type: "button",
+            className: "aa-btn aa-primary",
+            onClick: () => s(l),
+            "data-lock-in": !0,
+            children: "Lock in",
+          }),
+        ],
+      }),
+      i.dragging !== null && i.ghostStyle
+        ? e.jsx("div", {
+            className: "aa-ghost aa-tile aa-digits",
+            "aria-hidden": "true",
+            style: i.ghostStyle,
+            children:
+              i.dragging.slice(1) === "" ? e.jsx(me, {}) : i.dragging.slice(1),
+          })
+        : null,
+    ],
+  });
+}
+function wt(t) {
+  return V(["0", "0", "0", "0", "0", "0", "0", t]) === null;
+}
+function bt({ org: t, onDone: s }) {
+  const r = t.ipv6.groups.flatMap((u, m) => (u === null ? [m] : [])),
+    [l, n] = v.useState(() => Object.fromEntries(r.map((u) => [u, null]))),
+    [d, j] = v.useState(null),
+    f = new Set(Object.values(l).filter((u) => u !== null)),
+    p = t.ipv6.tiles.filter((u) => !f.has(u));
+  function i(u, m) {
+    (n((k) => {
+      const N = { ...k };
+      for (const W of Object.keys(N))
+        N[Number(W)] === u && (N[Number(W)] = null);
+      return ((N[m] = u), N);
+    }),
+      j(null));
+  }
+  const c = U((u, m) => i(u, Number(m))),
+    o = t.ipv6.groups.map((u, m) => u ?? l[m] ?? ""),
+    h = r.every((u) => l[u]),
+    g = h ? V(o) : null;
+  return e.jsxs("div", {
+    ref: c.root,
+    className: "aa-v6",
+    "data-level-body": "ipv6",
+    "data-dragging": c.dragging ?? void 0,
+    children: [
+      e.jsx(ae, {
+        icon: t.ipv6.icon,
+        name: t.ipv6.name,
+        address: o.map((u) => u || "____").join(":"),
+        valid: h ? g === null : void 0,
+      }),
+      e.jsx("div", {
+        className: "aa-groups",
+        role: "group",
+        "aria-label": "IPv6 address",
+        children: t.ipv6.groups.map((u, m) =>
+          e.jsxs(
+            "span",
+            {
+              className: "aa-group-wrap",
+              children: [
+                u !== null
+                  ? e.jsx("span", { className: "aa-group", children: u })
+                  : e.jsx("button", {
+                      type: "button",
+                      ref: c.slot(String(m)),
+                      className: "aa-group aa-gap",
+                      "data-gap": m,
+                      "data-filled": l[m] ? !0 : void 0,
+                      "data-valid": l[m] ? String(wt(l[m])) : void 0,
+                      "data-over": c.over === String(m) || void 0,
+                      "aria-label": `Gap ${r.indexOf(m) + 1}: ${l[m] ?? "empty"}`,
+                      onClick: () => {
+                        d ? i(d, m) : l[m] && n((k) => ({ ...k, [m]: null }));
+                      },
+                      children: l[m] ?? "",
+                    }),
+                m < 7
+                  ? e.jsx("span", {
+                      className: "aa-colon",
+                      "aria-hidden": "true",
+                      children: ":",
+                    })
+                  : null,
+              ],
+            },
+            m,
+          ),
+        ),
+      }),
+      e.jsx("div", {
+        className: "aa-tray",
+        role: "group",
+        "aria-label": "Hex groups",
+        children: p.map((u) =>
+          e.jsx(
+            "button",
+            {
+              type: "button",
+              className: "aa-tile aa-hex",
+              "data-tile": u,
+              "aria-pressed": d === u,
+              ...c.handle(u),
+              onClick: () => {
+                c.endedDrag() || j(d === u ? null : u);
+              },
+              children: u,
+            },
+            u,
+          ),
+        ),
+      }),
+      h ? e.jsx(T, { right: g === null, why: g ? F(g) : Se }) : null,
+      e.jsx(Y, { ready: h, onClick: () => s(o) }),
+      c.dragging && c.ghostStyle
+        ? e.jsx("div", {
+            className: "aa-ghost aa-tile aa-hex",
+            "aria-hidden": "true",
+            style: c.ghostStyle,
+            children: c.dragging,
+          })
+        : null,
+    ],
+  });
+}
+const kt = {
+    festival: ["ipv6", "mac", "ipv4"],
+    airport: ["mac", "ipv4", "ipv6"],
+    farm: ["ipv4", "ipv6", "mac"],
+  },
+  Mt = [
+    { id: "switch", name: "Switch", where: "Inside the building", why: We },
+    { id: "router", name: "Router", where: "Between networks", why: Pe },
+  ];
+function Nt({ org: t, onDone: s }) {
+  const [r, l] = v.useState({ switch: null, router: null }),
+    [n, d] = v.useState(null),
+    j = kt[t.id].filter((c) => r.switch !== c && r.router !== c);
+  function f(c, o) {
+    (l((h) => {
+      const g = { ...h };
+      return (
+        g.switch === c && (g.switch = null),
+        g.router === c && (g.router = null),
+        (g[o] = c),
+        g
+      );
+    }),
+      d(null));
+  }
+  const p = U(f),
+    i = (c) => t.route.addresses[c];
+  return e.jsxs("div", {
+    ref: p.root,
+    className: "aa-route",
+    "data-level-body": "route",
+    "data-dragging": p.dragging ?? void 0,
+    children: [
+      e.jsxs("div", {
+        className: "aa-device-tag",
+        children: [
+          e.jsx(z, { icon: t.route.icon, label: t.route.name }),
+          e.jsx("span", { children: t.route.name }),
+        ],
+      }),
+      e.jsx("div", {
+        className: "aa-tray aa-address-tray",
+        role: "group",
+        "aria-label": `${t.route.name} addresses`,
+        children: j.map((c) =>
+          e.jsx(
+            "button",
+            {
+              type: "button",
+              className: "aa-tile aa-address",
+              "data-tile": c,
+              "aria-label": i(c),
+              "aria-pressed": n === c,
+              ...p.handle(c),
+              onClick: () => {
+                p.endedDrag() || d(n === c ? null : c);
+              },
+              children: e.jsx(S, { text: i(c) }),
+            },
+            c,
+          ),
+        ),
+      }),
+      e.jsx("div", {
+        className: "aa-boxes",
+        children: Mt.map((c) => {
+          const o = r[c.id];
+          return e.jsxs(
+            "div",
+            {
+              className: "aa-box",
+              "data-box": c.id,
+              children: [
+                e.jsxs("div", {
+                  className: "aa-box-head",
+                  children: [
+                    e.jsx(z, { icon: c.id, label: "" }),
+                    e.jsxs("div", {
+                      children: [
+                        e.jsx("h3", { children: c.name }),
+                        e.jsx("p", { children: c.where }),
+                      ],
+                    }),
+                  ],
+                }),
+                e.jsx("button", {
+                  type: "button",
+                  ref: p.slot(c.id),
+                  className: "aa-drop",
+                  "data-drop": c.id,
+                  "data-filled": o ? !0 : void 0,
+                  "data-valid": o ? String(D(c.id, o)) : void 0,
+                  "data-over": p.over === c.id || void 0,
+                  "aria-label": `${c.name}: ${o ? i(o) : "empty"}`,
+                  "aria-pressed": o !== null && n === o,
+                  ...(o ? p.handle(o) : {}),
+                  onClick: () => {
+                    p.endedDrag() ||
+                      (n && n === o
+                        ? (l((h) => ({ ...h, [c.id]: null })), d(null))
+                        : n
+                          ? f(n, c.id)
+                          : o && d(o));
+                  },
+                  children: o ? e.jsx(S, { text: i(o) }) : null,
+                }),
+                o ? e.jsx(T, { right: D(c.id, o), why: c.why }) : null,
+              ],
+            },
+            c.id,
+          );
+        }),
+      }),
+      e.jsx(Y, {
+        ready: r.switch !== null && r.router !== null,
+        onClick: () => {
+          r.switch && r.router && s({ switch: r.switch, router: r.router });
+        },
+      }),
+      p.dragging && p.ghostStyle
+        ? e.jsx("div", {
+            className: "aa-ghost aa-tile aa-address",
+            "aria-hidden": "true",
+            style: p.ghostStyle,
+            children: e.jsx(S, { text: i(p.dragging) }),
+          })
+        : null,
+    ],
+  });
+}
+const At = { ipv4: "IPv4", ipv6: "IPv6", none: "Not set" };
+function It({ org: t, onDone: s }) {
+  const [r, l] = v.useState(null),
+    [n, d] = v.useState(null),
+    j = v.useRef(null),
+    f = n ?? (r === "ipv4" ? 0 : r === "ipv6" ? 1 : 0.5);
+  function p(c) {
+    const o = j.current?.getBoundingClientRect();
+    return !o || o.width === 0
+      ? 0.5
+      : Math.min(1, Math.max(0, (c - o.left) / o.width));
+  }
+  function i(c) {
+    if (c.key === "ArrowLeft" || c.key === "Home") l("ipv4");
+    else if (c.key === "ArrowRight" || c.key === "End") l("ipv6");
+    else return;
+    c.preventDefault();
+  }
+  return e.jsxs("div", {
+    className: "aa-rollout",
+    "data-level-body": "rollout",
+    children: [
+      e.jsxs("div", {
+        className: "aa-crowd",
+        "aria-label": `${t.rollout.count.toLocaleString("en-GB")} ${t.rollout.devices}`,
+        role: "img",
+        children: [
+          e.jsx("div", {
+            className: "aa-crowd-icons",
+            "aria-hidden": "true",
+            children: Array.from({ length: 12 }, (c, o) =>
+              e.jsx(z, { icon: t.rollout.icon, label: "" }, o),
+            ),
+          }),
+          e.jsxs("p", {
+            className: "aa-crowd-count",
+            "aria-hidden": "true",
+            children: [
+              e.jsx("span", {
+                className: "aa-digits",
+                children: t.rollout.count.toLocaleString("en-GB"),
+              }),
+              " ",
+              t.rollout.devices,
+            ],
+          }),
+        ],
+      }),
+      e.jsxs("div", {
+        className: "aa-lever",
+        "data-choice": r ?? "none",
+        children: [
+          e.jsxs("button", {
+            type: "button",
+            className: "aa-lever-end",
+            "data-end": "ipv4",
+            "data-valid": r === "ipv4" ? "false" : void 0,
+            "aria-pressed": r === "ipv4",
+            onClick: () => l("ipv4"),
+            children: [
+              e.jsx("strong", { children: "IPv4" }),
+              e.jsx("span", { children: "32-bit" }),
+            ],
+          }),
+          e.jsx("div", {
+            ref: j,
+            className: "aa-lever-track",
+            children: e.jsx("div", {
+              className: "aa-lever-knob",
+              role: "slider",
+              tabIndex: 0,
+              "aria-label": "IPv4 or IPv6",
+              "aria-valuemin": 0,
+              "aria-valuemax": 2,
+              "aria-valuenow": r === "ipv4" ? 0 : r === "ipv6" ? 2 : 1,
+              "aria-valuetext": At[r ?? "none"],
+              style: { left: `${f * 100}%` },
+              "data-dragging": n !== null || void 0,
+              onKeyDown: i,
+              onPointerDown: (c) => {
+                (c.currentTarget.setPointerCapture?.(c.pointerId), d(f));
+              },
+              onPointerMove: (c) => {
+                n !== null && d(p(c.clientX));
+              },
+              onPointerUp: () => {
+                n !== null &&
+                  (n < 0.4 ? l("ipv4") : n > 0.6 && l("ipv6"), d(null));
+              },
+              onPointerCancel: () => d(null),
+            }),
+          }),
+          e.jsxs("button", {
+            type: "button",
+            className: "aa-lever-end",
+            "data-end": "ipv6",
+            "data-valid": r === "ipv6" ? "true" : void 0,
+            "aria-pressed": r === "ipv6",
+            onClick: () => l("ipv6"),
+            children: [
+              e.jsx("strong", { children: "IPv6" }),
+              e.jsx("span", { children: "128-bit" }),
+            ],
+          }),
+        ],
+      }),
+      r ? e.jsx(T, { right: r === "ipv6", why: Fe(t) }) : null,
+      e.jsx(Y, { ready: r !== null, onClick: () => r && s(r) }),
+    ],
+  });
+}
+const y = {
+    ink: "#1f2a44",
+    muted: "#5a6684",
+    line: "#cfd6e4",
+    white: "#ffffff",
+    paper: "#fff8ec",
+    blue2: "#9fc3e6",
+    mint2: "#b9ebcf",
+    pink: "#ff9fbf",
+    lilac: "#c9b8ff",
+    violet: "#6b3fd4",
+    magenta: "#e05bd0",
+    cyanGlow: "#c2f5fb",
+  },
+  b = {
+    stroke: y.ink,
+    strokeWidth: 2.5,
+    strokeLinejoin: "round",
+    strokeLinecap: "round",
+  },
+  G = "ui-monospace, 'Cascadia Mono', Consolas, monospace";
+function X({ children: t }) {
+  return e.jsx("svg", { viewBox: "0 0 160 110", width: "100%", children: t });
+}
+function Ge({ x: t, y: s, look: r = [0, 0], mouth: l = "smile" }) {
+  const [n, d] = r;
+  return e.jsxs("g", {
+    children: [
+      e.jsx("circle", {
+        cx: t - 7,
+        cy: s,
+        r: "4",
+        fill: y.white,
+        ...b,
+        strokeWidth: 2,
+      }),
+      e.jsx("circle", {
+        cx: t + 7,
+        cy: s,
+        r: "4",
+        fill: y.white,
+        ...b,
+        strokeWidth: 2,
+      }),
+      e.jsx("circle", { cx: t - 7 + n, cy: s + d, r: "1.8", fill: y.ink }),
+      e.jsx("circle", { cx: t + 7 + n, cy: s + d, r: "1.8", fill: y.ink }),
+      e.jsx("circle", { cx: t - 12, cy: s + 7, r: "2.4", fill: y.pink }),
+      e.jsx("circle", { cx: t + 12, cy: s + 7, r: "2.4", fill: y.pink }),
+      l === "o"
+        ? e.jsx("circle", { cx: t, cy: s + 9, r: "2.2", fill: y.ink })
+        : e.jsx("path", {
+            d: `M${t - 4} ${s + 8}q4 4 8 0`,
+            fill: "none",
+            ...b,
+            strokeWidth: 2,
+          }),
+    ],
+  });
+}
+function Le({ x: t, y: s, look: r, mouth: l }) {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("rect", {
+        x: t - 24,
+        y: s,
+        width: "48",
+        height: "34",
+        rx: "4",
+        fill: y.cyanGlow,
+        ...b,
+      }),
+      e.jsx("path", {
+        d: `M${t - 30} ${s + 42}l6 -8h48l6 8z`,
+        fill: y.lilac,
+        ...b,
+      }),
+      e.jsx(Ge, { x: t, y: s + 14, look: r, mouth: l }),
+    ],
+  });
+}
+function ze({ x: t, y: s }) {
+  return e.jsxs("g", {
+    children: [
+      e.jsx("path", {
+        d: `M${t - 14} ${s}v-12M${t + 14} ${s}v-12`,
+        fill: "none",
+        ...b,
+        strokeWidth: 3,
+      }),
+      e.jsx("circle", {
+        cx: t - 14,
+        cy: s - 13,
+        r: "2.5",
+        fill: y.magenta,
+        ...b,
+        strokeWidth: 2,
+      }),
+      e.jsx("circle", {
+        cx: t + 14,
+        cy: s - 13,
+        r: "2.5",
+        fill: y.magenta,
+        ...b,
+        strokeWidth: 2,
+      }),
+      e.jsx("rect", {
+        x: t - 26,
+        y: s,
+        width: "52",
+        height: "32",
+        rx: "8",
+        fill: y.lilac,
+        ...b,
+      }),
+      e.jsx(Ge, { x: t, y: s + 13 }),
+    ],
+  });
+}
+function Q({ parts: t, x: s, y: r, w: l, h: n, sep: d, fill: j, size: f }) {
+  const i = s - (t.length * l + (t.length - 1) * 7) / 2;
+  return e.jsx("g", {
+    children: t.map((c, o) => {
+      const h = i + o * (l + 7);
+      return e.jsxs(
+        "g",
+        {
+          children: [
+            e.jsx("rect", {
+              x: h,
+              y: r,
+              width: l,
+              height: n,
+              rx: "5",
+              fill: j,
+              ...b,
+              strokeWidth: 2,
+            }),
+            e.jsx("text", {
+              x: h + l / 2,
+              y: r + n / 2 + f * 0.36,
+              textAnchor: "middle",
+              fontSize: f,
+              fontWeight: "700",
+              fill: y.ink,
+              fontFamily: G,
+              children: c,
+            }),
+            o < t.length - 1
+              ? e.jsx("text", {
+                  x: h + l + 7 / 2,
+                  y: r + n / 2 + f * 0.36,
+                  textAnchor: "middle",
+                  fontSize: f,
+                  fontWeight: "700",
+                  fill: y.ink,
+                  fontFamily: G,
+                  children: d,
+                })
+              : null,
+          ],
+        },
+        o,
+      );
+    }),
+  });
+}
+function Ct() {
+  return e.jsxs(X, {
+    children: [
+      e.jsxs("g", {
+        children: [
+          e.jsx("rect", {
+            x: "70",
+            y: "6",
+            width: "84",
+            height: "98",
+            rx: "6",
+            fill: y.paper,
+            ...b,
+          }),
+          e.jsx("rect", {
+            x: "118",
+            y: "16",
+            width: "26",
+            height: "22",
+            rx: "3",
+            fill: y.mint2,
+          }),
+          e.jsx("path", {
+            d: "M70 76c22-8 40 6 84-4",
+            fill: "none",
+            stroke: y.blue2,
+            strokeWidth: "7",
+          }),
+          e.jsx("path", {
+            d: "M70 52h84M100 6v98M132 46v58",
+            fill: "none",
+            stroke: y.line,
+            strokeWidth: "6",
+          }),
+          e.jsx("rect", {
+            x: "70",
+            y: "6",
+            width: "84",
+            height: "98",
+            rx: "6",
+            fill: "none",
+            ...b,
+          }),
+        ],
+      }),
+      e.jsx("path", {
+        d: "M44 62C60 50 76 46 96 40",
+        fill: "none",
+        stroke: y.muted,
+        strokeWidth: "2.5",
+        strokeDasharray: "2 6",
+        strokeLinecap: "round",
+      }),
+      e.jsxs("g", {
+        children: [
+          e.jsx("path", {
+            d: "M112 54c-12-14-16-20-16-28a16 16 0 0 1 32 0c0 8-4 14-16 28z",
+            fill: y.magenta,
+            ...b,
+          }),
+          e.jsx("circle", {
+            cx: "112",
+            cy: "26",
+            r: "6",
+            fill: y.white,
+            ...b,
+            strokeWidth: 2,
+          }),
+        ],
+      }),
+      e.jsx(Le, { x: 34, y: 62, look: [1.6, -1.6], mouth: "o" }),
+    ],
+  });
+}
+function $t() {
+  return e.jsxs(X, {
+    children: [
+      e.jsx(Le, { x: 40, y: 34, look: [1.6, 0.6] }),
+      e.jsx("path", {
+        d: "M64 46l26 6",
+        fill: "none",
+        stroke: y.violet,
+        strokeWidth: "3",
+        strokeLinecap: "round",
+      }),
+      e.jsxs("g", {
+        children: [
+          e.jsx("rect", {
+            x: "86",
+            y: "24",
+            width: "68",
+            height: "66",
+            rx: "7",
+            fill: y.white,
+            ...b,
+          }),
+          e.jsx("path", {
+            d: "M86 31a7 7 0 0 1 7-7h54a7 7 0 0 1 7 7v13H86z",
+            fill: y.violet,
+            ...b,
+          }),
+          e.jsx("text", {
+            x: "120",
+            y: "40",
+            textAnchor: "middle",
+            fontSize: "13",
+            fontWeight: "700",
+            fill: y.white,
+            fontFamily: G,
+            children: "MAC",
+          }),
+          e.jsx("text", {
+            x: "120",
+            y: "62",
+            textAnchor: "middle",
+            fontSize: "12",
+            fontWeight: "700",
+            fill: y.ink,
+            fontFamily: G,
+            children: "00:1A:2B",
+          }),
+          e.jsx("text", {
+            x: "120",
+            y: "80",
+            textAnchor: "middle",
+            fontSize: "12",
+            fontWeight: "700",
+            fill: y.ink,
+            fontFamily: G,
+            children: "3C:4D:5E",
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function St() {
+  return e.jsxs(X, {
+    children: [
+      e.jsx(Q, {
+        parts: ["192", "168", "1", "1"],
+        x: 80,
+        y: 10,
+        w: 31,
+        h: 28,
+        sep: ".",
+        fill: y.cyanGlow,
+        size: 13,
+      }),
+      e.jsx(ze, { x: 80, y: 66 }),
+    ],
+  });
+}
+function Wt() {
+  return e.jsxs(X, {
+    children: [
+      e.jsx(Q, {
+        parts: ["2001", "0db8", "0000", "0000"],
+        x: 80,
+        y: 2,
+        w: 31,
+        h: 22,
+        sep: ":",
+        fill: y.lilac,
+        size: 10,
+      }),
+      e.jsx(Q, {
+        parts: ["0000", "0000", "0000", "0001"],
+        x: 80,
+        y: 30,
+        w: 31,
+        h: 22,
+        sep: ":",
+        fill: y.lilac,
+        size: 10,
+      }),
+      e.jsx(ze, { x: 80, y: 72 }),
+    ],
+  });
+}
+function Pt({ ok: t, reason: s }) {
+  return e.jsxs("span", {
+    className: "aa-explore-verdict",
+    "data-ok": t,
+    children: [
+      e.jsx("svg", {
+        viewBox: "0 0 32 32",
+        width: "32",
+        height: "32",
+        "aria-hidden": "true",
+        children: e.jsx(ee, { good: t }),
+      }),
+      t
+        ? e.jsx("span", { className: "aa-sr-only", children: "Valid" })
+        : e.jsx("span", { children: s }),
+    ],
+  });
+}
+function re({
+  label: t,
+  max: s,
+  limit: r,
+  start: l,
+  before: n,
+  after: d = "",
+  show: j,
+  reason: f,
+}) {
+  const [p, i] = v.useState(l),
+    c = p <= r,
+    o = (h) => i(Math.min(s, Math.max(0, h)));
+  return e.jsxs("div", {
+    className: "aa-explore",
+    "data-explore": t,
+    children: [
+      e.jsx("p", {
+        className: "aa-explore-address",
+        "aria-live": "polite",
+        children: e.jsxs("code", {
+          children: [n, e.jsx("mark", { "data-ok": c, children: j(p) }), d],
+        }),
+      }),
+      e.jsxs("div", {
+        className: "aa-explore-controls",
+        children: [
+          e.jsx("button", {
+            type: "button",
+            className: "aa-explore-step",
+            "aria-label": `${t} down`,
+            onClick: () => o(p - 1),
+            disabled: p === 0,
+            children: "−",
+          }),
+          e.jsx("input", {
+            type: "range",
+            min: 0,
+            max: s,
+            value: p,
+            "aria-label": t,
+            "aria-valuetext": j(p),
+            onChange: (h) => o(Number(h.target.value)),
+          }),
+          e.jsx("button", {
+            type: "button",
+            className: "aa-explore-step",
+            "aria-label": `${t} up`,
+            onClick: () => o(p + 1),
+            disabled: p === s,
+            children: "+",
+          }),
+        ],
+      }),
+      e.jsx(Pt, { ok: c, reason: f(p) }),
+    ],
+  });
+}
+const ye = (t, s) => t.toString(16).toUpperCase().padStart(s, "0"),
+  Ft = "0123456789ABCDEFG";
+function Bt() {
+  return e.jsx(re, {
+    label: "Last number",
+    max: 300,
+    limit: 255,
+    start: 250,
+    before: "192.168.1.",
+    show: String,
+    reason: (t) => `${t} is more than 255.`,
+  });
+}
+function Et() {
+  return e.jsx(re, {
+    label: "Last pair",
+    max: 270,
+    limit: 255,
+    start: 250,
+    before: "00:1A:2B:3C:4D:",
+    show: (t) => ye(t, 2),
+    reason: (t) => `${ye(t, 2)} is three hex digits. FF is the most.`,
+  });
+}
+function Dt() {
+  return e.jsx(re, {
+    label: "Last digit",
+    max: 16,
+    limit: 15,
+    start: 12,
+    before: "2001:0db8:0000:0000:0000:0000:0000:000",
+    show: (t) => Ft[t],
+    reason: () => "G is not a hex digit. F is the most.",
+  });
+}
+const ve = {
+  IPv4: { total: "4,294,967,296", note: "Fewer than the people on Earth." },
+  IPv6: {
+    total: "340,282,366,920,938,463,463,374,607,431,768,211,456",
+    note: "Far more than IPv4.",
+  },
+};
+function Gt() {
+  const [t, s] = v.useState("IPv4"),
+    r = ve[t];
+  return e.jsxs("div", {
+    className: "aa-explore",
+    "data-explore": "count",
+    children: [
+      e.jsx("div", {
+        className: "aa-explore-toggle",
+        role: "group",
+        "aria-label": "How many addresses",
+        children: Object.keys(ve).map((l) =>
+          e.jsx(
+            "button",
+            {
+              type: "button",
+              "aria-pressed": t === l,
+              onClick: () => s(l),
+              children: l,
+            },
+            l,
+          ),
+        ),
+      }),
+      e.jsxs("p", {
+        className: "aa-explore-count",
+        "aria-live": "polite",
+        children: [e.jsx("strong", { children: r.total }), " addresses"],
+      }),
+      e.jsx("p", { className: "aa-explore-note", children: r.note }),
+    ],
+  });
+}
+const Lt = [
+    ce("1.3", "Internet Protocol (IP) Address", {
+      id: "ip",
+      term: "IP address",
+      name: "Internet Protocol address",
+      says: "Where am I?",
+      art: e.jsx(Ct, {}),
+      explore: e.jsx(Gt, {}),
+    }),
+    {
+      id: "ipv4",
+      term: "IPv4",
+      name: "Internet Protocol version 4",
+      says: "I'm four numbers.",
+      art: e.jsx(St, {}),
+      explore: e.jsx(Bt, {}),
+      definition: "Four denary numbers from 0 to 255, separated by dots.",
+      example:
+        "192.168.1.1 is a valid IPv4 address. 258.0.0.1 is not, because 258 is more than 255.",
+    },
+    {
+      id: "ipv6",
+      term: "IPv6",
+      name: "Internet Protocol version 6",
+      says: "I'm eight hex groups.",
+      art: e.jsx(Wt, {}),
+      explore: e.jsx(Dt, {}),
+      definition:
+        "Eight groups of four hexadecimal digits, separated by colons. It gives far more addresses than IPv4.",
+      example:
+        "2001:0db8:0000:0000:0000:0000:0000:0001 is a valid IPv6 address.",
+    },
+    ce("1.3", "Media Access Control (MAC) Address", {
+      id: "mac",
+      term: "MAC address",
+      name: "Media Access Control address",
+      says: "Who am I?",
+      art: e.jsx($t, {}),
+      explore: e.jsx(Et, {}),
+    }),
+  ],
+  ie = ["ipv4", "ipv6", "mac", "invalid"],
+  Z = { ipv4: "IPv4", ipv6: "IPv6", mac: "MAC", invalid: "Invalid" },
+  Te = 2,
+  L = 4,
+  E =
+    "Colons alone do not make IPv6. Six pairs of hex digits is a 48-bit MAC address; IPv6 has eight groups.",
+  H = "An IPv4 address has exactly four numbers.",
+  Re = [
+    {
+      address: "151.101.8.44",
+      bucket: "ipv4",
+      why: "Four denary numbers, each 0 to 255, split by full stops.",
+    },
+    {
+      address: "81.255.0.24",
+      bucket: "ipv4",
+      why: "Each number can be anything from 0 to 255, so 255 and 0 are both allowed.",
+      traps: {
+        invalid:
+          "255 is the largest a number can be, and it is allowed. So is 0.",
+      },
+    },
+    {
+      address: "86.142.31.7",
+      bucket: "ipv4",
+      why: "A number does not need three digits. 7 is between 0 and 255.",
+      traps: {
+        invalid:
+          "A number does not need three digits. 7 is between 0 and 255, so this is a valid IPv4 address.",
+      },
+    },
+    {
+      address: "213.23.24.64",
+      bucket: "ipv4",
+      why: "Four denary numbers, each 0 to 255, split by full stops.",
+      traps: {
+        invalid:
+          "Four numbers, and every one is between 0 and 255, so this is a valid IPv4 address.",
+      },
+    },
+    {
+      address: "9.48.120.200",
+      bucket: "ipv4",
+      why: "Four numbers, each 0 to 255. 9 is one digit, and that is allowed.",
+      traps: {
+        invalid:
+          "A number can be one digit. 9, 48, 120 and 200 are all 0 to 255, so this is valid IPv4.",
+      },
+    },
+    {
+      address: "2001:0DB8:85A3:0000:0000:8A2E:0370:7334",
+      bucket: "ipv6",
+      why: "Eight groups of four hex digits, split by colons.",
+      traps: {
+        mac: "Count the groups: eight groups of four hex digits is IPv6. A MAC address has six pairs.",
+      },
+    },
+    {
+      address: "2001:0DB8:0000:0000:0000:0000:0000:0001",
+      bucket: "ipv6",
+      why: "A group of 0000 still counts. That makes eight groups.",
+      traps: {
+        invalid:
+          "A group of 0000 is a real group. There are eight, so this is a valid IPv6 address.",
+      },
+    },
+    {
+      address: "2A02:0C7F:7A1B:0000:00C4:B2FF:FE12:3456",
+      bucket: "ipv6",
+      why: "A to F are hex digits, so 2A02 and B2FF are groups like any other. Eight of them.",
+      traps: {
+        invalid:
+          "Letters A to F are hex digits. Eight groups of hex is a valid IPv6 address.",
+      },
+    },
+    {
+      address: "2606:4700:0090:0000:0000:0000:0000:6810",
+      bucket: "ipv6",
+      why: "Eight groups of four hex digits. The groups of 0000 count too.",
+      traps: {
+        invalid:
+          "Count the groups, 0000 included: there are eight. This is a valid IPv6 address.",
+      },
+    },
+    {
+      address: "2A00:1450:4009:0819:0000:0000:0000:200E",
+      bucket: "ipv6",
+      why: "Eight groups of hex digits. 200E ends in a letter, and E is a hex digit.",
+      traps: {
+        invalid:
+          "E is a hex digit. Eight groups of four hex digits is a valid IPv6 address.",
+      },
+    },
+    {
+      address: "3C:22:FB:9A:01:7E",
+      bucket: "mac",
+      why: "Six pairs of hex digits: 48 bits.",
+      traps: { ipv6: E },
+    },
+    {
+      address: "00:1B:63:84:45:E6",
+      bucket: "mac",
+      why: "Six pairs of hex digits: 48 bits.",
+      traps: { ipv6: E },
+    },
+    {
+      address: "A4:5E:60:C2:19:3B",
+      bucket: "mac",
+      why: "Six pairs of hex digits: 48 bits, given to the network card when it was made.",
+      traps: { ipv6: E },
+    },
+    {
+      address: "F0:9F:C2:7D:1E:B3",
+      bucket: "mac",
+      why: "Six pairs of hex digits: 48 bits.",
+      traps: { ipv6: E },
+    },
+    {
+      address: "58:EF:68:0A:4C:22",
+      bucket: "mac",
+      why: "Six pairs of hex digits: 48 bits.",
+      traps: { ipv6: E },
+    },
+    {
+      address: "84.17.300.12",
+      bucket: "invalid",
+      why: "300 is more than 255. Each number in an IPv4 address is 0 to 255.",
+      traps: {
+        ipv4: "It looks like IPv4, but 300 is more than 255. Each number is 0 to 255.",
+      },
+    },
+    {
+      address: "84.17.3",
+      bucket: "invalid",
+      why: `It has three numbers. ${H}`,
+      traps: { ipv4: `Count the numbers: there are three. ${H}` },
+    },
+    {
+      address: "62.30.7.14.9",
+      bucket: "invalid",
+      why: `It has five numbers. ${H}`,
+      traps: { ipv4: `Count the numbers: there are five. ${H}` },
+    },
+    {
+      address: "00:1B:63:84:45:G6",
+      bucket: "invalid",
+      why: "G is not a hex digit. Hex only uses 0 to 9 and A to F.",
+      traps: {
+        mac: "Six pairs, but G is not a hex digit. Hex only uses 0 to 9 and A to F.",
+      },
+    },
+    {
+      address: "A4:5E:60:C2",
+      bucket: "invalid",
+      why: "Four pairs is only 32 bits. A MAC address has six pairs.",
+      traps: {
+        mac: "Count the pairs: there are four. A MAC address has six pairs, 48 bits.",
+      },
+    },
+    {
+      address: "2001:0DB8:85A3:0000:8A2E:0370:7334",
+      bucket: "invalid",
+      why: "It has seven groups. An IPv6 address has eight.",
+      traps: {
+        ipv6: "Count the groups: there are seven. An IPv6 address has eight.",
+      },
+    },
+    {
+      address: "2001:0DB8:F00D:2A6E:0C1A:1F4B0:5E77:0002",
+      bucket: "invalid",
+      why: "1F4B0 has five digits. Each IPv6 group has at most four.",
+      traps: {
+        ipv6: "Eight groups, but 1F4B0 has five digits. Each IPv6 group has at most four.",
+      },
+    },
+  ];
+function zt(t, s) {
+  return s === t.bucket
+    ? { right: !0, text: t.why }
+    : {
+        right: !1,
+        text: t.traps?.[s] ?? `It goes in ${Z[t.bucket]}. ${t.why}`,
+      };
+}
+function Tt() {
+  return { ipv4: 0, ipv6: 0, mac: 0, invalid: 0 };
+}
+function Rt(t) {
+  return ie.every((s) => t[s] >= Te);
+}
+function Ot(t) {
+  return ie.every((s) => t[s] >= L);
+}
+function Ht(t = Math.random) {
+  return dt(Re, t);
+}
+function _t(t, s) {
+  return t.find((r) => s[r.bucket] < L) ?? null;
+}
+function Vt({ org: t, rng: s, onDone: r }) {
+  const [l, n] = v.useState(() => Ht(s)),
+    [d, j] = v.useState(Tt),
+    [f, p] = v.useState([]),
+    [i, c] = v.useState(null),
+    o = i?.item ?? _t(l, d),
+    h = Rt(d),
+    g = Ot(d) && !i,
+    u = [t.dial.icon, t.fix.icon, t.ipv6.icon, t.route.icon, t.rollout.icon],
+    m = o ? u[Re.indexOf(o) % u.length] : null,
+    k = i?.missed ?? [];
+  function N(w) {
+    if (!o || i?.at === w) return;
+    const M = zt(o, w);
+    c({
+      item: o,
+      at: w,
+      missed: M.right || k.includes(w) ? k : [...k, w],
+      ...M,
+    });
+  }
+  function W() {
+    i?.right &&
+      (i.missed.length === 0 &&
+        (j((w) => ({ ...w, [i.item.bucket]: w[i.item.bucket] + 1 })),
+        p((w) => [...w, i.item])),
+      n((w) => {
+        const M = w.filter((R) => R !== i.item);
+        return i.missed.length === 0 ? M : [...M, i.item];
+      }),
+      c(null));
+  }
+  function q(w) {
+    if (i?.at === w) return i.right ? "right" : "wrong";
+  }
+  const A = U((w, M) => N(M));
+  return e.jsxs("section", {
+    className: "aa-card aa-sort",
+    "data-story-card": "sort",
+    "aria-labelledby": "aa-sort-title",
+    ref: A.root,
+    "data-dragging": A.dragging ?? void 0,
+    children: [
+      e.jsx("h2", {
+        id: "aa-sort-title",
+        className: "aa-level-title",
+        children: "Sort the addresses",
+      }),
+      o && m && !g
+        ? e.jsxs("div", {
+            className: "aa-sort-card-row",
+            children: [
+              e.jsx("div", {
+                className: "aa-sort-device",
+                "data-device": m,
+                children: e.jsx(z, { icon: m, label: "" }),
+              }),
+              e.jsx("button", {
+                type: "button",
+                className: "aa-tile aa-address aa-sort-card",
+                "data-address": o.address,
+                "aria-label": `Address ${o.address}`,
+                ...A.handle("card"),
+                children: e.jsx(S, { text: o.address }),
+              }),
+            ],
+          })
+        : null,
+      e.jsx("div", {
+        className: "aa-buckets",
+        role: "group",
+        "aria-label": "Buckets",
+        children: ie.map((w) => {
+          const M = q(w),
+            R = f.filter((P) => P.bucket === w && P !== i?.item),
+            O = i && i.at === w ? i : null,
+            le = R.length + (O?.right ? 1 : 0),
+            Oe = Math.max(0, L - le);
+          return e.jsxs(
+            "button",
+            {
+              type: "button",
+              ref: A.slot(w),
+              className: "aa-bucket",
+              "data-bucket": w,
+              "data-over": A.over === w || void 0,
+              "data-chosen": M,
+              disabled: g,
+              "aria-label": `${Z[w]}: ${Math.min(d[w], L)} of ${L}${M === "wrong" ? ", not here" : M === "right" ? ", right" : ""}`,
+              onClick: () => {
+                A.endedDrag() || N(w);
+              },
+              children: [
+                e.jsx("span", { className: "aa-bucket-name", children: Z[w] }),
+                e.jsxs("span", {
+                  className: "aa-bucket-slots",
+                  "aria-hidden": "true",
+                  children: [
+                    R.map((P) =>
+                      e.jsx(we, { address: P.address, good: !0 }, P.address),
+                    ),
+                    O
+                      ? e.jsx(we, {
+                          address: O.item.address,
+                          good: O.right,
+                          handle: A.handle("card"),
+                        })
+                      : null,
+                    Array.from({ length: Oe }, (P, ne) =>
+                      e.jsx(
+                        "span",
+                        {
+                          className: "aa-sort-slot",
+                          "data-extra": le + ne >= Te || void 0,
+                        },
+                        ne,
+                      ),
+                    ),
+                  ],
+                }),
+              ],
+            },
+            w,
+          );
+        }),
+      }),
+      !i && h
+        ? e.jsx("div", {
+            className: "aa-actions",
+            children: e.jsx("button", {
+              type: "button",
+              className: g ? "aa-btn aa-primary" : "aa-btn",
+              onClick: r,
+              children: "Start the levels",
+            }),
+          })
+        : i
+          ? e.jsxs("div", {
+              className: "aa-result",
+              "data-tone": i.right ? "good" : "bad",
+              "aria-live": "polite",
+              children: [
+                e.jsxs("p", {
+                  className: "aa-sort-feedback",
+                  children: [
+                    e.jsx(te, {
+                      good: i.right,
+                      label: i.right ? "Right" : "Not quite",
+                    }),
+                    e.jsx("span", { children: K(i.text) }),
+                  ],
+                }),
+                i.right
+                  ? e.jsx("div", {
+                      className: "aa-actions",
+                      children: e.jsx("button", {
+                        type: "button",
+                        className: "aa-btn aa-primary",
+                        onClick: W,
+                        children: "Next",
+                      }),
+                    })
+                  : null,
+              ],
+            })
+          : null,
+      A.dragging !== null && A.ghostStyle && o
+        ? e.jsx("div", {
+            className: "aa-ghost aa-tile aa-address",
+            "aria-hidden": "true",
+            style: A.ghostStyle,
+            children: e.jsx(S, { text: o.address }),
+          })
+        : null,
+    ],
+  });
+}
+function we({ address: t, good: s, handle: r }) {
+  return e.jsxs("span", {
+    className: "aa-sort-tag",
+    "data-tone": s ? "good" : "bad",
+    "data-tag": t,
+    "data-movable": r ? !0 : void 0,
+    ...r,
+    children: [
+      e.jsx("svg", {
+        className: "aa-sort-tag-mark",
+        viewBox: "0 0 32 32",
+        children: e.jsx(ee, { good: s }),
+      }),
+      e.jsx(S, { text: t }),
+    ],
+  });
+}
+function is({ rng: t = Math.random }) {
+  Ue();
+  const [s, r] = v.useState({ type: "landing" }),
+    [l, n] = v.useState("festival"),
+    [d, j] = v.useState({}),
+    f = fe(l),
+    p = { ...ot(f), ...d },
+    i = s.type === "level" ? s.step : s.type === "summary" ? C.length : 0;
+  He(i, C.length, C.filter((g) => J(g, f, p).right).length);
+  function c(g, u = !0) {
+    (n(g), j({}), r(u ? { type: "sort" } : { type: "level", step: 0 }));
+  }
+  function o(g, u) {
+    j((k) => ({ ...k, [g]: u }));
+    const m = C.indexOf(g);
+    m < C.length - 1
+      ? r({ type: "level", step: m + 1 })
+      : r({ type: "summary" });
+  }
+  let h;
+  switch (s.type) {
+    case "landing":
+      h = e.jsxs("div", {
+        className: "game-landing aa-landing",
+        "data-game-landing": !0,
+        children: [
+          e.jsx(st, { orgs: Ne.map(fe) }),
+          e.jsx("button", {
+            type: "button",
+            className: "game-landing-start aa-btn aa-primary aa-start",
+            onClick: () => r({ type: "cards" }),
+            children: "Press start",
+          }),
+        ],
+      });
+      break;
+    case "cards":
+      h = e.jsx(Ve, {
+        title: "Know your addresses",
+        cards: Lt,
+        skipLabel: "Skip to the levels",
+        doneLabel: "Pick your job",
+        buttonClass: "aa-btn",
+        primaryClass: "aa-primary",
+        titleClass: "aa-title",
+        withKeywords: K,
+        onDone: () => r({ type: "pick" }),
+      });
+      break;
+    case "pick":
+      h = e.jsx(Ut, { onPick: (g) => c(g) });
+      break;
+    case "sort":
+      h = e.jsxs(e.Fragment, {
+        children: [
+          e.jsx("header", {
+            className: "aa-hud",
+            "data-org": f.id,
+            children: e.jsx("span", { className: "aa-chip", children: f.name }),
+          }),
+          e.jsx(
+            Vt,
+            { org: f, rng: t, onDone: () => r({ type: "level", step: 0 }) },
+            l,
+          ),
+        ],
+      });
+      break;
+    case "level": {
+      const g = C[s.step];
+      h = e.jsxs(e.Fragment, {
+        children: [
+          e.jsx(Kt, {
+            org: f,
+            step: s.step,
+            marks: C.slice(0, s.step).map((u) => J(u, f, p).right),
+          }),
+          e.jsx(Yt, { org: f, decision: g, onLockIn: o }, `${l}-${g}`),
+        ],
+      });
+      break;
+    }
+    case "summary":
+      h = e.jsx(Xt, {
+        org: f,
+        setup: p,
+        onPlayAgain: () => c(l, !1),
+        onPickAnother: () => r({ type: "pick" }),
+      });
+      break;
+  }
+  return e.jsx("div", {
+    className: "address-arcade",
+    "data-address-arcade":
+      s.type === "landing" || s.type === "pick" ? void 0 : l,
+    "data-stage": s.type,
+    children: h,
+  });
+}
+function Ut({ onPick: t }) {
+  return e.jsxs("div", {
+    className: "aa-page aa-pick",
+    children: [
+      e.jsx("h2", { className: "aa-title", children: "Pick your job" }),
+      e.jsx("div", {
+        className: "aa-pick-grid",
+        children: Ne.map((s) => {
+          const r = Ae[s];
+          return e.jsxs(
+            "button",
+            {
+              type: "button",
+              className: "aa-card aa-org",
+              "data-story-card": "picker",
+              "data-org": s,
+              onClick: () => t(s),
+              children: [
+                e.jsx("span", {
+                  className: "aa-org-art",
+                  children: e.jsx(tt, { org: r }),
+                }),
+                e.jsxs("span", {
+                  className: "aa-org-text",
+                  children: [
+                    e.jsx("span", {
+                      className: "aa-org-name",
+                      children: r.name,
+                    }),
+                    e.jsx("span", {
+                      className: "aa-org-line",
+                      children: r.line,
+                    }),
+                  ],
+                }),
+              ],
+            },
+            s,
+          );
+        }),
+      }),
+    ],
+  });
+}
+function Kt({ org: t, step: s, marks: r }) {
+  const l = C.length;
+  return e.jsxs("header", {
+    className: "aa-hud",
+    "data-org": t.id,
+    children: [
+      e.jsx("span", { className: "aa-chip", children: t.name }),
+      e.jsxs("span", {
+        className: "aa-pips",
+        role: "img",
+        "aria-label": `Level ${s + 1} of ${l}`,
+        children: [
+          e.jsxs("span", {
+            className: "aa-pips-label aa-digits",
+            "aria-hidden": "true",
+            children: ["Level ", s + 1, "/", l],
+          }),
+          e.jsx("span", {
+            className: "aa-pips-row",
+            "aria-hidden": "true",
+            children: Array.from({ length: l }, (n, d) =>
+              e.jsx(
+                "span",
+                {
+                  className: "aa-pip",
+                  "data-state":
+                    d < r.length
+                      ? r[d]
+                        ? "good"
+                        : "bad"
+                      : d === s
+                        ? "now"
+                        : d < s
+                          ? "done"
+                          : "next",
+                },
+                d,
+              ),
+            ),
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function Yt({ org: t, decision: s, onLockIn: r }) {
+  const l = t.asks[s],
+    n = t.crew[l.from];
+  let d;
+  switch (s) {
+    case "dial":
+      d = e.jsx(gt, { org: t, onDone: (j) => r("dial", j) });
+      break;
+    case "fix":
+      d = e.jsx(vt, { org: t, onDone: (j) => r("fix", j) });
+      break;
+    case "ipv6":
+      d = e.jsx(bt, { org: t, onDone: (j) => r("ipv6", j) });
+      break;
+    case "route":
+      d = e.jsx(Nt, { org: t, onDone: (j) => r("route", j) });
+      break;
+    case "rollout":
+      d = e.jsx(It, { org: t, onDone: (j) => r("rollout", j) });
+      break;
+  }
+  return e.jsxs("section", {
+    className: "aa-card aa-level",
+    "data-story-card": "decision",
+    "data-level": s,
+    "aria-labelledby": "aa-level-title",
+    children: [
+      e.jsxs("div", {
+        className: "aa-ask",
+        children: [
+          e.jsx(be, {
+            creature: n.creature,
+            label: n.role,
+            className: "aa-ask-avatar",
+          }),
+          e.jsxs("div", {
+            className: "aa-bubble",
+            children: [
+              e.jsx("h2", {
+                id: "aa-level-title",
+                className: "aa-level-title",
+                children: De[s],
+              }),
+              e.jsx("p", { className: "aa-role", children: n.role }),
+              e.jsx("p", { className: "aa-ask-line", children: K(l.line) }),
+            ],
+          }),
+        ],
+      }),
+      e.jsx("div", { className: "aa-screen", children: d }),
+    ],
+  });
+}
+function Xt({ org: t, setup: s, onPlayAgain: r, onPickAnother: l }) {
+  const n = C.map((f) => ({ decision: f, judgement: J(f, t, s) })),
+    d = n.filter((f) => f.judgement.right).length,
+    j = Object.values(t.crew)[0];
+  return e.jsxs(e.Fragment, {
+    children: [
+      e.jsxs("section", {
+        className: "aa-card aa-summary",
+        "data-story-card": "summary",
+        "aria-labelledby": "aa-summary-title",
+        children: [
+          e.jsxs("div", {
+            className: "aa-summary-head",
+            children: [
+              e.jsx(be, {
+                creature: j.creature,
+                mood: d >= 3 ? "happy" : "worried",
+                label: j.role,
+                className: "aa-summary-avatar",
+              }),
+              e.jsxs("div", {
+                className: "aa-score",
+                role: "img",
+                "aria-label": `${d} out of ${n.length}`,
+                children: [
+                  e.jsx("span", {
+                    className: "aa-digits aa-score-big",
+                    "aria-hidden": "true",
+                    children: d,
+                  }),
+                  e.jsxs("span", {
+                    className: "aa-digits aa-score-of",
+                    "aria-hidden": "true",
+                    children: ["/", n.length],
+                  }),
+                ],
+              }),
+              e.jsxs("div", {
+                children: [
+                  e.jsx("h2", {
+                    id: "aa-summary-title",
+                    className: "aa-title",
+                    children: ht(d),
+                  }),
+                  e.jsx("p", { className: "aa-summary-org", children: t.name }),
+                ],
+              }),
+            ],
+          }),
+          e.jsx("ol", {
+            className: "aa-rows",
+            children: n.map(({ decision: f, judgement: p }) =>
+              e.jsxs(
+                "li",
+                {
+                  className: "aa-row",
+                  "data-tone": p.right ? "good" : "bad",
+                  "data-row": f,
+                  children: [
+                    e.jsx(te, {
+                      good: p.right,
+                      label: p.right ? "Right" : "Not quite",
+                    }),
+                    e.jsxs("span", {
+                      className: "aa-row-text",
+                      children: [
+                        e.jsx("span", {
+                          className: "aa-row-title",
+                          children: De[f],
+                        }),
+                        e.jsx(S, { text: p.value, className: "aa-row-value" }),
+                      ],
+                    }),
+                  ],
+                },
+                f,
+              ),
+            ),
+          }),
+          e.jsxs("div", {
+            className: "aa-actions aa-actions-split",
+            children: [
+              e.jsx("button", {
+                type: "button",
+                className: "aa-btn aa-primary",
+                onClick: r,
+                children: "Play again",
+              }),
+              e.jsx("button", {
+                type: "button",
+                className: "aa-btn",
+                onClick: l,
+                children: "Another job",
+              }),
+            ],
+          }),
+        ],
+      }),
+      e.jsx(_e, { game: "address-arcade" }),
+    ],
+  });
+}
+export { is as default };

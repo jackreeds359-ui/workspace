@@ -1,0 +1,24 @@
+import { r as i } from "./react-vendor-BK1G6oO1.js";
+function c(o, t = "middle") {
+  const r = i.useRef(null);
+  return (
+    i.useEffect(() => {
+      const e = r.current?.querySelector(":scope > svg");
+      if (!e) return;
+      const s = e.getAttribute("preserveAspectRatio");
+      return (
+        e.setAttribute(
+          "preserveAspectRatio",
+          t === "top" ? "xMidYMin slice" : "xMidYMid slice",
+        ),
+        () => {
+          s === null
+            ? e.removeAttribute("preserveAspectRatio")
+            : e.setAttribute("preserveAspectRatio", s);
+        }
+      );
+    }, [o, t]),
+    r
+  );
+}
+export { c as u };

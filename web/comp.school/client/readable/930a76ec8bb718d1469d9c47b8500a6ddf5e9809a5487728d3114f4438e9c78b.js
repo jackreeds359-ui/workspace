@@ -1,0 +1,306 @@
+const e = [
+  {
+    id: "select-acts",
+    category: "SELECT",
+    title: "Choose useful columns",
+    source: "SELECT fields from a single table",
+    prompt: "Display the act name, stage and day for every festival act.",
+    schema: `CREATE TABLE TblActs (
+  ActID INTEGER PRIMARY KEY,
+  ActName TEXT,
+  Stage TEXT,
+  Day TEXT,
+  Genre TEXT,
+  StartTime TEXT,
+  LengthMins INTEGER,
+  AgeRating INTEGER
+);
+INSERT INTO TblActs VALUES
+  (1, 'Pixel Pirates', 'Arcade', 'Friday', 'Synth', '17:00', 35, 12),
+  (2, 'The Null Pointers', 'Main', 'Friday', 'Rock', '18:00', 45, 12),
+  (3, 'Laser Breakfast', 'Main', 'Saturday', 'Pop', '12:30', 40, 0),
+  (4, 'Zombie Disco', 'Warehouse', 'Saturday', 'Dance', '20:15', 50, 15),
+  (5, 'Binary Sunset', 'Acoustic', 'Saturday', 'Indie', '16:45', 30, 0),
+  (6, 'Syntax Error', 'Arcade', 'Sunday', 'Chiptune', '13:00', 35, 0),
+  (7, 'Cache Money', 'Main', 'Sunday', 'Rap', '19:30', 45, 12),
+  (8, 'The Infinite Loops', 'Warehouse', 'Friday', 'Dance', '21:00', 55, 15),
+  (9, 'Rubber Duck Choir', 'Acoustic', 'Sunday', 'Comedy', '14:00', 25, 0),
+  (10, 'Stack Overflowers', 'Arcade', 'Saturday', 'Rock', '18:30', 40, 12),
+  (11, 'Firewall Flowers', 'Main', 'Friday', 'Indie', '15:45', 30, 0),
+  (12, 'Moon Cheese Heist', 'Warehouse', 'Sunday', 'Synth', '22:00', 50, 15);
+`,
+    tables: [
+      {
+        name: "TblActs",
+        columns: [
+          "ActID",
+          "ActName",
+          "Stage",
+          "Day",
+          "Genre",
+          "StartTime",
+          "LengthMins",
+          "AgeRating",
+        ],
+      },
+    ],
+    query: `-- Display act name, stage and day for every festival act.
+SELECT ActName, Stage, Day
+FROM TblActs;
+`,
+  },
+  {
+    id: "select-rides",
+    category: "SELECT",
+    title: "Show every field",
+    source: "SELECT all records",
+    prompt: "Display every field for every bike ride in the table.",
+    schema: `CREATE TABLE TblRides (
+  RideID INTEGER PRIMARY KEY,
+  MemberID TEXT,
+  BikeID TEXT,
+  RouteName TEXT,
+  Minutes INTEGER,
+  DistanceKm REAL,
+  Weather TEXT
+);
+INSERT INTO TblRides VALUES
+  (1, 'M001', 'B042', 'Harbour loop', 12, 3.4, 'Dry'),
+  (2, 'M002', 'B017', 'Hill climb', 45, 9.8, 'Dry'),
+  (3, 'M001', 'B042', 'Park sprint', 8, 1.6, 'Wet'),
+  (4, 'M003', 'B025', 'Canal path', 55, 12.5, 'Dry'),
+  (5, 'M004', 'B011', 'City lights', 30, 6.0, 'Windy'),
+  (6, 'M005', 'B017', 'Harbour loop', 28, 5.7, 'Dry'),
+  (7, 'M006', 'B099', 'Forest dash', 61, 14.2, 'Wet'),
+  (8, 'M002', 'B017', 'Park sprint', 17, 3.1, 'Dry'),
+  (9, 'M007', 'B025', 'Hill climb', 49, 10.4, 'Windy'),
+  (10, 'M008', 'B070', 'Canal path', 33, 7.2, 'Dry'),
+  (11, 'M009', 'B011', 'City lights', 42, 8.9, 'Dry'),
+  (12, 'M010', 'B070', 'Forest dash', 64, 15.1, 'Wet');
+`,
+    tables: [
+      {
+        name: "TblRides",
+        columns: [
+          "RideID",
+          "MemberID",
+          "BikeID",
+          "RouteName",
+          "Minutes",
+          "DistanceKm",
+          "Weather",
+        ],
+      },
+    ],
+    query: `-- Display every field for every bike ride.
+SELECT *
+FROM TblRides;
+`,
+  },
+  {
+    id: "from-members",
+    category: "FROM",
+    title: "Pick the correct table",
+    source: "FROM identifies the table to search",
+    prompt:
+      "Display member IDs and names. The useful data is in TblMembers, not TblBookings.",
+    schema: `CREATE TABLE TblMembers (
+  MemberID TEXT PRIMARY KEY,
+  FirstName TEXT,
+  Surname TEXT,
+  YearGroup INTEGER,
+  House TEXT
+);
+CREATE TABLE TblBookings (
+  BookingID INTEGER PRIMARY KEY,
+  MemberID TEXT,
+  Room TEXT,
+  Nights INTEGER
+);
+INSERT INTO TblMembers VALUES
+  ('M001', 'Asha', 'Khan', 11, 'Turing'),
+  ('M002', 'Ben', 'Lewis', 10, 'Lovelace'),
+  ('M003', 'Cara', 'Singh', 11, 'Turing'),
+  ('M004', 'Dev', 'Patel', 9, 'Hopper'),
+  ('M005', 'Eva', 'Green', 11, 'Lovelace'),
+  ('M006', 'Finn', 'Jones', 10, 'Hopper'),
+  ('M007', 'Grace', 'Morris', 11, 'Turing'),
+  ('M008', 'Hani', 'Ali', 9, 'Lovelace'),
+  ('M009', 'Iris', 'Brown', 10, 'Hopper'),
+  ('M010', 'Jay', 'Wilson', 11, 'Lovelace');
+INSERT INTO TblBookings VALUES
+  (1, 'M001', 'A12', 2),
+  (2, 'M002', 'B04', 1),
+  (3, 'M003', 'A11', 3),
+  (4, 'M005', 'C02', 2),
+  (5, 'M007', 'A07', 1),
+  (6, 'M010', 'C09', 4);
+`,
+    tables: [
+      {
+        name: "TblMembers",
+        columns: ["MemberID", "FirstName", "Surname", "YearGroup", "House"],
+      },
+      {
+        name: "TblBookings",
+        columns: ["BookingID", "MemberID", "Room", "Nights"],
+      },
+    ],
+    query: `-- Display member IDs and names from the member table.
+SELECT MemberID, FirstName, Surname
+FROM TblMembers;
+`,
+  },
+  {
+    id: "from-stock",
+    category: "FROM",
+    title: "Search the stock table",
+    source: "SELECT fields FROM table",
+    prompt:
+      "Display item codes, item names and prices for the school shop stock table.",
+    schema: `CREATE TABLE TblStock (
+  ItemCode TEXT PRIMARY KEY,
+  ItemName TEXT,
+  Category TEXT,
+  Price REAL,
+  InStock INTEGER
+);
+CREATE TABLE TblOrders (
+  OrderID INTEGER PRIMARY KEY,
+  ItemCode TEXT,
+  Quantity INTEGER
+);
+INSERT INTO TblStock VALUES
+  ('S001', 'USB cable', 'Tech', 4.99, 38),
+  ('S002', 'Revision cards', 'Study', 2.50, 120),
+  ('S003', 'Calculator', 'Tech', 12.99, 24),
+  ('S004', 'Lab notebook', 'Study', 3.75, 64),
+  ('S005', 'Water bottle', 'Kit', 6.50, 42),
+  ('S006', 'Ear defenders', 'Kit', 9.25, 17),
+  ('S007', 'Mini whiteboard', 'Study', 4.50, 58),
+  ('S008', 'HDMI adapter', 'Tech', 8.99, 19),
+  ('S009', 'Sticky notes', 'Study', 1.75, 96),
+  ('S010', 'Keyboard cover', 'Tech', 5.25, 31),
+  ('S011', 'PE drawstring bag', 'Kit', 7.00, 26),
+  ('S012', 'Index tabs', 'Study', 2.25, 73);
+INSERT INTO TblOrders VALUES
+  (1, 'S003', 2),
+  (2, 'S004', 10),
+  (3, 'S008', 1),
+  (4, 'S002', 30),
+  (5, 'S011', 4);
+`,
+    tables: [
+      {
+        name: "TblStock",
+        columns: ["ItemCode", "ItemName", "Category", "Price", "InStock"],
+      },
+      { name: "TblOrders", columns: ["OrderID", "ItemCode", "Quantity"] },
+    ],
+    query: `-- Display item codes, item names and prices from the stock table.
+SELECT ItemCode, ItemName, Price
+FROM TblStock;
+`,
+  },
+  {
+    id: "where-saturday",
+    category: "WHERE",
+    title: "Filter text values",
+    source: "J27702 June 2025 Q6(b)(i) style",
+    prompt:
+      "Display act IDs, act names and stages for every act playing on Saturday.",
+    schema: `CREATE TABLE TblActs (
+  ActID INTEGER PRIMARY KEY,
+  ActName TEXT,
+  Stage TEXT,
+  Day TEXT,
+  Genre TEXT,
+  StartTime TEXT,
+  LengthMins INTEGER,
+  AgeRating INTEGER
+);
+INSERT INTO TblActs VALUES
+  (1, 'Pixel Pirates', 'Arcade', 'Friday', 'Synth', '17:00', 35, 12),
+  (2, 'The Null Pointers', 'Main', 'Friday', 'Rock', '18:00', 45, 12),
+  (3, 'Laser Breakfast', 'Main', 'Saturday', 'Pop', '12:30', 40, 0),
+  (4, 'Zombie Disco', 'Warehouse', 'Saturday', 'Dance', '20:15', 50, 15),
+  (5, 'Binary Sunset', 'Acoustic', 'Saturday', 'Indie', '16:45', 30, 0),
+  (6, 'Syntax Error', 'Arcade', 'Sunday', 'Chiptune', '13:00', 35, 0),
+  (7, 'Cache Money', 'Main', 'Sunday', 'Rap', '19:30', 45, 12),
+  (8, 'The Infinite Loops', 'Warehouse', 'Friday', 'Dance', '21:00', 55, 15),
+  (9, 'Rubber Duck Choir', 'Acoustic', 'Sunday', 'Comedy', '14:00', 25, 0),
+  (10, 'Stack Overflowers', 'Arcade', 'Saturday', 'Rock', '18:30', 40, 12),
+  (11, 'Firewall Flowers', 'Main', 'Friday', 'Indie', '15:45', 30, 0),
+  (12, 'Moon Cheese Heist', 'Warehouse', 'Sunday', 'Synth', '22:00', 50, 15);
+`,
+    tables: [
+      {
+        name: "TblActs",
+        columns: [
+          "ActID",
+          "ActName",
+          "Stage",
+          "Day",
+          "Genre",
+          "StartTime",
+          "LengthMins",
+          "AgeRating",
+        ],
+      },
+    ],
+    query: `-- Display acts playing on Saturday.
+SELECT ActID, ActName, Stage
+FROM TblActs
+WHERE Day = 'Saturday';
+`,
+  },
+  {
+    id: "where-sensors",
+    category: "WHERE",
+    title: "Filter with AND",
+    source: "J27702 June 2023 Q6(d)",
+    prompt:
+      "Display the sensor IDs and dates of door sensors triggered for more than 20 seconds.",
+    schema: `CREATE TABLE Events (
+  EventID INTEGER PRIMARY KEY,
+  Date TEXT,
+  SensorID TEXT,
+  SensorType TEXT,
+  Length INTEGER,
+  Zone TEXT
+);
+INSERT INTO Events VALUES
+  (1, '05/02/2023', 'WS2', 'Window', 38, 'Library'),
+  (2, '05/02/2023', 'MS1', 'Motion', 2, 'Hall'),
+  (3, '06/02/2023', 'DS3', 'Door', 31, 'Gym'),
+  (4, '06/02/2023', 'MS2', 'Motion', 3, 'Canteen'),
+  (5, '06/02/2023', 'DS4', 'Door', 42, 'Science'),
+  (6, '07/02/2023', 'WS1', 'Window', 24, 'Office'),
+  (7, '07/02/2023', 'DS1', 'Door', 1, 'Reception'),
+  (8, '08/02/2023', 'DS2', 'Door', 29, 'Hall'),
+  (9, '08/02/2023', 'DS5', 'Door', 25, 'Library'),
+  (10, '09/02/2023', 'MS3', 'Motion', 26, 'Gym'),
+  (11, '09/02/2023', 'DS6', 'Door', 54, 'Canteen'),
+  (12, '10/02/2023', 'WS3', 'Window', 6, 'Science');
+`,
+    tables: [
+      {
+        name: "Events",
+        columns: [
+          "EventID",
+          "Date",
+          "SensorID",
+          "SensorType",
+          "Length",
+          "Zone",
+        ],
+      },
+    ],
+    query: `-- Display door sensors triggered for more than 20 seconds.
+SELECT SensorID, Date
+FROM Events
+WHERE SensorType = 'Door' AND Length > 20;
+`,
+  },
+];
+export { e as default };

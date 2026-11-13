@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/recall/favicon/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/recall/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" href="/recall/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/recall/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recall · comp.school</title>
+    <script type="module" blocking="render" crossorigin src="/recall/assets/index-OXn7GuU2.js"></script>
+    <link rel="stylesheet" crossorigin href="/recall/assets/index-BHDAmMDK.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"a1ac4c36f928445eaa109063191cd329","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

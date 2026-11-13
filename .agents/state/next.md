@@ -130,3 +130,7 @@ Finish browser audit of entry routes, derive additional actual navigation/featur
 ## Runtime coverage checkpoint 2026-11-13T19:50:41.986385+00:00
 
 Continue plan2 guarded browser capture, inspect observed UI and code-import evidence for additional safe routes/actions, include known HTTP200 preview roots with code collection and access limits, then resolve dependency graph gaps. JS index agent is building AST map/readables; use it once ready. Need final closure validation per page and code dependency, readable parse/equivalence checks and updated downloadable package. Keep every <=5min checkpoint, no credentials or API bodies.
+
+## Client coverage progress 2026-11-13T19:55:03.870944+00:00
+
+Finish current safe feature-style browser pass, collect JS dependency index results and fetch directly evidenced missing code/assets, then repeat AST index to closure. Generate page->entry/static/dynamic/shared/worker coverage and explicit access/errors/unresolved list. Do not claim all pages or original source reconstruction from readable formatting. Test worker/code loader coverage without running user programs or submitting grades. Preserve checkpoint/next-agent continuity.

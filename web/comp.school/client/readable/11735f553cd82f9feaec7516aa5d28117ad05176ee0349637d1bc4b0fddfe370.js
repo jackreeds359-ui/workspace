@@ -1,0 +1,3668 @@
+import { j as e, r as x } from "./react-vendor-BK1G6oO1.js";
+import {
+  b6 as v,
+  bm as Q,
+  ay as ze,
+  R as ve,
+  bW as Ge,
+  bZ as Oe,
+  P as _e,
+  c8 as Le,
+  a8 as Fe,
+} from "./index-DjyiOHey.js";
+import { aq as De, aT as Ye } from "./GameNotebook-b0Qw2wzd.js";
+import { T as Ke } from "./action-styles-DWMwPIR0.js";
+import "./ui-components-DeMDYLzO.js";
+function K(t, s = Math.random) {
+  const i = [...t];
+  for (let r = i.length - 1; r > 0; r -= 1) {
+    const a = Math.floor(s() * (r + 1));
+    [i[r], i[a]] = [i[a], i[r]];
+  }
+  return i;
+}
+function L(t, s) {
+  return t[Math.floor(s() * t.length)];
+}
+function qe(t, s) {
+  return t.toString(2).padStart(s, "0");
+}
+function ee(t, s) {
+  return s.map(([i, r], a) => ({ name: i, hex: r, code: qe(a, t) }));
+}
+function M(t, s, i) {
+  const r = t[0].length,
+    a = t.flatMap((l) => {
+      if (l.length !== r) throw new Error(`Row "${l}" is not ${r} pixels wide`);
+      return [...l].map((n) => {
+        const o = s[n];
+        if (o === void 0) throw new Error(`No colour for "${n}"`);
+        return o;
+      });
+    });
+  return {
+    width: r,
+    height: t.length,
+    depth: i[0].code.length,
+    palette: i,
+    pixels: a,
+  };
+}
+function Me(t) {
+  return t.pixels.map((s) => t.palette[s].code).join("");
+}
+function Se(t, s) {
+  return t.pixels
+    .slice(s * t.width, (s + 1) * t.width)
+    .map((i) => t.palette[i].code)
+    .join("");
+}
+function He(t, s, i) {
+  const r = [];
+  for (let a = 0; a + s <= t.length; a += s) {
+    const l = t.slice(a, a + s),
+      n = i.findIndex((o) => o.code === l);
+    r.push(n === -1 ? null : n);
+  }
+  return r;
+}
+function Je(t, s) {
+  const i = [];
+  for (let r = 0; r < t.length; r += s) i.push(t.slice(r, r + s));
+  return i;
+}
+function A(t) {
+  return 2 ** t;
+}
+function Ce(t) {
+  let s = 1;
+  for (; A(s) < t;) s += 1;
+  return s;
+}
+function Re(t, s, i, r = 1) {
+  return t * s * i * r;
+}
+const Ae = { bits: "bits", bytes: "bytes", KB: "kilobytes" };
+function re(t, s, i = 1e3) {
+  return s === "bits" ? t : s === "bytes" ? t / 8 : t / 8 / i;
+}
+function Ue(t) {
+  const s = t
+    .replace(/[,\s]/g, "")
+    .replace(/(kilobytes?|kb|bytes?|bits?)$/i, "");
+  return /^\d+(\.\d+)?$/.test(s) ? Number(s) : null;
+}
+function Ve(t, s, i) {
+  return (i === "KB" ? [re(s, i, 1e3), re(s, i, 1024)] : [re(s, i)]).some(
+    (a) => (Number.isInteger(a) ? t === a : Math.abs(t - a) < 0.5),
+  );
+}
+function b(t) {
+  return t.toLocaleString("en-GB", { maximumFractionDigits: 2 });
+}
+const z = ee(1, [
+    ["White", "#f8fafc"],
+    ["Black", "#0f172a"],
+  ]),
+  Xe = ee(2, [
+    ["White", "#f8fafc"],
+    ["Red", "#dc2626"],
+    ["Yellow", "#facc15"],
+    ["Black", "#0f172a"],
+  ]),
+  Ze = ee(2, [
+    ["Black", "#0f172a"],
+    ["Green", "#22c55e"],
+    ["White", "#f8fafc"],
+    ["Purple", "#a855f7"],
+  ]),
+  Qe = ee(2, [
+    ["Black", "#0f172a"],
+    ["Red", "#dc2626"],
+    ["Amber", "#f59e0b"],
+    ["Green", "#22c55e"],
+  ]),
+  et = ee(3, [
+    ["Black", "#0f172a"],
+    ["Blue", "#2563eb"],
+    ["Green", "#16a34a"],
+    ["Cyan", "#22d3ee"],
+    ["Red", "#dc2626"],
+    ["Magenta", "#d946ef"],
+    ["Yellow", "#facc15"],
+    ["White", "#f8fafc"],
+  ]),
+  tt = [
+    { name: "Red", hex: "#dc2626", code: "0000" },
+    { name: "Green", hex: "#16a34a", code: "0010" },
+    { name: "Blue", hex: "#2563eb", code: "1000" },
+    { name: "Purple", hex: "#a855f7", code: "0110" },
+  ],
+  G = { ".": 0, "#": 1 },
+  te = {
+    mia: {
+      name: "Mia",
+      role: "Owner, Crumbs Bakery",
+      shirt: "#f472b6",
+      skin: 0,
+      hair: 2,
+    },
+    tomas: {
+      name: "Tomás",
+      role: "Owner, Bloom florist",
+      shirt: "#4ade80",
+      skin: 1,
+      hair: 0,
+    },
+    priya: {
+      name: "Priya",
+      role: "Manager, Keystone Homes",
+      shirt: "#60a5fa",
+      skin: 2,
+      hair: 3,
+    },
+    dev: {
+      name: "Dev",
+      role: "Owner, Bean There café",
+      shirt: "#f59e0b",
+      skin: 2,
+      hair: 0,
+    },
+  },
+  se =
+    "My new shop sign arrived from the printer as binary. Paint it so the sign maker can cut it out.",
+  st = [
+    {
+      id: "sign-cupcake",
+      kind: "decode",
+      scene: "shop",
+      sceneProps: { shop: "Crumbs Bakery", awning: "#f472b6" },
+      client: te.mia,
+      title: "Shop sign",
+      brief: se,
+      image: M(
+        [
+          "...#...",
+          "..###..",
+          ".#####.",
+          "#######",
+          ".#.#.#.",
+          ".#.#.#.",
+          "..###..",
+        ],
+        G,
+        z,
+      ),
+    },
+    {
+      id: "sign-heart",
+      kind: "decode",
+      scene: "shop",
+      sceneProps: { shop: "Bloom", awning: "#4ade80" },
+      client: te.tomas,
+      title: "Shop sign",
+      brief: se,
+      image: M(
+        [
+          ".##.##.",
+          "#######",
+          "#######",
+          "#######",
+          ".#####.",
+          "..###..",
+          "...#...",
+        ],
+        G,
+        z,
+      ),
+    },
+    {
+      id: "sign-house",
+      kind: "decode",
+      scene: "shop",
+      sceneProps: { shop: "Keystone Homes", awning: "#60a5fa" },
+      client: te.priya,
+      title: "Shop sign",
+      brief: se,
+      image: M(
+        [
+          "...#...",
+          "..###..",
+          ".#####.",
+          "#######",
+          ".#...#.",
+          ".#.#.#.",
+          ".#.#.#.",
+        ],
+        G,
+        z,
+      ),
+    },
+    {
+      id: "sign-coffee",
+      kind: "decode",
+      scene: "shop",
+      sceneProps: { shop: "Bean There", awning: "#f59e0b" },
+      client: te.dev,
+      title: "Shop sign",
+      brief: se,
+      image: M(
+        [
+          ".#..#..",
+          "..#..#.",
+          ".......",
+          "######.",
+          "#####.#",
+          "######.",
+          ".####..",
+        ],
+        G,
+        z,
+      ),
+    },
+  ],
+  ie = {
+    name: "Kai",
+    role: "Phone game developer",
+    shirt: "#a78bfa",
+    skin: 3,
+    hair: 0,
+  },
+  it = [
+    {
+      id: "sprite-mushroom",
+      kind: "decode",
+      scene: "phone",
+      client: ie,
+      title: "Game sprite",
+      brief:
+        "The power-up sprite for my phone game is stuck as binary. Paint it so I can check it.",
+      image: M(
+        [".RRRR.", "RRWRRR", "RRRRWR", ".YYYY.", ".YKYK.", ".YYYY."],
+        { ".": 0, W: 0, R: 1, Y: 2, K: 3 },
+        Xe,
+      ),
+    },
+    {
+      id: "sprite-alien",
+      kind: "decode",
+      scene: "phone",
+      client: ie,
+      title: "Game sprite",
+      brief:
+        "My space game needs its alien back. Paint the sprite from the binary.",
+      image: M(
+        ["P....P", ".G..G.", ".GGGG.", "GWGGWG", "GGGGGG", ".G..G."],
+        { ".": 0, G: 1, W: 2, P: 3 },
+        Ze,
+      ),
+    },
+    {
+      id: "sprite-duck",
+      kind: "decode",
+      scene: "phone",
+      client: ie,
+      title: "Game sprite",
+      brief:
+        "The duck for my pond game uses eight colours. Paint it from the binary.",
+      image: M(
+        ["WWYYWW", "WWYKRR", "YWYYWW", "YYYYYW", "CCCCCC"],
+        { K: 0, C: 3, R: 4, Y: 6, W: 7 },
+        et,
+      ),
+    },
+    {
+      id: "sprite-exam",
+      kind: "decode",
+      scene: "phone",
+      client: ie,
+      title: "Game tile",
+      brief:
+        "This floor tile uses only four colours, but each code is 4 bits. Paint it from the binary.",
+      image: M(["RRP", "BGB", "PPP", "RGB"], { R: 0, G: 1, B: 2, P: 3 }, tt),
+    },
+  ],
+  at = [
+    { id: "width", label: "Width", metadata: !0 },
+    { id: "height", label: "Height", metadata: !0 },
+    { id: "depth", label: "Colour depth", metadata: !0 },
+    { id: "date", label: "Date taken", metadata: !0 },
+    { id: "location", label: "Location", metadata: !0 },
+    { id: "file-size", label: "File size", metadata: !0 },
+    { id: "file-type", label: "File type", metadata: !0 },
+    { id: "author", label: "Author", metadata: !0 },
+  ],
+  rt = [
+    { id: "pixel-colours", label: "The colour of each pixel", metadata: !1 },
+    { id: "pixel-codes", label: "The binary code of each pixel", metadata: !1 },
+    { id: "sample-rate", label: "Sample rate", metadata: !1 },
+  ],
+  fe = {
+    name: "Mr Okafor",
+    role: "Science teacher",
+    shirt: "#2dd4bf",
+    skin: 3,
+    hair: 3,
+  },
+  lt =
+    "I photographed our experiment for the school website, but the thumbnail lost its width and height on the way. Find the width that makes the picture.",
+  nt = [
+    {
+      id: "metadata-flask",
+      kind: "metadata",
+      scene: "lab",
+      sceneProps: { object: "flask" },
+      client: fe,
+      title: "Lost metadata",
+      brief: lt,
+      image: M(
+        [
+          "..#.#..",
+          "..#.#..",
+          "..#.#..",
+          ".#...#.",
+          ".#...#.",
+          "#.....#",
+          "#######",
+        ],
+        G,
+        z,
+      ),
+    },
+    {
+      id: "metadata-rocket",
+      kind: "metadata",
+      scene: "lab",
+      sceneProps: { object: "rocket" },
+      client: fe,
+      title: "Lost metadata",
+      brief:
+        "I photographed the science club rocket for the school website, but the thumbnail lost its width and height on the way. Find the width that makes the picture.",
+      image: M(
+        [
+          "..#..",
+          ".###.",
+          ".#.#.",
+          ".###.",
+          ".###.",
+          "#####",
+          "#.#.#",
+          "..#..",
+        ],
+        G,
+        z,
+      ),
+    },
+  ],
+  le = { min: 2, max: 12 },
+  ne = {
+    name: "Zara",
+    role: "App designer",
+    shirt: "#38bdf8",
+    skin: 1,
+    hair: 1,
+  },
+  ot = [
+    {
+      id: "encode-tick",
+      kind: "encode",
+      scene: "phone",
+      sceneProps: { app: "todo" },
+      client: ne,
+      title: "App icon",
+      brief:
+        "Here is the tick icon for my to-do app. Write it out as binary so it can be stored.",
+      image: M([".....", "....#", "...#.", "#.#..", ".#..."], G, z),
+    },
+    {
+      id: "encode-arrow",
+      kind: "encode",
+      scene: "phone",
+      sceneProps: { app: "map" },
+      client: ne,
+      title: "App icon",
+      brief:
+        "Here is the arrow for my sat-nav app. Write it out as binary so it can be stored.",
+      image: M(["..#..", ".###.", "#.#.#", "..#..", "..#.."], G, z),
+    },
+    {
+      id: "encode-traffic",
+      kind: "encode",
+      scene: "phone",
+      sceneProps: { app: "traffic" },
+      client: ne,
+      title: "App icon",
+      brief:
+        "My driving-test app shows traffic lights. Write this icon out as binary so it can be stored.",
+      image: M([".RR.", ".AA.", ".GG."], { ".": 0, R: 1, A: 2, G: 3 }, Qe),
+    },
+  ],
+  V = {
+    name: "Jess",
+    role: "Gig promoter",
+    shirt: "#fb7185",
+    skin: 0,
+    hair: 1,
+  },
+  ct = [
+    {
+      id: "colours-240",
+      kind: "colours",
+      mode: "min-bits",
+      colours: 240,
+      depth: 0,
+      scene: "poster",
+      client: V,
+      title: "Gig poster",
+      brief:
+        "My gig poster uses 240 different colours. Set the smallest colour depth that can show them all.",
+    },
+    {
+      id: "colours-5",
+      kind: "colours",
+      mode: "min-bits",
+      colours: 5,
+      depth: 0,
+      scene: "poster",
+      client: V,
+      title: "Band logo",
+      brief:
+        "The band logo uses 5 colours. Set the smallest colour depth that can show them all.",
+    },
+    {
+      id: "colours-30",
+      kind: "colours",
+      mode: "min-bits",
+      colours: 30,
+      depth: 0,
+      scene: "poster",
+      client: V,
+      title: "Festival poster",
+      brief:
+        "The festival poster uses 30 colours. Set the smallest colour depth that can show them all.",
+    },
+    {
+      id: "colours-4bit",
+      kind: "colours",
+      mode: "max-colours",
+      colours: 0,
+      depth: 4,
+      scene: "poster",
+      client: V,
+      title: "Ticket design",
+      brief:
+        "The ticket printer uses a colour depth of 4 bits. How many different colours can I use at most?",
+    },
+    {
+      id: "colours-6bit",
+      kind: "colours",
+      mode: "max-colours",
+      colours: 0,
+      depth: 6,
+      scene: "poster",
+      client: V,
+      title: "Wristband design",
+      brief:
+        "The wristband printer uses a colour depth of 6 bits. How many different colours can I use at most?",
+    },
+  ],
+  me = { min: 1, max: 24 },
+  X = {
+    name: "Amira",
+    role: "Photographer",
+    shirt: "#facc15",
+    skin: 2,
+    hair: 0,
+  },
+  dt = [
+    {
+      id: "invoice-ten",
+      kind: "invoice",
+      width: 800,
+      height: 500,
+      depth: 8,
+      count: 10,
+      unit: "KB",
+      scene: "photographer",
+      client: X,
+      title: "Storage invoice",
+      brief:
+        "I have 10 bitmap images, each 800 x 500 pixels with a colour depth of 8 bits. What is the total file size in kilobytes?",
+    },
+    {
+      id: "invoice-sticker",
+      kind: "invoice",
+      width: 16,
+      height: 16,
+      depth: 2,
+      count: 1,
+      unit: "bits",
+      scene: "photographer",
+      client: X,
+      title: "Sticker file",
+      brief:
+        "My camera sticker is 16 x 16 pixels with a colour depth of 2 bits. What is its file size in bits?",
+    },
+    {
+      id: "invoice-icon",
+      kind: "invoice",
+      width: 32,
+      height: 32,
+      depth: 24,
+      count: 1,
+      unit: "bytes",
+      scene: "photographer",
+      client: X,
+      title: "Logo file",
+      brief:
+        "My studio logo is 32 x 32 pixels with a colour depth of 24 bits. What is its file size in bytes?",
+    },
+    {
+      id: "invoice-class",
+      kind: "invoice",
+      width: 600,
+      height: 400,
+      depth: 24,
+      count: 30,
+      unit: "KB",
+      scene: "photographer",
+      client: X,
+      title: "Class photos",
+      brief:
+        "I took 30 class photos, each 600 x 400 pixels with a colour depth of 24 bits. What is the total file size in kilobytes?",
+    },
+    {
+      id: "invoice-poster",
+      kind: "invoice",
+      width: 1e3,
+      height: 2e3,
+      depth: 8,
+      count: 1,
+      unit: "KB",
+      scene: "photographer",
+      client: X,
+      title: "Poster scan",
+      brief:
+        "My poster scan is 1000 x 2000 pixels with a colour depth of 8 bits. What is its file size in kilobytes?",
+    },
+  ],
+  ht = [
+    {
+      id: "spec-watch",
+      kind: "spec",
+      picture: "watch",
+      resolutions: [
+        [8, 8],
+        [16, 16],
+        [24, 24],
+        [32, 32],
+        [48, 48],
+        [64, 64],
+      ],
+      depths: [1, 2, 3, 4, 8, 16, 24],
+      needColours: 8,
+      maxBytes: 1200,
+      scene: "watch",
+      client: {
+        name: "Leo",
+        role: "Smartwatch app maker",
+        shirt: "#34d399",
+        skin: 1,
+        hair: 2,
+      },
+      title: "Watch icon",
+      brief:
+        "My weather icon needs at least 8 colours and must fit in 1,200 bytes on the watch. Make it as sharp as you can.",
+    },
+    {
+      id: "spec-passport",
+      kind: "spec",
+      picture: "passport",
+      resolutions: [
+        [28, 36],
+        [56, 72],
+        [84, 108],
+        [112, 144],
+        [140, 180],
+      ],
+      depths: [1, 2, 3, 4, 8, 16, 24],
+      needColours: 65536,
+      maxBytes: 2e4,
+      scene: "passport",
+      client: {
+        name: "Sam",
+        role: "Passport applicant",
+        shirt: "#94a3b8",
+        skin: 0,
+        hair: 1,
+      },
+      title: "Passport photo",
+      brief:
+        "The online passport form needs at least 65,536 colours and a file no bigger than 20,000 bytes. Make it as sharp as you can.",
+    },
+    {
+      id: "spec-arcade",
+      kind: "spec",
+      picture: "arcade",
+      resolutions: [
+        [32, 18],
+        [64, 36],
+        [96, 54],
+        [128, 72],
+        [160, 90],
+      ],
+      depths: [1, 2, 3, 4, 8, 16, 24],
+      needColours: 16,
+      maxBytes: 4e3,
+      scene: "arcade",
+      client: {
+        name: "Ollie",
+        role: "Retro game maker",
+        shirt: "#f97316",
+        skin: 3,
+        hair: 0,
+      },
+      title: "Title screen",
+      brief:
+        "My retro game title screen needs 16 colours and must fit in 4,000 bytes. Make it as sharp as you can.",
+    },
+  ],
+  oe = [
+    {
+      id: "unique-code",
+      text: "Each colour has a unique binary code.",
+      truth: !0,
+      why: "Each pixel has a specific colour, represented by a specific binary code.",
+    },
+    {
+      id: "metadata-colours",
+      text: "Metadata stores the colour of each pixel in the image.",
+      truth: !1,
+      why: "The colour of each pixel is the image data. Metadata is data about the image, such as its width and height.",
+    },
+    {
+      id: "bitmap-pixels",
+      text: "A bitmap is made of pixels.",
+      truth: !0,
+      why: "A bitmap image is stored as a series of pixels, each one stored in binary.",
+    },
+    {
+      id: "depth-fewer",
+      text: "The higher the colour depth, the smaller the number of different colours that can be displayed.",
+      truth: !1,
+      why: "More bits per pixel give more codes, so more different colours can be represented.",
+    },
+    {
+      id: "resolution-size",
+      text: "Increasing the resolution increases the file size.",
+      truth: !0,
+      why: "A higher resolution means more pixels, and each pixel needs storing, so the file is larger.",
+    },
+    {
+      id: "depth-effects",
+      text: "Increasing the colour depth means more colours can be represented, the quality can improve, and the file size gets larger.",
+      truth: !0,
+      why: "More bits per pixel give more colours, so the image can look closer to the real thing, but every pixel takes more bits, so the file is larger.",
+    },
+    {
+      id: "metadata-about",
+      text: "Metadata is data about the image, such as its width and height.",
+      truth: !0,
+      why: "Metadata is additional information about the image file, such as its width, height and colour depth, not the pixels themselves.",
+    },
+    {
+      id: "pixel-smallest",
+      text: "A pixel is the smallest part of an image: a single dot of one colour.",
+      truth: !0,
+      why: "A pixel is a single square or dot of one colour: the smallest part of the image.",
+    },
+    {
+      id: "one-more-bit",
+      text: "Adding 1 bit to the colour depth doubles the number of colours.",
+      truth: !0,
+      why: "Each extra bit doubles the number of codes: 1 bit gives 2, 2 bits give 4, 3 bits give 8.",
+    },
+    {
+      id: "three-bits-three",
+      text: "A colour depth of 3 bits can represent 3 colours.",
+      truth: !1,
+      why: "3 bits give 2 x 2 x 2 = 8 different codes, so 8 colours.",
+    },
+    {
+      id: "depth-doubles-size",
+      text: "Changing the colour depth from 4 bits to 8 bits doubles the file size (ignoring metadata).",
+      truth: !0,
+      why: "File size = colour depth x height x width, so doubling the colour depth doubles the size.",
+    },
+    {
+      id: "one-bit-two",
+      text: "An image with a colour depth of 1 bit can only show 2 colours.",
+      truth: !0,
+      why: "1 bit has two codes, 0 and 1, so only two colours, such as black and white.",
+    },
+    {
+      id: "width-only",
+      text: "The width is enough metadata to work out the file size.",
+      truth: !1,
+      why: "The file size needs the width, the height and the colour depth.",
+    },
+  ],
+  pe = ["pixel-smallest", "metadata-about", "depth-effects"],
+  ut = {
+    name: "Noor",
+    role: "Studio intern",
+    shirt: "#c084fc",
+    skin: 1,
+    hair: 3,
+  };
+function xt(t) {
+  const s = oe.filter((l) => pe.includes(l.id)),
+    i = K(
+      oe.filter((l) => l.truth && !pe.includes(l.id)),
+      t,
+    ),
+    r = K(
+      oe.filter((l) => !l.truth),
+      t,
+    ),
+    a = K([...s, ...i.slice(0, 1), ...r.slice(0, 2)], t);
+  return {
+    id: "notes",
+    kind: "notes",
+    scene: "notes",
+    client: ut,
+    title: "Intern notes",
+    brief:
+      "I wrote up what I learned this week. Can you mark each note true or false before I pin them up?",
+    statements: a,
+  };
+}
+function ft(t) {
+  const s = L(nt, t),
+    i = K([...K(at, t).slice(0, 4), ...K(rt, t).slice(0, 2)], t);
+  return { ...s, tags: i };
+}
+const ge = 8;
+function be(t = Math.random) {
+  return [
+    L(st, t),
+    ft(t),
+    L(it, t),
+    L(ot, t),
+    L(ct, t),
+    L(dt, t),
+    L(ht, t),
+    xt(t),
+  ];
+}
+const D = 100;
+function we(t, s) {
+  const i = t.image.pixels.flatMap((n, o) => (s[o] === n ? [] : [o])),
+    r = i.length === 0,
+    a = 1 - i.length / t.image.pixels.length,
+    l = t.image.depth;
+  return {
+    right: r,
+    wrong: i,
+    points: r ? D : Math.round(50 * a),
+    detail: r ? void 0 : `${i.length} of ${t.image.pixels.length} pixels wrong`,
+    why: `The colour depth is ${l} ${l === 1 ? "bit" : "bits"}, so every ${l} ${l === 1 ? "bit is" : "bits are"} one pixel. Each code is looked up in the table, filling the grid left to right, top to bottom, ${t.image.width} pixels to a row.`,
+  };
+}
+function ye(t, s) {
+  const i = Array.from(
+      { length: t.image.height },
+      (n, o) => (s[o] ?? "") === Se(t.image, o),
+    ),
+    r = i.filter(Boolean).length,
+    a = r === t.image.height,
+    l = t.image.depth;
+  return {
+    right: a,
+    rowRight: i,
+    points: a ? D : Math.round((50 * r) / t.image.height),
+    detail: a
+      ? void 0
+      : `${t.image.height - r} of ${t.image.height} rows wrong`,
+    why: `Each pixel is stored as the binary code for its colour, ${l} ${l === 1 ? "bit" : "bits"} per pixel. ${t.image.width} pixels x ${l} = ${t.image.width * l} bits per row, and ${t.image.width * t.image.height * l} bits for the whole image.`,
+  };
+}
+function mt(t, s) {
+  const i = s === t.image.width;
+  return {
+    right: i,
+    points: i ? 50 : 0,
+    why: `The file holds ${t.image.pixels.length} pixels in one long stream. The width in the metadata says where each row ends: ${t.image.width} pixels wide, so ${t.image.pixels.length} / ${t.image.width} = ${t.image.height} pixels high. Without it the image cannot be displayed correctly.`,
+  };
+}
+function je(t, s) {
+  const i = t.tags.filter((l) => s.has(l.id) !== l.metadata),
+    r = i.length === 0,
+    a = t.tags.filter((l) => l.metadata && !s.has(l.id)).length;
+  return {
+    right: r,
+    points: r ? 50 : Math.max(0, 50 - 15 * i.length),
+    detail: r
+      ? void 0
+      : `${i.length} tag${i.length === 1 ? "" : "s"} wrong${a ? `, ${a} missed` : ""}`,
+    why: "Metadata is data about the image: additional information such as its width, height, colour depth, date, location, file type, file size and author. The colours of the pixels are the image itself, not metadata.",
+  };
+}
+function We(t) {
+  return t.mode === "min-bits" ? Ce(t.colours) : A(t.depth);
+}
+function ke(t, s) {
+  const i = We(t),
+    r = s === i;
+  if (t.mode === "min-bits") {
+    const a = i - 1;
+    return {
+      right: r,
+      answer: `${s} ${s === 1 ? "bit" : "bits"}`,
+      points: r ? D : 0,
+      why: `${i} bits give 2^${i} = ${b(A(i))} codes, enough for ${b(t.colours)} colours. ${a} ${a === 1 ? "bit gives" : "bits give"} only ${b(A(a))}, which is too few.`,
+    };
+  }
+  return {
+    right: r,
+    answer: `${b(s)} colours`,
+    points: r ? D : 0,
+    why: `Each extra bit doubles the number of codes. ${t.depth} bits give 2^${t.depth} = ${b(i)} different codes, so ${b(i)} colours.`,
+  };
+}
+function Te(t) {
+  return Re(t.width, t.height, t.depth, t.count);
+}
+function pt(t) {
+  const s = Te(t),
+    i = t.count > 1 ? ` x ${t.count}` : "",
+    r = [`${t.width} x ${t.height} x ${t.depth}${i} = ${b(s)} bits`];
+  return (
+    t.unit !== "bits" && r.push(`${b(s)} / 8 = ${b(s / 8)} bytes`),
+    t.unit === "KB" &&
+      r.push(
+        `${b(s / 8)} / 1000 = ${b(s / 8e3)} KB (or / 1024 = ${b(s / 8192)} KB)`,
+      ),
+    r
+  );
+}
+function gt(t, s) {
+  const i = Ue(s),
+    r = Te(t),
+    a = i !== null && Ve(i, r, t.unit),
+    l = !a && i !== null && (i === r || i === r / 8) && t.unit !== "bits";
+  return {
+    right: a,
+    answer: i === null ? s : `${b(i)} ${t.unit === "KB" ? "KB" : t.unit}`,
+    points: a ? D : l ? 50 : 0,
+    detail: l ? `Right number, wrong unit: convert to ${Ae[t.unit]}` : void 0,
+    why: `Image file size = colour depth x height x width${t.count > 1 ? ", times the number of images" : ""}. That gives bits; divide by 8 for bytes${t.unit === "KB" ? ", then by 1,000 for kilobytes" : ""}.`,
+  };
+}
+function ae(t, s, i) {
+  return Re(t, s, i) / 8;
+}
+function Be(t) {
+  const s = t.depths.find((r) => A(r) >= t.needColours);
+  let i = 0;
+  return (
+    t.resolutions.forEach(([r, a], l) => {
+      ae(r, a, s) <= t.maxBytes && (i = l);
+    }),
+    { resolution: i, depth: s }
+  );
+}
+function bt(t, s, i) {
+  const [r, a] = t.resolutions[s];
+  return A(i) < t.needColours
+    ? "too-few-colours"
+    : ae(r, a, i) > t.maxBytes
+      ? "too-big"
+      : s === Be(t).resolution
+        ? "best"
+        : "fits";
+}
+function wt(t, s, i) {
+  const r = bt(t, s, i),
+    a = Be(t),
+    [l, n] = t.resolutions[a.resolution],
+    o = `The best fit is ${l} x ${n} pixels at ${a.depth} bits: ${b(ae(l, n, a.depth))} bytes.`,
+    c = {
+      best: `Use the fewest bits that give enough colours, then spend the rest of the space on resolution. More pixels means better quality, and the file still fits. ${o}`,
+      fits:
+        i > a.depth
+          ? `It fits, but it could be sharper. A higher colour depth than needed makes the file larger without being asked for. Use the fewest bits that give enough colours, and spend the space on more pixels. ${o}`
+          : `It fits, but it could be sharper: a higher resolution would still fit the limit. More pixels means better quality. ${o}`,
+      "too-big": `File size = colour depth x height x width. Too many pixels or too many bits per pixel made the file larger than the limit. ${o}`,
+      "too-few-colours": `${b(t.needColours)} colours need at least ${Ce(t.needColours)} bits per pixel. Fewer bits give fewer codes, so the colours cannot all be shown and the quality drops. ${o}`,
+    },
+    [h, m] = t.resolutions[s];
+  return {
+    right: r === "best" || r === "fits",
+    verdict: r,
+    answer: `${h} x ${m}, ${i} bits`,
+    points: r === "best" ? D : r === "fits" ? 60 : 0,
+    detail: r === "fits" ? "It fits, but it could be sharper" : void 0,
+    why: c[r],
+  };
+}
+function Ne(t, s) {
+  const i = t.statements.map((l, n) => s[n] === l.truth),
+    r = i.filter(Boolean).length,
+    a = r === t.statements.length;
+  return {
+    right: a,
+    marks: i,
+    answer: `${r} / ${t.statements.length}`,
+    points: Math.round((D * r) / t.statements.length),
+    detail: a ? void 0 : `${r} of ${t.statements.length} notes marked right`,
+    why: "",
+  };
+}
+const yt = [
+  { title: "Creative Director", from: 8 },
+  { title: "Senior Designer", from: 6 },
+  { title: "Designer", from: 4 },
+  { title: "Junior Designer", from: 2 },
+  { title: "Studio Intern", from: 0 },
+];
+function jt(t) {
+  return yt.find((s) => t >= s.from).title;
+}
+const kt = (t) => Math.max(0, Math.min(255, t)),
+  w = (t, s, i) => [
+    t[0] + (s[0] - t[0]) * i,
+    t[1] + (s[1] - t[1]) * i,
+    t[2] + (s[2] - t[2]) * i,
+  ],
+  W = (t, s) => Math.max(0, Math.min(1, 0.5 - s / t));
+function Nt(t, s) {
+  let i = w([30, 58, 138], [8, 15, 40], s);
+  const r = Math.hypot(t - 0.4, s - 0.38),
+    a = Math.max(0, 1 - r / 0.42);
+  ((i = w(i, [251, 146, 60], a * 0.5)),
+    (i = w(
+      i,
+      w([254, 240, 138], [249, 115, 22], r / 0.24),
+      W(0.03, r - 0.24),
+    )));
+  const l = Math.min(
+      Math.hypot(t - 0.48, s - 0.66) - 0.17,
+      Math.hypot(t - 0.68, s - 0.6) - 0.2,
+      Math.hypot(t - 0.82, s - 0.7) - 0.12,
+      Math.max(Math.abs(t - 0.64) - 0.24, Math.abs(s - 0.74) - 0.09),
+    ),
+    n = w([255, 255, 255], [148, 163, 184], Math.max(0, (s - 0.45) / 0.4));
+  return w(i, n, W(0.03, l));
+}
+function $t(t, s) {
+  let i = w([226, 232, 240], [203, 213, 225], s);
+  const r = Math.hypot((t - 0.5) / 0.55, (s - 1.08) / 0.32) - 1;
+  i = w(i, w([71, 85, 105], [30, 41, 59], t), W(0.04, r));
+  const a = Math.max(Math.abs(t - 0.5) - 0.09, Math.abs(s - 0.74) - 0.1);
+  i = w(i, [214, 160, 120], W(0.02, a));
+  const l = Math.hypot((t - 0.5) / 0.23, (s - 0.47) / 0.3) - 1,
+    n = Math.max(0, 1 - Math.hypot(t - 0.42, s - 0.4) / 0.35);
+  i = w(i, w([200, 140, 100], [246, 205, 170], n), W(0.05, l));
+  const o = Math.max(
+    Math.hypot((t - 0.5) / 0.26, (s - 0.36) / 0.24) - 1,
+    s - 0.33 - 0.1 * Math.abs(t - 0.5),
+  );
+  i = w(i, w([92, 58, 36], [43, 29, 20], s * 1.4), W(0.04, o));
+  for (const h of [0.41, 0.59]) {
+    const m = Math.hypot((t - h) / 0.035, (s - 0.47) / 0.025) - 1;
+    ((i = w(i, [37, 99, 235], W(0.4, m))),
+      (i = w(
+        i,
+        [15, 23, 42],
+        W(0.4, Math.hypot(t - h, s - 0.47) / 0.012 - 1),
+      )));
+  }
+  const c = Math.hypot((t - 0.5) / 0.07, (s - 0.6) / 0.018) - 1;
+  return w(i, [190, 70, 80], W(0.5, c));
+}
+function vt(t, s) {
+  let i = w([88, 28, 135], [251, 113, 133], Math.min(1, s / 0.62));
+  const r = Math.hypot(t - 0.5, s - 0.5),
+    a = s > 0.36 && Math.floor(s * 40) % 3 === 0;
+  r < 0.26 && !a && (i = w([254, 240, 138], [249, 115, 22], (s - 0.24) / 0.3));
+  const l = 0.62 - 0.08 * Math.sin(t * 9) - 0.05 * Math.sin(t * 23 + 1);
+  if (
+    (s > l && (i = w([20, 184, 166], [15, 23, 42], Math.min(1, (s - l) / 0.2))),
+    s > 0.72)
+  ) {
+    i = w([30, 27, 75], [15, 23, 42], (s - 0.72) / 0.28);
+    const n = (s - 0.72) / 0.28;
+    (Math.abs((((t - 0.5) / Math.max(0.05, n)) * 3) % 1) < 0.08 ||
+      Math.abs((n * 6) % 1) < 0.12) &&
+      (i = [232, 121, 249]);
+  }
+  return i;
+}
+const Mt = { watch: Nt, passport: $t, arcade: vt },
+  ce = (t) =>
+    Array.from({ length: t }, (s, i) => Math.round((255 * i) / (t - 1)));
+function St(t, s, i) {
+  const r = [];
+  for (const a of ce(t))
+    for (const l of ce(s)) for (const n of ce(i)) r.push([a, l, n]);
+  return r;
+}
+const Ct = {
+  1: [
+    [0, 0, 0],
+    [255, 255, 255],
+  ],
+  2: [
+    [0, 0, 0],
+    [85, 255, 255],
+    [255, 85, 255],
+    [255, 255, 255],
+  ],
+  3: St(2, 2, 2),
+  4: [
+    [0, 0, 0],
+    [0, 0, 170],
+    [0, 170, 0],
+    [0, 170, 170],
+    [170, 0, 0],
+    [170, 0, 170],
+    [170, 85, 0],
+    [170, 170, 170],
+    [85, 85, 85],
+    [85, 85, 255],
+    [85, 255, 85],
+    [85, 255, 255],
+    [255, 85, 85],
+    [255, 85, 255],
+    [255, 255, 85],
+    [255, 255, 255],
+  ],
+};
+function Rt(t, s) {
+  let i = s[0],
+    r = 1 / 0;
+  for (const a of s) {
+    const l =
+      (a[0] - t[0]) ** 2 * 0.3 +
+      (a[1] - t[1]) ** 2 * 0.59 +
+      (a[2] - t[2]) ** 2 * 0.11;
+    l < r && ((r = l), (i = a));
+  }
+  return i;
+}
+function de(t, s) {
+  const i = 2 ** s - 1;
+  return Math.round((Math.round((kt(t) / 255) * i) / i) * 255);
+}
+function At(t, s) {
+  const i = Ct[s];
+  if (i)
+    return s === 1
+      ? t[0] * 0.3 + t[1] * 0.59 + t[2] * 0.11 > 118
+        ? [255, 255, 255]
+        : [0, 0, 0]
+      : Rt(t, i);
+  const r = Math.max(1, Math.floor(s / 3)),
+    a = Math.max(1, Math.floor((s - r) / 2)),
+    l = Math.max(1, s - r - a);
+  return [de(t[0], a), de(t[1], l), de(t[2], r)];
+}
+function Wt(t, s, i, r) {
+  const a = Mt[t],
+    l = new Uint8ClampedArray(s * i * 4);
+  for (let n = 0; n < i; n += 1)
+    for (let o = 0; o < s; o += 1) {
+      const c = At(a((o + 0.5) / s, (n + 0.5) / i), r),
+        h = (n * s + o) * 4;
+      ((l[h] = c[0]), (l[h + 1] = c[1]), (l[h + 2] = c[2]), (l[h + 3] = 255));
+    }
+  return l;
+}
+const F = "#1e1b4b",
+  he = ["#f1c9a5", "#d9a57a", "#a8714a", "#7a4b2c"],
+  Tt = ["#2b1d14", "#5b3a24", "#c2873e", "#111827"];
+function q({ width: t, colours: s, x: i, y: r, size: a }) {
+  return e.jsx("g", {
+    "data-pixel-art": !0,
+    children: s.map((l, n) =>
+      l
+        ? e.jsx(
+            "rect",
+            {
+              x: i + (n % t) * a,
+              y: r + Math.floor(n / t) * a,
+              width: a + 0.3,
+              height: a + 0.3,
+              fill: l,
+            },
+            n,
+          )
+        : null,
+    ),
+  });
+}
+function T({ client: t, x: s, y: i, s: r = 1, flip: a, arm: l }) {
+  const n = he[t.skin];
+  return e.jsxs("g", {
+    transform: `translate(${s} ${i}) scale(${a ? -r : r} ${r})`,
+    children: [
+      e.jsx("path", {
+        d: "M-26 0v-14c0-12 11-21 26-21s26 9 26 21V0z",
+        fill: t.shirt,
+      }),
+      l === "point"
+        ? e.jsx("path", {
+            d: "M18 -26l20-26",
+            stroke: t.shirt,
+            strokeWidth: 9,
+            strokeLinecap: "round",
+          })
+        : l === "wave"
+          ? e.jsx("path", {
+              d: "M18 -26l12-30",
+              stroke: t.shirt,
+              strokeWidth: 9,
+              strokeLinecap: "round",
+            })
+          : l === "hold"
+            ? e.jsx("path", {
+                d: "M16 -22q14 -2 22 -16",
+                fill: "none",
+                stroke: t.shirt,
+                strokeWidth: 9,
+                strokeLinecap: "round",
+              })
+            : null,
+      l === "point"
+        ? e.jsx("circle", { cx: 39, cy: -54, r: 5, fill: n })
+        : null,
+      l === "wave" ? e.jsx("circle", { cx: 31, cy: -58, r: 5, fill: n }) : null,
+      e.jsx("rect", { x: -5.5, y: -40, width: 11, height: 9, fill: n }),
+      e.jsx("circle", { cx: 0, cy: -50, r: 14, fill: n }),
+      e.jsx("path", {
+        d: "M-14.5 -51a14.5 14.5 0 0 1 29 0q-9-8-15-6.5t-14 6.5z",
+        fill: Tt[t.hair],
+      }),
+      e.jsx("circle", { cx: -4.5, cy: -50, r: 1.6, fill: F }),
+      e.jsx("circle", { cx: 4.5, cy: -50, r: 1.6, fill: F }),
+      e.jsx("path", {
+        d: "M-3.5 -44q3.5 2.4 7 0",
+        fill: "none",
+        stroke: F,
+        strokeWidth: 1.3,
+        strokeLinecap: "round",
+      }),
+    ],
+  });
+}
+function B({ children: t, label: s }) {
+  return e.jsx("svg", {
+    viewBox: "0 0 320 200",
+    role: "img",
+    "aria-label": s,
+    className: "block h-auto w-full",
+    children: t,
+  });
+}
+function Bt({ client: t, shop: s, awning: i, art: r }) {
+  const a = Array.from({ length: 9 }, (l, n) => n);
+  return e.jsxs(B, {
+    label: `${t.name} outside ${s ?? "the shop"}, with an empty sign board`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#bfdbfe" }),
+      e.jsx("rect", { y: 168, width: 320, height: 32, fill: "#94a3b8" }),
+      e.jsx("rect", { x: 30, y: 40, width: 260, height: 130, fill: "#fef3c7" }),
+      e.jsx("g", {
+        children: a.map((l) =>
+          e.jsx(
+            "path",
+            {
+              d: `M${22 + l * 31} 40h31l-4 26h-23z`,
+              fill: l % 2 ? "#fffbeb" : (i ?? "#f472b6"),
+            },
+            l,
+          ),
+        ),
+      }),
+      e.jsx("rect", {
+        x: 22,
+        y: 34,
+        width: 278,
+        height: 8,
+        rx: 3,
+        fill: i ?? "#f472b6",
+      }),
+      e.jsx("text", {
+        x: 160,
+        y: 30,
+        textAnchor: "middle",
+        fontSize: 15,
+        fontWeight: 700,
+        fill: F,
+        fontFamily: "Georgia, serif",
+        children: s,
+      }),
+      e.jsx("rect", {
+        x: 48,
+        y: 82,
+        width: 110,
+        height: 70,
+        rx: 4,
+        fill: "#e0f2fe",
+        stroke: "#78350f",
+        strokeWidth: 4,
+      }),
+      e.jsx("path", { d: "M60 140l20-30 14 18 10-12 18 24z", fill: "#bae6fd" }),
+      e.jsx("rect", {
+        x: 196,
+        y: 80,
+        width: 52,
+        height: 90,
+        rx: 3,
+        fill: "#92400e",
+      }),
+      e.jsx("circle", { cx: 240, cy: 128, r: 3, fill: "#fcd34d" }),
+      e.jsx("path", {
+        d: "M266 62v18M290 62v18",
+        stroke: "#57534e",
+        strokeWidth: 2,
+      }),
+      e.jsx("rect", {
+        x: 256,
+        y: 78,
+        width: 44,
+        height: 44,
+        rx: 4,
+        fill: "#ffffff",
+        stroke: "#57534e",
+        strokeWidth: 3,
+      }),
+      r ??
+        e.jsx("text", {
+          x: 278,
+          y: 106,
+          textAnchor: "middle",
+          fontSize: 20,
+          fill: "#94a3b8",
+          children: "?",
+        }),
+      e.jsx(T, { client: t, x: 222, y: 170, s: 1.05, arm: "point" }),
+    ],
+  });
+}
+function Pt({ client: t, art: s, app: i }) {
+  return e.jsxs(B, {
+    label: `${t.name} at a desk holding up a phone`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#ede9fe" }),
+      e.jsx("rect", {
+        x: 20,
+        y: 20,
+        width: 90,
+        height: 60,
+        rx: 4,
+        fill: "#c4b5fd",
+      }),
+      e.jsx("path", { d: "M30 70l18-24 14 16 10-10 20 18z", fill: "#a78bfa" }),
+      e.jsx("rect", { y: 158, width: 320, height: 42, fill: "#a16207" }),
+      e.jsx("rect", { y: 158, width: 320, height: 5, fill: "#854d0e" }),
+      e.jsx("rect", {
+        x: 30,
+        y: 120,
+        width: 64,
+        height: 38,
+        rx: 3,
+        fill: "#334155",
+      }),
+      e.jsx("rect", { x: 34, y: 124, width: 56, height: 28, fill: "#64748b" }),
+      e.jsx(T, { client: t, x: 130, y: 160, s: 1.2, arm: "hold" }),
+      e.jsxs("g", {
+        transform: "translate(176 52)",
+        children: [
+          e.jsx("rect", { width: 70, height: 124, rx: 10, fill: "#0f172a" }),
+          e.jsx("rect", {
+            x: 5,
+            y: 12,
+            width: 60,
+            height: 100,
+            rx: 3,
+            fill: i === "traffic" ? "#334155" : "#1e293b",
+          }),
+          e.jsx("circle", { cx: 35, cy: 118, r: 3, fill: "#475569" }),
+        ],
+      }),
+      s ??
+        e.jsx("text", {
+          x: 211,
+          y: 120,
+          textAnchor: "middle",
+          fontSize: 22,
+          fill: "#64748b",
+          children: "?",
+        }),
+      e.jsx("rect", {
+        x: 262,
+        y: 128,
+        width: 34,
+        height: 30,
+        rx: 3,
+        fill: "#f8fafc",
+      }),
+      e.jsx("path", {
+        d: "M296 136h8a6 6 0 0 1 0 12h-8",
+        fill: "none",
+        stroke: "#f8fafc",
+        strokeWidth: 4,
+      }),
+    ],
+  });
+}
+function Et({ client: t, art: s, object: i }) {
+  return e.jsxs(B, {
+    label: `${t.name} in a science lab photographing ${i === "rocket" ? "a model rocket" : "a conical flask"}`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#ccfbf1" }),
+      e.jsx("rect", { x: 0, y: 34, width: 320, height: 6, fill: "#99f6e4" }),
+      e.jsx("rect", { y: 142, width: 320, height: 58, fill: "#334155" }),
+      e.jsx("rect", { y: 142, width: 320, height: 6, fill: "#1e293b" }),
+      i === "rocket"
+        ? e.jsxs("g", {
+            transform: "translate(66 62)",
+            children: [
+              e.jsx("path", {
+                d: "M20 0q16 18 14 56h-28q-2-38 14-56z",
+                fill: "#f8fafc",
+                stroke: F,
+                strokeWidth: 2,
+              }),
+              e.jsx("circle", {
+                cx: 20,
+                cy: 26,
+                r: 6,
+                fill: "#38bdf8",
+                stroke: F,
+                strokeWidth: 2,
+              }),
+              e.jsx("path", {
+                d: "M6 56l-10 22h12zM34 56l10 22h-12z",
+                fill: "#ef4444",
+              }),
+              e.jsx("path", { d: "M12 58l8 22 8-22z", fill: "#f59e0b" }),
+            ],
+          })
+        : e.jsxs("g", {
+            transform: "translate(58 70)",
+            children: [
+              e.jsx("path", {
+                d: "M18 0h16v26l20 46h-56l20-46z",
+                fill: "#e0f2fe",
+                stroke: F,
+                strokeWidth: 2,
+              }),
+              e.jsx("path", {
+                d: "M3 62l10-22h26l10 22z",
+                fill: "#22c55e",
+                opacity: 0.75,
+              }),
+              e.jsx("circle", { cx: 22, cy: 52, r: 2.5, fill: "#bbf7d0" }),
+              e.jsx("circle", { cx: 30, cy: 44, r: 2, fill: "#bbf7d0" }),
+            ],
+          }),
+      e.jsx(T, { client: t, x: 170, y: 142, s: 1.1, flip: !0, arm: "hold" }),
+      e.jsxs("g", {
+        transform: "translate(108 70) rotate(-8)",
+        children: [
+          e.jsx("rect", { width: 26, height: 44, rx: 4, fill: "#0f172a" }),
+          e.jsx("rect", { x: 3, y: 5, width: 20, height: 32, fill: "#64748b" }),
+        ],
+      }),
+      e.jsxs("g", {
+        transform: "translate(212 74)",
+        children: [
+          e.jsx("rect", { width: 92, height: 60, rx: 4, fill: "#0f172a" }),
+          e.jsx("rect", { x: 5, y: 5, width: 82, height: 46, fill: "#1e293b" }),
+          e.jsx("path", { d: "M-6 60h104l-6 8h-92z", fill: "#475569" }),
+        ],
+      }),
+      s,
+    ],
+  });
+}
+function It({ client: t }) {
+  const s = [
+    "#ef4444",
+    "#f97316",
+    "#facc15",
+    "#22c55e",
+    "#06b6d4",
+    "#6366f1",
+    "#d946ef",
+    "#f43f5e",
+  ];
+  return e.jsxs(B, {
+    label: `${t.name} pasting up a gig poster on a brick wall`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#9a3412" }),
+      Array.from({ length: 10 }, (i, r) =>
+        Array.from({ length: 9 }, (a, l) =>
+          e.jsx(
+            "rect",
+            {
+              x: l * 38 - (r % 2) * 19,
+              y: r * 20,
+              width: 36,
+              height: 18,
+              fill: "#c2410c",
+            },
+            `${r}-${l}`,
+          ),
+        ),
+      ),
+      e.jsx("rect", { y: 178, width: 320, height: 22, fill: "#44403c" }),
+      e.jsxs("g", {
+        transform: "translate(148 22)",
+        children: [
+          e.jsx("rect", { width: 112, height: 150, fill: "#1e1b4b" }),
+          e.jsx("circle", { cx: 56, cy: 56, r: 34, fill: "#f43f5e" }),
+          e.jsx("circle", { cx: 56, cy: 56, r: 22, fill: "#facc15" }),
+          e.jsx("rect", {
+            x: 14,
+            y: 100,
+            width: 84,
+            height: 10,
+            rx: 2,
+            fill: "#f8fafc",
+          }),
+          e.jsx("rect", {
+            x: 24,
+            y: 116,
+            width: 64,
+            height: 6,
+            rx: 2,
+            fill: "#a5b4fc",
+          }),
+          s.map((i, r) =>
+            e.jsx(
+              "rect",
+              { x: 8 + r * 12.5, y: 132, width: 10, height: 10, fill: i },
+              i,
+            ),
+          ),
+        ],
+      }),
+      e.jsx(T, { client: t, x: 88, y: 178, s: 1.15, arm: "point" }),
+      e.jsx("rect", {
+        x: 14,
+        y: 150,
+        width: 40,
+        height: 28,
+        rx: 3,
+        fill: "#e7e5e4",
+      }),
+      e.jsx("path", {
+        d: "M20 150v-10h28v10",
+        fill: "none",
+        stroke: "#a8a29e",
+        strokeWidth: 3,
+      }),
+    ],
+  });
+}
+function zt({ client: t }) {
+  const s = [0, 1, 2, 3];
+  return e.jsxs(B, {
+    label: `${t.name} in a photo studio with a camera and printed photos`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#fef9c3" }),
+      e.jsx("path", {
+        d: "M10 30q150 22 300 0",
+        fill: "none",
+        stroke: "#78716c",
+        strokeWidth: 1.5,
+      }),
+      s.map((i) =>
+        e.jsxs(
+          "g",
+          {
+            transform: `translate(${28 + i * 72} ${33 + (i === 1 || i === 2 ? 6 : 1)})`,
+            children: [
+              e.jsx("rect", {
+                width: 48,
+                height: 38,
+                fill: "#ffffff",
+                stroke: "#d6d3d1",
+              }),
+              e.jsx("rect", {
+                x: 4,
+                y: 4,
+                width: 40,
+                height: 26,
+                fill: ["#93c5fd", "#fca5a5", "#86efac", "#c4b5fd"][i],
+              }),
+              e.jsx("circle", {
+                cx: 24,
+                cy: 20,
+                r: 6,
+                fill: "#f8fafc",
+                opacity: 0.8,
+              }),
+              e.jsx("rect", {
+                x: 20,
+                y: -4,
+                width: 8,
+                height: 8,
+                fill: "#a16207",
+              }),
+            ],
+          },
+          i,
+        ),
+      ),
+      e.jsx("rect", { y: 172, width: 320, height: 28, fill: "#a8a29e" }),
+      e.jsxs("g", {
+        transform: "translate(206 92)",
+        children: [
+          e.jsx("path", {
+            d: "M24 30l-20 52M24 30l0 52M24 30l20 52",
+            stroke: "#44403c",
+            strokeWidth: 3,
+          }),
+          e.jsx("rect", {
+            x: 0,
+            y: 4,
+            width: 48,
+            height: 30,
+            rx: 4,
+            fill: "#1f2937",
+          }),
+          e.jsx("circle", {
+            cx: 24,
+            cy: 19,
+            r: 10,
+            fill: "#334155",
+            stroke: "#94a3b8",
+            strokeWidth: 2,
+          }),
+          e.jsx("circle", { cx: 24, cy: 19, r: 4, fill: "#0ea5e9" }),
+          e.jsx("rect", {
+            x: 34,
+            y: 0,
+            width: 10,
+            height: 6,
+            rx: 1,
+            fill: "#1f2937",
+          }),
+        ],
+      }),
+      e.jsx(T, { client: t, x: 110, y: 172, s: 1.2, arm: "wave" }),
+      e.jsxs("g", {
+        transform: "translate(140 98) rotate(12)",
+        children: [
+          e.jsx("rect", { width: 18, height: 24, rx: 2, fill: "#2563eb" }),
+          e.jsx("rect", { x: 3, y: 3, width: 12, height: 8, fill: "#bfdbfe" }),
+        ],
+      }),
+    ],
+  });
+}
+function Gt({ client: t, art: s }) {
+  return e.jsxs(B, {
+    label: `${t.name} checking a smartwatch on their wrist`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#d1fae5" }),
+      e.jsx("circle", { cx: 260, cy: 40, r: 22, fill: "#fde68a" }),
+      e.jsx("path", {
+        d: "M0 150q80-30 160 0t160 0v50h-320z",
+        fill: "#6ee7b7",
+      }),
+      e.jsx(T, { client: t, x: 84, y: 200, s: 1.35, arm: "hold" }),
+      e.jsxs("g", {
+        transform: "translate(150 86)",
+        children: [
+          e.jsx("path", {
+            d: "M-40 70q30-40 70-52l60 0q12 0 12 14v20q0 14-12 14l-60 0q-30 10-70 50z",
+            fill: he[t.skin],
+          }),
+          e.jsx("rect", {
+            x: 26,
+            y: -6,
+            width: 44,
+            height: 96,
+            rx: 10,
+            fill: "#0f172a",
+          }),
+          e.jsx("rect", {
+            x: 30,
+            y: 18,
+            width: 36,
+            height: 44,
+            rx: 6,
+            fill: "#1e293b",
+            stroke: "#64748b",
+            strokeWidth: 2,
+          }),
+          s ??
+            e.jsxs("g", {
+              children: [
+                e.jsx("circle", { cx: 44, cy: 36, r: 8, fill: "#fbbf24" }),
+                e.jsx("path", {
+                  d: "M42 52a7 7 0 0 1 4-12a9 9 0 0 1 16 3a6 6 0 0 1 0 9z",
+                  fill: "#f8fafc",
+                }),
+              ],
+            }),
+        ],
+      }),
+    ],
+  });
+}
+function Ot({ client: t }) {
+  return e.jsxs(B, {
+    label: `${t.name} in a photo booth for a passport photo`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#e2e8f0" }),
+      e.jsx("rect", { x: 40, y: 14, width: 150, height: 186, fill: "#1d4ed8" }),
+      e.jsx("rect", { x: 52, y: 26, width: 126, height: 174, fill: "#cbd5e1" }),
+      e.jsx("path", { d: "M150 26h28v174h-38q14-80 10-174z", fill: "#dc2626" }),
+      e.jsx(T, { client: t, x: 104, y: 170, s: 1.2 }),
+      e.jsx("rect", { x: 70, y: 168, width: 70, height: 10, fill: "#64748b" }),
+      e.jsxs("g", {
+        transform: "translate(212 38)",
+        children: [
+          e.jsx("rect", { width: 88, height: 120, rx: 6, fill: "#1e3a8a" }),
+          e.jsx("rect", {
+            x: 10,
+            y: 10,
+            width: 68,
+            height: 48,
+            rx: 3,
+            fill: "#f8fafc",
+          }),
+          e.jsx("rect", {
+            x: 16,
+            y: 16,
+            width: 22,
+            height: 30,
+            fill: "#cbd5e1",
+          }),
+          e.jsx("circle", { cx: 27, cy: 27, r: 6, fill: he[t.skin] }),
+          e.jsx("rect", {
+            x: 42,
+            y: 18,
+            width: 30,
+            height: 4,
+            fill: "#94a3b8",
+          }),
+          e.jsx("rect", {
+            x: 42,
+            y: 26,
+            width: 24,
+            height: 4,
+            fill: "#94a3b8",
+          }),
+          e.jsx("rect", {
+            x: 42,
+            y: 34,
+            width: 28,
+            height: 4,
+            fill: "#94a3b8",
+          }),
+          e.jsx("circle", {
+            cx: 44,
+            cy: 88,
+            r: 16,
+            fill: "none",
+            stroke: "#facc15",
+            strokeWidth: 3,
+          }),
+          e.jsx("path", {
+            d: "M36 88h16M44 80v16",
+            stroke: "#facc15",
+            strokeWidth: 2,
+          }),
+        ],
+      }),
+    ],
+  });
+}
+function _t({ client: t }) {
+  return e.jsxs(B, {
+    label: `${t.name} next to a retro arcade machine`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#1e1b4b" }),
+      Array.from({ length: 14 }, (s, i) =>
+        e.jsx(
+          "circle",
+          {
+            cx: (i * 53) % 320,
+            cy: ((i * 37) % 90) + 8,
+            r: 1.4,
+            fill: "#c7d2fe",
+          },
+          i,
+        ),
+      ),
+      e.jsx("rect", { y: 176, width: 320, height: 24, fill: "#312e81" }),
+      e.jsxs("g", {
+        transform: "translate(170 24)",
+        children: [
+          e.jsx("path", { d: "M0 0h96v152h-96z", fill: "#7c3aed" }),
+          e.jsx("rect", {
+            x: 10,
+            y: 10,
+            width: 76,
+            height: 14,
+            fill: "#f472b6",
+          }),
+          e.jsx("rect", {
+            x: 12,
+            y: 30,
+            width: 72,
+            height: 52,
+            fill: "#0f172a",
+          }),
+          e.jsx("path", { d: "M18 74q30-26 60 0z", fill: "#14b8a6" }),
+          e.jsx("circle", { cx: 48, cy: 56, r: 12, fill: "#fb923c" }),
+          e.jsx("path", { d: "M0 88h96l-8 20h-80z", fill: "#5b21b6" }),
+          e.jsx("circle", { cx: 30, cy: 98, r: 5, fill: "#facc15" }),
+          e.jsx("circle", { cx: 56, cy: 98, r: 4, fill: "#ef4444" }),
+          e.jsx("circle", { cx: 68, cy: 98, r: 4, fill: "#22c55e" }),
+        ],
+      }),
+      e.jsx(T, { client: t, x: 100, y: 176, s: 1.2, arm: "point" }),
+    ],
+  });
+}
+function Lt({ client: t }) {
+  const s = ["#fde68a", "#fbcfe8", "#bbf7d0", "#bfdbfe", "#fed7aa"];
+  return e.jsxs(B, {
+    label: `${t.name} pinning notes on the studio corkboard`,
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#f1f5f9" }),
+      e.jsx("rect", {
+        x: 130,
+        y: 16,
+        width: 176,
+        height: 130,
+        rx: 4,
+        fill: "#b45309",
+      }),
+      e.jsx("rect", {
+        x: 136,
+        y: 22,
+        width: 164,
+        height: 118,
+        fill: "#d97706",
+      }),
+      s.map((i, r) =>
+        e.jsxs(
+          "g",
+          {
+            transform: `translate(${146 + (r % 3) * 50} ${30 + Math.floor(r / 3) * 56}) rotate(${r % 2 ? 4 : -5})`,
+            children: [
+              e.jsx("rect", { width: 40, height: 40, fill: i }),
+              e.jsx("rect", {
+                x: 6,
+                y: 12,
+                width: 26,
+                height: 3,
+                fill: "#78716c",
+              }),
+              e.jsx("rect", {
+                x: 6,
+                y: 20,
+                width: 20,
+                height: 3,
+                fill: "#78716c",
+              }),
+              e.jsx("rect", {
+                x: 6,
+                y: 28,
+                width: 24,
+                height: 3,
+                fill: "#78716c",
+              }),
+              e.jsx("circle", { cx: 20, cy: 4, r: 3, fill: "#dc2626" }),
+            ],
+          },
+          i,
+        ),
+      ),
+      e.jsx("rect", { y: 176, width: 320, height: 24, fill: "#cbd5e1" }),
+      e.jsx(T, { client: t, x: 74, y: 176, s: 1.25, arm: "point" }),
+    ],
+  });
+}
+function Ft() {
+  const t = [".##.##.", "#######", "#######", ".#####.", "..###..", "...#..."];
+  return e.jsxs("svg", {
+    viewBox: "0 0 320 200",
+    role: "img",
+    "aria-label": "Inside Pixel Studio: a desk, a monitor and an easel",
+    className: "block h-auto w-full",
+    children: [
+      e.jsx("rect", { width: 320, height: 200, fill: "#1e293b" }),
+      e.jsx("rect", {
+        x: 16,
+        y: 18,
+        width: 110,
+        height: 78,
+        rx: 4,
+        fill: "#0ea5e9",
+        opacity: 0.35,
+      }),
+      e.jsx("path", {
+        d: "M71 18v78M16 57h110",
+        stroke: "#1e293b",
+        strokeWidth: 4,
+      }),
+      e.jsx("rect", { y: 150, width: 320, height: 50, fill: "#334155" }),
+      e.jsx("rect", {
+        x: 30,
+        y: 130,
+        width: 150,
+        height: 10,
+        rx: 2,
+        fill: "#a16207",
+      }),
+      e.jsx("rect", { x: 40, y: 140, width: 8, height: 40, fill: "#854d0e" }),
+      e.jsx("rect", { x: 162, y: 140, width: 8, height: 40, fill: "#854d0e" }),
+      e.jsx("rect", {
+        x: 70,
+        y: 78,
+        width: 74,
+        height: 50,
+        rx: 4,
+        fill: "#0f172a",
+      }),
+      e.jsx("rect", { x: 75, y: 83, width: 64, height: 40, fill: "#f8fafc" }),
+      e.jsx(q, {
+        width: 7,
+        colours: t.flatMap((s) =>
+          [...s].map((i) => (i === "#" ? "#f43f5e" : null)),
+        ),
+        x: 90,
+        y: 88,
+        size: 5,
+      }),
+      e.jsx("rect", { x: 102, y: 128, width: 10, height: 4, fill: "#475569" }),
+      e.jsxs("g", {
+        transform: "translate(214 40)",
+        children: [
+          e.jsx("path", {
+            d: "M8 120l26-120 26 120M34 0v130",
+            stroke: "#92400e",
+            strokeWidth: 5,
+            fill: "none",
+          }),
+          e.jsx("rect", {
+            x: 0,
+            y: 20,
+            width: 68,
+            height: 68,
+            fill: "#f8fafc",
+            stroke: "#78350f",
+            strokeWidth: 3,
+          }),
+          e.jsx(q, {
+            width: 4,
+            colours: [
+              "#facc15",
+              "#22d3ee",
+              "#d946ef",
+              "#22c55e",
+              "#22d3ee",
+              "#d946ef",
+              "#22c55e",
+              "#facc15",
+              "#d946ef",
+              "#22c55e",
+              "#facc15",
+              "#22d3ee",
+              "#22c55e",
+              "#facc15",
+              "#22d3ee",
+              "#d946ef",
+            ],
+            x: 10,
+            y: 30,
+            size: 12,
+          }),
+        ],
+      }),
+      e.jsx("circle", { cx: 196, cy: 164, r: 10, fill: "#16a34a" }),
+      e.jsx("rect", {
+        x: 188,
+        y: 170,
+        width: 16,
+        height: 18,
+        rx: 2,
+        fill: "#b45309",
+      }),
+    ],
+  });
+}
+const Dt = {
+  shop: Bt,
+  phone: Pt,
+  lab: Et,
+  poster: It,
+  photographer: zt,
+  watch: Gt,
+  passport: Ot,
+  arcade: _t,
+  notes: Lt,
+};
+function Yt({ scene: t, ...s }) {
+  const i = Dt[t];
+  return e.jsx(i, { ...s });
+}
+const S = `inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-40 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${Ke}`,
+  Z =
+    "inline-flex items-center justify-center gap-2 rounded-lg border border-slate-600 px-3 py-2 text-sm font-semibold text-slate-100 transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary";
+function H(t) {
+  return `${t} ${t === 1 ? "bit" : "bits"}`;
+}
+function O({ job: t, art: s, facts: i, children: r, feedback: a }) {
+  return e.jsxs("div", {
+    className:
+      "grid gap-4 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:items-start",
+    "data-studio-job": t.id,
+    "data-studio-kind": t.kind,
+    children: [
+      e.jsxs("article", {
+        className:
+          "studio-ticket overflow-hidden rounded-2xl border border-slate-700 bg-slate-950/60",
+        children: [
+          e.jsx("div", {
+            className: "studio-scene",
+            children: e.jsx(Yt, {
+              scene: t.scene,
+              client: t.client,
+              art: s,
+              ...t.sceneProps,
+            }),
+          }),
+          e.jsxs("div", {
+            className: "space-y-3 p-4",
+            children: [
+              e.jsxs("div", {
+                className:
+                  "flex flex-wrap items-baseline justify-between gap-x-3",
+                children: [
+                  e.jsx("h3", {
+                    className: "studio-display text-lg text-amber-200",
+                    children: t.title,
+                  }),
+                  e.jsxs("p", {
+                    className: "text-sm text-slate-400",
+                    children: [t.client.name, ", ", t.client.role],
+                  }),
+                ],
+              }),
+              e.jsx("blockquote", {
+                className:
+                  "studio-bubble text-[0.95rem] leading-7 text-slate-100",
+                "data-studio-brief": !0,
+                children: t.brief,
+              }),
+              i && i.length
+                ? e.jsx("dl", {
+                    className: "flex flex-wrap gap-2",
+                    "aria-label": "Metadata",
+                    children: i.map((l) =>
+                      e.jsxs(
+                        "div",
+                        {
+                          className:
+                            "rounded-md border border-slate-700 bg-slate-900 px-2.5 py-1",
+                          children: [
+                            e.jsx("dt", {
+                              className: "text-[0.7rem] text-slate-400",
+                              children: l.label,
+                            }),
+                            e.jsx("dd", {
+                              className:
+                                "font-mono text-sm font-semibold text-slate-100",
+                              children: l.value,
+                            }),
+                          ],
+                        },
+                        l.label,
+                      ),
+                    ),
+                  })
+                : null,
+            ],
+          }),
+        ],
+      }),
+      e.jsxs("div", { className: "min-w-0 space-y-4", children: [r, a] }),
+    ],
+  });
+}
+function Pe(t) {
+  return [
+    { label: "Width", value: `${t.width} px` },
+    { label: "Height", value: `${t.height} px` },
+    { label: "Colour depth", value: H(t.depth) },
+  ];
+}
+function Ee({ image: t, selected: s, onSelect: i }) {
+  return e.jsx("div", {
+    className: "flex flex-wrap gap-2",
+    role: i ? "radiogroup" : void 0,
+    "aria-label": "Colour codes",
+    children: t.palette.map((r, a) =>
+      i
+        ? e.jsxs(
+            "button",
+            {
+              type: "button",
+              role: "radio",
+              "aria-checked": s === a,
+              "aria-label": `${r.name}, code ${r.code}`,
+              onClick: () => i(a),
+              "data-studio-swatch": r.code,
+              className: `flex items-center gap-2 rounded-lg border px-2.5 py-1.5 text-sm transition focus:outline-none focus-visible:ring-2 focus-visible:ring-primary ${s === a ? "border-amber-300 bg-amber-300/15 text-slate-50" : "border-slate-700 text-slate-300 hover:border-slate-500"}`,
+              children: [
+                e.jsx("span", {
+                  className: "h-5 w-5 rounded border border-slate-500",
+                  style: { background: r.hex },
+                }),
+                e.jsx("span", {
+                  className: "font-mono font-semibold",
+                  children: r.code,
+                }),
+                e.jsx("span", {
+                  className: "hidden sm:inline",
+                  children: r.name,
+                }),
+                e.jsx("kbd", {
+                  className:
+                    "hidden rounded bg-slate-800 px-1 text-[0.65rem] text-slate-400 md:inline",
+                  children: a + 1,
+                }),
+              ],
+            },
+            r.code,
+          )
+        : e.jsxs(
+            "span",
+            {
+              className:
+                "flex items-center gap-2 rounded-lg border border-slate-700 px-2.5 py-1.5 text-sm text-slate-300",
+              children: [
+                e.jsx("span", {
+                  className: "h-5 w-5 rounded border border-slate-500",
+                  style: { background: r.hex },
+                }),
+                e.jsx("span", {
+                  className: "font-mono font-semibold",
+                  children: r.code,
+                }),
+                e.jsx("span", { children: r.name }),
+              ],
+            },
+            r.code,
+          ),
+    ),
+  });
+}
+function Ie({ bits: t, depth: s, active: i, painted: r }) {
+  const a = x.useMemo(() => {
+    const l = [];
+    for (let n = 0; n < t.length; n += s) l.push(t.slice(n, n + s));
+    return l;
+  }, [t, s]);
+  return e.jsxs("p", {
+    className:
+      "studio-stream break-all rounded-lg border border-slate-700 bg-slate-950 p-3 font-mono text-[0.95rem] leading-7 text-slate-300",
+    "data-studio-stream": !0,
+    children: [
+      e.jsx("span", { className: "sr-only", children: t }),
+      e.jsx("span", {
+        "aria-hidden": "true",
+        children: a.map((l, n) =>
+          e.jsx(
+            "span",
+            {
+              className: "studio-code",
+              "data-active": i === n || void 0,
+              "data-painted": r?.[n] || void 0,
+              children: l,
+            },
+            n,
+          ),
+        ),
+      }),
+    ],
+  });
+}
+function Kt({ job: t, outcome: s, onDone: i, feedback: r }) {
+  const { image: a } = t,
+    l = a.pixels.length,
+    [n, o] = x.useState(() => Array(l).fill(null)),
+    [c, h] = x.useState(a.palette.length - 1 > 0 ? 1 : 0),
+    [m, k] = x.useState(0),
+    [u, f] = x.useState(null),
+    j = x.useRef(!1),
+    y = x.useRef([]),
+    P = x.useMemo(() => Me(a), [a]),
+    C = s !== null,
+    _ = x.useMemo(() => (s ? new Set(we(t, n).wrong) : new Set()), [s, t, n]);
+  x.useEffect(() => {
+    const p = () => {
+      j.current = !1;
+    };
+    return (
+      window.addEventListener("pointerup", p),
+      () => window.removeEventListener("pointerup", p)
+    );
+  }, []);
+  function d(p) {
+    C || o((g) => (g[p] === c ? g : g.map((R, I) => (I === p ? c : R))));
+  }
+  function N(p) {
+    if (!j.current) return;
+    const g = document.elementFromPoint(p.clientX, p.clientY),
+      R = g instanceof HTMLElement ? g.closest("[data-studio-cell]") : null;
+    R && d(Number(R.dataset.studioCell));
+  }
+  function E(p, g) {
+    const I = {
+      ArrowRight: 1,
+      ArrowLeft: -1,
+      ArrowDown: a.width,
+      ArrowUp: -a.width,
+    }[p.key];
+    if (I !== void 0) {
+      p.preventDefault();
+      const U = g + I;
+      U >= 0 && U < l && (k(U), f(U), y.current[U]?.focus());
+      return;
+    }
+    const $ = Number(p.key);
+    Number.isInteger($) &&
+      $ >= 1 &&
+      $ <= a.palette.length &&
+      (p.preventDefault(), h($ - 1));
+  }
+  const J = n.filter((p) => p === null).length,
+    Y = e.jsx(q, {
+      width: a.width,
+      colours: n.map((p) => (p === null ? null : a.palette[p].hex)),
+      ...ue(t.scene, a),
+    });
+  return e.jsxs(O, {
+    job: t,
+    art: Y,
+    facts: Pe(a),
+    feedback: r,
+    children: [
+      e.jsx(Ie, {
+        bits: P,
+        depth: a.depth,
+        active: u,
+        painted: n.map((p) => p !== null),
+      }),
+      e.jsx(Ee, { image: a, selected: c, onSelect: C ? void 0 : h }),
+      e.jsx("div", {
+        className: "flex flex-wrap items-start gap-4",
+        children: e.jsx("div", {
+          className: "studio-grid",
+          style: {
+            gridTemplateColumns: `repeat(${a.width}, minmax(0, 1fr))`,
+            width: `${a.width * 3}rem`,
+            maxWidth: "100%",
+          },
+          role: "group",
+          "aria-label": `Image grid, ${a.width} pixels wide and ${a.height} pixels high`,
+          onPointerMove: N,
+          onPointerLeave: () => f(null),
+          "data-studio-grid": !0,
+          children: n.map((p, g) => {
+            const R = p === null ? null : a.palette[p],
+              I = _.has(g);
+            return e.jsx(
+              "button",
+              {
+                ref: ($) => {
+                  y.current[g] = $;
+                },
+                type: "button",
+                tabIndex: g === m ? 0 : -1,
+                "data-studio-cell": g,
+                "data-wrong": I || void 0,
+                "aria-label": `Row ${Math.floor(g / a.width) + 1}, column ${(g % a.width) + 1}: ${R ? R.name : "empty"}${I ? `, should be ${a.palette[a.pixels[g]].name}` : ""}`,
+                className: "studio-cell",
+                style: R ? { background: R.hex } : void 0,
+                onPointerDown: ($) => {
+                  C ||
+                    ($.preventDefault(),
+                    $.target.releasePointerCapture?.($.pointerId),
+                    (j.current = !0),
+                    k(g),
+                    d(g));
+                },
+                onPointerEnter: () => f(g),
+                onFocus: () => {
+                  (k(g), f(g));
+                },
+                onKeyDown: ($) => E($, g),
+                onClick: ($) => {
+                  $.detail === 0 && d(g);
+                },
+                children: I
+                  ? e.jsx("span", {
+                      className: "studio-cell-fix",
+                      style: { background: a.palette[a.pixels[g]].hex },
+                      "aria-hidden": "true",
+                    })
+                  : null,
+              },
+              g,
+            );
+          }),
+        }),
+      }),
+      C
+        ? null
+        : e.jsxs("div", {
+            className: "flex flex-wrap gap-2",
+            children: [
+              e.jsxs("button", {
+                type: "button",
+                className: Z,
+                onClick: () => o((p) => p.map((g) => g ?? c)),
+                disabled: J === 0,
+                children: [
+                  e.jsx(ze, { "aria-hidden": "true", className: "h-4 w-4" }),
+                  "Fill empty",
+                ],
+              }),
+              e.jsxs("button", {
+                type: "button",
+                className: Z,
+                onClick: () => o(Array(l).fill(null)),
+                disabled: J === l,
+                children: [
+                  e.jsx(ve, { "aria-hidden": "true", className: "h-4 w-4" }),
+                  "Clear",
+                ],
+              }),
+              e.jsxs("button", {
+                type: "button",
+                className: `${S} ml-auto`,
+                disabled: J > 0,
+                onClick: () =>
+                  i(
+                    we(t, n),
+                    n.map((p) => (p === null ? null : a.palette[p].hex)),
+                  ),
+                "data-studio-submit": !0,
+                children: [
+                  e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+                  "Send to client",
+                ],
+              }),
+            ],
+          }),
+    ],
+  });
+}
+function ue(t, s) {
+  const i =
+      t === "shop"
+        ? { x: 260, y: 82, w: 36, h: 36 }
+        : t === "phone"
+          ? { x: 186, y: 74, w: 50, h: 80 }
+          : { x: 221, y: 81, w: 74, h: 42 },
+    r = Math.min(i.w / s.width, i.h / s.height);
+  return {
+    x: i.x + (i.w - r * s.width) / 2,
+    y: i.y + (i.h - r * s.height) / 2,
+    size: r,
+  };
+}
+function qt({ image: t, label: s }) {
+  return e.jsx("div", {
+    className: "studio-grid studio-grid-static",
+    style: {
+      gridTemplateColumns: `repeat(${t.width}, minmax(0, 1fr))`,
+      width: `${t.width * 2.6}rem`,
+      maxWidth: "100%",
+    },
+    role: "img",
+    "aria-label": s,
+    children: t.pixels.map((i, r) =>
+      e.jsx(
+        "span",
+        { className: "studio-cell", style: { background: t.palette[i].hex } },
+        r,
+      ),
+    ),
+  });
+}
+function Ht({ job: t, outcome: s, onDone: i, feedback: r }) {
+  const { image: a } = t,
+    l = a.width * a.depth,
+    [n, o] = x.useState(() => Array(a.height).fill("")),
+    c = s !== null,
+    h = x.useMemo(() => (s ? ye(t, n) : null), [s, t, n]),
+    m = x.useMemo(
+      () =>
+        n.flatMap((u) =>
+          He(u.padEnd(l, "x"), a.depth, a.palette).map((j) =>
+            j === null ? null : a.palette[j].hex,
+          ),
+        ),
+      [n, l, a],
+    ),
+    k = n.every((u) => u.length === l);
+  return e.jsxs(O, {
+    job: t,
+    art: e.jsx(q, {
+      width: a.width,
+      colours: a.pixels.map((u) => a.palette[u].hex),
+      ...ue(t.scene, a),
+    }),
+    facts: Pe(a),
+    feedback: r,
+    children: [
+      e.jsx(Ee, { image: a }),
+      e.jsxs("div", {
+        className: "flex flex-wrap items-start gap-4",
+        children: [
+          e.jsxs("figure", {
+            className: "space-y-1",
+            children: [
+              e.jsx(qt, {
+                image: a,
+                label: `The icon, ${a.width} by ${a.height} pixels`,
+              }),
+              e.jsx("figcaption", {
+                className: "text-xs text-slate-400",
+                children: "Icon",
+              }),
+            ],
+          }),
+          e.jsxs("figure", {
+            className: "space-y-1",
+            children: [
+              e.jsx("div", {
+                className: "studio-grid studio-grid-static",
+                style: {
+                  gridTemplateColumns: `repeat(${a.width}, minmax(0, 1fr))`,
+                  width: `${a.width * 1.6}rem`,
+                  maxWidth: "100%",
+                },
+                role: "img",
+                "aria-label": "What your binary draws",
+                "data-studio-yours": !0,
+                children: m.map((u, f) =>
+                  e.jsx(
+                    "span",
+                    {
+                      className: "studio-cell",
+                      style: u ? { background: u } : void 0,
+                    },
+                    f,
+                  ),
+                ),
+              }),
+              e.jsx("figcaption", {
+                className: "text-xs text-slate-400",
+                children: "Your binary",
+              }),
+            ],
+          }),
+        ],
+      }),
+      e.jsx("div", {
+        className: "space-y-2",
+        children: n.map((u, f) => {
+          const j = h ? (h.rowRight[f] ? "right" : "wrong") : void 0;
+          return e.jsxs(
+            "div",
+            {
+              className: "flex flex-wrap items-center gap-2",
+              children: [
+                e.jsxs("label", {
+                  htmlFor: `studio-row-${f}`,
+                  className: "w-14 shrink-0 text-sm text-slate-400",
+                  children: ["Row ", f + 1],
+                }),
+                e.jsx("input", {
+                  id: `studio-row-${f}`,
+                  value: u,
+                  readOnly: c,
+                  inputMode: "numeric",
+                  autoComplete: "off",
+                  spellCheck: !1,
+                  maxLength: l,
+                  placeholder: `${l} bits`,
+                  onChange: (y) => {
+                    const P = y.target.value.replace(/[^01]/g, "").slice(0, l);
+                    o((C) => C.map((_, d) => (d === f ? P : _)));
+                  },
+                  "data-studio-row": f,
+                  "data-mark": j,
+                  className:
+                    "studio-input min-w-0 flex-1 font-mono tracking-[0.2em]",
+                  style: { maxWidth: `${l * 1.15 + 2}rem` },
+                }),
+                j === "right"
+                  ? e.jsx(v, {
+                      "aria-label": "right",
+                      className: "h-5 w-5 text-emerald-300",
+                    })
+                  : null,
+                j === "wrong"
+                  ? e.jsxs("span", {
+                      className:
+                        "flex items-center gap-1 font-mono text-sm text-emerald-200",
+                      children: [
+                        e.jsx(Q, {
+                          "aria-label": "wrong",
+                          className: "h-5 w-5 text-rose-300",
+                        }),
+                        Se(a, f),
+                      ],
+                    })
+                  : null,
+              ],
+            },
+            f,
+          );
+        }),
+      }),
+      c
+        ? null
+        : e.jsxs("button", {
+            type: "button",
+            className: S,
+            disabled: !k,
+            onClick: () => i(ye(t, n), m),
+            "data-studio-submit": !0,
+            children: [
+              e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+              "Save the file",
+            ],
+          }),
+    ],
+  });
+}
+function xe({
+  label: t,
+  value: s,
+  min: i,
+  max: r,
+  onChange: a,
+  disabled: l,
+  format: n,
+}) {
+  const o = `studio-stepper-${t.replace(/\W+/g, "-").toLowerCase()}`;
+  return e.jsxs("div", {
+    className:
+      "flex flex-wrap items-center gap-3 rounded-xl border border-slate-700 bg-slate-950/60 p-3",
+    children: [
+      e.jsx("button", {
+        type: "button",
+        className: Z,
+        "aria-label": `Less ${t.toLowerCase()}`,
+        disabled: l || s <= i,
+        onClick: () => a(s - 1),
+        children: e.jsx(Ge, { "aria-hidden": "true", className: "h-4 w-4" }),
+      }),
+      e.jsxs("div", {
+        className: "min-w-[8rem] flex-1",
+        children: [
+          e.jsx("label", {
+            htmlFor: o,
+            className: "block text-xs text-slate-400",
+            children: t,
+          }),
+          e.jsx("output", {
+            htmlFor: o,
+            className: "block font-mono text-2xl font-bold text-amber-200",
+            "data-studio-dial-value": !0,
+            children: n ? n(s) : s,
+          }),
+          e.jsx("input", {
+            id: o,
+            type: "range",
+            min: i,
+            max: r,
+            value: s,
+            disabled: l,
+            onChange: (c) => a(Number(c.target.value)),
+            className: "studio-range mt-1 w-full",
+          }),
+        ],
+      }),
+      e.jsx("button", {
+        type: "button",
+        className: Z,
+        "aria-label": `More ${t.toLowerCase()}`,
+        disabled: l || s >= r,
+        onClick: () => a(s + 1),
+        children: e.jsx(Oe, { "aria-hidden": "true", className: "h-4 w-4" }),
+      }),
+    ],
+  });
+}
+function Jt({ job: t, outcome: s, onDone: i, feedback: r }) {
+  const { image: a } = t,
+    [l, n] = x.useState(le.min + 1),
+    [o, c] = x.useState(null),
+    [h, m] = x.useState(() => new Set()),
+    k = x.useMemo(() => Me(a), [a]),
+    u = o ? a.width : l,
+    f = Je(a.pixels, u),
+    j = s !== null,
+    y = j ? je(t, h) : null,
+    P = a.pixels.map((d) => a.palette[d].hex),
+    C = e.jsx(q, {
+      width: u,
+      colours: P,
+      ...ue(t.scene, { width: u, height: f.length }),
+    });
+  function _() {
+    if (!o) return;
+    const d = je(t, h);
+    i(
+      {
+        right: o.right && d.right,
+        points: o.points + d.points,
+        detail:
+          [o.right ? null : "Wrong width", d.detail]
+            .filter(Boolean)
+            .join(". ") || void 0,
+        why: d.why,
+      },
+      P,
+    );
+  }
+  return e.jsxs(O, {
+    job: t,
+    art: C,
+    facts: [
+      { label: "Width", value: o ? `${a.width} px` : "?" },
+      { label: "Height", value: o ? `${a.height} px` : "?" },
+      { label: "Colour depth", value: H(a.depth) },
+    ],
+    feedback: r,
+    children: [
+      e.jsx(Ie, { bits: k, depth: a.depth, active: null }),
+      e.jsx(xe, {
+        label: "Width",
+        value: u,
+        min: le.min,
+        max: le.max,
+        onChange: n,
+        disabled: o !== null,
+        format: (d) => `${d} px`,
+      }),
+      e.jsxs("div", {
+        className: "flex flex-wrap items-start gap-4",
+        children: [
+          e.jsx("div", {
+            className: "studio-grid studio-grid-static",
+            style: {
+              gridTemplateColumns: `repeat(${u}, minmax(0, 1fr))`,
+              width: `${u * 1.9}rem`,
+              maxWidth: "100%",
+            },
+            role: "img",
+            "aria-label": `The pixels wrapped ${u} to a row, ${f.length} rows`,
+            "data-studio-wrapped": u,
+            children: a.pixels.map((d, N) =>
+              e.jsx(
+                "span",
+                {
+                  className: "studio-cell",
+                  style: { background: a.palette[d].hex },
+                },
+                N,
+              ),
+            ),
+          }),
+          e.jsxs("p", {
+            className: "font-mono text-sm text-slate-400",
+            children: [
+              a.pixels.length,
+              " pixels / ",
+              u,
+              " = ",
+              f.length,
+              " ",
+              f.length === 1 ? "row" : "rows",
+              a.pixels.length % u ? ` (last row ${a.pixels.length % u})` : "",
+            ],
+          }),
+        ],
+      }),
+      o === null
+        ? e.jsxs("button", {
+            type: "button",
+            className: S,
+            onClick: () => c(mt(t, l)),
+            "data-studio-submit": "width",
+            children: [
+              e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+              "Save the width",
+            ],
+          })
+        : e.jsxs("div", {
+            className: "space-y-3",
+            "data-studio-tags": !0,
+            children: [
+              e.jsxs("p", {
+                className: `rounded-lg border px-3 py-2 text-sm leading-6 ${o.right ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-100" : "border-rose-500/40 bg-rose-500/10 text-rose-100"}`,
+                "data-studio-width-verdict": o.right ? "correct" : "wrong",
+                children: [
+                  e.jsx("span", {
+                    className: "sr-only",
+                    children: o.right ? "Correct." : "Incorrect.",
+                  }),
+                  o.right ? null : `You chose ${l} px. `,
+                  o.why,
+                ],
+              }),
+              e.jsx("h4", {
+                className: "text-base font-semibold text-slate-50",
+                children: "Which of these are metadata?",
+              }),
+              e.jsx("div", {
+                className: "flex flex-wrap gap-2",
+                role: "group",
+                "aria-label": "Metadata tags",
+                children: t.tags.map((d) => {
+                  const N = h.has(d.id),
+                    E = y ? (N === d.metadata ? "right" : "wrong") : void 0;
+                  return e.jsxs(
+                    "button",
+                    {
+                      type: "button",
+                      "aria-pressed": N,
+                      disabled: j,
+                      onClick: () =>
+                        m((J) => {
+                          const Y = new Set(J);
+                          return (
+                            Y.has(d.id) ? Y.delete(d.id) : Y.add(d.id),
+                            Y
+                          );
+                        }),
+                      "data-studio-tag": d.id,
+                      "data-mark": E,
+                      className: `studio-tag ${N ? "studio-tag-on" : ""}`,
+                      children: [
+                        N
+                          ? e.jsx(v, {
+                              "aria-hidden": "true",
+                              className: "h-4 w-4",
+                            })
+                          : null,
+                        d.label,
+                        E === "wrong"
+                          ? e.jsx(Q, {
+                              "aria-label": d.metadata
+                                ? "is metadata"
+                                : "not metadata",
+                              className: "h-4 w-4 text-rose-300",
+                            })
+                          : null,
+                      ],
+                    },
+                    d.id,
+                  );
+                }),
+              }),
+              j
+                ? null
+                : e.jsxs("button", {
+                    type: "button",
+                    className: S,
+                    onClick: _,
+                    "data-studio-submit": "tags",
+                    children: [
+                      e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+                      "Save the metadata",
+                    ],
+                  }),
+            ],
+          }),
+    ],
+  });
+}
+function Ut({ depth: t }) {
+  const s = A(t);
+  return s > 64
+    ? e.jsx("div", {
+        className: "studio-spectrum h-8 rounded-md",
+        "aria-hidden": "true",
+      })
+    : e.jsx("div", {
+        className: "flex flex-wrap gap-1",
+        "aria-hidden": "true",
+        "data-studio-swatches": s,
+        children: Array.from({ length: s }, (i, r) =>
+          e.jsx(
+            "span",
+            {
+              className: "h-5 w-5 rounded-sm",
+              style: {
+                background: `hsl(${Math.round((360 * r) / s)} 75% ${r % 2 ? 45 : 60}%)`,
+              },
+            },
+            r,
+          ),
+        ),
+      });
+}
+function Vt({ depth: t }) {
+  return e.jsx("div", {
+    className: "flex flex-wrap gap-1",
+    "aria-hidden": "true",
+    children: Array.from({ length: t }, (s, i) =>
+      e.jsx(
+        "span",
+        {
+          className:
+            "flex h-8 w-7 items-center justify-center rounded border border-slate-600 bg-slate-900 font-mono text-slate-300",
+          children: "?",
+        },
+        i,
+      ),
+    ),
+  });
+}
+function Xt({ job: t, outcome: s, onDone: i, feedback: r }) {
+  const [a, l] = x.useState(1),
+    [n, o] = x.useState(""),
+    c = s !== null;
+  if (t.mode === "min-bits")
+    return e.jsxs(O, {
+      job: t,
+      feedback: r,
+      facts: [{ label: "Colours needed", value: b(t.colours) }],
+      children: [
+        e.jsx(xe, {
+          label: "Colour depth",
+          value: a,
+          min: me.min,
+          max: me.max,
+          onChange: l,
+          disabled: c,
+          format: H,
+        }),
+        e.jsxs("div", {
+          className:
+            "space-y-2 rounded-xl border border-slate-700 bg-slate-950/60 p-3",
+          children: [
+            e.jsxs("p", {
+              className: "font-mono text-lg text-slate-100",
+              "data-studio-colour-count": !0,
+              children: [
+                "2",
+                e.jsx("sup", { children: a }),
+                " = ",
+                b(A(a)),
+                " colours",
+              ],
+            }),
+            e.jsx(Ut, { depth: a }),
+          ],
+        }),
+        c
+          ? null
+          : e.jsxs("button", {
+              type: "button",
+              className: S,
+              onClick: () => i(ke(t, a)),
+              "data-studio-submit": !0,
+              children: [
+                e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+                "Set colour depth",
+              ],
+            }),
+      ],
+    });
+  const h = Number(n.replace(/[,\s]/g, ""));
+  return e.jsx(O, {
+    job: t,
+    feedback: r,
+    facts: [{ label: "Colour depth", value: H(t.depth) }],
+    children: e.jsxs("div", {
+      className:
+        "space-y-3 rounded-xl border border-slate-700 bg-slate-950/60 p-3",
+      children: [
+        e.jsx(Vt, { depth: t.depth }),
+        e.jsxs("form", {
+          className: "flex flex-wrap items-center gap-2",
+          onSubmit: (m) => {
+            (m.preventDefault(), !c && n && i(ke(t, h)));
+          },
+          children: [
+            e.jsx("label", {
+              htmlFor: "studio-colours",
+              className: "text-sm text-slate-300",
+              children: "Most colours",
+            }),
+            e.jsx("input", {
+              id: "studio-colours",
+              value: n,
+              readOnly: c,
+              inputMode: "numeric",
+              autoComplete: "off",
+              onChange: (m) => o(m.target.value.replace(/[^\d,]/g, "")),
+              className: "studio-input w-32 font-mono",
+              "data-studio-answer": !0,
+            }),
+            c
+              ? e.jsxs("span", {
+                  className: "font-mono text-sm text-emerald-200",
+                  children: ["= ", b(We(t))],
+                })
+              : e.jsxs("button", {
+                  type: "submit",
+                  className: S,
+                  disabled: !n,
+                  "data-studio-submit": !0,
+                  children: [
+                    e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+                    "Answer",
+                  ],
+                }),
+          ],
+        }),
+      ],
+    }),
+  });
+}
+function Zt({ job: t, outcome: s, onDone: i, feedback: r }) {
+  const [a, l] = x.useState(""),
+    n = s !== null,
+    o = [
+      ["Width", `${b(t.width)} px`],
+      ["Height", `${b(t.height)} px`],
+      ["Colour depth", H(t.depth)],
+      ...(t.count > 1 ? [["Images", String(t.count)]] : []),
+    ];
+  return e.jsx(O, {
+    job: t,
+    feedback: r,
+    children: e.jsxs("form", {
+      className: "studio-invoice space-y-3 rounded-xl p-4 text-stone-900",
+      onSubmit: (c) => {
+        (c.preventDefault(), !n && a && i(gt(t, a)));
+      },
+      children: [
+        e.jsx("h4", {
+          className: "studio-display text-base text-stone-800",
+          children: "Invoice",
+        }),
+        e.jsx("dl", {
+          className: "divide-y divide-stone-300 text-sm",
+          children: o.map(([c, h]) =>
+            e.jsxs(
+              "div",
+              {
+                className: "flex justify-between py-1.5",
+                children: [
+                  e.jsx("dt", { children: c }),
+                  e.jsx("dd", {
+                    className: "font-mono font-semibold",
+                    children: h,
+                  }),
+                ],
+              },
+              c,
+            ),
+          ),
+        }),
+        e.jsxs("div", {
+          className:
+            "flex flex-wrap items-center gap-2 border-t-2 border-stone-800 pt-3",
+          children: [
+            e.jsx("span", {
+              id: "studio-size-label",
+              className: "font-semibold",
+              children: "File size",
+            }),
+            e.jsx("input", {
+              id: "studio-size",
+              "aria-labelledby": "studio-size-label",
+              value: a,
+              readOnly: n,
+              inputMode: "decimal",
+              autoComplete: "off",
+              onChange: (c) => l(c.target.value.replace(/[^\d.,]/g, "")),
+              className: "studio-input studio-input-paper w-40 font-mono",
+              "data-studio-answer": !0,
+            }),
+            e.jsx("span", {
+              className: "text-sm font-semibold",
+              children: Ae[t.unit],
+            }),
+            n
+              ? null
+              : e.jsxs("button", {
+                  type: "submit",
+                  className: `${S} ml-auto`,
+                  disabled: !a,
+                  "data-studio-submit": !0,
+                  children: [
+                    e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+                    "Send invoice",
+                  ],
+                }),
+          ],
+        }),
+        n
+          ? e.jsx("ol", {
+              className:
+                "space-y-1 rounded-lg bg-white/60 p-3 font-mono text-sm",
+              "data-studio-working": !0,
+              children: pt(t).map((c) => e.jsx("li", { children: c }, c)),
+            })
+          : null,
+      ],
+    }),
+  });
+}
+function Qt({ job: t, width: s, height: i, depth: r }) {
+  const a = x.useRef(null);
+  return (
+    x.useEffect(() => {
+      const l = a.current;
+      let n = null;
+      try {
+        n = l?.getContext("2d") ?? null;
+      } catch {
+        n = null;
+      }
+      if (!l || !n) return;
+      const o = n.createImageData(s, i);
+      (o.data.set(Wt(t.picture, s, i, r)), n.putImageData(o, 0, 0));
+    }, [t.picture, s, i, r]),
+    e.jsx("canvas", {
+      ref: a,
+      width: s,
+      height: i,
+      className:
+        "studio-preview block h-auto w-full rounded-lg border border-slate-700",
+      style: { aspectRatio: `${s} / ${i}` },
+      role: "img",
+      "aria-label": `Preview at ${s} by ${i} pixels and ${H(r)} per pixel`,
+      "data-studio-preview": `${s}x${i}@${r}`,
+    })
+  );
+}
+function es({ job: t, outcome: s, onDone: i, feedback: r }) {
+  const [a, l] = x.useState(Math.floor(t.resolutions.length / 2)),
+    [n, o] = x.useState(t.depths[t.depths.length - 1]),
+    c = s !== null,
+    [h, m] = t.resolutions[a],
+    k = ae(h, m, n),
+    u = k > t.maxBytes,
+    f = A(n) >= t.needColours,
+    j = Math.min(1, k / (t.maxBytes * 1.5));
+  return e.jsxs(O, {
+    job: t,
+    feedback: r,
+    facts: [
+      { label: "Colours needed", value: b(t.needColours) },
+      { label: "Largest file", value: `${b(t.maxBytes)} bytes` },
+    ],
+    children: [
+      e.jsx("div", {
+        className:
+          t.picture === "passport"
+            ? "mx-auto max-w-[14rem]"
+            : t.picture === "watch"
+              ? "mx-auto max-w-[18rem]"
+              : "",
+        children: e.jsx(Qt, { job: t, width: h, height: m, depth: n }),
+      }),
+      e.jsx(xe, {
+        label: "Resolution",
+        value: a,
+        min: 0,
+        max: t.resolutions.length - 1,
+        onChange: l,
+        disabled: c,
+        format: (y) => `${t.resolutions[y][0]} x ${t.resolutions[y][1]} px`,
+      }),
+      e.jsxs("div", {
+        className: "rounded-xl border border-slate-700 bg-slate-950/60 p-3",
+        children: [
+          e.jsx("p", {
+            id: "studio-depth-label",
+            className: "mb-2 text-xs text-slate-400",
+            children: "Colour depth",
+          }),
+          e.jsx("div", {
+            className: "flex flex-wrap gap-1.5",
+            role: "radiogroup",
+            "aria-labelledby": "studio-depth-label",
+            children: t.depths.map((y) =>
+              e.jsx(
+                "button",
+                {
+                  type: "button",
+                  role: "radio",
+                  "aria-checked": n === y,
+                  disabled: c,
+                  onClick: () => o(y),
+                  "data-studio-depth": y,
+                  className: `rounded-lg border px-3 py-1.5 font-mono text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:opacity-60 ${n === y ? "border-amber-300 bg-amber-300/15 text-amber-100" : "border-slate-700 text-slate-300 hover:border-slate-500"}`,
+                  children: y,
+                },
+                y,
+              ),
+            ),
+          }),
+        ],
+      }),
+      e.jsxs("dl", {
+        className: "grid grid-cols-2 gap-2 text-sm",
+        children: [
+          e.jsxs("div", {
+            className: `rounded-lg border p-2 ${f ? "border-emerald-500/40" : "border-rose-500/50"}`,
+            "data-studio-colours-ok": f,
+            children: [
+              e.jsx("dt", {
+                className: "text-xs text-slate-400",
+                children: "Colours",
+              }),
+              e.jsx("dd", {
+                className: `font-mono font-bold ${f ? "text-emerald-200" : "text-rose-200"}`,
+                children: b(A(n)),
+              }),
+            ],
+          }),
+          e.jsxs("div", {
+            className: `rounded-lg border p-2 ${u ? "border-rose-500/50" : "border-emerald-500/40"}`,
+            "data-studio-size-ok": !u,
+            children: [
+              e.jsx("dt", {
+                className: "text-xs text-slate-400",
+                children: "File size",
+              }),
+              e.jsxs("dd", {
+                className: `font-mono font-bold ${u ? "text-rose-200" : "text-emerald-200"}`,
+                "data-studio-bytes": !0,
+                children: [b(k), " bytes"],
+              }),
+            ],
+          }),
+        ],
+      }),
+      e.jsxs("div", {
+        className: "space-y-1",
+        children: [
+          e.jsxs("p", {
+            className: "font-mono text-xs text-slate-400",
+            "data-studio-size-sum": !0,
+            children: [
+              h,
+              " x ",
+              m,
+              " x ",
+              n,
+              " = ",
+              b(h * m * n),
+              " bits / 8 =",
+              " ",
+              b(k),
+              " bytes",
+            ],
+          }),
+          e.jsxs("div", {
+            className: "studio-meter",
+            "aria-hidden": "true",
+            children: [
+              e.jsx("span", {
+                className: u ? "bg-rose-400" : "bg-emerald-400",
+                style: { width: `${j * 100}%` },
+              }),
+              e.jsx("i", { style: { left: `${(1 / 1.5) * 100}%` } }),
+            ],
+          }),
+        ],
+      }),
+      c
+        ? null
+        : e.jsxs("button", {
+            type: "button",
+            className: S,
+            onClick: () => i(wt(t, a, n)),
+            "data-studio-submit": !0,
+            children: [
+              e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+              "Deliver",
+            ],
+          }),
+    ],
+  });
+}
+function ts({ job: t, outcome: s, onDone: i, feedback: r }) {
+  const [a, l] = x.useState(() => t.statements.map(() => null)),
+    n = s !== null,
+    o = n ? Ne(t, a).marks : null;
+  return e.jsxs(O, {
+    job: t,
+    feedback: r,
+    children: [
+      e.jsx("ol", {
+        className: "space-y-3",
+        children: t.statements.map((c, h) =>
+          e.jsxs(
+            "li",
+            {
+              className: `studio-note rounded-lg p-3 ${o ? (o[h] ? "studio-note-right" : "studio-note-wrong") : ""}`,
+              "data-studio-note": c.id,
+              "data-mark": o ? (o[h] ? "right" : "wrong") : void 0,
+              children: [
+                e.jsx("p", {
+                  className: "font-medium leading-6 text-stone-900",
+                  children: c.text,
+                }),
+                e.jsxs("div", {
+                  className: "mt-2 flex flex-wrap items-center gap-2",
+                  role: "group",
+                  "aria-label": `Note ${h + 1}`,
+                  children: [
+                    [!0, !1].map((m) =>
+                      e.jsx(
+                        "button",
+                        {
+                          type: "button",
+                          "aria-pressed": a[h] === m,
+                          disabled: n,
+                          onClick: () =>
+                            l((k) => k.map((u, f) => (f === h ? m : u))),
+                          className: `studio-tf ${a[h] === m ? "studio-tf-on" : ""}`,
+                          "data-studio-tf": m ? "true" : "false",
+                          children: m ? "True" : "False",
+                        },
+                        String(m),
+                      ),
+                    ),
+                    o
+                      ? o[h]
+                        ? e.jsx(v, {
+                            "aria-label": "right",
+                            className: "h-5 w-5 text-emerald-700",
+                          })
+                        : e.jsx(Q, {
+                            "aria-label": "wrong",
+                            className: "h-5 w-5 text-rose-700",
+                          })
+                      : null,
+                  ],
+                }),
+                n
+                  ? e.jsx("p", {
+                      className: "mt-2 text-sm leading-6",
+                      style: { color: "#44403c" },
+                      children: c.why,
+                    })
+                  : null,
+              ],
+            },
+            c.id,
+          ),
+        ),
+      }),
+      n
+        ? null
+        : e.jsxs("button", {
+            type: "button",
+            className: S,
+            disabled: a.some((c) => c === null),
+            onClick: () => i(Ne(t, a)),
+            "data-studio-submit": !0,
+            children: [
+              e.jsx(v, { "aria-hidden": "true", className: "h-4 w-4" }),
+              "Pin them up",
+            ],
+          }),
+    ],
+  });
+}
+const $e = "pixel-studio-fonts",
+  ss =
+    "https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap";
+function is() {
+  x.useEffect(() => {
+    if (document.getElementById($e)) return;
+    const t = document.createElement("link");
+    ((t.id = $e),
+      (t.rel = "stylesheet"),
+      (t.href = ss),
+      document.head.appendChild(t));
+  }, []);
+}
+function as({ job: t, outcome: s, onDone: i, feedback: r }) {
+  const a = { outcome: s, onDone: i, feedback: r };
+  switch (t.kind) {
+    case "decode":
+      return e.jsx(Kt, { job: t, ...a });
+    case "metadata":
+      return e.jsx(Jt, { job: t, ...a });
+    case "encode":
+      return e.jsx(Ht, { job: t, ...a });
+    case "colours":
+      return e.jsx(Xt, { job: t, ...a });
+    case "invoice":
+      return e.jsx(Zt, { job: t, ...a });
+    case "spec":
+      return e.jsx(es, { job: t, ...a });
+    case "notes":
+      return e.jsx(ts, { job: t, ...a });
+  }
+}
+function rs({ outcome: t, last: s, onNext: i }) {
+  const r = x.useRef(null);
+  return (
+    x.useEffect(() => {
+      r.current?.focus({ preventScroll: !0 });
+    }, []),
+    e.jsxs("div", {
+      className: `studio-feedback space-y-3 rounded-2xl border p-4 ${t.right ? "border-emerald-500/50 bg-emerald-500/10" : "border-rose-500/50 bg-rose-500/10"}`,
+      "aria-live": "polite",
+      "data-studio-feedback": t.right ? "correct" : "wrong",
+      children: [
+        e.jsxs("div", {
+          className: "flex items-center gap-3",
+          children: [
+            e.jsx("span", {
+              className: `flex h-9 w-9 shrink-0 items-center justify-center rounded-full ${t.right ? "bg-emerald-400 text-[#020617]" : "bg-rose-400 text-[#020617]"}`,
+              children: t.right
+                ? e.jsx(v, { "aria-hidden": "true", className: "h-5 w-5" })
+                : e.jsx(Q, { "aria-hidden": "true", className: "h-5 w-5" }),
+            }),
+            e.jsx("span", {
+              className: "sr-only",
+              children: t.right ? "Correct." : "Incorrect.",
+            }),
+            e.jsx("p", {
+              className: "flex-1 text-sm text-slate-300",
+              children: t.detail,
+            }),
+            e.jsxs("p", {
+              className: "font-mono text-xl font-bold text-amber-200",
+              "data-studio-points": !0,
+              children: ["+", t.points],
+            }),
+          ],
+        }),
+        t.why
+          ? e.jsx("p", {
+              className: "leading-7 text-slate-100",
+              children: t.why,
+            })
+          : null,
+        e.jsxs("button", {
+          ref: r,
+          type: "button",
+          className: `w-full ${S}`,
+          onClick: i,
+          "data-studio-next": !0,
+          children: [
+            s ? "Close the studio" : "Next client",
+            e.jsx(Fe, { "aria-hidden": "true", className: "h-4 w-4" }),
+          ],
+        }),
+      ],
+    })
+  );
+}
+function ls({ jobs: t, done: s, current: i }) {
+  return e.jsx("ol", {
+    className: "flex flex-wrap gap-1.5",
+    "aria-label": `Client ${Math.min(i + 1, t.length)} of ${t.length}`,
+    "data-studio-tickets": !0,
+    children: t.map((r, a) => {
+      const l = s[a]
+        ? s[a].outcome.right
+          ? "right"
+          : "wrong"
+        : a === i
+          ? "current"
+          : "waiting";
+      return e.jsx(
+        "li",
+        {
+          className: "studio-ticket-dot",
+          "data-state": l,
+          title: r.title,
+          children: e.jsxs("span", {
+            className: "sr-only",
+            children: [r.title, ": ", l],
+          }),
+        },
+        r.id,
+      );
+    }),
+  });
+}
+function ns({ done: t }) {
+  return e.jsx("ul", {
+    className: "grid grid-cols-2 gap-3 sm:grid-cols-4",
+    "data-studio-portfolio": !0,
+    children: t.map(({ job: s, outcome: i, art: r }) => {
+      const a = "image" in s ? s.image : null;
+      return e.jsxs(
+        "li",
+        {
+          className: `rounded-xl border p-3 ${i.right ? "border-emerald-500/40" : "border-rose-500/40"}`,
+          children: [
+            e.jsx("div", {
+              className: `mb-2 flex h-16 items-center justify-center rounded-lg ${a && r ? "bg-slate-500" : "bg-slate-950"}`,
+              children:
+                a && r
+                  ? e.jsx("svg", {
+                      viewBox: `0 0 ${a.width} ${a.height}`,
+                      className: "h-12 w-auto",
+                      "aria-hidden": "true",
+                      style: { shapeRendering: "crispEdges" },
+                      children: e.jsx(q, {
+                        width: a.width,
+                        colours: r,
+                        x: 0,
+                        y: 0,
+                        size: 1,
+                      }),
+                    })
+                  : e.jsx("span", {
+                      className:
+                        "px-2 text-center font-mono text-sm font-semibold text-amber-200",
+                      children: i.answer,
+                    }),
+            }),
+            e.jsx("p", {
+              className: "text-sm font-semibold text-slate-100",
+              children: s.title,
+            }),
+            e.jsxs("p", {
+              className: "flex items-center gap-1 text-xs text-slate-400",
+              children: [
+                i.right
+                  ? e.jsx(v, {
+                      "aria-label": "done",
+                      className: "h-3.5 w-3.5 text-emerald-300",
+                    })
+                  : e.jsx(Q, {
+                      "aria-label": "sent back",
+                      className: "h-3.5 w-3.5 text-rose-300",
+                    }),
+                s.client.name,
+                " · ",
+                i.points,
+              ],
+            }),
+          ],
+        },
+        s.id,
+      );
+    }),
+  });
+}
+function xs({ random: t } = {}) {
+  is();
+  const [s, i] = x.useState("intro"),
+    [r, a] = x.useState(() => be(t)),
+    [l, n] = x.useState(0),
+    [o, c] = x.useState([]),
+    [h, m] = x.useState(0),
+    k = x.useRef(null);
+  De(o.length, ge, o.filter((d) => d.outcome.right).length);
+  const u = r[l],
+    f = o[l]?.outcome ?? null,
+    j = o.reduce((d, N) => d + N.outcome.points, 0),
+    y = o.filter((d) => d.outcome.right).length;
+  function P() {
+    i("playing");
+  }
+  function C() {
+    (l + 1 >= r.length ? i("over") : n(l + 1),
+      k.current?.scrollIntoView?.({ block: "nearest" }));
+  }
+  function _() {
+    (a(be(t)), n(0), c([]), m((d) => d + 1), i("playing"));
+  }
+  return e.jsxs("div", {
+    ref: k,
+    className:
+      "pixel-studio overflow-hidden rounded-2xl border border-slate-700 bg-slate-900",
+    "data-pixel-studio": !0,
+    "data-studio-phase": s,
+    children: [
+      e.jsxs("div", {
+        className:
+          "flex flex-wrap items-center gap-3 border-b border-slate-700 bg-slate-950/70 px-4 py-3",
+        children: [
+          e.jsxs("span", {
+            className: "studio-logo",
+            "aria-hidden": "true",
+            children: [
+              e.jsx("i", {}),
+              e.jsx("i", {}),
+              e.jsx("i", {}),
+              e.jsx("i", {}),
+            ],
+          }),
+          e.jsx("span", { className: "flex-1" }),
+          s === "playing" ? e.jsx(ls, { jobs: r, done: o, current: l }) : null,
+          e.jsxs("dl", {
+            className: "text-right",
+            children: [
+              e.jsx("dt", { className: "sr-only", children: "Score" }),
+              e.jsx("dd", {
+                className: "font-mono text-xl font-bold text-amber-200",
+                "data-studio-score": !0,
+                children: j,
+              }),
+            ],
+          }),
+        ],
+      }),
+      e.jsxs("div", {
+        className: "p-3 sm:p-5",
+        children: [
+          s === "intro"
+            ? e.jsxs("div", {
+                className:
+                  "grid gap-5 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] md:items-center",
+                "data-studio-intro": !0,
+                children: [
+                  e.jsx("div", {
+                    className:
+                      "overflow-hidden rounded-2xl border border-slate-700",
+                    children: e.jsx(Ft, {}),
+                  }),
+                  e.jsxs("div", {
+                    className: "space-y-5",
+                    children: [
+                      e.jsxs("h3", {
+                        className:
+                          "studio-display text-2xl leading-tight text-amber-200 sm:text-3xl",
+                        children: [ge, " clients are booked in today."],
+                      }),
+                      e.jsx("ol", {
+                        className: "grid gap-2 sm:grid-cols-2",
+                        children: r.map((d, N) =>
+                          e.jsxs(
+                            "li",
+                            {
+                              className:
+                                "flex items-center gap-2 rounded-lg border border-slate-700 bg-slate-950/50 px-3 py-2 text-sm text-slate-200",
+                              children: [
+                                e.jsx("span", {
+                                  className: "font-mono text-xs text-slate-500",
+                                  children: N + 1,
+                                }),
+                                d.title,
+                                e.jsx("span", {
+                                  className:
+                                    "ml-auto truncate text-xs text-slate-400",
+                                  children: d.client.name,
+                                }),
+                              ],
+                            },
+                            d.id,
+                          ),
+                        ),
+                      }),
+                      e.jsxs("button", {
+                        type: "button",
+                        className: S,
+                        onClick: P,
+                        "data-studio-start": !0,
+                        children: [
+                          e.jsx(_e, {
+                            "aria-hidden": "true",
+                            className: "h-4 w-4",
+                          }),
+                          "Open the studio",
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              })
+            : null,
+          s === "playing" && u
+            ? e.jsx(
+                as,
+                {
+                  job: u,
+                  outcome: f,
+                  onDone: (d, N) =>
+                    c((E) =>
+                      E[l] ? E : [...E, { job: u, outcome: d, art: N }],
+                    ),
+                  feedback: f
+                    ? e.jsx(rs, {
+                        outcome: f,
+                        last: l + 1 >= r.length,
+                        onNext: C,
+                      })
+                    : null,
+                },
+                `${h}-${u.id}`,
+              )
+            : null,
+          s === "over"
+            ? e.jsxs(e.Fragment, {
+                children: [
+                  e.jsxs("div", {
+                    className: "space-y-5",
+                    "aria-live": "polite",
+                    "data-game-finished":
+                      y * 4 >= r.length * 3 ? "good" : "poor",
+                    "data-studio-results": !0,
+                    children: [
+                      e.jsxs("div", {
+                        className: "flex flex-wrap items-center gap-4",
+                        children: [
+                          e.jsx("span", {
+                            className:
+                              "flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-300 text-[#020617]",
+                            children: e.jsx(Le, {
+                              "aria-hidden": "true",
+                              className: "h-7 w-7",
+                            }),
+                          }),
+                          e.jsxs("div", {
+                            className: "flex-1",
+                            children: [
+                              e.jsx("h3", {
+                                className:
+                                  "studio-display text-2xl text-amber-200 sm:text-3xl",
+                                "data-studio-rank": !0,
+                                children: jt(y),
+                              }),
+                              e.jsxs("p", {
+                                className: "text-slate-300",
+                                children: [
+                                  y,
+                                  " of ",
+                                  r.length,
+                                  " jobs done · ",
+                                  j,
+                                  " points",
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                      e.jsx(ns, { done: o }),
+                      o.some((d) => !d.outcome.right)
+                        ? e.jsxs("div", {
+                            className: "space-y-2",
+                            children: [
+                              e.jsx("h4", {
+                                className:
+                                  "text-base font-semibold text-slate-50",
+                                children: "Sent back",
+                              }),
+                              o
+                                .filter((d) => !d.outcome.right)
+                                .map(({ job: d, outcome: N }) =>
+                                  e.jsxs(
+                                    "div",
+                                    {
+                                      className:
+                                        "rounded-lg border-l-4 border-rose-400/60 bg-slate-950/50 py-2 pl-4 pr-3",
+                                      children: [
+                                        e.jsx("p", {
+                                          className:
+                                            "font-semibold text-slate-100",
+                                          children: d.title,
+                                        }),
+                                        e.jsx("p", {
+                                          className:
+                                            "text-sm leading-6 text-slate-300",
+                                          children: N.why || N.detail,
+                                        }),
+                                      ],
+                                    },
+                                    d.id,
+                                  ),
+                                ),
+                            ],
+                          })
+                        : null,
+                      e.jsxs("button", {
+                        type: "button",
+                        className: Z,
+                        onClick: _,
+                        "data-studio-again": !0,
+                        children: [
+                          e.jsx(ve, {
+                            "aria-hidden": "true",
+                            className: "h-4 w-4",
+                          }),
+                          "New day",
+                        ],
+                      }),
+                    ],
+                  }),
+                  e.jsx(Ye, { game: "pixel-studio" }),
+                ],
+              })
+            : null,
+        ],
+      }),
+    ],
+  });
+}
+export { xs as default };

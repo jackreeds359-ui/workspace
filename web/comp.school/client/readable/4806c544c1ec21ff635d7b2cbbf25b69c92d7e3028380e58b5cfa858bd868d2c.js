@@ -1,0 +1,79 @@
+const m = ["Film", "Genre", "Day", "Tickets", "Price (£)", "Rating"],
+  S = [
+    ["Robot Rescue", "Family", "Sat", 120, 6, 4],
+    ["Night Tide", "Horror", "Fri", 85, 8, 3],
+    ["Laugh Track", "Comedy", "Sat", 140, 8, 5],
+    ["Deep Orbit", "Sci-Fi", "Sun", 60, 8, 4],
+    ["Pony Park", "Family", "Sun", 95, 6, ""],
+    ["The Vault", "Action", "Fri", 150, 9, 4],
+    ["Quiet Hill", "Horror", "Sat", 40, 8, 2],
+    ["Star Chef", "Comedy", "Sun", 75, 7, 3],
+    ["Road Trip", "Comedy", "Fri", 110, 8, 4],
+    ["Sky Kids", "Family", "Sat", 130, 6, 5],
+  ],
+  u = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+function C(e = S) {
+  const c = {};
+  return (
+    m.forEach((r, t) => {
+      c[`${u[t]}1`] = r;
+    }),
+    e.forEach((r, t) => {
+      r.forEach((a, o) => {
+        c[`${u[o]}${t + 2}`] = a;
+      });
+    }),
+    c
+  );
+}
+function b(e = {}) {
+  const c = e.cols ?? u.slice(0, 6),
+    r = e.from ?? 1,
+    t = e.to ?? 11,
+    a = { ...C(e.data), ...(e.set ?? {}) },
+    o = { ...(e.hl ?? {}) };
+  for (const n of e.dim ?? []) for (const f of c) o[`${f}${n}`] ??= "dim";
+  const s = [];
+  for (let n = r; n <= t; n++) s.push(c.map((f) => a[`${f}${n}`] ?? ""));
+  return {
+    tab: e.tab ?? "Screenings",
+    cols: c,
+    start: r,
+    hdRow: r === 1 ? 1 : void 0,
+    data: s,
+    hl: o,
+  };
+}
+function F(e, c, r = []) {
+  const [t, a = t] = e.split(":"),
+    o = {},
+    s = t.charCodeAt(0),
+    n = a.charCodeAt(0),
+    f = Number(t.slice(1)),
+    h = Number(a.slice(1));
+  for (let i = s; i <= n; i++)
+    for (let l = f; l <= h; l++) {
+      const d = `${String.fromCharCode(i)}${l}`;
+      r.includes(d) || (o[d] = c);
+    }
+  return o;
+}
+function g(...e) {
+  return Object.assign({}, ...e);
+}
+const y = {
+    pink: "#ff4d8d",
+    orange: "#ff9f1c",
+    green: "#2ec4b6",
+    blue: "#3a86ff",
+    purple: "#8338ec",
+    red: "#ef233c",
+  },
+  $ = {
+    look: "#ffe1ee",
+    scan: "#fff0c2",
+    hit: "#c9f7ee",
+    ret: "#e6dcff",
+    bad: "#ffe0e4",
+  };
+export { y as C, $ as T, b as f, g as h, F as r };
