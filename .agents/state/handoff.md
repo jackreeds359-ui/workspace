@@ -183,3 +183,7 @@ Observed in this sandbox:
 - No Unicorn Studio tools are in the agent tool list.
 
 Only a throwaway local page has been loaded. No real site or app has been opened or tested.
+
+## comp.school mapping 2026-11-13T19:10:55.591190+00:00
+
+Continue the current comp.school task from web/comp.school and .agents/scripts/webdump.py. Public GET crawl records URL/status/time/SHA256 and content-addressed objects, plus links and discovery limits. Temporary browser session is compmap; do not export its cookies/auth state or archive personal records. Credentials were supplied in chat only and are not a durable dependency. Sources: client links/assets, normal account navigation and certificate transparency. No hidden-path scans, exploit attempts, auth bypasses, API record enumeration or form writes beyond requested login. Keep briefings, changedfiles list, manifest and handoff.zip current every <=5 minutes during active work; the next agent must continue this practice, including after a handoff, and pause idle wakes on completion.

@@ -1,9 +1,2 @@
-.gitignore
-AGENTS.md
-SETUP.md
-setup.sh
-tools.sh
-.hoplite/setup.sh
-.agents/scripts/toolsetup.py
-.agents/scripts/toolcheck.py
-.agents/scripts/requirements.txt
+.agents/scripts/webdump.py
+web/comp.school

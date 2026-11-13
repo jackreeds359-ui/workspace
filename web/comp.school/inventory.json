@@ -1,0 +1,1273 @@
+[
+  {
+    "url": "https://comp.school/",
+    "time": "2026-11-13T19:09:43.535258+00:00",
+    "status": 200,
+    "final": "https://comp.school/",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/robots.txt",
+    "time": "2026-11-13T19:09:54.325699+00:00",
+    "status": 200,
+    "final": "https://comp.school/robots.txt",
+    "type": "text/plain; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 3659,
+    "sha256": "9f421b942e8b8198e4eb96e93b5f6d75a5c8742e7af4d3f1f7824cb0ada8480c"
+  },
+  {
+    "url": "https://comp.school/sitemap.xml",
+    "time": "2026-11-13T19:09:55.689049+00:00",
+    "status": 200,
+    "final": "https://comp.school/sitemap.xml",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/favicon/favicon.svg",
+    "time": "2026-11-13T19:09:56.928622+00:00",
+    "status": 200,
+    "final": "https://comp.school/favicon/favicon.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ba70fd0d4731267d3bbf162b6d7e74c2\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 766,
+    "sha256": "0bb505d3e3bdf3080f13cac0ac842038d800d0e91788d679838bd37d64c77baf"
+  },
+  {
+    "url": "https://comp.school/favicon/favicon.ico",
+    "time": "2026-11-13T19:09:57.860259+00:00",
+    "status": 200,
+    "final": "https://comp.school/favicon/favicon.ico",
+    "type": "image/vnd.microsoft.icon",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/vnd.microsoft.icon",
+      "ETag": "\"9cb46babdfdccce71dd5e34bba81db96\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 15086,
+    "sha256": "c943dfd2e82baa6217676822b1dc3a955938a4f82fe32b3910fdf96a84158725"
+  },
+  {
+    "url": "https://comp.school/favicon/apple-touch-icon.png",
+    "time": "2026-11-13T19:09:58.926215+00:00",
+    "status": 200,
+    "final": "https://comp.school/favicon/apple-touch-icon.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"c945be5b727d41d07fcb3df8cc701f41\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 5784,
+    "sha256": "53e2fc144d9f33e698b7ee2e54e6fbfdd5a834bf04354f38262ce99c983e3556"
+  },
+  {
+    "url": "https://comp.school/favicon/site.webmanifest",
+    "time": "2026-11-13T19:09:59.918029+00:00",
+    "status": 200,
+    "final": "https://comp.school/favicon/site.webmanifest",
+    "type": "application/manifest+json",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/manifest+json",
+      "ETag": "\"323c97ba0cd00c8295cd267c842f6ff2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 460,
+    "sha256": "aa869a105b4c9016b426a1fdd01346b1420e750dc4ae5ede668078ec4d58b54d"
+  },
+  {
+    "url": "https://comp.school/assets/index-CHiQZc8e.js",
+    "time": "2026-11-13T19:10:00.885146+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/index-CHiQZc8e.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"132303e7f6649f9f8b0a14065ced6c69\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 3997235,
+    "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577"
+  },
+  {
+    "url": "https://comp.school/assets/index-CFivEobA.css",
+    "time": "2026-11-13T19:10:05.386747+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/index-CFivEobA.css",
+    "type": "text/css; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/css; charset=utf-8",
+      "ETag": "\"4ccca6d865bb0bce68796282880baf21\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 320992,
+    "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9"
+  },
+  {
+    "url": "https://exams.comp.school/",
+    "time": "2026-11-13T19:10:07.456736+00:00",
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://recall.comp.school/",
+    "time": "2026-11-13T19:10:29.275072+00:00",
+    "status": 200,
+    "final": "https://comp.school/recall/",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1398,
+    "sha256": "d90ba05339e5a0739cbdbd18383e7f1bd3bd1bb2ceea98fa5a809c692fc48eca"
+  },
+  {
+    "url": "https://code.comp.school/",
+    "time": "2026-11-13T19:10:31.575882+00:00",
+    "status": 200,
+    "final": "https://comp.school/code/",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1527,
+    "sha256": "78178fde113df72488a5d895190ab0d96cd032e6a04a6fbeb0aa641b9abd941c"
+  },
+  {
+    "url": "https://admin.comp.school/",
+    "time": "2026-11-13T19:10:48.152828+00:00",
+    "status": 200,
+    "final": "https://admin.comp.school/",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1337,
+    "sha256": "b951653e0332aa717d08be3b3a2bf9a5480999af6a038d852ad74e5a368d0cbc"
+  },
+  {
+    "url": "https://homework.comp.school/",
+    "time": "2026-11-13T19:10:49.013319+00:00",
+    "status": 200,
+    "final": "https://homework.comp.school/",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1340,
+    "sha256": "ce875c655f9280fbabc0330bf894c8ef33214855a1fd13995e2b5482df8626ae"
+  },
+  {
+    "url": "https://mark.comp.school/",
+    "time": "2026-11-13T19:10:49.983885+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1266,
+    "sha256": "757277e34bb1e41d9e4d3baa9e9d419ce4c6cac2fece9086761cae6a10e5129e"
+  },
+  {
+    "url": "https://printouts.comp.school/",
+    "time": "2026-11-13T19:10:51.074606+00:00",
+    "status": 200,
+    "final": "https://printouts.comp.school/",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 981,
+    "sha256": "8aa7b5a67e8fd09f6fab83c16b29a00a1696694fd96f557d78a1096484d4152a"
+  },
+  {
+    "url": "https://games.comp.school/",
+    "time": "2026-11-13T19:10:52.062564+00:00",
+    "status": 410,
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "url": "https://docs.comp.school/",
+    "time": "2026-11-13T19:10:53.038071+00:00",
+    "status": 410,
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "url": "https://issues.comp.school/",
+    "time": "2026-11-13T19:10:53.962395+00:00",
+    "status": 200,
+    "final": "https://issues.comp.school/",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1490,
+    "sha256": "cf9e2238dc4077c3ccd03837973e15ac75e89caff346e8857733b9dcabddcf9d"
+  },
+  {
+    "url": "https://comp.school/assets/games-time-flowchart-Cj8FEXpN.png",
+    "time": "2026-11-13T19:10:54.813239+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/games-time-flowchart-Cj8FEXpN.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"8271675b3fca42579f0af815b89793ac\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 82488,
+    "sha256": "5b624ebb89f59dd209636cd311d45cafad2cad3844d168846a96f58092152c4a"
+  },
+  {
+    "url": "https://comp.school/assets/iteration-flowchart-BgIPvSgx.png",
+    "time": "2026-11-13T19:10:56.024071+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/iteration-flowchart-BgIPvSgx.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"3926b225cb7389cce511dd73f9792644\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 96310,
+    "sha256": "64577926a1e234b1aff7ad16d4641f7a7fd2c337a658a731b6f41d123b0c1d09"
+  },
+  {
+    "url": "https://comp.school/assets/sale-price-flowchart-rqYTXHmQ.png",
+    "time": "2026-11-13T19:10:57.350727+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/sale-price-flowchart-rqYTXHmQ.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"d20a2a68415ad5cba8e2713fbde7dae7\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 127167,
+    "sha256": "4fe8ef59346fffdbec262bc03a88f1f5dd8f3abee2d23f3f5357c739b17f37ce"
+  },
+  {
+    "url": "https://comp.school/assets/username-flowchart-LiyHIxZo.png",
+    "time": "2026-11-13T19:10:58.649502+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/username-flowchart-LiyHIxZo.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"abbd48df345852066957522a11dd8470\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 65642,
+    "sha256": "c7bd54dd4fa5e0b0b2d24eeb08e85a26175b13d4edab85933f8b06dd348bc780"
+  },
+  {
+    "url": "https://comp.school/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
+    "time": "2026-11-13T19:10:59.592892+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"03ae98903477420befe3f5e227c79875\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 19601,
+    "sha256": "78401c7e45913bb1e63f74bf533a6ede71a8b6b54732a0c1736f7f6bd8849b74"
+  },
+  {
+    "url": "https://comp.school/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
+    "time": "2026-11-13T19:11:00.715382+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"0f7ca454255e45be85dd08511a11f48f\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 73248,
+    "sha256": "159db62f38429d9e2b15f7d53757731f94b193e280c54461983b79601c9bc63c"
+  },
+  {
+    "url": "https://comp.school/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
+    "time": "2026-11-13T19:11:01.929619+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9a09ab6944f1b58c9ca751502179fc32\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 14081,
+    "sha256": "290e074c30a53f9c71d32aba6e7304e101b1fc14665f533cb1fa51e86f6be941"
+  },
+  {
+    "url": "https://comp.school/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
+    "time": "2026-11-13T19:11:03.010120+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"4002db96dd52faa6112d0503a98ef80a\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 123536,
+    "sha256": "08f8f7c3f63a66119e5e246eec3bf2d37151bb37798d3f07983a16e02faee6db"
+  },
+  {
+    "url": "https://comp.school/assets/canvas-DmUjKc5v.png",
+    "time": "2026-11-13T19:11:04.326091+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/canvas-DmUjKc5v.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"23eebd5065a79521f67f085fcd78f997\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 5823,
+    "sha256": "b905426532b5fbfc80cb74e00067029c9b1b08e344b1a6375f3dd8d71830bdaf"
+  },
+  {
+    "url": "https://comp.school/assets/canvas-BNjiSqJl.png",
+    "time": "2026-11-13T19:11:05.440250+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/canvas-BNjiSqJl.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e18683a64b688a82610a779842b0a687\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 14781,
+    "sha256": "3a332def8d45a70f3bcb57e1a8cb439d61c51b55e522627c642a3ca282bcadd0"
+  },
+  {
+    "url": "https://comp.school/assets/answer-CMTK8mNy.png",
+    "time": "2026-11-13T19:11:06.349650+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/answer-CMTK8mNy.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"6153336dfcbc4710cd804d9471023825\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 32831,
+    "sha256": "bb24e903ecb574f5faca8dfdae51264c3e8ffbf0a10f23195956ed8a15bade25"
+  },
+  {
+    "url": "https://comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "time": "2026-11-13T19:11:07.342177+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"dbc9e1eb99c256f153db81f37c3dcbab\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 45704,
+    "sha256": "c6428099ec9b0c7db7c6455b46884009b6e41d91ff69e28ec789423610639756"
+  },
+  {
+    "url": "https://comp.school/assets/image-CD9r7wsz.png",
+    "time": "2026-11-13T19:11:08.412988+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/image-CD9r7wsz.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"21f92f0eb40db02fa9c16c6e8b0f99a7\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 119227,
+    "sha256": "8a23a2ed2712439135b9f28889ead790ca22a65b41267923a82b3a5f074cbd1d"
+  },
+  {
+    "url": "https://comp.school/assets/2a-answer-BLyzHeIR.png",
+    "time": "2026-11-13T19:11:09.478041+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/2a-answer-BLyzHeIR.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"5b630eccbe652f3143770b9e22fe802a\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 793692,
+    "sha256": "ff327ccf7a7b9896fd1fc7e1a9cd841617d8c6b95a6d568a8f6519e9af194792"
+  },
+  {
+    "url": "https://comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "time": "2026-11-13T19:11:10.640131+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e6612b7e3711c151acd31ff1a1cfc727\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 8480,
+    "sha256": "84393042c28df79ee29a032d22d0c73de2ad60e8000c86a4c779036fab4e96dd"
+  },
+  {
+    "url": "https://comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "time": "2026-11-13T19:11:11.720270+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"da8c9bcd522c63d8794516b363236094\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 6828,
+    "sha256": "97821ba31592c72d13cf37c0d4078d8781aecd1c61ae9deb52fef636280899f0"
+  },
+  {
+    "url": "https://comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "time": "2026-11-13T19:11:12.570905+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"d6208814186ce86e23996aef10f655d1\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 6582,
+    "sha256": "a655680fb714319c92992a84958998c1b55af5251f522e5a8f687f8e295f8a0a"
+  },
+  {
+    "url": "https://comp.school/assets/flowchart-BkR_ZXtE.png",
+    "time": "2026-11-13T19:11:13.639066+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/flowchart-BkR_ZXtE.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"1db5aae976eb3dc97319c86327ce8c08\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 82321,
+    "sha256": "64c4649e02a9df686b37909b822015c4ec522619080696d562f53cdd6a87de52"
+  },
+  {
+    "url": "https://comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "time": "2026-11-13T19:11:14.715329+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9597578e8ff289e8c02d33f83c37b8de\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 20411,
+    "sha256": "463a34967336d96405569850c734b59ccc1a89e803b2f14ea121627b33bde57b"
+  },
+  {
+    "url": "https://comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "time": "2026-11-13T19:11:15.798965+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"6f7369c82c887459bbbea4690c1488f3\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 5313,
+    "sha256": "e62b5206634872cd093b3015b21c699691f681147d077d5587e7cd9238bb1733"
+  },
+  {
+    "url": "https://comp.school/assets/the-team-array-uFjFeqbK.png",
+    "time": "2026-11-13T19:11:16.759472+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/the-team-array-uFjFeqbK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9baeeaaa0ae42ef5b14087f05d89afaa\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 13930,
+    "sha256": "1239a8728c5971c88c38f1175b49675b2978e8806e105f600ba2dd66fd792cd1"
+  },
+  {
+    "url": "https://comp.school/assets/flowchart-BKM6tL5v.png",
+    "time": "2026-11-13T19:11:17.968944+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/flowchart-BKM6tL5v.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"5b2c026e88dbe7e6bac6b785b891c0cb\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 67478,
+    "sha256": "60aefc8f604d4b70d3c948cc1d4eb5398134fc0c3c60b82adfd156dbc432e4bc"
+  },
+  {
+    "url": "https://comp.school/assets/matching-BD8ptTcc.png",
+    "time": "2026-11-13T19:11:19.148904+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/matching-BD8ptTcc.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"2ea7b5bc7d1b5ccc820d5cbbd6be3e77\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 117945,
+    "sha256": "9ebc0135a21b9ba3b1ae7ef1c730683df33ee748bb0f639b2d4dbd173aa72231"
+  },
+  {
+    "url": "https://comp.school/assets/array-D9hbdIZ5.png",
+    "time": "2026-11-13T19:11:20.261148+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/array-D9hbdIZ5.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"b77daef7ffc1a84003f301299920426f\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 10174,
+    "sha256": "cfcca71bbaa9e52542bf134ebc5b031a2f618d63c2f9cc00b1592c0be72c1961"
+  },
+  {
+    "url": "https://comp.school/assets/array-BkphWtpy.png",
+    "time": "2026-11-13T19:11:21.359843+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/array-BkphWtpy.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"412c607391cdd9fd6156c2377619be4d\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 12148,
+    "sha256": "d18f338747ef04d39cce2701f126743e4f8d84090cb771e6dd578cd6fc16b35d"
+  },
+  {
+    "url": "https://comp.school/assets/flowchart-BBozX2nS.png",
+    "time": "2026-11-13T19:11:22.134071+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/flowchart-BBozX2nS.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"50f8debf192a6ca97807a4a015bddc38\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 122101,
+    "sha256": "42d2ddb53ee79d0f2e920033338202c4870b62f3137a7f27351f5515a0682731"
+  },
+  {
+    "url": "https://comp.school/assets/canvas-BPXNl8oO.png",
+    "time": "2026-11-13T19:11:23.140486+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/canvas-BPXNl8oO.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"209ebbb5d8432f5928e9289eb6cecaeb\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 10390,
+    "sha256": "9a9e2c45a71fdc97c522401e4e0fb9445aab0d051a2ef09711449e31568fc436"
+  },
+  {
+    "url": "https://comp.school/assets/canvas-jbwsqzu9.png",
+    "time": "2026-11-13T19:11:24.011671+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/canvas-jbwsqzu9.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e858b875b14b2233bf72c5b541d2b372\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 8235,
+    "sha256": "4465aec494ebd11302580e09aa03bd5a0721fccc73db7f76af5ea2856b087bc1"
+  },
+  {
+    "url": "https://comp.school/assets/circuit-frame-DaRNRjij.png",
+    "time": "2026-11-13T19:11:24.889077+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/circuit-frame-DaRNRjij.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9757702461675b1a497bd47d0f7fbbfd\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 21496,
+    "sha256": "14f6299fc7aec75cadf2c86395438541939a44bd3732182789f6a0b3dcd98205"
+  },
+  {
+    "url": "https://comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "time": "2026-11-13T19:11:25.713427+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"0079cdc3cf28852dcf7eb36372ff7e5b\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 42612,
+    "sha256": "f90e315e12cc3933a518f2b5abbb2d5157c302a0671398828e354569eb60dfe8"
+  },
+  {
+    "url": "https://comp.school/assets/a-DobarutV.png",
+    "time": "2026-11-13T19:11:26.750723+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/a-DobarutV.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9f74c3eaa7bf10d001ebdbd4107e9aee\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 51544,
+    "sha256": "e8579b5027bc9d319d7bc6011f6df80ab586cf127c1bfbd0b66288cf4a1e5c70"
+  },
+  {
+    "url": "https://comp.school/assets/b-BFSigdO3.png",
+    "time": "2026-11-13T19:11:27.920828+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/b-BFSigdO3.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"f573cdae41355a4642d795707a87bbc0\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 51532,
+    "sha256": "ac12f6b2251cb515bd7a3261f0d81ec847fcee7931d75cc907e9441e1aa59b08"
+  },
+  {
+    "url": "https://comp.school/assets/c-WLvzh3fx.png",
+    "time": "2026-11-13T19:11:28.813103+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/c-WLvzh3fx.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"73b84b36f94913a9a930b18ebc7afb4d\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 54820,
+    "sha256": "75c23032f69003e54a09c16c5c70e6db79be9f1155e1efa258b8e22e8e538f81"
+  },
+  {
+    "url": "https://comp.school/assets/image-CZEZTeor.png",
+    "time": "2026-11-13T19:11:29.680205+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/image-CZEZTeor.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"ed6856357d71a25ff021b581dfa62c5b\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 83763,
+    "sha256": "faceb0f25adf23ecc3ea59835a7c6b8b1481a8721aa947c85cc2ec3dcedada1b"
+  },
+  {
+    "url": "https://comp.school/assets/BtecKeywordsPage-Cnlw-O1K.js",
+    "time": "2026-11-13T19:11:30.509913+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/BtecKeywordsPage-Cnlw-O1K.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"d7e41a3c27708b0234623b991a04e5cf\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 11585,
+    "sha256": "464166759c5da198b2b5d9e8d71d4b3584bffb8ea6dfb27fb3f147eb39b6cc27"
+  },
+  {
+    "url": "https://comp.school/assets/vlookup-BbKWtiKZ.js",
+    "time": "2026-11-13T19:11:31.316260+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/vlookup-BbKWtiKZ.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"a076e27fb0196b29a47022ec659319d9\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 20333,
+    "sha256": "e68520ab6f8510f545b91de2368ae760d783e0d0ff1e52e16385975d794b9239"
+  },
+  {
+    "url": "https://comp.school/assets/sum-DyscOqFv.js",
+    "time": "2026-11-13T19:11:32.381634+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/sum-DyscOqFv.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"733ab59581f85c884c49f29774e0c0c4\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 13213,
+    "sha256": "0f774a3da1cb2637ee36ab423e67b4143ddffda84d148cbca1e724ced78d0049"
+  },
+  {
+    "url": "https://comp.school/assets/countif-CfOf0eFA.js",
+    "time": "2026-11-13T19:11:33.246562+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/countif-CfOf0eFA.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"2403360cb6b4717aff12e1bbf3bf31e2\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 15180,
+    "sha256": "53ae0f048b5ff4b193e1e4c7f717375cfd7c9cde0a841ee5c79e42b1e02a02c1"
+  },
+  {
+    "url": "https://comp.school/assets/if-IXJs7uiF.js",
+    "time": "2026-11-13T19:11:34.157789+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/if-IXJs7uiF.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"b48ae382782397eb9ea7b6dffc0e721b\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 12395,
+    "sha256": "469ca8b85ce0f3fa72c6730d2f38dccd718d6b9147921b5813d3e7374e7dd413"
+  },
+  {
+    "url": "https://comp.school/assets/sumif-Ea7d1XgW.js",
+    "time": "2026-11-13T19:11:34.996485+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/sumif-Ea7d1XgW.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"dc037cd9b6745ffb00c79e7160ef46f5\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 12273,
+    "sha256": "80f828a6022c92506516a27985be20f9ccc6c4c65e75d6c06ca7aaac95d60aca"
+  },
+  {
+    "url": "https://comp.school/assets/iferror-G0a-UzSa.js",
+    "time": "2026-11-13T19:11:35.826198+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/iferror-G0a-UzSa.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"51ef8065dbd292006e6d279fa86b1024\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 12067,
+    "sha256": "e1216e97d963947234ff3fed615246a2d4239bc884c6dc47ed582b145b24e3fa"
+  },
+  {
+    "url": "https://comp.school/assets/BtecTaskActivity-Dt0Xd-0I.js",
+    "time": "2026-11-13T19:11:36.649020+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/BtecTaskActivity-Dt0Xd-0I.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"9fe257333a200bd276145dd1a35cb732\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 2280505,
+    "sha256": "d74eaf1e400e8b315229c3b52bd7907fca3f277a36a184ae72efbae283c6187b"
+  },
+  {
+    "url": "https://comp.school/assets/BtecTaskKeywords-BT_ljUsk.js",
+    "time": "2026-11-13T19:11:37.789954+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/BtecTaskKeywords-BT_ljUsk.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"3674df1af54c4e347f42f5178089a43f\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 50978,
+    "sha256": "7614ec8ac08e2070d9c92ef5d6c1d391673a0280ce9195f049cbe44c38b181bd"
+  },
+  {
+    "url": "https://comp.school/assets/QuizGame-CIgtM-fA.js",
+    "time": "2026-11-13T19:11:38.667504+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/QuizGame-CIgtM-fA.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"709bda52c981f69014b08ec5d1083046\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 24811,
+    "sha256": "f010ff9aac3984c0e7cd33f674cb1a62971bce6d91420447ea5c0f6521f62aba"
+  },
+  {
+    "url": "https://comp.school/assets/Careers-BSnYwGQP.js",
+    "time": "2026-11-13T19:11:39.489710+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/Careers-BSnYwGQP.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"222b91a630e07f78fb889bd70226c7b4\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 120144,
+    "sha256": "7c65fca44f55018e7cc0e8c125c69d22ebe81f63d30701e961188202b038ac5e"
+  },
+  {
+    "url": "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js",
+    "time": "2026-11-13T19:11:40.341441+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/BtecCoursework-CZNYZ0-f.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"bb04cfb03c69e2b98fef9ae8a673cd31\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 12435,
+    "sha256": "f2cedece2131484ae473d71c474c813e5c2d3afb51abf37d223b1f022c541118"
+  },
+  {
+    "url": "https://comp.school/assets/CritWallGame-qwLk7gDB.js",
+    "time": "2026-11-13T19:11:41.184661+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/CritWallGame-qwLk7gDB.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"400f195bd2910699753e56bee92abe5b\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 24430,
+    "sha256": "17a6e357f0f767602b35f7d27d0f2073f10eb4dc951998d3cdb40708049f08a0"
+  },
+  {
+    "url": "https://comp.school/recall/favicon/favicon.svg",
+    "time": "2026-11-13T19:11:42.084283+00:00",
+    "status": 200,
+    "final": "https://comp.school/recall/favicon/favicon.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ba70fd0d4731267d3bbf162b6d7e74c2\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 766,
+    "sha256": "0bb505d3e3bdf3080f13cac0ac842038d800d0e91788d679838bd37d64c77baf"
+  },
+  {
+    "url": "https://comp.school/recall/favicon/favicon.ico",
+    "time": "2026-11-13T19:11:43.091368+00:00",
+    "status": 200,
+    "final": "https://comp.school/recall/favicon/favicon.ico",
+    "type": "image/vnd.microsoft.icon",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/vnd.microsoft.icon",
+      "ETag": "\"9cb46babdfdccce71dd5e34bba81db96\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 15086,
+    "sha256": "c943dfd2e82baa6217676822b1dc3a955938a4f82fe32b3910fdf96a84158725"
+  },
+  {
+    "url": "https://comp.school/recall/favicon/apple-touch-icon.png",
+    "time": "2026-11-13T19:11:43.792398+00:00",
+    "status": 200,
+    "final": "https://comp.school/recall/favicon/apple-touch-icon.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"c945be5b727d41d07fcb3df8cc701f41\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 5784,
+    "sha256": "53e2fc144d9f33e698b7ee2e54e6fbfdd5a834bf04354f38262ce99c983e3556"
+  },
+  {
+    "url": "https://comp.school/recall/favicon/site.webmanifest",
+    "time": "2026-11-13T19:11:44.575450+00:00",
+    "status": 200,
+    "final": "https://comp.school/recall/favicon/site.webmanifest",
+    "type": "application/manifest+json",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/manifest+json",
+      "ETag": "\"323c97ba0cd00c8295cd267c842f6ff2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 460,
+    "sha256": "aa869a105b4c9016b426a1fdd01346b1420e750dc4ae5ede668078ec4d58b54d"
+  },
+  {
+    "url": "https://comp.school/recall/assets/index-OXn7GuU2.js",
+    "time": "2026-11-13T19:11:45.394193+00:00",
+    "status": 200,
+    "final": "https://comp.school/recall/assets/index-OXn7GuU2.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"6e45b5d0a4e1c10f1a18926dc5ea019f\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1695731,
+    "sha256": "f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271"
+  },
+  {
+    "url": "https://comp.school/recall/assets/index-BHDAmMDK.css",
+    "time": "2026-11-13T19:11:46.922733+00:00",
+    "status": 200,
+    "final": "https://comp.school/recall/assets/index-BHDAmMDK.css",
+    "type": "text/css; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/css; charset=utf-8",
+      "ETag": "\"dec5bba8e911c4d0ad165bf8c17bff0d\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 130930,
+    "sha256": "eee14fc87b0266fc8897a6dc6e74b7a7b5064dd2b4042df19eeb63dc86039daa"
+  },
+  {
+    "url": "https://comp.school/code/favicon/favicon.svg",
+    "time": "2026-11-13T19:11:48.310111+00:00",
+    "status": 200,
+    "final": "https://comp.school/code/favicon/favicon.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ba70fd0d4731267d3bbf162b6d7e74c2\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 766,
+    "sha256": "0bb505d3e3bdf3080f13cac0ac842038d800d0e91788d679838bd37d64c77baf"
+  },
+  {
+    "url": "https://comp.school/code/favicon/favicon.ico",
+    "time": "2026-11-13T19:11:49.234744+00:00",
+    "status": 200,
+    "final": "https://comp.school/code/favicon/favicon.ico",
+    "type": "image/vnd.microsoft.icon",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/vnd.microsoft.icon",
+      "ETag": "\"9cb46babdfdccce71dd5e34bba81db96\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 15086,
+    "sha256": "c943dfd2e82baa6217676822b1dc3a955938a4f82fe32b3910fdf96a84158725"
+  },
+  {
+    "url": "https://comp.school/code/favicon/site.webmanifest",
+    "time": "2026-11-13T19:11:50.022680+00:00",
+    "status": 200,
+    "final": "https://comp.school/code/favicon/site.webmanifest",
+    "type": "application/manifest+json",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/manifest+json",
+      "ETag": "\"323c97ba0cd00c8295cd267c842f6ff2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 460,
+    "sha256": "aa869a105b4c9016b426a1fdd01346b1420e750dc4ae5ede668078ec4d58b54d"
+  },
+  {
+    "url": "https://comp.school/code/assets/index-DwyvelI3.js",
+    "time": "2026-11-13T19:11:50.912554+00:00",
+    "status": 200,
+    "final": "https://comp.school/code/assets/index-DwyvelI3.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"073bd99a29222d44ebe339f0b99519ad\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1399420,
+    "sha256": "5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4"
+  },
+  {
+    "url": "https://comp.school/code/assets/index-CkLs-ldM.css",
+    "time": "2026-11-13T19:11:51.933887+00:00",
+    "status": 200,
+    "final": "https://comp.school/code/assets/index-CkLs-ldM.css",
+    "type": "text/css; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/css; charset=utf-8",
+      "ETag": "\"88cdf8c31138960f5e27010213d49afe\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 98686,
+    "sha256": "3e8aa2c73cc3e74a824b67782a59376aa28f39a6f9839115029570d8f9de5900"
+  },
+  {
+    "url": "https://admin.comp.school/favicon/favicon.svg",
+    "time": "2026-11-13T19:11:52.827980+00:00",
+    "status": 200,
+    "final": "https://admin.comp.school/favicon/favicon.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ba70fd0d4731267d3bbf162b6d7e74c2\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 766,
+    "sha256": "0bb505d3e3bdf3080f13cac0ac842038d800d0e91788d679838bd37d64c77baf"
+  },
+  {
+    "url": "https://admin.comp.school/favicon/favicon.ico",
+    "time": "2026-11-13T19:11:53.631230+00:00",
+    "status": 200,
+    "final": "https://admin.comp.school/favicon/favicon.ico",
+    "type": "image/vnd.microsoft.icon",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/vnd.microsoft.icon",
+      "ETag": "\"9cb46babdfdccce71dd5e34bba81db96\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 15086,
+    "sha256": "c943dfd2e82baa6217676822b1dc3a955938a4f82fe32b3910fdf96a84158725"
+  },
+  {
+    "url": "https://admin.comp.school/favicon/apple-touch-icon.png",
+    "time": "2026-11-13T19:11:54.369336+00:00",
+    "status": 200,
+    "final": "https://admin.comp.school/favicon/apple-touch-icon.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"c945be5b727d41d07fcb3df8cc701f41\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 5784,
+    "sha256": "53e2fc144d9f33e698b7ee2e54e6fbfdd5a834bf04354f38262ce99c983e3556"
+  },
+  {
+    "url": "https://admin.comp.school/favicon/site.webmanifest",
+    "time": "2026-11-13T19:11:55.173277+00:00",
+    "status": 200,
+    "final": "https://admin.comp.school/favicon/site.webmanifest",
+    "type": "application/manifest+json",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/manifest+json",
+      "ETag": "\"323c97ba0cd00c8295cd267c842f6ff2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 460,
+    "sha256": "aa869a105b4c9016b426a1fdd01346b1420e750dc4ae5ede668078ec4d58b54d"
+  },
+  {
+    "url": "https://admin.comp.school/assets/index-DZASS4VW.js",
+    "time": "2026-11-13T19:11:55.942065+00:00",
+    "status": 200,
+    "final": "https://admin.comp.school/assets/index-DZASS4VW.js",
+    "type": "application/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "application/javascript",
+      "ETag": "\"95b4d4ad4256c040917730e2d4d718cd\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 294728,
+    "sha256": "88c99f17e02769f3ca0a8004bc69f8fbaf12460e50bd47f42135329d08c4a145"
+  }
+]

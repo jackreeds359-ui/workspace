@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tealLoopTitle tealLoopDesc">
+  <title id="tealLoopTitle">Teal loop logo</title>
+  <desc id="tealLoopDesc">A teal circular background with a white looping stroke.</desc>
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="100" cy="100" r="100" />
+    </clipPath>
+  </defs>
+
+  <circle cx="100" cy="100" r="100" fill="#71C9DC" />
+
+  <g clip-path="url(#circleClip)">
+    <path
+      d="M -5 168
+         C 40 140, 85 95, 120 95
+         C 160 95, 170 135, 145 145
+         C 115 158, 95 120, 90 95
+         C 82 60, 75 30, 55 -10"
+      stroke="white"
+      stroke-width="22"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>

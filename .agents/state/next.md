@@ -106,3 +106,7 @@ Installation and verification are complete. Next task requires a specific target
 This supersedes the earlier line saying the next task needs a target binary. The next task is web work. Its target, requested behaviour and deliverable are not known yet: get them from the owner before choosing a stack or writing code. bash setup.sh is not needed for web-only work.
 
 When work starts: re-arm the five-minute checkpoint wake, load the relevant project skills, and verify UI changes with real screenshots from the bundled Chrome or agent-browser. Installing anything new, for example Playwright, needs the owner's approval of tool, source and version first. The default-branch decision still matters for pull requests: there is no main branch to target.
+
+## comp.school mapping 2026-11-13T19:10:55.591190+00:00
+
+Continue public asset crawl; analyze routes/API references offline; map production host responses and passive CT names. Review ordinary authenticated navigation without collecting personal records or triggering learning/progress writes. Report bounded coverage and unverified/inaccessible areas explicitly. Server-side code needs an owner-provided source/deployment export, unless published in delivered assets. On completion, leave precise continuation instructions and tell the next agent to maintain briefings/checkpoints as part of startup and ongoing work.

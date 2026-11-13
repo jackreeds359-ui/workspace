@@ -112,3 +112,7 @@ Clean-directory install, repeated setup and complete verification finished with 
 - Inventoried web tooling. Found platform-provided Chrome for Testing 157.0.8103.38 and the agent-browser CLI, which the first bootstrap had missed.
 - Probed headless Chrome with a throwaway local page: JavaScript executed and an 800x600 screenshot rendered correctly.
 - Asked the owner for the target and deliverable. No web code written.
+
+## comp.school mapping 2026-11-13T19:10:55.591190+00:00
+
+Started comp.school mapping at owner request, read-only and no offensive tests. Inspected repository and resumed five-minute checkpoints. Root HTTP 200; robots.txt allows crawling but has no-training content signal; sitemap.xml returns HTML app shell, not sitemap XML. Saved ~4MB public JS and ~321KB CSS. Normal login succeeded; inspected only navigation labels/routes, not personal record payloads. Browser bundle references production subdomains. crt.sh returned 502; alternate Cert Spotter returned 50 historical preview names (first response only). Public crawler running with 450-request/160MB/16MB-per-file bounds and 0.6s delay; APIs, credential flows and external origins are excluded. Owner reinforced briefing and next-agent continuity requirements; recorded them here.

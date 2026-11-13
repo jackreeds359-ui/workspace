@@ -130,3 +130,7 @@ Toolkit setup complete. Clean-directory installation, second-run idempotency and
 The owner stated that today's task is web work, not binary reverse engineering. No target, requested behaviour or deliverable has been given yet; a question asking for them is open. Nothing has been built or changed for the web task. The reverse-engineering toolkit, its setup scripts and pins are unchanged and still installed in this sandbox. The working tree was clean at a81a105 before this entry. Recurring checkpoint wakes stay paused until active work starts.
 
 Correction: an earlier chat report said this environment has no browser or screenshot tool. That was wrong. The sandbox ships Chrome for Testing and the agent-browser CLI; see handoff.md. The design-loop tiers that need a browser are not blocked on tooling.
+
+## comp.school mapping 2026-11-13T19:10:55.591190+00:00
+
+Active task: read-only archive and map https://comp.school, its pages, browser-delivered code and subdomains. Account login succeeded through the normal form. Credentials and session data must never enter tracked files or handoff.zip. Public page/asset collection is running; root JS/CSS acquired, production hostnames extracted, and 50 historical certificate names identified. No server-source extraction or offensive probing is authorized. Coverage is partial, not all pages or server code.
