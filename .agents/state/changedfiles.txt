@@ -1,2 +1,3 @@
 .agents/scripts/webdump.py
+.agents/scripts/webrestore.py
 web/comp.school

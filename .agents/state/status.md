@@ -1,10 +1,10 @@
 # Status
 
-Briefing updated 2026-11-12 shortly before midnight UTC, after the first checkpoint was committed and pushed.
+Current summary updated 2026-11-13T19:16:04.041731+00:00. Earlier sections below are historical where superseded by dated task entries.
 
 ## Stage
 
-Bootstrap is complete and published. No product code exists yet. The repository is waiting for its first project task.
+Current task: read-only archive and map comp.school, its delivered web code, routes and publicly discoverable subdomains. As of 2026-11-13T19:16:04.041731+00:00: 342 URL response/error records, 220 unique public response objects, 35265693 deduplicated bytes. Collection is ongoing, not complete. Normal account login and navigation were used only to map menus; no credentials, cookies, account payloads or personal records are archived.
 
 ## Repository
 
@@ -134,3 +134,7 @@ Correction: an earlier chat report said this environment has no browser or scree
 ## comp.school mapping 2026-11-13T19:10:55.591190+00:00
 
 Active task: read-only archive and map https://comp.school, its pages, browser-delivered code and subdomains. Account login succeeded through the normal form. Credentials and session data must never enter tracked files or handoff.zip. Public page/asset collection is running; root JS/CSS acquired, production hostnames extracted, and 50 historical certificate names identified. No server-source extraction or offensive probing is authorized. Coverage is partial, not all pages or server code.
+
+## Mapping progress 2026-11-13T19:16:04.041731+00:00
+
+As of 2026-11-13T19:16:04.041731+00:00: 342 URL response/error records, 220 unique public response objects, 35265693 deduplicated bytes. Collection is ongoing, not complete. Normal account login and navigation were used only to map menus; no credentials, cookies, account payloads or personal records are archived. DNS checked 62 source-evidenced hostnames: 12 production names resolved; 50 certificate-only historical preview names returned NXDOMAIN. Exams root retry redirected successfully to comp.school/exams/. docs and games legacy roots returned 410.

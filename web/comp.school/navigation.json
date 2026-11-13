@@ -1,0 +1,81 @@
+[
+  {
+    "url": "https://comp.school/?menu=paper-1",
+    "title": "comp.school",
+    "headings": [
+      "Which topic?"
+    ],
+    "links": [
+      {
+        "label": "",
+        "url": "https://comp.school/"
+      },
+      {
+        "label": "1.1 Systems architecture",
+        "url": "https://comp.school/recall/?paper=1&topic=1.1&sql=mock"
+      },
+      {
+        "label": "1.2 Memory and storage",
+        "url": "https://comp.school/recall/?paper=1&topic=1.2&sql=mock"
+      },
+      {
+        "label": "1.3 Networks and protocols",
+        "url": "https://comp.school/recall/?paper=1&topic=1.3&sql=mock"
+      },
+      {
+        "label": "1.4 Network security",
+        "url": "https://comp.school/recall/?paper=1&topic=1.4&sql=mock"
+      },
+      {
+        "label": "1.5 Systems software",
+        "url": "https://comp.school/recall/?paper=1&topic=1.5&sql=mock"
+      },
+      {
+        "label": "1.6 Ethical, legal and environmental impacts",
+        "url": "https://comp.school/recall/?paper=1&topic=1.6&sql=mock"
+      },
+      {
+        "label": "Past papers",
+        "url": "https://comp.school/exams/?paper=1&sql=mock"
+      }
+    ]
+  },
+  {
+    "url": "https://comp.school/?menu=paper-2",
+    "title": "comp.school",
+    "headings": [
+      "Which area?"
+    ],
+    "links": [
+      {
+        "label": "",
+        "url": "https://comp.school/"
+      },
+      {
+        "label": "Past papers",
+        "url": "https://comp.school/exams/?paper=2&sql=mock"
+      }
+    ]
+  },
+  {
+    "url": "https://comp.school/?menu=more",
+    "title": "comp.school",
+    "headings": [
+      "More"
+    ],
+    "links": [
+      {
+        "label": "",
+        "url": "https://comp.school/"
+      },
+      {
+        "label": "Careers hub",
+        "url": "https://comp.school/exams/games/careers?sql=mock"
+      },
+      {
+        "label": "Multiplayer",
+        "url": "https://comp.school/exams/games/games-room?sql=mock"
+      }
+    ]
+  }
+]

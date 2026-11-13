@@ -2,11 +2,11 @@
 
 ## Actions in priority order
 
-1. Get the first project task from the owner. There is no product code and no backlog.
-2. Owner action: connect Unicorn Studio MCP in Hoplite Settings, Project, MCP. Add `https://agentmcp-qbght5huyq-uc.a.run.app/mcp`, run Analyze connection, save OAuth, Connect, approve in the browser, keep Allow agents enabled. Afterwards an agent verifies that the tools are discovered.
-3. When a shadcn-compatible React project is created here, merge the `@react-bits` registry key into its `components.json` as described in `.agents/skills/reactbits/SKILL.md`.
-4. Re-arm the recurring five-minute wake when it expires on 2026-11-13 12:00 UTC, if work is still active.
-5. Owner decision on the default branch. GitHub made `hoplite/kyrene-3f44dbf5` the default because it was the first branch pushed to the empty repository. For a conventional layout, create `main` from commit `497363a` and make it the default in GitHub Settings, Branches. Do both steps together: if `main` exists while the thread branch is still the default, the updater skips its push and reports `skipped: upstream is the remote default branch`. Without a `main` there is no base branch for pull requests.
+1. Finish the current read-only comp.school crawl and verify every saved response object against its manifest hash. Preserve failures, redirects and MIME mismatches rather than calling fallback HTML a working JS/image file.
+2. Finish passive DNS/certificate inventory and client-side route/API-reference analysis. Record provenance and bounded completeness; do not brute-force subdomains or probe server internals.
+3. Produce the archive, map and coverage report. User requested all pages/subdomains/code; report honestly that arbitrary private server-side source, all stateful page combinations and unpublished hosts are not obtainable by normal browsing.
+4. Verify the archive contains no credentials, cookies, auth state or personal account records. Only sanitized navigation is persisted.
+5. Update all briefings and run the existing checkpoint updater, commit and push. Next agents must keep doing this throughout active work at intervals of no more than five minutes, and preserve precise continuation instructions when done. Cancel idle wakes on completion.
 
 ## Do not redo
 
@@ -110,3 +110,7 @@ When work starts: re-arm the five-minute checkpoint wake, load the relevant proj
 ## comp.school mapping 2026-11-13T19:10:55.591190+00:00
 
 Continue public asset crawl; analyze routes/API references offline; map production host responses and passive CT names. Review ordinary authenticated navigation without collecting personal records or triggering learning/progress writes. Report bounded coverage and unverified/inaccessible areas explicitly. Server-side code needs an owner-provided source/deployment export, unless published in delivered assets. On completion, leave precise continuation instructions and tell the next agent to maintain briefings/checkpoints as part of startup and ongoing work.
+
+## Mapping progress 2026-11-13T19:16:04.041731+00:00
+
+Current milestone: collection pass 2 is running; generated codeindex.json will need regeneration after the final assets arrive. DNS/CT agent and offline bundle analysis agent are still working. Need final README/MAP, object/hash verification, restoration test, credential scan, downloadable artifact and final checkpoint. No offensive actions or server-code probing.
