@@ -88,3 +88,7 @@ Await the first project task without repeating completed setup or starting unrel
 ## Idle handoff 2026-11-13T01:10:37.285522+00:00
 
 Await the first project task. When active repository work resumes, re-arm the five-minute checkpoint wake; the previous wake rem_2da06cc68afc41898f8779de4ad29e20 is cancelled. No further idle checkpoint commits are needed. Existing integration and default-branch decisions remain pending.
+
+## Toolkit readiness 2026-11-13T07:12:18.515507+00:00
+
+Next essential dependency is the pending toolkit installation approval. If all four tools are approved, install project-locally, verify checksums and headless/PE/disassembly behavior, then persist and rerun the approved setup. If only Python tools are approved, do not install Java or Ghidra. No game, build or feature is selected. Cancel active-work checkpoint wakes while awaiting approval.

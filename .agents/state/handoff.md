@@ -157,3 +157,7 @@ No architecture, dependency, recovery or checkpoint workflow changes. Existing u
 ## Idle handoff 2026-11-13T01:10:37.285522+00:00
 
 Idle lifecycle: the recurring wake rem_2da06cc68afc41898f8779de4ad29e20 was cancelled after setup completion. Do not generate repeated idle documentation commits. At the next active project task, re-arm native checkpoints at intervals of no more than five minutes and reuse the existing updater.
+
+## Toolkit readiness 2026-11-13T07:12:18.515507+00:00
+
+Toolkit readiness evidence and proposed pinned installations are documented in tools.md. There is no setup override or repository setup hook. Do not install or persist an installer until the exact tool/source/version approval is received. Preserve the existing updater; independent native static-analysis checks passed.

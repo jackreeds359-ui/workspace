@@ -1,5 +1,1 @@
-.gitignore
-AGENTS.md
-skills-lock.json
-.agents/skills
-.agents/scripts
+.agents/state/tools.md

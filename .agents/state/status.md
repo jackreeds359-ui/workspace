@@ -112,3 +112,7 @@ Inspected a clean working tree at bb6688a. Setup remains complete; no new projec
 ## Idle handoff 2026-11-13T01:10:37.285522+00:00
 
 Setup remains complete; no product task or implementation changes. Working tree was clean at 5eddd1c. Recurring wake rem_2da06cc68afc41898f8779de4ad29e20 was cancelled successfully because no repository work is active. Checkpoints resume when active work resumes; owner-dependent decisions remain pending.
+
+## Toolkit readiness 2026-11-13T07:12:18.515507+00:00
+
+Current task: prepare and verify a reverse-engineering toolkit. Verified the existing Ubuntu x86-64 GCC/binutils baseline by compiling, running and inspecting a C++20 fixture. No new tools installed. Exact Ghidra/JDK/pefile/Capstone versions and sources are awaiting explicit installation approval; see tools.md. No game or binary target was provided. Previous no-task statements are historical.
