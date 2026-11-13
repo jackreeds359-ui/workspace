@@ -153,3 +153,7 @@ No architecture, dependency, recovery or checkpoint workflow changes. Existing u
 ## Checkpoint inspection 2026-11-13T01:05:30.388608+00:00
 
 No architecture, dependency, recovery or checkpoint workflow changes. Existing updater and staging list remain in use.
+
+## Idle handoff 2026-11-13T01:10:37.285522+00:00
+
+Idle lifecycle: the recurring wake rem_2da06cc68afc41898f8779de4ad29e20 was cancelled after setup completion. Do not generate repeated idle documentation commits. At the next active project task, re-arm native checkpoints at intervals of no more than five minutes and reuse the existing updater.

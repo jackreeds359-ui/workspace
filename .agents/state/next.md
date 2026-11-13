@@ -84,3 +84,7 @@ Await the first project task without repeating completed setup or starting unrel
 ## Checkpoint inspection 2026-11-13T01:05:30.388608+00:00
 
 Await the first project task without repeating completed setup or starting unrelated implementation. Existing integration and default-branch decisions remain pending.
+
+## Idle handoff 2026-11-13T01:10:37.285522+00:00
+
+Await the first project task. When active repository work resumes, re-arm the five-minute checkpoint wake; the previous wake rem_2da06cc68afc41898f8779de4ad29e20 is cancelled. No further idle checkpoint commits are needed. Existing integration and default-branch decisions remain pending.
