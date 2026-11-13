@@ -76,3 +76,7 @@ Await the first project task. No repeated setup or unrelated implementation is n
 ## Checkpoint inspection 2026-11-13T00:55:24.880540+00:00
 
 Await the first project task without repeating setup or starting unrelated implementation. Existing integration and default-branch decisions remain pending.
+
+## Checkpoint inspection 2026-11-13T01:00:29.141880+00:00
+
+Await the first project task without repeating completed setup or starting unrelated implementation. Existing integration and default-branch decisions remain pending.
