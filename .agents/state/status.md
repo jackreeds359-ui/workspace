@@ -4,9 +4,9 @@ Current summary updated 2026-11-13T19:16:04.041731+00:00. Earlier sections below
 
 ## Stage
 
-Read-only comp.school archive and map completed within the documented public-response scope. Saved 781 URL records, 324 deduplicated objects (53,590,925 bytes), 97 distinct JS objects, 35 API-string variants and 23 route/path candidates. Passive DNS covers 441 source-evidenced names: 93 resolved and 348 NXDOMAIN; all 93 resolving roots were checked (26 HTTP 200, 4 HTTP 410, 63 HTTP 404). This is not a full server, private-data or all-preview-code dump.
+Client-bundle coverage extension complete for the documented account/routes/deployments: 159 browser observations across50 requested URLs and57 observed URLs, including58 request-owner-attributed observations and86 explicit entry-script snapshots. Captured/indexed121 distinct JS objects (up from97), all with readable copies, passing original hashes, Babel structural semantic equivalence and independent Node syntax checks. One embedded JavaScript Blob bootstrap was extracted and verified. Concrete static/dynamic/preload/worker module URL gaps:0. This is not universal all-role/all-state coverage or recovery of original TS/TSX/backend source.
 
-Verification: all object hashes and metadata JSON passed; supplied-credential/private-key/token-pattern scan had no matches; restore produced 611 static files and refused a nonempty destination. 163 asset URLs returned HTML fallback. No ordinary queue remains; 1,817 legacy diagram references and 8 computed/template references are explicitly deferred. CT pagination stopped at provider remaining-request budget 1, with cursor saved. No unpublished server source was obtained; an owner-provided source/deployment export is needed for that.
+The browser session is closed. Final cached index passes with121 preserved/verified files and0 parse/format failures. Remaining limits:58 unique computed/bare dependency sites,13 unavailable generic filename literals (defaults/editor sample names),13 computed Blob constructions,7 login-shell observations and1 self-assessment TypeError observation. No run/save/submit/join controls or auth bypasses were used;405 non-read requests were blocked. Account/project UI text is redacted; no API payloads, credentials, cookies or authorization state are archived. Final package/checkpoint is the remaining closing action.
 
 ## Repository
 
@@ -172,3 +172,7 @@ Browser capture completed 101 observations; AST dependency resolution is now bei
 ## Verified readable-code milestone 2026-11-13T20:08:28.152605+00:00
 
 All 121 indexed JS objects now pass parsing and structural formatting equivalence; independent Node syntax checks also passed for all121 readable files. The concrete static/dynamic/preload/worker module URL graph has0 missing targets at this checkpoint;13 unavailable filename literals are defaults or editor sample filenames and remain explicit. One JavaScript Blob bootstrap was statically extracted/verified;13 other Blob constructions remain computed. Runtime has144 observations; final request-owner-attributed evidence sweep is still running. No universal all-roles/all-runtime-program guarantee.
+
+## Client extraction completion 2026-11-13T20:13:11.762000+00:00
+
+Client-bundle coverage extension complete for the documented account/routes/deployments: 159 browser observations across50 requested URLs and57 observed URLs, including58 request-owner-attributed observations and86 explicit entry-script snapshots. Captured/indexed121 distinct JS objects (up from97), all with readable copies, passing original hashes, Babel structural semantic equivalence and independent Node syntax checks. One embedded JavaScript Blob bootstrap was extracted and verified. Concrete static/dynamic/preload/worker module URL gaps:0. This is not universal all-role/all-state coverage or recovery of original TS/TSX/backend source.

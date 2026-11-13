@@ -217917,6 +217917,24 @@
       "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "fs",
+      "targeturl": null,
+      "start": 1163,
+      "end": 1167,
+      "line": 10,
+      "column": 894,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/essentials/if?sql=mock",
       "kind": "static",
       "classification": "unresolved",
@@ -217936,6 +217954,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "path",
+      "targeturl": null,
+      "start": 1190,
+      "end": 1196,
+      "line": 10,
+      "column": 921,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -217972,6 +218008,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "asset",
+      "classification": "asset",
+      "resolution": "internal",
+      "targetkind": "asset",
+      "specifier": "pyodide.asm.wasm",
+      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.wasm",
+      "start": 6985,
+      "end": 7003,
+      "line": 10,
+      "column": 6716,
+      "reason": null,
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "asset",
       "classification": "asset",
       "resolution": "internal",
@@ -218008,6 +218062,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "code",
+      "classification": "code",
+      "resolution": "internal",
+      "targetkind": "code",
+      "specifier": "pyodide.asm.js",
+      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "start": 50316,
+      "end": 50332,
+      "line": 10,
+      "column": 50047,
+      "reason": null,
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "code",
       "classification": "code",
       "resolution": "internal",
@@ -218044,6 +218116,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:url",
+      "targeturl": "node:url",
+      "start": 86006,
+      "end": 86016,
+      "line": 10,
+      "column": 85737,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -218080,6 +218170,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:fs",
+      "targeturl": "node:fs",
+      "start": 86043,
+      "end": 86052,
+      "line": 10,
+      "column": 85774,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -218116,6 +218224,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:fs/promises",
+      "targeturl": "node:fs/promises",
+      "start": 86069,
+      "end": 86087,
+      "line": 10,
+      "column": 85800,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -218152,6 +218278,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:vm",
+      "targeturl": "node:vm",
+      "start": 86106,
+      "end": 86115,
+      "line": 10,
+      "column": 85837,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -218188,6 +218332,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:path",
+      "targeturl": "node:path",
+      "start": 86142,
+      "end": 86153,
+      "line": 10,
+      "column": 85873,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -218224,6 +218386,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:crypto",
+      "targeturl": "node:crypto",
+      "start": 86210,
+      "end": 86223,
+      "line": 10,
+      "column": 85941,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -218260,6 +218440,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "ws",
+      "targeturl": null,
+      "start": 86240,
+      "end": 86244,
+      "line": 10,
+      "column": 85971,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -218296,6 +218494,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:child_process",
+      "targeturl": "node:child_process",
+      "start": 86261,
+      "end": 86281,
+      "line": 10,
+      "column": 85992,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -218332,6 +218548,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 87218,
+      "end": 87219,
+      "line": 10,
+      "column": 86949,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -218368,6 +218602,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 87341,
+      "end": 87342,
+      "line": 10,
+      "column": 87072,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -218404,6 +218656,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 87592,
+      "end": 87616,
+      "line": 10,
+      "column": 87323,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -218440,6 +218710,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "crypto",
+      "targeturl": null,
+      "start": 165053,
+      "end": 165061,
+      "line": 10,
+      "column": 164784,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -218476,6 +218764,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "ws",
+      "targeturl": null,
+      "start": 244760,
+      "end": 244764,
+      "line": 10,
+      "column": 244491,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -218512,6 +218818,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "ws",
+      "targeturl": null,
+      "start": 249130,
+      "end": 249134,
+      "line": 10,
+      "column": 248861,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -218548,6 +218872,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "child_process",
+      "targeturl": null,
+      "start": 287679,
+      "end": 287694,
+      "line": 10,
+      "column": 287410,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -218584,6 +218926,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "asset",
+      "classification": "asset",
+      "resolution": "internal",
+      "targetkind": "asset",
+      "specifier": ".ogg",
+      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/.ogg",
+      "start": 507490,
+      "end": 507496,
+      "line": 10,
+      "column": 507221,
+      "reason": null,
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "asset",
       "classification": "asset",
       "resolution": "internal",
@@ -218620,6 +218980,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "asset",
+      "classification": "asset",
+      "resolution": "internal",
+      "targetkind": "asset",
+      "specifier": ".wav",
+      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/.wav",
+      "start": 507499,
+      "end": 507505,
+      "line": 10,
+      "column": 507230,
+      "reason": null,
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "asset",
       "classification": "asset",
       "resolution": "internal",
@@ -218656,6 +219034,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "asset",
+      "classification": "asset",
+      "resolution": "internal",
+      "targetkind": "asset",
+      "specifier": ".mp3",
+      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/.mp3",
+      "start": 507508,
+      "end": 507514,
+      "line": 10,
+      "column": 507239,
+      "reason": null,
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "asset",
       "classification": "asset",
       "resolution": "internal",
@@ -218692,6 +219088,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "worker",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 525359,
+      "end": 525362,
+      "line": 10,
+      "column": 525090,
+      "reason": "computed-worker",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "worker",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -290349,7 +290763,7 @@
       "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcehash": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
-      "pageurl": null,
+      "pageurl": "https://comp.school/code/sql?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -290367,7 +290781,7 @@
       "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcehash": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
-      "pageurl": null,
+      "pageurl": "https://comp.school/code/sql?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -290385,7 +290799,7 @@
       "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcehash": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
-      "pageurl": null,
+      "pageurl": "https://comp.school/code/sql?paper=2&sql=mock",
       "kind": "asset",
       "classification": "asset",
       "resolution": "internal",
@@ -290403,7 +290817,7 @@
       "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcehash": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
-      "pageurl": null,
+      "pageurl": "https://comp.school/code/sql?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -387369,6 +387783,24 @@
       "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:url",
+      "targeturl": "node:url",
+      "start": 5380,
+      "end": 5390,
+      "line": 3,
+      "column": 1262,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/essentials/if?sql=mock",
       "kind": "dynamic",
       "classification": "external",
@@ -387388,6 +387820,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:fs",
+      "targeturl": "node:fs",
+      "start": 5435,
+      "end": 5444,
+      "line": 3,
+      "column": 1317,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -387424,6 +387874,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:fs/promises",
+      "targeturl": "node:fs/promises",
+      "start": 5480,
+      "end": 5498,
+      "line": 3,
+      "column": 1362,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -387460,6 +387928,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:vm",
+      "targeturl": "node:vm",
+      "start": 5535,
+      "end": 5544,
+      "line": 3,
+      "column": 1417,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -387496,6 +387982,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:path",
+      "targeturl": "node:path",
+      "start": 5589,
+      "end": 5600,
+      "line": 3,
+      "column": 1471,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -387532,6 +388036,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:crypto",
+      "targeturl": "node:crypto",
+      "start": 5673,
+      "end": 5686,
+      "line": 3,
+      "column": 1555,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -387568,6 +388090,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "ws",
+      "targeturl": null,
+      "start": 5722,
+      "end": 5726,
+      "line": 3,
+      "column": 1604,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -387604,6 +388144,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:child_process",
+      "targeturl": "node:child_process",
+      "start": 5762,
+      "end": 5782,
+      "line": 3,
+      "column": 1644,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -387640,6 +388198,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 6723,
+      "end": 6724,
+      "line": 3,
+      "column": 2605,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -387676,6 +388252,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 6863,
+      "end": 6864,
+      "line": 3,
+      "column": 2745,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -387712,6 +388306,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 7131,
+      "end": 7154,
+      "line": 3,
+      "column": 3013,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -387748,6 +388360,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:path",
+      "targeturl": "node:path",
+      "start": 7541,
+      "end": 7552,
+      "line": 3,
+      "column": 3423,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -387784,6 +388414,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "external",
+      "resolution": "external",
+      "targetkind": "resource",
+      "specifier": "node:url",
+      "targeturl": "node:url",
+      "start": 7593,
+      "end": 7603,
+      "line": 3,
+      "column": 3475,
+      "reason": "non-http-scheme",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "external",
       "resolution": "external",
@@ -387820,6 +388468,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "asset",
+      "classification": "asset",
+      "resolution": "internal",
+      "targetkind": "asset",
+      "specifier": "pyodide.asm.wasm",
+      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.wasm",
+      "start": 12831,
+      "end": 12849,
+      "line": 3,
+      "column": 8713,
+      "reason": null,
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "asset",
       "classification": "asset",
       "resolution": "internal",
@@ -387856,6 +388522,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "asset",
+      "classification": "asset",
+      "resolution": "internal",
+      "targetkind": "asset",
+      "specifier": "pyodide-lock.json",
+      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide-lock.json",
+      "start": 13373,
+      "end": 13392,
+      "line": 3,
+      "column": 9255,
+      "reason": null,
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "asset",
       "classification": "asset",
       "resolution": "internal",
@@ -480604,318 +481288,9 @@
       "column": 18,
       "reason": null,
       "resolutionbasis": "URL resolution from source or observed page"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://comp.school/code/sql-challenges?sql=mock",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
-      "targeturl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "External origin recorded, not mirrored"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
-      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "External origin recorded, not mirrored"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
-      "targeturl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "External origin recorded, not mirrored"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/action-styles-DWMwPIR0.js",
-      "targeturl": "https://comp.school/exams/assets/action-styles-DWMwPIR0.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "targeturl": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js",
-      "targeturl": "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
-      "targeturl": "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js",
-      "targeturl": "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js",
-      "targeturl": "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
-      "targeturl": "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js",
-      "targeturl": "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/proxy-DGk2Wawc.js",
-      "targeturl": "https://comp.school/exams/assets/proxy-DGk2Wawc.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js",
-      "targeturl": "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js",
-      "targeturl": "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
-      "targeturl": "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js",
-      "targeturl": "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "No resource with given identifier found"
-    },
-    {
-      "sourceurl": null,
-      "sourcefinal": null,
-      "sourcehash": null,
-      "pageurl": "https://admin.comp.school/",
-      "kind": "code",
-      "classification": "external",
-      "resolution": "external",
-      "targetkind": "code",
-      "specifier": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
-      "targeturl": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
-      "start": null,
-      "end": null,
-      "line": null,
-      "column": null,
-      "reason": "External origin recorded, not mirrored"
     }
   ],
   "targets": [
-    {
-      "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
-      "classification": "external",
-      "targetkind": "code",
-      "resolution": "external",
-      "captured": true,
-      "references": [
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://comp.school/code/sql-challenges?sql=mock",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
-        }
-      ],
-      "requested": false
-    },
     {
       "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.wasm",
       "classification": "asset",
@@ -480926,7 +481301,7 @@
         {
           "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
           "sourcehash": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
-          "pageurl": null,
+          "pageurl": "https://comp.school/code/sql?paper=2&sql=mock",
           "kind": "asset",
           "start": 16421,
           "end": 16436,
@@ -480962,6 +481337,16 @@
           "end": 507514,
           "line": 10,
           "column": 507239
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "asset",
+          "start": 507508,
+          "end": 507514,
+          "line": 10,
+          "column": 507239
         }
       ],
       "requested": true
@@ -480987,6 +481372,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
           "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "asset",
+          "start": 507490,
+          "end": 507496,
+          "line": 10,
+          "column": 507221
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "asset",
           "start": 507490,
           "end": 507496,
@@ -481022,6 +481417,16 @@
           "end": 507505,
           "line": 10,
           "column": 507230
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "asset",
+          "start": 507499,
+          "end": 507505,
+          "line": 10,
+          "column": 507230
         }
       ],
       "requested": true
@@ -481047,6 +481452,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "asset",
+          "start": 13373,
+          "end": 13392,
+          "line": 3,
+          "column": 9255
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "asset",
           "start": 13373,
           "end": 13392,
@@ -481084,14 +481499,14 @@
           "column": 50047
         },
         {
-          "sourceurl": null,
-          "sourcehash": null,
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
           "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
+          "start": 50316,
+          "end": 50332,
+          "line": 10,
+          "column": 50047
         }
       ],
       "requested": false
@@ -481124,6 +481539,16 @@
           "column": 6716
         },
         {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "asset",
+          "start": 6985,
+          "end": 7003,
+          "line": 10,
+          "column": 6716
+        },
+        {
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/essentials/if?sql=mock",
@@ -481142,26 +481567,16 @@
           "end": 12849,
           "line": 3,
           "column": 8713
-        }
-      ],
-      "requested": false
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
-      "classification": "external",
-      "targetkind": "code",
-      "resolution": "external",
-      "captured": true,
-      "references": [
+        },
         {
-          "sourceurl": null,
-          "sourcehash": null,
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
+          "kind": "asset",
+          "start": 12831,
+          "end": 12849,
+          "line": 3,
+          "column": 8713
         }
       ],
       "requested": false
@@ -550162,16 +550577,6 @@
           "end": 218,
           "line": 1,
           "column": 189
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -567812,16 +568217,6 @@
           "end": 169,
           "line": 1,
           "column": 141
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -568942,16 +569337,6 @@
           "end": 1736,
           "line": 1,
           "column": 1707
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -570322,16 +570707,6 @@
           "end": 1471,
           "line": 1,
           "column": 1436
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -580152,16 +580527,6 @@
           "end": 268,
           "line": 1,
           "column": 240
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -582362,16 +582727,6 @@
           "end": 858,
           "line": 1,
           "column": 827
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -588432,16 +588787,6 @@
           "end": 1663,
           "line": 1,
           "column": 1632
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -589432,16 +589777,6 @@
           "end": 1219,
           "line": 1,
           "column": 1187
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -590482,16 +590817,6 @@
           "end": 484,
           "line": 1,
           "column": 463
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -595372,16 +595697,6 @@
           "end": 1509,
           "line": 1,
           "column": 1478
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -597922,16 +598237,6 @@
           "end": 1180,
           "line": 1,
           "column": 1151
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -599182,16 +599487,6 @@
           "end": 1252,
           "line": 1,
           "column": 1226
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -673512,16 +673807,6 @@
           "end": 1290,
           "line": 1,
           "column": 1259
-        },
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
         }
       ],
       "requested": false
@@ -809677,26 +809962,6 @@
       "requested": true
     },
     {
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
-      "classification": "external",
-      "targetkind": "code",
-      "resolution": "external",
-      "captured": true,
-      "references": [
-        {
-          "sourceurl": null,
-          "sourcehash": null,
-          "pageurl": "https://admin.comp.school/",
-          "kind": "code",
-          "start": null,
-          "end": null,
-          "line": null,
-          "column": null
-        }
-      ],
-      "requested": false
-    },
-    {
       "url": "https://www.ocr.org.uk/Images/658478-gcse-grade-boundaries-june-2022.pdf",
       "classification": "external",
       "targetkind": "asset",
@@ -810424,6 +810689,16 @@
           "column": 85992
         },
         {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 86261,
+          "end": 86281,
+          "line": 10,
+          "column": 85992
+        },
+        {
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/essentials/if?sql=mock",
@@ -810437,6 +810712,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 5762,
+          "end": 5782,
+          "line": 3,
+          "column": 1644
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 5762,
           "end": 5782,
@@ -810474,6 +810759,16 @@
           "column": 85941
         },
         {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 86210,
+          "end": 86223,
+          "line": 10,
+          "column": 85941
+        },
+        {
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/essentials/if?sql=mock",
@@ -810487,6 +810782,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 5673,
+          "end": 5686,
+          "line": 3,
+          "column": 1555
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 5673,
           "end": 5686,
@@ -810524,6 +810829,16 @@
           "column": 85774
         },
         {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 86043,
+          "end": 86052,
+          "line": 10,
+          "column": 85774
+        },
+        {
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/essentials/if?sql=mock",
@@ -810537,6 +810852,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 5435,
+          "end": 5444,
+          "line": 3,
+          "column": 1317
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 5435,
           "end": 5444,
@@ -810574,6 +810899,16 @@
           "column": 85800
         },
         {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 86069,
+          "end": 86087,
+          "line": 10,
+          "column": 85800
+        },
+        {
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/essentials/if?sql=mock",
@@ -810587,6 +810922,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 5480,
+          "end": 5498,
+          "line": 3,
+          "column": 1362
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 5480,
           "end": 5498,
@@ -810624,6 +810969,16 @@
           "column": 85873
         },
         {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 86142,
+          "end": 86153,
+          "line": 10,
+          "column": 85873
+        },
+        {
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/essentials/if?sql=mock",
@@ -810637,6 +810992,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 5589,
+          "end": 5600,
+          "line": 3,
+          "column": 1471
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 5589,
           "end": 5600,
@@ -810657,6 +811022,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 7541,
+          "end": 7552,
+          "line": 3,
+          "column": 3423
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 7541,
           "end": 7552,
@@ -810694,6 +811069,16 @@
           "column": 85737
         },
         {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 86006,
+          "end": 86016,
+          "line": 10,
+          "column": 85737
+        },
+        {
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/essentials/if?sql=mock",
@@ -810707,6 +811092,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 5380,
+          "end": 5390,
+          "line": 3,
+          "column": 1262
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 5380,
           "end": 5390,
@@ -810727,6 +811122,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 7593,
+          "end": 7603,
+          "line": 3,
+          "column": 3475
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 7593,
           "end": 7603,
@@ -810764,6 +811169,16 @@
           "column": 85837
         },
         {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+          "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 86106,
+          "end": 86115,
+          "line": 10,
+          "column": 85837
+        },
+        {
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/essentials/if?sql=mock",
@@ -810777,6 +811192,16 @@
           "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
           "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+          "kind": "dynamic",
+          "start": 5535,
+          "end": 5544,
+          "line": 3,
+          "column": 1417
+        },
+        {
+          "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+          "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+          "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
           "kind": "dynamic",
           "start": 5535,
           "end": 5544,
@@ -811260,6 +811685,24 @@
       "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "fs",
+      "targeturl": null,
+      "start": 1163,
+      "end": 1167,
+      "line": 10,
+      "column": 894,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/essentials/if?sql=mock",
       "kind": "static",
       "classification": "unresolved",
@@ -811279,6 +811722,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "path",
+      "targeturl": null,
+      "start": 1190,
+      "end": 1196,
+      "line": 10,
+      "column": 921,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811315,6 +811776,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "ws",
+      "targeturl": null,
+      "start": 86240,
+      "end": 86244,
+      "line": 10,
+      "column": 85971,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811351,6 +811830,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 87218,
+      "end": 87219,
+      "line": 10,
+      "column": 86949,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811387,6 +811884,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 87341,
+      "end": 87342,
+      "line": 10,
+      "column": 87072,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811423,6 +811938,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 87592,
+      "end": 87616,
+      "line": 10,
+      "column": 87323,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811459,6 +811992,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "crypto",
+      "targeturl": null,
+      "start": 165053,
+      "end": 165061,
+      "line": 10,
+      "column": 164784,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811495,6 +812046,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "ws",
+      "targeturl": null,
+      "start": 244760,
+      "end": 244764,
+      "line": 10,
+      "column": 244491,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811531,6 +812100,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "ws",
+      "targeturl": null,
+      "start": 249130,
+      "end": 249134,
+      "line": 10,
+      "column": 248861,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811567,6 +812154,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "static",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "child_process",
+      "targeturl": null,
+      "start": 287679,
+      "end": 287694,
+      "line": 10,
+      "column": 287410,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811603,6 +812208,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
       "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "worker",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 525359,
+      "end": 525362,
+      "line": 10,
+      "column": 525090,
+      "reason": "computed-worker",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "sourcehash": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "worker",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811872,7 +812495,7 @@
       "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcehash": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
-      "pageurl": null,
+      "pageurl": "https://comp.school/code/sql?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811890,7 +812513,7 @@
       "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcehash": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
-      "pageurl": null,
+      "pageurl": "https://comp.school/code/sql?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -811908,7 +812531,7 @@
       "sourceurl": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcefinal": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
       "sourcehash": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4",
-      "pageurl": null,
+      "pageurl": "https://comp.school/code/sql?paper=2&sql=mock",
       "kind": "static",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -812484,6 +813107,24 @@
       "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": "ws",
+      "targeturl": null,
+      "start": 5722,
+      "end": 5726,
+      "line": 3,
+      "column": 1604,
+      "reason": "bare-or-computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/essentials/if?sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
@@ -812503,6 +813144,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 6723,
+      "end": 6724,
+      "line": 3,
+      "column": 2605,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -812539,6 +813198,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 6863,
+      "end": 6864,
+      "line": 3,
+      "column": 2745,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -812575,6 +813252,24 @@
       "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
       "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
       "pageurl": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+      "kind": "dynamic",
+      "classification": "unresolved",
+      "resolution": "unresolved",
+      "targetkind": null,
+      "specifier": null,
+      "targeturl": null,
+      "start": 7131,
+      "end": 7154,
+      "line": 3,
+      "column": 3013,
+      "reason": "computed-specifier",
+      "resolutionbasis": "URL resolution from source or observed page"
+    },
+    {
+      "sourceurl": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcefinal": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "sourcehash": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "pageurl": "https://comp.school/code/python?paper=2&sql=mock",
       "kind": "dynamic",
       "classification": "unresolved",
       "resolution": "unresolved",
@@ -813021,291 +813716,5 @@
       "resolutionbasis": "URL resolution from source or observed page"
     }
   ],
-  "runtimescriptsnotcaptured": [
-    {
-      "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
-      "pages": [
-        "https://comp.school/code/sql-challenges?sql=mock",
-        "https://comp.school/code/sql?paper=2&sql=mock"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "External origin recorded, not mirrored"
-      ]
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
-      "pages": [
-        "https://comp.school/code/python?paper=2&sql=mock"
-      ],
-      "types": [
-        "text/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "External origin recorded, not mirrored"
-      ]
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
-      "pages": [
-        "https://comp.school/code/python?paper=2&sql=mock"
-      ],
-      "types": [
-        "text/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "External origin recorded, not mirrored"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/action-styles-DWMwPIR0.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/proxy-DGk2Wawc.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
-      "pages": [
-        "https://admin.comp.school/",
-        "https://comp.school/",
-        "https://comp.school/?menu=more",
-        "https://comp.school/?menu=paper-1",
-        "https://comp.school/?menu=paper-2",
-        "https://comp.school/?menu=python-challenges",
-        "https://comp.school/code/",
-        "https://comp.school/code/editor?paper=2&sql=mock",
-        "https://comp.school/code/essentials/for?sql=mock",
-        "https://comp.school/code/essentials/functions?sql=mock",
-        "https://comp.school/code/essentials/if?sql=mock",
-        "https://comp.school/code/essentials/io?sql=mock",
-        "https://comp.school/code/essentials/scratch?sql=mock",
-        "https://comp.school/code/essentials/while?sql=mock",
-        "https://comp.school/code/python?paper=2&sql=mock",
-        "https://comp.school/code/sql-challenges?sql=mock",
-        "https://comp.school/code/sql?paper=2&sql=mock",
-        "https://comp.school/exams/",
-        "https://comp.school/exams/?paper=1&sql=mock",
-        "https://comp.school/exams/?paper=2&sql=mock",
-        "https://comp.school/exams/games/careers?sql=mock",
-        "https://comp.school/exams/games/games-room?sql=mock",
-        "https://comp.school/recall/",
-        "https://comp.school/recall/?paper=1&topic=1.1&sql=mock",
-        "https://homework.comp.school/",
-        "https://issues.comp.school/",
-        "https://library.comp.school/",
-        "https://mark.comp.school/",
-        "https://printouts.comp.school/",
-        "https://self-assess.comp.school/"
-      ],
-      "types": [
-        "text/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "External origin recorded, not mirrored"
-      ]
-    }
-  ]
+  "runtimescriptsnotcaptured": []
 }

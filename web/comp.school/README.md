@@ -2,12 +2,12 @@
 
 ## Coverage
 
-Captured at 2026-11-13T19:24:23.976385+00:00. This is a bounded browser-delivered-code and public-response archive, not a complete server or private-data dump.
+Captured at 2026-11-13T20:11:44.616145+00:00. This is a bounded browser-delivered-code and public-response archive, not a complete server or private-data dump.
 
-- 781 URL response/error records; 324 unique saved response objects (53,590,925 bytes).
-- 97 distinct JavaScript objects; 35 distinct API-string variants; 23 route/path string candidates.
+- 905 URL response/error records; 405 unique saved response objects (108,746,554 bytes).
+- 121 distinct JavaScript objects; 42 distinct API-string variants; 23 route/path string candidates.
 - 441 publicly evidenced hostnames queried through public DNS.
-- 163 asset URLs returned HTML rather than the expected file type. They are preserved as observations, not counted as working assets.
+- 182 asset URLs returned HTML rather than the expected file type. They are preserved as observations, not counted as working assets.
 - 0 queued URLs remain; 1825 references were deliberately deferred, with reasons in discovery.json.
 
 ## Host and application map
@@ -52,7 +52,7 @@ Captured at 2026-11-13T19:24:23.976385+00:00. This is a bounded browser-delivere
 - `inventory.json`: URL, final URL, HTTP status, content type, timestamp, selected non-secret headers, byte count and SHA-256.
 - `objects/<sha256>`: exact public response bodies. Identical content is stored once.
 - `links.json`, `navigation.json`: discovered reference graph and sanitized normal-navigation links.
-- `dns.json`, `certificates.json`: passive hostname and DNS evidence, including historical preview names and source/pagination limitations. `hostchecks.json` records unauthenticated root reachability checks for resolving names; preview builds are mapped, not recursively mirrored.
+- `dns.json`, `certificates.json`: passive hostname and DNS evidence, including historical preview names and source/pagination limitations. `hostchecks.json` records unauthenticated root reachability checks for resolving names; known-live preview entry bundles and their literal code dependencies are included in the client extension; other historical deploys remain unmirrored.
 - `codeindex.json`, `analysis.json`, `summary.json`: code/reference inventory, supported architecture conclusions and coverage metrics. `HOSTS.md` and `ROUTES.md` provide readable hostname and route-candidate tables.
 
 From the repository root:
@@ -63,7 +63,7 @@ python3 .agents/scripts/webrestore.py /path/to/empty/destination
 
 The restore command verifies hashes and recreates host/path files. It omits HTML fallbacks masquerading as assets. This is not a runnable offline replica: backend behavior, protected data and external runtimes/media are not emulated.
 
-The collector can resume with `python3 .agents/scripts/webdump.py`; review its limits and scope first. It sends no authentication credentials and performs only public GETs. It prioritizes code, avoids repeating identical response expansions, and does not request `/api/` endpoints, guessed source maps, hidden files, external origins or credential/action paths.
+The original public collector can resume with `python3 .agents/scripts/webdump.py`; review its limits and scope first. That collector sends no authentication credentials and performs only public GETs. The separate guarded browser audit uses normal login and archives code responses only, not account/API data. It prioritizes code, avoids repeating identical response expansions, and does not request `/api/` endpoints, guessed source maps, hidden files, external origins or credential/action paths.
 
 ## Explicit limits and exclusions
 
@@ -72,9 +72,21 @@ The collector can resume with `python3 .agents/scripts/webdump.py`; review its l
 - No published source-map references were found in collected code. Original TS/TSX files, comments, source tree and build manifests were not recovered.
 - 145 checked legacy `/assets/svg/` references returned fallback HTML; remaining references in that legacy namespace are listed but not repeatedly fetched. Computed/template references are not treated as literal fetchable URLs.
 - No account history, rosters, submissions, licensed API media, credentials, cookies, session storage or authorization headers are included. Normal account navigation is not a bulk-data export.
-- Third-party CDN scripts, fonts, media and runtime dependencies are inventoried where referenced but not mirrored outside the requested domain.
+- Selected directly referenced third-party JS/WASM runtime dependencies were captured for client-code completeness. Fonts, unrelated external media and arbitrary runtime-loaded packages remain outside the snapshot; exact captured URLs are in inventory.json.
 - The site can change during collection; each response has its own timestamp and hash. This is not a transactionally frozen deployment.
 
 ## Next-agent continuity
 
 Read the current `.agents/state/` briefings at startup. Continue from the saved inventory and explicit remaining/deferred lists rather than restarting the crawl. Keep status, handoff, next, progress and changedfiles accurate, then run the existing updater to verify `handoff.zip`, commit and push at intervals of no more than five minutes during active work. Never put supplied credentials or browser auth state in the archive. Leave exact verification, limitations and next actions for the following agent, and cancel checkpoint wakes when idle.
+
+## Extended client-code extraction
+
+See client/README.md for the current page-level evidence, client/apps/ for per-host source/readable indexes, and client/pages.json for entry -> observed/shared -> static/dynamic/preload/worker relationships.
+
+- Browser page/state observations: 159
+- Request-owner-attributed observations: 58
+- Parsed and structurally verified readable JavaScript objects: 121
+- Missing concrete import/preload/worker module URLs: 0
+- Remaining computed/bare dependency sites: 58
+
+These counts describe the captured account/routes/deployments, not universal coverage of all roles, unpublished routes or arbitrary dynamically generated programs. Original bytes remain in objects/; readable copies retain minified identifiers and are not recovered original TS/TSX source.

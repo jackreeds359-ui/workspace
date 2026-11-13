@@ -1550,6 +1550,270 @@
       },
       "bytes": 7581465,
       "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e"
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "final": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "type": "text/javascript",
+      "status": 200,
+      "bytes": 31853,
+      "sha256": "637381256384554e1cc3309a62fb238a51b83e7f10b2a56d8ba15dbc73ca762e",
+      "time": "2026-11-13T19:52:25.006Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1349.comp.school/"
+    },
+    {
+      "url": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "final": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 3048759,
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "time": "2026-11-13T19:52:25.875Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1349.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "final": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 202986,
+      "sha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "time": "2026-11-13T19:52:28.656Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.admin.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "final": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 957077,
+      "sha256": "957a813f8113d56d9bb697ecfbc29cf2ed3776270ea30d45405108112d3642e9",
+      "time": "2026-11-13T19:52:33.325Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.code.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "final": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 4555271,
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "time": "2026-11-13T19:52:37.862Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.exams.comp.school/assets/radix-ui-COh3HBfA.js",
+      "final": "https://preview-1373.exams.comp.school/assets/radix-ui-COh3HBfA.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 52829,
+      "sha256": "c59bddf267effbd5e2eafc305d0af60cbde3c1f9cbab74951ebad0398ff9e7f6",
+      "time": "2026-11-13T19:52:40.374Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.exams.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+      "final": "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 176342,
+      "sha256": "964bb6b13b733a282f0f4d7ca5c201c8db4522ceadb6ae7df5b72d3ded4976af",
+      "time": "2026-11-13T19:52:40.402Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.exams.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.exams.comp.school/assets/ui-components-BsJ0LOaj.js",
+      "final": "https://preview-1373.exams.comp.school/assets/ui-components-BsJ0LOaj.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 54337,
+      "sha256": "07bf11ee2d6fcfd9f1291fc72633ab9179ad15556f5b80ce9af55ff6b5600c1c",
+      "time": "2026-11-13T19:52:40.804Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.exams.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "final": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 7046025,
+      "sha256": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "time": "2026-11-13T19:52:41.556Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.exams.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "final": "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 271843,
+      "sha256": "747b499b0b99cd659557ccd1dfcdf14f99320d249166f89f6439af3065c636c8",
+      "time": "2026-11-13T19:52:44.230Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.forms.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "final": "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 193935,
+      "sha256": "a741d30db3cf267b34c449877e8b2ebb63f62bc3146ce806a2565864ca540be2",
+      "time": "2026-11-13T19:52:47.709Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.games.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "final": "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 202653,
+      "sha256": "7684ab6a8a83c9119c69667e4a364c0dca89c5588e316b91dd88c7429bffdc6f",
+      "time": "2026-11-13T19:52:51.657Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.issues.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "final": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 2740479,
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "time": "2026-11-13T19:52:55.703Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.mark.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "final": "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 1856271,
+      "sha256": "f2203b3c90923a424c94f6a3ad2bbf34c7c3a417fb5d38ae24ba8d6f9ba878b2",
+      "time": "2026-11-13T19:52:59.310Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.printouts.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "final": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 4750111,
+      "sha256": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "time": "2026-11-13T19:53:03.398Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.recall.comp.school/"
+    },
+    {
+      "url": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "final": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 3739040,
+      "sha256": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "time": "2026-11-13T19:53:07.573Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-1373.self-assess.comp.school/"
+    },
+    {
+      "url": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "final": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 4589370,
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "time": "2026-11-13T19:53:10.941Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-main-1134.comp.school/"
+    },
+    {
+      "url": "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js",
+      "final": "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js",
+      "type": "application/javascript",
+      "status": 200,
+      "bytes": 1891345,
+      "sha256": "e42c8d673b957b7d1abf5db47c00c0ce7a24bd3bea39530ae7f0da498cb72c81",
+      "time": "2026-11-13T19:53:14.223Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://preview-main-1134.printouts.comp.school/"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "type": "text/javascript",
+      "status": 200,
+      "bytes": 14928,
+      "sha256": "7fdbe66e53f68f6a4e93c295a667371759be093d2bd402bb44545514584039b6",
+      "time": "2026-11-13T19:55:33.266Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
+      "type": "text/javascript",
+      "status": 200,
+      "bytes": 1253804,
+      "sha256": "3a889f073e628c2196c705b42fa0e955ba2e25c034b1e3dd589c35be675bc01b",
+      "time": "2026-11-13T19:55:33.878Z",
+      "acquisition": "browser Network.getResponseBody",
+      "page": "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
+      "time": "2026-11-13T19:56:14.117467+00:00",
+      "acquisition": "GET directly evidenced client dependency",
+      "classification": "external",
+      "status": 200,
+      "final": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 49857,
+      "sha256": "558a72c3ab3415d0e6d243cfd23f9d61543600d59054b4b7b8da3cd65f6b9fd4"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js",
+      "time": "2026-11-13T19:56:16.459843+00:00",
+      "acquisition": "GET directly evidenced client dependency",
+      "classification": "external",
+      "status": 200,
+      "final": "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js",
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 5541,
+      "sha256": "ad83d7ddd5eaf0d879df612f092d9fa1ec93826cdb702f2efa70a4feb12d2970"
+    },
+    {
+      "url": "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs",
+      "time": "2026-11-13T19:56:17.228625+00:00",
+      "acquisition": "GET directly evidenced client dependency",
+      "classification": "code",
+      "status": 200,
+      "final": "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs",
+      "type": "application/javascript",
+      "bytes": 1375838,
+      "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+    },
+    {
+      "url": "https://preview-1373.mark.comp.school/assets/index.es-1l9t7ai3.js",
+      "time": "2026-11-13T20:00:32.747595+00:00",
+      "acquisition": "GET directly evidenced client dependency",
+      "classification": "code",
+      "status": 200,
+      "final": "https://preview-1373.mark.comp.school/assets/index.es-1l9t7ai3.js",
+      "type": "application/javascript",
+      "bytes": 159966,
+      "sha256": "7b16374daae0df392d1c72782addd278aff55e558695f168db706511b9a02ff6"
     }
   ],
   "api": [
@@ -2556,6 +2820,790 @@
       "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e",
       "offset": 342751,
       "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard?",
+      "methods_near_reference": [],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 248667,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard",
+      "methods_near_reference": [],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 248689,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard",
+      "methods_near_reference": [
+        "PATCH"
+      ],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 249210,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/teacher-pupil",
+      "methods_near_reference": [],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 250693,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/teacher-pupil",
+      "methods_near_reference": [
+        "PATCH"
+      ],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 251174,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/class-results?source=${r}",
+      "methods_near_reference": [],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 1280256,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/class-results?source=${r}",
+      "methods_near_reference": [],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3010591,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3027227,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/avatar",
+      "methods_near_reference": [],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3028152,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/login",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3028719,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/fallback-access",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3028965,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/pin",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3029570,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/avatar",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3029987,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3030440,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/activity",
+      "methods_near_reference": [],
+      "source": "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "sha256": "7036c81f6365c92a16aa40d6c083c6bf8828e3e10d85f821857daec6f38f4085",
+      "offset": 3036498,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "sha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "offset": 190619,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "sha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "offset": 190987,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/admin/ai-usage",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "sha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "offset": 195946,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/admin/costing-summary",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "sha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "offset": 195971,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/credentials",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "sha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "offset": 197711,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/credentials",
+      "methods_near_reference": [
+        "PATCH"
+      ],
+      "source": "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "sha256": "93836568e865f6e3a9256511cb23ad5b8f3d05a002f9dbc5f5ef35a8c3576063",
+      "offset": 198161,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "sha256": "957a813f8113d56d9bb697ecfbc29cf2ed3776270ea30d45405108112d3642e9",
+      "offset": 224347,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "sha256": "957a813f8113d56d9bb697ecfbc29cf2ed3776270ea30d45405108112d3642e9",
+      "offset": 224711,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard?",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 248670,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 248692,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard",
+      "methods_near_reference": [
+        "PATCH"
+      ],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 249213,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/teacher-pupil",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 250696,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/teacher-pupil",
+      "methods_near_reference": [
+        "PATCH"
+      ],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 251177,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/class-results?source=${r}",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 2089479,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/class-results?source=${r}",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4517076,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4533730,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/avatar",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4534655,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/login",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4535222,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/fallback-access",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4535468,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/pin",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4536073,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/avatar",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4536490,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4536943,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/activity",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "sha256": "a45741bd2d012787a3bc723ef54d422f6c65582bf97fec1c1c3ade44bf336cc0",
+      "offset": 4543003,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "sha256": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "offset": 285559,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "sha256": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "offset": 285915,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/exam-lane/mark",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "sha256": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "offset": 295086,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/learning-progress",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "sha256": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "offset": 2269658,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/learning-progress",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "sha256": "29d256cf5a7f6702fdc6425522123365e5884853f7bd38b89269f0df180c8cd9",
+      "offset": 2269860,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "sha256": "747b499b0b99cd659557ccd1dfcdf14f99320d249166f89f6439af3065c636c8",
+      "offset": 190735,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "sha256": "747b499b0b99cd659557ccd1dfcdf14f99320d249166f89f6439af3065c636c8",
+      "offset": 191102,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "sha256": "a741d30db3cf267b34c449877e8b2ebb63f62bc3146ce806a2565864ca540be2",
+      "offset": 190600,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "sha256": "a741d30db3cf267b34c449877e8b2ebb63f62bc3146ce806a2565864ca540be2",
+      "offset": 190968,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "sha256": "7684ab6a8a83c9119c69667e4a364c0dca89c5588e316b91dd88c7429bffdc6f",
+      "offset": 190656,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "sha256": "7684ab6a8a83c9119c69667e4a364c0dca89c5588e316b91dd88c7429bffdc6f",
+      "offset": 191022,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/report",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "sha256": "7684ab6a8a83c9119c69667e4a364c0dca89c5588e316b91dd88c7429bffdc6f",
+      "offset": 197029,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "offset": 193502,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "offset": 193864,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/smoke-test-marks",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "offset": 2676012,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/classes",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "offset": 2680943,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/transcripts",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "offset": 2683851,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/transcripts",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "offset": 2685154,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/smoke-test-marks",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "offset": 2687474,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/marks",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "sha256": "16e59fe63dab1ed7056aecf5722cfaefa24409da00ddbc7104cf2ca677126272",
+      "offset": 2687498,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "sha256": "f2203b3c90923a424c94f6a3ad2bbf34c7c3a417fb5d38ae24ba8d6f9ba878b2",
+      "offset": 190868,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "sha256": "f2203b3c90923a424c94f6a3ad2bbf34c7c3a417fb5d38ae24ba8d6f9ba878b2",
+      "offset": 191234,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/class-analytics?source=${c}",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "sha256": "f2203b3c90923a424c94f6a3ad2bbf34c7c3a417fb5d38ae24ba8d6f9ba878b2",
+      "offset": 1849937,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "sha256": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "offset": 225936,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "sha256": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "offset": 226296,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/learning-progress",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "sha256": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "offset": 288252,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/learning-progress",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "sha256": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "offset": 288454,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/exam-lane/mark",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "sha256": "7d068e5b4091d938d80cdb86da23a51360ad99f9a2d389a34dc1e4462691c460",
+      "offset": 3806136,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/learning-progress",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "sha256": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "offset": 1820549,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/learning-progress",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "sha256": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "offset": 1820751,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "sha256": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "offset": 3288968,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "sha256": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "offset": 3289333,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "sha256": "6eca9aa73f09333e38954805923d98228cc3786fd3990ea92af6d31b81faf841",
+      "offset": 3720108,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard?",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 249312,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 249334,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/leaderboard",
+      "methods_near_reference": [
+        "PATCH"
+      ],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 249855,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/teacher-pupil",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 251338,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/teacher-pupil",
+      "methods_near_reference": [
+        "PATCH"
+      ],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 251819,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/class-results?source=${r}",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 2090121,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/class-results?source=${r}",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 4552892,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 4570234,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/avatar",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 4571155,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/login",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 4571720,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/fallback-access",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 4571966,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/avatar",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 4572552,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 4573005,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/activity",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "sha256": "b73bb5cb28469143381c9d5ee7d8196e7d09a944990c65d7a3dfbe71d2c5893e",
+      "offset": 4578395,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/logout",
+      "methods_near_reference": [
+        "POST"
+      ],
+      "source": "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js",
+      "sha256": "e42c8d673b957b7d1abf5db47c00c0ce7a24bd3bea39530ae7f0da498cb72c81",
+      "offset": 190868,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/session",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js",
+      "sha256": "e42c8d673b957b7d1abf5db47c00c0ce7a24bd3bea39530ae7f0da498cb72c81",
+      "offset": 191234,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/class-analytics?source=${c}",
+      "methods_near_reference": [],
+      "source": "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js",
+      "sha256": "e42c8d673b957b7d1abf5db47c00c0ce7a24bd3bea39530ae7f0da498cb72c81",
+      "offset": 1885011,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
     }
   ],
   "paths": [
@@ -3368,6 +4416,72 @@
       "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
       "offset": 6576019,
       "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/python",
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "offset": 954042,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/sql",
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "offset": 954155,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/python-sort-search-algorithms",
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "offset": 954537,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/python",
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "offset": 956498,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/sql",
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "offset": 956644,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/python-searching-algorithms",
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "offset": 956689,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/python-sort-search-algorithms",
+      "source": "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "offset": 956758,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/sql",
+      "source": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "offset": 140046,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/yearpapers/",
+      "source": "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "offset": 290623,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/yearpapers/",
+      "source": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "offset": 3657721,
+      "evidence": "client string; not necessarily an independently routable page"
+    },
+    {
+      "path": "/sql",
+      "source": "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "offset": 3704957,
+      "evidence": "client string; not necessarily an independently routable page"
     }
   ],
   "dependency_markers": {
@@ -3382,7 +4496,21 @@
       "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
       "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
       "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+      "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js"
     ],
     "React Router": [
       "https://comp.school/assets/index-CHiQZc8e.js",
@@ -3390,7 +4518,10 @@
       "https://comp.school/code/assets/index-DwyvelI3.js",
       "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
       "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
     ],
     "Vite": [
       "https://comp.school/assets/index-CHiQZc8e.js",
@@ -3408,21 +4539,30 @@
       "https://comp.school/assets/index-CHiQZc8e.js",
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
       "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js"
     ],
     "Pyodide": [
       "https://comp.school/code/assets/index-DwyvelI3.js",
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
       "https://comp.school/exams/assets/index-DjyiOHey.js",
       "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js"
+      "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
+      "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js"
     ],
     "sql.js": [
       "https://comp.school/code/assets/index-DwyvelI3.js",
       "https://mark.comp.school/assets/App-BruRv-ox.js",
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
       "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "https://comp.school/exams/assets/BoxOfficeGame-DETNqaK-.js"
+      "https://comp.school/exams/assets/BoxOfficeGame-DETNqaK-.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js"
     ]
   },
   "hostnames": [
@@ -3431,6 +4571,7 @@
     "comp.school",
     "docs.comp.school",
     "exams.comp.school",
+    "forms.comp.school",
     "games.comp.school",
     "homework.comp.school",
     "issues.comp.school",
@@ -3440,11 +4581,7 @@
     "self-assess.comp.school"
   ],
   "origin_references": {
-    "https://www.itjobswatch.co.uk": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://comp.school/exams/assets/index-DjyiOHey.js"
-    ],
-    "https://code.comp.school": [
+    "https://issues.comp.school": [
       "https://comp.school/assets/index-CHiQZc8e.js",
       "https://comp.school/recall/assets/index-OXn7GuU2.js",
       "https://comp.school/code/assets/index-DwyvelI3.js",
@@ -3455,9 +4592,23 @@
       "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
       "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
       "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js"
     ],
-    "https://www.bbc.co.uk": [
+    "https://reactjs.org": [
       "https://comp.school/assets/index-CHiQZc8e.js",
       "https://comp.school/recall/assets/index-OXn7GuU2.js",
       "https://comp.school/code/assets/index-DwyvelI3.js",
@@ -3467,10 +4618,71 @@
       "https://printouts.comp.school/assets/index-DIMUjXiM.js",
       "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
       "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+      "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js"
+    ],
+    "https://admin.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+    ],
+    "https://nationalcareers.service.gov.uk": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
       "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://comp.school/exams/assets/network-build-z_ixRQe6.js"
+    ],
+    "https://github.com": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://mark.comp.school/assets/index.es-DClevNrK.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js",
+      "https://preview-1373.mark.comp.school/assets/index.es-1l9t7ai3.js"
     ],
     "https://docs.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+    ],
+    "https://reactrouter.com": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
+    ],
+    "https://ik.imagekit.io": [
       "https://comp.school/assets/index-CHiQZc8e.js"
     ],
     "https://exams.comp.school": [
@@ -3486,109 +4698,12 @@
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
       "https://comp.school/exams/assets/index-DjyiOHey.js",
       "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
-    ],
-    "https://admin.comp.school": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://admin.comp.school/assets/index-DZASS4VW.js"
-    ],
-    "https://ik.imagekit.io": [
-      "https://comp.school/assets/index-CHiQZc8e.js"
-    ],
-    "https://comp.school": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "https://comp.school/code/assets/index-DwyvelI3.js",
-      "https://admin.comp.school/assets/index-DZASS4VW.js",
-      "https://homework.comp.school/assets/index-BMINHhky.js",
-      "https://mark.comp.school/assets/index-DThs38Se.js",
-      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
-      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
-      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
-    ],
-    "https://recall.comp.school": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "https://comp.school/code/assets/index-DwyvelI3.js",
-      "https://admin.comp.school/assets/index-DZASS4VW.js",
-      "https://homework.comp.school/assets/index-BMINHhky.js",
-      "https://mark.comp.school/assets/index-DThs38Se.js",
-      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
-      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
-      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
-    ],
-    "https://games.comp.school": [
-      "https://comp.school/assets/index-CHiQZc8e.js"
-    ],
-    "https://nationalcareers.service.gov.uk": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "https://comp.school/exams/assets/network-build-z_ixRQe6.js"
-    ],
-    "https://forms.cloud.microsoft": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "https://comp.school/code/assets/index-DwyvelI3.js",
-      "https://admin.comp.school/assets/index-DZASS4VW.js",
-      "https://homework.comp.school/assets/index-BMINHhky.js",
-      "https://mark.comp.school/assets/index-DThs38Se.js",
-      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
-      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
-      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
-    ],
-    "https://mark.comp.school": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://mark.comp.school/assets/index-DThs38Se.js",
-      "https://mark.comp.school/assets/App-BruRv-ox.js"
-    ],
-    "https://reactrouter.com": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "https://comp.school/code/assets/index-DwyvelI3.js",
-      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
-    ],
-    "https://reactjs.org": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "https://comp.school/code/assets/index-DwyvelI3.js",
-      "https://admin.comp.school/assets/index-DZASS4VW.js",
-      "https://homework.comp.school/assets/index-BMINHhky.js",
-      "https://mark.comp.school/assets/index-DThs38Se.js",
-      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
-      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
-      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
-    ],
-    "https://issues.comp.school": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "https://comp.school/code/assets/index-DwyvelI3.js",
-      "https://admin.comp.school/assets/index-DZASS4VW.js",
-      "https://homework.comp.school/assets/index-BMINHhky.js",
-      "https://mark.comp.school/assets/index-DThs38Se.js",
-      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
-      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
-      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js"
-    ],
-    "https://printouts.comp.school": [
-      "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://printouts.comp.school/assets/index-DIMUjXiM.js"
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
     ],
     "http://www.w3.org": [
       "https://comp.school/assets/index-CHiQZc8e.js",
@@ -3615,20 +4730,106 @@
       "https://comp.school/exams/assets/index-DjyiOHey.js",
       "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
       "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+      "https://preview-1373.exams.comp.school/assets/ui-components-BsJ0LOaj.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js",
+      "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs"
+    ],
+    "https://comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
+      "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.admin.comp.school/assets/index-BtP9DhX2.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "https://preview-1373.issues.comp.school/assets/index-BwfvzzSU.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js"
+    ],
+    "https://printouts.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.printouts.comp.school/assets/index-CLsimiTr.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js",
+      "https://preview-main-1134.printouts.comp.school/assets/index-C8cuBb76.js"
     ],
     "https://www.ons.gov.uk": [
       "https://comp.school/assets/index-CHiQZc8e.js",
       "https://comp.school/exams/assets/index-DjyiOHey.js"
     ],
-    "https://github.com": [
+    "https://www.bbc.co.uk": [
       "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://mark.comp.school/assets/App-BruRv-ox.js",
-      "https://mark.comp.school/assets/index.es-DClevNrK.js",
-      "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
-      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
+    ],
+    "https://games.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.games.comp.school/assets/index-Cdf5Ddzc.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+    ],
+    "https://homework.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js"
+    ],
+    "https://forms.cloud.microsoft": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
       "https://library.comp.school/assets/index-CTxi99Mm.js"
     ],
     "http://localhost:3000": [
@@ -3637,28 +4838,91 @@
       "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
       "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js"
     ],
-    "https://homework.comp.school": [
+    "https://code.comp.school": [
       "https://comp.school/assets/index-CHiQZc8e.js",
-      "https://homework.comp.school/assets/index-BMINHhky.js"
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+    ],
+    "https://mark.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+    ],
+    "https://www.itjobswatch.co.uk": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js"
+    ],
+    "https://recall.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
     ],
     "http://localhost": [
       "https://comp.school/recall/assets/index-OXn7GuU2.js",
       "https://comp.school/code/assets/index-DwyvelI3.js",
       "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.exams.comp.school/assets/react-vendor-DDzPbSso.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
     ],
     "https://radix-ui.com": [
       "https://comp.school/code/assets/index-DwyvelI3.js",
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
       "https://comp.school/exams/assets/radix-ui-Vw-YFQN8.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
+      "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "https://preview-1373.exams.comp.school/assets/radix-ui-COh3HBfA.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
     ],
     "https://cdn.jsdelivr.net": [
       "https://comp.school/code/assets/index-DwyvelI3.js",
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "https://comp.school/exams/assets/index-DjyiOHey.js"
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://preview-1373.code.comp.school/assets/index-CaMW2TFr.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js"
+    ],
+    "https://self-assess.comp.school": [
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js",
+      "https://preview-1373.self-assess.comp.school/assets/index-Dc_JeE3t.js"
     ],
     "https://www.ocr.org.uk": [
       "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
@@ -3668,37 +4932,44 @@
       "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
       "https://library.comp.school/assets/index-CTxi99Mm.js"
     ],
-    "https://self-assess.comp.school": [
-      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js"
-    ],
-    "http://www.phpied.com": [
-      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    "http://www.myersdaily.org": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
     ],
     "https://www.cs.cmu.edu": [
-      "https://mark.comp.school/assets/App-BruRv-ox.js"
-    ],
-    "http://www.fpdf.org": [
-      "https://mark.comp.school/assets/App-BruRv-ox.js"
-    ],
-    "https://cdnjs.cloudflare.com": [
-      "https://mark.comp.school/assets/App-BruRv-ox.js"
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
     ],
     "http://opensource.org": [
-      "https://mark.comp.school/assets/App-BruRv-ox.js"
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
     ],
     "http://jspdf.default.namespaceuri": [
-      "https://mark.comp.school/assets/App-BruRv-ox.js"
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
     ],
-    "http://www.myersdaily.org": [
-      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    "https://cdnjs.cloudflare.com": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
+    ],
+    "http://www.phpied.com": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
+    ],
+    "http://www.fpdf.org": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://preview-1373.mark.comp.school/assets/index-CYincVF4.js"
     ],
     "https://html2canvas.hertzen.com": [
       "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
     ],
     "https://hertzen.com": [
       "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
+    ],
+    "https://www.youtube.com": [
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
     ],
     "https://www.savemyexams.com": [
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
@@ -3715,30 +4986,19 @@
       "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
       "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js"
     ],
-    "https://www.youtube.com": [
-      "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "https://library.comp.school/assets/index-CTxi99Mm.js"
-    ],
     "http://www.example.com": [
       "https://comp.school/recall/assets/frayer-models-BTQSOsHG.js"
-    ],
-    "http://purl.org": [
-      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
-      "https://comp.school/assets/index-nz6jw_Fj.js"
-    ],
-    "https://raw.github.com": [
-      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
-    ],
-    "https://stuk.github.io": [
-      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
-    ],
-    "http://stuartk.com": [
-      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
     ],
     "http://schemas.openxmlformats.org": [
       "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
       "https://comp.school/assets/index-Cyo9THSS.js",
+      "https://comp.school/assets/index-nz6jw_Fj.js"
+    ],
+    "https://gitbrent.github.io": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+    ],
+    "http://purl.org": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
       "https://comp.school/assets/index-nz6jw_Fj.js"
     ],
     "http://schemas.microsoft.com": [
@@ -3746,7 +5006,13 @@
       "https://comp.school/assets/index-Cyo9THSS.js",
       "https://comp.school/assets/index-nz6jw_Fj.js"
     ],
-    "https://gitbrent.github.io": [
+    "http://stuartk.com": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+    ],
+    "https://stuk.github.io": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+    ],
+    "https://raw.github.com": [
       "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
     ],
     "https://answers.microsoft.com": [
@@ -3760,8 +5026,33 @@
     ],
     "https://prosemirror.net": [
       "https://comp.school/assets/DocEditor-DeUhOnwy.js"
+    ],
+    "https://cloudflareinsights.com": [
+      "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+    ],
+    "https://forms.comp.school": [
+      "https://preview-1349.comp.school/assets/index-BoOY-xik.js",
+      "https://preview-1373.comp.school/assets/index-BIpziTN_.js",
+      "https://preview-1373.forms.comp.school/assets/index-B1xg3c6c.js",
+      "https://preview-main-1134.comp.school/assets/index-B8SE2nXj.js"
+    ],
+    "https://feross.org": [
+      "https://preview-1373.exams.comp.school/assets/index-Bm_1y3_1.js",
+      "https://preview-1373.recall.comp.school/assets/index-QKGYsOmw.js"
+    ],
+    "http://pipwerks.mit-license.org": [
+      "https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"
+    ],
+    "http://www.apache.org": [
+      "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs"
+    ],
+    "http://ns.adobe.com": [
+      "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs"
+    ],
+    "http://www.xfa.org": [
+      "https://comp.school/exams/assets/pdf.worker.min-yatZIOMy.mjs"
     ]
   },
-  "source_map_references": 0,
+  "source_map_references": 1,
   "limitations": "String evidence only; not server-source recovery or verified API contracts."
 }

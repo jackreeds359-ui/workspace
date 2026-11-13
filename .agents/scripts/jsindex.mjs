@@ -270,7 +270,7 @@ async function atomic(path, value) {
   if (existsSync(target)) {
     const previous = await readFile(target, 'utf8');
     if (previous === value) return;
-    if (target.endsWith('.js') && previous.split('\n').length > 1300 && !existsSync(`${target}.backup`)) await copyFile(target, `${target}.backup`);
+    if (previous.split('\n').length > 1300 && !existsSync(`${target}.backup`)) await copyFile(target, `${target}.backup`);
   }
   await writeFile(path, value);
   await rename(path, target);
@@ -539,7 +539,7 @@ async function main() {
     outputs.push({ ...record, types: [...asset.types].sort() });
   }
 
-  for (const external of [...externals.values()].sort((left, right) => left.url.localeCompare(right.url))) {
+  for (const external of [...externals.values()].filter(item => !knownurls.has(item.url)).sort((left, right) => left.url.localeCompare(right.url))) {
     dependencyRecords.push({
       sourceurl: null,
       sourcefinal: null,
@@ -577,7 +577,7 @@ async function main() {
     target.references.push({ sourceurl: item.sourceurl, sourcehash: item.sourcehash, pageurl: item.pageurl, kind: item.kind, start: item.start, end: item.end, line: item.line, column: item.column });
   }
 
-  const externalScripts = [...externals.values()].map(item => ({
+  const externalScripts = [...externals.values()].filter(item => !knownurls.has(item.url)).map(item => ({
     url: item.url,
     pages: [...item.pages].sort(),
     types: [...item.types].sort(),

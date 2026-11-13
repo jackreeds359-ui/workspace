@@ -2,11 +2,11 @@
 
 ## Actions in priority order
 
-1. Current read-only delivery is complete. Read web/comp.school/README.md, HOSTS.md, ROUTES.md and summary.json for coverage, map and limitations. Do not rerun the full crawl or continue idle-only checkpoints.
-2. For unpublished backend source, obtain an owner-provided repository or deployment export. Normal website login does not supply backend source. Do not probe hidden files, backups, origins or exploit paths.
-3. If a later task needs more passive hostname history, review certificates.json and its saved cursor and provider rate budget first. Do not evade that limit. Preview builds were root-mapped, not recursively mirrored; external CDN/runtime/media and private API records are not dumped.
-4. Restore files with python3 .agents/scripts/webrestore.py /path/to/empty/destination. They are captured static responses, not a runnable replacement backend.
-5. At the start of any new active task, revalidate this state against Git and the current files, re-arm five-minute checkpoints, and keep status, handoff, next, progress, manifest and changedfiles accurate. The next agent must continue doing this through its work and leave exact verification/limitations/next actions when done. Cancel wakes when idle; never include credentials, cookies, auth state or unrelated personal records in backups.
+1. Client JS extension is complete within documented scope. Read web/comp.school/client/README.md, GAPS.md, pages.json and per-host apps/ indexes. Original responses remain in objects/; do not mistake formatted copies for recovered original TS/TSX.
+2. No new target requests are needed for this delivery. Other roles, unknown deployments and arbitrary runtime-generated programs are not universally covered. Any future expansion must use normal authorized access, preserve read-only boundaries and document actual remaining cases instead of claiming all pages without evidence.
+3. Reproduce offline with python3 .agents/scripts/clientsetup.py, node .agents/scripts/jsindex.mjs, node .agents/scripts/embedded.mjs and python3 .agents/scripts/pagecoverage.py. Inventory covers all121 currently known JS objects; zero concrete import/preload/worker URL gaps remain. Generic defaults and computed/bare sites are explicit in client/GAPS.md.
+4. On a new active task, revalidate Git/files/briefings, re-arm five-minute checkpoints and maintain status, handoff, next, progress, manifest and changedfiles throughout work. The next agent must continue this practice and leave verified results, limits and exact next actions when done. Do not create idle-only commit loops; cancel checkpoint wakes after completion.
+5. Never archive credentials, cookies, auth state, API records, personal project text or unrelated user data. Server-side source remains a separate owner-export dependency, not something obtained by these client-code captures.
 
 ## Do not redo
 
@@ -146,3 +146,7 @@ Finish semantic formatter result, resolve any remaining new concrete dependencie
 ## Verified readable-code milestone 2026-11-13T20:08:28.152605+00:00
 
 Finish request-owner-attributed browser sweep, close browser, rerun fast index only if new code hashes appeared, regenerate pagecoverage and report outputs, validate all raw/readable hashes+JSON, scan secrets, restore-test, update final handoff and package. This is not an offline working clone or original TS/TSX source recovery. Keep remaining computed/default/browser errors and role/access limitations explicit; do not attempt to bypass them.
+
+## Client extraction completion 2026-11-13T20:13:11.762000+00:00
+
+Final delivery evidence:159 observations,58 request-owner-attributed,50 requested URL forms,57 actual URL forms;121 readable JS objects plus1 extracted worker bootstrap. Zero concrete import/preload/worker module gaps.13 unavailable filename literals are explicit defaults/sample files, not silently marked captured.58 unique computed/bare dependency sites and13 computed Blob constructions remain as parent code+gap records. Seven login-shell observations and one self-assessment TypeError are not successful feature verification. Other account roles and arbitrary dynamic program imports are unverified, not bypassed.

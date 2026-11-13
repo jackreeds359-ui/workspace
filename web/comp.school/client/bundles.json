@@ -1260,7 +1260,8 @@
           "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
           "pageurls": [
             "https://comp.school/code/essentials/if?sql=mock",
-            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+            "https://comp.school/code/python?paper=2&sql=mock"
           ],
           "captures": [
             "inventory",
@@ -1963,9 +1964,12 @@
         {
           "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
           "final": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
-          "pageurls": [],
+          "pageurls": [
+            "https://comp.school/code/sql?paper=2&sql=mock"
+          ],
           "captures": [
-            "inventory"
+            "inventory",
+            "runtime"
           ]
         }
       ],
@@ -1985,6 +1989,7 @@
       },
       "dependencies": 4,
       "types": [
+        "application/javascript",
         "application/javascript; charset=utf-8"
       ]
     },
@@ -2246,10 +2251,15 @@
             "https://comp.school/?menu=more",
             "https://comp.school/?menu=paper-1",
             "https://comp.school/?menu=paper-2",
+            "https://comp.school/?menu=python-challenges",
             "https://comp.school/code/?sql=mock",
+            "https://comp.school/code/editor?paper=2&sql=mock",
             "https://comp.school/code/essentials/if?sql=mock",
             "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+            "https://comp.school/code/python?paper=2&sql=mock",
+            "https://comp.school/code/sql?paper=2&sql=mock",
             "https://comp.school/exams/?paper=1&sql=mock",
+            "https://comp.school/exams/?paper=2&sql=mock",
             "https://comp.school/exams/?sql=mock",
             "https://comp.school/exams/games/code-climb",
             "https://comp.school/exams/games/crossword",
@@ -3137,7 +3147,8 @@
           "final": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
           "pageurls": [
             "https://comp.school/code/essentials/if?sql=mock",
-            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock"
+            "https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock",
+            "https://comp.school/code/python?paper=2&sql=mock"
           ],
           "captures": [
             "inventory",
@@ -5429,302 +5440,16 @@
       ]
     }
   ],
-  "runtimescriptsnotcaptured": [
-    {
-      "url": "https://cdn.jsdelivr.net/npm/sql.js@1.10.3/dist/sql-wasm.js",
-      "pages": [
-        "https://comp.school/code/sql-challenges?sql=mock",
-        "https://comp.school/code/sql?paper=2&sql=mock"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "External origin recorded, not mirrored"
-      ]
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.asm.js",
-      "pages": [
-        "https://comp.school/code/python?paper=2&sql=mock"
-      ],
-      "types": [
-        "text/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "External origin recorded, not mirrored"
-      ]
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js",
-      "pages": [
-        "https://comp.school/code/python?paper=2&sql=mock"
-      ],
-      "types": [
-        "text/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "External origin recorded, not mirrored"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/action-styles-DWMwPIR0.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/proxy-DGk2Wawc.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js",
-      "pages": [
-        "https://admin.comp.school/"
-      ],
-      "types": [
-        "application/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "No resource with given identifier found"
-      ]
-    },
-    {
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
-      "pages": [
-        "https://admin.comp.school/",
-        "https://comp.school/",
-        "https://comp.school/?menu=more",
-        "https://comp.school/?menu=paper-1",
-        "https://comp.school/?menu=paper-2",
-        "https://comp.school/?menu=python-challenges",
-        "https://comp.school/code/",
-        "https://comp.school/code/editor?paper=2&sql=mock",
-        "https://comp.school/code/essentials/for?sql=mock",
-        "https://comp.school/code/essentials/functions?sql=mock",
-        "https://comp.school/code/essentials/if?sql=mock",
-        "https://comp.school/code/essentials/io?sql=mock",
-        "https://comp.school/code/essentials/scratch?sql=mock",
-        "https://comp.school/code/essentials/while?sql=mock",
-        "https://comp.school/code/python?paper=2&sql=mock",
-        "https://comp.school/code/sql-challenges?sql=mock",
-        "https://comp.school/code/sql?paper=2&sql=mock",
-        "https://comp.school/exams/",
-        "https://comp.school/exams/?paper=1&sql=mock",
-        "https://comp.school/exams/?paper=2&sql=mock",
-        "https://comp.school/exams/games/careers?sql=mock",
-        "https://comp.school/exams/games/games-room?sql=mock",
-        "https://comp.school/recall/",
-        "https://comp.school/recall/?paper=1&topic=1.1&sql=mock",
-        "https://homework.comp.school/",
-        "https://issues.comp.school/",
-        "https://library.comp.school/",
-        "https://mark.comp.school/",
-        "https://printouts.comp.school/",
-        "https://self-assess.comp.school/"
-      ],
-      "types": [
-        "text/javascript"
-      ],
-      "statuses": [
-        200
-      ],
-      "reasons": [
-        "External origin recorded, not mirrored"
-      ]
-    }
-  ],
+  "runtimescriptsnotcaptured": [],
   "summary": {
     "assets": 121,
     "parsed": 121,
     "parsefailures": 0,
-    "formatted": 42,
+    "formatted": 0,
     "formatfailures": 0,
-    "preserved": 79,
-    "dependencies": 26676,
-    "unresolved": 124,
-    "external": 99
+    "preserved": 121,
+    "dependencies": 26697,
+    "unresolved": 139,
+    "external": 115
   }
 }

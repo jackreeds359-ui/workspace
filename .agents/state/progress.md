@@ -152,3 +152,7 @@ Captured101 page/state observations and28 explicit entry-script snapshots with r
 ## Verified readable-code milestone 2026-11-13T20:08:28.152605+00:00
 
 Formatter passed for121/121 code objects (42 newly formatted plus79 verified/preserved);0 parse or semantic-format failures. Independent Node module syntax and original-hash checks passed for121. Legacy HTML .js fallbacks excluded; orphaned generated HTML readables removed. Additional runtime/worker/CSS dependencies fetched from exact code references; latest concrete import/preload/worker missing count0. Extracted one1691-byte lobby Python worker bootstrap and structurally verified readable copy. Current browser observation count144; final attribution sweep ongoing.
+
+## Client extraction completion 2026-11-13T20:13:11.762000+00:00
+
+Completed final58-state request-owner-attributed sweep and closed browser. Total159 page/state observations; all121 known JS hashes indexed/formatted,0 parse/semantic errors. Independent Node syntax checks passed121/121; cached final pass preserved121 with structural equivalence rechecked. Original hashes/readable hashes, allJSON, source AST UTF16 ranges, supplied-credential/key/token scan and editor-UI redaction passed. Static Blob extraction recovered one1691-byte lobby worker bootstrap;13 other computed constructions recorded. Concrete module graph gaps0; all remaining defaults/computed/bare sites are documented. Managed setup reran with approved formatter successfully. Preparing final verified package and Git checkpoint; no more target requests planned.

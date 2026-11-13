@@ -6,4 +6,5 @@ setup.sh
 .agents/scripts/jsindex.mjs
 .agents/scripts/embedded.mjs
 .agents/scripts/pagecoverage.py
+.agents/scripts/webreport.py
 web/comp.school

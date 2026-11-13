@@ -4,20 +4,20 @@ This extends the original public crawl with actual browser network captures, AST
 
 ## Summary
 
-- observations: 137
-- request_attributed_observations: 36
+- observations: 159
+- request_attributed_observations: 58
 - unique_requested_urls: 50
 - unique_observed_urls: 57
-- explicit_entry_observations: 64
+- explicit_entry_observations: 86
 - network_code_objects: 136
-- shared_code_objects: 132
+- shared_code_objects: 133
 - parsed_code_objects: 121
 - formatted_and_preserved: 121
 - unavailable_literal_code_urls: 13
 - missing_concrete_import_preload_worker_targets: 0
 - unresolved_unique_sites: 58
 - extracted_embedded_blobs: 1
-- blocked_nonread_requests: 322
+- blocked_nonread_requests: 405
 
 ## Navigation states
 
@@ -160,6 +160,28 @@ This extends the original public crawl with actual browser network captures, AST
 | 134 | verified-recall-terms | https://comp.school/recall?paper=1&topic=1.1&sql=mock | 5 |  |
 | 135 | verified-recall-games | https://comp.school/recall?paper=1&topic=1.1&sql=mock | 5 |  |
 | 136 | verified-recall-questions | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1 | 5 |  |
+| 137 | verified-paper1-year-selector | https://comp.school/exams?paper=1&sql=mock | 71 |  |
+| 138 | verified-paper2-year-selector | https://comp.school/exams?paper=2&sql=mock | 71 |  |
+| 139 | verified-recall-flashcards | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1 | 5 |  |
+| 140 | verified-recall-matching | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1 | 5 |  |
+| 141 | verified-recall-guess-the-term | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1 | 5 |  |
+| 142 | verified-recall-crossword | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1 | 5 |  |
+| 143 | verified-recall-crit-wall | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1 | 5 |  |
+| 144 | verified-recall-tell-me-why | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1 | 5 |  |
+| 145 | verified-recall-exam-style | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1 | 5 |  |
+| 146 | verified-recall-game-quiz:-fetch-execute-cycle | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1.1 | 5 |  |
+| 147 | verified-recall-game-upgrade-bay | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1.2 | 5 |  |
+| 148 | verified-recall-game-hidden-computers | https://comp.school/recall?paper=1&topic=1.1&sql=mock&sub=1.1.3 | 5 |  |
+| 149 | verified-exam-flashcards | https://comp.school/exams?paper=1&sql=mock | 71 |  |
+| 150 | verified-exam-matching | https://comp.school/exams?paper=1&sql=mock | 71 |  |
+| 151 | verified-exam-guess-the-term | https://comp.school/exams?paper=1&sql=mock | 71 |  |
+| 152 | verified-exam-frayer-models | https://comp.school/exams?paper=1&sql=mock | 71 |  |
+| 153 | verified-exam-example-notes | https://comp.school/exams?paper=1&sql=mock | 71 |  |
+| 154 | verified-exam-take-the-paper | https://comp.school/exams?paper=1&sql=mock | 71 |  |
+| 155 | verified-code-search-sort | https://comp.school/code/python-sort-search-algorithms?paper=2&sql=mock | 8 |  |
+| 156 | verified-crossword-lobby-no-join | https://comp.school/exams/games/crossword?sql=mock | 79 |  |
+| 157 | verified-code-climb-selector-no-join | https://comp.school/exams/games/code-climb?sql=mock | 79 |  |
+| 158 | verified-code-if-theme | https://comp.school/code/essentials/if?sql=mock | 7 |  |
 
 ## Evidence files
 
