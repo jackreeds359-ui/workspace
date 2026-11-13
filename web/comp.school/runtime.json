@@ -1,0 +1,2185 @@
+[
+  {
+    "url": "https://comp.school/",
+    "label": "dashboard",
+    "time": "2026-11-13T19:49:06.524Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CFivEobA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9",
+        "bytes": 320992
+      },
+      {
+        "url": "https://comp.school/assets/index-CHiQZc8e.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+        "bytes": 3997235
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/",
+      "title": "comp.school",
+      "headings": [
+        "Evening revision?"
+      ],
+      "links": [],
+      "buttons": [
+        "",
+        "Paper 1",
+        "Paper 2",
+        "More"
+      ],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/?menu=paper-1",
+    "label": "paper1-menu",
+    "time": "2026-11-13T19:49:09.109Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-1",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-1",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CFivEobA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-1",
+        "fromServiceWorker": false,
+        "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9",
+        "bytes": 320992
+      },
+      {
+        "url": "https://comp.school/assets/index-CHiQZc8e.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-1",
+        "fromServiceWorker": false,
+        "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+        "bytes": 3997235
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/?menu=paper-1",
+      "title": "comp.school",
+      "headings": [
+        "Which topic?"
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://comp.school/"
+        },
+        {
+          "label": "1.1 Systems architecture",
+          "url": "https://comp.school/recall/?paper=1&topic=1.1&sql=mock"
+        },
+        {
+          "label": "1.2 Memory and storage",
+          "url": "https://comp.school/recall/?paper=1&topic=1.2&sql=mock"
+        },
+        {
+          "label": "1.3 Networks and protocols",
+          "url": "https://comp.school/recall/?paper=1&topic=1.3&sql=mock"
+        },
+        {
+          "label": "1.4 Network security",
+          "url": "https://comp.school/recall/?paper=1&topic=1.4&sql=mock"
+        },
+        {
+          "label": "1.5 Systems software",
+          "url": "https://comp.school/recall/?paper=1&topic=1.5&sql=mock"
+        },
+        {
+          "label": "1.6 Ethical, legal and environmental impacts",
+          "url": "https://comp.school/recall/?paper=1&topic=1.6&sql=mock"
+        },
+        {
+          "label": "Past papers",
+          "url": "https://comp.school/exams/?paper=1&sql=mock"
+        }
+      ],
+      "buttons": [
+        ""
+      ],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/?menu=paper-2",
+    "label": "paper2-menu",
+    "time": "2026-11-13T19:49:11.641Z",
+    "resources": [
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CFivEobA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9",
+        "bytes": 320992
+      },
+      {
+        "url": "https://comp.school/assets/index-CHiQZc8e.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+        "bytes": 3997235
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/?menu=paper-2",
+      "title": "comp.school",
+      "headings": [
+        "Which area?"
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://comp.school/"
+        },
+        {
+          "label": "Past papers",
+          "url": "https://comp.school/exams/?paper=2&sql=mock"
+        }
+      ],
+      "buttons": [
+        "",
+        "Topics",
+        "Coding"
+      ],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/?menu=more",
+    "label": "more-menu",
+    "time": "2026-11-13T19:49:14.174Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=more",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=more",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CFivEobA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=more",
+        "fromServiceWorker": false,
+        "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9",
+        "bytes": 320992
+      },
+      {
+        "url": "https://comp.school/assets/index-CHiQZc8e.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=more",
+        "fromServiceWorker": false,
+        "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+        "bytes": 3997235
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/?menu=more",
+      "title": "comp.school",
+      "headings": [
+        "More"
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://comp.school/"
+        },
+        {
+          "label": "Careers hub",
+          "url": "https://comp.school/exams/games/careers?sql=mock"
+        },
+        {
+          "label": "Multiplayer",
+          "url": "https://comp.school/exams/games/games-room?sql=mock"
+        }
+      ],
+      "buttons": [
+        "",
+        "Profile",
+        "Leaderboard",
+        "IT Club",
+        "About A Level Computer Science"
+      ],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/code/",
+    "label": "coding-entry",
+    "time": "2026-11-13T19:49:16.734Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/code/assets/index-DwyvelI3.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "sha256": "5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4",
+        "bytes": 1399420
+      },
+      {
+        "url": "https://comp.school/code/assets/index-CkLs-ldM.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "sha256": "3e8aa2c73cc3e74a824b67782a59376aa28f39a6f9839115029570d8f9de5900",
+        "bytes": 98686
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/code/assets/index-CkLs-ldM.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "sha256": "3e8aa2c73cc3e74a824b67782a59376aa28f39a6f9839115029570d8f9de5900",
+        "bytes": 98686
+      },
+      {
+        "url": "https://comp.school/code/assets/index-DwyvelI3.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "sha256": "5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4",
+        "bytes": 1399420
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CFivEobA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9",
+        "bytes": 320992
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CHiQZc8e.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/",
+        "fromServiceWorker": false,
+        "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+        "bytes": 3997235
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/?sql=mock",
+      "title": "comp.school",
+      "headings": [],
+      "links": [],
+      "buttons": [],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/recall/",
+    "label": "recall-entry",
+    "time": "2026-11-13T19:49:20.175Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/recall/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/recall/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/recall/assets/index-OXn7GuU2.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/recall/",
+        "fromServiceWorker": false,
+        "sha256": "f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271",
+        "bytes": 1695731
+      },
+      {
+        "url": "https://comp.school/recall/assets/index-BHDAmMDK.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/recall/",
+        "fromServiceWorker": false,
+        "sha256": "eee14fc87b0266fc8897a6dc6e74b7a7b5064dd2b4042df19eeb63dc86039daa",
+        "bytes": 130930
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/recall/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/recall/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/recall/assets/index-BHDAmMDK.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/recall/",
+        "fromServiceWorker": false,
+        "sha256": "eee14fc87b0266fc8897a6dc6e74b7a7b5064dd2b4042df19eeb63dc86039daa",
+        "bytes": 130930
+      },
+      {
+        "url": "https://comp.school/recall/assets/index-OXn7GuU2.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/recall/",
+        "fromServiceWorker": false,
+        "sha256": "f22c269dd563d10bd736e4961c14f34cd5c974bcca202b53e7cb1cbb96cec271",
+        "bytes": 1695731
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/recall/?sql=mock",
+      "title": "Recall · comp.school",
+      "headings": [],
+      "links": [],
+      "buttons": [],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/exams/",
+    "label": "exams-entry",
+    "time": "2026-11-13T19:49:23.632Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/exams/assets/index-DxyXV9aR.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "sha256": "fd86cb231c7b513e168069eaf0543271bea1f80443079cd6150eabe62d06e25e",
+        "bytes": 137061
+      },
+      {
+        "url": "https://comp.school/exams/assets/index-DjyiOHey.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "sha256": "67a214be24adab38d55d1e290f339842c0dff4ca3b75b449bf01eb2ce9eb08be",
+        "bytes": 1568250
+      },
+      {
+        "url": "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "sha256": "1cce1a70d1d5d09da5d910152063ba9b8116fc88f79dab1dc6c89d42a6c99fdb",
+        "bytes": 177214
+      },
+      {
+        "url": "https://comp.school/exams/assets/ui-components-DeMDYLzO.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "sha256": "b7f0258ab7c386a7e03ac267039f3e5e0d5b94da7c81114494368fea068df2c1",
+        "bytes": 55838
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "sha256": "1cce1a70d1d5d09da5d910152063ba9b8116fc88f79dab1dc6c89d42a6c99fdb",
+        "bytes": 177214
+      },
+      {
+        "url": "https://comp.school/exams/assets/index-DxyXV9aR.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "sha256": "fd86cb231c7b513e168069eaf0543271bea1f80443079cd6150eabe62d06e25e",
+        "bytes": 137061
+      },
+      {
+        "url": "https://comp.school/exams/assets/ui-components-DeMDYLzO.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "sha256": "b7f0258ab7c386a7e03ac267039f3e5e0d5b94da7c81114494368fea068df2c1",
+        "bytes": 55838
+      },
+      {
+        "url": "https://comp.school/exams/assets/index-DjyiOHey.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/exams/",
+        "fromServiceWorker": false,
+        "sha256": "67a214be24adab38d55d1e290f339842c0dff4ca3b75b449bf01eb2ce9eb08be",
+        "bytes": 1568250
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/exams/?sql=mock",
+      "title": "Practise Papers · comp.school",
+      "headings": [],
+      "links": [],
+      "buttons": [],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://admin.comp.school/",
+    "label": "admin-entry",
+    "time": "2026-11-13T19:49:27.117Z",
+    "resources": [
+      {
+        "url": "https://comp.school/exams/assets/SafeCrackerGame-COhLy2i9.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/proxy-DGk2Wawc.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/GateWorksGame-vDTeqFB1.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/GameNotebook-BS6XcMyh.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/SpecItGame-CjWfxRxl.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/AquaticSortGame-C9GxBu3f.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/UnderAttackGame-DQTs04Tm.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/SafeCrackerGame-DFpEJzSl.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/ProtocolPostGame-CYb8FD6Y.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/keyword-deck-Bo8inXG8.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/action-styles-DWMwPIR0.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/BoxOfficeGame-Bl_irbog.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/BinaryBakeryGame-Bcd0XENd.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/UpgradeBayGame-GgEIe-XA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/SqueezeGame-ahDEtP0x.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/SoundStudioGame-yW2sK-xQ.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/UnderAttackGame-IpYogrE7.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/LawAndOrderGame-BfqTHS_3.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/network-build-B8mLHXC-.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/keyword-flashcards-C_7Y9eRK.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/immersive-picker-CpuLGbC9.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/ProtocolPostGame-CmFE1oXt.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/SignalMapGame-DHh-YfKQ.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://comp.school/exams/assets/PixelStudioGame-mtLI4Dpo.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false
+      },
+      {
+        "url": "https://comp.school/exams/assets/SignalMapGame-CqZijLu9.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "No resource with given identifier found"
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://admin.comp.school/assets/index-B-fhCWF2.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "84b63d6175d4dde03d6cd6558b1f6e95b0efad557a427969b6599971f931df6e",
+        "bytes": 19290
+      },
+      {
+        "url": "https://admin.comp.school/assets/index-DZASS4VW.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://admin.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "88c99f17e02769f3ca0a8004bc69f8fbaf12460e50bd47f42135329d08c4a145",
+        "bytes": 294728
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://admin.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://admin.comp.school/",
+      "title": "Admin · comp.school",
+      "headings": [
+        "Admin"
+      ],
+      "links": [
+        {
+          "label": "Open comp.school",
+          "url": "https://comp.school/"
+        }
+      ],
+      "buttons": [],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://homework.comp.school/",
+    "label": "homework-entry",
+    "time": "2026-11-13T19:49:29.905Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://homework.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://homework.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://homework.comp.school/assets/index-CiuFtAIG.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://homework.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "1ba026640508cefbb70987eee7f8b607bcaf31f6967995a7ce77bb5f0b2961c5",
+        "bytes": 20300
+      },
+      {
+        "url": "https://homework.comp.school/assets/index-BMINHhky.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://homework.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "73badc785e95405a5de7ff8e9a4bd6de810d00aa943eff63d5a4399aa73dff6a",
+        "bytes": 316223
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://admin.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://homework.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://homework.comp.school/",
+      "title": "Homework · comp.school",
+      "headings": [
+        "Homework"
+      ],
+      "links": [
+        {
+          "label": "Open comp.school",
+          "url": "https://comp.school/"
+        }
+      ],
+      "buttons": [],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://mark.comp.school/",
+    "label": "marking-entry",
+    "time": "2026-11-13T19:49:32.688Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://mark.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://mark.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://mark.comp.school/assets/index-DThs38Se.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://mark.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "808cff1f2381e2be6878cbd7efd2cfee6aa154548b6cd562a2f8d8336b12286e",
+        "bytes": 302245
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://homework.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://mark.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://mark.comp.school/",
+      "title": "Mark · comp.school",
+      "headings": [
+        "Marking"
+      ],
+      "links": [
+        {
+          "label": "Open comp.school",
+          "url": "https://comp.school/"
+        }
+      ],
+      "buttons": [],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://printouts.comp.school/",
+    "label": "printouts-entry",
+    "time": "2026-11-13T19:49:35.396Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://printouts.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://printouts.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "a46b4131cf38c164db6c05e97223849abdab4da346fdb7e781e8c8ca8d82f5fe",
+        "bytes": 302403
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://mark.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://printouts.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://printouts.comp.school/",
+      "title": "Printouts · comp.school",
+      "headings": [
+        "Printouts"
+      ],
+      "links": [
+        {
+          "label": "Open comp.school",
+          "url": "https://comp.school/"
+        }
+      ],
+      "buttons": [],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://self-assess.comp.school/",
+    "label": "self-assess-entry",
+    "time": "2026-11-13T19:49:38.092Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://self-assess.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://self-assess.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://self-assess.comp.school/assets/index-DoXRWrB1.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://self-assess.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "c0e1a58650db773ceb6c1e7df4868728466c07590f01a6d4b4899ea2a53247f7",
+        "bytes": 162177
+      },
+      {
+        "url": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://self-assess.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "a800976b5efc9b3cc6115d0349f668f19620044cf7ea3ead1854e5fc36030c65",
+        "bytes": 3604610
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://self-assess.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://self-assess.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://self-assess.comp.school/assets/index-DoXRWrB1.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://self-assess.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "c0e1a58650db773ceb6c1e7df4868728466c07590f01a6d4b4899ea2a53247f7",
+        "bytes": 162177
+      },
+      {
+        "url": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://self-assess.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "a800976b5efc9b3cc6115d0349f668f19620044cf7ea3ead1854e5fc36030c65",
+        "bytes": 3604610
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://printouts.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://self-assess.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://self-assess.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://self-assess.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://self-assess.comp.school/?sql=mock",
+      "title": "Self Assess · comp.school",
+      "headings": [],
+      "links": [],
+      "buttons": [],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://issues.comp.school/",
+    "label": "issues-entry",
+    "time": "2026-11-13T19:49:40.811Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://issues.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://issues.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://issues.comp.school/assets/index-KyZfkpPi.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://issues.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "874f81e35cbf377acf2c1ee92e42b453d016632f9cfcc6c426b8a34bd2715b06",
+        "bytes": 23319
+      },
+      {
+        "url": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://issues.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "8fbb633f5ce4948468aadbad46c76f489c94cfefc345b1ca63cab0ff5824dcb0",
+        "bytes": 298319
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://issues.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://issues.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://issues.comp.school/assets/index-KyZfkpPi.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://issues.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "874f81e35cbf377acf2c1ee92e42b453d016632f9cfcc6c426b8a34bd2715b06",
+        "bytes": 23319
+      },
+      {
+        "url": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://issues.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "8fbb633f5ce4948468aadbad46c76f489c94cfefc345b1ca63cab0ff5824dcb0",
+        "bytes": 298319
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://self-assess.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://issues.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://issues.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://issues.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://issues.comp.school/?sql=mock",
+      "title": "Report an issue · comp.school",
+      "headings": [
+        "What would you like to see improved?"
+      ],
+      "links": [],
+      "buttons": [
+        "Report a bug",
+        "Request a feature",
+        "Exams",
+        "Recall",
+        "Marking",
+        "Coding",
+        "Analytics",
+        "",
+        ""
+      ],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://library.comp.school/",
+    "label": "component-library",
+    "time": "2026-11-13T19:49:43.428Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://library.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://library.comp.school/",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://library.comp.school/assets/index-DUhe1n8B.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://library.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "a7377740ae67d96d2ded4215e4263d2fdb44078bd027d7afdb254861495fe741",
+        "bytes": 795123
+      },
+      {
+        "url": "https://library.comp.school/assets/index-CTxi99Mm.js",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://library.comp.school/",
+        "fromServiceWorker": false,
+        "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e",
+        "bytes": 7581465
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://issues.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://library.comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://library.comp.school/",
+      "title": "Edtech component library",
+      "headings": [
+        "Question headers",
+        "Coding playground",
+        "Themes",
+        "Avatars",
+        "Icons",
+        "Whiteboard",
+        "Marking models",
+        "Printouts",
+        "Marking",
+        "Past papers",
+        "Topic drills",
+        "Exam questions",
+        "Charts",
+        "Leaderboard",
+        "Dashboard",
+        "Tiles",
+        "Platform",
+        "Branding",
+        "Shared",
+        "Topic drill"
+      ],
+      "links": [
+        {
+          "label": "Edtech component library",
+          "url": "https://library.comp.school/"
+        }
+      ],
+      "buttons": [
+        "Playlist",
+        "Search and sort",
+        "SQL queries",
+        "Illustrations",
+        "Hint reveal",
+        "Answer reveal",
+        "Workspace",
+        "Run bar",
+        "Code editor",
+        "Output panel",
+        "Checks: Playlist",
+        "Checks: Search and sort",
+        "Checks: SQL",
+        "Level path: Playlist",
+        "Level path: Search and sort",
+        "Level path: SQL",
+        "SQL result table",
+        "SQL playground output",
+        "Theme overview",
+        "Theme picker",
+        "Theme characters",
+        "Hover motions",
+        "Companion progress",
+        "SQL lane looks",
+        "Student avatars",
+        "Avatar picker",
+        "Avatar sizes",
+        "Icon set",
+        "Workspace",
+        "",
+        "Self-Assess",
+        "AI Assess",
+        "Teacher Assess",
+        "Printouts",
+        "Navigation tab",
+        "Results",
+        "",
+        "Deep dive",
+        "",
+        "Student",
+        "",
+        "Topic",
+        "",
+        "Workflow",
+        "Import stage",
+        "Mark stage",
+        "Print stage",
+        "Navigation",
+        "Keyboard shortcuts",
+        "Exam landing",
+        "Study header",
+        "Results",
+        "Revision mode",
+        "Prior context",
+        "Revision schedule",
+        "Question status",
+        "Short text",
+        "Essay",
+        "Coding",
+        "Two-part text",
+        "Matching",
+        "Radio select",
+        "Checkboxes",
+        "Grouped table",
+        "Table completion",
+        "Cloze",
+        "Word bank",
+        "Flowchart drawing",
+        "Circuit drawing",
+        "Flowchart annotation",
+        "Circuit annotation",
+        "Structure diagram",
+        "Matching order",
+        "Assessment feedback",
+        "Recent results",
+        "Topic mastery",
+        "Engagement",
+        "Main",
+        "Recent grade",
+        "Questions mastered"
+      ],
+      "login": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/?menu=paper-2",
+    "label": "coding-menu",
+    "time": "2026-11-13T19:50:19.114Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CFivEobA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9",
+        "bytes": 320992
+      },
+      {
+        "url": "https://comp.school/assets/index-CHiQZc8e.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+        "bytes": 3997235
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Coding",
+        "result": "clicked"
+      }
+    ],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/?menu=paper-2-coding",
+      "title": "comp.school",
+      "headings": [
+        "Which revision style?",
+        "Accessibility"
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://comp.school/"
+        },
+        {
+          "label": "Python playground",
+          "url": "https://comp.school/code/python?paper=2&sql=mock"
+        },
+        {
+          "label": "SQL playground",
+          "url": "https://comp.school/code/sql?paper=2&sql=mock"
+        }
+      ],
+      "buttons": [
+        "",
+        "Python challenges"
+      ],
+      "login": false,
+      "loading": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/?menu=paper-2",
+    "label": "paper2-topics",
+    "time": "2026-11-13T19:50:23.303Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CFivEobA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9",
+        "bytes": 320992
+      },
+      {
+        "url": "https://comp.school/assets/index-CHiQZc8e.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=paper-2",
+        "fromServiceWorker": false,
+        "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+        "bytes": 3997235
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Topics",
+        "result": "clicked"
+      }
+    ],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/?menu=paper-2-topics",
+      "title": "comp.school",
+      "headings": [
+        "Which topic?",
+        "Accessibility"
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://comp.school/"
+        },
+        {
+          "label": "2.1 Algorithms",
+          "url": "https://comp.school/recall/?paper=2&topic=2.1&sql=mock"
+        },
+        {
+          "label": "2.2 Programming fundamentals",
+          "url": "https://comp.school/recall/?paper=2&topic=2.2&sql=mock"
+        },
+        {
+          "label": "2.3 Producing robust programs",
+          "url": "https://comp.school/recall/?paper=2&topic=2.3&sql=mock"
+        },
+        {
+          "label": "2.4 Boolean logic",
+          "url": "https://comp.school/recall/?paper=2&topic=2.4&sql=mock"
+        },
+        {
+          "label": "2.5 Languages and IDEs",
+          "url": "https://comp.school/recall/?paper=2&topic=2.5&sql=mock"
+        }
+      ],
+      "buttons": [
+        ""
+      ],
+      "login": false,
+      "loading": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/?menu=more",
+    "label": "IT-club-menu",
+    "time": "2026-11-13T19:50:27.459Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=more",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=more",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/assets/index-CFivEobA.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/?menu=more",
+        "fromServiceWorker": false,
+        "sha256": "f574e539c7424a8cf9be3617eeade4eaac6ea87890c9cc15160b36ad5d4a94b9",
+        "bytes": 320992
+      },
+      {
+        "url": "https://comp.school/assets/index-CHiQZc8e.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/?menu=more",
+        "fromServiceWorker": false,
+        "sha256": "5c6a9d68b722e302195eac2602e907d1bb60657ebba32de14862e232fd748577",
+        "bytes": 3997235
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [
+      {
+        "label": "IT Club",
+        "result": "clicked"
+      }
+    ],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/?menu=it-club",
+      "title": "comp.school",
+      "headings": [
+        "IT Club",
+        "Accessibility"
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "https://comp.school/"
+        },
+        {
+          "label": "Code editor",
+          "url": "https://comp.school/code/editor?paper=2&sql=mock"
+        }
+      ],
+      "buttons": [
+        ""
+      ],
+      "login": false,
+      "loading": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/code/essentials/if?sql=mock",
+    "label": "code-if",
+    "time": "2026-11-13T19:50:31.626Z",
+    "resources": [
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/essentials/if?sql=mock",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/essentials/if?sql=mock",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/code/assets/index-CkLs-ldM.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/essentials/if?sql=mock",
+        "fromServiceWorker": false,
+        "sha256": "3e8aa2c73cc3e74a824b67782a59376aa28f39a6f9839115029570d8f9de5900",
+        "bytes": 98686
+      },
+      {
+        "url": "https://comp.school/code/assets/index-DwyvelI3.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/essentials/if?sql=mock",
+        "fromServiceWorker": false,
+        "sha256": "5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4",
+        "bytes": 1399420
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/code/essentials/if?sql=mock",
+      "title": "Code · comp.school",
+      "headings": [
+        "If statements"
+      ],
+      "links": [],
+      "buttons": [
+        "Skip",
+        "11ifelseSelectionTap to turn over",
+        "Back",
+        "Next"
+      ],
+      "login": false,
+      "loading": false,
+      "workers": []
+    }
+  },
+  {
+    "url": "https://comp.school/code/essentials/io?sql=mock",
+    "label": "code-io",
+    "time": "2026-11-13T19:50:35.600Z",
+    "resources": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "type": "Script",
+        "mime": "text/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/essentials/io?sql=mock",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/essentials/io?sql=mock",
+        "fromServiceWorker": false,
+        "capture_error": "External origin recorded, not mirrored"
+      },
+      {
+        "url": "https://comp.school/code/assets/index-CkLs-ldM.css",
+        "type": "Stylesheet",
+        "mime": "text/css",
+        "status": 200,
+        "page": "https://comp.school/code/essentials/io?sql=mock",
+        "fromServiceWorker": false,
+        "sha256": "3e8aa2c73cc3e74a824b67782a59376aa28f39a6f9839115029570d8f9de5900",
+        "bytes": 98686
+      },
+      {
+        "url": "https://comp.school/code/assets/index-DwyvelI3.js",
+        "type": "Script",
+        "mime": "application/javascript",
+        "status": 200,
+        "page": "https://comp.school/code/essentials/io?sql=mock",
+        "fromServiceWorker": false,
+        "sha256": "5dd6c164231ca1b7fac8056927e2f72a029c76be7e10249caf96cbc2150001f4",
+        "bytes": 1399420
+      }
+    ],
+    "blocked": [
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      },
+      {
+        "method": "POST",
+        "url": "https://comp.school/cdn-cgi/rum?",
+        "reason": "Read-only guard: non-read request blocked"
+      }
+    ],
+    "actions": [],
+    "modes": [],
+    "observed": {
+      "url": "https://comp.school/code/essentials/io?sql=mock",
+      "title": "Code · comp.school",
+      "headings": [
+        "Inputs and outputs"
+      ],
+      "links": [],
+      "buttons": [
+        "Skip",
+        "11>print()Tap to turn over",
+        "Back",
+        "Next"
+      ],
+      "login": false,
+      "loading": false,
+      "workers": []
+    }
+  }
+]

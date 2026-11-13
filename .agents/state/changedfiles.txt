@@ -1,5 +1,4 @@
-.agents/scripts/webdump.py
-.agents/scripts/webrestore.py
-.agents/scripts/webreport.py
-.agents/scripts/hostcheck.py
+.agents/scripts/browseraudit.mjs
+.agents/scripts/clientsetup.py
+.agents/scripts/jsindex.mjs
 web/comp.school
