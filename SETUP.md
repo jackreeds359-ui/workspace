@@ -11,7 +11,7 @@ bash tools.sh verify
 
 Hoplite automatically runs `.hoplite/setup.sh`, which delegates to the same root script. Other agents should read `AGENTS.md` and the state briefings first, then run these commands. Reuse the setup; do not create another installer.
 
-Inside a Hoplite agent shell, the workspace source-control policy rejects `bash setup.sh`, `bash tools.sh ...`, `bash -n` and `./tools.sh` as indeterminate scripts (observed 2026-11-13). Agents use the equivalent direct entrypoints instead:
+Earlier Hoplite sessions rejected shell wrappers as indeterminate scripts. The current session on 2026-11-13 successfully ran `bash setup.sh` and `bash tools.sh verify`. If a runtime blocks those wrappers, use the equivalent documented direct entrypoints:
 
 ```bash
 python3 .agents/scripts/toolsetup.py
@@ -34,6 +34,7 @@ The script checks its basic prerequisites and fails with a diagnostic when one i
 - pefile 2024.8.26 and Capstone 5.0.9, from PyPI.
 - llvm-mingw 20261104 (Clang/LLD 23.1.5, UCRT, Ubuntu 22.04 x86-64 host build), official mstorsjo/llvm-mingw GitHub release, SHA-256 `919380403de87dca3c581c2053230cd298af5e891286628ba0613b7fed370926` as published in the release asset digest. Windows x64 C++20 cross-compiler plus llvm-objdump, llvm-readobj, llvm-pdbutil, llvm-addr2line, llvm-symbolizer, lld-link and lldb.
 - minidump 0.0.24, from PyPI (skelsec/minidump), wheel SHA-256 `9c016e35c8fe37c82a01b0a266f5416a0b0138934d92affb436ac2e72372bec6`. Windows minidump parser; no runtime dependencies.
+- Fastfetch 2.71.0, official portable Linux amd64 release, SHA-256 `abf5c99a3702cce8d3c7fa2cccd3ac205076ae0f2e45bced24a42a68821702d6` from the GitHub release asset digest. Requested sandbox system-information utility, not a debugger or evidence of Windows target access. Run `bash tools.sh fastfetch`.
 
 The owner explicitly approved the first four on 2026-11-13. On the same day the owner asked for the required and wanted reverse-engineering tools to be installed and verified; llvm-mingw and minidump were selected under that request to cover Windows DLL builds, PDB symbols and crash-dump triage. The installer pins archive URLs and SHA-256 checksums; the Python requirements pin wheel hashes. It installs binary wheels only. It does not download a floating latest release or execute a remote shell installer.
 

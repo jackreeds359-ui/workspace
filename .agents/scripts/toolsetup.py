@@ -14,7 +14,8 @@ home = root / '.tools'
 archives = [
     ('ghidra.zip', 'https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.2_build/ghidra_12.2_PUBLIC_20261016.zip', '2c2cd776db3c1f6a097ba418922378ac3649cadd5e844a6f5f088ae628a7be67', 'ghidra_12.2_PUBLIC', 'zip'),
     ('jdk.tar.gz', 'https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_linux_hotspot_25.0.5_8.tar.gz', '68982529869257d0ee6b824ec5aa270ff8b118bb438670da0b97ebdab178d7fb', 'jdk-25.0.5+8', 'tar'),
-    ('llvmmingw.tar.xz', 'https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64.tar.xz', '919380403de87dca3c581c2053230cd298af5e891286628ba0613b7fed370926', 'llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64', 'tar')
+    ('llvmmingw.tar.xz', 'https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64.tar.xz', '919380403de87dca3c581c2053230cd298af5e891286628ba0613b7fed370926', 'llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64', 'tar'),
+    ('fastfetch.tar.gz', 'https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-linux-amd64.tar.gz', 'abf5c99a3702cce8d3c7fa2cccd3ac205076ae0f2e45bced24a42a68821702d6', 'fastfetch-linux-amd64', 'tar')
 ]
 mingw = home / archives[2][3] / 'bin/x86_64-w64-mingw32-clang++'
 
@@ -82,6 +83,7 @@ def main():
     run(['uv', 'pip', 'sync', '--python', str(python), '--require-hashes', '--only-binary', ':all:', '--index-url', 'https://pypi.org/simple', str(root / '.agents/scripts/requirements.txt')])
     run([str(home / 'jdk-25.0.5+8/bin/java'), '-version'])
     run([str(mingw), '--version'])
+    run([str(home / 'fastfetch-linux-amd64/usr/bin/fastfetch'), '--version'])
     run([str(python), '-c', 'import importlib.metadata; [print(name + "=" + importlib.metadata.version(name)) for name in ("pefile", "capstone", "minidump")]'])
     print('Approved toolkit setup complete', flush=True)
 

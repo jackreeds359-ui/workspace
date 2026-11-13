@@ -1,3 +1,16 @@
+# Current setup session — 2026-11-13T20:52:27.621128+00:00
+
+- Active branch: `hoplite/skepsis-93a77a1a`; base checkpoint `44c3126`. Initial working tree was clean; the branch initially had no upstream; the checkpoint report records publication results.
+- Request: restore/read the existing handoff, confirm/install/verify RE tools, and run Fastfetch. No offensive target or new game implementation was specified. Historical web extraction is preserved, not resumed.
+- `timeout 240s bash setup.sh` succeeded and reused the pinned Ghidra, JDK, llvm-mingw and Python packages. The shell-wrapper restriction recorded by earlier sessions does not apply to this runtime.
+- `timeout 300s bash tools.sh verify` passed: PE parsing and rejection, x64 disassembly, native C++20 execution, Windows x64 DLL/PDB cross-build and exports, synthetic minidump mapping, Ghidra ELF/PE decompilation.
+- Added Fastfetch 2.71.0 to the existing checksum-pinned installer and `bash tools.sh fastfetch` to the existing wrapper. Official GitHub asset digest matched the downloaded archive. Installation and actual Fastfetch invocation succeeded.
+- Fastfetch observed Ubuntu 24.04.4 LTS x86_64, Linux 4.19.0-gvisor, two logical CPUs with unknown CPU model, and 8.00 GiB visible memory. It does not establish access to any target Windows machine.
+- No real target binary, Windows crash dump, Roblox build, or offset evidence was supplied. No Windows execution, MSVC build, game attachment or target behavior was tested.
+- No email service was used, no signup was performed, and no supplied credential was written to the repository or archive.
+- Repeated setup passed without reinstalling verified tools. Post-change full verification, Python compilation, Bash syntax validation, `git diff --check`, and the invalid-tool wrapper rejection (exit 2) all passed. Runtime tools remain Git-ignored.
+- Checkpoint validation/publication result is recorded by checkpoint.json and autoupdate.log after the updater runs. Prior history below is historical, not current instructions.
+
 # Status
 
 Current summary updated 2026-11-13T20:42Z. Earlier sections below are historical where superseded by dated task entries.

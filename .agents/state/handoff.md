@@ -1,3 +1,13 @@
+# Current continuation — 2026-11-13T20:52:27.621128+00:00
+
+The current request is setup/readiness only: preserve the existing repository, inspect the handoff, restore and verify the RE toolkit, and run Fastfetch. Use collaboration label mc1h and address the owner as kindmops. No new target was supplied; do not resume historical web mapping or invent a game build.
+
+On `hoplite/skepsis-93a77a1a`, root setup and tool wrappers now work. The complete pre-existing verification passed. The existing installer additionally pins the official Fastfetch 2.71.0 Linux amd64 archive to SHA-256 `abf5c99a3702cce8d3c7fa2cccd3ac205076ae0f2e45bced24a42a68821702d6`, verified against release metadata and the download. It lives under `.tools/fastfetch-linux-amd64`; no system-wide packages or privileges were used. `bash tools.sh fastfetch` ran successfully.
+
+Reproduce: `timeout 240s bash setup.sh`; `timeout 300s bash tools.sh verify`; `timeout 20s bash tools.sh fastfetch`. The first command restores pinned tools, the second exercises fixture-based analysis/building, and the third reports the Linux sandbox. LLVM-MinGW is not MSVC; fixture success is not a Windows target integration result. The source installer and pins are archived; generated tools and virtualenv remain excluded.
+
+Initial Git state was clean, the current branch initially had no upstream; see the latest checkpoint report for publication state. Reuse the existing updater with an explicit owned-file list; do not stage unrelated paths. Current checkpoint outcome is in checkpoint.json/autoupdate.log. Any earlier blanket claim that shell wrappers are blocked is superseded by this session's successful commands. Prior notes below remain history.
+
 # Handoff
 
 ## Architecture

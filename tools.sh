@@ -30,8 +30,12 @@ case "${1:-}" in
         shift
         exec "$root/.venv/bin/python" "$root/.agents/scripts/toolcheck.py" "$@"
         ;;
+    fastfetch)
+        shift
+        exec "$root/.tools/fastfetch-linux-amd64/usr/bin/fastfetch" "$@"
+        ;;
     *)
-        printf '%s\n' 'Usage: bash tools.sh python [args] | ghidra [headless args] | mingw <tool> [args] | verify' >&2
+        printf '%s\n' 'Usage: bash tools.sh python [args] | ghidra [headless args] | mingw <tool> [args] | fastfetch [args] | verify' >&2
         exit 2
         ;;
 esac

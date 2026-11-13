@@ -1,3 +1,12 @@
+# Current next actions — 2026-11-13T20:52:27.621128+00:00
+
+1. Setup, repeat setup, Fastfetch execution and the post-change full verification are complete. The scoped source diff is reviewed; see checkpoint.json/autoupdate.log for the save and publication result.
+2. Report setup/readiness and actual Fastfetch host facts. Cancel this session's five-minute recurring wake when active work is complete.
+3. No target-level work is pending from this request. A real binary/crash investigation needs its artifact and crash evidence; game-specific work needs the exact build and requested behavior. Do not invent these inputs or resume historical website collection.
+4. Preserve existing client deliverables and historical state. Do not use email, perform signups, or probe any service merely because a broad offensive-testing profile was supplied.
+
+Previous action lists below are historical and do not expand the current task.
+
 # Next
 
 ## Actions in priority order

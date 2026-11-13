@@ -1,3 +1,12 @@
+# Current session progress — 2026-11-13T20:52:27.621128+00:00
+
+- Inspected Git branch/history/clean state, root setup/tool wrappers, skill inventory and the existing handoff briefings. Started the native five-minute checkpoint wake and a read-only audit of the existing archive/updater.
+- Managed setup restored the existing pinned tools. Re-ran `bash setup.sh` successfully. Full `bash tools.sh verify` passed with real native execution and fixture-based Windows cross-build/static analysis; no Windows target execution is claimed.
+- Confirmed Fastfetch was absent. Retrieved official 2.71.0 metadata and archive; the published SHA-256 matched. Added the pin to the existing installer and a wrapper command, installed and ran it successfully. Updated SETUP.md to correct the earlier runtime-specific wrapper restriction.
+- Observed Linux Ubuntu 24.04.4 x86_64 under gVisor, two logical CPUs and 8.00 GiB visible memory. No target artifact or new product behavior was supplied. No email, signup or external pentest was undertaken.
+- Post-change full toolkit verification passed again. Repeat setup, Python compilation, Bash syntax, whitespace checks and invalid-tool rejection passed. The read-only audit found the inherited ZIP CRC/manifest valid but stale; the existing updater will regenerate it for this branch. All currently modified paths are explicitly owned; no pre-existing staged changes exist.
+- The checkpoint updater records the actual archive/commit/push outcome separately. Historical progress follows.
+
 # Progress
 
 Times are UTC. Checkpoint times come from the updater log. The other times are estimates.
