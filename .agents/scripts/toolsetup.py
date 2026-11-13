@@ -13,8 +13,10 @@ root = Path(__file__).resolve().parents[2]
 home = root / '.tools'
 archives = [
     ('ghidra.zip', 'https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.2_build/ghidra_12.2_PUBLIC_20261016.zip', '2c2cd776db3c1f6a097ba418922378ac3649cadd5e844a6f5f088ae628a7be67', 'ghidra_12.2_PUBLIC', 'zip'),
-    ('jdk.tar.gz', 'https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_linux_hotspot_25.0.5_8.tar.gz', '68982529869257d0ee6b824ec5aa270ff8b118bb438670da0b97ebdab178d7fb', 'jdk-25.0.5+8', 'tar')
+    ('jdk.tar.gz', 'https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_linux_hotspot_25.0.5_8.tar.gz', '68982529869257d0ee6b824ec5aa270ff8b118bb438670da0b97ebdab178d7fb', 'jdk-25.0.5+8', 'tar'),
+    ('llvmmingw.tar.xz', 'https://github.com/mstorsjo/llvm-mingw/releases/download/20261104/llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64.tar.xz', '919380403de87dca3c581c2053230cd298af5e891286628ba0613b7fed370926', 'llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64', 'tar')
 ]
+mingw = home / archives[2][3] / 'bin/x86_64-w64-mingw32-clang++'
 
 
 def run(args, timeout=300):
@@ -72,14 +74,15 @@ def main():
     if not shutil.which('uv') or not shutil.which('curl'):
         raise RuntimeError('Existing uv and curl are required')
     home.mkdir(exist_ok=True)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(archives)) as pool:
         list(pool.map(install, archives))
     python = root / '.venv/bin/python'
     if not python.exists():
         run(['uv', 'venv', '--python', sys.executable, str(root / '.venv')])
     run(['uv', 'pip', 'sync', '--python', str(python), '--require-hashes', '--only-binary', ':all:', '--index-url', 'https://pypi.org/simple', str(root / '.agents/scripts/requirements.txt')])
     run([str(home / 'jdk-25.0.5+8/bin/java'), '-version'])
-    run([str(python), '-c', 'import importlib.metadata; print("pefile=" + importlib.metadata.version("pefile")); print("capstone=" + importlib.metadata.version("capstone"))'])
+    run([str(mingw), '--version'])
+    run([str(python), '-c', 'import importlib.metadata; [print(name + "=" + importlib.metadata.version(name)) for name in ("pefile", "capstone", "minidump")]'])
     print('Approved toolkit setup complete', flush=True)
 
 

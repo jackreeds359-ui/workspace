@@ -160,3 +160,7 @@ Completed final58-state request-owner-attributed sweep and closed browser. Total
 ## Toolkit restore on new thread branch 2026-11-13T20:42Z
 
 New thread branch hoplite/ambrakia-60be2be3 (from 015e6f3). Managed setup restored the five pinned tools; rerunning toolsetup.py and clientsetup.py reused them and toolcheck.py passed in full. Agent calls to `bash setup.sh` and `bash tools.sh` are blocked by Hoplite policy; direct Python entrypoints are the working equivalent. Started the owner-requested Windows extension: llvm-mingw 20261104 and minidump 0.0.24 selected with published hashes, not yet installed.
+
+## Windows toolkit extension 2026-11-13T21:00Z
+
+Installed llvm-mingw 20261104 (SHA-256 verified, 607 MB) and minidump 0.0.24 (hash-pinned wheel) through the existing installer. Extended toolcheck.py with a Windows section: C++20 DLL cross-build with PDB, pefile exports, llvm-pdbutil publics, Capstone RCX-argument decode, synthetic spec-layout minidump fault-to-export mapping, and Ghidra ELF+PE decompilation. Full verification passed in 16 s. tools.sh gained a `mingw` subcommand (unexercised by the agent because of the shell-script policy). SETUP.md and tools.md document versions, hashes, MSVC differences and limits.

@@ -67,3 +67,23 @@ No target game or build was provided. Windows runtime execution, Ghidra GUI, Win
 - https://pypi.org/pypi/pefile/json
 - https://pypi.org/pypi/capstone/json
 - https://sourceware.org/binutils/docs/binutils/objdump.html
+
+## Windows extension 2026-11-13 (branch hoplite/ambrakia-60be2be3)
+
+Owner request: confirm, install and verify required and wanted reverse-engineering tools. The four approved tools were restored by managed setup and re-verified. Two tools were added under that request, pinned the same way:
+
+- llvm-mingw 20261104, `llvm-mingw-20261104-ucrt-ubuntu-22.04-x86_64.tar.xz`, release published 2026-11-04, SHA-256 `919380403de87dca3c581c2053230cd298af5e891286628ba0613b7fed370926` from the GitHub release asset digest and re-verified on download. Clang/LLD 23.1.5, target x86_64-w64-windows-gnu, UCRT. Installed size 607 MB in `.tools/`.
+- minidump 0.0.24 (skelsec), wheel `minidump-0.0.24-py3-none-any.whl`, SHA-256 `9c016e35c8fe37c82a01b0a266f5416a0b0138934d92affb436ac2e72372bec6`, no runtime dependencies.
+
+Considered and not installed: keystone-engine 0.9.2 (2020 wheel; llvm-mingw's Clang assembler and llvm-objdump cover patch-byte assembly), LIEF 1.0.0 (overlaps pefile for current needs), gdb (no apt candidate in current indexes; Linux-only debugging does not help Windows targets), Wine (system-wide install, unproven under gVisor), radare2/rizin (overlap with Ghidra plus Capstone).
+
+Verification observed with `.venv/bin/python .agents/scripts/toolcheck.py` in 16 s, exit 0:
+
+- Versions pefile 2024.8.26, capstone 5.0.9, minidump 0.0.24.
+- Cross-built C++20 DLL (consteval, std::span) with CodeView PDB; PE32+ AMD64, DLL flag, exports transform 0x13a0, readvalue 0x13b0, total 0x13c0, preferred base 0x180000000, SizeOfImage 0x13000. Fixture DLL hashes vary by build path and are not pinned.
+- llvm-pdbutil publics contain readvalue and transform.
+- Capstone: readvalue starts with `mov eax, dword ptr [rcx]` (Windows x64 first argument in RCX).
+- Synthetic spec-layout minidump: 0xC0000005 read of 0x0 at 0x7ffb123413b0 resolved to C:\mc1h\sample.dll base 0x7ffb12340000, RVA 0x13b0, export readvalue, instruction `mov eax, dword ptr [rcx]`.
+- Ghidra 12.2 decompiled ELF transform to `return value * 3 + 7;`, PE transform to `return param_1 * 3 + 7;` and PE readvalue to `return *param_1 + 1;`.
+
+Not verified: `tools.sh mingw` and the extended missing-toolkit guard, because the Hoplite policy rejects agent `bash tools.sh`, `./tools.sh` and `bash -n`. No Windows execution, MSVC build, debugger attachment, real crash dump or target binary.

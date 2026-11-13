@@ -10,4 +10,5 @@
 .agents/scripts/webreport.py
 SETUP.md
 setup.sh
+tools.sh
 web/comp.school

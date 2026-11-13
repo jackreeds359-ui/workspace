@@ -232,3 +232,4 @@ Final tools: browseraudit.mjs (guarded CDP code/resource capture; login stdin on
 
 - Agent shell calls `bash setup.sh` and `bash tools.sh ...` are rejected by the Hoplite workspace source-control policy as indeterminate scripts. Use `python3 .agents/scripts/toolsetup.py`, `python3 .agents/scripts/clientsetup.py` and `.venv/bin/python .agents/scripts/toolcheck.py` instead. Managed setup still runs `.hoplite/setup.sh`, which calls `bash setup.sh`.
 - The new branch has no upstream at session start; the updater skips push until one is configured with an explicit refspec.
+- Windows extension: llvm-mingw 20261104 and minidump 0.0.24 are pinned in toolsetup.py and requirements.txt; `.venv/bin/python .agents/scripts/toolcheck.py` verifies them. `bash tools.sh mingw <tool> [args]` runs pinned llvm-mingw executables (`x86_64-w64-mingw32-clang++`, `llvm-pdbutil`, `llvm-objdump`, `llvm-readobj`). llvm-mingw is not MSVC; see SETUP.md for ABI limits.
