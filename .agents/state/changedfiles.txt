@@ -1,4 +1,5 @@
 .agents/scripts/webdump.py
 .agents/scripts/webrestore.py
 .agents/scripts/webreport.py
+.agents/scripts/hostcheck.py
 web/comp.school

@@ -9527,5 +9527,2724 @@
     },
     "bytes": 14781,
     "sha256": "3a332def8d45a70f3bcb57e1a8cb439d61c51b55e522627c642a3ca282bcadd0"
+  },
+  {
+    "url": "https://mark.comp.school/assets/answer-CMTK8mNy.png",
+    "time": "2026-11-13T19:20:45.319234+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/answer-CMTK8mNy.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"6153336dfcbc4710cd804d9471023825\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 32831,
+    "sha256": "bb24e903ecb574f5faca8dfdae51264c3e8ffbf0a10f23195956ed8a15bade25"
+  },
+  {
+    "url": "https://mark.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "time": "2026-11-13T19:20:46.277292+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"dbc9e1eb99c256f153db81f37c3dcbab\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 45704,
+    "sha256": "c6428099ec9b0c7db7c6455b46884009b6e41d91ff69e28ec789423610639756"
+  },
+  {
+    "url": "https://mark.comp.school/assets/image-CD9r7wsz.png",
+    "time": "2026-11-13T19:20:47.297294+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/image-CD9r7wsz.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"21f92f0eb40db02fa9c16c6e8b0f99a7\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 119227,
+    "sha256": "8a23a2ed2712439135b9f28889ead790ca22a65b41267923a82b3a5f074cbd1d"
+  },
+  {
+    "url": "https://mark.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "time": "2026-11-13T19:20:48.263541+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"5b630eccbe652f3143770b9e22fe802a\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 793692,
+    "sha256": "ff327ccf7a7b9896fd1fc7e1a9cd841617d8c6b95a6d568a8f6519e9af194792"
+  },
+  {
+    "url": "https://mark.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "time": "2026-11-13T19:20:49.462735+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e6612b7e3711c151acd31ff1a1cfc727\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 8480,
+    "sha256": "84393042c28df79ee29a032d22d0c73de2ad60e8000c86a4c779036fab4e96dd"
+  },
+  {
+    "url": "https://mark.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "time": "2026-11-13T19:20:50.501973+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"da8c9bcd522c63d8794516b363236094\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 6828,
+    "sha256": "97821ba31592c72d13cf37c0d4078d8781aecd1c61ae9deb52fef636280899f0"
+  },
+  {
+    "url": "https://mark.comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "time": "2026-11-13T19:20:51.459641+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"d6208814186ce86e23996aef10f655d1\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 6582,
+    "sha256": "a655680fb714319c92992a84958998c1b55af5251f522e5a8f687f8e295f8a0a"
+  },
+  {
+    "url": "https://mark.comp.school/assets/flowchart-BkR_ZXtE.png",
+    "time": "2026-11-13T19:20:52.419834+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/flowchart-BkR_ZXtE.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"1db5aae976eb3dc97319c86327ce8c08\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 82321,
+    "sha256": "64c4649e02a9df686b37909b822015c4ec522619080696d562f53cdd6a87de52"
+  },
+  {
+    "url": "https://mark.comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "time": "2026-11-13T19:20:53.474558+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9597578e8ff289e8c02d33f83c37b8de\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 20411,
+    "sha256": "463a34967336d96405569850c734b59ccc1a89e803b2f14ea121627b33bde57b"
+  },
+  {
+    "url": "https://mark.comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "time": "2026-11-13T19:20:54.455711+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"6f7369c82c887459bbbea4690c1488f3\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 5313,
+    "sha256": "e62b5206634872cd093b3015b21c699691f681147d077d5587e7cd9238bb1733"
+  },
+  {
+    "url": "https://mark.comp.school/assets/the-team-array-uFjFeqbK.png",
+    "time": "2026-11-13T19:20:55.372964+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/the-team-array-uFjFeqbK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9baeeaaa0ae42ef5b14087f05d89afaa\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 13930,
+    "sha256": "1239a8728c5971c88c38f1175b49675b2978e8806e105f600ba2dd66fd792cd1"
+  },
+  {
+    "url": "https://mark.comp.school/assets/flowchart-BKM6tL5v.png",
+    "time": "2026-11-13T19:20:56.332906+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/flowchart-BKM6tL5v.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"5b2c026e88dbe7e6bac6b785b891c0cb\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 67478,
+    "sha256": "60aefc8f604d4b70d3c948cc1d4eb5398134fc0c3c60b82adfd156dbc432e4bc"
+  },
+  {
+    "url": "https://mark.comp.school/assets/matching-BD8ptTcc.png",
+    "time": "2026-11-13T19:20:57.280085+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/matching-BD8ptTcc.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"2ea7b5bc7d1b5ccc820d5cbbd6be3e77\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 117945,
+    "sha256": "9ebc0135a21b9ba3b1ae7ef1c730683df33ee748bb0f639b2d4dbd173aa72231"
+  },
+  {
+    "url": "https://mark.comp.school/assets/array-D9hbdIZ5.png",
+    "time": "2026-11-13T19:20:58.254037+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/array-D9hbdIZ5.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"b77daef7ffc1a84003f301299920426f\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 10174,
+    "sha256": "cfcca71bbaa9e52542bf134ebc5b031a2f618d63c2f9cc00b1592c0be72c1961"
+  },
+  {
+    "url": "https://mark.comp.school/assets/array-BkphWtpy.png",
+    "time": "2026-11-13T19:20:59.206452+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/array-BkphWtpy.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"412c607391cdd9fd6156c2377619be4d\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 12148,
+    "sha256": "d18f338747ef04d39cce2701f126743e4f8d84090cb771e6dd578cd6fc16b35d"
+  },
+  {
+    "url": "https://mark.comp.school/assets/flowchart-BBozX2nS.png",
+    "time": "2026-11-13T19:21:00.099061+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/flowchart-BBozX2nS.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"50f8debf192a6ca97807a4a015bddc38\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 122101,
+    "sha256": "42d2ddb53ee79d0f2e920033338202c4870b62f3137a7f27351f5515a0682731"
+  },
+  {
+    "url": "https://mark.comp.school/assets/canvas-BPXNl8oO.png",
+    "time": "2026-11-13T19:21:01.288244+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/canvas-BPXNl8oO.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"209ebbb5d8432f5928e9289eb6cecaeb\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 10390,
+    "sha256": "9a9e2c45a71fdc97c522401e4e0fb9445aab0d051a2ef09711449e31568fc436"
+  },
+  {
+    "url": "https://mark.comp.school/assets/canvas-jbwsqzu9.png",
+    "time": "2026-11-13T19:21:02.193833+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/canvas-jbwsqzu9.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e858b875b14b2233bf72c5b541d2b372\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 8235,
+    "sha256": "4465aec494ebd11302580e09aa03bd5a0721fccc73db7f76af5ea2856b087bc1"
+  },
+  {
+    "url": "https://mark.comp.school/assets/circuit-frame-DaRNRjij.png",
+    "time": "2026-11-13T19:21:03.080677+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/circuit-frame-DaRNRjij.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9757702461675b1a497bd47d0f7fbbfd\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 21496,
+    "sha256": "14f6299fc7aec75cadf2c86395438541939a44bd3732182789f6a0b3dcd98205"
+  },
+  {
+    "url": "https://mark.comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "time": "2026-11-13T19:21:03.966016+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"0079cdc3cf28852dcf7eb36372ff7e5b\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 42612,
+    "sha256": "f90e315e12cc3933a518f2b5abbb2d5157c302a0671398828e354569eb60dfe8"
+  },
+  {
+    "url": "https://mark.comp.school/assets/a-DobarutV.png",
+    "time": "2026-11-13T19:21:04.851758+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/a-DobarutV.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9f74c3eaa7bf10d001ebdbd4107e9aee\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 51544,
+    "sha256": "e8579b5027bc9d319d7bc6011f6df80ab586cf127c1bfbd0b66288cf4a1e5c70"
+  },
+  {
+    "url": "https://mark.comp.school/assets/b-BFSigdO3.png",
+    "time": "2026-11-13T19:21:05.765161+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/b-BFSigdO3.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"f573cdae41355a4642d795707a87bbc0\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 51532,
+    "sha256": "ac12f6b2251cb515bd7a3261f0d81ec847fcee7931d75cc907e9441e1aa59b08"
+  },
+  {
+    "url": "https://mark.comp.school/assets/c-WLvzh3fx.png",
+    "time": "2026-11-13T19:21:06.725825+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/c-WLvzh3fx.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"73b84b36f94913a9a930b18ebc7afb4d\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 54820,
+    "sha256": "75c23032f69003e54a09c16c5c70e6db79be9f1155e1efa258b8e22e8e538f81"
+  },
+  {
+    "url": "https://mark.comp.school/assets/image-CZEZTeor.png",
+    "time": "2026-11-13T19:21:07.638408+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/image-CZEZTeor.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"ed6856357d71a25ff021b581dfa62c5b\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 83763,
+    "sha256": "faceb0f25adf23ecc3ea59835a7c6b8b1481a8721aa947c85cc2ec3dcedada1b"
+  },
+  {
+    "url": "https://mark.comp.school/assets/+n+",
+    "time": "2026-11-13T19:21:08.598890+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/+n+",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1266,
+    "sha256": "757277e34bb1e41d9e4d3baa9e9d419ce4c6cac2fece9086761cae6a10e5129e"
+  },
+  {
+    "url": "https://analytics.comp.school/",
+    "time": "2026-11-13T19:20:30.842911+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 410,
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "url": "https://forms.comp.school/",
+    "time": "2026-11-13T19:20:31.746095+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 410,
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "url": "https://dates.comp.school/",
+    "time": "2026-11-13T19:20:32.536577+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://library.comp.school/",
+    "time": "2026-11-13T19:20:33.270230+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 200,
+    "final": "https://library.comp.school/",
+    "type": "text/html",
+    "bytes": 1208,
+    "sha256": "d08e06d53093f2ca02eb499338b499f2fb7594a08ef4cf92a61078d06fe7f898"
+  },
+  {
+    "url": "https://www.comp.school/",
+    "time": "2026-11-13T19:20:34.010653+00:00",
+    "purpose": "Public root of production hostname learned from certificate/DNS evidence",
+    "status": 200,
+    "final": "https://www.comp.school/",
+    "type": "text/html; charset=utf-8",
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://library.comp.school/assets/index-DUhe1n8B.css",
+    "time": "2026-11-13T19:21:22.922905+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/index-DUhe1n8B.css",
+    "type": "text/css",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/css",
+      "ETag": "\"c38c91cf02cd827f789a26a257a07b4b\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 795123,
+    "sha256": "a7377740ae67d96d2ded4215e4263d2fdb44078bd027d7afdb254861495fe741"
+  },
+  {
+    "url": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "time": "2026-11-13T19:21:23.983802+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "type": "text/javascript",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/javascript",
+      "ETag": "\"e180fdd39a00664aed64356cd4fc2ca4\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7581465,
+    "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e"
+  },
+  {
+    "url": "https://library.comp.school/assets/games-time-flowchart-Cj8FEXpN.png",
+    "time": "2026-11-13T19:21:26.371911+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/games-time-flowchart-Cj8FEXpN.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"8271675b3fca42579f0af815b89793ac\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 82488,
+    "sha256": "5b624ebb89f59dd209636cd311d45cafad2cad3844d168846a96f58092152c4a"
+  },
+  {
+    "url": "https://library.comp.school/assets/iteration-flowchart-BgIPvSgx.png",
+    "time": "2026-11-13T19:21:27.279735+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/iteration-flowchart-BgIPvSgx.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"3926b225cb7389cce511dd73f9792644\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 96310,
+    "sha256": "64577926a1e234b1aff7ad16d4641f7a7fd2c337a658a731b6f41d123b0c1d09"
+  },
+  {
+    "url": "https://library.comp.school/assets/sale-price-flowchart-rqYTXHmQ.png",
+    "time": "2026-11-13T19:21:28.268951+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/sale-price-flowchart-rqYTXHmQ.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"d20a2a68415ad5cba8e2713fbde7dae7\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 127167,
+    "sha256": "4fe8ef59346fffdbec262bc03a88f1f5dd8f3abee2d23f3f5357c739b17f37ce"
+  },
+  {
+    "url": "https://library.comp.school/assets/username-flowchart-LiyHIxZo.png",
+    "time": "2026-11-13T19:21:29.199394+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/username-flowchart-LiyHIxZo.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"abbd48df345852066957522a11dd8470\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 65642,
+    "sha256": "c7bd54dd4fa5e0b0b2d24eeb08e85a26175b13d4edab85933f8b06dd348bc780"
+  },
+  {
+    "url": "https://library.comp.school/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
+    "time": "2026-11-13T19:21:30.143382+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"03ae98903477420befe3f5e227c79875\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 19601,
+    "sha256": "78401c7e45913bb1e63f74bf533a6ede71a8b6b54732a0c1736f7f6bd8849b74"
+  },
+  {
+    "url": "https://library.comp.school/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
+    "time": "2026-11-13T19:21:31.063826+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"0f7ca454255e45be85dd08511a11f48f\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 73248,
+    "sha256": "159db62f38429d9e2b15f7d53757731f94b193e280c54461983b79601c9bc63c"
+  },
+  {
+    "url": "https://library.comp.school/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
+    "time": "2026-11-13T19:21:32.076089+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9a09ab6944f1b58c9ca751502179fc32\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 14081,
+    "sha256": "290e074c30a53f9c71d32aba6e7304e101b1fc14665f533cb1fa51e86f6be941"
+  },
+  {
+    "url": "https://library.comp.school/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
+    "time": "2026-11-13T19:21:33.016070+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"4002db96dd52faa6112d0503a98ef80a\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 123536,
+    "sha256": "08f8f7c3f63a66119e5e246eec3bf2d37151bb37798d3f07983a16e02faee6db"
+  },
+  {
+    "url": "https://library.comp.school/assets/canvas-DmUjKc5v.png",
+    "time": "2026-11-13T19:21:33.978438+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/canvas-DmUjKc5v.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"23eebd5065a79521f67f085fcd78f997\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5823,
+    "sha256": "b905426532b5fbfc80cb74e00067029c9b1b08e344b1a6375f3dd8d71830bdaf"
+  },
+  {
+    "url": "https://library.comp.school/assets/canvas-BNjiSqJl.png",
+    "time": "2026-11-13T19:21:34.853053+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/canvas-BNjiSqJl.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e18683a64b688a82610a779842b0a687\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 14781,
+    "sha256": "3a332def8d45a70f3bcb57e1a8cb439d61c51b55e522627c642a3ca282bcadd0"
+  },
+  {
+    "url": "https://library.comp.school/assets/answer-CMTK8mNy.png",
+    "time": "2026-11-13T19:21:35.730241+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/answer-CMTK8mNy.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"6153336dfcbc4710cd804d9471023825\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 32831,
+    "sha256": "bb24e903ecb574f5faca8dfdae51264c3e8ffbf0a10f23195956ed8a15bade25"
+  },
+  {
+    "url": "https://library.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "time": "2026-11-13T19:21:36.623988+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"dbc9e1eb99c256f153db81f37c3dcbab\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 45704,
+    "sha256": "c6428099ec9b0c7db7c6455b46884009b6e41d91ff69e28ec789423610639756"
+  },
+  {
+    "url": "https://library.comp.school/assets/image-CD9r7wsz.png",
+    "time": "2026-11-13T19:21:37.516897+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/image-CD9r7wsz.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"21f92f0eb40db02fa9c16c6e8b0f99a7\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 119227,
+    "sha256": "8a23a2ed2712439135b9f28889ead790ca22a65b41267923a82b3a5f074cbd1d"
+  },
+  {
+    "url": "https://library.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "time": "2026-11-13T19:21:38.497806+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"5b630eccbe652f3143770b9e22fe802a\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 793692,
+    "sha256": "ff327ccf7a7b9896fd1fc7e1a9cd841617d8c6b95a6d568a8f6519e9af194792"
+  },
+  {
+    "url": "https://library.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "time": "2026-11-13T19:21:39.566928+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e6612b7e3711c151acd31ff1a1cfc727\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 8480,
+    "sha256": "84393042c28df79ee29a032d22d0c73de2ad60e8000c86a4c779036fab4e96dd"
+  },
+  {
+    "url": "https://library.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "time": "2026-11-13T19:21:40.489977+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"da8c9bcd522c63d8794516b363236094\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6828,
+    "sha256": "97821ba31592c72d13cf37c0d4078d8781aecd1c61ae9deb52fef636280899f0"
+  },
+  {
+    "url": "https://library.comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "time": "2026-11-13T19:21:41.357612+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"d6208814186ce86e23996aef10f655d1\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6582,
+    "sha256": "a655680fb714319c92992a84958998c1b55af5251f522e5a8f687f8e295f8a0a"
+  },
+  {
+    "url": "https://library.comp.school/assets/flowchart-BkR_ZXtE.png",
+    "time": "2026-11-13T19:21:42.274031+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/flowchart-BkR_ZXtE.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"1db5aae976eb3dc97319c86327ce8c08\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 82321,
+    "sha256": "64c4649e02a9df686b37909b822015c4ec522619080696d562f53cdd6a87de52"
+  },
+  {
+    "url": "https://library.comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "time": "2026-11-13T19:21:43.218796+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9597578e8ff289e8c02d33f83c37b8de\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 20411,
+    "sha256": "463a34967336d96405569850c734b59ccc1a89e803b2f14ea121627b33bde57b"
+  },
+  {
+    "url": "https://library.comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "time": "2026-11-13T19:21:44.072831+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"6f7369c82c887459bbbea4690c1488f3\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5313,
+    "sha256": "e62b5206634872cd093b3015b21c699691f681147d077d5587e7cd9238bb1733"
+  },
+  {
+    "url": "https://library.comp.school/assets/the-team-array-uFjFeqbK.png",
+    "time": "2026-11-13T19:21:44.920469+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/the-team-array-uFjFeqbK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9baeeaaa0ae42ef5b14087f05d89afaa\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 13930,
+    "sha256": "1239a8728c5971c88c38f1175b49675b2978e8806e105f600ba2dd66fd792cd1"
+  },
+  {
+    "url": "https://library.comp.school/assets/flowchart-BKM6tL5v.png",
+    "time": "2026-11-13T19:21:45.812144+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/flowchart-BKM6tL5v.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"5b2c026e88dbe7e6bac6b785b891c0cb\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 67478,
+    "sha256": "60aefc8f604d4b70d3c948cc1d4eb5398134fc0c3c60b82adfd156dbc432e4bc"
+  },
+  {
+    "url": "https://library.comp.school/assets/matching-BD8ptTcc.png",
+    "time": "2026-11-13T19:21:46.772552+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/matching-BD8ptTcc.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"2ea7b5bc7d1b5ccc820d5cbbd6be3e77\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 117945,
+    "sha256": "9ebc0135a21b9ba3b1ae7ef1c730683df33ee748bb0f639b2d4dbd173aa72231"
+  },
+  {
+    "url": "https://library.comp.school/assets/array-D9hbdIZ5.png",
+    "time": "2026-11-13T19:21:47.689258+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/array-D9hbdIZ5.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"b77daef7ffc1a84003f301299920426f\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 10174,
+    "sha256": "cfcca71bbaa9e52542bf134ebc5b031a2f618d63c2f9cc00b1592c0be72c1961"
+  },
+  {
+    "url": "https://library.comp.school/assets/array-BkphWtpy.png",
+    "time": "2026-11-13T19:21:48.592114+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/array-BkphWtpy.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"412c607391cdd9fd6156c2377619be4d\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 12148,
+    "sha256": "d18f338747ef04d39cce2701f126743e4f8d84090cb771e6dd578cd6fc16b35d"
+  },
+  {
+    "url": "https://library.comp.school/assets/flowchart-BBozX2nS.png",
+    "time": "2026-11-13T19:21:49.458601+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/flowchart-BBozX2nS.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"50f8debf192a6ca97807a4a015bddc38\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 122101,
+    "sha256": "42d2ddb53ee79d0f2e920033338202c4870b62f3137a7f27351f5515a0682731"
+  },
+  {
+    "url": "https://library.comp.school/assets/canvas-BPXNl8oO.png",
+    "time": "2026-11-13T19:21:50.441298+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/canvas-BPXNl8oO.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"209ebbb5d8432f5928e9289eb6cecaeb\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 10390,
+    "sha256": "9a9e2c45a71fdc97c522401e4e0fb9445aab0d051a2ef09711449e31568fc436"
+  },
+  {
+    "url": "https://library.comp.school/assets/canvas-jbwsqzu9.png",
+    "time": "2026-11-13T19:21:51.303537+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/canvas-jbwsqzu9.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e858b875b14b2233bf72c5b541d2b372\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 8235,
+    "sha256": "4465aec494ebd11302580e09aa03bd5a0721fccc73db7f76af5ea2856b087bc1"
+  },
+  {
+    "url": "https://library.comp.school/assets/circuit-frame-DaRNRjij.png",
+    "time": "2026-11-13T19:21:52.163666+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/circuit-frame-DaRNRjij.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9757702461675b1a497bd47d0f7fbbfd\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 21496,
+    "sha256": "14f6299fc7aec75cadf2c86395438541939a44bd3732182789f6a0b3dcd98205"
+  },
+  {
+    "url": "https://library.comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "time": "2026-11-13T19:21:53.080724+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"0079cdc3cf28852dcf7eb36372ff7e5b\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 42612,
+    "sha256": "f90e315e12cc3933a518f2b5abbb2d5157c302a0671398828e354569eb60dfe8"
+  },
+  {
+    "url": "https://library.comp.school/assets/a-DobarutV.png",
+    "time": "2026-11-13T19:21:54.000139+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/a-DobarutV.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"9f74c3eaa7bf10d001ebdbd4107e9aee\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 51544,
+    "sha256": "e8579b5027bc9d319d7bc6011f6df80ab586cf127c1bfbd0b66288cf4a1e5c70"
+  },
+  {
+    "url": "https://library.comp.school/assets/b-BFSigdO3.png",
+    "time": "2026-11-13T19:21:54.890106+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/b-BFSigdO3.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"f573cdae41355a4642d795707a87bbc0\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 51532,
+    "sha256": "ac12f6b2251cb515bd7a3261f0d81ec847fcee7931d75cc907e9441e1aa59b08"
+  },
+  {
+    "url": "https://library.comp.school/assets/c-WLvzh3fx.png",
+    "time": "2026-11-13T19:21:55.760555+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/c-WLvzh3fx.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"73b84b36f94913a9a930b18ebc7afb4d\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 54820,
+    "sha256": "75c23032f69003e54a09c16c5c70e6db79be9f1155e1efa258b8e22e8e538f81"
+  },
+  {
+    "url": "https://library.comp.school/assets/image-CZEZTeor.png",
+    "time": "2026-11-13T19:21:56.644153+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/image-CZEZTeor.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"ed6856357d71a25ff021b581dfa62c5b\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 83763,
+    "sha256": "faceb0f25adf23ecc3ea59835a7c6b8b1481a8721aa947c85cc2ec3dcedada1b"
+  },
+  {
+    "url": "https://library.comp.school/assets/arithmetic-logic-unit-alu-ChSgzIJ7.svg",
+    "time": "2026-11-13T19:21:57.592791+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/arithmetic-logic-unit-alu-ChSgzIJ7.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"e02241af9921c72a187531e28bd27856\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 8238,
+    "sha256": "a12f50cc236e49dbe82ac1573235b61e13a25caa795c0902774a90d85b792262"
+  },
+  {
+    "url": "https://library.comp.school/assets/fetch-decode-execute-fde-cycle-BW0cmVAP.svg",
+    "time": "2026-11-13T19:21:58.468084+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/fetch-decode-execute-fde-cycle-BW0cmVAP.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"dd12cfd41f98ca6ad787e0500d5b11fa\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7716,
+    "sha256": "d6564e37504b045e5218dba223cc34aeac09db97c17d489f0c40cad5b533bbce"
+  },
+  {
+    "url": "https://library.comp.school/assets/memory-address-register-mar-CYI-TvGq.svg",
+    "time": "2026-11-13T19:21:59.347361+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/memory-address-register-mar-CYI-TvGq.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"93abe33e3154ecb1a2baa78a80ecd8f8\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5255,
+    "sha256": "91fd9cffd4d3a6281de3dfbbcebf7b1c540c2df4156711c8115554902a0d9fcc"
+  },
+  {
+    "url": "https://library.comp.school/assets/memory-data-register-mdr-Bm8tLZNS.svg",
+    "time": "2026-11-13T19:22:00.200672+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/memory-data-register-mdr-Bm8tLZNS.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"cf0f5d4772335eb0c6328526397974e9\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4141,
+    "sha256": "ec1eaa50b2a7cd1c26afa22f82f0c33cb4adfd7c615d6cce81b7f938d2743074"
+  },
+  {
+    "url": "https://library.comp.school/assets/program-counter-pc-RtqBFDW9.svg",
+    "time": "2026-11-13T19:22:01.114386+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/program-counter-pc-RtqBFDW9.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ccf0db1c324f9be372d8c182f0a75ef0\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4419,
+    "sha256": "e97e4cd2e9ace611ccc5a1c121de1b7a12be762191c95795b358fc2869193752"
+  },
+  {
+    "url": "https://library.comp.school/assets/von-neumann-architecture-28bg1Rpd.svg",
+    "time": "2026-11-13T19:22:02.021890+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/von-neumann-architecture-28bg1Rpd.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"7be505331f431c01188b6ba41951bc83\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4389,
+    "sha256": "0cd46946a84e0dae066d4a89b1ee7cdade2a91116ba6e4cbb82124775de353ce"
+  },
+  {
+    "url": "https://library.comp.school/assets/general-purpose-D303SB2H.svg",
+    "time": "2026-11-13T19:22:02.871973+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/general-purpose-D303SB2H.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"bb4af571f64c79a475da42b5d1136b2a\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5172,
+    "sha256": "72c7c9f128d454a7dfc91282609ef8315558bd85e602eb171fba06299b3094c7"
+  },
+  {
+    "url": "https://library.comp.school/assets/networked-with-C1zxI7AT.svg",
+    "time": "2026-11-13T19:22:03.768165+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/networked-with-C1zxI7AT.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"8e888f0307087e34fe614d4be8cf86db\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4202,
+    "sha256": "2fe7aca5d74877256f12b3be1d7bdf20f01010ba8587d59fae89c877d7f461e6"
+  },
+  {
+    "url": "https://library.comp.school/assets/plugged-into-C0gQRpl7.svg",
+    "time": "2026-11-13T19:22:04.651881+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/plugged-into-C0gQRpl7.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"8340ff13b9b5052b5e6311bd66eb5168\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4422,
+    "sha256": "d38e272b5fd8c84a122f13a09cbbf5d401fd488c166c202528729f3ebc213f6b"
+  },
+  {
+    "url": "https://library.comp.school/assets/cached-DC06JdJg.svg",
+    "time": "2026-11-13T19:22:05.575515+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/cached-DC06JdJg.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"fb5f02af0f8af5eede064a40a7facf83\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4623,
+    "sha256": "1f72a782354f11cc19321a61ffaaee95291e1a9e929170262780b936541ef451"
+  },
+  {
+    "url": "https://library.comp.school/assets/binary-addition-DZxOIqPU.svg",
+    "time": "2026-11-13T19:22:06.416892+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/binary-addition-DZxOIqPU.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"11be27aa73433329ef74a56511ac1d96\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4641,
+    "sha256": "b9c2a5d18f3bfc242207f73acb96511be2d8ea4d729bc1203d3db1b3f10424af"
+  },
+  {
+    "url": "https://library.comp.school/assets/binary-shift-BGZWXVaS.svg",
+    "time": "2026-11-13T19:22:07.369801+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/binary-shift-BGZWXVaS.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"f6eebab141c6d6b1528b0bcf28cc1db7\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5503,
+    "sha256": "85e36c909b2880b77093041881e2d3076cfa5ee31b1991374a81544d03179709"
+  },
+  {
+    "url": "https://library.comp.school/assets/primary-Be_3_gxH.svg",
+    "time": "2026-11-13T19:22:08.322649+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/primary-Be_3_gxH.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"0acf3719c0d302d5267678e6deb827f4\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5562,
+    "sha256": "a9876e4473d9ee0167f4007b412bba464b91089948c4163520a40ee7d8d426d9"
+  },
+  {
+    "url": "https://library.comp.school/assets/16000-DKfWj-RR.svg",
+    "time": "2026-11-13T19:22:09.220527+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/16000-DKfWj-RR.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"d126e7805e2008d7affa60384d95db15\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4686,
+    "sha256": "8bd8b073c361b5751ba76e60eb64aa98e740a93bf232f65f610ccbc6ba28d1d0"
+  },
+  {
+    "url": "https://library.comp.school/assets/2000-9UPNJ6P8.svg",
+    "time": "2026-11-13T19:22:10.153727+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/2000-9UPNJ6P8.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"26e5901a0f32d85a3bb297f5b825de59\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4157,
+    "sha256": "db0c88314a9d8937394f9926badd18350a6b111f06e0d7236a69b0e5a22007d5"
+  },
+  {
+    "url": "https://library.comp.school/assets/3000-CB0BHO3r.svg",
+    "time": "2026-11-13T19:22:11.075650+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/3000-CB0BHO3r.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"85060496fcdea63d8985b2252d1ca038\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4502,
+    "sha256": "16b1f631e016ea650b409120c41f200b20102825c94e415521bb55094d6130ce"
+  },
+  {
+    "url": "https://library.comp.school/assets/30000-CHF-_tRU.svg",
+    "time": "2026-11-13T19:22:11.962147+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/30000-CHF-_tRU.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ca6b8351c99925b447ef3feb8ed42440\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5172,
+    "sha256": "8c84d5639ea3fd56daf32247e9340d937fb96f7459dfc54426ed2bacde461b46"
+  },
+  {
+    "url": "https://library.comp.school/assets/32000-D7ZGIk6E.svg",
+    "time": "2026-11-13T19:22:12.859447+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/32000-D7ZGIk6E.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"3a6d075b99a82ee8590e5a85cffca1e3\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5263,
+    "sha256": "15b68d1d53a842ad44f445f7173135a1009c42c6dbdda2ffd43f6da84b8a408a"
+  },
+  {
+    "url": "https://library.comp.school/assets/40000-DrmYiSnR.svg",
+    "time": "2026-11-13T19:22:13.701300+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/40000-DrmYiSnR.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"97f336fd38b1a27e7293a937f5fb3e1d\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4580,
+    "sha256": "6e086882e39e574f84ce6ca4b2c40523c1deff8fd3159e4e231ff60310196e13"
+  },
+  {
+    "url": "https://library.comp.school/assets/70400-D3mLgiTv.svg",
+    "time": "2026-11-13T19:22:14.619807+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/70400-D3mLgiTv.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"f8f3af32cca90280ee6bc00efffc0544\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4302,
+    "sha256": "d357049aa5e498fe07fa4acf563b8db5cf4b707aceb26167e45ca25b892e02bb"
+  },
+  {
+    "url": "https://library.comp.school/assets/880-DuoyXua7.svg",
+    "time": "2026-11-13T19:22:15.505587+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/880-DuoyXua7.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"e1f9f745b9d358105aaa290b90171621\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4098,
+    "sha256": "4290e37ebab2166579acbc0f1c016129b3d6b07350459bf293ba2d63f48b2e0c"
+  },
+  {
+    "url": "https://library.comp.school/assets/8800-R9ikb6OI.svg",
+    "time": "2026-11-13T19:22:16.390326+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/8800-R9ikb6OI.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"e1276698bafb911d71587095ece58133\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4808,
+    "sha256": "89b25a22549435d24b9838367ce9f6bef72dd6a44190f8db503f6c44937256c9"
+  },
+  {
+    "url": "https://library.comp.school/assets/88000-C9gGg7hr.svg",
+    "time": "2026-11-13T19:22:17.257364+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/88000-C9gGg7hr.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"fb17b54d7530ccfee6a2e4184f486c4c\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5478,
+    "sha256": "9be5e85a7767d5b6001b6e3b055f169a0bf568106c3d5e552bb073daf709683b"
+  },
+  {
+    "url": "https://library.comp.school/assets/gigabyte-gb-DbNmTeNn.svg",
+    "time": "2026-11-13T19:22:18.122574+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/gigabyte-gb-DbNmTeNn.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"59d19d9ac65e81536c6e254b78956ace\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4484,
+    "sha256": "d490d33bb8ebfb0d3103dabeeccae051da5cdb93690762ecb671071730206643"
+  },
+  {
+    "url": "https://library.comp.school/assets/mbps-95kuTDFX.svg",
+    "time": "2026-11-13T19:22:18.967293+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/mbps-95kuTDFX.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"ba7c8ad4a855268f41ea5da79ae4b7f3\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4643,
+    "sha256": "6488f3de962d52fb5149320863d90471546a545716b437f4cf2c4504eea9cac0"
+  },
+  {
+    "url": "https://library.comp.school/assets/petabyte-pb-B-xI2FvT.svg",
+    "time": "2026-11-13T19:22:19.865834+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/petabyte-pb-B-xI2FvT.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"204b1dca625580fba52f069e836861ac\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 8705,
+    "sha256": "ef414eb5593d6ad1978e41a06b00cbd4178fc28cebee0f7dd15ad676a00e517a"
+  },
+  {
+    "url": "https://library.comp.school/assets/terabyte-tb-C3FCGdg9.svg",
+    "time": "2026-11-13T19:22:20.724570+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/terabyte-tb-C3FCGdg9.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"55927a0562651c7d3fa33a9b7fb98b0b\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6168,
+    "sha256": "f48ed1356eefbda3e8011cad9414ed17ea78af5a283041fb00b8c458afba3436"
+  },
+  {
+    "url": "https://library.comp.school/assets/01101010-YgQ475IB.svg",
+    "time": "2026-11-13T19:22:21.618861+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/01101010-YgQ475IB.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"a3a518922dafc72b15db36f1997d88d7\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6455,
+    "sha256": "fe479914073f2d348c48468c2850e12276095aa06cc046fb4473a5a1e2afce62"
+  },
+  {
+    "url": "https://library.comp.school/assets/01111010-BiDKQaBg.svg",
+    "time": "2026-11-13T19:22:22.472421+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/01111010-BiDKQaBg.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"8b21ef78a6995bfc9d816ce6bd673ee0\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6334,
+    "sha256": "6d5c359a795fb1e53fe3d2417a45e11e01f764f8c7b7704ed63d5f8d8fe1ec78"
+  },
+  {
+    "url": "https://library.comp.school/assets/01111011-DSwMyESx.svg",
+    "time": "2026-11-13T19:22:23.347780+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/01111011-DSwMyESx.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"f4c2812a36ad5970ad5b95fe499d13a0\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6213,
+    "sha256": "5b7d94cd166eccf34896d777a60db6af26905945f27772806e4cd647ba2e15a0"
+  },
+  {
+    "url": "https://library.comp.school/assets/11111010-CBzCi_ld.svg",
+    "time": "2026-11-13T19:22:24.260884+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/11111010-CBzCi_ld.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"c1e94ec85de015591d38564382e6f427\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6213,
+    "sha256": "e382d5cdb6ba0b306a8a4b6945a63070cb99a4e7d17a7aebe5b9a5b670cf4493"
+  },
+  {
+    "url": "https://library.comp.school/assets/image-file-size-calculation-BP1FsKOM.svg",
+    "time": "2026-11-13T19:22:25.128504+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/image-file-size-calculation-BP1FsKOM.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"91af8901c84bd2ca12e45ad1a5aec071\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5498,
+    "sha256": "de680e14b0a9242b57570bd99fcc46ed0e1ce56e5e35d0e7413181b6313ea2ca"
+  },
+  {
+    "url": "https://library.comp.school/assets/text-file-size-calculation-BMZ9c6wj.svg",
+    "time": "2026-11-13T19:22:26.004690+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/text-file-size-calculation-BMZ9c6wj.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"3f4375e160a7b6db428f5ed293fe56e3\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7660,
+    "sha256": "5d58a1ef7f0c2ce40ecbca742433cf8faeb892f75bf56a6458944bf1d8c70c44"
+  },
+  {
+    "url": "https://library.comp.school/assets/denary-CjOIPr7S.svg",
+    "time": "2026-11-13T19:22:26.832623+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/denary-CjOIPr7S.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"1815f7b8a6f1d63d6cddee2fa87b20b2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 14473,
+    "sha256": "6602bf0772c97088894cb83fcdc7f38b17f4dab0ad7ffef93b1c027e7bcf45ea"
+  },
+  {
+    "url": "https://library.comp.school/assets/hexadecimal-CPNLVEzR.svg",
+    "time": "2026-11-13T19:22:27.680619+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/hexadecimal-CPNLVEzR.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"b9eb0174584b586b2faeb469230a7eb1\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 12263,
+    "sha256": "749b97e8c3d53e7da379a0d26d9f67477b679230372d02062e77b32e130879a3"
+  },
+  {
+    "url": "https://library.comp.school/assets/255-BQH0oqBq.svg",
+    "time": "2026-11-13T19:22:28.564755+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/255-BQH0oqBq.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"f396548da9242c1031f94f2f5324f5c3\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4108,
+    "sha256": "f5df045a279a716e72c78a1996218e86392dc07ae7588e749dc64aaf783add2d"
+  },
+  {
+    "url": "https://library.comp.school/assets/american-standard-code-for-information-interchange-ascii-i2aht3Mo.svg",
+    "time": "2026-11-13T19:22:29.449104+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/american-standard-code-for-information-interchange-ascii-i2aht3Mo.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"affb58cefeb8e84d81312f93b672deed\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6517,
+    "sha256": "81e979a97953caa050b25c6b902bcf7aedec63880011e4fae66703a78b2ec777"
+  },
+  {
+    "url": "https://library.comp.school/assets/character-set-eYiqgq1z.svg",
+    "time": "2026-11-13T19:22:30.350567+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/character-set-eYiqgq1z.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"368acd5769cefd90fd5df5f88ce0bffa\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 12356,
+    "sha256": "123bdf0a3d5abf999e2bc8fabbca1a9e4c1b7e2e2289dea378f22a3cc3afc6ea"
+  },
+  {
+    "url": "https://library.comp.school/assets/numbers-Ck9QIfmp.svg",
+    "time": "2026-11-13T19:22:31.231545+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/numbers-Ck9QIfmp.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"82a51f4c5c41f3339bf250e458109c1b\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5989,
+    "sha256": "47afdcfd3934e7bd38be78efad5264e6728ba3fcd297cf96cc49d7a05077e9eb"
+  },
+  {
+    "url": "https://library.comp.school/assets/unicode-BJCN58V3.svg",
+    "time": "2026-11-13T19:22:32.074729+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/unicode-BJCN58V3.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"54952444c94cd0b5a72083fb65268ce8\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4511,
+    "sha256": "85cddd85ee7706eac7176442e10379ae142f10e6179e25e175fe9d607e14955e"
+  },
+  {
+    "url": "https://library.comp.school/assets/bitmap-image-DDcJsWpk.svg",
+    "time": "2026-11-13T19:22:32.985349+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/bitmap-image-DDcJsWpk.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"95018125b7c3ca60f39992f6d278e40c\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 10766,
+    "sha256": "99226d73a009daabc564212a8e79ed1b189fbd53c29bfb5403c8945e3a893af9"
+  },
+  {
+    "url": "https://library.comp.school/assets/colour-depth-D17Mf8my.svg",
+    "time": "2026-11-13T19:22:33.849715+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/colour-depth-D17Mf8my.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"059ecf07ac8dbdb0a6bd6d559df11986\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 8263,
+    "sha256": "179d5e73ca3f23221d09cdbf98f0981a36eaea9f822d633dcd7472a639626b64"
+  },
+  {
+    "url": "https://library.comp.school/assets/many-BV7Ik4vY.svg",
+    "time": "2026-11-13T19:22:34.715204+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/many-BV7Ik4vY.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"809f7fb65730ca62dfda23b0fa422b6c\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 15305,
+    "sha256": "6caa5b8776caee71a439715f2babb3ee149de25aa24d59d800a4f053874fc38a"
+  },
+  {
+    "url": "https://library.comp.school/assets/pixel-BQk4SCSa.svg",
+    "time": "2026-11-13T19:22:35.609098+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/pixel-BQk4SCSa.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"dddaf36ddc97f9295fca0c13eeb5e6ea\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7151,
+    "sha256": "c316ab0a65ee02641d95b6f82310f353939a5c5bef788a2dd8565ae4fe7e3fc8"
+  },
+  {
+    "url": "https://library.comp.school/assets/sample-rate-CukayzOV.svg",
+    "time": "2026-11-13T19:22:36.511831+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/sample-rate-CukayzOV.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"a871423f2af9e237d0a647cba1b214ae\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 9168,
+    "sha256": "b60ffafa3161ca694c94707e795cbe7ee9b5edf23a6023a8faad6841f2d00796"
+  },
+  {
+    "url": "https://library.comp.school/assets/lossless-compression-kKF0fQHR.svg",
+    "time": "2026-11-13T19:22:37.460376+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/lossless-compression-kKF0fQHR.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"99574d4184690107adf8a1c49ce3e423\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4751,
+    "sha256": "50e079925c8373596a433359b3881a0d870b57cbe8766d4a0c0cb9ddee01a7dc"
+  },
+  {
+    "url": "https://library.comp.school/assets/lossy-compression-BFy9Jhir.svg",
+    "time": "2026-11-13T19:22:38.360593+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/lossy-compression-BFy9Jhir.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"5eaeda94a62ddcd5fd642035fbc7de0a\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5421,
+    "sha256": "1abbf4b1320e4c1921295cf15bbf8b95a27f3f230aec007262c3e90d8dde6f95"
+  },
+  {
+    "url": "https://library.comp.school/assets/building-M2ZbvTht.svg",
+    "time": "2026-11-13T19:22:39.256038+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/building-M2ZbvTht.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"a1be6eb3a7ba2486111453c304f29c1a\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7022,
+    "sha256": "7311d52e21b804a11de9a98082e2294af6f03f1e374fc222f0b734b5e6d6d170"
+  },
+  {
+    "url": "https://library.comp.school/assets/city-jHFGpE-Q.svg",
+    "time": "2026-11-13T19:22:40.122823+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/city-jHFGpE-Q.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"b8d20b2f486e89d91795cc9225d12ca2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 21304,
+    "sha256": "9f917668397e53f6ee6ebae7eade172afccf68927317fb7143eaaf9d684fe401"
+  },
+  {
+    "url": "https://library.comp.school/assets/client-server-network-DFBYb60y.svg",
+    "time": "2026-11-13T19:22:41.003724+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/client-server-network-DFBYb60y.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"e5a0fdd94fcaa43f3d71f172b328a857\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4103,
+    "sha256": "2d86d9e86644fedc6b3c792563179bb1449793e541c02a6f4b985d69531fd8b7"
+  },
+  {
+    "url": "https://library.comp.school/assets/computer-BVPXOjDp.svg",
+    "time": "2026-11-13T19:22:41.842221+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/computer-BVPXOjDp.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"a58718e306dced5e88e196fa3d5253a1\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4819,
+    "sha256": "140b3be2ab682d4f5de2dd0cc7fd8ab20537037cfda43fba801a1c2aa1f55193"
+  },
+  {
+    "url": "https://library.comp.school/assets/domain-name-system-dns-BXKs_CEX.svg",
+    "time": "2026-11-13T19:22:42.693277+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/domain-name-system-dns-BXKs_CEX.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"0aca5274dec983b87eb47c33687e087b\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5913,
+    "sha256": "0aa4f3e22a00b8671ba11e080ee64a01e37dae9528fb88f1490245793460ed4f"
+  },
+  {
+    "url": "https://library.comp.school/assets/internet-CvR03i49.svg",
+    "time": "2026-11-13T19:22:43.570122+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/internet-CvR03i49.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"53ae316da04d4728392f2f7232f166a1\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4532,
+    "sha256": "7c2de49bbcfca71f55a3fd56a23dcacb662bd3a7d95b11b59b3de5a043fa17f3"
+  },
+  {
+    "url": "https://library.comp.school/assets/isp-Vn07bxrX.svg",
+    "time": "2026-11-13T19:22:44.495435+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/isp-Vn07bxrX.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"a8ded75c92ddf888b4024e9d34bfac2c\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6249,
+    "sha256": "6b8d9b65cc746c0644d2c9de97e2a1c7887f4bb23a8bcc86d0467d02da866c7c"
+  },
+  {
+    "url": "https://library.comp.school/assets/network-interface-card-nic-Do9lfCVu.svg",
+    "time": "2026-11-13T19:22:45.465836+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/network-interface-card-nic-Do9lfCVu.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"d2adfce6f0ab153d976b89d6519d6bf5\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4889,
+    "sha256": "3c956e52c0ed47301cd864731432e69077969c155b5d503102cfe589963c4005"
+  },
+  {
+    "url": "https://library.comp.school/assets/topologies-Ckp6z7cG.svg",
+    "time": "2026-11-13T19:22:46.361142+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/topologies-Ckp6z7cG.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"a1b88014458ec8ed2acf884c1b1443e9\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4891,
+    "sha256": "a5fb9ce108b28be86188fbcebbd71f9104e2f7ca414a074191075d963d974204"
+  },
+  {
+    "url": "https://library.comp.school/assets/web-server-and-client-B-7OJ0pA.svg",
+    "time": "2026-11-13T19:22:47.252946+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/web-server-and-client-B-7OJ0pA.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"7a0fa592b3a3552a207b8a1bdb64d2a9\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4527,
+    "sha256": "d72f43595dcae40afa5b7f0c37ce3a2b34e72149506c6952d1f01b142a04070d"
+  },
+  {
+    "url": "https://library.comp.school/assets/web-OkOeynFP.svg",
+    "time": "2026-11-13T19:22:48.168535+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/web-OkOeynFP.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"d1d5816e1d6c4e770b51217e7313fc96\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4661,
+    "sha256": "25c095dc667d90525dc5e8964d924bc28aadbea5298f4ee2b8950b30a2ee096d"
+  },
+  {
+    "url": "https://library.comp.school/assets/media-access-control-mac-address-T2lmZfOC.svg",
+    "time": "2026-11-13T19:22:49.034807+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/media-access-control-mac-address-T2lmZfOC.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"3aab8ab73e777cb4f515b35488cf1a38\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6285,
+    "sha256": "ed4dd0cd44474230ef531f36e26354eff8ae4609be535e8a87636ffb48e59cce"
+  },
+  {
+    "url": "https://library.comp.school/assets/octal-_9sR5g7I.svg",
+    "time": "2026-11-13T19:22:49.922753+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/octal-_9sR5g7I.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"051c3931c22a6c1c97c75f7540e79d95\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 12028,
+    "sha256": "189e9431dbcc74ac1084204f6212e0f7f6e3755bf24c17e1351e8850aed9fd80"
+  },
+  {
+    "url": "https://library.comp.school/assets/rules-BU67ct_p.svg",
+    "time": "2026-11-13T19:22:50.816651+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/rules-BU67ct_p.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"19e49213d66e004fc4a67fef76a03133\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4679,
+    "sha256": "68868ed59fefee639b8b5b51d974f8b1a1bc9e6b14e0ebf079b1082b2d424d20"
+  },
+  {
+    "url": "https://library.comp.school/assets/tcp-transmission-control-protocol-D9IK8rR0.svg",
+    "time": "2026-11-13T19:22:51.694673+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/tcp-transmission-control-protocol-D9IK8rR0.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"9ddb11685c6618f69365dcf6374ef66d\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 9402,
+    "sha256": "5d9e3633a457a36bc1b40e742755cced277277d8448677e2a08f5846e72472ee"
+  },
+  {
+    "url": "https://library.comp.school/assets/ransomware-NI7H5iLT.svg",
+    "time": "2026-11-13T19:22:52.580545+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/ransomware-NI7H5iLT.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"0ddc1b17d37feb520abed1900278d220\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4871,
+    "sha256": "6cfa3a78552adc4de06983d43d376b61783afb43904dc844535b09469ad29823"
+  },
+  {
+    "url": "https://library.comp.school/assets/worm-BN8g5O8G.svg",
+    "time": "2026-11-13T19:22:53.460282+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/worm-BN8g5O8G.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"bbe04a1391a720b33f299c007895a6e8\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5117,
+    "sha256": "0b23b3fc6387107f35d80bfc2b21c81fda8381a143e178bffa2a9d57a13585e6"
+  },
+  {
+    "url": "https://library.comp.school/assets/encryption-Bze3fTm_.svg",
+    "time": "2026-11-13T19:22:54.403436+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/encryption-Bze3fTm_.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"a9c42c68955daba589741e01438dc1ac\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6840,
+    "sha256": "871de36ba04677691281cd09b7fc78e29a501031659542567b78e3600b40c805"
+  },
+  {
+    "url": "https://library.comp.school/assets/firewall-Cj_qsW8d.svg",
+    "time": "2026-11-13T19:22:55.308518+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/firewall-Cj_qsW8d.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"29b4762a22d6e5d8753717e77febe63c\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4435,
+    "sha256": "52fec802035110d0983cff847c4a4144d6951efbe6da91f8fb420a0e2213c98f"
+  },
+  {
+    "url": "https://library.comp.school/assets/operating-system-os-DChHxRqq.svg",
+    "time": "2026-11-13T19:22:56.210298+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/operating-system-os-DChHxRqq.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"1df01e996857133371a88ace2d56be3c\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4107,
+    "sha256": "2950f1550a692e81eb6972f348e47a961b550112911b83161323fda109e8859f"
+  },
+  {
+    "url": "https://library.comp.school/assets/alphabetically-qHQTDQob.svg",
+    "time": "2026-11-13T19:22:57.083328+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/alphabetically-qHQTDQob.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"4d18eb58de9c9b479d0473b42c1a586c\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4525,
+    "sha256": "0f8692cd3df9a6ab510014bbe6a1986dd162a3ed02306728af57496bdaef7da9"
+  },
+  {
+    "url": "https://library.comp.school/assets/application-NXMxhULm.svg",
+    "time": "2026-11-13T19:22:57.945683+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/application-NXMxhULm.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"c32d083081e567cc70bf9ddac5af563a\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5081,
+    "sha256": "a7f9767bb3d93bd29e41d71f288d9793edf33fc1d98f291ae7e840cbee1c51af"
+  },
+  {
+    "url": "https://library.comp.school/assets/contiguously-cxO663lv.svg",
+    "time": "2026-11-13T19:22:58.800959+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/contiguously-cxO663lv.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"c87ba838940ca668df3abc4ba0682481\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4412,
+    "sha256": "fdeb6128b979b91b636606bb466f69841ddf9da76498380e193310ac3f015342"
+  },
+  {
+    "url": "https://library.comp.school/assets/defragmentation-B-F680W-.svg",
+    "time": "2026-11-13T19:22:59.671316+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/defragmentation-B-F680W-.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"e963ebb7482023466f811997b5f61fc9\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4830,
+    "sha256": "01949430bc0041f36d09132e82aa6d37ff26a9188780b54f0318e010d11dc0ee"
+  },
+  {
+    "url": "https://library.comp.school/assets/encryption-utility-B4oxgXLB.svg",
+    "time": "2026-11-13T19:23:00.597009+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/encryption-utility-B4oxgXLB.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"24724fae8191f2a3a3f58a940b47d133\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 10284,
+    "sha256": "e1b4f92817b58a23ceff6b9d402fee89d632c8cca83a73ae159926dd2a3e3152"
+  },
+  {
+    "url": "https://library.comp.school/assets/object-DtGR597h.svg",
+    "time": "2026-11-13T19:23:01.470661+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/object-DtGR597h.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"5e2aebf8c55ef1593f492613f0b8d3af\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6053,
+    "sha256": "2a931a704a9277fdf6ca95b321a584b84fbaea6e7d9892848e40695a763d546d"
+  },
+  {
+    "url": "https://library.comp.school/assets/algorithmic-thinking-CUDtB6MB.svg",
+    "time": "2026-11-13T19:23:02.356620+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/algorithmic-thinking-CUDtB6MB.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"8dfb2bd7256c979944529ca5c398eade\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4781,
+    "sha256": "85b6a4d728aa307636ffc590912f9b216e4599bb71d111704f17fd4adcf0c2af"
+  },
+  {
+    "url": "https://library.comp.school/assets/input-aI4SC9CY.svg",
+    "time": "2026-11-13T19:23:03.232040+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/input-aI4SC9CY.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"03d17b30f9463fb79c42cba529b6b190\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4451,
+    "sha256": "f3385505349d4ec34aa4d6f29fdf2f0805d2fa06546b1e32f0016468c27efb77"
+  },
+  {
+    "url": "https://library.comp.school/assets/trace-table-BjUdZVtM.svg",
+    "time": "2026-11-13T19:23:04.132075+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/trace-table-BjUdZVtM.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"aeadfc1ff0bcd68e3c1cabb559049ebd\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7986,
+    "sha256": "da4997ef1596c632fa3fe0a9cc987d75d976c3fd8612da9d4ee9af9fa42c877e"
+  },
+  {
+    "url": "https://library.comp.school/assets/binary-search-D41KrU6k.svg",
+    "time": "2026-11-13T19:23:05.056813+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/binary-search-D41KrU6k.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"13711a7cc551ba6f74296551c523e4c7\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5478,
+    "sha256": "4b4a19b88a7e7b397fb75f9352e016a2a43fcecc17a8dac50c164a0787a593fa"
+  },
+  {
+    "url": "https://library.comp.school/assets/comparisons-CDb_9y4x.svg",
+    "time": "2026-11-13T19:23:05.922560+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/comparisons-CDb_9y4x.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"cd28c71058dc2c07cca7e7e39a7f2435\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4571,
+    "sha256": "973c27543aac97831a23881d25420dd35d4164b014f7eabd1cf5cae8e21de1b4"
+  },
+  {
+    "url": "https://library.comp.school/assets/merge-sort-BpPshJtU.svg",
+    "time": "2026-11-13T19:23:06.795153+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/merge-sort-BpPshJtU.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"8a47965d63d7e65f4b51ec22eead372f\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4241,
+    "sha256": "5889991d83f19cfcc4399a85411a806ce5047554a3cc1be2ad964ab13195af90"
+  },
+  {
+    "url": "https://library.comp.school/assets/arithmetic-operators-CoH0hrpw.svg",
+    "time": "2026-11-13T19:23:07.654230+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/arithmetic-operators-CoH0hrpw.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"4446f17cbf3455cef87323287bd7fefe\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5845,
+    "sha256": "17d9cf22298391a6fc72837967541983ed874eb0b258d8709f30e19a7cbd410e"
+  },
+  {
+    "url": "https://library.comp.school/assets/assignment-Ch7qE0Vm.svg",
+    "time": "2026-11-13T19:23:08.519134+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/assignment-Ch7qE0Vm.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"4a9b964dd12ee41c9fa060d69acb19f8\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5481,
+    "sha256": "22fa54b0d62725c853a99b6bb38710fe21509cab94470027f96db48e0559fef2"
+  },
+  {
+    "url": "https://library.comp.school/assets/boolean-operators-BymYLUgz.svg",
+    "time": "2026-11-13T19:23:09.476675+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/boolean-operators-BymYLUgz.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"16053730f0eb391a87fa8f19ada2b378\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4159,
+    "sha256": "e69b50af66ae3987324cf13229031d36159238935c1cf6d25075997b2940f7e1"
+  },
+  {
+    "url": "https://library.comp.school/assets/casting-BbzzmpDQ.svg",
+    "time": "2026-11-13T19:23:10.362753+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/casting-BbzzmpDQ.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"25e2abf880763bf2e5b1b531240a05d7\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4776,
+    "sha256": "e5526ceb23f9bfb1e7081b27ced4467bab79eb651449a0a8b786ad85676eee7a"
+  },
+  {
+    "url": "https://library.comp.school/assets/real-float-BgdK3eIa.svg",
+    "time": "2026-11-13T19:23:11.258437+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/real-float-BgdK3eIa.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"d30e1adc7a2e3fdac8d6d9362d9a4060\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4361,
+    "sha256": "e28f830e3f037226c33337629625623161cfd22bca0d882add2beba7006232af"
+  },
+  {
+    "url": "https://library.comp.school/assets/string-Dza7EGYf.svg",
+    "time": "2026-11-13T19:23:12.128367+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/string-Dza7EGYf.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"6b4f638034d39176239de64c9ddb6f06\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 8676,
+    "sha256": "e430b610987e5c843f01e415a62c1bf7ef737583a5b93284d88043adbdb9e732"
+  },
+  {
+    "url": "https://library.comp.school/assets/freeseats-Dz1lHrkD.svg",
+    "time": "2026-11-13T19:23:13.121803+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/freeseats-Dz1lHrkD.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"3cf17a3a21ec0f21f12c3756cff5b624\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7842,
+    "sha256": "4dfe625732d584b7df39a8ee491867762276b4ffd6a168a79530a2fe1fb10bff"
+  },
+  {
+    "url": "https://library.comp.school/assets/one-dimensional-1d-array-DRdn--OF.svg",
+    "time": "2026-11-13T19:23:14.015249+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/one-dimensional-1d-array-DRdn--OF.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"6f1f46c87893b1097b391c923c2c019c\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7008,
+    "sha256": "1c51e9327377f61dce9ad30b402aa5064a83a969d6b862cd5f507000d3e4c1af"
+  },
+  {
+    "url": "https://library.comp.school/assets/print-BsORbwOg.svg",
+    "time": "2026-11-13T19:23:14.939065+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/print-BsORbwOg.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"9dacdb51d62ae3de24aad9051e4280b0\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4342,
+    "sha256": "a1e62b41967c01716a7b646840b68ca2a263193fa61550d70daf7156583b9f15"
+  },
+  {
+    "url": "https://library.comp.school/assets/record--FESg7KN.svg",
+    "time": "2026-11-13T19:23:15.841533+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/record--FESg7KN.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"607b49b680074a643ebae976cab9284a\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4538,
+    "sha256": "f0c5f9e6e33b019bf001e943bbb72fc970d32840c814d289a67a202c8dc1cb7c"
+  },
+  {
+    "url": "https://library.comp.school/assets/select-DvYsRhH-.svg",
+    "time": "2026-11-13T19:23:16.681094+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/select-DvYsRhH-.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"38fb15aaa6ab25b2494d69bb87dc1cfa\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5380,
+    "sha256": "87e1c22e183f006f511d34f21e094f8d508e3fe09bde0239f6487d89782dc31f"
+  },
+  {
+    "url": "https://library.comp.school/assets/sql-select-C2KH0qzE.svg",
+    "time": "2026-11-13T19:23:17.519120+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/sql-select-C2KH0qzE.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"fb6a9b1e58785374e1aaffb098aa83a2\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4372,
+    "sha256": "a87e9ca6978bf8f613846e2a6bdb49ef63037ac5337909b6fef392bbbd4854f6"
+  },
+  {
+    "url": "https://library.comp.school/assets/string-concatenation-pxWnVcpf.svg",
+    "time": "2026-11-13T19:23:18.377901+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/string-concatenation-pxWnVcpf.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"8bb755c3a822675fe067df84c0512ac0\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4707,
+    "sha256": "d6d2752aa57999beac6b10fbb27ec2e852dd9065e8996caf043345dba39aa904"
+  },
+  {
+    "url": "https://library.comp.school/assets/string-manipulation-CqQI49ze.svg",
+    "time": "2026-11-13T19:23:19.224114+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/string-manipulation-CqQI49ze.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"e8e32f2976912d5723f708b5efbd24c8\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 9731,
+    "sha256": "f064011e2e292df9258183bfa18c4c081813de5910f8da2a386db8e0ea6c2d53"
+  },
+  {
+    "url": "https://library.comp.school/assets/tickets-BoiAPFOB.svg",
+    "time": "2026-11-13T19:23:20.058052+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/tickets-BoiAPFOB.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"f3f4c1b12bdd8ebcfd1995983a30def0\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6195,
+    "sha256": "ad86455b3264e23ef96cf8535ae2893480444f309931e42235e8caf556e128d5"
+  },
+  {
+    "url": "https://library.comp.school/assets/totalprice-Bc_IFfGU.svg",
+    "time": "2026-11-13T19:23:20.956289+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/totalprice-Bc_IFfGU.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"3e9e6188595b8e5590eae242df783699\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7258,
+    "sha256": "7a0c1002c88b23c9dea978c13a2dbe7c27ad902b4ea139ac91fe4482714abdd5"
+  },
+  {
+    "url": "https://library.comp.school/assets/two-dimensional-2d-array-Bmkt5twL.svg",
+    "time": "2026-11-13T19:23:21.823047+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/two-dimensional-2d-array-Bmkt5twL.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"e58ddc3ad644a0b5afeb037b085a02b3\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 11218,
+    "sha256": "04d4d7f3eb3781f99bcf9eb27047eb1ab8ed7a461ee863e446ef8c75ccd3264d"
+  },
+  {
+    "url": "https://library.comp.school/assets/where-CBKsWtDl.svg",
+    "time": "2026-11-13T19:23:22.683386+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/where-CBKsWtDl.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"95a1347a2cbb6dff0fe3d5dd59a161ed\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4878,
+    "sha256": "27d7b90b33117284a73fb53af17a8328ee4e9bb3642984376958867d68ef0bac"
+  },
+  {
+    "url": "https://library.comp.school/assets/comments-2TqIIxP5.svg",
+    "time": "2026-11-13T19:23:23.558391+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/comments-2TqIIxP5.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"725d1784da095526f95d6aefe4d4d637\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7010,
+    "sha256": "c53a7648a1cd7606b0d7107d584ca49383dcb69238db9fc846e20e988d4c087b"
+  },
+  {
+    "url": "https://library.comp.school/assets/erroneous-test-data-Wj4wHeGN.svg",
+    "time": "2026-11-13T19:23:24.422080+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/erroneous-test-data-Wj4wHeGN.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"760e7d4614ffda35778b776d45184467\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5076,
+    "sha256": "0e6866c4d605f217d6efd026daa89d884ef3aaab684822c1beeaf62a76dcdd59"
+  },
+  {
+    "url": "https://library.comp.school/assets/hardware-Bkbe-Ed3.svg",
+    "time": "2026-11-13T19:23:25.306005+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/hardware-Bkbe-Ed3.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"aff8b1af64e9bc717d6e1b640e884507\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5163,
+    "sha256": "1a3290ce97bc2decd46b4fd69249dc43bd1f2cd3ea79fd80e2061acf7e217d5d"
+  },
+  {
+    "url": "https://library.comp.school/assets/rounding-DPMQJ3G-.svg",
+    "time": "2026-11-13T19:23:26.176039+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/rounding-DPMQJ3G-.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"066792f34df62fbcf3d3dcf1701fc04b\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4567,
+    "sha256": "57448f411c4df63c8e4be588ebac7e8ca5f1b5dac4e8c53f7373a7ee294a6c76"
+  },
+  {
+    "url": "https://library.comp.school/assets/syntax-error-BWZYUK8A.svg",
+    "time": "2026-11-13T19:23:27.068788+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/syntax-error-BWZYUK8A.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"6ebd9670f9f3ecb854b1283ba5d55c00\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 5775,
+    "sha256": "786ff265d223f8321e083af25de56ed3311d6836f22fbd56c658de6fbe894022"
+  },
+  {
+    "url": "https://library.comp.school/assets/truth-table-CwzQQfTF.svg",
+    "time": "2026-11-13T19:23:27.942156+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/truth-table-CwzQQfTF.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"22914ebff5e235fa857c988a3dfca83d\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6576,
+    "sha256": "04eb240d61f842f69dcb23ad16dfc34d81bc05492e2656d566f66e2089b33e1a"
+  },
+  {
+    "url": "https://library.comp.school/assets/assembler-BZ-oANyg.svg",
+    "time": "2026-11-13T19:23:28.854679+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/assembler-BZ-oANyg.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"040af5b9ab0cbfac4ddd1005e1a40468\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6124,
+    "sha256": "d658c09678e55582cf1d8dadd96162438316643d8be0dcc193cefe1e11effb50"
+  },
+  {
+    "url": "https://library.comp.school/assets/compiler-7AUlTMFD.svg",
+    "time": "2026-11-13T19:23:29.699614+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/compiler-7AUlTMFD.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"c3351a66d41e94504288262bd6a6c66d\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7148,
+    "sha256": "9e4cf39e7a4c716b7d06b6e720a6b93d48d3aba32e956d3bf727f3f586f8cbf9"
+  },
+  {
+    "url": "https://library.comp.school/assets/high-level-language-BL1YVQ3S.svg",
+    "time": "2026-11-13T19:23:30.561838+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/high-level-language-BL1YVQ3S.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"57cae930246a066b1669822decfe06fc\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6845,
+    "sha256": "238d60e06947c3e2e3a814465d1375a5b50527e4070a562ef3b795d64d676f58"
+  },
+  {
+    "url": "https://library.comp.school/assets/low-level-language-pV3YaR0u.svg",
+    "time": "2026-11-13T19:23:31.459948+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/low-level-language-pV3YaR0u.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"1fe5ddef8c7b73bd79dbbe161ff3bca4\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 10417,
+    "sha256": "f76b41d7c36f9652f3eb95cab61a8d65f707683084a9622323e28d2629e275f1"
+  },
+  {
+    "url": "https://library.comp.school/assets/machine-code-DrOuUVjb.svg",
+    "time": "2026-11-13T19:23:32.307826+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/machine-code-DrOuUVjb.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"dba268474d462cb0ca013ccb5cdb4631\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7058,
+    "sha256": "b22d651524a10520b72a4059f4cc150f0e302fdccf652dffbc9ea9f52e951edf"
+  },
+  {
+    "url": "https://library.comp.school/assets/translator-DAT4bBwj.svg",
+    "time": "2026-11-13T19:23:33.208731+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/translator-DAT4bBwj.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"381f91d2cae282d2a375747d5683e2f6\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 7860,
+    "sha256": "00aa942bd9ee38846915bc5d00d7cc0c267ef7485f857a04221a6756c74961cb"
+  },
+  {
+    "url": "https://library.comp.school/assets/code-editor-DKZNYzwA.svg",
+    "time": "2026-11-13T19:23:34.107603+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/code-editor-DKZNYzwA.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"98c549d0cea5cacb95c2d600812e332e\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4187,
+    "sha256": "fa9c4a7675b268f17d0bb8dccb9ae12840636b53699ac1727bb44c433de5440e"
+  },
+  {
+    "url": "https://library.comp.school/assets/error-diagnostics-A2M7x5dD.svg",
+    "time": "2026-11-13T19:23:34.996392+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/error-diagnostics-A2M7x5dD.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"7d2fa973401c2ea65a15130cbe544503\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6705,
+    "sha256": "cbc2d3ec0cd8f7d6af5709c7e8fe003bd14cb650dce648946b64ff60a9d6b79a"
+  },
+  {
+    "url": "https://library.comp.school/assets/integrated-development-environment-ide-BOBjygG4.svg",
+    "time": "2026-11-13T19:23:35.835227+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/integrated-development-environment-ide-BOBjygG4.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"755eaf40b1dbfad8da2da34f6774767b\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4880,
+    "sha256": "64bda9c1ef88985ce2c668bb994fc36004ab9992e3ca449361e7ee1100207fd2"
+  },
+  {
+    "url": "https://library.comp.school/assets/line-BIeXCoKi.svg",
+    "time": "2026-11-13T19:23:36.682763+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/line-BIeXCoKi.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"3ca09faf2267a282c50d3cad846e628d\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4921,
+    "sha256": "126362af77502bd6a8926cbc2a9842b42be9cfbb7235dc42fa0cc07b2395a03a"
+  },
+  {
+    "url": "https://library.comp.school/assets/run-time-environment-GDHlYn-8.svg",
+    "time": "2026-11-13T19:23:37.569576+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/run-time-environment-GDHlYn-8.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"15d16f927b49e3cfcc85fc5756c1c4d7\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 4530,
+    "sha256": "045836d3d449b2b6407437472ee82549f49582ac0e5e2c9026c0be63a06fb24f"
+  },
+  {
+    "url": "https://library.comp.school/assets/version-BytpzkEm.svg",
+    "time": "2026-11-13T19:23:38.403152+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/version-BytpzkEm.svg",
+    "type": "image/svg+xml",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/svg+xml",
+      "ETag": "\"5d1eaf73345dcaf03fcf6ca55da1e14a\"",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 6614,
+    "sha256": "275f413229b7054e2e409572a9582c2a67d91c009b8d5b40092f025926867fa8"
+  },
+  {
+    "url": "https://library.comp.school/assets/%23circleClip",
+    "time": "2026-11-13T19:23:39.294370+00:00",
+    "status": 200,
+    "final": "https://library.comp.school/assets/%23circleClip",
+    "type": "text/html",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "bytes": 1208,
+    "sha256": "d08e06d53093f2ca02eb499338b499f2fb7594a08ef4cf92a61078d06fe7f898"
   }
 ]

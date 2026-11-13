@@ -2,30 +2,35 @@
 
 ## Coverage
 
-Captured at 2026-11-13T19:19:14.802153+00:00. This is a bounded browser-delivered-code and public-response archive, not a complete server or private-data dump.
+Captured at 2026-11-13T19:24:23.976385+00:00. This is a bounded browser-delivered-code and public-response archive, not a complete server or private-data dump.
 
-- 502 URL response/error records; 309 unique saved response objects (45,125,436 bytes).
-- 96 distinct JavaScript objects; 35 distinct API-string variants; 487 route/path string candidates.
-- 212 publicly evidenced hostnames queried through public DNS.
+- 781 URL response/error records; 324 unique saved response objects (53,590,925 bytes).
+- 97 distinct JavaScript objects; 35 distinct API-string variants; 23 route/path string candidates.
+- 441 publicly evidenced hostnames queried through public DNS.
 - 163 asset URLs returned HTML rather than the expected file type. They are preserved as observations, not counted as working assets.
-- 120 queued URLs remain; 1531 references were deliberately deferred, with reasons in discovery.json.
+- 0 queued URLs remain; 1825 references were deliberately deferred, with reasons in discovery.json.
 
 ## Host and application map
 
 | Host | Root result observed | Final location |
 | --- | --- | --- |
 | admin.comp.school | 200 | https://admin.comp.school/ |
+| analytics.comp.school | 410 | HTTP Error 410: Gone |
 | code.comp.school | 200 | https://comp.school/code/ |
 | comp.school | 200 | https://comp.school/ |
+| dates.comp.school | 404 | HTTP Error 404: Not Found |
 | docs.comp.school | 410 | HTTP Error 410: Gone |
 | exams.comp.school | 200 | https://comp.school/exams/ |
+| forms.comp.school | 410 | HTTP Error 410: Gone |
 | games.comp.school | 410 | HTTP Error 410: Gone |
 | homework.comp.school | 200 | https://homework.comp.school/ |
 | issues.comp.school | 200 | https://issues.comp.school/ |
+| library.comp.school | 200 | https://library.comp.school/ |
 | mark.comp.school | 200 | https://mark.comp.school/ |
 | printouts.comp.school | 200 | https://printouts.comp.school/ |
 | recall.comp.school | 200 | https://comp.school/recall/ |
 | self-assess.comp.school | 200 | https://self-assess.comp.school/ |
+| www.comp.school | 200 | https://www.comp.school/ |
 
 ### Navigation and application families
 
@@ -47,8 +52,8 @@ Captured at 2026-11-13T19:19:14.802153+00:00. This is a bounded browser-delivere
 - `inventory.json`: URL, final URL, HTTP status, content type, timestamp, selected non-secret headers, byte count and SHA-256.
 - `objects/<sha256>`: exact public response bodies. Identical content is stored once.
 - `links.json`, `navigation.json`: discovered reference graph and sanitized normal-navigation links.
-- `dns.json`, `certificates.json`: passive hostname and DNS evidence, including historical preview names and source/pagination limitations.
-- `codeindex.json`, `analysis.json`, `summary.json`: code/reference inventory, supported architecture conclusions and coverage metrics.
+- `dns.json`, `certificates.json`: passive hostname and DNS evidence, including historical preview names and source/pagination limitations. `hostchecks.json` records unauthenticated root reachability checks for resolving names; preview builds are mapped, not recursively mirrored.
+- `codeindex.json`, `analysis.json`, `summary.json`: code/reference inventory, supported architecture conclusions and coverage metrics. `HOSTS.md` and `ROUTES.md` provide readable hostname and route-candidate tables.
 
 From the repository root:
 

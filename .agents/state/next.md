@@ -2,11 +2,11 @@
 
 ## Actions in priority order
 
-1. Finish the current read-only comp.school crawl and verify every saved response object against its manifest hash. Preserve failures, redirects and MIME mismatches rather than calling fallback HTML a working JS/image file.
-2. Finish passive DNS/certificate inventory and client-side route/API-reference analysis. Record provenance and bounded completeness; do not brute-force subdomains or probe server internals.
-3. Produce the archive, map and coverage report. User requested all pages/subdomains/code; report honestly that arbitrary private server-side source, all stateful page combinations and unpublished hosts are not obtainable by normal browsing.
-4. Verify the archive contains no credentials, cookies, auth state or personal account records. Only sanitized navigation is persisted.
-5. Update all briefings and run the existing checkpoint updater, commit and push. Next agents must keep doing this throughout active work at intervals of no more than five minutes, and preserve precise continuation instructions when done. Cancel idle wakes on completion.
+1. Current read-only delivery is complete. Read web/comp.school/README.md, HOSTS.md, ROUTES.md and summary.json for coverage, map and limitations. Do not rerun the full crawl or continue idle-only checkpoints.
+2. For unpublished backend source, obtain an owner-provided repository or deployment export. Normal website login does not supply backend source. Do not probe hidden files, backups, origins or exploit paths.
+3. If a later task needs more passive hostname history, review certificates.json and its saved cursor and provider rate budget first. Do not evade that limit. Preview builds were root-mapped, not recursively mirrored; external CDN/runtime/media and private API records are not dumped.
+4. Restore files with python3 .agents/scripts/webrestore.py /path/to/empty/destination. They are captured static responses, not a runnable replacement backend.
+5. At the start of any new active task, revalidate this state against Git and the current files, re-arm five-minute checkpoints, and keep status, handoff, next, progress, manifest and changedfiles accurate. The next agent must continue doing this through its work and leave exact verification/limitations/next actions when done. Cancel wakes when idle; never include credentials, cookies, auth state or unrelated personal records in backups.
 
 ## Do not redo
 
@@ -118,3 +118,7 @@ Current milestone: collection pass 2 is running; generated codeindex.json will n
 ## Mapping checkpoint 2026-11-13T19:20:43.438626+00:00
 
 Finish pass 3 remaining assets. Merge newly discovered production roots from observations.json and crawl their directly referenced assets in a final pass. Finish root reachability map, regenerate webreport.py outputs, validate all hashes and restored paths, scan for secrets, package downloadable archive, and save a final handoff. CT enumeration is incomplete at the actual provider rate budget; preserve its cursor and limit evidence, do not evade that limit.
+
+## Read-only delivery 2026-11-13T19:25:02.279397+00:00
+
+Final checks passed: SHA-256 for all 324 objects, JSON validity, no supplied-credential/private-key/token-pattern matches, Python compilation and git diff --check. Restore wrote 611 files; repeating restore to a nonempty destination returned exit 2 as intended. Final package includes only target snapshots and their helper scripts; server source, account records, licensed API media and auth/session state are excluded. Requested broad all-pages/all-server-code coverage is not asserted.

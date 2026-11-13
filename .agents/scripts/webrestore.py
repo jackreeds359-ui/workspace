@@ -18,6 +18,8 @@ for row in json.loads((root / 'inventory.json').read_text()):
     if not row.get('sha256'):
         continue
     url = urllib.parse.urlsplit(row['url'])
+    if any(token in row['url'] for token in ['${', '{', '}', '+n+']):
+        continue
     relative = Path(urllib.parse.unquote(url.path).lstrip('/'))
     if relative.is_absolute() or '..' in relative.parts:
         raise ValueError('Unsafe URL path in inventory')

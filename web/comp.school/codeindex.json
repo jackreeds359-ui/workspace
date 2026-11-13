@@ -1535,6 +1535,21 @@
       },
       "bytes": 2155,
       "sha256": "10c801116ce68ddcde2dd8d1dbabd1cc8148b601cc8a67ec7dd09d65e9fded65"
+    },
+    {
+      "url": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "time": "2026-11-13T19:21:23.983802+00:00",
+      "status": 200,
+      "final": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "type": "text/javascript",
+      "headers": {
+        "Server": "cloudflare",
+        "Content-Type": "text/javascript",
+        "ETag": "\"e180fdd39a00664aed64356cd4fc2ca4\"",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "bytes": 7581465,
+      "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e"
     }
   ],
   "api": [
@@ -2517,6 +2532,30 @@
       "sha256": "29428fd64840ba21110b13f4ef758d2f66095aa7ca7b27130063286886c0d22c",
       "offset": 2762,
       "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/learning-progress",
+      "methods_near_reference": [],
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e",
+      "offset": 284699,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/learning-progress",
+      "methods_near_reference": [],
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e",
+      "offset": 284910,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
+    },
+    {
+      "path": "/api/room-control",
+      "methods_near_reference": [],
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "sha256": "9bb2da1e0f71a75febddfef9e993d5afd75fa219225485be8c6b0658eb3ea30e",
+      "offset": 342751,
+      "evidence": "public client string; nearby methods are hints, not verified server contracts"
     }
   ],
   "paths": [
@@ -2680,222 +2719,6 @@
       "path": "/games/games-room",
       "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
       "offset": 348008,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/games-time-flowchart-Cj8FEXpN.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526258,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/iteration-flowchart-BgIPvSgx.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526312,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/sale-price-flowchart-rqYTXHmQ.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526365,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/username-flowchart-LiyHIxZo.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526419,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526471,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526532,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526596,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526657,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-DmUjKc5v.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526725,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-BNjiSqJl.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526765,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/answer-CMTK8mNy.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526805,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/diagram_unannotated-BqxziMvK.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526845,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/image-CD9r7wsz.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526898,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2a-answer-BLyzHeIR.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526937,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2a_unannotated-DrKHE_xQ.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1526980,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/floodlight-canvas-Cw2cA2yA.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527028,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-BNjiSqJl.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527079,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/logiccircuit-unannotated-C1fIGECr.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527119,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-BkR_ZXtE.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527177,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-stub-BG-RXrJD.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527220,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/circuit-frame-F4CXEjGK.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527268,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/the-team-array-uFjFeqbK.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527315,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-BKM6tL5v.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527363,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-DmUjKc5v.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527406,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/matching-BD8ptTcc.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527446,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/array-D9hbdIZ5.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527488,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/array-BkphWtpy.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527527,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-BBozX2nS.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527566,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-BPXNl8oO.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527609,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-jbwsqzu9.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527649,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/circuit-frame-DaRNRjij.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1527689,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-stub-C-r6UW1x.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1529248,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/a-DobarutV.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1530007,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/b-BFSigdO3.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1530042,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/c-WLvzh3fx.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1530077,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/image-CZEZTeor.png",
-      "source": "https://comp.school/recall/assets/index-OXn7GuU2.js",
-      "offset": 1530112,
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
@@ -3379,1413 +3202,9 @@
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/recall/assets/J27701_Computer_Systems_June_2022-lMGykzvv.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 178435,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/J27701_Computer_systems_June_2026-C2qIjuW8.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 178876,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/J27702_Computational_thinking_algorithms_and_programming_June_2026-BVb7KKOG.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 179372,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/J27701_Computer_Systems_June_2022-CdSYsVJj.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 179801,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/J27701_Computer_systems_June_2026-DV-ynreZ.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 180242,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/J27702_Computational_thinking_algorithms_and_programming_June_2026-a4x6QnGS.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 180738,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/arithmetic-logic-unit-alu-ChSgzIJ7.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2725650,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/fetch-decode-execute-fde-cycle-BW0cmVAP.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2740364,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/memory-address-register-mar-CYI-TvGq.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2740429,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/memory-data-register-mdr-Bm8tLZNS.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2740491,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/program-counter-pc-RtqBFDW9.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2740550,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/von-neumann-architecture-28bg1Rpd.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2743551,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/general-purpose-D303SB2H.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2773395,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/networked-with-C1zxI7AT.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2773445,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/plugged-into-C0gQRpl7.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2773494,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/cached-DC06JdJg.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2775784,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/binary-addition-DZxOIqPU.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2817849,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/binary-shift-BGZWXVaS.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2817899,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/primary-Be_3_gxH.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2834784,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/16000-DKfWj-RR.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2841756,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2000-9UPNJ6P8.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2841796,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/3000-CB0BHO3r.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2850355,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/30000-CHF-_tRU.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2850394,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/32000-D7ZGIk6E.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2850434,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/40000-DrmYiSnR.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2859298,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/70400-D3mLgiTv.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2859338,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/880-DuoyXua7.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2859378,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/8800-R9ikb6OI.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2859416,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/88000-C9gGg7hr.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2859455,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/gigabyte-gb-DbNmTeNn.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2871830,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/mbps-95kuTDFX.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2875478,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/petabyte-pb-B-xI2FvT.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2882723,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/terabyte-tb-C3FCGdg9.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2882769,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/01101010-YgQ475IB.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2882815,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/01111010-BiDKQaBg.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2882858,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/01111011-DSwMyESx.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2882901,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/11111010-CBzCi_ld.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2885015,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/image-file-size-calculation-BP1FsKOM.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2890567,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/text-file-size-calculation-BMZ9c6wj.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2894997,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/denary-CjOIPr7S.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2926119,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/hexadecimal-CPNLVEzR.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2926160,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/255-BQH0oqBq.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2938501,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/american-standard-code-for-information-interchange-ascii-i2aht3Mo.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2943291,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/character-set-eYiqgq1z.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2943382,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/numbers-Ck9QIfmp.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2948442,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/unicode-BJCN58V3.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2948484,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/bitmap-image-DDcJsWpk.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2954445,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/colour-depth-D17Mf8my.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2954492,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/many-BV7Ik4vY.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2957476,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/pixel-BQk4SCSa.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2966342,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/sample-rate-CukayzOV.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 2989558,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/lossless-compression-kKF0fQHR.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3009560,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/lossy-compression-BFy9Jhir.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3009615,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/building-M2ZbvTht.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3036067,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/city-jHFGpE-Q.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3038560,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/client-server-network-DFBYb60y.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3038599,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/computer-BVPXOjDp.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3046149,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/domain-name-system-dns-BXKs_CEX.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3053640,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/internet-CvR03i49.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3061658,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/isp-Vn07bxrX.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3061701,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/network-interface-card-nic-Do9lfCVu.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3078898,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/topologies-Ckp6z7cG.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3116207,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/web-server-and-client-B-7OJ0pA.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3117616,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/web-OkOeynFP.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3117672,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/media-access-control-mac-address-T2lmZfOC.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3186030,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/octal-_9sR5g7I.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3187835,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/rules-BU67ct_p.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3196640,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/tcp-transmission-control-protocol-D9IK8rR0.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3205955,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/ransomware-NI7H5iLT.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3234765,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/worm-BN8g5O8G.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3248542,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/encryption-Bze3fTm_.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3256120,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/firewall-Cj_qsW8d.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3256165,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/operating-system-os-DChHxRqq.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3283108,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/alphabetically-qHQTDQob.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3292752,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/application-NXMxhULm.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3292801,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/contiguously-cxO663lv.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3297320,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/defragmentation-B-F680W-.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3297367,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/encryption-utility-B4oxgXLB.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3297417,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/object-DtGR597h.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3334558,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/algorithmic-thinking-CUDtB6MB.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3368253,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/input-aI4SC9CY.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3389136,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/trace-table-BjUdZVtM.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3401466,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/binary-search-D41KrU6k.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3401512,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/comparisons-CDb_9y4x.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3404329,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/merge-sort-BpPshJtU.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3415247,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/arithmetic-operators-CoH0hrpw.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3442502,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/assignment-Ch7qE0Vm.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3442557,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/boolean-operators-BymYLUgz.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3445145,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/casting-BbzzmpDQ.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3450818,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/real-float-BgdK3eIa.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3486336,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/string-Dza7EGYf.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3496967,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/freeseats-Dz1lHrkD.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3527580,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/one-dimensional-1d-array-DRdn--OF.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3545631,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/print-BsORbwOg.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3549527,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/record--FESg7KN.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3561593,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/select-DvYsRhH-.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3563957,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/sql-select-C2KH0qzE.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3568655,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/string-concatenation-pxWnVcpf.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3570904,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/string-manipulation-CqQI49ze.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3570959,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/tickets-BoiAPFOB.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3586670,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/totalprice-Bc_IFfGU.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3586712,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/two-dimensional-2d-array-Bmkt5twL.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3586757,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/where-CBKsWtDl.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3591491,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/comments-2TqIIxP5.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3597297,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/erroneous-test-data-Wj4wHeGN.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3650779,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/hardware-Bkbe-Ed3.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3659317,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/rounding-DPMQJ3G-.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3670912,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/syntax-error-BWZYUK8A.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3672746,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/truth-table-CwzQQfTF.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3691130,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/assembler-BZ-oANyg.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3693218,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/compiler-7AUlTMFD.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3693262,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/high-level-language-BL1YVQ3S.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3698188,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/low-level-language-pV3YaR0u.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3702513,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/machine-code-DrOuUVjb.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3702566,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/translator-DAT4bBwj.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3702613,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/code-editor-DKZNYzwA.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3702658,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/error-diagnostics-A2M7x5dD.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3709833,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/integrated-development-environment-ide-BOBjygG4.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3713847,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/line-BIeXCoKi.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3713920,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/run-time-environment-GDHlYn-8.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3720845,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/version-BytpzkEm.svg",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 3720900,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/games-time-flowchart-Cj8FEXpN.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931444,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/iteration-flowchart-BgIPvSgx.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931499,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/sale-price-flowchart-rqYTXHmQ.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931553,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/username-flowchart-LiyHIxZo.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931608,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931661,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931723,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931788,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931850,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-DmUjKc5v.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931919,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-BNjiSqJl.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5931960,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/answer-CMTK8mNy.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932001,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/diagram_unannotated-BqxziMvK.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932042,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/image-CD9r7wsz.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932096,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2a-answer-BLyzHeIR.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932136,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/2a_unannotated-DrKHE_xQ.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932180,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/floodlight-canvas-Cw2cA2yA.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932229,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-BNjiSqJl.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932281,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/logiccircuit-unannotated-C1fIGECr.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932322,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-BkR_ZXtE.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932381,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-stub-BG-RXrJD.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932425,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/circuit-frame-F4CXEjGK.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932474,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/the-team-array-uFjFeqbK.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932522,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-BKM6tL5v.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932571,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-DmUjKc5v.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932615,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/matching-BD8ptTcc.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932656,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/array-D9hbdIZ5.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932699,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/array-BkphWtpy.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932739,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-BBozX2nS.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932779,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-BPXNl8oO.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932823,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/canvas-jbwsqzu9.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932864,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/circuit-frame-DaRNRjij.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932905,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/flowchart-stub-C-r6UW1x.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5932953,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/a-DobarutV.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5933002,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/b-BFSigdO3.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5933038,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/c-WLvzh3fx.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5933074,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/image-CZEZTeor.png",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 5933110,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
       "path": "/yearpapers/",
       "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
       "offset": 5937731,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-CNABf1bA.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033266,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-CjFmxeZw.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033309,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-3-Bu5-HhHg.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033352,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-BkFUlfvd.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033395,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-BfT0MrUf.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033443,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-2-j40h6UEj.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033492,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-3-XEyoZMcG.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033541,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-I0G0MKrg.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033590,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-10-XQRqs1zs.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033633,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-uTVZkvOR.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033677,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-3-BfaGhKCr.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033720,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-4-D2EUD2I8.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033763,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-5-D0Lal1S-.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033806,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-6-B64BYopk.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033849,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-7-Buedwmrr.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033892,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-8-6w3L481A.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033935,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-9-CpUrDb0e.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6033978,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-CbGj7XK1.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034021,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-2-CTQ0650M.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034069,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-Zp8gjikI.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034117,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-10-BPwf9Mvw.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034166,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-2-BaT70kRr.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034216,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-3-Cz4oLfb0.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034265,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-4-BlbAZjGy.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034314,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-5-CSv92ZzR.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034363,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-6-CTzHRqZb.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034412,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-7-BqgIKev6.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034461,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-8-CnH7WBfj.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034510,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-9-4Dza0Z6B.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034559,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-CWGz01Kp.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034608,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-BMNoaFDs.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034651,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-UoYpsteI.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034694,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-2-Bg2f3DS-.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034742,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-DEWLQdYa.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034790,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-2-U3Yy64_D.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034839,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-ClcRNoOw.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034888,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-DE9FAVIs.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034931,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-IrMUfsLQ.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6034974,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-CB3DgjdO.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035022,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-2-BjQDbZ76.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035071,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-Dri3U285.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035120,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-2iWXvLkI.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035163,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-vMoP3ecg.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035206,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-CErIrp8K.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035254,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-2-DDEErLr-.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035303,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-Ds7yf4Xl.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035352,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-C3qH913m.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035395,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-Dx7IYuQX.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035443,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-CLI5njw2.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035492,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-CKG121PC.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035535,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-3-8ocXnc2C.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035578,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-BQ5gmn_-.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035621,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-2-B0RKJUW6.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035669,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-DeQ9sWv6.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035717,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-2-D_plLlfY.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035766,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-3-ap2SRlc3.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035815,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-B7BizSLO.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035864,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-FruHbKy7.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035907,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-3-DGLAmTmD.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035950,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-4-Drb320Pj.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6035993,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-L3xM7VQM.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036036,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-2-ChowEZ7P.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036084,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-CDNqkOvC.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036132,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-3-DuCM-iog.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036181,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-BCYUsBUK.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036230,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-BetvCnut.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036273,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-DQ0z6xdi.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036316,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-2-DbTDI-be.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036364,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-fVko0XdL.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036413,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-Bxkf-uxs.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036456,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/savemyexams-1-BGsagFC_.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036499,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-BND0jLM4.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036547,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-1-DgWHDCNk.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036596,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/frayer-2-MhsOU5lP.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036639,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-1-C7BOFPpM.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036682,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/walkthroughs-2-jrVBwxXM.pdf",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6036731,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/recall/assets/pdf.worker.min-yatZIOMy.mjs",
-      "source": "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "offset": 6400362,
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
@@ -4885,222 +3304,6 @@
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/exams/assets/games-time-flowchart-Cj8FEXpN.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370200,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/iteration-flowchart-BgIPvSgx.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370253,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/sale-price-flowchart-rqYTXHmQ.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370305,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/username-flowchart-LiyHIxZo.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370358,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370409,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370469,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370532,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370592,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-DmUjKc5v.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370659,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-BNjiSqJl.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370698,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/answer-CMTK8mNy.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370737,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/diagram_unannotated-BqxziMvK.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370776,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/image-CD9r7wsz.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370828,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2a-answer-BLyzHeIR.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370866,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2a_unannotated-DrKHE_xQ.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370908,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/floodlight-canvas-Cw2cA2yA.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1370955,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-BNjiSqJl.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371005,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/logiccircuit-unannotated-C1fIGECr.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371044,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-BkR_ZXtE.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371101,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-stub-BG-RXrJD.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371143,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/circuit-frame-F4CXEjGK.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371190,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/the-team-array-uFjFeqbK.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371236,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-BKM6tL5v.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371283,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-DmUjKc5v.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371325,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/matching-BD8ptTcc.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371364,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/array-D9hbdIZ5.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371405,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/array-BkphWtpy.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371443,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-BBozX2nS.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371481,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-BPXNl8oO.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371523,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-jbwsqzu9.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371562,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/circuit-frame-DaRNRjij.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1371601,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-stub-C-r6UW1x.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1373159,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/a-DobarutV.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1373917,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/b-BFSigdO3.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1373951,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/c-WLvzh3fx.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1373985,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/image-CZEZTeor.png",
-      "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
-      "offset": 1374019,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
       "path": "/exams/",
       "source": "https://comp.school/exams/assets/index-DjyiOHey.js",
       "offset": 1538068,
@@ -5119,723 +3322,9 @@
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/exams/assets/games-time-flowchart-Cj8FEXpN.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 21702,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/iteration-flowchart-BgIPvSgx.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 21755,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/sale-price-flowchart-rqYTXHmQ.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 21807,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/username-flowchart-LiyHIxZo.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 21860,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 21911,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 21971,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22034,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22094,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-DmUjKc5v.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22161,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-BNjiSqJl.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22200,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/answer-CMTK8mNy.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22239,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/diagram_unannotated-BqxziMvK.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22278,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/image-CD9r7wsz.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22330,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2a-answer-BLyzHeIR.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22368,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2a_unannotated-DrKHE_xQ.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22410,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/floodlight-canvas-Cw2cA2yA.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22457,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-BNjiSqJl.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22507,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/logiccircuit-unannotated-C1fIGECr.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22546,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-BkR_ZXtE.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22603,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-stub-BG-RXrJD.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22645,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/circuit-frame-F4CXEjGK.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22692,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/the-team-array-uFjFeqbK.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22738,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-BKM6tL5v.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22785,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-DmUjKc5v.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22827,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/matching-BD8ptTcc.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22866,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/array-D9hbdIZ5.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22907,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/array-BkphWtpy.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22945,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-BBozX2nS.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 22983,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-BPXNl8oO.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 23025,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/canvas-jbwsqzu9.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 23064,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/circuit-frame-DaRNRjij.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 23103,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/flowchart-stub-C-r6UW1x.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 23149,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/a-DobarutV.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 23196,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/b-BFSigdO3.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 23230,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/c-WLvzh3fx.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 23264,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/image-CZEZTeor.png",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 23298,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
       "path": "/yearpapers/",
       "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
       "offset": 27772,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/J27701_Computer_Systems_June_2022-lMGykzvv.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 566303,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/J27701_Computer_systems_June_2026-C2qIjuW8.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 566732,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/J27702_Computational_thinking_algorithms_and_programming_June_2026-BVb7KKOG.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 567218,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/J27701_Computer_Systems_June_2022-CdSYsVJj.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 567639,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/J27701_Computer_systems_June_2026-DV-ynreZ.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 568068,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/J27702_Computational_thinking_algorithms_and_programming_June_2026-a4x6QnGS.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 568554,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/pdf.worker.min-yatZIOMy.mjs",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 911018,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-CNABf1bA.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3937733,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-CjFmxeZw.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3937775,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-3-Bu5-HhHg.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3937817,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-BkFUlfvd.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3937859,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-BfT0MrUf.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3937906,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-2-j40h6UEj.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3937954,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-3-XEyoZMcG.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938002,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-I0G0MKrg.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938050,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-10-XQRqs1zs.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938092,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-uTVZkvOR.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938135,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-3-BfaGhKCr.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938177,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-4-D2EUD2I8.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938219,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-5-D0Lal1S-.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938261,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-6-B64BYopk.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938303,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-7-Buedwmrr.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938345,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-8-6w3L481A.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938387,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-9-CpUrDb0e.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938429,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-CbGj7XK1.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938471,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-2-CTQ0650M.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938518,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-Zp8gjikI.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938565,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-10-BPwf9Mvw.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938613,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-2-BaT70kRr.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938662,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-3-Cz4oLfb0.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938710,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-4-BlbAZjGy.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938758,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-5-CSv92ZzR.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938806,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-6-CTzHRqZb.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938854,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-7-BqgIKev6.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938902,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-8-CnH7WBfj.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938950,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-9-4Dza0Z6B.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3938998,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-CWGz01Kp.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939046,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-BMNoaFDs.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939088,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-UoYpsteI.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939130,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-2-Bg2f3DS-.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939177,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-DEWLQdYa.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939224,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-2-U3Yy64_D.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939272,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-ClcRNoOw.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939320,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-DE9FAVIs.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939362,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-IrMUfsLQ.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939404,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-CB3DgjdO.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939451,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-2-BjQDbZ76.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939499,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-Dri3U285.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939547,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-2iWXvLkI.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939589,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-vMoP3ecg.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939631,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-CErIrp8K.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939678,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-2-DDEErLr-.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939726,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-Ds7yf4Xl.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939774,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-C3qH913m.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939816,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-Dx7IYuQX.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939863,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-CLI5njw2.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939911,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-CKG121PC.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939953,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-3-8ocXnc2C.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3939995,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-BQ5gmn_-.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940037,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-2-B0RKJUW6.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940084,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-DeQ9sWv6.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940131,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-2-D_plLlfY.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940179,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-3-ap2SRlc3.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940227,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-B7BizSLO.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940275,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-FruHbKy7.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940317,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-3-DGLAmTmD.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940359,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-4-Drb320Pj.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940401,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-L3xM7VQM.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940443,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-2-ChowEZ7P.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940490,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-CDNqkOvC.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940537,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-3-DuCM-iog.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940585,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-BCYUsBUK.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940633,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-BetvCnut.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940675,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-DQ0z6xdi.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940717,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-2-DbTDI-be.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940764,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-fVko0XdL.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940812,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-Bxkf-uxs.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940854,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/savemyexams-1-BGsagFC_.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940896,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-BND0jLM4.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940943,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-1-DgWHDCNk.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3940991,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/frayer-2-MhsOU5lP.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3941033,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-1-C7BOFPpM.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3941075,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/walkthroughs-2-jrVBwxXM.pdf",
-      "source": "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
-      "offset": 3941123,
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
@@ -5845,693 +3334,39 @@
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/exams/assets/arithmetic-logic-unit-alu-ChSgzIJ7.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 60260,
+      "path": "/exams",
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "offset": 201743,
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/exams/assets/fetch-decode-execute-fde-cycle-BW0cmVAP.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 74968,
+      "path": "/recall",
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "offset": 201816,
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/exams/assets/memory-address-register-mar-CYI-TvGq.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 75031,
+      "path": "/code",
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "offset": 201897,
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/exams/assets/memory-data-register-mdr-Bm8tLZNS.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 75091,
+      "path": "/games/careers",
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "offset": 5357165,
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/exams/assets/program-counter-pc-RtqBFDW9.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 75148,
+      "path": "/games/games-room",
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "offset": 5357317,
       "evidence": "client string; not necessarily an independently routable page"
     },
     {
-      "path": "/exams/assets/von-neumann-architecture-28bg1Rpd.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 78146,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/general-purpose-D303SB2H.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 107981,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/networked-with-C1zxI7AT.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 108029,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/plugged-into-C0gQRpl7.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 108076,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/cached-DC06JdJg.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 110363,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/binary-addition-DZxOIqPU.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 152413,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/binary-shift-BGZWXVaS.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 152461,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/primary-Be_3_gxH.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 169337,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/16000-DKfWj-RR.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 176305,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/2000-9UPNJ6P8.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 176343,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/3000-CB0BHO3r.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 184898,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/30000-CHF-_tRU.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 184935,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/32000-D7ZGIk6E.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 184973,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/40000-DrmYiSnR.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 193833,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/70400-D3mLgiTv.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 193871,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/880-DuoyXua7.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 193909,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/8800-R9ikb6OI.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 193945,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/88000-C9gGg7hr.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 193982,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/gigabyte-gb-DbNmTeNn.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 206352,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/mbps-95kuTDFX.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 209997,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/petabyte-pb-B-xI2FvT.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 217238,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/terabyte-tb-C3FCGdg9.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 217282,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/01101010-YgQ475IB.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 217326,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/01111010-BiDKQaBg.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 217367,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/01111011-DSwMyESx.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 217408,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/11111010-CBzCi_ld.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 219519,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/image-file-size-calculation-BP1FsKOM.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 225067,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/text-file-size-calculation-BMZ9c6wj.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 229494,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/denary-CjOIPr7S.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 260605,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/hexadecimal-CPNLVEzR.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 260644,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/255-BQH0oqBq.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 272980,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/american-standard-code-for-information-interchange-ascii-i2aht3Mo.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 277767,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/character-set-eYiqgq1z.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 277856,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/numbers-Ck9QIfmp.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 282912,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/unicode-BJCN58V3.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 282952,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/bitmap-image-DDcJsWpk.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 288909,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/colour-depth-D17Mf8my.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 288954,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/many-BV7Ik4vY.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 291935,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/pixel-BQk4SCSa.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 300796,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/sample-rate-CukayzOV.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 324000,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/lossless-compression-kKF0fQHR.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 343994,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/lossy-compression-BFy9Jhir.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 344047,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/building-M2ZbvTht.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 370486,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/city-jHFGpE-Q.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 372976,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/client-server-network-DFBYb60y.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 373013,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/computer-BVPXOjDp.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 380559,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/domain-name-system-dns-BXKs_CEX.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 388045,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/internet-CvR03i49.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 396059,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/isp-Vn07bxrX.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 396100,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/network-interface-card-nic-Do9lfCVu.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 413291,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/topologies-Ckp6z7cG.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 450588,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/web-server-and-client-B-7OJ0pA.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 451994,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/web-OkOeynFP.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 452048,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/media-access-control-mac-address-T2lmZfOC.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 520381,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/octal-_9sR5g7I.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 522183,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/rules-BU67ct_p.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 530984,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/tcp-transmission-control-protocol-D9IK8rR0.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 540293,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/ransomware-NI7H5iLT.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 569091,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/worm-BN8g5O8G.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 582861,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/encryption-Bze3fTm_.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 590434,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/firewall-Cj_qsW8d.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 590477,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/operating-system-os-DChHxRqq.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 617410,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/alphabetically-qHQTDQob.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 627049,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/application-NXMxhULm.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 627096,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/contiguously-cxO663lv.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 631611,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/defragmentation-B-F680W-.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 631656,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/encryption-utility-B4oxgXLB.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 631704,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/object-DtGR597h.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 668830,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/algorithmic-thinking-CUDtB6MB.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 702512,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/input-aI4SC9CY.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 723386,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/trace-table-BjUdZVtM.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 735709,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/binary-search-D41KrU6k.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 735753,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/comparisons-CDb_9y4x.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 738567,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/merge-sort-BpPshJtU.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 749479,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/arithmetic-operators-CoH0hrpw.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 776721,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/assignment-Ch7qE0Vm.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 776774,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/boolean-operators-BymYLUgz.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 779359,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/casting-BbzzmpDQ.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 785028,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/real-float-BgdK3eIa.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 820532,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/string-Dza7EGYf.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 831157,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/freeseats-Dz1lHrkD.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 861756,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/one-dimensional-1d-array-DRdn--OF.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 879800,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/print-BsORbwOg.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 883692,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/record--FESg7KN.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 895753,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/select-DvYsRhH-.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 898114,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/sql-select-C2KH0qzE.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 902809,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/string-concatenation-pxWnVcpf.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 905055,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/string-manipulation-CqQI49ze.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 905108,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/tickets-BoiAPFOB.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 920813,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/totalprice-Bc_IFfGU.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 920853,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/two-dimensional-2d-array-Bmkt5twL.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 920896,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/where-CBKsWtDl.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 925627,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/comments-2TqIIxP5.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 931429,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/erroneous-test-data-Wj4wHeGN.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 984894,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/hardware-Bkbe-Ed3.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 993428,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/rounding-DPMQJ3G-.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1005016,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/syntax-error-BWZYUK8A.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1006847,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/truth-table-CwzQQfTF.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1025221,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/assembler-BZ-oANyg.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1027306,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/compiler-7AUlTMFD.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1027348,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/high-level-language-BL1YVQ3S.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1032271,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/low-level-language-pV3YaR0u.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1036593,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/machine-code-DrOuUVjb.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1036644,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/translator-DAT4bBwj.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1036689,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/code-editor-DKZNYzwA.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1036732,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/error-diagnostics-A2M7x5dD.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1043903,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/integrated-development-environment-ide-BOBjygG4.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1047914,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/line-BIeXCoKi.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1047985,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/run-time-environment-GDHlYn-8.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1054906,
-      "evidence": "client string; not necessarily an independently routable page"
-    },
-    {
-      "path": "/exams/assets/version-BytpzkEm.svg",
-      "source": "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
-      "offset": 1054959,
+      "path": "/yearpapers/",
+      "source": "https://library.comp.school/assets/index-CTxi99Mm.js",
+      "offset": 6576019,
       "evidence": "client string; not necessarily an independently routable page"
     }
   ],
@@ -6546,14 +3381,16 @@
       "https://printouts.comp.school/assets/index-DIMUjXiM.js",
       "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
       "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js"
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
     ],
     "React Router": [
       "https://comp.school/assets/index-CHiQZc8e.js",
       "https://comp.school/recall/assets/index-OXn7GuU2.js",
       "https://comp.school/code/assets/index-DwyvelI3.js",
       "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
-      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js"
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
     ],
     "Vite": [
       "https://comp.school/assets/index-CHiQZc8e.js",
@@ -6570,7 +3407,8 @@
     "React Markdown": [
       "https://comp.school/assets/index-CHiQZc8e.js",
       "https://comp.school/recall/assets/App-Cywbl0vP.js",
-      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js"
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
     ],
     "Pyodide": [
       "https://comp.school/code/assets/index-DwyvelI3.js",
@@ -6601,6 +3439,329 @@
     "recall.comp.school",
     "self-assess.comp.school"
   ],
+  "origin_references": {
+    "https://www.itjobswatch.co.uk": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js"
+    ],
+    "https://code.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://www.bbc.co.uk": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://docs.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js"
+    ],
+    "https://exams.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://admin.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js"
+    ],
+    "https://ik.imagekit.io": [
+      "https://comp.school/assets/index-CHiQZc8e.js"
+    ],
+    "https://comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
+      "https://comp.school/exams/assets/LobbyPage-CiLiZaEi.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://recall.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://games.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js"
+    ],
+    "https://nationalcareers.service.gov.uk": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://comp.school/exams/assets/network-build-z_ixRQe6.js"
+    ],
+    "https://forms.cloud.microsoft": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://mark.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    ],
+    "https://reactrouter.com": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://reactjs.org": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://issues.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js"
+    ],
+    "https://printouts.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js"
+    ],
+    "http://www.w3.org": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/assets/BtecTaskActivity-Dt0Xd-0I.js",
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://admin.comp.school/assets/index-DZASS4VW.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js",
+      "https://mark.comp.school/assets/index-DThs38Se.js",
+      "https://printouts.comp.school/assets/index-DIMUjXiM.js",
+      "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+      "https://comp.school/assets/index-CA7mxY42.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://mark.comp.school/assets/purify.es-CYR4BTuT.js",
+      "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
+      "https://comp.school/assets/index-nz6jw_Fj.js",
+      "https://comp.school/assets/SlidesEditor-D6FV6HWV.js",
+      "https://comp.school/exams/assets/ui-components-DeMDYLzO.js",
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://www.ons.gov.uk": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js"
+    ],
+    "https://github.com": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://mark.comp.school/assets/index.es-DClevNrK.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "http://localhost:3000": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/GameNotebook-b0Qw2wzd.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://homework.comp.school": [
+      "https://comp.school/assets/index-CHiQZc8e.js",
+      "https://homework.comp.school/assets/index-BMINHhky.js"
+    ],
+    "http://localhost": [
+      "https://comp.school/recall/assets/index-OXn7GuU2.js",
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://comp.school/exams/assets/react-vendor-BK1G6oO1.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://radix-ui.com": [
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/radix-ui-Vw-YFQN8.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://cdn.jsdelivr.net": [
+      "https://comp.school/code/assets/index-DwyvelI3.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/index-DjyiOHey.js"
+    ],
+    "https://www.ocr.org.uk": [
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://printouts.comp.school/assets/App-Cih2P1hp.js",
+      "https://mark.comp.school/assets/App-BruRv-ox.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://self-assess.comp.school": [
+      "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js"
+    ],
+    "http://www.phpied.com": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    ],
+    "https://www.cs.cmu.edu": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    ],
+    "http://www.fpdf.org": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    ],
+    "https://cdnjs.cloudflare.com": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    ],
+    "http://opensource.org": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    ],
+    "http://jspdf.default.namespaceuri": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    ],
+    "http://www.myersdaily.org": [
+      "https://mark.comp.school/assets/App-BruRv-ox.js"
+    ],
+    "https://html2canvas.hertzen.com": [
+      "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
+    ],
+    "https://hertzen.com": [
+      "https://mark.comp.school/assets/html2canvas.esm-B0tyYwQk.js"
+    ],
+    "https://www.savemyexams.com": [
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "https://fonts.googleapis.com": [
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/helpers-DmEFZcxj.js",
+      "https://comp.school/exams/assets/PixelStudioGame-B8Y1iEuP.js",
+      "https://comp.school/exams/assets/BinaryBakeryGame-BXeXrTUn.js",
+      "https://comp.school/exams/assets/SecretAgentsGame-CFNZoJLR.js",
+      "https://comp.school/exams/assets/HiddenComputersGame-Bjib9LyZ.js",
+      "https://comp.school/exams/assets/SpecItGame-4kZ8fSy0.js",
+      "https://comp.school/exams/assets/LawAndOrderGame-DsjUFNJ3.js"
+    ],
+    "https://www.youtube.com": [
+      "https://comp.school/recall/assets/App-Cywbl0vP.js",
+      "https://comp.school/exams/assets/AppRoutes-Br4afREO.js",
+      "https://library.comp.school/assets/index-CTxi99Mm.js"
+    ],
+    "http://www.example.com": [
+      "https://comp.school/recall/assets/frayer-models-BTQSOsHG.js"
+    ],
+    "http://purl.org": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
+      "https://comp.school/assets/index-nz6jw_Fj.js"
+    ],
+    "https://raw.github.com": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+    ],
+    "https://stuk.github.io": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+    ],
+    "http://stuartk.com": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+    ],
+    "http://schemas.openxmlformats.org": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
+      "https://comp.school/assets/index-Cyo9THSS.js",
+      "https://comp.school/assets/index-nz6jw_Fj.js"
+    ],
+    "http://schemas.microsoft.com": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js",
+      "https://comp.school/assets/index-Cyo9THSS.js",
+      "https://comp.school/assets/index-nz6jw_Fj.js"
+    ],
+    "https://gitbrent.github.io": [
+      "https://comp.school/assets/pptxgen.es-BOm7mPIZ.js"
+    ],
+    "https://answers.microsoft.com": [
+      "https://comp.school/assets/index-nz6jw_Fj.js"
+    ],
+    "http://purl.oclc.org": [
+      "https://comp.school/assets/index-nz6jw_Fj.js"
+    ],
+    "https://bossanova.uk": [
+      "https://comp.school/assets/SheetEditor-DPKlmwzo.js"
+    ],
+    "https://prosemirror.net": [
+      "https://comp.school/assets/DocEditor-DeUhOnwy.js"
+    ]
+  },
   "source_map_references": 0,
   "limitations": "String evidence only; not server-source recovery or verified API contracts."
 }

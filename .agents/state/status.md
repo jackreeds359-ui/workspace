@@ -4,7 +4,9 @@ Current summary updated 2026-11-13T19:16:04.041731+00:00. Earlier sections below
 
 ## Stage
 
-Current task: read-only archive and map comp.school, its delivered web code, routes and publicly discoverable subdomains. As of 2026-11-13T19:16:04.041731+00:00: 342 URL response/error records, 220 unique public response objects, 35265693 deduplicated bytes. Collection is ongoing, not complete. Normal account login and navigation were used only to map menus; no credentials, cookies, account payloads or personal records are archived.
+Read-only comp.school archive and map completed within the documented public-response scope. Saved 781 URL records, 324 deduplicated objects (53,590,925 bytes), 97 distinct JS objects, 35 API-string variants and 23 route/path candidates. Passive DNS covers 441 source-evidenced names: 93 resolved and 348 NXDOMAIN; all 93 resolving roots were checked (26 HTTP 200, 4 HTTP 410, 63 HTTP 404). This is not a full server, private-data or all-preview-code dump.
+
+Verification: all object hashes and metadata JSON passed; supplied-credential/private-key/token-pattern scan had no matches; restore produced 611 static files and refused a nonempty destination. 163 asset URLs returned HTML fallback. No ordinary queue remains; 1,817 legacy diagram references and 8 computed/template references are explicitly deferred. CT pagination stopped at provider remaining-request budget 1, with cursor saved. No unpublished server source was obtained; an owner-provided source/deployment export is needed for that.
 
 ## Repository
 
@@ -142,3 +144,7 @@ As of 2026-11-13T19:16:04.041731+00:00: 342 URL response/error records, 220 uniq
 ## Mapping checkpoint 2026-11-13T19:20:43.438626+00:00
 
 597 URL records and 96 distinct JavaScript objects saved so far; 27 non-deferred queued URLs remain. DNS evidence now has 441 names. CT stop reason: successful response returned X-RateLimit-Remaining=1; stopped before the next request. Capture remains read-only and in progress. No private server source or account data has been collected. Only public bodies and sanitized navigation are persisted.
+
+## Read-only delivery 2026-11-13T19:25:02.279397+00:00
+
+Read-only comp.school archive and map completed within the documented public-response scope. Saved 781 URL records, 324 deduplicated objects (53,590,925 bytes), 97 distinct JS objects, 35 API-string variants and 23 route/path candidates. Passive DNS covers 441 source-evidenced names: 93 resolved and 348 NXDOMAIN; all 93 resolving roots were checked (26 HTTP 200, 4 HTTP 410, 63 HTTP 404). This is not a full server, private-data or all-preview-code dump. The authenticated browser session is closed. Final download packaging and checkpoint are the only closing actions; no further target requests are planned.

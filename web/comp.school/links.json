@@ -60,6 +60,11 @@
     "kind": "host"
   },
   {
+    "from": "https://analytics.comp.school/",
+    "to": "https://analytics.comp.school/",
+    "kind": "page"
+  },
+  {
     "from": "https://comp.school/",
     "to": "https://comp.school/assets/index-CFivEobA.css",
     "kind": "asset"
@@ -11150,6 +11155,16 @@
     "kind": "asset"
   },
   {
+    "from": "https://dates.comp.school/",
+    "to": "https://dates.comp.school/",
+    "kind": "page"
+  },
+  {
+    "from": "https://forms.comp.school/",
+    "to": "https://forms.comp.school/",
+    "kind": "page"
+  },
+  {
     "from": "https://homework.comp.school/",
     "to": "https://homework.comp.school/assets/index-BMINHhky.js",
     "kind": "asset"
@@ -11261,6 +11276,2996 @@
   },
   {
     "from": "https://issues.comp.school/assets/index-CZ7Z_dFd.js",
+    "to": "https://recall.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://library.comp.school/",
+    "to": "https://library.comp.school/",
+    "kind": "page"
+  },
+  {
+    "from": "https://library.comp.school/",
+    "to": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/",
+    "to": "https://library.comp.school/assets/index-DUhe1n8B.css",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/",
+    "to": "https://library.comp.school/favicon.svg?variant=library-mint",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://code.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://exams.comp.school/",
+    "kind": "host"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/${this.",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/%23circleClip",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/01101010-YgQ475IB.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/01111010-BiDKQaBg.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/01111011-DSwMyESx.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/11111010-CBzCi_ld.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/16000-DKfWj-RR.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/2.1.2_q6_odd_even_flowchart-DasZOSJN.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/2.1.2_q9_drone_check_flowchart-Ur5zHK8n.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/2.1.3_q1a_merge_sort_canvas-CWRPF6JR.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/2.2.3_q6aii_drone_flowchart_canvas-DzQs77L5.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/2000-9UPNJ6P8.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/255-BQH0oqBq.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/3000-CB0BHO3r.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/30000-CHF-_tRU.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/32000-D7ZGIk6E.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/40000-DrmYiSnR.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/70400-D3mLgiTv.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/880-DuoyXua7.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/8800-R9ikb6OI.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/88000-C9gGg7hr.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/a-DobarutV.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/algorithmic-thinking-CUDtB6MB.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/alphabetically-qHQTDQob.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/american-standard-code-for-information-interchange-ascii-i2aht3Mo.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/answer-CMTK8mNy.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/application-NXMxhULm.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/arithmetic-logic-unit-alu-ChSgzIJ7.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/arithmetic-operators-CoH0hrpw.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/array-BkphWtpy.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/array-D9hbdIZ5.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/assembler-BZ-oANyg.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/assignment-Ch7qE0Vm.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/b-BFSigdO3.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/binary-addition-DZxOIqPU.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/binary-search-D41KrU6k.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/binary-shift-BGZWXVaS.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/bitmap-image-DDcJsWpk.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/boolean-operators-BymYLUgz.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/building-M2ZbvTht.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/c-WLvzh3fx.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/cached-DC06JdJg.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/canvas-BNjiSqJl.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/canvas-BPXNl8oO.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/canvas-DmUjKc5v.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/canvas-jbwsqzu9.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/casting-BbzzmpDQ.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/character-set-eYiqgq1z.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/circuit-frame-DaRNRjij.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/circuit-frame-F4CXEjGK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/city-jHFGpE-Q.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/client-server-network-DFBYb60y.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/code-editor-DKZNYzwA.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/colour-depth-D17Mf8my.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/comments-2TqIIxP5.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/comparisons-CDb_9y4x.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/compiler-7AUlTMFD.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/computer-BVPXOjDp.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/contiguously-cxO663lv.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/defragmentation-B-F680W-.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/denary-CjOIPr7S.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/domain-name-system-dns-BXKs_CEX.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/encryption-Bze3fTm_.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/encryption-utility-B4oxgXLB.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/erroneous-test-data-Wj4wHeGN.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/error-diagnostics-A2M7x5dD.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/fetch-decode-execute-fde-cycle-BW0cmVAP.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/firewall-Cj_qsW8d.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/flowchart-BBozX2nS.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/flowchart-BKM6tL5v.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/flowchart-BkR_ZXtE.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/flowchart-stub-BG-RXrJD.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/flowchart-stub-C-r6UW1x.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/freeseats-Dz1lHrkD.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/games-time-flowchart-Cj8FEXpN.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/general-purpose-D303SB2H.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/gigabyte-gb-DbNmTeNn.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/hardware-Bkbe-Ed3.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/hexadecimal-CPNLVEzR.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/high-level-language-BL1YVQ3S.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/image-CD9r7wsz.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/image-CZEZTeor.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/image-file-size-calculation-BP1FsKOM.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/input-aI4SC9CY.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/integrated-development-environment-ide-BOBjygG4.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/internet-CvR03i49.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/isp-Vn07bxrX.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/iteration-flowchart-BgIPvSgx.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/line-BIeXCoKi.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/lossless-compression-kKF0fQHR.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/lossy-compression-BFy9Jhir.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/low-level-language-pV3YaR0u.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/machine-code-DrOuUVjb.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/many-BV7Ik4vY.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/matching-BD8ptTcc.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/mbps-95kuTDFX.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/media-access-control-mac-address-T2lmZfOC.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/memory-address-register-mar-CYI-TvGq.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/memory-data-register-mdr-Bm8tLZNS.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/merge-sort-BpPshJtU.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/network-interface-card-nic-Do9lfCVu.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/networked-with-C1zxI7AT.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/numbers-Ck9QIfmp.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/object-DtGR597h.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/octal-_9sR5g7I.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/one-dimensional-1d-array-DRdn--OF.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/operating-system-os-DChHxRqq.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/petabyte-pb-B-xI2FvT.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/pixel-BQk4SCSa.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/plugged-into-C0gQRpl7.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/primary-Be_3_gxH.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/print-BsORbwOg.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/program-counter-pc-RtqBFDW9.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/ransomware-NI7H5iLT.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/real-float-BgdK3eIa.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/record--FESg7KN.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/rounding-DPMQJ3G-.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/rules-BU67ct_p.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/run-time-environment-GDHlYn-8.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/sale-price-flowchart-rqYTXHmQ.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/sample-rate-CukayzOV.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/select-DvYsRhH-.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/sql-select-C2KH0qzE.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/string-Dza7EGYf.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/string-concatenation-pxWnVcpf.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/string-manipulation-CqQI49ze.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/accumulator-acc.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/arithmetic-logic-unit-alu.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/cache.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/control-bus.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/control-unit-cu.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/decoded.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/fetch-decode-execute-fde-cycle.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/memory-address-register-mar.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/memory-data-register-mdr.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/program-counter-pc.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/register.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.1/von-neumann-architecture.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.2/cache-size.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.2/clock-speed.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.2/cores.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.3/built-into.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.3/connected-to.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.3/dedicated.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.3/embedded-system.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.3/general-purpose.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.3/networked-with.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.3/plugged-into.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.1.3/virtual.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/cached.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/non-volatile.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/random-access-memory-ram.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/read-only-memory-rom.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/start-up.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/temporary.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/user.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/virtual-memory.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.1/volatile.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.10/16.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.10/2.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.10/3.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.10/4.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.10/8.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.10/binary-addition.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.10/binary-shift.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.10/overflow.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.2/capacity.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.2/cd.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.2/durability.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.2/flash.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.2/magnetic-storage.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.2/optical-storage.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.2/primary.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.2/solid-state-storage.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/0-3.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/16000.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/2000.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/30.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/300.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/3000.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/30000.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/32000.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/400.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/4000.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/40000.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/70400.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/880.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/8800.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/88000.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/bit.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/byte.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/ghz.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/gigabyte-gb.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/kilobyte-kb.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/mbps.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/megabyte-mb.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/nibble.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/petabyte-pb.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.3/terabyte-tb.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/01101010.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/01111010.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/01111011.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/1.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/11111010.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/5.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/binary.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/image-file-size-calculation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/sound-file-size-calculation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.4/text-file-size-calculation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/0b.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/15.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/17.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/176.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/215.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/32.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/47.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/a0.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/b0.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/denary.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/hexadecimal.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/least-significant-bit-lsb.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.5/most-significant-bit-msb.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/128.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/255.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/256.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/american-standard-code-for-information-interchange-ascii.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/character-set.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/fonts.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/languages.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/numbers.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.6/unicode.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/240.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/7.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/bitmap-image.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/colour-depth.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/many.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/metadata.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/network.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/one.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/pixel.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/resolution.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/size.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/speed.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/three.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.7/width.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/amplified.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/bit-depth.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/decrease.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/halve.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/increase.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/sample-rate.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/sample.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/sampled.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/second.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/sound-sampling.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.8/stay-the-same.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/compression.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/lossless-compression.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/lossy-compression.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/never.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/open.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/original.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/permanently.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/reversibly.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/similar.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/smaller.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/temporarily.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.2.9/transmit.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/authorises.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/bandwidth.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/building.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/cable.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/city.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/client-server-network.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/client.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/close.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/computer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/connected.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/country.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/displays.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/domain-name-system-dns.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/hosting.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/internal.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/internet.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/isp.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/local-area-network-lan.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/local.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/logs.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/mesh-topology.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/network-interface-card-nic.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/peer-to-peer-p2p-network.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/printer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/protocol.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/remote.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/router.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/server.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/star-topology.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/stores.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/switch.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/the-cloud.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/topologies.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/transmission-media.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/web-server-and-client.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/web.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/wide-area-network-wan.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.1/wireless-access-point-wap.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/addresses.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/application-layer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/bluetooth.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/compatibility.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/competition.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/copy.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/dependent.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/devices.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/division.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/email-protocols.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/file-transfer-protocol-ftp.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/http.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/hypertext-transfer-protocol-http-secure-https.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/imap-internet-message-access-protocol.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/independent.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/interference.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/internet-layer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/internet-protocol-ip-address.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/ip-internet-protocol.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/layering.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/manufacturer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/media-access-control-mac-address.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/network-interface-layer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/octal.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/overheating.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/pop-post-office-protocol.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/rules.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/sent.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/smtp-simple-mail-transfer-protocol.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/standards.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/stored.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/tcp-transmission-control-protocol.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/transport-layer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/understood.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/wired-connection-ethernet.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/wireless-connection-wi-fi.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.3.2/wireless.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/brute-force-attack.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/data-interception-and-theft.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/denial-of-service-dos-attack.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/malware.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/phishing.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/ransomware.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/social-engineering.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/spyware.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/structured-query-language-sql-injection.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/trojan.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/virus.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.1/worm.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/access-control.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/anti-malware-software.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/backups.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/encryption.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/firewall.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/locks.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/passwords.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/penetration-testing.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.4.2/physical-security.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.1/drivers.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.1/file-management.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.1/memory-management.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.1/multitasking.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.1/operating-system-os.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.1/peripheral-management.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.1/user-interface.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.1/user-management.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/alphabetically.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/application.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/booting.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/compression-utility.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/contiguously.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/defragmentation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/encryption-utility.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/housekeeping.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/maintenance.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/presentation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.5.2/word-processing.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/charge.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/computer-misuse-act-cma-1990.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/copyright-designs-and-patents-act-1988.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/cyberbullying.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/data-protection-act-dpa-2018-general-data-protection-regulation-gdpr.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/digital-divide.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/environmental-impact-of-technology.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/freedom-of-information-act.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/help.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/object.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/open-source-software.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/patents.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/pay.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/privacy.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/proprietary-software.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/software-licence.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/source.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/sustainability.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/1.6.1/trademarks.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.1/abstraction.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.1/adding.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.1/algorithmic-thinking.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.1/breaking-down.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.1/computational-thinking.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.1/decomposition.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.1/removing.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.1/sorting.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/flowchart.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/identifying-errors.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/input.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/inputs-processes-outputs.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/output.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/process.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/pseudocode.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/structure-diagram.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.2/trace-table.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/binary-search.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/bubble-sort.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/comparisons.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/discarded.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/end.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/insertion-sort.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/linear-search.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/merge-sort.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/merged.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/middle.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/passes.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/sorted.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/split.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/start.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/swapped.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/swaps.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/top.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/unique.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.1.3/validated.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/arithmetic-operators.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/assignment.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/asterisk.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/boolean-operators.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/boolean.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/caret.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/casting.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/character.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/comparison-operators.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/condition-controlled-loop-while-do-until.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/constant.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/count-controlled-loop-for.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/div.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/double-equals.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/integer.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/iteration-loops.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/minus.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/mod.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/plus.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/real-float.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/recursion.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/selection-if-else-elif.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/sequence.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/slash.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/string.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/structure.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/type.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.1/variable.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.2/fractional.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.2/negative.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.2/ten.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.2/two.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.2/whole.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/0.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/argument.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/field.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/file-handling.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/freeseats.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/function.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/global-variable.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/if.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/int.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/local-variable.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/one-dimensional-1d-array.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/parameter.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/passing-data-to-sub-programs.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/print.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/procedure.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/query.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/random-number-generation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/record.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/returning-values.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/select.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/sql-from.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/sql-select.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/sql-where.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/string-concatenation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/string-manipulation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/string-slicing.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/structured-query-language-sql.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/sub-program.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/table.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/tickets.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/totalprice.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/two-dimensional-2d-array.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/when.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.2.3/where.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/anticipating-misuse.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/authentication.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/comments.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/defensive-design.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/format.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/indentation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/input-validation.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/maintainability.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/naming-conventions.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/presence.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/range.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.1/verification.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/13.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/14.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/after.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/before.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/boundary-test-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/during.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/erroneous-test-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/expected.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/final-terminal-testing.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/hardware.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/instead-of.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/invalid-test-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/iterative-testing.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/logic-error.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/normal-test-data.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/rounding.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/run-time.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.3.2/syntax-error.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/6.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/9.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/and-gate.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/combining-logic-gates.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/gates.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/logic-diagram-logic-circuit.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/not-gate.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/or-gate.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/truth-table.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.4.1/xor.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.1/assembler.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.1/compiler.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.1/cpu.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.1/high-level-language.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.1/interpreter.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.1/low-level-language.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.1/machine-code.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.1/translator.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/code-editor.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/colour.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/debugging-tools.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/error-diagnostics.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/grammar.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/integrated-development-environment-ide.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/line.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/memory.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/page.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/run-time-environment.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/svg/2.5.2/version.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/syntax-error-BWZYUK8A.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/tcp-transmission-control-protocol-D9IK8rR0.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/terabyte-tb-C3FCGdg9.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/text-file-size-calculation-BMZ9c6wj.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/the-team-array-uFjFeqbK.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/tickets-BoiAPFOB.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/topologies-Ckp6z7cG.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/totalprice-Bc_IFfGU.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/trace-table-BjUdZVtM.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/translator-DAT4bBwj.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/truth-table-CwzQQfTF.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/two-dimensional-2d-array-Bmkt5twL.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/unicode-BJCN58V3.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/username-flowchart-LiyHIxZo.png",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/version-BytpzkEm.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/von-neumann-architecture-28bg1Rpd.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/web-OkOeynFP.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/web-server-and-client-B-7OJ0pA.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/where-CBKsWtDl.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
+    "to": "https://library.comp.school/assets/worm-BN8g5O8G.svg",
+    "kind": "asset"
+  },
+  {
+    "from": "https://library.comp.school/assets/index-CTxi99Mm.js",
     "to": "https://recall.comp.school/",
     "kind": "host"
   },
@@ -12008,5 +15013,10 @@
     "from": "https://self-assess.comp.school/assets/index-wqfvhi8V.js",
     "to": "https://self-assess.comp.school/assets/username-flowchart-LiyHIxZo.png",
     "kind": "asset"
+  },
+  {
+    "from": "https://www.comp.school/",
+    "to": "https://www.comp.school/",
+    "kind": "page"
   }
 ]

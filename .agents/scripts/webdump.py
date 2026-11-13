@@ -72,10 +72,12 @@ def add(value, source, kind='asset'):
     if kind == 'host':
         return
     if any(token in url for token in ['${', '{', '}', '<', '>']):
-        deferred[url] = 'computed/template reference, not a literal fetchable asset URL'
+        if url not in seen:
+            deferred[url] = 'computed/template reference, not a literal fetchable asset URL'
         return
     if '/assets/svg/' in parsed.path:
-        deferred[url] = 'legacy diagram reference; 145 checked URLs returned HTML fallback, remaining references not requested'
+        if url not in seen:
+            deferred[url] = 'legacy diagram reference; 145 checked URLs returned HTML fallback, remaining references not requested'
         return
     if url not in seen and not parsed.query:
         if parsed.path.endswith(('.js', '.css', '.wasm', '.map')):
@@ -121,11 +123,15 @@ def save():
 opener = urllib.request.build_opener(Redirect())
 extra = root / 'observations.json'
 if extra.exists():
-    known = {entry['url'] for entry in entries if entry.get('sha256')}
+    known = {(entry['url'], entry.get('status'), entry.get('sha256')) for entry in entries}
     for entry in json.loads(extra.read_text()):
-        if entry.get('sha256') and entry['url'] not in known:
+        if (entry['url'], entry.get('status'), entry.get('sha256')) not in known:
             entries.append(entry)
             seen.add(entry['url'])
+seeds = root / 'seeds.json'
+if seeds.exists():
+    for url in json.loads(seeds.read_text()):
+        add(url, url, 'page')
 for entry in entries:
     if entry.get('sha256'):
         discover(entry.get('final', entry['url']), (root / 'objects' / entry['sha256']).read_bytes(), entry.get('type', ''))
