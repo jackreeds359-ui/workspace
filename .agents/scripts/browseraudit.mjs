@@ -155,15 +155,20 @@ try {
         const result = await evaluate(`(() => {const nodes=[...document.querySelectorAll('main button,main a,[role=main] button,[role=dialog] button')];const element=nodes.find(e=>e.textContent.trim()===${JSON.stringify(action.label)});if(!element)return 'not-found';element.click();return 'clicked';})()`);
         active.actions.push({ label: action.label, result }); await delay(1200);
       }
-      active.observed = await evaluate(`({url:location.origin+location.pathname+location.search,title:document.title,headings:[...document.querySelectorAll('h1,h2,h3')].slice(0,20).map(e=>e.textContent.trim()),links:[...document.querySelectorAll('main a[href]')].slice(0,120).map(e=>({label:e.textContent.trim().slice(0,90),url:e.href})),buttons:[...document.querySelectorAll('main button,[role=main] button')].slice(0,80).map(e=>e.textContent.trim().slice(0,70)),accessGate:/(only[^.]{0,50}(?:teacher|staff|admin)|(?:teacher|staff|admin)[^.]{0,50}only|access denied|not have (?:permission|access)|not available for|sign in required)/i.test(document.body.innerText),login:!!document.querySelector('input[type=password]'),loading:!!document.querySelector('[data-comp-school-loading]'),workers:performance.getEntriesByType('resource').filter(e=>e.initiatorType==='worker').map(e=>e.name)})`);
+      active.observed = await evaluate(`({entryScripts:[...document.querySelectorAll('script[src]')].map(e=>({url:e.src,type:e.type||'classic'})),modulePreloads:[...document.querySelectorAll('link[rel=modulepreload]')].map(e=>e.href),url:location.origin+location.pathname+location.search,title:document.title,headings:[...document.querySelectorAll('h1,h2,h3')].slice(0,20).map(e=>e.textContent.trim()),links:[...document.querySelectorAll('main a[href]')].slice(0,120).map(e=>({label:e.textContent.trim().slice(0,90),url:e.href})),buttons:[...document.querySelectorAll('main button,[role=main] button')].slice(0,80).map(e=>e.textContent.trim().slice(0,70)),accessGate:/(only[^.]{0,50}(?:teacher|staff|admin)|(?:teacher|staff|admin)[^.]{0,50}only|access denied|not have (?:permission|access)|not available for|sign in required)/i.test(document.body.innerText),login:!!document.querySelector('input[type=password]'),loading:!!document.querySelector('[data-comp-school-loading]'),workers:performance.getEntriesByType('resource').filter(e=>e.initiatorType==='worker').map(e=>e.name)})`);
       if (/\/editor(?:\/|\?|$)/.test(job.url) || /https:\/\/(?:preview-[^.]+\.)?(?:admin|homework|mark|printouts|self-assess)\.comp\.school/.test(job.url)) {
         active.observed.headings = [];
         active.observed.buttons = [];
         active.observed.links = [];
         active.observed.redaction = 'Account/project-facing UI text omitted; only script/resource coverage retained';
       }
+      active.observed.entryScripts = active.observed.entryScripts.map(row => ({ ...row, url: safeurl(row.url) }));
+      active.observed.modulePreloads = active.observed.modulePreloads.map(safeurl);
       active.observed.url = safeurl(active.observed.url);
       active.observed.links = active.observed.links.map((link) => ({ label: link.label, url: safeurl(link.url) })).filter((link) => link.url);
+      active.workerTargets = (await send('Target.getTargets')).targetInfos.filter(row => ['worker', 'service_worker', 'shared_worker'].includes(row.type)).map(row => ({ type: row.type, url: safeurl(row.url) }));
+      active.serviceWorkerScripts = await evaluate(`navigator.serviceWorker ? navigator.serviceWorker.getRegistrations().then(rows=>rows.map(r=>r.active?.scriptURL||r.waiting?.scriptURL||r.installing?.scriptURL).filter(Boolean)) : []`).catch(() => []);
+      active.serviceWorkerScripts = active.serviceWorkerScripts.map(safeurl);
       await Promise.all([...tasks]);
     } catch (error) { active.error = error.message; }
     runs.push(active); persist();
