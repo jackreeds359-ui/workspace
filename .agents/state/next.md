@@ -32,3 +32,7 @@ Wait for the first project task. Existing owner actions remain pending; do not b
 ## Checkpoint inspection 2026-11-13T00:00:45.611057+00:00
 
 Await the first project task. Do not restart setup or invent implementation work; existing integration and default-branch decisions remain pending.
+
+## Checkpoint inspection 2026-11-13T00:05:27.053039+00:00
+
+Await the first product task; pending owner-dependent integration and branch decisions are unchanged. No unrelated work is planned.
