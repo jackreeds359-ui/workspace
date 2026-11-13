@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-13T19:16:04.893180+00:00",
+  "time": "2026-11-13T19:16:09.895590+00:00",
   "hosts": [
     "admin.comp.school",
     "code.comp.school",
@@ -26,8 +26,8 @@
     "bytes": 160000000,
     "perfile": 16000000
   },
-  "requests": 133,
-  "bytes": 35536326,
+  "requests": 139,
+  "bytes": 35544426,
   "remaining": [
     "https://comp.school/assets/${it[S.src]}",
     "https://comp.school/assets/${r[n]}",
@@ -142,7 +142,6 @@
     "https://comp.school/assets/svg/1.2.5/215.svg",
     "https://comp.school/assets/svg/1.2.5/32.svg",
     "https://comp.school/assets/svg/1.2.5/47.svg",
-    "https://comp.school/assets/svg/1.2.5/b0.svg",
     "https://comp.school/assets/svg/1.2.5/least-significant-bit-lsb.svg",
     "https://comp.school/assets/svg/1.2.5/most-significant-bit-msb.svg",
     "https://comp.school/assets/svg/1.2.6/128.svg",
@@ -150,15 +149,10 @@
     "https://comp.school/assets/svg/1.2.6/256.svg",
     "https://comp.school/assets/svg/1.2.6/american-standard-code-for-information-interchange-ascii.svg",
     "https://comp.school/assets/svg/1.2.6/character-set.svg",
-    "https://comp.school/assets/svg/1.2.6/fonts.svg",
-    "https://comp.school/assets/svg/1.2.6/languages.svg",
-    "https://comp.school/assets/svg/1.2.6/numbers.svg",
     "https://comp.school/assets/svg/1.2.7/240.svg",
     "https://comp.school/assets/svg/1.2.7/7.svg",
     "https://comp.school/assets/svg/1.2.7/bitmap-image.svg",
     "https://comp.school/assets/svg/1.2.7/colour-depth.svg",
-    "https://comp.school/assets/svg/1.2.7/data.svg",
-    "https://comp.school/assets/svg/1.2.7/many.svg",
     "https://comp.school/assets/svg/1.2.7/network.svg",
     "https://comp.school/assets/svg/1.2.7/one.svg",
     "https://comp.school/assets/svg/1.2.7/size.svg",

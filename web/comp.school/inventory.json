@@ -5447,5 +5447,101 @@
     },
     "bytes": 1350,
     "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.5/b0.svg",
+    "time": "2026-11-13T19:16:05.494286+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.5/b0.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:05 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.6/fonts.svg",
+    "time": "2026-11-13T19:16:06.340899+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.6/fonts.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:06 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.6/languages.svg",
+    "time": "2026-11-13T19:16:07.191604+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.6/languages.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:07 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.6/numbers.svg",
+    "time": "2026-11-13T19:16:07.988386+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.6/numbers.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:08 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/data.svg",
+    "time": "2026-11-13T19:16:08.757908+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/data.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:08 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
+  },
+  {
+    "url": "https://comp.school/assets/svg/1.2.7/many.svg",
+    "time": "2026-11-13T19:16:09.595448+00:00",
+    "status": 200,
+    "final": "https://comp.school/assets/svg/1.2.7/many.svg",
+    "type": "text/html; charset=utf-8",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "text/html; charset=utf-8",
+      "Last-Modified": "Fri, 13 Nov 2026 19:16:09 GMT",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 1350,
+    "sha256": "42d168992fde30fdfde69e40bf6ad2edd68a38a30e3f25989a65d350884d2cd1"
   }
 ]
