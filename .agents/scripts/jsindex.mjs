@@ -194,10 +194,11 @@ function fingerprint(node) {
       hash.update(']');
     } else if (typeof value === 'object') {
       const keys = Object.keys(value).filter(key => !ignored.has(key)).sort();
+      const objectkey = value.type === 'ObjectProperty' && value.computed === false ? propertykey(value.key) : null;
       hash.update(`object:${keys.length}{`);
       for (const key of keys) {
         encode(key);
-        encode(value[key]);
+        encode(key === 'key' && objectkey !== null ? `property:${objectkey}` : value[key]);
       }
       hash.update('}');
     } else if (typeof value === 'string') {
@@ -233,6 +234,15 @@ function normalizedurl(value, base) {
   } catch {
     return null;
   }
+}
+
+function propertykey(node) {
+  if (node?.type === 'Identifier') return node.name;
+  if (['StringLiteral', 'Literal'].includes(node?.type) && typeof node.value === 'string') return node.value;
+  if (node?.type === 'NumericLiteral' && typeof node.value === 'number') return String(node.value);
+  if (node?.type === 'BigIntLiteral') return String(node.value).replace(/n$/i, '');
+  if (node?.type === 'TemplateLiteral' && node.expressions.length === 0 && node.quasis.length === 1) return node.quasis[0].value.cooked ?? node.quasis[0].value.raw;
+  return null;
 }
 
 function classify(event, target) {
@@ -276,7 +286,8 @@ navigator.serviceWorker.register('./service.js');
 importScripts('./legacy.js');
 const __vite__mapDeps = (i, m = __vite__mapDeps, d = (m.f || (m.f = ['/assets/preload.js']))) => i.map(i => d[i]);
 __vite__preload(() => import('./async.js'), ['/assets/direct.js']);
-new URL('./icons/test.svg', import.meta.url);`;
+new URL('./icons/test.svg', import.meta.url);
+const properties = { "0": 'zero', "named-key": 'named' };`;
   const found = extract(fixture);
   const kinds = new Set(found.map(item => item.kind));
   for (const kind of ['static', 'dynamic', 'worker', 'importScripts', 'preload', 'asset']) if (!kinds.has(kind)) throw new Error(`selftest missed ${kind}`);
