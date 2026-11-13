@@ -6,8 +6,9 @@ Portable repository copy of the owner's standing rules. Hoplite project and pers
 
 1. Read `.agents/state/status.md`, `handoff.md`, `next.md` and `progress.md` before any edit.
 2. Inspect branch, `git status`, recent commits, `handoff.zip` and `.agents/skills/`.
-3. Assume you are a continuation agent. Preserve previous work. Never reset, force-push, re-initialise or replace the repository.
-4. Start or resume the five-minute checkpoint mechanism, then report readiness.
+3. At startup on Linux x86-64, run `bash setup.sh` before reverse-engineering work. It restores the four approved pinned tools. Run `bash tools.sh verify` after a fresh install or restore. See `SETUP.md` for prerequisites, commands and limitations; never silently install extra dependencies.
+4. Assume you are a continuation agent. Preserve previous work. Never reset, force-push, re-initialise or replace the repository.
+5. Start or resume the five-minute checkpoint mechanism, then report readiness.
 
 ## Checkpoints
 

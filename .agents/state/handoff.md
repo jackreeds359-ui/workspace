@@ -161,3 +161,11 @@ Idle lifecycle: the recurring wake rem_2da06cc68afc41898f8779de4ad29e20 was canc
 ## Toolkit readiness 2026-11-13T07:12:18.515507+00:00
 
 Toolkit readiness evidence and proposed pinned installations are documented in tools.md. There is no setup override or repository setup hook. Do not install or persist an installer until the exact tool/source/version approval is received. Preserve the existing updater; independent native static-analysis checks passed.
+
+## Approved toolkit setup 2026-11-13T07:17:43.444610+00:00
+
+At agent startup on Linux x86-64, run bash setup.sh; after fresh installation or restore run bash tools.sh verify. Managed Hoplite setup automatically invokes .hoplite/setup.sh, delegating to setup.sh. SETUP.md documents prerequisites, supported systems, versions and commands. Installer implementation and hash-pinned Python requirements live under .agents/scripts/. Binary tools and virtualenv are ignored, not archived. No extra tool installations are authorized by these instructions.
+
+## Toolkit completion 2026-11-13T07:18:00.601575+00:00
+
+Fresh-directory restore was exercised using only the setup sources: downloaded and verified both archives, installed pinned Python wheels, reran setup without reinstalling, then passed full toolkit verification. The installer uses the invoking Python interpreter and rejects unsupported Python/glibc/platform combinations. Binary caches remain excluded from handoff.zip.

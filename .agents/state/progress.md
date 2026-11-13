@@ -96,3 +96,11 @@ Inspected a clean working tree at 5eddd1c. No product work has arrived. Cancelle
 ## Toolkit readiness 2026-11-13T07:12:18.515507+00:00
 
 Resumed for reverse-engineering toolkit setup. Inspected the clean repository at 36488ae and effective project setup (none). Verified existing GCC 13.3.0/binutils 2.42 with native C++20 compilation, execution, ELF headers, symbols, strings and Intel disassembly. Verified existing handoff.zip. Consulted official Ghidra 12.2, Temurin 25, pefile and Capstone metadata. Asked one focused approval question for exact third-party installs; no installer executed. Saving the readiness report and pending dependency.
+
+## Approved toolkit setup 2026-11-13T07:17:43.444610+00:00
+
+Owner approved all four pinned tools and requested a fresh-computer Bash setup plus startup handoff. Installed and checksum-verified Java/Ghidra and hash-pinned Python wheels. Verified PE/disassembly behavior and real headless decompilation of a compiled native fixture. Added root setup.sh, tools.sh, managed setup hook, SETUP.md and startup instructions. Managed setup and repeated local setup passed; a clean-directory installation test is running.
+
+## Toolkit completion 2026-11-13T07:18:00.601575+00:00
+
+Clean-directory install, repeated setup and complete verification finished with exit code zero. Confirmed temporary fixture native execution, PE validation/disassembly and Ghidra decompilation in that independent installation. Removed temporary installation; completing final reproducible setup checkpoint.

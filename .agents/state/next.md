@@ -92,3 +92,11 @@ Await the first project task. When active repository work resumes, re-arm the fi
 ## Toolkit readiness 2026-11-13T07:12:18.515507+00:00
 
 Next essential dependency is the pending toolkit installation approval. If all four tools are approved, install project-locally, verify checksums and headless/PE/disassembly behavior, then persist and rerun the approved setup. If only Python tools are approved, do not install Java or Ghidra. No game, build or feature is selected. Cancel active-work checkpoint wakes while awaiting approval.
+
+## Approved toolkit setup 2026-11-13T07:17:43.444610+00:00
+
+Complete clean-directory setup/verification, then final checkpoint. For subsequent agents: read SETUP.md and run bash setup.sh immediately as part of Linux x86-64 startup; run bash tools.sh verify after a fresh install or restore. No game binary or target feature exists yet; do not infer compatibility from toolkit verification. Cancel active wake on completion.
+
+## Toolkit completion 2026-11-13T07:18:00.601575+00:00
+
+Installation and verification are complete. Next task requires a specific target binary/build and requested behavior. Future agents run bash setup.sh at Linux x86-64 startup, then bash tools.sh verify on fresh installs/restores. No repeated idle checkpoint commits are needed.

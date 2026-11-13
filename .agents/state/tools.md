@@ -31,23 +31,33 @@ The temporary fixture was created locally only for tool verification and deleted
 
 `apt-cache policy gdb binutils-mingw-w64-x86-64` reported `Installed: (none)` and `Candidate: (none)`. This describes the current local package indexes, not an upstream availability failure. No package-manager update or install was attempted.
 
-## Proposed installations: NOT installed, approval pending
+## Approved installations: installed and verified
 
-Downloaded tools execute code with workspace access. The hosted environment-repair instructions require explicit approval of tool, source and exact version before installation. No installer or auto-setup hook has been written or executed.
+The owner approved all four exact tools, sources and versions on 2026-11-13. Both downloaded archives matched the recorded SHA-256 checksums before extraction; Python wheels were installed with required hashes. Root setup.sh and .hoplite/setup.sh now provide reproducible installation.
 
 - Ghidra 12.2, official NSA GitHub release `Ghidra_12.2_build`, published 2026-10-22. Archive: `ghidra_12.2_PUBLIC_20261016.zip`. Published SHA-256: `2c2cd776db3c1f6a097ba418922378ac3649cadd5e844a6f5f088ae628a7be67`.
 - Eclipse Temurin JDK 25.0.5+8, official Adoptium GitHub release `jdk-25.0.5+8`. Archive: `OpenJDK25U-jdk_x64_linux_hotspot_25.0.5_8.tar.gz`. API-reported SHA-256: `68982529869257d0ee6b824ec5aa270ff8b118bb438670da0b97ebdab178d7fb`. Ghidra 12.2's tagged README requires a 64-bit JDK 25; earlier Java requirements must not be reused.
 - pefile 2024.8.26 from PyPI for Windows PE metadata and RVA/file-offset inspection.
 - Capstone 5.0.9 from PyPI for programmable disassembly.
 
-Proposed deployment: project-local tools and a project-local Python environment, excluded from Git and the handoff archive; persist only approved version pins, checksums and an idempotent setup path. Do not download or execute these tools before the approval response. Recheck exact package artifacts and integrity before installing them.
+Deployment: project-local .tools/ and .venv/, excluded from Git and the handoff archive. Approved version pins, hashes, setup scripts and verification scripts are committed. Run bash setup.sh at startup, then bash tools.sh verify after a fresh install or restore. SETUP.md documents prerequisites and limitations.
 
-## Verification to run after approval
+## Verification observed after approval
 
-- Confirm Java and Ghidra versions and exercise headless analysis and decompilation on a known local fixture. Do not imply the GUI or Windows debugger was tested.
-- Verify Python package versions, parse a real PE fixture, disassemble known x86-64 bytes, and check malformed-file rejection.
-- Run the approved durable setup twice to establish idempotency.
-- Update this report with actual results, then run the existing checkpoint updater and cancel active-work wakes when idle.
+- JDK runtime reports Temurin 25.0.5+8-LTS; Ghidra runtime reports 12.2.
+- pefile 2024.8.26 and Capstone 5.0.9 versions confirmed.
+- PE32+ AMD64 parsing, readable entry point and RVA/file-offset round trip passed using Ghidra's shipped Windows decompiler executable (not executed). SHA-256: `fddb1ad04e88917b7282e887054d30016bc3659894ec5006258c65eca09c6799`.
+- Malformed PE input was rejected with PEFormatError.
+- Known x86-64 bytes decoded to mov/add/ret with expected operands.
+- A new C++20 fixture compiled and ran; Ghidra headless analysis and decompilation recovered `return value * 3 + 7;` from its transform function.
+- Repeated setup reused both installations and audited the existing two Python packages.
+- Managed sandbox setup executed .hoplite/setup.sh and completed with exit code zero.
+- Bash syntax and Python compilation checks passed; tools.sh was exercised from outside the checkout.
+- Clean-directory installation from copied setup sources, a second setup run, and full verification all passed with exit code zero. The temporary installation was removed afterwards.
+
+## Limits
+
+No target game or build was provided. Windows runtime execution, Ghidra GUI, Windows debugging, drivers, overlays and anti-cheat behavior remain untested. A fresh Linux machine needs the prerequisites in SETUP.md; setup does not silently install additional system dependencies.
 
 ## Sources consulted on 2026-11-13
 

@@ -1,11 +1,14 @@
 {
-  "time": "2026-11-13T07:12:18.574869+00:00",
+  "time": "2026-11-13T07:18:00.990558+00:00",
   "branch": "hoplite/kyrene-3f44dbf5",
-  "parent": "36488aebcc2683c321ab8123c95e643501604f11",
-  "digest": "59cb3ac54508dc8ca7a07ac686984b2587d8aa8a6f918c7940f0f58e87cafb17",
-  "count": 176,
+  "parent": "d0ea8b8192d782977bf2b819199878c180bb0f5f",
+  "digest": "f4d33dfc424be16c982bd057f175ac0fa85c49dc489fd4dfbc907618e478da1f",
+  "count": 183,
   "files": [
     ".agents/scripts/autoupdate.py",
+    ".agents/scripts/requirements.txt",
+    ".agents/scripts/toolcheck.py",
+    ".agents/scripts/toolsetup.py",
     ".agents/skills/designloop/.claude-plugin/marketplace.json",
     ".agents/skills/designloop/.claude-plugin/plugin.json",
     ".agents/skills/designloop/.claude/ralph-loop.local.md",
@@ -179,7 +182,11 @@
     ".agents/state/status.md",
     ".agents/state/tools.md",
     ".gitignore",
+    ".hoplite/setup.sh",
     "AGENTS.md",
-    "skills-lock.json"
+    "SETUP.md",
+    "setup.sh",
+    "skills-lock.json",
+    "tools.sh"
   ]
 }

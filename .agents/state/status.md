@@ -116,3 +116,11 @@ Setup remains complete; no product task or implementation changes. Working tree 
 ## Toolkit readiness 2026-11-13T07:12:18.515507+00:00
 
 Current task: prepare and verify a reverse-engineering toolkit. Verified the existing Ubuntu x86-64 GCC/binutils baseline by compiling, running and inspecting a C++20 fixture. No new tools installed. Exact Ghidra/JDK/pefile/Capstone versions and sources are awaiting explicit installation approval; see tools.md. No game or binary target was provided. Previous no-task statements are historical.
+
+## Approved toolkit setup 2026-11-13T07:17:43.444610+00:00
+
+All four approved tools installed locally: Ghidra 12.2, Temurin JDK 25.0.5+8, pefile 2024.8.26, Capstone 5.0.9. Archive and wheel integrity checks passed. Native fixture execution, PE parsing/RVA conversion/malformed rejection, disassembly and Ghidra headless decompilation passed. Root setup.sh, managed startup hook and SETUP.md now restore the approved toolkit. Clean-directory verification is in progress. Earlier approval-pending statements are historical.
+
+## Toolkit completion 2026-11-13T07:18:00.601575+00:00
+
+Toolkit setup complete. Clean-directory installation, second-run idempotency and full headless/PE/disassembly verification all passed with exit code zero. All installer sources, startup instructions and version/hash pins are ready for checkpoint. No Windows/game integration was tested.
