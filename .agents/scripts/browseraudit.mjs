@@ -92,8 +92,8 @@ listeners.push((message) => {
     const code = params.type === 'Script' || params.type === 'Stylesheet' || /\.(?:m?js|css|wasm)$/.test(url.pathname) || /javascript|application\/wasm/.test(response.mimeType);
     if (code && !url.pathname.startsWith('/api/')) {
       active.resources.push(resource);
-      if (scoped(response.url) && response.status === 200 && clean === response.url && /javascript|css|wasm/.test(response.mimeType)) responses.set(params.requestId, resource);
-      else if (!scoped(response.url)) resource.capture_error = 'External origin recorded, not mirrored';
+      if (response.status === 200 && clean === response.url && /javascript|css|wasm/.test(response.mimeType)) responses.set(params.requestId, resource);
+      else if (!scoped(response.url)) resource.capture_error = 'External code response not eligible for capture';
       else if (clean !== response.url) resource.capture_error = 'URL contains excluded query parameters; not archived';
     }
   }
