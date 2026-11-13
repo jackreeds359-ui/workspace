@@ -9527,5 +9527,101 @@
     },
     "bytes": 14781,
     "sha256": "3a332def8d45a70f3bcb57e1a8cb439d61c51b55e522627c642a3ca282bcadd0"
+  },
+  {
+    "url": "https://mark.comp.school/assets/answer-CMTK8mNy.png",
+    "time": "2026-11-13T19:20:45.319234+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/answer-CMTK8mNy.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"6153336dfcbc4710cd804d9471023825\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 32831,
+    "sha256": "bb24e903ecb574f5faca8dfdae51264c3e8ffbf0a10f23195956ed8a15bade25"
+  },
+  {
+    "url": "https://mark.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "time": "2026-11-13T19:20:46.277292+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/diagram_unannotated-BqxziMvK.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"dbc9e1eb99c256f153db81f37c3dcbab\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 45704,
+    "sha256": "c6428099ec9b0c7db7c6455b46884009b6e41d91ff69e28ec789423610639756"
+  },
+  {
+    "url": "https://mark.comp.school/assets/image-CD9r7wsz.png",
+    "time": "2026-11-13T19:20:47.297294+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/image-CD9r7wsz.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"21f92f0eb40db02fa9c16c6e8b0f99a7\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 119227,
+    "sha256": "8a23a2ed2712439135b9f28889ead790ca22a65b41267923a82b3a5f074cbd1d"
+  },
+  {
+    "url": "https://mark.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "time": "2026-11-13T19:20:48.263541+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/2a-answer-BLyzHeIR.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"5b630eccbe652f3143770b9e22fe802a\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 793692,
+    "sha256": "ff327ccf7a7b9896fd1fc7e1a9cd841617d8c6b95a6d568a8f6519e9af194792"
+  },
+  {
+    "url": "https://mark.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "time": "2026-11-13T19:20:49.462735+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"e6612b7e3711c151acd31ff1a1cfc727\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 8480,
+    "sha256": "84393042c28df79ee29a032d22d0c73de2ad60e8000c86a4c779036fab4e96dd"
+  },
+  {
+    "url": "https://mark.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "time": "2026-11-13T19:20:50.501973+00:00",
+    "status": 200,
+    "final": "https://mark.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
+    "type": "image/png",
+    "headers": {
+      "Server": "cloudflare",
+      "Content-Type": "image/png",
+      "ETag": "\"da8c9bcd522c63d8794516b363236094\"",
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "X-Content-Type-Options": "nosniff"
+    },
+    "bytes": 6828,
+    "sha256": "97821ba31592c72d13cf37c0d4078d8781aecd1c61ae9deb52fef636280899f0"
   }
 ]

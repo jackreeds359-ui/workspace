@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-13T19:20:44.717375+00:00",
+  "time": "2026-11-13T19:20:50.857828+00:00",
   "hosts": [
     "admin.comp.school",
     "code.comp.school",
@@ -26,8 +26,8 @@
     "bytes": 160000000,
     "perfile": 16000000
   },
-  "requests": 187,
-  "bytes": 51323028,
+  "requests": 193,
+  "bytes": 52329790,
   "deferred": {
     "https://comp.school/assets/svg/1.1.1/cache.svg": "legacy diagram reference; 145 checked URLs returned HTML fallback, remaining references not requested",
     "https://comp.school/assets/svg/1.1.1/register.svg": "legacy diagram reference; 145 checked URLs returned HTML fallback, remaining references not requested",
@@ -1563,10 +1563,7 @@
   },
   "remaining": [
     "https://mark.comp.school/assets/+n+",
-    "https://mark.comp.school/assets/2a-answer-BLyzHeIR.png",
-    "https://mark.comp.school/assets/2a_unannotated-DrKHE_xQ.png",
     "https://mark.comp.school/assets/a-DobarutV.png",
-    "https://mark.comp.school/assets/answer-CMTK8mNy.png",
     "https://mark.comp.school/assets/array-BkphWtpy.png",
     "https://mark.comp.school/assets/array-D9hbdIZ5.png",
     "https://mark.comp.school/assets/b-BFSigdO3.png",
@@ -1575,14 +1572,11 @@
     "https://mark.comp.school/assets/canvas-jbwsqzu9.png",
     "https://mark.comp.school/assets/circuit-frame-DaRNRjij.png",
     "https://mark.comp.school/assets/circuit-frame-F4CXEjGK.png",
-    "https://mark.comp.school/assets/diagram_unannotated-BqxziMvK.png",
-    "https://mark.comp.school/assets/floodlight-canvas-Cw2cA2yA.png",
     "https://mark.comp.school/assets/flowchart-BBozX2nS.png",
     "https://mark.comp.school/assets/flowchart-BKM6tL5v.png",
     "https://mark.comp.school/assets/flowchart-BkR_ZXtE.png",
     "https://mark.comp.school/assets/flowchart-stub-BG-RXrJD.png",
     "https://mark.comp.school/assets/flowchart-stub-C-r6UW1x.png",
-    "https://mark.comp.school/assets/image-CD9r7wsz.png",
     "https://mark.comp.school/assets/image-CZEZTeor.png",
     "https://mark.comp.school/assets/logiccircuit-unannotated-C1fIGECr.png",
     "https://mark.comp.school/assets/matching-BD8ptTcc.png",
